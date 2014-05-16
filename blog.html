@@ -1,0 +1,11 @@
+---
+layout: page
+title: Blog
+tagline: Blog
+---
+{% for post in site.posts limit:10 %}
+{% include post.html %}
+{% endfor %}
+<div class='older-link'>
+  <h4><a href="/archive.html">Older Posts &raquo;</a></h4>
+</div>

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+<h3><span class="icon {{ page.tags }}"></span> {{ page.title }}</h3>
+  {{ content }}
+
+    {% if page.previous %}
+    <div class='prev'><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}"><span class='icon-arrow-left'></span></a></div>
+    {% else %}
+    <div class='prev disabled'><a><span class='icon-arrow-left'></span></a></div>
+    {% endif %}
+
+    <!-- <a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a> -->
+
+    {% if page.next %}
+      <div class='next'><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}"><span class='icon-arrow-right'></span></a></div>
+    {% else %}
+      <div class='next disabled'><a><span class='icon-arrow-right'></span></a></div>
+    {% endif %}
+</div>
+</article>

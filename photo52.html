@@ -1,0 +1,14 @@
+---
+layout: page
+title : Photo 52
+header : Photo 52
+---
+
+<div class='post'>
+  <p>My new project for 2014 will be a Photo52 challenge in which I will be taking at least one photo per week with the goal of it being on par with my portfolio work. While the <a href="/photo365.html">Photo365 Challenge I did in 2013</a> was mainly to get in the habit of carrying the camera every day and just going through the motions of capturing something daily, the Photo52 project will be more deliberate - I hope to go on more dedicated photo walks, take more time planning, composing, capturing and editing. At the end of the year I hope to have a fair amount of work I could easily include in my primary portfolio. I will also give brief notes about each weeks photos. Here we go again!</p>
+</div>
+
+{% for post in site.tags.Photo52 %}
+  {% include post.html %}
+{% endfor %}
+
