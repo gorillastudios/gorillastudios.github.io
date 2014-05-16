@@ -23,7 +23,7 @@ header .row { padding: 10px 0px 5px 0px; }
 }
 .marquee {
   background: url('/images/marquee/inky-lake.jpg') no-repeat center center;
-  border-bottom: 1px solid #50a045;
+  border-bottom: 2px solid #50a045;
   height: 600px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
