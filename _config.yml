@@ -10,9 +10,9 @@ tagline: Photography &amp; Design
 author : "Chris Peak"
 name : "Chris"
 email : chris@gorilla-studios.com.com
-github : cpeak
+github : gorillastudios.github.io
 twitter : gorilla_studios
-feedburner :
+pygments: true
 markdown: kramdown
 
 production_url : http://www.gorilla-studios.com
