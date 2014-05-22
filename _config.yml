@@ -12,7 +12,7 @@ name : "Chris"
 email : chris@gorilla-studios.com.com
 github : gorillastudios.github.io
 twitter : gorilla_studios
-pygments: true
+highlighter: true
 markdown: kramdown
 
 production_url : http://www.gorilla-studios.com

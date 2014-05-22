@@ -17,7 +17,16 @@ body {
   color: black !important;
 }
 
-
+.anchor {
+  top: 2%;
+  left: 16%;
+  position: absolute;
+  width: 150px;
+  z-index: 999;
+}
+.anchor img {
+  max-width: 100%;
+}
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -35,7 +44,13 @@ p, a {
   font-size: .8em;
   letter-spacing: 2px;
   text-transform: uppercase;
+  transition: all 0.25s ease-in;
 }
+
+a:hover {
+  color: #d5d5d5;
+}
+
 /*
  * A better looking default horizontal rule
  */
@@ -144,7 +159,7 @@ main { overflow-x: hidden; }
 	position: absolute;
   top: 10%;
   padding: 20px;
-  max-width: 25%;
+  max-width: 30%;
   a {
     color: #fff;
     border-bottom: 1px solid #fff;
