@@ -2,6 +2,7 @@
 http://www.gorilla-studios.com/404.html
 http://www.gorilla-studios.com/archive.html
 http://www.gorilla-studios.com/atom.xml
+http://www.gorilla-studios.com/black-and-white.html
 http://www.gorilla-studios.com/blog.html
 http://www.gorilla-studios.com/assets/css/blog.css
 http://www.gorilla-studios.com/categories.html
