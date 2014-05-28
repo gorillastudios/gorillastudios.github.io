@@ -1,0 +1,103 @@
+---
+---
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fullscreen,
+.fullscreen body {
+  height: 100%;
+}
+
+body {
+  background: url('/images/inky-lake-blur.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Proxima Nova', "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 300;
+  webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "jaf-bernino-sans-condensed", sans-serif;
+}
+
+h1 { font-size: 2.369em; }
+h2 { font-size: 1.777em; }
+h3 { font-size: 1.333em; }
+h4, h5, h6 { font-size: 1em; }
+
+p {
+  font-family: "Proxima Nova", "proxima-nova", serif;
+  line-height: 1.5em;
+}
+a, a:visited {
+  color: black;
+  transition: all 0.25s ease-in;
+  text-decoration: none;
+}
+a:hover {
+  color: #555;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figure.vertical img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+}
+figure.vertical figcaption {
+  margin: 0 auto;
+  width: 60%;
+}
+
+
+
+.full-page-content {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+.page-content {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1200px;
+}
+
+.module {
+  //background: rgba(255,255,255,0.85);
+  background: white;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px;
+}
+
+
+.column {
+  float: left;
+}
+
+.full { width: 100%; }
+.two-thirds { width: 66.666%; }
+.half { width: 50%; }
+.third { width: 33.333%; }
+.quarter { width: 25%; }
+
+
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 90%;
+  }
+}

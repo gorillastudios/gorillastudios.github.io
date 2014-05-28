@@ -1,18 +1,10 @@
-# This is the default format.
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title
+# Site settings
+title: Gorilla-Studios Photography
+email: chris@gorilla-studios.com
+description: "Gorilla-Studios Photography"
+baseurl: ""
+url: "http://www.gorilla-studios.com"
 
-exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile"]
-exclude: [_deploy.sh]
-
-title : Gorilla-Studios
-tagline: Photography &amp; Design
-author : "Chris Peak"
-name : "Chris"
-email : chris@gorilla-studios.com.com
-github : gorillastudios.github.io
-twitter : gorilla_studios
-highlighter: true
+# Build settings
 markdown: kramdown
-
-production_url : http://www.gorilla-studios.com
+permalink: pretty
