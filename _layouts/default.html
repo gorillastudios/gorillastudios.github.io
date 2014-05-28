@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
+<html lang="en">
+  <head>
+    {% include common-header.html %}
+  </head>
+
   <body>
-    {% include header.html %}
-    <div class="page-content">
-      {{ content }}
+    <header class='normal'>
+    <div class="header_content animated fadeIn">
+      <section id='navigation'>
+        {% include navigation.html %}
+      </section>
+      <section id='branding'>
+        <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
+      </section>
     </div>
-  </body>
+  </header>
+
+  <div class='wrap'>
+    {{ content }}
+  </div>
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+  <script>
+    var nav = responsiveNav(".nav-collapse");
+  </script>
+</body>
 </html>

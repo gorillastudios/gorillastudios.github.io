@@ -1,7 +1,83 @@
 ---
-layout: fullscreen
+layout: promo_page
+title : Gorilla-Studios
+header : Home
 ---
-<a href="/blog" id='blog' class='tile'><section><h3>Blog</h3></section></a>
-<a href="/portfolio" id='portfolio' class='tile'><section><h3>Portfolio</h3></section></a>
-<a href="/photo52" id='p52' class='tile'><section><h3>Photo52</h3></section></a>
-<a href="/contact" id='contact' class='tile'><section><h3>Contact</h3></section></a>
+<script src="/assets/js/klass.min.js"></script>
+<script src="/assets/js/code.photoswipe-3.0.5.min.js"></script>
+<script src="/assets/js/instafeed.min.js"></script>
+
+<div class='index-posts'>
+  {% for post in site.posts limit: 3 %}
+    {% include post.html %}
+  {% endfor %}
+</div>
+<div class='older-link'>
+  <span><h4><a href="/blog.html">Older Posts &gt;&gt;</a></h4></span>
+</div>
+
+<div class='module index-panels'>
+  <a href="/portfolio.html">
+    <section class='module-panel-link half' id='index-portfolios'>
+      <h2>Portfolio</h2>
+    </section>
+  </a>
+  <a href="/music.html">
+    <section class='module-panel-link quarter light' id='index-music'>
+      <h2>Music</h2>
+    </section>
+  </a>
+  <a href='/new-england.html'>
+    <section class='module-panel-link quarter light' id='index-new-england'>
+      <h2>New England</h2>
+    </section>
+  </a>
+</div>
+
+<div class='module'>
+  <a href="/nature.html">
+    <section class='module-panel-link quarter' id='index-nature'>
+      <h2>Nature</h2>
+    </section>
+  </a>
+  <a href="http://www.borrowlenses.com?blpid=gorilla-studios&amp;a_bid=dd261a77">
+    <section class='module-panel-link quarter light' id='index-borrow'>
+      <h2>Borrowlenses.com</h2>
+    </section>
+  </a>
+  <a href="/photo365.html">
+    <section class='module-panel-link half light' id='index-365'>
+      <h2>Photo365</h2>
+    </section>
+  </a>
+</div>
+
+<div class='module'>
+  <section class='module-panel-link half light' id='index-instagram'>
+    <h2>Instagram</h2>
+    <div id='instafeed'>
+      <script type="text/html" id="template">
+        <img src="{{ image }}">
+      </script>
+    </div>
+  </section>
+  <a href="/chicago.html">
+    <section class='module-panel-link half light' id='index-chicago'>
+      <h2>Chicago</h2>
+    </section>
+  </a>
+</div>
+
+
+<script type="text/javascript">
+  var feed = new Instafeed({
+    success: function (data) { console.log(data) },
+    get: 'user',
+    sortBy: 'random',
+    userId: 372454912,
+    accessToken: '372454912.467ede5.0db56b4615784b129f95818c69388cf7',
+    limit: '1',
+    resolution: 'standard_resolution'
+   });
+  feed.run();
+</script>

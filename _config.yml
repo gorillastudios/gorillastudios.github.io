@@ -1,10 +1,18 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+# This is the default format.
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:year/:month/:day/:title
 
-# Build settings
+exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile"]
+exclude: [_deploy.sh]
+
+title : Gorilla-Studios
+tagline: Photography &amp; Design
+author : "Chris Peak"
+name : "Chris"
+email : chris@gorilla-studios.com.com
+github : gorillastudios.github.io
+twitter : gorilla_studios
+highlighter: true
 markdown: kramdown
-permalink: pretty
+
+production_url : http://www.gorilla-studios.com
