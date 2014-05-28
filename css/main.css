@@ -174,8 +174,10 @@ footer {
   .blog-list article p {
       padding: 0 5%;
   }
-  h1 {
+  .blog-list article h1 {
     font-size: 1.75em;
+    line-height: 1em;
+    margin-bottom: 0.75em;
   }
 }
 
