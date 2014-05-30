@@ -26,15 +26,6 @@ footer {
 }
 
 
-.index-anchor {
-  position: fixed;
-  top: 3%;
-  left: 3%;
-  width: 10%;
-}
-.index-anchor img {
-  max-width: 100%;
-}
 
 
 .site-title {
@@ -46,6 +37,17 @@ footer {
   INDEX
   -----------------------------------------------------
 */
+
+.index-anchor {
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  width: 10%;
+}
+.index-anchor img {
+  max-width: 100%;
+}
+
 .tile {
   float: left;
   font-size: 1.5em;
@@ -72,6 +74,27 @@ footer {
   text-shadow: 0px 1px 10px black;
 }
 
+/* Each Tile */
+#blog {
+  background: url('/images/blog.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#portfolio {
+  background: url('/images/portfolio.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#p52{
+  background: url('/images/p52.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#contact {
+  background: url('/images/contact.jpg');
+  background-position: center;
+  background-size: cover;
+}
 @media screen and (max-width: 650px) {
   .index-anchor {
     width: 20%;
@@ -97,7 +120,10 @@ footer {
   background: rgba(0,0,0,0.25);
   margin-bottom: 3.5em;
   color: rgba(255,255,255,0.85);
-  }
+}
+.portfolio figure img {
+  width: 100%;
+}
 .portfolio figcaption {
   font-size: .75em;
   padding: 5px 20px 10px 20px;
@@ -106,23 +132,42 @@ footer {
   float: right;
 }
 
-#blog {
-  background: url('/images/blog.jpg');
+
+.other-portfolios {
+  margin-bottom: 3em !Important;
+}
+.other-portfolios a {
+  color: white !important;
+  display: block;
+  float: left;
+  height: 300px;
+  line-height: 2em;
+  margin-right: 1%;
+  padding-left: 10px;
+  text-shadow: 0px 1px 1px #555;
+  width: 24%;
+}
+
+#chicago {
+  background: url('/images/portfolio/chicago-tile.jpg');
   background-position: center;
   background-size: cover;
 }
-#portfolio {
-  background: url('/images/portfolio.jpg');
+
+#black-white {
+  background: url('/images/portfolio/black-white-tile.jpg');
   background-position: center;
   background-size: cover;
 }
-#p52{
-  background: url('/images/p52.jpg');
+
+#nature {
+  background: url('/images/portfolio/nature-tile.jpg');
   background-position: center;
   background-size: cover;
 }
-#contact {
-  background: url('/images/contact.jpg');
+
+#music {
+  background: url('/images/portfolio/music-tile.jpg');
   background-position: center;
   background-size: cover;
 }
