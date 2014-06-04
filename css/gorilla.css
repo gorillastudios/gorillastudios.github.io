@@ -47,6 +47,10 @@ a:hover {
   color: #555;
 }
 
+header {
+  position: relative;
+  z-index: 10;
+}
 figure img {
   max-width: 100%;
 }
@@ -72,7 +76,7 @@ figure.vertical figcaption {
   width: 95%;
   max-width: 1200px;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .module {
