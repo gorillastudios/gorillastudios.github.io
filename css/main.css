@@ -1,3 +1,85 @@
+.click-nav {
+  float: right;
+  padding-top: 1em;
+  width: 70%;
+}
+
+.click-nav ul {
+  position:relative;
+}
+.click-nav ul > li {
+  cursor:pointer;
+  float: left;
+  list-style:none;
+  position:relative;
+  width: 25%;
+}
+.click-nav ul li ul {
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+.click-nav ul li a {
+  color: #fff;
+  font-family: "jaf-bernino-sans-condensed", sans-serif;
+  display:block;
+  padding: 10px;
+  text-align: center;
+  text-decoration:none;
+}
+
+.click-sub-nav {
+  border-radius: 4px;
+  font-size: .75em;
+  margin-left: -12.5%;
+  width: 125%;
+}
+.click-sub-nav li {
+  width: 100% !important;
+}
+.click-sub-nav li a {
+  background: #fff;
+  color: #000 !important;
+}
+.click-sub-nav li a:hover {
+  background: #3366cc;
+  color: white !important;
+}
+
+
+/* Fallbacks */
+.click-nav .no-js ul {display:none;}
+.click-nav .no-js:hover ul {display:block;}
+
+@media screen and (max-width: 600px) {
+  .site-header {
+    padding: 4% 0 80px 0 !important;
+  }
+  .site-title {
+    display: block;
+    float: none !important;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .click-nav {
+    width: 100%;
+  }
+  .click-sub-nav {
+    margin-left: -37.5%;
+    width: 175%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 .site-title img {
   max-width: 120px;
@@ -5,8 +87,7 @@
 
 
 .site-header {
-  padding: 2% 0;
-  overflow: hidden;
+  padding: 2% 0 130px 0;
   width: 100%;
 }
 .site-header a {
@@ -31,6 +112,7 @@ footer {
 .site-title {
   float: left;
 }
+
 
 /*
   -----------------------------------------------------
