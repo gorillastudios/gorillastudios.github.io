@@ -71,6 +71,8 @@ figure.vertical figcaption {
   margin: 0 auto;
   width: 95%;
   max-width: 1200px;
+  position: relative;
+  z-index: -1;
 }
 
 .module {
