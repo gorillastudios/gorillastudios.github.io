@@ -16,7 +16,9 @@
 
     <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/js/responsive-nav.js"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
 </head>
 
   <body>
@@ -44,7 +46,6 @@
 </header>
 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
   $(function () {
     $('.click-nav > ul').toggleClass('no-js js');
@@ -67,43 +68,53 @@
     <div class="page-content animated fadeIn">
       <section class='portfolio'>
 <figure>
-  <img src='/images/portfolio/leroy-oaks.jpg' />
+  <img class='lazy' data-original="/images/portfolio/leroy-oaks.jpg" />
+  <noscript><img src="/images/portfolio/leroy-oaks.jpg" /></noscript>
   <figcaption>Fresh Snow at Leroy Oaks</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/sears-reach.jpg' />
+  <img class='lazy' data-original='/images/portfolio/sears-reach.jpg' />
+  <noscript><img src="/images/portfolio/sears-reach.jpg" /></noscript>
   <figcaption>Sears Tower</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/pritzker.jpg' />
+  <img class='lazy' data-original='/images/portfolio/pritzker.jpg' />
+  <noscript><img src="/images/portfolio/pritzker.jpg" /></noscript>
   <figcaption>Pritzker Pavilion, Millenium Park</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/snowy-bean.jpg' />
+  <img class='lazy' data-original='/images/portfolio/snowy-bean.jpg' />
+  <noscript><img src="/images/portfolio/snowy-bean.jpg" /></noscript>
   <figcaption>Cloud Gate snow storm</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/inky-lake.jpg' />
+  <img class='lazy' data-original='/images/portfolio/inky-lake.jpg' />
+  <noscript><img src="/images/portfolio/inky-lake.jpg" /></noscript>
   <figcaption>Chicago Skyline from North Ave. Beach</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/portfolio/heron-portrait.jpg' />
+  <img class='lazy' data-original='/images/portfolio/heron-portrait.jpg' />
+  <noscript><img src="/images/portfolio/heron-portrait.jpg" /></noscript>
   <figcaption>Great Blue Heron portrait</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/london-eye.jpg' />
+  <img class='lazy' data-original='/images/portfolio/london-eye.jpg' />
+  <noscript><img src="/images/portfolio/london-eye.jpg" /></noscript>
   <figcaption>The London Eye from Queen Elizabeth Bridge</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/bahamas-waves.jpg' />
+  <img class='lazy' data-original='/images/portfolio/bahamas-waves.jpg' />
+  <noscript><img src="/images/portfolio/bahamas-waves.jpg" /></noscript>
   <figcaption>Waves on the beach at dawn, Nassau, Bahamas</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/thomas.jpg' />
+  <img class='lazy' data-original='/images/portfolio/thomas.jpg' />
+  <noscript><img src="/images/portfolio/thomas.jpg" /></noscript>
   <figcaption>Thomas Oyster Company, Mystic Seaport</figcaption>
 </figure>
 <figure>
-  <img src='/images/portfolio/dance.jpg' />
+  <img class='lazy' data-original='/images/portfolio/dance.jpg' />
+  <noscript><img src="/images/portfolio/dance.jpg" /></noscript>
   <figcaption>Newlyweds dancing at Cloud Gate</figcaption>
 </figure>
 </section>
@@ -115,6 +126,15 @@
   <a href="/nature/" id='nature'><h3>Nature</h3></a>
   <a href="/music/" id='music'><h3>Music</h3></a>
 </div>
+
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect: "fadeIn"
+    });
+  });
+</script>
 
 
     </div>
