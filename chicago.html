@@ -6,43 +6,52 @@ permalink: /chicago/
 
 <section class='portfolio'>
 <figure>
-  <img src='/images/chicago/sunrays.jpg' />
+  <img class='lazy' data-original='/images/chicago/sunrays.jpg' />
   <figcaption>Sunrays break through the Chicago skyline</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/chicago/union.jpg' />
+  <img class='lazy' data-original='/images/chicago/union.jpg' />
   <figcaption>The great hall at Union Station</figcaption>
 </figure>
 <figure>
-  <img src='/images/chicago/sundown.jpg' />
+  <img class='lazy' data-original='/images/chicago/sundown.jpg' />
   <figcaption>Sunset from Aon Center</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/p52/03.jpg' />
+  <img class='lazy' data-original='/images/p52/03.jpg' />
   <figcaption>Cyclists meet up at the Picasso in Daley Plaza</figcaption>
 </figure>
 <figure>
-  <img src='/images/chicago/wrigley-clock.jpg' />
+  <img class='lazy' data-original='/images/chicago/wrigley-clock.jpg' />
   <figcaption>Wrigley Building clock tower</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/chicago/sears-tall.jpg' />
+  <img class='lazy' data-original='/images/chicago/sears-tall.jpg' />
   <figcaption>Sears Tower</figcaption>
 </figure>
 <figure>
-  <img src='/images/chicago/marina-city.jpg' />
+  <img class='lazy' data-original='/images/chicago/marina-city.jpg' />
   <figcaption>Marina City towers</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/chicago/lion-portrait.jpg' />
+  <img class='lazy' data-original='/images/chicago/lion-portrait.jpg' />
   <figcaption>Art Institute Lion</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/chicago/sears-storm.jpg' />
+  <img class='lazy' data-original='/images/chicago/sears-storm.jpg' />
   <figcaption>A stormfront rolls over the Sears Tower</figcaption>
 </figure>
 <figure>
-  <img src='/images/chicago/chicago-skyline.jpg' />
+  <img class='lazy' data-original='/images/chicago/chicago-skyline.jpg' />
   <figcaption>Chicago skyline at dusk</figcaption>
 </figure>
 </section>
+
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect: "fadeIn"
+    });
+  });
+</script>

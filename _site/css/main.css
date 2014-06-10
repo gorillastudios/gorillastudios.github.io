@@ -283,6 +283,9 @@ footer {
   font-size: .8em;
   margin: .5em 0 1.5em 0;
 }
+.blog-list figure img {
+  width: 100%;
+}
 .blog-list figcaption {
   font-size: .85em;
   padding: 5px 1em;

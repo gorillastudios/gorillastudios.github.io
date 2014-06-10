@@ -68,46 +68,55 @@
     <div class="page-content animated fadeIn">
       <section class='portfolio'>
 <figure>
-  <img src='/images/nature/flight.jpg' />
+  <img class='lazy' data-original='/images/nature/flight.jpg' />
   <figcaption>A pair of Egrets in flight</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/dandelion.jpg' />
+  <img class='lazy' data-original='/images/nature/dandelion.jpg' />
   <figcaption>Dandelion head</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/takeoff.jpg' />
+  <img class='lazy' data-original='/images/nature/takeoff.jpg' />
   <figcaption>Seagull taking flight</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/flower-bug.jpg' />
+  <img class='lazy' data-original='/images/nature/flower-bug.jpg' />
   <figcaption>Unidentified bug on a flower</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/itchy-egret.jpg' />
+  <img class='lazy' data-original='/images/nature/itchy-egret.jpg' />
   <figcaption>An Egret molting in the Fox River, Geneva, IL</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/dragonfly.jpg' />
+  <img class='lazy' data-original='/images/nature/dragonfly.jpg' />
   <figcaption>Dragonfly on a branch</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/purple-flower.jpg' />
+  <img class='lazy' data-original='/images/nature/purple-flower.jpg' />
   <figcaption>Macro shot of a tiny purple flower</figcaption>
 </figure>
 <figure>
-  <img src='/images/seagull.jpg' />
+  <img class='lazy' data-original='/images/seagull.jpg' />
   <figcaption>Cawing Seagull</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/droplet.jpg' />
+  <img class='lazy' data-original='/images/nature/droplet.jpg' />
   <figcaption>Dew drops on a blade of grass</figcaption>
 </figure>
 <figure>
-  <img src='/images/nature/somber-sunrise.jpg' />
+  <img class='lazy' data-original='/images/nature/somber-sunrise.jpg' />
   <figcaption>Great Blue Heron perched at sunrise</figcaption>
 </figure>
 </section>
+
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect: "fadeIn"
+    });
+  });
+</script>
 
 
     </div>

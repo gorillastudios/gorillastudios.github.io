@@ -68,46 +68,55 @@
     <div class="page-content animated fadeIn">
       <section class='portfolio'>
 <figure>
-  <img src='/images/black-white/beach-ghost.jpg' />
+  <img class='lazy' data-original='/images/black-white/beach-ghost.jpg' />
   <figcaption>North Ave Beach, Chicago</figcaption>
 </figure>
 <figure>
-  <img src='/images/black-white/sears-stairs.jpg' />
+  <img class='lazy' data-original='/images/black-white/sears-stairs.jpg' />
   <figcaption>Stairwell view of the Sears Tower, Chicago</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/black-white/prep.jpg' />
+  <img class='lazy' data-original='/images/black-white/prep.jpg' />
   <figcaption>A cook preparing oysters, Anchor &amp; Hope</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/black-white/snowy-picasso.jpg' />
+  <img class='lazy' data-original='/images/black-white/snowy-picasso.jpg' />
   <figcaption>Picasso Sculpture during snowstorm, Chicago</figcaption>
 </figure>
 <figure>
-  <img src='/images/black-white/fermi.jpg' />
+  <img class='lazy' data-original='/images/black-white/fermi.jpg' />
   <figcaption>Fermilab, Batavia IL</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/black-white/sears-wide.jpg' />
+  <img class='lazy' data-original='/images/black-white/sears-wide.jpg' />
   <figcaption>Sears Tower, Chicago</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/black-white/rick-portrait.jpg' />
+  <img class='lazy' data-original='/images/black-white/rick-portrait.jpg' />
   <figcaption>Rick Uppling, Cadillac Cassanovas</figcaption>
 </figure>
 <figure>
-  <img src='/images/black-white/fly-moon.jpg' />
+  <img class='lazy' data-original='/images/black-white/fly-moon.jpg' />
   <figcaption>A plane passing in front of the full moon</figcaption>
 </figure>
 <figure class='vertical'>
-  <img src='/images/black-white/sears-clouds.jpg' />
+  <img class='lazy' data-original='/images/black-white/sears-clouds.jpg' />
   <figcaption>The Sears Tower dissapears into the fog</figcaption>
 </figure>
 <figure>
-  <img src='/images/black-white/emma-berry.jpg' />
+  <img class='lazy' data-original='/images/black-white/emma-berry.jpg' />
   <figcaption>The Emma Berry, Mystic Seaport</figcaption>
 </figure>
 </section>
+
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect: "fadeIn"
+    });
+  });
+</script>
 
 
     </div>
