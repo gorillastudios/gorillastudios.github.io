@@ -216,6 +216,7 @@ footer {
 
 
 .other-portfolios {
+  overflow: hidden;
   margin-bottom: 3em !Important;
 }
 .other-portfolios a {
@@ -224,10 +225,9 @@ footer {
   float: left;
   height: 300px;
   line-height: 2em;
-  margin-right: 1%;
-  padding-left: 10px;
+  padding: 10px 0 0 20px;
   text-shadow: 0px 1px 1px #555;
-  width: 24%;
+  width: 25%;
 }
 
 #chicago {
@@ -257,6 +257,12 @@ footer {
 @media screen and (max-width: 650px) {
   figure.vertical img { max-width: 90% !important; }
   figcaption { width: 90% !important; }
+  .other-portfolios a {
+    height: 100px;
+    width: 100%;
+  }
+  #chicago { background-position: center 60%; }
+  #music { background-position: center 20%; }
 }
 
 
