@@ -46,6 +46,9 @@ a, a:visited {
 a:hover {
   color: #555;
 }
+article p a {
+  font-weight: 400;
+}
 
 header {
   position: relative;
@@ -55,6 +58,10 @@ figure img {
   max-width: 100%;
 }
 
+.blog-list figure.vertical {
+  background: rgba(0,0,0,0.05);
+  padding-bottom: 1em;
+}
 figure.vertical img {
   display: block;
   margin: 0 auto;
