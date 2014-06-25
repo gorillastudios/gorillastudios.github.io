@@ -1,0 +1,21 @@
+---
+layout: page
+title: Chicago
+permalink: /new-york/
+---
+
+<section class='portfolio'>
+<figure>
+  <img class='lazy' data-original='/images/chicago/sunrays.jpg' />
+  <noscript><img src="/images/portfolio/leroy-oaks.jpg" /></noscript>
+  <figcaption>Sunrays break through the Chicago skyline</figcaption>
+</figure>
+
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect: "fadeIn"
+    });
+  });
+</script>
