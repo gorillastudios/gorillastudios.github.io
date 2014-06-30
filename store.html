@@ -1,0 +1,29 @@
+---
+layout: page
+title: Store
+permalink: /store/
+---
+
+<!-- <h2>Select prints for sale</h2>
+<p>I am pleased to announce that select photographs from my portfolio are now available to purchase through 500px.com. Below are a limited number of prints that are currently for sale at this time.</p> -->
+<section class='portfolio'>
+<figure>
+  <img class='lazy store-new' data-original="/images/portfolio/brooklyn-bridge-blue.jpg" />
+  <noscript><img class='store-new' src="/images/portfolio/brooklyn-bridge-blue.jpg" /></noscript>
+  <figcaption>Brooklyn Bridge at sunset<span>Purchase at 500px.com</span></figcaption>
+</figure>
+<figure>
+  <img class='lazy' data-original='/images/portfolio/pritzker.jpg' />
+  <noscript><img src="/images/portfolio/pritzker.jpg" /></noscript>
+  <figcaption>Pritzker Pavilion, Millenium Park<span>Purchase at 500px.com</span></figcaption>
+</figure>
+</section>
+
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect: "fadeIn"
+    });
+  });
+</script>

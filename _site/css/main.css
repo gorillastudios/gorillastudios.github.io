@@ -164,6 +164,13 @@
   left: 0;
 }
 
+.tile2:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05)
+}
 .tile2 section:hover {
   color: rgba(255,255,255,1);
   background: none;
@@ -299,7 +306,11 @@
 }
 
 
-
+/*
+  ===============================================================
+  =ST Store
+  ===============================================================
+*/
 /*
   ===============================================================
   =CP Contact Page
