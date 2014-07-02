@@ -241,7 +241,14 @@
   float: right;
 }
 
-
+.for-sale span a {
+  color: rgba(255,255,255,0.8);
+  font-weight: bold;
+  padding: 5px 15px;
+}
+.for-sale span a:hover {
+  color: #999;
+}
 @media screen and (max-width: 650px) {
   figure.vertical img { max-width: 1000% !important; }
   figcaption { width: 100% !important; }
@@ -251,6 +258,16 @@
   }
 }
 
+.store span a {
+  background: #3366cc;
+  color: white;
+  font-size: .9em;
+  font-weight: bold;
+  display: block;
+  margin-top: -12px;
+  padding: 8px 15px;
+
+}
 
 
 /*
