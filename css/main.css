@@ -284,6 +284,7 @@
 .blog-list h1,
 .blog-list h2,
 .blog-list h3,
+.blog-list h4,
 .blog-list p {
   padding: 0 10%;
 }
@@ -335,9 +336,36 @@
   ===============================================================
 */
 
+.archive-list {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+
+}
 .archive-list ul {
   list-style: none;
+  font-size: .9em;
 }
+.archive-list ul li a {
+  color: #555;
+  font-weight: bold;
+}
+.archive-list ul li a:hover {
+  color: #3366cc;
+}
+.archive-list ul li span {
+  color: #999;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .archive-list {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
 /*
   ===============================================================
   =CP Contact Page

@@ -46,6 +46,18 @@ a, a:visited {
 a:hover {
   color: #555;
 }
+
+.quote {
+  font-style: italic;
+  padding: 0 2em;
+}
+
+
+
+
+
+
+
 article p a {
   font-weight: 400;
 }
@@ -54,6 +66,7 @@ header {
   position: relative;
   z-index: 10;
 }
+
 figure img {
   max-width: 100%;
 }
