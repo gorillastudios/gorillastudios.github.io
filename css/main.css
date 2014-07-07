@@ -195,7 +195,7 @@
 #nature { background: url('/images/nature.jpg'); }
 #black-white { background: url('/images/black-white.jpg'); }
 #music { background: url('/images/music.jpg'); }
-#iphone { background: url('/images/iphone.jpg'); }
+#store { background: url('/images/store.jpg'); }
 #contact {
   background: url('/images/contact.jpg');
   background-position: 90% 10% !important;
@@ -328,6 +328,16 @@
   =ST Store
   ===============================================================
 */
+
+/*
+  ===============================================================
+  =AR Archive
+  ===============================================================
+*/
+
+.archive-list ul {
+  list-style: none;
+}
 /*
   ===============================================================
   =CP Contact Page
