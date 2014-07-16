@@ -7,6 +7,21 @@
     <atom:link href="http://www.gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Prints for sale</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/for-sale.jpg&quot;&gt;
+  &lt;figcaption&gt;Select prints are available from 500px.com&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I am pleased to announce that select prints from my portfolio are now &lt;a href=&quot;http://www.500pxart.com/gorilla-studios&quot;&gt;available for purchase at 500px.com&lt;/a&gt;. Six beautiful photographs
+are currently available in various sizes on framed paper, canvas wrap, aluminum, or acrylic. You can see them &lt;a href=&quot;/store/&quot;&gt;here&lt;/a&gt; or at
+&lt;a href=&quot;http://www.500pxart.com/gorilla-studios&quot;&gt;500px.com&lt;/a&gt;.  More photos will be added in the future so keep an eye out, or you can always request a print to become available.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 -0500</pubDate>
+        <link>http://www.gorilla-studios.com/2014/07/16/prints-for-sale/</link>
+        <guid isPermaLink="true">http://www.gorilla-studios.com/2014/07/16/prints-for-sale/</guid>
+      </item>
+    
+      <item>
         <title>Week 27 - Fireworks</title>
         <description>&lt;figure&gt;
   &lt;img src=&quot;/images/p52/27.jpg&quot;&gt;
@@ -233,18 +248,6 @@ to have any issues with me being there.&lt;/p&gt;
         <pubDate>Thu, 24 Apr 2014 00:00:00 -0500</pubDate>
         <link>http://www.gorilla-studios.com/2014/04/24/canon-70-300-L/</link>
         <guid isPermaLink="true">http://www.gorilla-studios.com/2014/04/24/canon-70-300-L/</guid>
-      </item>
-    
-      <item>
-        <title>Spring on Lake Michigan</title>
-        <description>&lt;figure&gt;
-  &lt;img src=&quot;/images/lighthouse-spring.jpg&quot;&gt;
-  &lt;figcaption&gt;Chicago Harbor Light&lt;span&gt;1/250, f/5.0, ISO100&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Wed, 23 Apr 2014 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/2014/04/23/spring-on-lake-michigan/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/2014/04/23/spring-on-lake-michigan/</guid>
       </item>
     
   </channel>
