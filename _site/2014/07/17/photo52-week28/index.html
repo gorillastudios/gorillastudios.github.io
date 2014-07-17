@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gorilla-Studios - Week 28 - Sears Tower</title>
+    <meta name="description" content="Gorilla-Studios Photography">
+    <link rel="canonical" href="http://www.gorilla-studios.com/2014/07/17/photo52-week28/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/gorilla.css">
+    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
+    <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/component.css">
+
+    <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/responsive-nav.js"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
+    <script src="/js/snap.svg-min.js"></script>
+</head>
+
+  <body>
+    <header class="site-header animated fadeIn">
+  <div class='row'>
+    <a class="site-title" href="/"><img src="/images/gostu-white.png"/></a>
+    <div class="click-nav">
+      <ul class="no-js">
+        <li><a href="/blog/">Blog</a></li>
+        <li>
+          <a href="#" class="clicker">Portfolios</a>
+          <ul class='click-sub-nav'>
+            <li><a href="/portfolio/">Main</a></li>
+            <li><a href="/chicago/">Chicago</a></li>
+            <li><a href="/black-and-white/">Black &amp; White</a></li>
+            <li><a href="/nature/">Nature</a></li>
+            <li><a href="/music/">Music</a></li>
+          </ul>
+        </li>
+        <li><a href="/store/">Store</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  $(function () {
+    $('.click-nav > ul').toggleClass('no-js js');
+    $('.click-nav .js ul').hide();
+    $('.click-nav .js').click(function(e) {
+      $('.click-nav .js ul').slideToggle(200);
+      $('.clicker').toggleClass('active');
+      e.stopPropagation();
+    });
+    $(document).click(function() {
+      if ($('.click-nav .js ul').is(':visible')) {
+        $('.click-nav .js ul', this).slideUp();
+        $('.clicker').removeClass('active');
+      }
+    });
+  });
+</script>
+
+
+    <div class="page-content animated fadeIn">
+      <section class='blog-list'>
+<article>
+  <h1>Week 28 - Sears Tower</h1>
+  <figure>
+  <img src="/images/portfolio/blue-sky-walk.jpg">
+  <figcaption>July 14th - Sears Tower skyboxes<span>1/400, f/9, ISO100</span></figcaption>
+</figure>
+<p>No matter what I do I can't stop taking photos of the Sears Tower, I've probably surpassed the thousand mark a while ago.
+It doesn't help that I work just a few blocks from it, and on some days I like to go for a walk during lunch with my camera.
+I've said before that I love taking photos of it because you can get dramatically different shots from all angles of the
+building. I wanted to see if I had enough reach at 200mm to see people in the skyboxes that jut out from the west side of
+the tower over Wacker Drive. This particular angle was from the north west corner on the pedestrian island out front. I
+particularly like that you can't instantly figure out what you are looking at, and its certainly not a photo of the Sears I
+have seen before. There is a very subtle lens flare from the afternoon sun taking up the right side of the exposure, but I
+feel it adds a bit of warmth and character.</p>
+
+</article>
+<a href="/archive/"><h4 class='archive-link'>Archive</h4></a>
+</section>
+
+    </div>
+  </body>
+</html>
