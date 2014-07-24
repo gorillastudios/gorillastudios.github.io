@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/vendor/animation.css">
     <link rel="stylesheet" href="/css/vendor/component.css">
 
+    <script src="/js/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -26,132 +27,24 @@
   <body>
     <a class="index-anchor" href="/"><img src="/images/gostu-white.png"/></a>
     <div class="full-page-content">
-      <div id="index-links" class='demo-3' >
-  <section id="grid" class="grid clearfix">
-  <a href="/blog/" data-path-hover="M 0,0 0,48 90,58 180.5,48 180,0 z">
-    <figure>
-      <img src="/images/blog.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Blog</h2>
-      <p>Photography Discussion</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-
-  <a href="/portfolio/" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
-    <figure>
-      <img src="/images/portfolio.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Portfolio</h2>
-      <p>Selected photographs</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-
-  <a href="/store/" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
-    <figure>
-      <img src="/images/store.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Store</h2>
-      <p>Photos available for purchase</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-
-  <a href="/contact/" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
-    <figure>
-      <img src="/images/contact.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Contact</h2>
-      <p>Send an email</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-
-  <a href="/chicago/" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
-    <figure>
-      <img src="/images/chicago.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Chicago</h2>
-      <p>Chicago Photography</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-
-  <a href="/nature/" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
-    <figure>
-      <img src="/images/nature.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Nature</h2>
-      <p>Nature Photography</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-
-  <a href="/black-and-white/" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
-    <figure>
-      <img src="/images/black-white.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Black &amp; White</h2>
-      <p>Black &amp; White photography</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-
-  <a href="/music/" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
-    <figure>
-      <img src="/images/music.jpg" />
-      <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 0 0 L 0 120 L 90 106.5 L 180 120 L 180 0 L 0 0 z "/></svg>
-    <figcaption>
-      <h2>Music</h2>
-      <p>Music Photography</p>
-      <button>View</button>
-    </figcaption>
-    </figure>
-  </a>
-  </section>
+      <div class='fullscreen-nav'>
+  <a href="/blog/">Blog</a>
+  <a class='switch'>Portfolios</a>
+  <div class='subnav'>
+    <a href="/portfolio/">Main</a>
+    <a href="/chicago/">Chicago</a>
+    <a href="/black-and-white/">Black &amp; White</a>
+    <a href="/nature/">Nature</a>
+    <a href="/music/">Music</a>
+  </div>
+  <a href="/store/">Store</a>
+  <a href="/contact/">Contact</a>
 </div>
 <script>
-  (function() {
-
-    function init() {
-      var speed = 300,
-      easing = mina.backout;
-
-      [].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
-        var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
-        pathConfig = {
-          from : path.attr( 'd' ),
-          to : el.getAttribute( 'data-path-hover' )
-        };
-
-        el.addEventListener( 'mouseenter', function() {
-          path.animate( { 'path' : pathConfig.to }, speed, easing );
-        } );
-
-        el.addEventListener( 'mouseleave', function() {
-          path.animate( { 'path' : pathConfig.from }, speed, easing );
-        } );
-      } );
-    }
-
-    init();
-
-  })();
+  $('.subnav').hide();
+  $('a.switch').click(function() {
+    $(this).next().slideToggle();
+  });
 </script>
 
     </div>

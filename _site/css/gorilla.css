@@ -8,6 +8,11 @@
 
 .fullscreen,
 .fullscreen body {
+  //background: url('/images/portfolio/archways.jpg') no-repeat center center fixed;
+  //background: url('/images/portfolio/sears-reach2.jpg') no-repeat center center fixed;
+  //background: url('/images/portfolio/blue-sky-walk.jpg') no-repeat center center fixed;
+  background: url('/images/black-white/sears-abstract.jpg') no-repeat center center fixed;
+  background-size: cover;
   height: 100%;
 }
 
@@ -96,7 +101,7 @@ figure.vertical figcaption {
 .module {
   //background: rgba(255,255,255,0.85);
   background: white;
-  margin: 0 auto;
+  margin: 0 auto 2em auto;
   overflow: hidden;
   padding: 60px;
 }

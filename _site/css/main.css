@@ -111,6 +111,47 @@
 }
 
 
+
+.fullscreen-nav {
+  //background: rgba(0,0,0,0.25);
+  bottom: 0;
+  display: block;
+  font-family: "jaf-bernino-sans-condensed", sans-serif;
+  font-size: 1.5em;
+  position: absolute;
+  left: 50%;
+  padding-top: 10%;
+  right: 0;
+  text-align: right;
+  text-shadow: 0 0 25px rgba(0,0,0,0.75);
+  text-transform: uppercase;
+  top: 0;
+}
+.fullscreen-nav  a {
+  color: white !important;
+  display: block;
+  padding: 5px 60px 5px 0;
+  width: 100%;
+}
+.fullscreen-nav a:hover {
+  color: #558BD1 !important;
+  cursor: pointer;
+}
+.fullscreen-nav div {
+  font-size: .8em;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .fullscreen-nav {
+    left: 0;
+    padding-top: 8%;
+  }
+  .fullscreen-nav a {
+    padding-right: 15px;
+  }
+}
+
 /*
   ===============================================================
   =IN Index
@@ -119,9 +160,9 @@
 
 .index-anchor {
   position: fixed;
-  top: 3%;
-  left: 3%;
-  width: 10%;
+  top: 5%;
+  left: 4%;
+  width: 12%;
   z-index: 999;
 }
 .index-anchor img {
@@ -129,94 +170,10 @@
 }
 
 
-#index-links {
-  margin: 3% auto;
-  overflow: hidden;
-  position: relative;
-  width: 90%;
-}
-
-.tile2 {
-  color: white;
-  float: left;
-  height: 275px;
-  margin: 0 3% 3% 0;
-  text-align: center;
-  width: 31.3333333%;
-}
-.tile2:nth-child(3n) {
-  margin-right: 0;
-}
-
-.tile2 section {
-  background: rgba(0,0,0,0.25);
-  color: rgba(255,255,255,0.75);
-  height: 100%;
-  transition: all 0.15s ease-in;
-  position: relative;
-  text-shadow: 0 0 10px rgba(0,0,0,0.75);
-  width: 100%;
-}
-.tile2 h3 {
-  position: absolute;
-  bottom: 10px;
-  right: 0;
-  left: 0;
-}
-
-.tile2:hover {
-  -webkit-transform: scale(1.05, 1.05);
-  -moz-transform: scale(1.05, 1.05);
-  -ms-transform: scale(1.05, 1.05);
-  -o-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05)
-}
-.tile2 section:hover {
-  color: rgba(255,255,255,1);
-  background: none;
-  text-shadow: 0px 1px 10px black;
-}
-
-/* Each Tile */
-#index-links a {
-  background-position: center;
-  background-size: cover;
-}
-
-#blog {
-  background: url('/images/blog.jpg');
-}
-#portfolio {
-  background: url('/images/portfolio.jpg');
-  background-position: 90% 80% !important;
-}
-#p52 { background: url('/images/p52.jpg'); }
-#chicago { background: url('/images/chicago.jpg'); }
-#nature { background: url('/images/nature.jpg'); }
-#black-white { background: url('/images/black-white.jpg'); }
-#music { background: url('/images/music.jpg'); }
-#store { background: url('/images/store.jpg'); }
-#contact {
-  background: url('/images/contact.jpg');
-  background-position: 90% 10% !important;
-}
 
 @media screen and (max-width: 650px) {
   .index-anchor {
-    width: 20%;
-  }
-  .tile2 {
-    font-size: 1.5em;
-    margin-right: 2%;
-    height: 250px;
-    width: 100%;
-  }
-  .tile2:nth-child(3n) {
-    margin-right: 2%;
-  }
-  .tile2 section {
-    background: rgba(0,0,0,0.25);
-    color: white;
+    width: 25%;
   }
 }
 
