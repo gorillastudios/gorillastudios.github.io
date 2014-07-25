@@ -11,10 +11,11 @@
 
 .fullscreen,
 .fullscreen body {
+  background: url('/images/black-white/sears-abstract.jpg') no-repeat center center fixed;
   //background: url('/images/portfolio/archways.jpg') no-repeat center center fixed;
   //background: url('/images/portfolio/sears-reach2.jpg') no-repeat center center fixed;
   //background: url('/images/portfolio/blue-sky-walk.jpg') no-repeat center center fixed;
-  background: url('/images/black-white/sears-abstract.jpg') no-repeat center center fixed;
+  //background: url('/images/chicago/wrigley-clock.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
 }
@@ -61,9 +62,6 @@ a:hover {
 
 
 
-
-
-
 article p a {
   font-weight: 400;
 }
@@ -81,6 +79,7 @@ figure img {
   background: rgba(0,0,0,0.05);
   padding-bottom: 1em;
 }
+
 figure.vertical img {
   display: block;
   margin: 0 auto;
