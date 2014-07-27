@@ -232,7 +232,7 @@
 */
 
 .blog-list article {
-  background: rgba(255,255,255,0.9);
+  background: white;
   margin-bottom: 5em;
   padding: 1.5em 0;
 }
@@ -241,10 +241,10 @@
 .blog-list h3,
 .blog-list h4,
 .blog-list p {
-  padding: 0 10%;
+  padding: 0 15%;
 }
 .blog-list p {
-  margin: 1.5em 0;
+  margin: 1.75em 0;
 }
 .blog-list figure {
   font-size: .8em;

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gorilla-Studios - Liz &amp; Pat Wedding</title>
+    <meta name="description" content="Gorilla-Studios Photography">
+    <link rel="canonical" href="http://www.gorilla-studios.com/walsh/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/gorilla.css">
+    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
+    <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/component.css">
+
+    <script src="/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/responsive-nav.js"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
+    <script src="/js/snap.svg-min.js"></script>
+</head>
+
+  <body>
+    <header class="site-header animated fadeIn">
+  <div class='row'>
+    <a class="site-title" href="/"><img src="/images/gostu-white.png"/></a>
+    <div class="click-nav">
+      <ul class="no-js">
+        <li><a href="/blog/">Blog</a></li>
+        <li>
+          <a href="#" class="clicker">Portfolios</a>
+          <ul class='click-sub-nav'>
+            <li><a href="/portfolio/">Main</a></li>
+            <li><a href="/chicago/">Chicago</a></li>
+            <li><a href="/black-and-white/">Black &amp; White</a></li>
+            <li><a href="/nature/">Nature</a></li>
+            <li><a href="/music/">Music</a></li>
+          </ul>
+        </li>
+        <li><a href="/store/">Store</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  $(function () {
+    $('.click-nav > ul').toggleClass('no-js js');
+    $('.click-nav .js ul').hide();
+    $('.click-nav .js').click(function(e) {
+      $('.click-nav .js ul').slideToggle(200);
+      $('.clicker').toggleClass('active');
+      e.stopPropagation();
+    });
+    $(document).click(function() {
+      if ($('.click-nav .js ul').is(':visible')) {
+        $('.click-nav .js ul', this).slideUp();
+        $('.clicker').removeClass('active');
+      }
+    });
+  });
+</script>
+
+
+    <div class="page-content animated fadeIn">
+      <section class='portfolio'>
+<figure class='vertical'>
+  <img class='lazy' data-original='/images/walsh/liz-glamour.jpg' />
+  <noscript><img src="/images/waslh/liz-glamour.jpg" /></noscript>
+</figure>
+<figure>
+  <img class='lazy' data-original='/images/walsh/liz-pat.jpg' />
+  <noscript><img src="/images/waslh/liz-pat.jpg" /></noscript>
+</figure>
+<figure>
+  <img class='lazy' data-original='/images/walsh/liz-mom.jpg' />
+  <noscript><img src="/images/waslh/liz-mom.jpg" /></noscript>
+</figure>
+<figure class='vertical'>
+  <img class='lazy' data-original='/images/walsh/liz-bw.jpg' />
+  <noscript><img src="/images/waslh/liz-bw.jpg" /></noscript>
+</figure>
+<figure class='vertical'>
+  <img class='lazy' data-original='/images/walsh/liz-door.jpg' />
+  <noscript><img src="/images/waslh/liz-door.jpg" /></noscript>
+</figure>
+<figure class='vertical'>
+  <img class='lazy' data-original='/images/walsh/liz-mirror.jpg' />
+  <noscript><img src="/images/waslh/liz-mirror.jpg" /></noscript>
+</figure>
+<figure>
+  <img class='lazy' data-original='/images/walsh/liz-molly.jpg' />
+  <noscript><img src="/images/waslh/liz-molly.jpg" /></noscript>
+</figure>
+<figure>
+  <img class='lazy' data-original='/images/walsh/liz-kendall.jpg' />
+  <noscript><img src="/images/waslh/liz-kendall.jpg" /></noscript>
+</figure>
+<figure>
+  <img class='lazy' data-original='/images/walsh/erin.jpg' />
+  <noscript><img src="/images/waslh/erin.jpg" /></noscript>
+</figure>
+<figure class='vertical'>
+  <img class='lazy' data-original='/images/walsh/kendall-izzy.jpg' />
+  <noscript><img src="/images/waslh/kendall-izzy.jpg" /></noscript>
+</figure>
+<figure class='vertical'>
+  <img class='lazy' data-original='/images/walsh/molly.jpg' />
+  <noscript><img src="/images/waslh/molly.jpg" /></noscript>
+</figure>
+<figure class='vertical'>
+  <img class='lazy' data-original='/images/walsh/kendall.jpg' />
+  <noscript><img src="/images/waslh/kendall.jpg" /></noscript>
+</figure>
+</section>
+
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect: "fadeIn"
+    });
+  });
+</script>
+
+
+    </div>
+  </body>
+</html>

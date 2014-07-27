@@ -21,7 +21,7 @@
 }
 
 body {
-  background: url('/images/inky-lake-blur.jpg') no-repeat center center fixed;
+  background: url('/images/blue-sky-walk-blur.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Proxima Nova', "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -42,7 +42,7 @@ h4, h5, h6 { font-size: 1em; }
 
 p {
   font-family: "Proxima Nova", "proxima-nova", serif;
-  line-height: 1.5em;
+  line-height: 1.75em;
 }
 
 a, a:visited {
@@ -75,10 +75,6 @@ figure img {
   max-width: 100%;
 }
 
-.blog-list figure.vertical {
-  background: rgba(0,0,0,0.05);
-  padding-bottom: 1em;
-}
 
 figure.vertical img {
   display: block;
