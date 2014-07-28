@@ -236,12 +236,14 @@
   margin-bottom: 5em;
   padding: 1.5em 0;
 }
-.blog-list h1,
+.blog-list h1 {
+  padding: 0 5%;
+}
 .blog-list h2,
 .blog-list h3,
 .blog-list h4,
 .blog-list p {
-  padding: 0 15%;
+  padding: 0 20%;
 }
 .blog-list p {
   margin: 1.75em 0;
