@@ -183,6 +183,7 @@
   background: rgba(0,0,0,0.25);
   margin-bottom: 3.5em;
   color: rgba(255,255,255,0.85);
+  overflow: hidden;
 }
 .portfolio figure img {
   width: 100%;
@@ -207,9 +208,21 @@
 @media screen and (max-width: 650px) {
   figure.vertical img { max-width: 1000% !important; }
   figcaption { width: 100% !important; }
+  .portfolio figure {
+    padding-bottom: 1em;
+  }
+  figcaption span {
+    display: inline-block;
+    width: 100%;
+  }
   .other-portfolios a {
     height: 100px;
     width: 100%;
+  }
+  .store span a {
+    margin: 10px 0 0 0 !important;
+    text-align: center;
+    width: 50%;
   }
 }
 
