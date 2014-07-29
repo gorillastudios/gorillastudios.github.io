@@ -224,6 +224,9 @@
     text-align: center;
     width: 50%;
   }
+  .for-sale span a {
+    padding: 0;
+  }
 }
 
 .store span a {
