@@ -1,9 +1,11 @@
 /*
-  =IN Index
+  =HN Header & Navigation - content pages
+  =FS Fullscreen Index
   =BL Blog Page
+  =PO Portfolio Pages
+  =AR Archive Page
   =CP Contact Page
 */
-
 
 
 /*
@@ -115,7 +117,7 @@
 
 /*
   ===============================================================
-  =IN Index
+  =FS Fullscreen Index
   ===============================================================
 */
 
@@ -129,7 +131,6 @@
 .index-anchor img {
   max-width: 100%;
 }
-
 
 .fullscreen-nav {
   //background: rgba(0,0,0,0.25);
