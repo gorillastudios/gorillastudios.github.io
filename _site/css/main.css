@@ -37,7 +37,7 @@
 }
 
 .click-nav ul li a {
-  color: #fff;
+  color: rgba(0,0,0,0.35);
   font-family: "jaf-bernino-sans-condensed", sans-serif;
   display:block;
   padding: 10px;
@@ -56,7 +56,6 @@
 }
 .click-sub-nav li a {
   background: #fff;
-  color: #000 !important;
 }
 .click-sub-nav li a:hover {
   background: #3366cc;
@@ -109,7 +108,7 @@
 .site-header .row {
   margin: 0 auto;
   width: 95%;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 
@@ -123,9 +122,9 @@
 
 .index-anchor {
   position: fixed;
-  top: 5%;
-  left: 4%;
-  width: 12%;
+  top: 3%;
+  left: 2%;
+  width: 10%;
   z-index: 999;
 }
 .index-anchor img {
@@ -154,7 +153,7 @@
   width: 100%;
 }
 .fullscreen-nav a:hover {
-  color: #558BD1 !important;
+  text-shadow: 0 0 25px rgba(0,0,0,0.95);
   cursor: pointer;
 }
 .fullscreen-nav div {
@@ -181,15 +180,14 @@
   ===============================================================
 */
 .portfolio figure {
-  background: rgba(0,0,0,0.25);
   margin-bottom: 3.5em;
-  color: rgba(255,255,255,0.85);
   overflow: hidden;
 }
 .portfolio figure img {
   width: 100%;
 }
 .portfolio figcaption {
+  color: rgba(0,0,0,0.5);
   font-size: .75em;
   padding: 5px 20px 10px 20px;
 }
@@ -198,12 +196,10 @@
 }
 
 .for-sale span a {
-  color: rgba(255,255,255,0.8);
-  font-weight: bold;
-  padding: 5px 15px;
+  color: rgba(0,0,0,0.5);
 }
 .for-sale span a:hover {
-  color: #999;
+  color: #000;
 }
 
 @media screen and (max-width: 650px) {
@@ -220,25 +216,15 @@
     height: 100px;
     width: 100%;
   }
-  .store span a {
-    margin: 10px 0 0 0 !important;
-    text-align: center;
-    width: 50%;
-  }
   .for-sale span a {
     padding: 0;
   }
 }
 
 .store span a {
-  background: #3366cc;
-  color: white;
   font-size: .9em;
   font-weight: bold;
   display: block;
-  margin-top: -8px;
-  padding: 6px 10px;
-
 }
 
 
@@ -280,13 +266,13 @@
   float: right;
 }
 .archive-link {
-  color: white;
+  color: rgba(0,0,0,0.5);
   text-align: center;
   margin-top: -3em;
   transition: all 0.15s ease-in;
 }
 .archive-link:hover {
-  color: #ccc;
+  color: #000;
 }
 
 @media screen and (max-width: 650px) {
@@ -375,7 +361,6 @@ form input[type=text],
 form input[type=password],
 textarea {
   border: 1px solid #ccc;
-  font-family: 'Proxima Nova', "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: .9em;
   font-weight: 100;
   margin-bottom: 10px;
