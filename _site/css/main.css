@@ -68,8 +68,12 @@
 .click-nav .no-js:hover ul {display:block;}
 
 @media screen and (max-width: 600px) {
+  body {
+    padding: 0 !important;
+  }
   .site-header {
     padding: 4% 0 80px 0 !important;
+    position: relative !important;
   }
   .site-title {
     display: block;
@@ -97,7 +101,12 @@
 
 
 .site-header {
-  padding: 2% 0 130px 0;
+  background: rgba(255,255,255,0.98);
+  padding: 2% 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
   width: 100%;
 }
 .site-header a {
@@ -161,10 +170,13 @@
   padding-right: 10px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .index-anchor {
     width: 25%;
   }
+
+}
+@media screen and (max-width: 650px) {
   .fullscreen-nav {
     left: 0;
     padding-top: 8%;
@@ -260,7 +272,7 @@
 }
 .blog-list figcaption {
   font-size: .85em;
-  padding: 5px 1em;
+  padding: 0 1em;
 }
 .blog-list figcaption span {
   float: right;
