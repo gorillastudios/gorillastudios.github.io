@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gorilla-Studios - Rolliflex Kit</title>
+    <meta name="description" content="Gorilla-Studios Photography">
+    <link rel="canonical" href="http://www.gorilla-studios.com/2014/08/11/rolliflex/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/gorilla.css">
+    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
+    <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/component.css">
+
+    <script src="/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/responsive-nav.js"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
+    <script src="/js/snap.svg-min.js"></script>
+</head>
+
+  <body>
+    <header class="site-header animated fadeIn">
+  <div class='row'>
+    <a class="site-title" href="/"><img src="/images/gostu-color.svg"/></a>
+    <div class="click-nav">
+      <ul class="no-js">
+        <li><a href="/blog/">Blog</a></li>
+        <li>
+          <a class="clicker">Portfolios</a>
+          <ul class='click-sub-nav'>
+            <li><a href="/portfolio/">Main</a></li>
+            <li><a href="/chicago/">Chicago</a></li>
+            <li><a href="/black-and-white/">Black &amp; White</a></li>
+            <li><a href="/nature/">Nature</a></li>
+            <li><a href="/music/">Music</a></li>
+          </ul>
+        </li>
+        <li><a href="/store/">Store</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  $(function () {
+    $('.click-nav > ul').toggleClass('no-js js');
+    $('.click-nav .js ul').hide();
+    $('.click-nav .js').click(function(e) {
+      $('.click-nav .js ul').slideToggle(200);
+      $('.clicker').toggleClass('active');
+      e.stopPropagation();
+    });
+    $(document).click(function() {
+      if ($('.click-nav .js ul').is(':visible')) {
+        $('.click-nav .js ul', this).slideUp();
+        $('.clicker').removeClass('active');
+      }
+    });
+  });
+</script>
+
+
+    <div class="page-content animated fadeIn">
+      <section class='blog-list'>
+<article>
+  <h1>Rolliflex Kit</h1>
+  <figure>
+  <img src="/images/posts/rolliflex.jpg">
+  <figcaption>Recesky 35mm TLR Camera Kit</figcaption>
+</figure>
+<p>I've always wanted an original <a href="http://en.wikipedia.org/wiki/Rolleiflex">Rolliflex Twin Lens Reflex camera</a> but could never pull the trigger due to the cost
+of one in good condition. I was poking around Amazon a few weeks ago and found some replica kits for only $25, so I
+added it to my wish-list. Lo and behold one arrived at my door a few days after my birthday! The kit comes completely
+disassembled, with a screwdriver and a single roll of 35mm ISO200 film.</p>
+<figure>
+  <img src="/images/posts/rolliflex-assembly.jpg">
+  <figcaption>Assembly</figcaption>
+</figure>
+<p>Opening it up I was rather surprised <i>how much</i> assembly was required. Everything down to the shutter was
+in pieces, and unfortunately the instructions were obviously translated into English, meaning they were about as
+clear as mud. Thankfully I know my way around a film camera so everything was fairly easy to figure out, the biggest
+problem was that two of the shutter springs were mis-labelled. Once I figured that out assembly wasn't too bad.</p>
+<p>The quality is exactly what you would expect from a $25 dollar kit. Everything is plastic and on the flimsier side,
+but as completed kit it holds up okay. I will load it up with film and pick something to shoot in the next few days.
+Stay tuned for the results.</p>
+<p>Check out the kit at Amazon <a href="http://www.amazon.com/dp/B004PALJBA/">here</a>.</p>
+
+</article>
+<a href="/archive/"><h4 class='archive-link'>Archive</h4></a>
+</section>
+
+    </div>
+  </body>
+</html>
