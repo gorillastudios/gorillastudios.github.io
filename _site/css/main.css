@@ -135,8 +135,8 @@
 .fullscreen,
 .fullscreen body {
   //background: url('/images/rainy-day-man.jpg') no-repeat center center fixed;
-  //background: url('/images/black-white/sears-abstract.jpg') no-repeat center center fixed;
-  background: url('/images/portfolio/archways.jpg') no-repeat center center fixed;
+  background: url('/images/black-white/sears-abstract.jpg') no-repeat center center fixed;
+  //background: url('/images/portfolio/archways.jpg') no-repeat center center fixed;
   //background: url('/images/portfolio/sears-reach2.jpg') no-repeat center center fixed;
   //background: url('/images/portfolio/blue-sky-walk.jpg') no-repeat center center fixed;
   //background: url('/images/chicago/wrigley-clock.jpg') no-repeat center center fixed;
@@ -190,7 +190,18 @@
 
 .fullscreen-nav div {
   font-size: .8em;
-  padding-right: 10px; }
+  padding-right: 10px;
+}
+
+.index-info {
+  color: rgba(255,255,255,0.75);
+  font-size: .8em;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+
 
 @media screen and (max-width: 850px) {
   .index-anchor {
