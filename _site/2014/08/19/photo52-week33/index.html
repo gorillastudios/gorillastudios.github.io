@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gorilla-Studios - Week 33 - Kodiak</title>
+    <meta name="description" content="Gorilla-Studios Photography">
+    <link rel="canonical" href="http://www.gorilla-studios.com/2014/08/19/photo52-week33/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/gorilla.css">
+    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
+    <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/component.css">
+
+    <script src="/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/responsive-nav.js"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
+    <script src="/js/snap.svg-min.js"></script>
+</head>
+
+  <body>
+    <header class="site-header animated fadeIn">
+  <div class='row'>
+    <a class="site-title" href="/"><img src="/images/gostu-color.svg"/></a>
+    <div class="click-nav">
+      <ul class="no-js">
+        <li><a href="/blog/">Blog</a></li>
+        <li>
+          <a class="clicker">Portfolios</a>
+          <ul class='click-sub-nav'>
+            <li><a href="/portfolio/">Main</a></li>
+            <li><a href="/chicago/">Chicago</a></li>
+            <li><a href="/black-and-white/">Black &amp; White</a></li>
+            <li><a href="/nature/">Nature</a></li>
+            <li><a href="/music/">Music</a></li>
+          </ul>
+        </li>
+        <li><a href="/store/">Store</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  $(function () {
+    $('.click-nav > ul').toggleClass('no-js js');
+    $('.click-nav .js ul').hide();
+    $('.click-nav .js').click(function(e) {
+      $('.click-nav .js ul').slideToggle(200);
+      $('.clicker').toggleClass('active');
+      e.stopPropagation();
+    });
+    $(document).click(function() {
+      if ($('.click-nav .js ul').is(':visible')) {
+        $('.click-nav .js ul', this).slideUp();
+        $('.clicker').removeClass('active');
+      }
+    });
+  });
+</script>
+
+
+    <div class="page-content animated fadeIn">
+      <section class='blog-list'>
+<article>
+  <h1>Week 33 - Kodiak</h1>
+  <figure>
+  <img src="/images/kodiak/7.jpg">
+  <figcaption>Kodiak</figcaption>
+</figure>
+<p>Last week I went out with Kodiak, a local folk trio who just love playing
+music. They asked to go out and get a few promo shots, as well as some fun
+candids of them playing. We walked down to Montrose Beach on Lake Michigan and
+they just started playing while I was getting set up. We shot around various locations
+as the sun set, so I had to use a Speedlite on a remote trigger as fill light.
+I shot with a 70-200mm 2.8 which is kind of an odd choice for group portraits,
+but I like using it because I can stand rather far back and let them feel a bit
+more natural, its nice not shoving a camera in their faces while they are just
+trying to play. Additionally shooting at 3.5 or 4 really compresses and blows
+out the background, putting all the focus on the band. It was a ton of fun and
+I cant wait to be able to shoot them in concert soon.</p>
+
+</article>
+<a href="/archive/"><h4 class='archive-link'>Archive</h4></a>
+</section>
+
+    </div>
+  </body>
+</html>
