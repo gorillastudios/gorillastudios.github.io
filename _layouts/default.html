@@ -6,5 +6,12 @@
     <div class="page-content animated fadeIn">
       {{ content }}
     </div>
+    <script>
+      var myElement = document.querySelector(".site-header");
+      // construct an instance of Headroom, passing the element
+      var headroom  = new Headroom(myElement);
+      // initialise
+      headroom.init();
+    </script>
   </body>
 </html>

@@ -21,7 +21,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/js/responsive-nav.js"></script>
     <script src="/js/jquery.lazyload.min.js"></script>
-    <script src="/js/snap.svg-min.js"></script>
+    <script src="/js/headroom.min.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -100,17 +100,9 @@
   <img class='lazy' data-original='/images/portraits/byron.jpg' />
   <noscript><img src="/images/portraits/byron.jpg" /></noscript>
 </figure>
-<figure class='vertical'>
-  <img class='lazy' data-original='/images/portraits/meagan.jpg' />
-  <noscript><img src="/images/portraits/meagan.jpg" /></noscript>
-</figure>
 <figure>
   <img class='lazy' data-original='/images/posts/roman-candle.jpg' />
   <noscript><img src="/images/posts/roman-candle.jpg" /></noscript>
-</figure>
-<figure class='vertical'>
-  <img class='lazy' data-original='/images/portraits/andrew.jpg' />
-  <noscript><img src="/images/portraits/andrew.jpg" /></noscript>
 </figure>
 <figure class='vertical'>
   <img class='lazy' data-original='/images/kodiak/9.jpg' />
@@ -133,5 +125,12 @@
 
 
     </div>
+    <script>
+      var myElement = document.querySelector(".site-header");
+      // construct an instance of Headroom, passing the element
+      var headroom  = new Headroom(myElement);
+      // initialise
+      headroom.init();
+    </script>
   </body>
 </html>
