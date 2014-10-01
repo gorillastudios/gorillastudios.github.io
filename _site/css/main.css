@@ -71,11 +71,9 @@
 
 @media screen and (max-width: 600px) {
   body {
-    padding: 0 !important;
   }
   .site-header {
-    padding: 4% 0 80px 0 !important;
-    position: relative !important;
+    padding: 4% 0 10px 0 !important;
   }
   .site-title {
     display: block;
