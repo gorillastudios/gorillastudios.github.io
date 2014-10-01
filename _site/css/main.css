@@ -109,6 +109,8 @@
   position: fixed;
   right: 0;
   top: 0;
+  -webkit-transition-property: transform;
+  -webkit-transition-duration: 200ms;
   transition: transform 200ms linear;
   width: 100%;
   z-index: 10;
@@ -125,8 +127,14 @@
   max-width: 1500px;
 }
 
-.headroom--pinned { transform: translateY(0%); }
-.headroom--unpinned { transform: translateY(-100%); }
+.headroom--pinned {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
 
 
 
