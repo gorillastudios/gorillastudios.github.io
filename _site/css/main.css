@@ -280,6 +280,32 @@
   display: block;
 }
 
+/* Gallery Test */
+.banner {
+  position: relative;
+  overflow: auto;
+}
+.banner li {
+  list-style: none;
+  width: 100%;
+  position: relative;
+}
+.banner li img {
+  width: 100%;
+}
+.overlay {
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+}
+.overlay p {
+  color: white;
+  font-size: 80%;
+}
+.banner ul li { float: left; }
 
 /*
   ===============================================================
