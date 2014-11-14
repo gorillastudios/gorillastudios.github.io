@@ -282,7 +282,7 @@
   display: block;
 }
 .store figure {
-  display: block;
+  display: inline-block;
   border: 1px solid white;
   padding: 0;
 }
