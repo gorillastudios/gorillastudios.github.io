@@ -1,0 +1,64 @@
+---
+---
+
+/* ------------------------------------------------- =BL Blog Page */
+
+.blog-list article {
+  background: white;
+  margin-bottom: 5em;
+  padding: 1.5em 0;
+}
+.blog-list h1 {
+  border-bottom: 1px solid #eee;
+  padding: 0 2%;
+}
+.blog-list h2,
+.blog-list h3,
+.blog-list h4,
+.blog-list p {
+  padding: 0 20%;
+}
+.blog-list p {
+  margin: 1.75em 0;
+}
+.blog-list figure {
+  font-size: .8em;
+  margin: 0 0 1.5em 0;
+}
+.blog-list figure img {
+  width: 100%;
+}
+.blog-list figcaption {
+  font-size: .85em;
+  padding: 0 1em;
+}
+.blog-list figcaption span {
+  float: right;
+}
+.archive-link {
+  color: rgba(0,0,0,0.5);
+  text-align: center;
+  margin-top: -3em;
+  transition: all 0.15s ease-in;
+}
+.archive-link:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 650px) {
+  .page-content {
+    width: 100% !important;
+  }
+  .blog-list article h1,
+  .blog-list article h2,
+  .blog-list article h3,
+  .blog-list article p {
+      padding: 0 5%;
+  }
+  .blog-list article h1 {
+    font-size: 1.75em;
+    line-height: 1em;
+    margin-bottom: 0.75em;
+  }
+}
+

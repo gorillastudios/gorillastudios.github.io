@@ -1,2 +1,25 @@
 .store {
-  border-bottom: 1px solid red; }
+  margin: 0 auto;
+  width: 95%;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2; }
+  .store span a {
+    font-size: .9em;
+    font-weight: bold;
+    display: block; }
+  .store figure {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 0; }
+    .store figure figcaption {
+      padding: 3px 0; }
+
+@media screen and (max-width: 650px) {
+  .store {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1; }
+
+  .store figure {
+    margin-bottom: 20px; } }

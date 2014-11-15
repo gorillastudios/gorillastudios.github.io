@@ -1,0 +1,18 @@
+$red: #990000;
+
+@mixin sans-serif-heavy {
+  font-family: "jaf-bernino-sans-condensed", sans-serif;
+}
+
+@mixin sans-serif-light {
+  font-family: "freight-sans-pro";
+  font-weight: 300;
+}
+@mixin sans-serif {
+  font-family: "freight-sans-pro";
+  font-weight: 400;
+}
+@mixin sans-serif-bold {
+  font-family: "freight-sans-pro";
+  font-weight: 700;
+}

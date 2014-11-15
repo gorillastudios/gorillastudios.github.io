@@ -1,0 +1,76 @@
+.fullscreen,
+.fullscreen body {
+  background: url("/images/portfolio/masons-dock.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%; }
+
+.index-anchor {
+  position: fixed;
+  top: 3%;
+  left: 2%;
+  width: 10%;
+  z-index: 999;
+  -webkit-animation-delay: 1s !important;
+  -webkit-animation-duration: 2s !important; }
+  .index-anchor img {
+    max-width: 100%; }
+
+.fullscreen-nav {
+  bottom: 0;
+  display: block;
+  font-family: "jaf-bernino-sans-condensed", sans-serif;
+  font-size: 1.5em;
+  left: 50%;
+  padding-top: 10%;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+  text-transform: uppercase;
+  top: 0;
+  -webkit-animation-delay: 1s !important;
+  -webkit-animation-duration: 2s !important;
+  background: -moz-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.4)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#66000000',GradientType=1 );
+  /* IE6-9 */ }
+  .fullscreen-nav a {
+    color: white !important;
+    display: block;
+    padding: 5px 60px 5px 0;
+    width: 100%; }
+    .fullscreen-nav a:hover {
+      text-shadow: 0 0 25px rgba(0, 0, 0, 0.95);
+      cursor: pointer; }
+
+div.subnav {
+  font-size: .75em;
+  padding-right: 10px; }
+
+.index-info {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: .8em;
+  position: absolute;
+  right: 1em;
+  bottom: 1em; }
+
+@media screen and (max-width: 850px) {
+  .index-anchor {
+    width: 25%; } }
+@media screen and (max-width: 650px) {
+  .fullscreen-nav {
+    left: 0;
+    padding-top: 8%; }
+
+  .fullscreen-nav a {
+    padding-right: 15px; } }
