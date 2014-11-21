@@ -48,7 +48,7 @@ button:hover {
 
 @media screen and (max-width: 600px) {
   .module {
-    padding: 10px !important; }
+    padding: 30px 10px 10px 10px !important; }
 
   #contact-form .half {
     margin-bottom: 1em;
