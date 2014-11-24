@@ -21,6 +21,13 @@
 .blog-list p {
   margin: 1.75em 0;
 }
+.blog-list p a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .blog-list figure {
   font-size: .8em;
   margin: 0 0 1.5em 0;
