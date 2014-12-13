@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gorilla-Studios - Week 49 - Sedona Panorama</title>
+    <meta name="description" content="Gorilla-Studios Photography">
+    <link rel="canonical" href="http://www.gorilla-studios.com/2014/12/09/photo52-week49/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="/css/gorilla.css">
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/css/store.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
+    <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/component.css">
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="/js/responsive-nav.js"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
+    <script src="/js/headroom.min.js"></script>
+    <!-- <script src="/js/unslider.min.js"></script> -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-35144702-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+  <body>
+    <header class="site-header animated fadeIn">
+  <div class='row'>
+    <a class="site-title" href="/"><img src="/images/gostu-color.svg"/></a>
+    <div class="click-nav">
+      <ul class="no-js">
+        <li><a href="/blog/">Blog</a></li>
+        <li>
+          <a class="clicker">Portfolios</a>
+          <ul class='click-sub-nav'>
+            <li><a href="/portfolio/">Main</a></li>
+            <li><a href="/chicago/">Chicago</a></li>
+            <li><a href="/new-england/">New England</a></li>
+            <li><a href="/black-and-white/">Black &amp; White</a></li>
+            <li><a href="/nature/">Nature</a></li>
+            <li><a href="/music/">Music</a></li>
+          </ul>
+        </li>
+        <li><a href="/store/">Store</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  $(function () {
+    $('.click-nav > ul').toggleClass('no-js js');
+    $('.click-nav .js ul').hide();
+    $('.click-nav .js').click(function(e) {
+      $('.click-nav .js ul').slideToggle(200);
+      $('.clicker').toggleClass('active');
+      e.stopPropagation();
+    });
+    $(document).click(function() {
+      if ($('.click-nav .js ul').is(':visible')) {
+        $('.click-nav .js ul', this).slideUp();
+        $('.clicker').removeClass('active');
+      }
+    });
+  });
+</script>
+
+
+    <div class="page-content animated fadeIn">
+      <section class='blog-list'>
+<article>
+  <h1>Week 49 - Sedona Panorama</h1>
+  <figure>
+  <img src="/images/p52/49.jpg">
+  <figcaption>Sedona Arizona panorama<span>9 shot panorama</figcaption>
+</figure>
+<p>This past weekend was spent down in Sedona Arizona, just a quick trip down to see family and get some quick photos. I had never been down before so I wasn't sure exactly what to expect, but I was almost overwhelmed with the beauty and sheer size of some of the rock formations around town. The weather was pretty poor on day one, so it was spent mostly scouting for spots to shoot at when it did clear up. Day two was forecasted to me much nicer and clear all day so I packed up my gear and headed out to The Amitabha Stupa and Peace Park before the sun came up. Its nestled at the base of a few large rock formations, and out of the way enough where I was the only one there all morning.</p>
+<p>Even at 16mm I didn't have enough range to get everything I wanted, so I decided to shoot some panoramas, this time taking at least 6-10 shots for each final shot. I hiked up into the park a bit and found myself at a wonderful location just as the sun started creeping down the rockface. From what I understand Chimney Rock is off to the left, while Coffeepot Rock is on the right side. This particular photo is a composite of nine photos at about 20mm each, taken at sunrise. The final resolution is 23,132 x 7,193, which works out to a whopping 166MP, clocking in around 1GB.</p>
+<p>I had to adjust each photo before compositing because the exposure level was thrown off during panning due to the sun being very close to the right-most frame. Once they were all correctly exposed and color-balanced I ran them through Photoshop's Photomerge feature to combine them into one gargantuan file. From there I edited out a spot that was on the lens which showed up nine times, as well as a high-pass layer mask sharpening to make sure the sky stayed smooth while the rocks were as sharp as they could be.</p>
+<p>Getting nine exposures down into one large panorama is pretty tricky but I am getting much better. I hope to take what I have learned and use it for a 15-20 exposure panorama of the city skyline, but I have never stacked them both horizontally and vertically. We'll see how that goes.</p>
+
+</article>
+<a href="/archive/"><h4 class='archive-link'>Archive</h4></a>
+</section>
+
+    </div>
+    <script>
+      var myElement = document.querySelector(".site-header");
+      // construct an instance of Headroom, passing the element
+      var headroom  = new Headroom(myElement);
+      // initialise
+      headroom.init();
+    </script>
+  </body>
+</html>

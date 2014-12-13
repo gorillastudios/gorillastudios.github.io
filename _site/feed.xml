@@ -7,6 +7,22 @@
     <atom:link href="http://www.gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Week 49 - Sedona Panorama</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;/images/p52/49.jpg&quot;&gt;
+  &lt;figcaption&gt;Sedona Arizona panorama&lt;span&gt;9 shot panorama&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This past weekend was spent down in Sedona Arizona, just a quick trip down to see family and get some quick photos. I had never been down before so I wasn&#39;t sure exactly what to expect, but I was almost overwhelmed with the beauty and sheer size of some of the rock formations around town. The weather was pretty poor on day one, so it was spent mostly scouting for spots to shoot at when it did clear up. Day two was forecasted to me much nicer and clear all day so I packed up my gear and headed out to The Amitabha Stupa and Peace Park before the sun came up. Its nestled at the base of a few large rock formations, and out of the way enough where I was the only one there all morning.&lt;/p&gt;
+&lt;p&gt;Even at 16mm I didn&#39;t have enough range to get everything I wanted, so I decided to shoot some panoramas, this time taking at least 6-10 shots for each final shot. I hiked up into the park a bit and found myself at a wonderful location just as the sun started creeping down the rockface. From what I understand Chimney Rock is off to the left, while Coffeepot Rock is on the right side. This particular photo is a composite of nine photos at about 20mm each, taken at sunrise. The final resolution is 23,132 x 7,193, which works out to a whopping 166MP, clocking in around 1GB.&lt;/p&gt;
+&lt;p&gt;I had to adjust each photo before compositing because the exposure level was thrown off during panning due to the sun being very close to the right-most frame. Once they were all correctly exposed and color-balanced I ran them through Photoshop&#39;s Photomerge feature to combine them into one gargantuan file. From there I edited out a spot that was on the lens which showed up nine times, as well as a high-pass layer mask sharpening to make sure the sky stayed smooth while the rocks were as sharp as they could be.&lt;/p&gt;
+&lt;p&gt;Getting nine exposures down into one large panorama is pretty tricky but I am getting much better. I hope to take what I have learned and use it for a 15-20 exposure panorama of the city skyline, but I have never stacked them both horizontally and vertically. We&#39;ll see how that goes.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Dec 2014 00:00:00 -0600</pubDate>
+        <link>http://www.gorilla-studios.com/2014/12/09/photo52-week49/</link>
+        <guid isPermaLink="true">http://www.gorilla-studios.com/2014/12/09/photo52-week49/</guid>
+      </item>
+    
+      <item>
         <title>Week 48 - Family Portrait Shoot</title>
         <description>&lt;figure&gt;
   &lt;img src=&quot;/images/p52/48.jpg&quot;&gt;
@@ -175,29 +191,6 @@ pieces for my portfolio. Check out the rest of the shots &lt;a href=&#39;/bret-m
         <pubDate>Tue, 26 Aug 2014 00:00:00 -0500</pubDate>
         <link>http://www.gorilla-studios.com/2014/08/26/photo52-week34/</link>
         <guid isPermaLink="true">http://www.gorilla-studios.com/2014/08/26/photo52-week34/</guid>
-      </item>
-    
-      <item>
-        <title>Week 33 - Kodiak</title>
-        <description>&lt;figure&gt;
-  &lt;img src=&quot;/images/kodiak/7.jpg&quot;&gt;
-  &lt;figcaption&gt;Kodiak&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Last week I went out with Kodiak, a local folk trio who just love playing
-music. They asked to go out and get a few promo shots, as well as some fun
-candids of them playing. We walked down to Montrose Beach on Lake Michigan and
-they just started playing while I was getting set up. We shot around various locations
-as the sun set, so I had to use a Speedlite on a remote trigger as fill light.
-I shot with a 70-200mm 2.8 which is kind of an odd choice for group portraits,
-but I like using it because I can stand rather far back and let them feel a bit
-more natural, its nice not shoving a camera in their faces while they are just
-trying to play. Additionally shooting at 3.5 or 4 really compresses and blows
-out the background, putting all the focus on the band. It was a ton of fun and
-I cant wait to be able to shoot them in concert soon.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Aug 2014 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/2014/08/19/photo52-week33/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/2014/08/19/photo52-week33/</guid>
       </item>
     
   </channel>
