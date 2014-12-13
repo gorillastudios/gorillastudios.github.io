@@ -15,14 +15,6 @@
     .store figure figcaption {
       padding: 3px 0; }
 
-@media screen and (max-width: 650px) {
-  .store {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1; }
-
-  .store figure {
-    margin-bottom: 20px; } }
 .two-cols {
   margin: 0 auto;
   width: 95%;
@@ -32,3 +24,13 @@
   -webkit-column-gap: 10px; }
   .two-cols figure {
     margin-bottom: 10px; }
+
+@media screen and (max-width: 650px) {
+  .store,
+  .two-cols {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1; }
+
+  .store figure {
+    margin-bottom: 20px; } }

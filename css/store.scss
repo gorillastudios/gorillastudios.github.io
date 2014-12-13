@@ -22,16 +22,6 @@
   }
 }
 
-@media screen and (max-width: 650px) {
-  .store {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
-  .store figure {
-    margin-bottom: 20px;
-  }
-}
 
 
 
@@ -46,4 +36,16 @@
     margin-bottom: 10px;
   }
 
+}
+
+@media screen and (max-width: 650px) {
+  .store,
+  .two-cols {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  .store figure {
+    margin-bottom: 20px;
+  }
 }
