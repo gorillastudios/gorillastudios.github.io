@@ -1,71 +1,57 @@
 ---
 ---
-
-/* ------------------------------------------------- =BL Blog Page */
-
-.blog-list article {
-  background: white;
-  margin-bottom: 5em;
-  padding: 1.5em 0;
-}
-.blog-list h1 {
-  border-bottom: 1px solid #eee;
-  padding: 0 2%;
-}
-.blog-list h2,
-.blog-list h3,
-.blog-list h4,
-.blog-list p {
-  padding: 0 20%;
-}
-.blog-list p {
-  margin: 1.75em 0;
-}
-.blog-list p a {
-  text-decoration: underline;
-  &:hover {
-    text-decoration: none;
+.post {
+  margin-bottom: 2em;
+  h1, h2, h3, h4, p {
+    padding: 0 10px;
+  }
+  figure {
+    margin-bottom: 3em;
+  }
+  figcaption {
+    font-size: .8em;
+    padding: 0 20px;
+    span {
+      float: right;
+    }
+  }
+  img {
+    width: 100%;
   }
 }
 
-.blog-list figure {
-  font-size: .8em;
-  margin: 0 0 1.5em 0;
-}
-.blog-list figure img {
-  width: 100%;
-}
-.blog-list figcaption {
-  font-size: .85em;
-  padding: 0 1em;
-}
-.blog-list figcaption span {
-  float: right;
-}
 .archive-link {
   color: rgba(0,0,0,0.5);
+  margin-bottom: 1em;
   text-align: center;
-  margin-top: -3em;
   transition: all 0.15s ease-in;
 }
-.archive-link:hover {
-  color: #000;
-}
 
-@media screen and (max-width: 650px) {
-  .page-content {
-    width: 100% !important;
+@media screen and (min-width: 650px) {
+  .post {
+    h2, h3, h4 {
+      margin: 0 auto;
+      max-width: 900px;
+    }
+    p {
+      margin: 0 auto 1.5em auto;
+      max-width: 900px;
+    }
   }
-  .blog-list article h1,
-  .blog-list article h2,
-  .blog-list article h3,
-  .blog-list article p {
-      padding: 0 5%;
-  }
-  .blog-list article h1 {
-    font-size: 1.75em;
-    line-height: 1em;
-    margin-bottom: 0.75em;
+  .archive-link {
+    margin: 1em 0;
   }
 }
 
+
+
+@media screen and (min-width: 1400px) {
+  .post {
+    font-size: 130%;
+    margin: 0 auto;
+    max-width: 1200px;
+    p {
+      max-width: 85%;
+    }
+  }
+}

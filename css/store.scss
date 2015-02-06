@@ -2,20 +2,17 @@
 ---
 
 .store {
-  margin: 0 auto;
-  width: 95%;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
   span a {
     font-size: .9em;
     font-weight: bold;
     display: block;
   }
   figure {
-    display: inline-block;
-    border: 1px solid white;
     padding: 0;
+    margin: 0 0 20px 0;
     figcaption {
       padding: 3px 0;
     }
@@ -25,27 +22,18 @@
 
 
 
-.two-cols {
-  margin: 0 auto;
-  width: 95%;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 10px;
-  figure {
-    margin-bottom: 10px;
-  }
-
-}
-
-@media screen and (max-width: 650px) {
-  .store,
-  .two-cols {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
-  .store figure {
-    margin-bottom: 20px;
+@media screen and (min-width: 650px) {
+  .store {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    margin: 2em auto 0 auto;
+    max-width: 1400px;
+    padding: 0 20px;
+    figure {
+      margin-bottom: 40px;
+    }
   }
 }
