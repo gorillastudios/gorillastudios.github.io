@@ -18,6 +18,10 @@
   img {
     width: 100%;
   }
+  iframe {
+    min-height: 200px;
+    width: 100%;
+  }
 }
 
 .archive-link {
@@ -29,6 +33,7 @@
 
 @media screen and (min-width: 650px) {
   .post {
+    margin-bottom: 4em;
     h2, h3, h4 {
       margin: 0 auto;
       max-width: 900px;
@@ -36,6 +41,9 @@
     p {
       margin: 0 auto 1.5em auto;
       max-width: 900px;
+    }
+    iframe {
+      min-height: 700px;
     }
   }
   .archive-link {

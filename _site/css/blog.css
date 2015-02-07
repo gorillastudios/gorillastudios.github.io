@@ -11,6 +11,9 @@
       float: right; }
   .post img {
     width: 100%; }
+  .post iframe {
+    min-height: 200px;
+    width: 100%; }
 
 .archive-link {
   color: rgba(0, 0, 0, 0.5);
@@ -19,12 +22,16 @@
   transition: all 0.15s ease-in; }
 
 @media screen and (min-width: 650px) {
-  .post h2, .post h3, .post h4 {
-    margin: 0 auto;
-    max-width: 900px; }
-  .post p {
-    margin: 0 auto 1.5em auto;
-    max-width: 900px; }
+  .post {
+    margin-bottom: 4em; }
+    .post h2, .post h3, .post h4 {
+      margin: 0 auto;
+      max-width: 900px; }
+    .post p {
+      margin: 0 auto 1.5em auto;
+      max-width: 900px; }
+    .post iframe {
+      min-height: 700px; }
 
   .archive-link {
     margin: 1em 0; } }

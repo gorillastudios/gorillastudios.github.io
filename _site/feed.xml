@@ -7,6 +7,42 @@
     <atom:link href="http://www.gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Selective Sharpening</title>
+        <description>&lt;p&gt;This month has been exclusively shooting portraits of my daughter as we play in the morning, so my portrait editing skills have been getting better and better lately. Here is a sharpening technique that I have been working on recently. For most of my landscape work I just do a simple Unsharp Mask applied to the entire frame which isn&#39;t the best technique since it isn&#39;t that flexible..&lt;/p&gt;
+&lt;p&gt;In our example here we have a portait of Alison, zoomed in half way to get a good feel for whats happening. First I duplicate the background layer, then go to Filter &amp;gt; Other &amp;gt; High Pass.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/sharp/step1.jpg&quot;&gt;
+&lt;/figure&gt;
+&lt;p&gt;The layer will turn a dark grey with the edges of your subject are visible. I adjust the slider until the eyes are reaslly standing out a bit, but not too much. If you do go too high you can always adjust later, thats the great thing about this technique is its non-destructive and easily adjustable.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/sharp/high-pass.jpg&quot;&gt;
+&lt;/figure&gt;
+&lt;p&gt;Change the layer from Normal to Overlay. While holding Option click create layer mask. By holding Option it will fill the layer mask with black. On a layer mask black is transparent, showing the layer below, while white makes it opaque, showing the layer sharpened with our High Pass filter.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/sharp/overlay.jpg&quot;&gt;
+&lt;/figure&gt;
+&lt;p&gt;With the sharpened layer transparent, we can use our paint brush to selectively sharpen only what we want. Make sure you have the black layer mask selected:&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/sharp/select-mask.jpg&quot;&gt;
+&lt;/figure&gt;
+&lt;p&gt;Select a soft paint brush and make sure its white. Paint over the eyes and you can see the sharp layer coming through. You can see here I painted over her left eye - you can see how sharp it is compared to her right.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/sharp/mask.jpg&quot;&gt;
+&lt;/figure&gt;
+&lt;p&gt;I use this to paint over the eyes, nose, and lips, sometimes the ears and chin as well depending on the photo. Once you have painted over the areas you want to sharpen them, you can adjust the opacity of the layer to make sure its not too sharp.&lt;/p&gt;
+&lt;p&gt;By doing it this way we only sharpen what we want, and the rest of the photo is smooth - this is even better with photos taken at really wide apertures.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/sharp/final.jpg&quot;&gt;
+&lt;/figure&gt;
+&lt;p&gt;If you&#39;d like to see this technique in action here&#39;s a quick screencast:&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/SndYnCRfWpE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 07 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://www.gorilla-studios.com/tutorial/2015/02/07/selective-sharpening/</link>
+        <guid isPermaLink="true">http://www.gorilla-studios.com/tutorial/2015/02/07/selective-sharpening/</guid>
+      </item>
+    
+      <item>
         <title>Sedona</title>
         <description>&lt;figure&gt;
   &lt;img src=&quot;/images/sedona/1.jpg&quot;&gt;
@@ -205,24 +241,6 @@
         <pubDate>Wed, 01 Oct 2014 00:00:00 -0500</pubDate>
         <link>http://www.gorilla-studios.com/2014/10/01/phottex-ares/</link>
         <guid isPermaLink="true">http://www.gorilla-studios.com/2014/10/01/phottex-ares/</guid>
-      </item>
-    
-      <item>
-        <title>Week 36 - Alison Noel</title>
-        <description>&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/alison-portrait.jpg&quot;&gt;
-  &lt;figcaption&gt;Alison Noel&lt;span&gt;1/50th, f/2.8, ISO1600&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Last week was rather hectic, and now I am proud to post why: I am proud to
-introduce Alison Noel. My wife and I welcomed her into the world August 30th at 11:05am.
-After an amazing week she is starting to open her eyes and explore the world around
-her. I had her laying on her back on my legs while I played with a 50mm macro
-lens. She looked straight down the barrel and I snapped her first official
-portrait.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 06 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/2014/09/06/photo52-week36/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/2014/09/06/photo52-week36/</guid>
       </item>
     
   </channel>
