@@ -120,44 +120,18 @@ ul.post-list {
 }
 
 /* -------------------------------------------- Wallpapers */
-.wallpapers {
-  @include content-width;
-  overflow: hidden;
-  .intro {
-    display: none;
-    overflow: hidden;
-    section {
-      padding-top: 1em;
-    }
-    figure {
-      float: left;
-      width: 30%;
-    }
-    figure img {
-      width: 40%;
-    }
-  }
-}
 .iphone-gallery img {
-  float: left;
-  margin: 0.5%;
-  padding: 1%;
-  width: 24%;
+  padding: 10px;
+  width: 100%;
 }
-@media screen and (max-width: 768px) {
-  .iphone-gallery img {
-    margin: 1%;
-    width: 48%;
-  }
 
-}
-@media screen and (max-width: 600px) {
-  .wallpapers figure {
-    display: none;
+@media screen and (min-width: 650px) {
+  .iphone-gallery {
+    overflow: hidden;
+    padding-bottom: 10px;
   }
   .iphone-gallery img {
-    margin: 10px auto;
-    padding: 0 !important;
-    width: 100%;
+    float: left;
+    width: 25%;
   }
 }
