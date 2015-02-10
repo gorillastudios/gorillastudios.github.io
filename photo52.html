@@ -3,11 +3,9 @@ layout: page
 title: Photo52
 permalink: /photo52/
 ---
-<section class='blog-list'>
-  {% for post in site.tags.Photo52%}
-  <article>
+  {% for post in site.tags.Photo52 reversed %}
+  <article class='post'>
     <h1> {{ post.title }}</h1>
     {{ post.content }}
   </article>
   {% endfor %}
-</section>

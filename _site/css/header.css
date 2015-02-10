@@ -1,0 +1,68 @@
+header {
+  position: relative;
+  font-family: "jaf-bernino-sans-condensed", sans-serif; }
+
+.site-title img {
+  padding: 10px;
+  width: 30%; }
+
+.nav-toggle {
+  position: absolute;
+  top: 40px;
+  right: 20px; }
+
+.nav-collapse {
+  background: #f2f2f2;
+  padding: 0 10px;
+  overflow: hidden; }
+  .nav-collapse ul {
+    overflow: hidden; }
+  .nav-collapse section {
+    float: left;
+    padding: 10px 10px 0 0;
+    width: 50%; }
+  .nav-collapse a {
+    border-bottom: 1px solid white;
+    display: block;
+    color: black;
+    padding: 4px 0; }
+
+@media screen and (min-width: 650px) {
+  header {
+    margin: 0 auto;
+    max-width: 1400px;
+    overflow: hidden;
+    width: 95%; }
+    header .site-title img {
+      max-width: 150px; }
+    header .nav-collapse {
+      background: none;
+      overflow: hidden;
+      padding: 0 !important; }
+      header .nav-collapse ul {
+        display: block;
+        overflow: hidden; }
+      header .nav-collapse section {
+        padding-bottom: 1em; }
+      header .nav-collapse a {
+        border-bottom: 1px solid #f2f2f2;
+        color: #666; }
+        header .nav-collapse a:hover {
+          color: black; } }
+footer {
+  border: 1px solid #e5e4e0;
+  background: #FAFAF8;
+  overflow: hidden;
+  padding: 30px 10px; }
+  footer ul {
+    margin-bottom: 1em; }
+
+@media screen and (min-width: 650px) {
+  footer div {
+    padding: 40px 0;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 900px; }
+    footer div section {
+      float: left;
+      width: 33.333%; } }

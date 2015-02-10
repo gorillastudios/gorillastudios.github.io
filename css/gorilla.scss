@@ -12,7 +12,6 @@
 
 
 body {
-  padding-top: 200px;
   font-family: "freight-text-pro", Times, serif;
   font-size: 90%;
   line-height: 1.5;
@@ -67,13 +66,7 @@ figure.vertical figcaption {
 
 @media screen and (min-width: 650px) {
   body {
-    padding-top: 150px;
     font-size: 125%;
   }
 }
 
-@media screen and (min-width: 1100px) {
-  body {
-    padding-top: 180px;
-  }
-}

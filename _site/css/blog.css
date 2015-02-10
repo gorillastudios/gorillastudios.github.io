@@ -24,9 +24,13 @@
 @media screen and (min-width: 650px) {
   .post {
     margin-bottom: 4em; }
+    .post h1 {
+      margin: 0 auto;
+      width: 95%; }
     .post h2, .post h3, .post h4 {
       margin: 0 auto;
-      max-width: 900px; }
+      max-width: 900px;
+      border: 1px solid blue; }
     .post p {
       margin: 0 auto 1.5em auto;
       max-width: 900px; }
