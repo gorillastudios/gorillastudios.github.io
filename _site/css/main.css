@@ -75,7 +75,7 @@
     padding: 0; } }
 /* ------------------------------------------------- =AR Archive */
 ul.post-list {
-  padding: 0 10px;
+  padding: 40px;
   -webkit-column-count: 1;
   column-count: 1; }
   ul.post-list span {
