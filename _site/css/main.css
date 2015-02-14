@@ -27,52 +27,31 @@
 
   .divider:before {
     top: 12px; } }
-/* ------------------------------------------- =PO */
+/* --------------------------------------- PORTFOLIOS */
 .portfolio figure {
   margin-bottom: 2em;
   overflow: hidden; }
-
-.portfolio figure img {
-  width: 100%; }
+  .portfolio figure img {
+    width: 100%; }
 
 .portfolio figcaption {
   color: rgba(0, 0, 0, 0.5);
-  font-size: .70em;
-  padding: 5px 20px 10px 20px; }
-
-.portfolio figcaption span {
-  float: right; }
-
-.for-sale span a {
-  color: rgba(0, 0, 0, 0.5); }
-
-.for-sale span a:hover {
-  color: #000; }
-
-@media screen and (max-width: 650px) {
-  figure.vertical img {
-    max-width: 1000% !important; }
-
-  figcaption {
-    width: 100% !important; }
-
-  .portfolio figure {
-    padding-bottom: 1em; }
-
-  figcaption {
-    font-size: 1em !important;
-    padding: 5px 10px !important; }
-
-  figcaption span {
+  padding: 5px 10px; }
+  .portfolio figcaption span {
     display: inline-block;
     width: 100%; }
+    .portfolio figcaption span a {
+      color: rgba(0, 0, 0, 0.5); }
+      .portfolio figcaption span a:hover {
+        color: #000; }
 
-  .other-portfolios a {
-    height: 100px;
-    width: 100%; }
-
-  .for-sale span a {
-    padding: 0; } }
+@media screen and (min-width: 650px) {
+  figcaption {
+    font-size: 0.75em; }
+    figcaption span {
+      float: right;
+      display: block;
+      width: auto !important; } }
 /* ------------------------------------------------- =AR Archive */
 ul.post-list {
   padding: 40px;

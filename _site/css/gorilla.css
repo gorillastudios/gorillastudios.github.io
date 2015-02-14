@@ -53,13 +53,13 @@ figure img {
   margin: 0 auto;
   max-width: 100%; }
 
-figure.vertical img {
-  max-width: 60%; }
-
-figure.vertical figcaption {
-  margin: 0 auto;
-  width: 60%; }
-
 @media screen and (min-width: 650px) {
   body {
-    font-size: 125%; } }
+    font-size: 125%; }
+
+  figure.vertical img {
+    max-width: 60%; }
+
+  figure.vertical figcaption {
+    margin: 0 auto;
+    width: 60%; } }
