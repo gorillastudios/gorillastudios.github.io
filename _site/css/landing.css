@@ -8,7 +8,7 @@
   position: fixed;
   top: 3%;
   left: 2%;
-  width: 10%;
+  width: 25%;
   z-index: 999;
   -webkit-animation-delay: 1s !important;
   -webkit-animation-duration: 2s !important; }
@@ -16,16 +16,17 @@
     max-width: 100%; }
 
 .fullscreen-nav {
+  font-family: "freight-sans-pro";
+  font-weight: 500;
   bottom: 0;
   display: block;
-  font-family: "jaf-bernino-sans-condensed", sans-serif;
   font-size: 1.5em;
   left: 50%;
   padding-top: 10%;
   position: absolute;
   right: 0;
   text-align: right;
-  text-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.95);
   text-transform: uppercase;
   top: 0;
   -webkit-animation-delay: 1s !important;
@@ -42,12 +43,12 @@
   /* IE10+ */
   background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#66000000',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=1 );
   /* IE6-9 */ }
   .fullscreen-nav a {
     color: white !important;
     display: block;
-    padding: 5px 60px 5px 0;
+    padding: 5px 10px 5px 0;
     width: 100%; }
     .fullscreen-nav a:hover {
       text-shadow: 0 0 25px rgba(0, 0, 0, 0.95);
@@ -63,14 +64,3 @@ div.subnav {
   position: absolute;
   right: 1em;
   bottom: 1em; }
-
-@media screen and (max-width: 850px) {
-  .index-anchor {
-    width: 25%; } }
-@media screen and (max-width: 650px) {
-  .fullscreen-nav {
-    left: 0;
-    padding-top: 20px; }
-
-  .fullscreen-nav a {
-    padding-right: 15px; } }

@@ -22,3 +22,29 @@
     padding: 0 20px; }
     .store figure {
       margin-bottom: 40px; } }
+#store-splash {
+  font-family: "freight-sans-pro";
+  font-weight: 400;
+  background-image: url("/images/blur.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 280px 0 0 0; }
+  #store-splash div {
+    color: white;
+    background: #262626;
+    padding: 20px; }
+    #store-splash div p {
+      color: #999;
+      line-height: 1.25em;
+      font-size: 0.9em; }
+
+@media screen and (min-width: 650px) {
+  #store-splash {
+    overflow: hidden;
+    padding: 0; }
+    #store-splash div {
+      float: right;
+      padding: 150px 40px 120px 40px;
+      width: 50%; } }

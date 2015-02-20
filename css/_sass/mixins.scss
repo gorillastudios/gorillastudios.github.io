@@ -19,6 +19,11 @@ $red: #990000;
   font-family: "freight-sans-pro";
   font-weight: 400;
 }
+@mixin sans-serif-medium {
+  font-family: "freight-sans-pro";
+  font-weight: 500;
+}
+
 @mixin sans-serif-bold {
   font-family: "freight-sans-pro";
   font-weight: 700;

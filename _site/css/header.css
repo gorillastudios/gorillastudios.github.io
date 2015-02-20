@@ -1,31 +1,29 @@
 header {
-  position: relative;
-  font-family: "jaf-bernino-sans-condensed", sans-serif; }
-
-.site-title img {
-  padding: 10px;
-  width: 30%; }
-
-.nav-toggle {
-  position: absolute;
-  top: 40px;
-  right: 20px; }
-
-.nav-collapse {
-  background: #f2f2f2;
-  padding: 0 10px;
-  overflow: hidden; }
-  .nav-collapse ul {
+  font-family: "freight-sans-pro";
+  font-weight: 400;
+  position: relative; }
+  header .site-title img {
+    padding: 10px;
+    width: 30%; }
+  header .nav-toggle {
+    position: absolute;
+    top: 40px;
+    right: 20px; }
+  header .nav-collapse {
+    background: #f2f2f2;
+    padding: 0 10px;
     overflow: hidden; }
-  .nav-collapse section {
-    float: left;
-    padding: 10px 10px 0 0;
-    width: 50%; }
-  .nav-collapse a {
-    border-bottom: 1px solid white;
-    display: block;
-    color: black;
-    padding: 4px 0; }
+    header .nav-collapse ul {
+      overflow: hidden; }
+    header .nav-collapse section {
+      float: left;
+      padding: 10px 10px 0 0;
+      width: 50%; }
+    header .nav-collapse a {
+      border-bottom: 1px solid white;
+      display: block;
+      color: black;
+      padding: 4px 0; }
 
 @media screen and (min-width: 650px) {
   header {
