@@ -15,22 +15,29 @@ header {
     right: 20px;
   }
   .nav-collapse {
-    background: #f2f2f2;
+    background: #f9f9f9;
     padding: 0 10px;
     overflow: hidden;
     ul {
       overflow: hidden;
+      padding-bottom: 20px;
     }
     section {
       float: left;
       padding: 10px 10px 0 0;
       width: 50%;
     }
+    li:last-child a {
+      border: none;
+    }
+    h4 {
+      padding-left: 4px;
+    }
     a {
       border-bottom: 1px solid white;
       display: block;
-      color: black;
-      padding: 4px 0;
+      color: #444;
+      padding: 4px;
     }
   }
 }
@@ -40,10 +47,14 @@ header {
   header {
     margin: 0 auto;
     max-width: 1400px;
+    padding: 20px 0;
     overflow: hidden;
     width: 95%;
     .site-title img {
       max-width: 150px;
+    }
+    .nav-toggle {
+      top: 60px;
     }
     .nav-collapse {
       background: none;
@@ -58,9 +69,10 @@ header {
       }
       a {
         border-bottom: 1px solid #f2f2f2;
-        color: #666;
+        color: #777;
         &:hover {
           color: black;
+          background: #f9f9f9;
         }
       }
     }
@@ -75,7 +87,7 @@ header {
 
 footer {
   border: 1px solid #e5e4e0;
-  background: #FAFAF8;
+  background: #f0eded;
   overflow: hidden;
   padding: 30px 10px;
   ul {

@@ -2,6 +2,8 @@
   margin-bottom: 2em; }
   .post h1, .post h2, .post h3, .post h4, .post p {
     padding: 0 10px; }
+  .post h1 {
+    font-weight: 700; }
   .post figure {
     margin-bottom: 3em; }
   .post figcaption {

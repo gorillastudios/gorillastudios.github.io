@@ -10,29 +10,37 @@ header {
     top: 40px;
     right: 20px; }
   header .nav-collapse {
-    background: #f2f2f2;
+    background: #f9f9f9;
     padding: 0 10px;
     overflow: hidden; }
     header .nav-collapse ul {
-      overflow: hidden; }
+      overflow: hidden;
+      padding-bottom: 20px; }
     header .nav-collapse section {
       float: left;
       padding: 10px 10px 0 0;
       width: 50%; }
+    header .nav-collapse li:last-child a {
+      border: none; }
+    header .nav-collapse h4 {
+      padding-left: 4px; }
     header .nav-collapse a {
       border-bottom: 1px solid white;
       display: block;
-      color: black;
-      padding: 4px 0; }
+      color: #444;
+      padding: 4px; }
 
 @media screen and (min-width: 650px) {
   header {
     margin: 0 auto;
     max-width: 1400px;
+    padding: 20px 0;
     overflow: hidden;
     width: 95%; }
     header .site-title img {
       max-width: 150px; }
+    header .nav-toggle {
+      top: 60px; }
     header .nav-collapse {
       background: none;
       overflow: hidden;
@@ -44,14 +52,15 @@ header {
         padding-bottom: 1em; }
       header .nav-collapse a {
         border-bottom: 1px solid #f2f2f2;
-        color: #666; }
+        color: #777; }
         header .nav-collapse a:hover {
-          color: black; } }
+          color: black;
+          background: #f9f9f9; } }
 /* Footer
 ----------------------------------------------- */
 footer {
   border: 1px solid #e5e4e0;
-  background: #FAFAF8;
+  background: #f0eded;
   overflow: hidden;
   padding: 30px 10px; }
   footer ul {
