@@ -91,6 +91,9 @@
   div {
     padding: 30px 20px;
     width: 50%;
+    h4 {
+      color: $salmon;
+    }
     h3 {
       @include sans-serif-bold;
       line-height: 1.15em;
@@ -102,6 +105,7 @@
     }
     p.categories {
       margin-bottom: 0;
+      font-size: 0.9em;
       text-transform: uppercase;
     }
   }

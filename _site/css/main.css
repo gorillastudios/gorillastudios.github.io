@@ -59,6 +59,8 @@
   .blog-preview div {
     padding: 30px 20px;
     width: 50%; }
+    .blog-preview div h4 {
+      color: #c14e51; }
     .blog-preview div h3 {
       font-family: "freight-sans-pro";
       font-weight: 700;
@@ -70,6 +72,7 @@
       line-height: 1.2em; }
     .blog-preview div p.categories {
       margin-bottom: 0;
+      font-size: 0.9em;
       text-transform: uppercase; }
 
 @media screen and (min-width: 650px) {

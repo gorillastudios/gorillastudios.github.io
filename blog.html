@@ -8,6 +8,7 @@ permalink: /blog/
 <a href="{{ post.url }}" class='blog-preview'>
 <section style="background: url('/images/{{ post.hero }}')">
   <div class='post-preview'>
+    <h4>{{ post.date | date: "%B %-d %Y" }}</h4>
     <h3>{{ post.title }}</h3>
     <p>{{ post.intro }}</p>
     <p class='categories'>{{ post.category }}</p>
