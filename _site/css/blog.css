@@ -21,7 +21,8 @@
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 1em;
   text-align: center;
-  transition: all 0.15s ease-in; }
+  transition: all 0.15s ease-in;
+  margin: 1em 0; }
 
 @media screen and (min-width: 650px) {
   .post {

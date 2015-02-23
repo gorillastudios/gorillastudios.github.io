@@ -38,7 +38,86 @@
 }
 
 
+/* --------------------------------------- BLOG INDEX */
 
+.blog-preview-container {
+  section {
+    overflow: hidden;
+  }
+  a section div {
+    transition: all 0.25s ease-in-out;
+  }
+  a:nth-child(odd) {
+    section div {
+      background: $slate;
+      color: white;
+      h3, p {
+        color: white;
+      }
+      p.categories {
+        color: #999;
+      }
+    }
+    &:hover {
+      section div {
+        background: lighten($slate, 5%);
+      }
+    }
+  }
+  a:nth-child(even) {
+    section div {
+      background: $cream;
+      float: right;
+      p.categories {
+        color: #b7adad;
+      }
+    }
+    &:hover {
+      section div {
+        background: darken($cream, 4%);
+        color: black;
+      }
+    }
+  }
+}
+
+.blog-preview {
+  display: block;
+  overflow: hidden;
+  section {
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+  }
+  div {
+    padding: 30px 20px;
+    width: 50%;
+    h3 {
+      @include sans-serif-bold;
+      line-height: 1.15em;
+      margin-bottom: 10px;
+    }
+    p {
+      @include sans-serif;
+      line-height: 1.2em;
+    }
+    p.categories {
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .blog-preview section div {
+    padding: 80px 60px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blog-preview section div {
+    padding: 120px 100px;
+  }
+}
 
 
 /* --------------------------------------- PORTFOLIOS */

@@ -27,6 +27,57 @@
 
   .divider:before {
     top: 12px; } }
+/* --------------------------------------- BLOG INDEX */
+.blog-preview-container section {
+  overflow: hidden; }
+.blog-preview-container a section div {
+  transition: all 0.25s ease-in-out; }
+.blog-preview-container a:nth-child(odd) section div {
+  background: #262626;
+  color: white; }
+  .blog-preview-container a:nth-child(odd) section div h3, .blog-preview-container a:nth-child(odd) section div p {
+    color: white; }
+  .blog-preview-container a:nth-child(odd) section div p.categories {
+    color: #999; }
+.blog-preview-container a:nth-child(odd):hover section div {
+  background: #333333; }
+.blog-preview-container a:nth-child(even) section div {
+  background: #f0eded;
+  float: right; }
+  .blog-preview-container a:nth-child(even) section div p.categories {
+    color: #b7adad; }
+.blog-preview-container a:nth-child(even):hover section div {
+  background: #e7e2e2;
+  color: black; }
+
+.blog-preview {
+  display: block;
+  overflow: hidden; }
+  .blog-preview section {
+    background-size: cover !important;
+    background-position: 50% 50% !important; }
+  .blog-preview div {
+    padding: 30px 20px;
+    width: 50%; }
+    .blog-preview div h3 {
+      font-family: "freight-sans-pro";
+      font-weight: 700;
+      line-height: 1.15em;
+      margin-bottom: 10px; }
+    .blog-preview div p {
+      font-family: "freight-sans-pro";
+      font-weight: 400;
+      line-height: 1.2em; }
+    .blog-preview div p.categories {
+      margin-bottom: 0;
+      text-transform: uppercase; }
+
+@media screen and (min-width: 650px) {
+  .blog-preview section div {
+    padding: 80px 60px; } }
+@media screen and (min-width: 1000px) {
+  .blog-preview section div {
+    padding: 120px 100px; } }
 /* --------------------------------------- PORTFOLIOS */
 .portfolio figure {
   margin-bottom: 2em;
