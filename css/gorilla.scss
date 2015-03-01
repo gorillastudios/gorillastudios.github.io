@@ -13,10 +13,9 @@
 
 
 body {
-  font-family: "freight-text-pro", Times, serif;
+  @include serif;
   font-size: 90%;
   line-height: 1.5;
-  font-weight: 300;
   webkit-backface-visibility: hidden;
   -webkit-font-smoothing: antialiased; }
 

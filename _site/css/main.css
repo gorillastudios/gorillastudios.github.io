@@ -3,7 +3,7 @@
   position: relative;
   text-align: center; }
   .divider p {
-    font-family: "freight-sans-pro";
+    font-family: "freight-sans-pro", sans-serif;
     font-weight: 300;
     background: #fff;
     font-size: .8em;
@@ -62,12 +62,12 @@
     .blog-preview div h4 {
       color: #c14e51; }
     .blog-preview div h3 {
-      font-family: "freight-sans-pro";
+      font-family: "freight-sans-pro", sans-serif;
       font-weight: 700;
       line-height: 1.15em;
       margin-bottom: 10px; }
     .blog-preview div p {
-      font-family: "freight-sans-pro";
+      font-family: "freight-sans-pro", sans-serif;
       font-weight: 400;
       line-height: 1.2em; }
     .blog-preview div p.categories {

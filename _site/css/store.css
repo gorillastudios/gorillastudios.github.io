@@ -23,7 +23,7 @@
     .store figure {
       margin-bottom: 40px; } }
 #store-splash {
-  font-family: "freight-sans-pro";
+  font-family: "freight-sans-pro", sans-serif;
   font-weight: 400;
   background-image: url("/images/blur.jpg");
   background-position: 50% 50%;
@@ -43,6 +43,7 @@
 @media screen and (min-width: 650px) {
   #store-splash {
     overflow: hidden;
+    font-size: 1.25em;
     padding: 0; }
     #store-splash div {
       float: right;

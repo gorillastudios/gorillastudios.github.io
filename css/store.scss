@@ -44,7 +44,7 @@
   padding: 280px 0 0 0;
   div {
     color: white;
-    background: #262626;
+    background: $slate;
     padding: 20px;
     p {
       color: #999;
@@ -57,6 +57,7 @@
 @media screen and (min-width: 650px) {
   #store-splash {
     overflow: hidden;
+    font-size: 1.25em;
     padding: 0;
     div {
       float: right;
