@@ -43,7 +43,7 @@
   /* IE10+ */
   background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#66000000',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=1 );
   /* IE6-9 */ }
   .fullscreen-nav a {
     color: white !important;
