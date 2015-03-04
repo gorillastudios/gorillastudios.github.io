@@ -5,15 +5,14 @@ permalink: /blog/
 ---
 <div class='blog-preview-container'>
 {% for post in site.posts limit:10 %}
-<a href="{{ post.url }}" class='blog-preview'>
-<section style="background: url('/images/{{ post.hero }}')">
+<a href="{{ post.url }}" class='new-blog-preview'>
+  <div class='hero' style="background: url('/images/{{ post.hero }}')"></div>
   <div class='post-preview'>
     <h4>{{ post.date | date: "%B %-d %Y" }}</h4>
     <h3>{{ post.title }}</h3>
     <p>{{ post.intro }}</p>
     <p class='categories'>{{ post.category }}</p>
   </div>
-</section>
 </a>
 {% endfor %}
 </div>

@@ -41,16 +41,32 @@
 /* --------------------------------------- BLOG INDEX */
 
 .blog-preview-container {
-  section {
+  a {
+    display: block;
     overflow: hidden;
-  }
-  a section div {
-    transition: all 0.25s ease-in-out;
+    position: relative;
+    div {
+      float: right;
+      width: 50%;
+    }
+    div.hero {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      right: 50%;
+      bottom: 0;
+      top: 0;
+    }
   }
   a:nth-child(odd) {
-    section div {
+    div.hero {
+      left: 50%;
+      right: 0;
+    }
+    div.post-preview {
       background: $slate;
       color: white;
+      float: left;
       h3, p {
         color: white;
       }
@@ -59,13 +75,13 @@
       }
     }
     &:hover {
-      section div {
+      div {
         background: lighten($slate, 5%);
       }
     }
   }
   a:nth-child(even) {
-    section div {
+    div {
       background: $cream;
       float: right;
       p.categories {
@@ -73,7 +89,7 @@
       }
     }
     &:hover {
-      section div {
+      div {
         background: darken($cream, 4%);
         color: black;
       }
@@ -81,10 +97,10 @@
   }
 }
 
-.blog-preview {
+.new-blog-preview {
   display: block;
   overflow: hidden;
-  section {
+  div.hero {
     background-size: cover !important;
     background-position: 50% 50% !important;
   }
@@ -112,13 +128,13 @@
 }
 
 @media screen and (min-width: 650px) {
-  .blog-preview section div {
+  .new-blog-preview div {
     padding: 80px 60px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .blog-preview section div {
+  .new-blog-preview div {
     padding: 120px 100px;
   }
 }
