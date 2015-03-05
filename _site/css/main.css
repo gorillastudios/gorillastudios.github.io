@@ -126,6 +126,7 @@ ul.post-list {
   -webkit-column-count: 1;
   column-count: 1; }
   ul.post-list span {
+    color: #c14e51;
     font-size: 0.8em; }
 
 @media screen and (min-width: 650px) {
