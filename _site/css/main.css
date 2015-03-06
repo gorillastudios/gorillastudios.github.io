@@ -97,7 +97,7 @@
     padding: 120px 100px; } }
 /* --------------------------------------- PORTFOLIOS */
 .portfolio figure {
-  margin-bottom: 2em;
+  margin: 0 auto 4em auto;
   overflow: hidden; }
   .portfolio figure img {
     width: 100%; }
