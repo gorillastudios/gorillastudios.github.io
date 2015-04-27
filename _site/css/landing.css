@@ -1,6 +1,6 @@
 .fullscreen,
 .fullscreen body {
-  background: url("/images/chicago/bendy-chicago.jpg") no-repeat center center fixed;
+  background: url("/images/covers/tower-bridge-sunset.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden; }
@@ -19,6 +19,7 @@
 .fullscreen-nav {
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 500;
+  background: rgba(0, 0, 0, 0.25);
   bottom: 0;
   display: block;
   font-size: 1.5em;
