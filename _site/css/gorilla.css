@@ -54,6 +54,13 @@ figure img {
   margin: 0 auto;
   max-width: 100%; }
 
+p.notice {
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  font-style: italic;
+  padding: 10px 20px; }
+
 @media screen and (min-width: 650px) {
   body {
     font-size: 125%; }
@@ -63,4 +70,12 @@ figure img {
 
   figure.vertical figcaption {
     margin: 0 auto;
-    width: 60%; } }
+    width: 60%; }
+
+  p.notice {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin: 0 auto 3em auto;
+    text-align: center;
+    max-width: 1200px;
+    width: 90%; } }
