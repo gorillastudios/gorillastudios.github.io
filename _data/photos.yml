@@ -1,0 +1,267 @@
+- title: Manhattan and the Brooklyn Bridge
+  image_path: images/portfolio/brooklyn-bridge2.jpg
+  exposure: f/8, ISO50, 30s
+  tags: new-york, architecture, cityscape, manhattan, brooklyn bridge
+
+- title: <i>Archways</i>
+  image_path: images/portfolio/archways.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, sculpture
+
+- title: Sunset at Masons Island
+  image_path: images/portfolio/masons-dock.jpg
+  exposure: f/8, ISO50, 30s
+  tags: connecticut, new-england, sunset
+
+- title: Fresh snow at Leroy Oaks
+  image_path: images/portfolio/leroy-oaks.jpg
+  exposure: f/8, ISO50, 30s
+  tags: illinois, snow, snowscape, winter
+
+- title: Pritzker Pavilion
+  image_path: images/portfolio/pritzker.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, skyline, winter, architecture
+
+- title: Cloud Gate Snowstorm
+  image_path: images/portfolio/snowy-bean.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, skyline, winter, architecture, cloud gate, the-bean
+
+- title: The London Eye
+  image_path: images/portfolio/london-eye.jpg
+  exposure: f/8, ISO50, 30s
+  tags: london, england, architecture, london-eye, cityscape, sunset
+
+- title: The schooner <i>Lynx</i> rounding the Chicago Harbor Light
+  image_path: images/portfolio/rainy-sails.jpg
+  exposure: f/8, ISO50, 30s
+  tags: nautical, chicago, lake-michigan, lighthouse, rain
+
+- title: <i>Reach for the sky</i>
+  image_path: images/portfolio/sears-reach2.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, skyscraper, architecture, black-and-white, cityscape
+
+- title: <i>Dance</i>
+  image_path: images/portfolio/dance.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, cloud-gate, the-bean, black-and-white
+
+- title: The Wrigley Building and Trump Tower
+  image_path: images/chicago/wrigley-trump.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, wrigley-building, trump-tower
+
+- title: <i>Chicago Sunset</i>
+  image_path: images/chicago/sunrays2.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, sunset, sears-tower
+
+- title: Grant Park
+  image_path: images/chicago/grant-park.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, sunset, trump-tower, aon-center, grant-park, skyscraper
+
+- title: The Adler Planetarium at sunrise
+  image_path: images/chicago/sunset-adler.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, sunrise, lake-michigan, adler-planetarium
+
+- title: Adams &amp; Wabash L Platform
+  image_path: images/chicago/over-the-l.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, the-l, trump-tower
+
+- title: The John Hancock building at dusk
+  image_path: images/chicago/hancock-lsd.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, hancock-building, long-exposure, dusk
+
+- title: Trump Tower and the Chicago River
+  orientation: vertical
+  image_path: images/chicago/trump2.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, trump-tower, winter, chicago-river
+
+- title: The John Hancock building
+  image_path: images/chicago/inky-lake2.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, hancock-building, trump-tower, lake-michigan, black-and-white, long-exposure
+
+- title: Sears Tower skyboxes
+  image_path: images/chicago/blue-sky-walk.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, abstract, sears-tower
+
+- title: <i>Cloud Gate</i> sunset during winter
+  image_path: images/chicago/winter-bean.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, cityscape, cloud-gate, the-bean, winter
+
+- title: A stormfront rolls in over the Sears Tower
+  orientation: vertical
+  image_path: images/chicago/sears-storm2.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, sears-tower, black-and-white
+
+- title: Chicago skyline at dusk
+  image_path: images/chicago/chicago-skyline.jpg
+  exposure: f/8, ISO50, 30s
+  tags: chicago, architecture, sears-tower, cityscape, lake-michigan, trump-tower
+
+- title: The London Eye and Thames River
+  image_path: images/london/london-eye-2015.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, river-thames, long-exposure, dusk, london-eye
+
+- title: Elizabeth Tower
+  orientation: vertical
+  image_path: images/london/elizabeth-tower-bw-vertical.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, elizabeth-tower, black-and-white
+
+- title: The National Gallery
+  image_path: images/london/national-gallery.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, panorama, dusk, trafalgar-square
+
+- title: Sunset at Tower Bridge
+  image_path: images/london/tower-bridge-sunset.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, sunset, tower-bridge, river-thames
+
+- title: Shad Thames
+  orientation: vertical
+  image_path: images/london/shad-thames.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, black-and-white
+
+- title: Her Majestys Household Cavalry
+  image_path: images/london/cavalry.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london
+
+- title: Whitehall Street
+  orientation: vertical
+  image_path: images/london/whitehall-street.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, long-exposure, dusk
+
+- title: St. Pauls Cathedral and Millenium Bridge
+  image_path: images/london/st-pauls.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, black-and-white
+
+- title: Bishops Gate Road
+  image_path: images/london/shoreditch-high-street.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, cityscape, black-and-white
+
+- title: Tower Bridge 180&deg; panorama
+  image_path: images/london/tower-pano-second.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, cityscape, tower-bridge, river-thames, panorama
+
+- title: Liverpool Street Station
+  image_path: images/london/liverpool-station.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, black-and-white, panorama
+
+- title: The Bridge Lounge
+  image_path: images/london/bridge-lounge.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, long-exposure, dusk
+
+- title: Trafalgar Square 180&deg; panorama
+  image_path: images/london/trafalgar-square.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, long-exposure, dusk, panorama, cityscape, trafalgar-square
+
+- title: Elizabeth Tower and the River Thames
+  image_path: images/london/elizabeth-tower.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, cityscape, river-thames, black-and-white, elizabeth-tower
+
+- title: The lions of Trafalgar Square
+  image_path: images/london/lions-tower.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, trafalgar-square, long-exposure, elizabeth-tower
+
+- title: National Gallery fountain
+  image_path: images/london/gallery-fountain.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, trafalgar-square, long-exposure, dusk
+
+- title: Her Majestys Household Cavalry Life Guard
+  orientation: vertical
+  image_path: images/london/cavalry-guard.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, black-and-white
+
+- title: The Shard from Tooley Street
+  image_path: images/london/shard-streaks.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, long-exposure, cityscape, dusk
+
+- title: Trump Tower
+  image_path: images/black-white/trump-abstract.jpg
+  exposure: f/8, ISO50, 60s
+  tags: chicago, trump-tower, architecture, black-and-white, skyscraper
+
+- title: Aqua building, Chicago
+  image_path: images/chicago/waves.jpg
+  exposure: f/8, ISO50, 60s
+  tags: chicago, architecture, black-and-white, abstract
+
+- title: Manhattan skyline
+  image_path: images/p52/25.jpg
+  exposure: f/8, ISO50, 60s
+  tags: new-york, manhattan, architecture, black-and-white, cityscape, skyscraper, long-exposure
+
+- title: The London Eye
+  image_path: images/union/7.jpg
+  exposure: f/8, ISO50, 60s
+  tags: london, london-eye, black-and-white
+
+- title: <i>Glass &amp; Steel</i>
+  image_path: images/union/28.jpg
+  exposure: f/8, ISO50, 60s
+  tags: chicago, architecture, black-and-white
+
+- title: The Flatiron Building
+  image_path: images/portfolio/flatiorn-horiz.jpg
+  exposure: f/8, ISO50, 60s
+  tags: new-york, black-and-white, cityscape, architecture, long-exposure, manhattan
+
+- title: Art Institute of Chicago
+  image_path: images/black-white/lion-spotlight.jpg
+  exposure: f/8, ISO50, 60s
+  tags: chicago, sculpture, black-and-white
+
+- title: Grand Central Station great hall
+  orientation: vertical
+  image_path: images/portfolio/grand-central-standing.jpg
+  exposure: f/8, ISO50, 60s
+  tags: new-york, manhattan, black-and-white
+
+- title: Juvenile Bald Eagle in flight
+  image_path: images/p52/06.jpg
+  exposure: f/8, ISO50, 60s
+  tags: bald-eagle, nature
+
+- title: Great Blue Heron
+  orientation: vertical
+  image_path: images/portfolio/heron-portrait.jpg
+  exposure: f/8, ISO50, 60s
+  tags: heron, nature
+
+- title: Dandelion head
+  image_path: images/portfolio/heron-portrait.jpg
+  exposure: f/8, ISO50, 60s
+  tags: flower, nature
+
+- title: A pair of egrets in flight
+  image_path: images/nature/flight.jpg
+  exposure: f/8, ISO50, 60s
+  tags: egret, nature
