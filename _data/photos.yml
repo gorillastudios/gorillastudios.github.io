@@ -390,3 +390,65 @@
   image_path: images/black-white/sears-abstract.jpg
   exposure: 1/200th, f/8, ISO100
   tags: black-and-white, chicago, sears-tower, abstract
+
+- title: Sunset from Aon Center
+  image_path: images/posts/aon-sunset.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: chicago, sears-tower, cityscape, sunset
+
+- title: Flatiron Building
+  orientation: vertical
+  image_path: images/posts/flatiron.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: new-york, manhattan, cityscape, black-and-white, long-exposure
+
+- title: Grand Central great hall
+  image_path: images/posts/grand-central.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: new-york, manhattan, black-and-white, long-exposure
+
+- title: Stonington Borough sunset
+  image_path: images/posts/sb-sunset2.jpg
+  exposure: 30s, f/8, ISO100
+  tags: new-england, sunset
+
+- title: Sears Tower sunburst
+  image_path: images/posts/sunburst.jpg
+  exposure: 1/500th, f/8, ISO100
+  tags: cityscape, sears-tower, chicago
+
+- title: Mystic River panorama
+  image_path: images/new-england/downriver-pano.jpg
+  exposure: 1/150th, f/8, ISO100
+  tags: new-england, panorama
+
+- title: Latimer Reef Light
+  image_path: images/new-england/latimer.jpg
+  exposure: 1/150th, f/8, ISO100
+  tags: new-england, sunset
+
+- title: Mystic River fall afternoon
+  image_path: images/new-england/mystic-river.jpg
+  exposure: 1/150th, f/8, ISO100
+  tags: new-england, fall
+
+- title: Stonington Borough sunset
+  image_path: images/new-england/sb-rocks-sunset.jpg
+  exposure: 30s, f/8, ISO50
+  tags: new-england, sunset, long-exposure
+
+- title: John Hancock Center
+  image_path: images/hancock-photo.jpg
+  exposure: 1/125th, f/8, ISO1000
+  tags: chicago, cityscape, lake-michigan
+
+- title: Art Institute staircase
+  image_path: images/artinst/1.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago
+
+- title: Art Institute
+  orientation: vertical
+  image_path: images/artinst/4.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago
