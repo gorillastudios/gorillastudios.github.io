@@ -287,7 +287,7 @@
 - title: 37 N. Dearborn
   image_path: images/union/12.jpg
   exposure: 1/250th, f/9, ISO125
-  tags: black-and-white, architecture, chicago
+  tags: black-and-white, architecture, chicago, abstract
 
 - title: Trump Tower, Chicago
   image_path: images/union/15.jpg
@@ -407,11 +407,6 @@
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, black-and-white, long-exposure
 
-- title: Stonington Borough sunset
-  image_path: images/posts/sb-sunset2.jpg
-  exposure: 30s, f/8, ISO100
-  tags: new-england, sunset
-
 - title: Sears Tower sunburst
   image_path: images/posts/sunburst.jpg
   exposure: 1/500th, f/8, ISO100
@@ -452,3 +447,23 @@
   image_path: images/artinst/4.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago
+
+- title: 37 N. Dearborn
+  image_path: images/union/11.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago, black-and-white, abstract, architecture
+
+- title: Quaker Tower
+  image_path: images/union/13.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago, black-and-white, abstract, architecture
+
+- title: 65 W. Kinzie
+  image_path: images/union/14.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago, black-and-white, abstract, architecture
+
+- title: Trump Tower
+  image_path: images/union/20.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago, black-and-white, trump-tower, abstract, architecture
