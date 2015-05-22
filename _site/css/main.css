@@ -1,3 +1,9 @@
+/*
+  =BI Blog Index Page
+  =PO Portfolios
+  =CO Collections
+  =AR Archives
+*/
 .divider {
   margin: 20px 0;
   position: relative;
@@ -27,7 +33,6 @@
 
   .divider:before {
     top: 12px; } }
-/* --------------------------------------- BLOG INDEX */
 .blog-preview-container a {
   display: block;
   overflow: hidden;
@@ -95,7 +100,6 @@
 @media screen and (min-width: 1000px) {
   .new-blog-preview div {
     padding: 120px 100px; } }
-/* --------------------------------------- PORTFOLIOS */
 .portfolio figure {
   margin: 0 auto 4em auto;
   overflow: hidden; }
@@ -120,7 +124,26 @@
       float: right;
       display: block;
       width: auto !important; } }
-/* ------------------------------------------------- =AR Archive */
+.collections a {
+  display: block;
+  border: 1px solid #999;
+  margin: 0 auto 20px auto;
+  padding: 60px 0;
+  text-align: center;
+  width: 80%; }
+  .collections a:hover {
+    background: #f9f9f9; }
+
+@media screen and (min-width: 650px) {
+  .collections {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+    max-width: 900px; }
+    .collections a {
+      float: left;
+      margin: 1%;
+      width: 31%; } }
 ul.post-list {
   padding: 40px;
   -webkit-column-count: 1;

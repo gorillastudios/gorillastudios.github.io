@@ -26,7 +26,7 @@
 - title: Cloud Gate Snowstorm
   image_path: images/portfolio/snowy-bean.jpg
   exposure: f/8, ISO50, 30s
-  tags: chicago, skyline, winter, architecture, cloud gate, the-bean
+  tags: chicago, cityscape, winter, architecture, cloud gate, the-bean
 
 - title: The London Eye
   image_path: images/portfolio/london-eye.jpg
@@ -90,7 +90,7 @@
   tags: chicago, architecture, cityscape, hancock-building, trump-tower, lake-michigan, black-and-white, long-exposure
 
 - title: Sears Tower skyboxes
-  image_path: images/chicago/blue-sky-walk.jpg
+  image_path: images/portfolio/blue-sky-walk.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, abstract, sears-tower
 
@@ -164,6 +164,7 @@
   tags: london, cityscape, tower-bridge, river-thames, panorama
 
 - title: Liverpool Street Station
+  orientation: vertical
   image_path: images/london/liverpool-station.jpg
   exposure: f/8, ISO50, 60s
   tags: london, architecture, black-and-white, panorama
@@ -207,7 +208,7 @@
 - title: Trump Tower
   image_path: images/black-white/trump-abstract.jpg
   exposure: f/8, ISO50, 60s
-  tags: chicago, trump-tower, architecture, black-and-white, skyscraper
+  tags: chicago, trump-tower, architecture, black-and-white, skyscraper, abstract
 
 - title: Aqua building, Chicago
   image_path: images/chicago/waves.jpg
@@ -230,7 +231,7 @@
   tags: chicago, architecture, black-and-white
 
 - title: The Flatiron Building
-  image_path: images/portfolio/flatiorn-horiz.jpg
+  image_path: images/portfolio/flatiron-horiz.jpg
   exposure: f/8, ISO50, 60s
   tags: new-york, black-and-white, cityscape, architecture, long-exposure, manhattan
 
@@ -265,3 +266,127 @@
   image_path: images/nature/flight.jpg
   exposure: f/8, ISO50, 60s
   tags: egret, nature
+
+- title: James Thompson Center
+  orientation: vertical
+  image_path: images/chicago/thompson-center.jpg
+  exposure: 1/60th, f/8, ISO4000
+  tags: chicago, architecture, panorama
+
+- title: Art Institute Lion
+  orientation: vertical
+  image_path: images/chicago/lion-portrait.jpg
+  exposure: 1/60th, f/8, ISO4000
+  tags: chicago, sculpture, dusk
+
+- title: Mystic River bascule bridge
+  image_path: images/p52/45.jpg
+  exposure: 1/60th, f/8, ISO4000
+  tags: new-england, panorama
+
+- title: 37 N. Dearborn
+  image_path: images/union/12.jpg
+  exposure: 1/250th, f/9, ISO125
+  tags: black-and-white, architecture, chicago
+
+- title: Trump Tower, Chicago
+  image_path: images/union/15.jpg
+  exposure: 1/500th, f/9, ISO320
+  tags: chicago, trump-tower, architecture, black-and-white, abstract
+
+- title: Trump Tower, Chicago
+  image_path: images/union/16.jpg
+  exposure: 1/500th, f/9, ISO125
+  tags: chicago, trump-tower, architecture, black-and-white, abstract
+
+- title: Trump Tower, Chicago
+  image_path: images/union/22.jpg
+  exposure: 1/500th, f/9, ISO125
+  tags: chicago, trump-tower, architecture, black-and-white, abstract
+
+- title: Pritzker Pavilion band shell
+  image_path: images/union/26.jpg
+  exposure: 1/320th, f/8, ISO100
+  tags: chicago, architecture, black-and-white, abstract
+
+- title: Cloudy windows
+  image_path: images/union/29.jpg
+  exposure: 1/500th, f/9, ISO160
+  tags: chicago, architecture, black-and-white
+
+- title: Cyclists at the Picasso
+  orientation: vertical
+  image_path: images/p52/03.jpg
+  exposure: 15s, f/13, ISO100
+  tags: chicago, black-and-white, sculpture, long-exposure
+
+- title: The Wrigley Building
+  image_path: images/p52/04.jpg
+  exposure: 13s, f/10, ISO50
+  tags: chicago, cityscape, dusk
+
+- title: Chicago by train
+  image_path: images/p52/08.jpg
+  exposure: 1/100th, f/16, ISO100
+  tags: chicago, sears-tower, cityscape
+
+- title: Chicago sunset
+  image_path: images/chicago/sunrays.jpg
+  exposure: 1/160th, f/8, ISO50
+  tags: chicago, sears-tower, cityscape, sunset, lake-michigan
+
+- title: Union Station columns
+  orientation: vertical
+  image_path: images/black-white/columns.jpg
+  exposure: 1/30th, f/8, ISO160
+  tags: chicago, black-and-white, architecture
+
+- title: Millenium Park busts
+  image_path: images/p52/30.jpg
+  exposure: 3.2s, f/8, ISO50
+  tags: chicago, black-and-white, sculpture
+
+- title: Sedona panorama
+  image_path: images/p52/49.jpg
+  exposure: 9 shot panorama
+  tags: nature, panorama, landscape
+
+- title: OHare walkway
+  image_path: images/posts/ohare-tunnel.jpg
+  exposure: 1s, f/7.1, ISO2000
+  tags: chicago, abstract, long-exposure
+
+- title: Chicago from above
+  image_path: images/posts/takeoff.jpg
+  exposure: 1/250th, f/8, ISO100
+  tags: chicago, cityscape, sears-tower
+
+- title: Manhattan Skyline
+  image_path: images/posts/manhattan.jpg
+  exposure: 240s, f/11, ISO50
+  tags: new-york, manhattan, long-exposure, dusk, cityscape
+
+- title: The Brooklyn Bridge
+  image_path: images/posts/brooklyn-bridge-dark.jpg
+  exposure: 90s, f/16, ISO100
+  tags: new-york, manhattan, long-exposure, cityscape
+
+- title: The Chrysler Building
+  image_path: images/posts/chrysler2.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: new-york, manhattan, architecture, skyscraper, black-and-white
+
+- title: Manhattan building
+  image_path: images/union/3.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: new-york, manhattan, architecture, black-and-white
+
+- title: Rainy Day Man
+  image_path: images/rainy-day-man.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: black-and-white, sculpture
+
+- title: City of broad shoulders
+  image_path: images/black-white/sears-abstract.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: black-and-white, chicago, sears-tower, abstract

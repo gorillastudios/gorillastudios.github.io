@@ -1,6 +1,15 @@
 ---
 ---
 
+
+/*
+  =BI Blog Index Page
+  =PO Portfolios
+  =CO Collections
+  =AR Archives
+*/
+
+
 @import 'mixins';
 
 .divider {
@@ -38,7 +47,7 @@
 }
 
 
-/* --------------------------------------- BLOG INDEX */
+// --------------------------------------- =BI Blog Index
 
 .blog-preview-container {
   a {
@@ -140,7 +149,7 @@
 }
 
 
-/* --------------------------------------- PORTFOLIOS */
+// --------------------------------------- =PO Portfolios
 .portfolio figure {
   margin: 0 auto 4em auto;
   overflow: hidden;
@@ -175,9 +184,38 @@
   }
 }
 
+// --------------------------------------- =CO Collections
+
+.collections {
+  a {
+    display: block;
+    border: 1px solid #999;
+    margin: 0 auto 20px auto;
+    padding: 60px 0;
+    text-align: center;
+    width: 80%;
+    &:hover {
+      background: #f9f9f9;
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .collections {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+    max-width: 900px;
+    a {
+      float: left;
+      margin: 1%;
+      width: 31%;
+    }
+  }
+}
 
 
-/* ------------------------------------------------- =AR Archive */
+// --------------------------------------- =AR Archives
 
 ul.post-list {
   padding: 40px;

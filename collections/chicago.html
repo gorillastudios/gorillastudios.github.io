@@ -1,16 +1,16 @@
 ---
 layout: page
-title: YML test
-permalink: /test/
+title: Chicago collection
+permalink: /collections/chicago/
 ---
 
 
-<section class='portfolio'>
+<section class='portfolio gallery--half'>
   {% for photo in site.data.photos %}
-    {% if photo.tags contains 'trump-tower' %}
+    {% if photo.tags contains 'chicago' %}
     <figure class="{{ photo.orientation }}">
       <img src="/{{ photo.image_path }}"/>
-      <figcaption>{{ photo.title }}<span>{{ photo.exposure }}</figcaption>
+      <figcaption>{{ photo.title }}</figcaption>
     </figure>
     {% endif %}
   {% endfor %}
