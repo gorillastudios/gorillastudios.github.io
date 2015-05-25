@@ -1,32 +1,43 @@
 - title: Manhattan and the Brooklyn Bridge
   image_path: images/portfolio/brooklyn-bridge2.jpg
+  portfolio: primary
+  position: aaa
   exposure: f/8, ISO50, 30s
   tags: new-york, architecture, cityscape, manhattan, brooklyn bridge
-
 - title: <i>Archways</i>
   image_path: images/portfolio/archways.jpg
+  portfolio: primary
+  position: zzz
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sculpture
 
 - title: Sunset at Masons Island
   image_path: images/portfolio/masons-dock.jpg
+  portfolio: primary
+  position: bbb
   exposure: f/8, ISO50, 30s
-  tags: connecticut, new-england, sunset
+  tags: connecticut, new-england, sunset, nautical
 
 - title: Fresh snow at Leroy Oaks
   image_path: images/portfolio/leroy-oaks.jpg
+  portfolio: primary
+  position: ccc
   exposure: f/8, ISO50, 30s
   tags: illinois, snow, snowscape, winter
 
 - title: Pritzker Pavilion
   image_path: images/portfolio/pritzker.jpg
+  portfolio: primary
+  position: ddd
   exposure: f/8, ISO50, 30s
   tags: chicago, skyline, winter, architecture
 
 - title: Cloud Gate Snowstorm
   image_path: images/portfolio/snowy-bean.jpg
+  portfolio: primary
+  position: eee
   exposure: f/8, ISO50, 30s
-  tags: chicago, cityscape, winter, architecture, cloud gate, the-bean
+  tags: chicago, winter, architecture, cloud gate, the-bean
 
 - title: The London Eye
   image_path: images/portfolio/london-eye.jpg
@@ -35,18 +46,24 @@
 
 - title: The schooner <i>Lynx</i> rounding the Chicago Harbor Light
   image_path: images/portfolio/rainy-sails.jpg
+  portfolio: primary
+  position: ggg
   exposure: f/8, ISO50, 30s
   tags: nautical, chicago, lake-michigan, lighthouse, rain
 
 - title: <i>Reach for the sky</i>
   image_path: images/portfolio/sears-reach2.jpg
+  portfolio: primary
+  position: hhh
   exposure: f/8, ISO50, 30s
-  tags: chicago, skyscraper, architecture, black-and-white, cityscape
+  tags: chicago, skyscraper, architecture, black-and-white, cityscape, PP08
 
 - title: <i>Dance</i>
   image_path: images/portfolio/dance.jpg
+  portfolio: primary
+  position: iii
   exposure: f/8, ISO50, 30s
-  tags: chicago, cloud-gate, the-bean, black-and-white
+  tags: chicago, cloud-gate, the-bean, black-and-white, PP09
 
 - title: The Wrigley Building and Trump Tower
   image_path: images/chicago/wrigley-trump.jpg
@@ -112,6 +129,8 @@
 
 - title: The London Eye and Thames River
   image_path: images/london/london-eye-2015.jpg
+  portfolio: primary
+  position: fff
   exposure: f/8, ISO50, 60s
   tags: london, architecture, river-thames, long-exposure, dusk, london-eye
 
@@ -154,6 +173,7 @@
   tags: london, architecture, black-and-white
 
 - title: Bishops Gate Road
+  orientation: vertical
   image_path: images/london/shoreditch-high-street.jpg
   exposure: f/8, ISO50, 60s
   tags: london, architecture, cityscape, black-and-white
@@ -285,7 +305,7 @@
   tags: new-england, panorama
 
 - title: 37 N. Dearborn
-  image_path: images/union/12.jpg
+  image_path: images/black-white/0K6A0017.jpg
   exposure: 1/250th, f/9, ISO125
   tags: black-and-white, architecture, chicago, abstract
 
@@ -372,6 +392,7 @@
   tags: new-york, manhattan, long-exposure, cityscape
 
 - title: The Chrysler Building
+  orientation: vertical
   image_path: images/posts/chrysler2.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, architecture, skyscraper, black-and-white
@@ -467,3 +488,43 @@
   image_path: images/union/20.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, black-and-white, trump-tower, abstract, architecture
+
+- title: Chicago Harbor light
+  image_path: images/chicago/lighthouse-sail.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago, lake-michigan, nautical
+
+- title: Wrigley Building clock face
+  image_path: images/chicago/wrigley-clock.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago, architecture
+
+- title: The stars over Masons Island
+  image_path: images/new-england/masons-stars.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: new-england, astronomy, long-exposure
+
+- title: Stonington Borough sunset
+  image_path: images/new-england/sb-dock-sunset.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: new-england, sunset
+
+- title: The stars over Watch Hill
+  image_path: images/new-england/watch-hill-3.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: new-england, astronomy, long-exposure
+
+- title: Watch Hill Yacht Club
+  image_path: images/new-england/watch-hill.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: new-england, nautical
+
+- title: The Emma Berry
+  image_path: images/black-white/emma-berry.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: new-england, nautical, black-and-white
+
+- title: Thomas Oyster Co.
+  image_path: images/portfolio/thomas.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: new-england, nautical, black-and-white
