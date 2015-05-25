@@ -3,20 +3,21 @@
   portfolio: primary
   position: aaa
   exposure: f/8, ISO50, 30s
-  tags: new-york, architecture, cityscape, manhattan, brooklyn bridge
+  tags: new-york, architecture, cityscape, manhattan, brooklyn bridge, long-exposure
+
 - title: <i>Archways</i>
   image_path: images/portfolio/archways.jpg
   portfolio: primary
   position: zzz
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, sculpture
+  tags: chicago, architecture, sculpture, long-exposure
 
 - title: Sunset at Masons Island
   image_path: images/portfolio/masons-dock.jpg
   portfolio: primary
   position: bbb
   exposure: f/8, ISO50, 30s
-  tags: connecticut, new-england, sunset, nautical
+  tags: connecticut, new-england, sunset, nautical, long-exposure
 
 - title: Fresh snow at Leroy Oaks
   image_path: images/portfolio/leroy-oaks.jpg
@@ -41,6 +42,8 @@
 
 - title: The London Eye
   image_path: images/portfolio/london-eye.jpg
+  portfolio: london
+  position: aaa
   exposure: f/8, ISO50, 30s
   tags: london, england, architecture, london-eye, cityscape, sunset
 
@@ -67,63 +70,87 @@
 
 - title: The Wrigley Building and Trump Tower
   image_path: images/chicago/wrigley-trump.jpg
+  portfolio: chicago
+  position: aaa
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, wrigley-building, trump-tower
 
 - title: <i>Chicago Sunset</i>
   image_path: images/chicago/sunrays2.jpg
+  portfolio: chicago
+  position: bbb
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, sunset, sears-tower
 
 - title: Grant Park
   image_path: images/chicago/grant-park.jpg
+  portfolio: chicago
+  position: ccc
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, sunset, trump-tower, aon-center, grant-park, skyscraper
 
 - title: The Adler Planetarium at sunrise
   image_path: images/chicago/sunset-adler.jpg
+  portfolio: chicago
+  position: ddd
   exposure: f/8, ISO50, 30s
   tags: chicago, sunrise, lake-michigan, adler-planetarium
 
 - title: Adams &amp; Wabash L Platform
   image_path: images/chicago/over-the-l.jpg
+  portfolio: chicago
+  position: eee
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, the-l, trump-tower
 
 - title: The John Hancock building at dusk
   image_path: images/chicago/hancock-lsd.jpg
+  portfolio: chicago
+  position: fff
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, hancock-building, long-exposure, dusk
 
 - title: Trump Tower and the Chicago River
   orientation: vertical
   image_path: images/chicago/trump2.jpg
+  portfolio: chicago
+  position: ggg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, trump-tower, winter, chicago-river
 
 - title: The John Hancock building
   image_path: images/chicago/inky-lake2.jpg
+  portfolio: chicago
+  position: hhh
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, hancock-building, trump-tower, lake-michigan, black-and-white, long-exposure
 
 - title: Sears Tower skyboxes
   image_path: images/portfolio/blue-sky-walk.jpg
+  portfolio: chicago
+  position: iii
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, abstract, sears-tower
 
 - title: <i>Cloud Gate</i> sunset during winter
   image_path: images/chicago/winter-bean.jpg
+  portfolio: chicago
+  position: jjj
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, cloud-gate, the-bean, winter
 
 - title: A stormfront rolls in over the Sears Tower
   orientation: vertical
   image_path: images/chicago/sears-storm2.jpg
+  portfolio: chicago
+  position: kkk
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, black-and-white
 
 - title: Chicago skyline at dusk
   image_path: images/chicago/chicago-skyline.jpg
+  portfolio: chicago
+  position: lll
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, cityscape, lake-michigan, trump-tower
 
@@ -137,91 +164,125 @@
 - title: Elizabeth Tower
   orientation: vertical
   image_path: images/london/elizabeth-tower-bw-vertical.jpg
+  portfolio: london
+  position: bbb
   exposure: f/8, ISO50, 60s
   tags: london, architecture, elizabeth-tower, black-and-white
 
 - title: The National Gallery
   image_path: images/london/national-gallery.jpg
+  portfolio: london
+  position: ccc
   exposure: f/8, ISO50, 60s
   tags: london, architecture, panorama, dusk, trafalgar-square
 
 - title: Sunset at Tower Bridge
   image_path: images/london/tower-bridge-sunset.jpg
+  portfolio: london
+  position: ddd
   exposure: f/8, ISO50, 60s
   tags: london, architecture, sunset, tower-bridge, river-thames
 
 - title: Shad Thames
   orientation: vertical
   image_path: images/london/shad-thames.jpg
+  portfolio: london
+  position: eee
   exposure: f/8, ISO50, 60s
   tags: london, architecture, black-and-white
 
 - title: Her Majestys Household Cavalry
   image_path: images/london/cavalry.jpg
+  portfolio: london
+  position: fff
   exposure: f/8, ISO50, 60s
   tags: london
 
 - title: Whitehall Street
   orientation: vertical
   image_path: images/london/whitehall-street.jpg
+  portfolio: london
+  position: ggg
   exposure: f/8, ISO50, 60s
   tags: london, architecture, long-exposure, dusk
 
 - title: St. Pauls Cathedral and Millenium Bridge
   image_path: images/london/st-pauls.jpg
+  portfolio: london
+  position: hhh
   exposure: f/8, ISO50, 60s
   tags: london, architecture, black-and-white
 
 - title: Bishops Gate Road
   orientation: vertical
   image_path: images/london/shoreditch-high-street.jpg
+  portfolio: london
+  position: iii
   exposure: f/8, ISO50, 60s
   tags: london, architecture, cityscape, black-and-white
 
 - title: Tower Bridge 180&deg; panorama
   image_path: images/london/tower-pano-second.jpg
+  portfolio: london
+  position: jjj
   exposure: f/8, ISO50, 60s
   tags: london, cityscape, tower-bridge, river-thames, panorama
 
 - title: Liverpool Street Station
   orientation: vertical
   image_path: images/london/liverpool-station.jpg
+  portfolio: london
+  position: kkk
   exposure: f/8, ISO50, 60s
   tags: london, architecture, black-and-white, panorama
 
 - title: The Bridge Lounge
   image_path: images/london/bridge-lounge.jpg
+  portfolio: london
+  position: lll
   exposure: f/8, ISO50, 60s
   tags: london, long-exposure, dusk
 
 - title: Trafalgar Square 180&deg; panorama
   image_path: images/london/trafalgar-square.jpg
+  portfolio: london
+  position: mmm
   exposure: f/8, ISO50, 60s
   tags: london, long-exposure, dusk, panorama, cityscape, trafalgar-square
 
 - title: Elizabeth Tower and the River Thames
   image_path: images/london/elizabeth-tower.jpg
+  portfolio: london
+  position: nnn
   exposure: f/8, ISO50, 60s
   tags: london, cityscape, river-thames, black-and-white, elizabeth-tower
 
 - title: The lions of Trafalgar Square
   image_path: images/london/lions-tower.jpg
+  portfolio: london
+  position: ooo
   exposure: f/8, ISO50, 60s
   tags: london, trafalgar-square, long-exposure, elizabeth-tower
 
 - title: National Gallery fountain
   image_path: images/london/gallery-fountain.jpg
+  portfolio: london
+  position: ppp
   exposure: f/8, ISO50, 60s
   tags: london, trafalgar-square, long-exposure, dusk
 
 - title: Her Majestys Household Cavalry Life Guard
   orientation: vertical
   image_path: images/london/cavalry-guard.jpg
+  portfolio: london
+  position: qqq
   exposure: f/8, ISO50, 60s
   tags: london, black-and-white
 
 - title: The Shard from Tooley Street
   image_path: images/london/shard-streaks.jpg
+  portfolio: london
+  position: rrr
   exposure: f/8, ISO50, 60s
   tags: london, architecture, long-exposure, cityscape, dusk
 
@@ -242,6 +303,8 @@
 
 - title: The London Eye
   image_path: images/union/7.jpg
+  portfolio: london
+  position: aaa
   exposure: f/8, ISO50, 60s
   tags: london, london-eye, black-and-white
 
