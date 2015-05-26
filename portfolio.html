@@ -5,16 +5,17 @@ permalink: /portfolio/
 ---
 
 <section class='portfolio'>
+
   {% assign sorted_photos = (site.data.photos | where: "portfolio", "primary" | sort: "position") %}
 
   {% for photo in sorted_photos %}
-
     <figure class="{{ photo.orientation }}">
       <img class="lazy" data-original="/{{ photo.image_path }}"/>
       <noscript><img src="/{{ photo.image_path }}" /></noscript>
       <figcaption>{{ photo.title }}</figcaption>
     </figure>
   {% endfor %}
+
 </section>
 
 <script>

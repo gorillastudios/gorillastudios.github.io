@@ -288,21 +288,29 @@
 
 - title: Trump Tower
   image_path: images/black-white/trump-abstract.jpg
+  portfolio: black-white
+  position: aaa
   exposure: f/8, ISO50, 60s
   tags: chicago, trump-tower, architecture, black-and-white, skyscraper, abstract
 
 - title: Aqua building, Chicago
   image_path: images/chicago/waves.jpg
+  portfolio: black-white
+  position: bbb
   exposure: f/8, ISO50, 60s
   tags: chicago, architecture, black-and-white, abstract
 
 - title: Manhattan skyline
   image_path: images/p52/25.jpg
+  portfolio: black-white
+  position: ccc
   exposure: f/8, ISO50, 60s
   tags: new-york, manhattan, architecture, black-and-white, cityscape, skyscraper, long-exposure
 
 - title: The London Eye
   image_path: images/union/7.jpg
+  portfolio: black-white
+  position: ddd
   portfolio: london
   position: aaa
   exposure: f/8, ISO50, 60s
@@ -310,45 +318,103 @@
 
 - title: <i>Glass &amp; Steel</i>
   image_path: images/union/28.jpg
+  portfolio: black-white
+  position: eee
   exposure: f/8, ISO50, 60s
   tags: chicago, architecture, black-and-white
 
 - title: The Flatiron Building
   image_path: images/portfolio/flatiron-horiz.jpg
+  portfolio: black-white
+  position: fff
   exposure: f/8, ISO50, 60s
   tags: new-york, black-and-white, cityscape, architecture, long-exposure, manhattan
 
 - title: Art Institute of Chicago
   image_path: images/black-white/lion-spotlight.jpg
+  portfolio: black-white
+  position: ggg
   exposure: f/8, ISO50, 60s
   tags: chicago, sculpture, black-and-white
 
 - title: Grand Central Station great hall
   orientation: vertical
   image_path: images/portfolio/grand-central-standing.jpg
+  portfolio: black-white
+  position: hhh
   exposure: f/8, ISO50, 60s
   tags: new-york, manhattan, black-and-white
 
 - title: Juvenile Bald Eagle in flight
   image_path: images/p52/06.jpg
+  portfolio: nature
+  position: aaa
   exposure: f/8, ISO50, 60s
-  tags: bald-eagle, nature
+  tags: bald-eagle, nature, bird
 
 - title: Great Blue Heron
   orientation: vertical
   image_path: images/portfolio/heron-portrait.jpg
+  portfolio: nature
+  position: bbb
   exposure: f/8, ISO50, 60s
-  tags: heron, nature
+  tags: heron, nature, bird
 
 - title: Dandelion head
-  image_path: images/portfolio/heron-portrait.jpg
+  image_path: images/nature/dandelion.jpg
+  portfolio: nature
+  position: ccc
   exposure: f/8, ISO50, 60s
   tags: flower, nature
 
 - title: A pair of egrets in flight
   image_path: images/nature/flight.jpg
+  portfolio: nature
+  position: ddd
   exposure: f/8, ISO50, 60s
-  tags: egret, nature
+  tags: egret, nature, bird
+
+- title: Bug on flower
+  image_path: images/nature/flower-bug.jpg
+  portfolio: nature
+  position: eee
+  exposure: f/8, ISO50, 60s
+  tags: nature, macro, flower
+
+- title: Molting egret
+  image_path: images/nature/itchy-egret.jpg
+  portfolio: nature
+  position: fff
+  exposure: f/8, ISO50, 60s
+  tags: nature, egret, bird
+
+- title: Blue dragonfly
+  image_path: images/nature/dragonfly.jpg
+  portfolio: nature
+  position: ggg
+  exposure: f/8, ISO50, 60s
+  tags: nature, macro
+
+- title: Purple flower
+  image_path: images/nature/purple-flower.jpg
+  portfolio: nature
+  position: hhh
+  exposure: f/8, ISO50, 60s
+  tags: nature, macro, flower
+
+- title: Dew drops on a blade of grass
+  image_path: images/nature/droplet.jpg
+  portfolio: nature
+  position: iii
+  exposure: f/8, ISO50, 60s
+  tags: nature, macro, flower
+
+- title: <i>Somber sunrise</i>
+  image_path: images/nature/somber-sunrise.jpg
+  portfolio: nature
+  position: jjj
+  exposure: f/8, ISO50, 60s
+  tags: nature, bird, sunrise
 
 - title: James Thompson Center
   orientation: vertical
@@ -369,6 +435,8 @@
 
 - title: 37 N. Dearborn
   image_path: images/black-white/0K6A0017.jpg
+  portfolio: black-white
+  position: iii
   exposure: 1/250th, f/9, ISO125
   tags: black-and-white, architecture, chicago, abstract
 
@@ -389,6 +457,8 @@
 
 - title: Pritzker Pavilion band shell
   image_path: images/union/26.jpg
+  portfolio: black-white
+  position: hhh
   exposure: 1/320th, f/8, ISO100
   tags: chicago, architecture, black-and-white, abstract
 
@@ -461,9 +531,15 @@
   tags: new-york, manhattan, architecture, skyscraper, black-and-white
 
 - title: Manhattan building
+  orientation: vertical
+  image_path: images/posts/fight.jpg
+  exposure: 1/200th, f/8, ISO100
+  tags: new-york, manhattan, architecture, black-and-white, abstract
+
+- title: Manhattan building
   image_path: images/union/3.jpg
   exposure: 1/200th, f/8, ISO100
-  tags: new-york, manhattan, architecture, black-and-white
+  tags: new-york, manhattan, architecture, black-and-white, abstract
 
 - title: Rainy Day Man
   image_path: images/rainy-day-man.jpg
@@ -472,6 +548,8 @@
 
 - title: City of broad shoulders
   image_path: images/black-white/sears-abstract.jpg
+  portfolio: black-white
+  position: jjj
   exposure: 1/200th, f/8, ISO100
   tags: black-and-white, chicago, sears-tower, abstract
 
@@ -591,3 +669,201 @@
   image_path: images/portfolio/thomas.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, nautical, black-and-white
+
+- title: Bret Michaels
+  image_path: images/bm/4.jpg
+  portfolio: music
+  position: aaa
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/music/carl.jpg
+  portfolio: music
+  position: bbb
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Kodiak
+  image_path: images/kodiak/22.jpg
+  portfolio: music
+  position: ccc
+  exposure: 1/125th, f/8, ISO4000
+  tags: music
+
+- title: Mike Nathan of Just Enuff
+  orientation: vertical
+  image_path: images/music/mike.jpg
+  portfolio: music
+  position: ddd
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Driven Under
+  image_path: images/music/driven-under-2.jpg
+  portfolio: music
+  position: eee
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/music/standing-bass2.jpg
+  portfolio: music
+  position: fff
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  orientation: vertical
+  image_path: images/bm/7.jpg
+  portfolio: music
+  position: ggg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Driven Under
+  image_path: images/music/driven-under.jpg
+  portfolio: music
+  position: hhh
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: The Everly Hillbillies
+  orientation: vertical
+  image_path: images/music/drumming.jpg
+  portfolio: music
+  position: iii
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Rick Uppling, The Cadillac Cassanovas
+  image_path: images/music/bass2.jpg
+  portfolio: music
+  position: jjj
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Driven Under
+  orientation: vertical
+  image_path: images/bm/driven-under.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels
+  image_path: images/bm/1.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels
+  image_path: images/bm/10.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels
+  orientation: vertical
+  image_path: images/bm/2.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels
+  image_path: images/bm/12.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels
+  image_path: images/bm/8.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  orientation: vertical
+  image_path: images/bm/14.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  image_path: images/bm/6.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  image_path: images/bm/3.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  image_path: images/bm/13.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  image_path: images/bm/5.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  image_path: images/bm/9.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  image_path: images/bm/11.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: Bret Michaels band
+  image_path: images/music/bret-michaels.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: The Cadillac Cassanovas
+  image_path: images/music/crowd.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert
+
+- title: <i>Bendy Chicago</i>
+  image_path: images/chicago/bendy-chicago.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: chicago, cityscape
+
+- title: Meadow Saxifrage
+  image_path: images/p52/31.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: flower, macro, nature
+
+- title: Bahamas Sunrise
+  image_path: images/portfolio/nassau.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: landscape, long-exposure, sunrise
+
+- title: Bahamas Sunrise
+  image_path: images/portfolio/bahamas-waves.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: landscape, long-exposure, sunrise
+
+- title: Fireworks
+  image_path: images/posts/fireworks-west.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: landscape, long-exposure, chicago, cityscape
+
+- title: Midtown
+  image_path: images/posts/midtown.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: cityscape, black-and-white, new-york, manhattan
+
+- title: Fireworks over Navy Pier
+  image_path: images/posts/navy-pier-fireworks-14.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: landscape, long-exposure, chicago, cityscape
+
+- title: Manhattan from above
+  image_path: images/posts/nyc-night.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: cityscape, new-york, manhattan
+
+- title: Train signal
+  image_path: images/posts/pom-december.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: abstract

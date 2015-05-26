@@ -5,56 +5,17 @@ permalink: /nature/
 ---
 
 <section class='portfolio'>
-<figure>
-  <img class='lazy' data-original='/images/p52/06.jpg' />
-  <noscript><img src="/images/p52/06.jpg" /></noscript>
-  <figcaption>Juvenile Bald Eagle in flight</figcaption>
-</figure>
-<figure class='vertical'>
-  <img class='lazy' data-original='/images/portfolio/heron-portrait.jpg' />
-  <noscript><img src="/images/portfolio/heron-portrait.jpg" /></noscript>
-  <figcaption>Great Blue Heron portrait</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/dandelion.jpg' />
-  <noscript><img src="/images/nature/dandelion.jpg" /></noscript>
-  <figcaption>Dandelion head</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/flight.jpg' />
-  <noscript><img src="/images/nature/flight.jpg" /></noscript>
-  <figcaption>A pair of Egrets in flight</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/flower-bug.jpg' />
-  <noscript><img src="/images/nature/flower-bug.jpg" /></noscript>
-  <figcaption>Unidentified bug on a flower</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/itchy-egret.jpg' />
-  <noscript><img src="/images/nature/itchy-egret.jpg" /></noscript>
-  <figcaption>An Egret molting in the Fox River, Geneva, IL</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/dragonfly.jpg' />
-  <noscript><img src="/images/nature/dragonfly.jpg" /></noscript>
-  <figcaption>Dragonfly on a branch</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/purple-flower.jpg' />
-  <noscript><img src="/images/nature/purple-flower.jpg" /></noscript>
-  <figcaption>Macro shot of a tiny purple flower</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/droplet.jpg' />
-  <noscript><img src="/images/nature/droplet.jpg" /></noscript>
-  <figcaption>Dew drops on a blade of grass</figcaption>
-</figure>
-<figure>
-  <img class='lazy' data-original='/images/nature/somber-sunrise.jpg' />
-  <noscript><img src="/images/nature/somber-sunrise.jpg" /></noscript>
-  <figcaption>Great Blue Heron perched at sunrise</figcaption>
-</figure>
+
+  {% assign sorted_photos = (site.data.photos | where: "portfolio", "nature" | sort: "position") %}
+
+  {% for photo in sorted_photos %}
+    <figure class="{{ photo.orientation }}">
+      <img class="lazy" data-original="/{{ photo.image_path }}"/>
+      <noscript><img src="/{{ photo.image_path }}" /></noscript>
+      <figcaption>{{ photo.title }}</figcaption>
+    </figure>
+  {% endfor %}
+
 </section>
 
 <script>
