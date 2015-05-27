@@ -1,7 +1,7 @@
 /*
-  =BI Blog Index Page
-  =PO Portfolios
-  =CO Collections
+=BI Blog Index Page
+=PO Portfolios
+=CO Collections
   =AR Archives
 */
 .divider {
@@ -125,25 +125,54 @@
       display: block;
       width: auto !important; } }
 .collections a {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 700;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  color: #fff !important;
   display: block;
-  border: 1px solid #999;
-  margin: 0 auto 20px auto;
+  font-size: 2.5em;
+  margin: 0 auto 10px auto;
   padding: 30px 0;
   text-align: center;
-  width: 80%; }
-  .collections a:hover {
-    background: #f9f9f9; }
+  text-shadow: 0 0 50px #000; }
+.collections #chicago {
+  background: url("/images/collections/chicago.jpg"); }
+.collections #architecture {
+  background: url("/images/collections/architecture.jpg"); }
+.collections #black-white {
+  background: url("/images/collections/black-white.jpg"); }
+.collections #music {
+  background: url("/images/collections/music.jpg"); }
+.collections #long-exposures {
+  background: url("/images/collections/long-exposures.jpg"); }
+.collections #abstract {
+  background: url("/images/collections/abstract.jpg"); }
+.collections #cityscapes {
+  background: url("/images/collections/cityscapes.jpg"); }
+.collections #manhattan {
+  background: url("/images/collections/new-york.jpg"); }
+.collections #london {
+  background: url("/images/collections/london.jpg"); }
+.collections #panoramas {
+  background: url("/images/collections/panoramas.jpg"); }
+.collections #new-england {
+  background: url("/images/collections/new-england.jpg"); }
+.collections #macro {
+  background: url("/images/collections/macro.jpg"); }
 
 @media screen and (min-width: 650px) {
   .collections {
+    font-size: 0.5em;
     margin: 0 auto;
     overflow: hidden;
-    padding: 10px;
+    padding: 5px;
     max-width: 900px; }
     .collections a {
       float: left;
-      margin: 1%;
-      width: 31%; } }
+      margin: 0.5%;
+      width: 32%; } }
 ul.post-list {
   padding: 40px;
   -webkit-column-count: 1;

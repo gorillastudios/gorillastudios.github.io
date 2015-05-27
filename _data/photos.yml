@@ -858,7 +858,8 @@
   exposure: 1/125th, f/8, ISO4000
   tags: landscape, long-exposure, chicago, cityscape
 
-- title: Manhattan from above
+- title: Manhattan
+  orientation: vertical
   image_path: images/posts/nyc-night.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: cityscape, new-york, manhattan

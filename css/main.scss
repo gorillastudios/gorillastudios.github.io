@@ -3,9 +3,9 @@
 
 
 /*
-  =BI Blog Index Page
-  =PO Portfolios
-  =CO Collections
+=BI Blog Index Page
+=PO Portfolios
+=CO Collections
   =AR Archives
 */
 
@@ -188,28 +188,45 @@
 
 .collections {
   a {
+    @include sans-serif-bold;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: #fff !important;
     display: block;
-    border: 1px solid #999;
-    margin: 0 auto 20px auto;
+    font-size: 2.5em;
+    margin: 0 auto 10px auto;
     padding: 30px 0;
     text-align: center;
-    width: 80%;
-    &:hover {
-      background: #f9f9f9;
-    }
+    text-shadow: 0 0 50px #000;
   }
+  #chicago {
+    background: url('/images/collections/chicago.jpg');
+  }
+  #architecture { background: url('/images/collections/architecture.jpg'); }
+  #black-white { background: url('/images/collections/black-white.jpg'); }
+  #music { background: url('/images/collections/music.jpg'); }
+  #long-exposures { background: url('/images/collections/long-exposures.jpg'); }
+  #abstract { background: url('/images/collections/abstract.jpg'); }
+  #cityscapes { background: url('/images/collections/cityscapes.jpg'); }
+  #manhattan { background: url('/images/collections/new-york.jpg'); }
+  #london { background: url('/images/collections/london.jpg'); }
+  #panoramas { background: url('/images/collections/panoramas.jpg'); }
+  #new-england { background: url('/images/collections/new-england.jpg'); }
+  #macro { background: url('/images/collections/macro.jpg'); }
 }
 
 @media screen and (min-width: 650px) {
   .collections {
+    font-size: 0.5em;
     margin: 0 auto;
     overflow: hidden;
-    padding: 10px;
+    padding: 5px;
     max-width: 900px;
     a {
       float: left;
-      margin: 1%;
-      width: 31%;
+      margin: 0.5%;
+      width: 32%;
     }
   }
 }
