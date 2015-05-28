@@ -42,8 +42,6 @@
 
 - title: The London Eye
   image_path: images/portfolio/london-eye.jpg
-  portfolio: london
-  position: aaa
   exposure: f/8, ISO50, 30s
   tags: london, england, architecture, london-eye, cityscape, sunset
 
@@ -258,6 +256,7 @@
   tags: london, cityscape, river-thames, black-and-white, elizabeth-tower
 
 - title: The lions of Trafalgar Square
+  orientation: vertical
   image_path: images/london/lions-tower.jpg
   portfolio: london
   position: ooo
@@ -868,3 +867,26 @@
   image_path: images/posts/pom-december.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: abstract
+
+- title: Leadenhall Market
+  image_path: images/london/leadenhall-market.jpg
+  exposure: 4s, f/8, ISO100
+  tags: london
+
+- title: Liverpool Street Station
+  orientation: vertical
+  image_path: images/london/liverpool-station-2.jpg
+  exposure: 1/250th, f/9, ISO800
+  tags: london, panorama
+
+- title: The Shard
+  image_path: images/london/the-shard.jpg
+  portfolio: london
+  position: aaa
+  exposure: 30s, f/9, ISO50
+  tags: london, panorama, cityscape, long-exposure
+
+- title: The London Eye &amp; Thames river panorama
+  image_path: images/london/london-eye-panorama.jpg
+  exposure: 60s, f/14, ISO50
+  tags: london, panorama, cityscape, long-exposure
