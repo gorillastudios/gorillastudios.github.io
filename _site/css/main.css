@@ -124,54 +124,63 @@
       float: right;
       display: block;
       width: auto !important; } }
-.collections a {
-  font-family: "freight-sans-pro", sans-serif;
-  font-weight: 700;
-  background-position: 50% 50% !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  color: #fff !important;
-  display: block;
-  font-size: 2.5em;
-  margin: 0 auto 10px auto;
-  padding: 30px 0;
-  text-align: center;
-  text-shadow: 0 0 50px #000; }
-.collections #chicago {
-  background: url("/images/collections/chicago.jpg"); }
-.collections #architecture {
-  background: url("/images/collections/architecture.jpg"); }
-.collections #black-white {
-  background: url("/images/collections/black-white.jpg"); }
-.collections #music {
-  background: url("/images/collections/music.jpg"); }
-.collections #long-exposures {
-  background: url("/images/collections/long-exposures.jpg"); }
-.collections #abstract {
-  background: url("/images/collections/abstract.jpg"); }
-.collections #cityscapes {
-  background: url("/images/collections/cityscapes.jpg"); }
-.collections #manhattan {
-  background: url("/images/collections/new-york.jpg"); }
-.collections #london {
-  background: url("/images/collections/london.jpg"); }
-.collections #panoramas {
-  background: url("/images/collections/panoramas.jpg"); }
-.collections #new-england {
-  background: url("/images/collections/new-england.jpg"); }
-.collections #macro {
-  background: url("/images/collections/macro.jpg"); }
+.collections {
+  margin-bottom: 1em;
+  overflow: hidden; }
+  .collections a {
+    font-family: "freight-sans-pro", sans-serif;
+    font-weight: 700;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: #fff !important;
+    display: block;
+    float: left;
+    padding: 40px 0;
+    text-align: center;
+    text-shadow: 0 0 50px #000;
+    width: 50%; }
+  .collections #abstract {
+    background: url("/images/collections/abstract.jpg"); }
+  .collections #architecture {
+    background: url("/images/collections/architecture.jpg"); }
+  .collections #birds {
+    background: url("/images/collections/birds.jpg"); }
+  .collections #black-white {
+    background: url("/images/collections/black-white.jpg"); }
+  .collections #cadillac-cassanovas {
+    background: url("/images/collections/cadillac.jpg"); }
+  .collections #chicago {
+    background: url("/images/collections/chicago.jpg"); }
+  .collections #cityscapes {
+    background: url("/images/collections/cityscapes.jpg"); }
+  .collections #london {
+    background: url("/images/collections/london.jpg"); }
+  .collections #long-exposures {
+    background: url("/images/collections/long-exposures.jpg"); }
+  .collections #macro {
+    background: url("/images/collections/macro.jpg"); }
+  .collections #manhattan {
+    background: url("/images/collections/new-york.jpg"); }
+  .collections #music {
+    background: url("/images/collections/music.jpg"); }
+  .collections #nature {
+    background: url("/images/collections/nature.jpg"); }
+  .collections #new-england {
+    background: url("/images/collections/new-england.jpg"); }
+  .collections #panoramas {
+    background: url("/images/collections/panoramas.jpg"); }
+  .collections #sunsets {
+    background: url("/images/collections/sunsets.jpg"); }
+  .collections #sears-tower {
+    background: url("/images/collections/sears.jpg"); }
+  .collections #the-bean {
+    background: url("/images/collections/bean.jpg"); }
 
 @media screen and (min-width: 650px) {
-  .collections {
-    font-size: 0.5em;
-    margin: 0 auto;
-    overflow: hidden;
-    max-width: 900px; }
-    .collections a {
-      float: left;
-      margin: 0.5%;
-      width: 32.333%; } }
+  .collections a {
+    font-size: 1.25em;
+    padding: 100px 0; } }
 ul.post-list {
   padding: 40px;
   -webkit-column-count: 1;

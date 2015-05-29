@@ -3,42 +3,42 @@
   portfolio: primary
   position: aaa
   exposure: f/8, ISO50, 30s
-  tags: new-york, architecture, cityscape, manhattan, brooklyn bridge, long-exposure
+  tags: new-york, architecture, cityscape, manhattan, brooklyn-bridge, long-exposure
 
 - title: <i>Archways</i>
   image_path: images/portfolio/archways.jpg
   portfolio: primary
   position: zzz
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, sculpture, long-exposure
+  tags: chicago, sears-tower, architecture, sculpture, long-exposure, dusk
 
 - title: Sunset at Masons Island
   image_path: images/portfolio/masons-dock.jpg
   portfolio: primary
   position: bbb
   exposure: f/8, ISO50, 30s
-  tags: connecticut, new-england, sunset, nautical, long-exposure
+  tags: connecticut, new-england, sunset, nautical, long-exposure, landscape
 
 - title: Fresh snow at Leroy Oaks
   image_path: images/portfolio/leroy-oaks.jpg
   portfolio: primary
   position: ccc
   exposure: f/8, ISO50, 30s
-  tags: illinois, snow, snowscape, winter
+  tags: illinois, snow, landscape, winter, nature
 
 - title: Pritzker Pavilion
   image_path: images/portfolio/pritzker.jpg
   portfolio: primary
   position: ddd
   exposure: f/8, ISO50, 30s
-  tags: chicago, skyline, winter, architecture
+  tags: chicago, cityscape, winter, architecture
 
 - title: Cloud Gate Snowstorm
   image_path: images/portfolio/snowy-bean.jpg
   portfolio: primary
   position: eee
   exposure: f/8, ISO50, 30s
-  tags: chicago, winter, architecture, cloud gate, the-bean
+  tags: chicago, winter, architecture, the-bean
 
 - title: The London Eye
   image_path: images/portfolio/london-eye.jpg
@@ -57,14 +57,14 @@
   portfolio: primary
   position: hhh
   exposure: f/8, ISO50, 30s
-  tags: chicago, skyscraper, architecture, black-and-white, cityscape, PP08
+  tags: chicago, skyscraper, architecture, black-and-white, cityscape, PP08, sears-tower
 
 - title: <i>Dance</i>
   image_path: images/portfolio/dance.jpg
   portfolio: primary
   position: iii
   exposure: f/8, ISO50, 30s
-  tags: chicago, cloud-gate, the-bean, black-and-white, PP09
+  tags: chicago, the-bean, black-and-white, PP09
 
 - title: The Wrigley Building and Trump Tower
   image_path: images/chicago/wrigley-trump.jpg
@@ -121,7 +121,7 @@
   portfolio: chicago
   position: hhh
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, hancock-building, trump-tower, lake-michigan, black-and-white, long-exposure
+  tags: chicago, architecture, cityscape, hancock-building, lake-michigan, black-and-white, long-exposure
 
 - title: Sears Tower skyboxes
   image_path: images/portfolio/blue-sky-walk.jpg
@@ -151,13 +151,6 @@
   position: lll
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, cityscape, lake-michigan, trump-tower
-
-- title: The London Eye and Thames River
-  image_path: images/london/london-eye-2015.jpg
-  portfolio: primary
-  position: fff
-  exposure: f/8, ISO50, 60s
-  tags: london, architecture, river-thames, long-exposure, dusk, london-eye
 
 - title: Elizabeth Tower
   orientation: vertical
@@ -195,6 +188,13 @@
   position: fff
   exposure: f/8, ISO50, 60s
   tags: london
+
+- title: The London Eye and Thames River
+  image_path: images/london/london-eye-2015.jpg
+  portfolio: primary
+  position: fff
+  exposure: f/8, ISO50, 60s
+  tags: london, architecture, river-thames, long-exposure, dusk, london-eye
 
 - title: Whitehall Street
   orientation: vertical
@@ -278,7 +278,7 @@
   exposure: f/8, ISO50, 60s
   tags: london, black-and-white
 
-- title: The Shard from Tooley Street
+- title: The Shard, from Tooley Street
   image_path: images/london/shard-streaks.jpg
   portfolio: london
   position: rrr
@@ -553,6 +553,7 @@
   tags: black-and-white, chicago, sears-tower, abstract
 
 - title: Sunset from Aon Center
+  orientation: vertical
   image_path: images/posts/aon-sunset.jpg
   exposure: 1/200th, f/8, ISO100
   tags: chicago, sears-tower, cityscape, sunset
@@ -581,7 +582,7 @@
 - title: Latimer Reef Light
   image_path: images/new-england/latimer.jpg
   exposure: 1/150th, f/8, ISO100
-  tags: new-england, sunset
+  tags: new-england, sunset, landscape
 
 - title: Mystic River fall afternoon
   image_path: images/new-england/mystic-river.jpg
@@ -591,12 +592,12 @@
 - title: Stonington Borough sunset
   image_path: images/new-england/sb-rocks-sunset.jpg
   exposure: 30s, f/8, ISO50
-  tags: new-england, sunset, long-exposure
+  tags: new-england, sunset, long-exposure, landscape
 
 - title: John Hancock Center
   image_path: images/hancock-photo.jpg
   exposure: 1/125th, f/8, ISO1000
-  tags: chicago, cityscape, lake-michigan
+  tags: chicago, cityscape, lake-michigan, hancock-building
 
 - title: Art Institute staircase
   image_path: images/artinst/1.jpg
@@ -647,12 +648,12 @@
 - title: Stonington Borough sunset
   image_path: images/new-england/sb-dock-sunset.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: new-england, sunset
+  tags: new-england, sunset, landscape
 
 - title: The stars over Watch Hill
   image_path: images/new-england/watch-hill-3.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: new-england, astronomy, long-exposure
+  tags: new-england, astronomy, long-exposure, landscape
 
 - title: Watch Hill Yacht Club
   image_path: images/new-england/watch-hill.jpg
@@ -682,7 +683,7 @@
   portfolio: music
   position: bbb
   exposure: 1/125th, f/8, ISO4000
-  tags: music, concert
+  tags: music, concert, cadillac-cassanovas
 
 - title: Kodiak
   image_path: images/kodiak/22.jpg
@@ -712,7 +713,7 @@
   portfolio: music
   position: fff
   exposure: 1/125th, f/8, ISO4000
-  tags: music, concert
+  tags: music, concert, cadillac-cassanovas
 
 - title: Bret Michaels band
   orientation: vertical
@@ -737,12 +738,18 @@
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
-- title: Rick Uppling, The Cadillac Cassanovas
+- title: The Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/IMG_1302.jpg
+  exposure: 1/200th, f/5.6, ISO2500
+  tags: music, concert, cadillac-cassanovas
+
+- title: The Cadillac Cassanovas
   image_path: images/music/bass2.jpg
   portfolio: music
   position: jjj
   exposure: 1/125th, f/8, ISO4000
-  tags: music, concert
+  tags: music, concert, cadillac-cassanovas
 
 - title: Driven Under
   orientation: vertical
@@ -820,12 +827,12 @@
 - title: The Cadillac Cassanovas
   image_path: images/music/crowd.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: music, concert
+  tags: music, concert, cadillac-cassanovas
 
 - title: <i>Bendy Chicago</i>
   image_path: images/chicago/bendy-chicago.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: chicago, cityscape
+  tags: chicago, cityscape, sears-tower
 
 - title: Meadow Saxifrage
   image_path: images/p52/31.jpg
@@ -845,7 +852,7 @@
 - title: Fireworks
   image_path: images/posts/fireworks-west.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: landscape, long-exposure, chicago, cityscape
+  tags: long-exposure, chicago, cityscape
 
 - title: Midtown
   image_path: images/posts/midtown.jpg
@@ -855,7 +862,7 @@
 - title: Fireworks over Navy Pier
   image_path: images/posts/navy-pier-fireworks-14.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: landscape, long-exposure, chicago, cityscape
+  tags: long-exposure, chicago, cityscape
 
 - title: Manhattan
   orientation: vertical
@@ -890,3 +897,163 @@
   image_path: images/london/london-eye-panorama.jpg
   exposure: 60s, f/14, ISO50
   tags: london, panorama, cityscape, long-exposure
+
+- title: Cloud Gate from above
+  image_path: images/catalog/IMG_5855.jpg
+  exposure: 1/250th, f/5.6, ISO100
+  tags: chicago, the-bean
+
+- title: Good morning Chicago
+  image_path: images/catalog/IMG_4979.jpg
+  exposure: 1/200th, f/5.6, ISO100
+  tags: chicago, cityscape
+
+- title: Sears Tower sunrise
+  orientation: vertical
+  image_path: images/catalog/IMG_4974.jpg
+  exposure: 1/250th, f/5.6, ISO100
+  tags: chicago, cityscape, sears-tower
+
+- title: John Hancock center panorama
+  orientation: vertical
+  image_path: images/catalog/hancock-panorama.jpg
+  exposure: 1/800th, f/4, ISO100
+  tags: chicago, cityscape, hancock-building, panorama
+
+- title: Chicago Harbor Light
+  image_path: images/catalog/IMG_6124.jpg
+  exposure: 1/200th, f/20, ISO3200
+  tags: chicago, lighthouse
+
+- title: Sunset on Masons Island
+  image_path: images/catalog/0K6A3373.jpg
+  exposure: 5s, f/22, ISO50
+  tags: new-england, sunset, long-exposure, landscape
+
+- title: Sunset on Masons Island
+  image_path: images/catalog/0K6A3243.jpg
+  exposure: 5s, f/22, ISO50
+  tags: new-england, sunset, bird, nature
+
+- title: Manhattan sunset
+  image_path: images/catalog/0K6A7439.jpg
+  exposure: 0.6s, f/18, ISO50
+  tags: new-york, manhattan, sunset, cityscape
+
+- title: Flatiron building
+  orientation: vertical
+  image_path: images/catalog/0K6A7822.jpg
+  exposure: 1.6s, f/20, ISO50
+  tags: new-york, manhattan, cityscape
+
+- title: Sears Tower
+  orientation: vertical
+  image_path: images/catalog/IMG_0252.jpg
+  exposure: 4s, f/11, ISO400
+  tags: chicago, sears-tower, long-exposure
+
+- title: Red flower
+  image_path: images/catalog/IMG_0365.jpg
+  exposure: 1/250th, f/5.6, ISO800
+  tags: flower, macro, nature
+
+- title: The Cadillac Cassanovas
+  image_path: images/catalog/IMG_1065.jpg
+  exposure: 1/160th, f/5, ISO400
+  tags: music, cadillac-cassanovas
+
+- title: The Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/IMG_1242.jpg
+  exposure: 1/200th, f/5.6, ISO2500
+  tags: music, cadillac-cassanovas
+
+- title: The Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/IMG_1270.jpg
+  exposure: 1/200th, f/5.6, ISO2500
+  tags: music, cadillac-cassanovas
+
+- title: The Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/EI2C1732.jpg
+  exposure: 1/250th, f/3.5, ISO4000
+  tags: music, cadillac-cassanovas
+
+- title: The Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/IMG_1200.jpg
+  exposure: 1/200th, f/5.6, ISO2500
+  tags: music, cadillac-cassanovas
+
+- title: The Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/EI2C1737.jpg
+  exposure: 1/250th, f/4.5, ISO4000
+  tags: music, cadillac-cassanovas
+
+- title: Just Enuff
+  orientation: vertical
+  image_path: images/catalog/EI2C2053.jpg
+  exposure: 1/320th, f/2.8, ISO4000
+  tags: music, just-enuff
+
+- title: Adult Bald Eagle in flight
+  image_path: images/catalog/IMG_7860.jpg
+  exposure: 1/2500th, f/6.3, ISO500
+  tags: nature, bird, wildlife
+
+- title: Seagull
+  image_path: images/nature/takeoff.jpg
+  exposure: 1/2500th, f/6.3, ISO500
+  tags: nature, bird, wildlife
+
+- title: The Everly Hillbillies
+  orientation: vertical
+  image_path: images/catalog/EI2C1885.jpg
+  exposure: 1/350th, f/2.8, ISO4000
+  tags: music, concert
+
+- title: The Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/IMG_1232.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: music, concert, cadillac-cassanovas
+
+- title: Cleary Walsh Wedding
+  orientation: vertical
+  image_path: images/portraits/bride.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: portrait, wedding
+
+- title: Stephanie
+  image_path: images/portraits/stephanie.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: portrait, headshot
+
+- title: Alison
+  image_path: images/portraits/blue-portrait.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: portrait, baby
+
+- title: Cousins
+  image_path: images/portraits/family.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: portrait
+
+- title: Mike
+  orientation: vertical
+  image_path: images/portraits/mike.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: portrait
+
+- title: Alison
+  image_path: images/alison-seven-months.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: portrait, baby
+
+- title: Alison
+  orientation: vertical
+  image_path: images/portraits/bubbles.jpg
+  exposure: 1/200th, f/5, ISO2500
+  tags: portrait, baby

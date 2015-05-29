@@ -4,25 +4,15 @@ title: Nature
 permalink: /nature/
 ---
 
-<section class='portfolio'>
+<section class='portfolio gallery--half'>
 
   {% assign sorted_photos = (site.data.photos | where: "portfolio", "nature" | sort: "position") %}
 
   {% for photo in sorted_photos %}
     <figure class="{{ photo.orientation }}">
-      <img class="lazy" data-original="/{{ photo.image_path }}"/>
-      <noscript><img src="/{{ photo.image_path }}" /></noscript>
+      <img src="/{{ photo.image_path }}"/>
       <figcaption>{{ photo.title }}</figcaption>
     </figure>
   {% endfor %}
 
 </section>
-
-<script>
-  $(function() {
-    $("img.lazy").lazyload({
-      threshold : 200,
-      effect: "fadeIn"
-    });
-  });
-</script>

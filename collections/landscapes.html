@@ -1,0 +1,17 @@
+---
+layout: page
+title: Landscape collection
+permalink: /collections/landscapes/
+---
+
+
+<section class='portfolio gallery--half'>
+  {% for photo in site.data.photos %}
+    {% if photo.tags contains 'landscape' %}
+    <figure class="{{ photo.orientation }}">
+      <img src="/{{ photo.image_path }}"/>
+      <figcaption>{{ photo.title }}</figcaption>
+    </figure>
+    {% endif %}
+  {% endfor %}
+</section>
