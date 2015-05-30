@@ -1057,3 +1057,72 @@
   image_path: images/portraits/bubbles.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait, baby
+
+- title: Great Blue Heron
+  image_path: images/catalog/CRW_0488.jpg
+  exposure: 1/500th, f/5.6, ISO100
+  tags: nature, bird, heron, wildlife
+
+- title: Great Blue Heron
+  image_path: images/catalog/CRW_0509.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, heron, wildlife
+
+- title: Egret in flight
+  image_path: images/catalog/CRW_0532.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: Egret in flight
+  image_path: images/catalog/CRW_0573.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: Egret catching a fish
+  image_path: images/catalog/CRW_0582.jpg
+  exposure: 1/1000th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: Egret
+  orientation: vertical
+  image_path: images/catalog/CRW_0925.jpg
+  exposure: 1/500th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: Crossed Egrets
+  image_path: images/catalog/CRW_1156.jpg
+  exposure: 1/1000th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: Egret taking off
+  image_path: images/catalog/CRW_1974.jpg
+  exposure: 1/1000th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: Great Blue Heron reflection
+  image_path: images/catalog/CRW_3868.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, heron, wildlife
+
+- title: Great Blue Heron reflection
+  orientation: vertical
+  image_path: images/catalog/CRW_3879.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, heron, wildlife
+
+- title: Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/EI2C1714.jpg
+  exposure: 1/250th, f/5.6, ISO4000
+  tags: music, concert, cadillac-cassanovas
+
+- title: Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/EI2C1728.jpg
+  exposure: 1/250th, f/4.5, ISO4000
+  tags: music, concert, cadillac-cassanovas
+
+- title: Cadillac Cassanovas
+  image_path: images/catalog/EI2C1769.jpg
+  exposure: 1/250th, f/5.6, ISO4000
+  tags: music, concert, cadillac-cassanovas
