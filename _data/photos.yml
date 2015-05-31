@@ -744,6 +744,12 @@
   exposure: 1/200th, f/5.6, ISO2500
   tags: music, concert, cadillac-cassanovas
 
+- title: Cadillac Cassanovas
+  orientation: vertical
+  image_path: images/catalog/EI2C1728.jpg
+  exposure: 1/250th, f/4.5, ISO4000
+  tags: music, concert, cadillac-cassanovas
+
 - title: The Cadillac Cassanovas
   image_path: images/music/bass2.jpg
   portfolio: music
@@ -1114,12 +1120,6 @@
   orientation: vertical
   image_path: images/catalog/EI2C1714.jpg
   exposure: 1/250th, f/5.6, ISO4000
-  tags: music, concert, cadillac-cassanovas
-
-- title: Cadillac Cassanovas
-  orientation: vertical
-  image_path: images/catalog/EI2C1728.jpg
-  exposure: 1/250th, f/4.5, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: Cadillac Cassanovas
