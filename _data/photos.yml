@@ -1084,16 +1084,21 @@
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
-- title: Egret catching a fish
+- title: An egret catching a fish
   image_path: images/catalog/CRW_0582.jpg
   exposure: 1/1000th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
-- title: Egret
+- title: Egret in the Fox River
   orientation: vertical
   image_path: images/catalog/CRW_0925.jpg
   exposure: 1/500th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
+
+- title: A Great Blue Heron spearing a fish
+  image_path: images/catalog/CRW_0511.jpg
+  exposure: 1/1000th, f/5.6, ISO100
+  tags: nature, bird, wildlife
 
 - title: Crossed Egrets
   image_path: images/catalog/CRW_1156.jpg
@@ -1126,3 +1131,23 @@
   image_path: images/catalog/EI2C1769.jpg
   exposure: 1/250th, f/5.6, ISO4000
   tags: music, concert, cadillac-cassanovas
+
+- title: Peoria, IL panorama
+  image_path: images/catalog/peoria-panorama.jpg
+  exposure: 1/250th, f/5.6, ISO4000
+  tags: cityscape, dusk, long-exposure, panorama
+
+- title: Peoria gazebo
+  image_path: images/catalog/0K6A0586.jpg
+  exposure: 1/250th, f/5.6, ISO4000
+  tags: architecture, sunset
+
+- title: An egret fishing in the Fox River
+  image_path: images/catalog/CRW_0581.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: Two egrets and a great blue heron
+  image_path: images/catalog/CRW_0867.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife, heron
