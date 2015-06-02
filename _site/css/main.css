@@ -156,6 +156,8 @@
     background: url("/images/collections/chicago.jpg"); }
   .collections #cityscapes {
     background: url("/images/collections/cityscapes.jpg"); }
+  .collections #egrets {
+    background: url("/images/collections/egrets.jpg"); }
   .collections #london {
     background: url("/images/collections/london.jpg"); }
   .collections #long-exposures {
@@ -176,6 +178,8 @@
     background: url("/images/collections/sunsets.jpg"); }
   .collections #sears-tower {
     background: url("/images/collections/sears.jpg"); }
+  .collections #trump-tower {
+    background: url("/images/collections/trump.jpg"); }
   .collections #the-bean {
     background: url("/images/collections/bean.jpg"); }
 

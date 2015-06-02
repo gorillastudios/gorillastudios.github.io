@@ -1,0 +1,16 @@
+---
+layout: page
+title: Egrets collection
+permalink: /collections/egrets/
+---
+
+
+<section class='portfolio gallery--half'>
+  {% for photo in site.data.photos %}
+    {% if photo.tags contains 'egret' %}
+    <figure class="{{ photo.orientation }}">
+      <img src="/{{ photo.image_path }}"/>
+    </figure>
+    {% endif %}
+  {% endfor %}
+</section>

@@ -408,6 +408,11 @@
   exposure: f/8, ISO50, 60s
   tags: nature, macro, flower
 
+- title: An egret wading in the Fox River
+  image_path: images/catalog/CRW_4020.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
 - title: <i>Somber sunrise</i>
   image_path: images/nature/somber-sunrise.jpg
   portfolio: nature

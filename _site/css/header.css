@@ -1,59 +1,59 @@
-header {
+header.site-header {
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 400;
   position: relative; }
-  header .site-title img {
+  header.site-header .site-title img {
     padding: 10px;
     width: 30%; }
-  header .nav-toggle {
+  header.site-header .nav-toggle {
     position: absolute;
     top: 40px;
     right: 20px; }
-  header .nav-collapse {
+  header.site-header .nav-collapse {
     background: #f9f9f9;
     padding: 0 10px;
     overflow: hidden; }
-    header .nav-collapse ul {
+    header.site-header .nav-collapse ul {
       overflow: hidden;
       padding-bottom: 20px; }
-    header .nav-collapse section {
+    header.site-header .nav-collapse section {
       float: left;
       padding: 10px 10px 0 0;
       width: 50%; }
-    header .nav-collapse li:last-child a {
+    header.site-header .nav-collapse li:last-child a {
       border: none; }
-    header .nav-collapse h4 {
+    header.site-header .nav-collapse h4 {
       padding-left: 4px; }
-    header .nav-collapse a {
+    header.site-header .nav-collapse a {
       border-bottom: 1px solid white;
       display: block;
       color: #444;
       padding: 4px; }
 
 @media screen and (min-width: 650px) {
-  header {
+  header.site-header {
     margin: 0 auto;
     max-width: 1400px;
     padding: 20px 0;
     overflow: hidden;
     width: 95%; }
-    header .site-title img {
+    header.site-header .site-title img {
       max-width: 150px; }
-    header .nav-toggle {
+    header.site-header .nav-toggle {
       top: 60px; }
-    header .nav-collapse {
+    header.site-header .nav-collapse {
       background: none;
       overflow: hidden;
       padding: 0 !important; }
-      header .nav-collapse ul {
+      header.site-header .nav-collapse ul {
         display: block;
         overflow: hidden; }
-      header .nav-collapse section {
+      header.site-header .nav-collapse section {
         padding-bottom: 1em; }
-      header .nav-collapse a {
+      header.site-header .nav-collapse a {
         border-bottom: 1px solid #f2f2f2;
         color: #777; }
-        header .nav-collapse a:hover {
+        header.site-header .nav-collapse a:hover {
           color: black;
           background: #f9f9f9; } }
 /* Footer

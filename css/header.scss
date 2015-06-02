@@ -2,7 +2,7 @@
 ---
 @import 'mixins';
 
-header {
+header.site-header {
   @include sans-serif;
   position: relative;
   .site-title img {
@@ -44,7 +44,7 @@ header {
 
 
 @media screen and (min-width: 650px) {
-  header {
+  header.site-header {
     margin: 0 auto;
     max-width: 1400px;
     padding: 20px 0;
