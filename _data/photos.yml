@@ -292,6 +292,11 @@
   exposure: f/8, ISO50, 60s
   tags: chicago, trump-tower, architecture, black-and-white, skyscraper, abstract
 
+- title: Grant Park
+  image_path: images/chicago/sears-from-grant.jpg
+  exposure: f/8, ISO50, 60s
+  tags: chicago, cityscape, sears-tower
+
 - title: Aqua building, Chicago
   image_path: images/chicago/waves.jpg
   portfolio: black-white
@@ -454,6 +459,11 @@
   exposure: 1/500th, f/9, ISO125
   tags: chicago, trump-tower, architecture, black-and-white, abstract
 
+- title: The Bean
+  image_path: images/chicago/bean.jpg
+  exposure: 1/500th, f/9, ISO125
+  tags: chicago, the-bean
+
 - title: Trump Tower, Chicago
   image_path: images/union/22.jpg
   exposure: 1/500th, f/9, ISO125
@@ -546,7 +556,7 @@
   tags: new-york, manhattan, architecture, black-and-white, abstract
 
 - title: Rainy Day Man
-  image_path: images/rainy-day-man.jpg
+  image_path: images/black-white/rainy-day-man.jpg
   exposure: 1/200th, f/8, ISO100
   tags: black-and-white, sculpture
 
@@ -600,7 +610,7 @@
   tags: new-england, sunset, long-exposure, landscape
 
 - title: John Hancock Center
-  image_path: images/hancock-photo.jpg
+  image_path: images/chicago/hancock-photo.jpg
   exposure: 1/125th, f/8, ISO1000
   tags: chicago, cityscape, lake-michigan, hancock-building
 
@@ -691,7 +701,7 @@
   tags: music, concert, cadillac-cassanovas
 
 - title: Kodiak
-  image_path: images/kodiak/22.jpg
+  image_path: images/music/kodiak1.jpg
   portfolio: music
   position: ccc
   exposure: 1/125th, f/8, ISO4000
@@ -717,6 +727,11 @@
   image_path: images/music/standing-bass2.jpg
   portfolio: music
   position: fff
+  exposure: 1/125th, f/8, ISO4000
+  tags: music, concert, cadillac-cassanovas
+
+- title: Kodiak
+  image_path: images/music/kodiak2.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
@@ -810,6 +825,11 @@
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
+- title: Kodiak
+  image_path: images/music/kodiak4.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music
+
 - title: Bret Michaels
   image_path: images/bm/13.jpg
   exposure: 1/125th, f/8, ISO4000
@@ -839,6 +859,12 @@
   image_path: images/music/crowd.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
+
+- title: Kodiak
+  orientation: vertical
+  image_path: images/music/kodiak5.jpg
+  exposure: 1/125th, f/8, ISO4000
+  tags: music
 
 - title: <i>Bendy Chicago</i>
   image_path: images/chicago/bendy-chicago.jpg
@@ -991,6 +1017,11 @@
   exposure: 1/250th, f/3.5, ISO4000
   tags: music, cadillac-cassanovas
 
+- title: Kodiak
+  image_path: images/music/kodiak6.jpg
+  exposure: 1/250th, f/3.5, ISO4000
+  tags: music
+
 - title: The Cadillac Cassanovas
   orientation: vertical
   image_path: images/catalog/IMG_1200.jpg
@@ -1024,6 +1055,11 @@
   image_path: images/catalog/EI2C1885.jpg
   exposure: 1/350th, f/2.8, ISO4000
   tags: music, concert
+
+- title: Kodiak
+  image_path: images/music/kodiak3.jpg
+  exposure: 1/350th, f/2.8, ISO4000
+  tags: music
 
 - title: The Cadillac Cassanovas
   orientation: vertical
@@ -1059,7 +1095,7 @@
   tags: portrait
 
 - title: Alison
-  image_path: images/alison-seven-months.jpg
+  image_path: images/portraits/alison-seven-months.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait, baby
 
@@ -1104,6 +1140,11 @@
   image_path: images/catalog/CRW_0511.jpg
   exposure: 1/1000th, f/5.6, ISO100
   tags: nature, bird, wildlife
+
+- title: An Egret grabbing a fish
+  image_path: images/catalog/CRW_4047.jpg
+  exposure: 1/750th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
 
 - title: Crossed Egrets
   image_path: images/catalog/CRW_1156.jpg
@@ -1156,3 +1197,15 @@
   image_path: images/catalog/CRW_0867.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife, heron
+
+- title: A molting Egret
+  orientation: vertical
+  image_path: images/catalog/CRW_1017.jpg
+  exposure: 1/250th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
+
+- title: A molting Egret
+  orientation: vertical
+  image_path: images/catalog/CRW_9636.jpg
+  exposure: 1/250th, f/5.6, ISO100
+  tags: nature, bird, egret, wildlife
