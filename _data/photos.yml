@@ -1161,6 +1161,11 @@
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, heron, wildlife
 
+- title: Ornamental Grass
+  image_path: images/catalog/IMG_3495.jpg
+  exposure: 1/400th, f/5.6, ISO100
+  tags: nature
+
 - title: Great Blue Heron reflection
   orientation: vertical
   image_path: images/catalog/CRW_3879.jpg
@@ -1209,3 +1214,68 @@
   image_path: images/catalog/CRW_9636.jpg
   exposure: 1/250th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
+
+- title: Peoria sunset
+  image_path: images/catalog/0K6A0597.jpg
+  exposure: 1/80th, f/20, ISO50
+  tags: sunset
+
+- title: Sunset at the Batavia Windmill
+  image_path: images/catalog/CRW_2250.jpg
+  exposure: 1/125th, f/4, ISO100
+  tags: sunset
+
+- title: Campton Hills Road
+  orientation: vertical
+  image_path: images/catalog/CRW_2285.jpg
+  exposure: 15s, f/4, ISO100
+  tags: sunset, long-exposure
+
+- title: The Bean
+  image_path: images/catalog/CRW_2369.jpg
+  exposure: 1/1000th, f/5.6, ISO100
+  tags: the-bean, chicago
+
+- title: The Sears Tower
+  orientation: vertical
+  image_path: images/catalog/CRW_7486.jpg
+  exposure: 1/125th, f/4, ISO100
+  tags: chicago, sears-tower
+
+- title: Kaneland Snowstorm
+  image_path: images/catalog/CRW_7870.jpg
+  exposure: 1/1000th, f/4, ISO100
+  tags: landscape, rural, snowscape
+
+- title: The Windy City
+  image_path: images/catalog/windycity.jpg
+  exposure: 1/250th, f/9.5, ISO100
+  tags: chicago, black-and-white, sears-tower, cityscape
+
+- title: Kaneland Snowstorm
+  image_path: images/catalog/CRW_7852.jpg
+  exposure: 1/1000th, f/6.7, ISO100
+  tags: landscape, rural, snowscape
+
+- title: Baker Park
+  orientation: vertical
+  image_path: images/catalog/CRW_7080.jpg
+  exposure: 30s, f/16, ISO100
+  tags: fall, long-exposure
+
+- title: 239 S. Halsted
+  orientation: vertical
+  image_path: images/catalog/CRW_8654.jpg
+  exposure: 1/750th, f/4.5, ISO100
+  tags: chicago, urban, architecture
+
+- title: The Sears Tower
+  orientation: vertical
+  image_path: images/catalog/IMG_4127.jpg
+  exposure: 1/60th, f/5.6, ISO640
+  tags: chicago, architecture, sears-tower
+
+- title: Old barn
+  image_path: images/catalog/IMG_2711.jpg
+  exposure: 1/180th, f/8, ISO100
+  tags: rural, black-and-white, landscape
