@@ -733,7 +733,7 @@
 - title: Kodiak
   image_path: images/music/kodiak2.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: music, concert, cadillac-cassanovas
+  tags: music, concert, kodiak
 
 - title: Bret Michaels
   orientation: vertical
@@ -764,7 +764,7 @@
   exposure: 1/200th, f/5.6, ISO2500
   tags: music, concert, cadillac-cassanovas
 
-- title: Cadillac Cassanovas
+- title: The Cadillac Cassanovas
   orientation: vertical
   image_path: images/catalog/EI2C1728.jpg
   exposure: 1/250th, f/4.5, ISO4000
@@ -809,13 +809,13 @@
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
-- title: Bret Michaels
+- title: Bret Michaels Band
   orientation: vertical
   image_path: images/bm/14.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
-- title: Bret Michaels
+- title: Bret Michaels Band
   image_path: images/bm/6.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
