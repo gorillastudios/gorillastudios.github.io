@@ -133,6 +133,9 @@ $fade-color: $charcoal;
 	position: relative;
 	width: 40px;
 	-webkit-flex: none;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 /* Hide the text */

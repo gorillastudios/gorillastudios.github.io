@@ -86,6 +86,8 @@
   position: relative;
   width: 40px;
   -webkit-flex: none; }
+  .trigger:hover {
+    cursor: pointer; }
 
 /* Hide the text */
 .trigger span {
