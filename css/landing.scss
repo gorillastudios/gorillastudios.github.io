@@ -8,15 +8,32 @@
 $break-medium: 700px;
 $panel-height-large: 160px;
 
+$trigger-color: #fff;
+$fade-color: $charcoal;
+
+
 .intro {
+  // ----------------------------- Regular backgrounds
 	//background-image: url('/images/bm/5.jpg');
+	background-image: url('/images/bm/12.jpg');
+	//background-image: url('/images/bm/6.jpg');
   //background-image: url('/images/portfolio/archways.jpg');
 	//background-image: url("/images/london/shard-streaks.jpg");
 	//background-image: url("/images/new-england/watch-hill-3.jpg");
 	//background-image: url("/images/chicago/inky-lake2.jpg");
-	background-image: url("/images/p52/25.jpg");
+	//background-image: url("/images/p52/25.jpg");
+	//background-image: url("/images/portfolio/masons-dock.jpg");
+	//background-image: url("/images/london/london-eye-2015.jpg");
+	//background-image: url("/images/portfolio/dance.jpg");
+	//background-image: url('/images/union/28.jpg');
+	//background-image: url('/images/chicago/sunrays.jpg');
+
+  // ----------------------------- White backgrounds
+	//background-image: url("/images/portfolio/leroy-oaks.jpg");
+	//background-image: url("/images/portfolio/snowy-bean.jpg");
+
   background-size: cover;
-  background-position: 60% 50%;
+  background-position: 30% 50%;
 	height: 100%;
 	overflow: hidden;
 	position: fixed;
@@ -46,7 +63,7 @@ $panel-height-large: 160px;
   right: 0;
   bottom: 0;
   left: 0;
-  background: $charcoal;
+  background: $fade-color;
   opacity: 0;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
@@ -120,7 +137,7 @@ $panel-height-large: 160px;
 
 .icon rect,
 .icon line {
-	stroke: #dbdbdb;
+	stroke: $trigger-color;
 	fill: none;
 	stroke-width: 2px;
 }
@@ -228,8 +245,18 @@ $panel-height-large: 160px;
 	transform: translate3d(0, 20px, 0);
 }
 
+.image-caption {
+  bottom: 5px;
+  color: white;
+  font-size: .6em;
+  font-style: italic;
+  margin: 0;
+  opacity: 0.75;
+  position: absolute;
+  right: 10px;
+}
 
-/* Media Queries */
+// --------------------------------------------- Media Queries
 
 @media screen and (max-width: 1440px) {
 	.item {

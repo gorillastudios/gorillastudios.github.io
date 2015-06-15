@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="/css/landing.css">
     <link rel="stylesheet" href="/css/gorilla.css">
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/blog.css">
-    <link rel="stylesheet" href="/css/store.css">
-    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/animation.css">
 
     <script src="/js/jquery-1.11.1.min.js"></script>
@@ -43,163 +40,166 @@
       <div id="container" class="container">
 
   <header class="intro">
-  <div class="intro__fade"></div>
-  <div class="intro__content animated fadeIn">
-    <div class="intro__logo-and-trigger">
-      <div class="intro__description">
-        <img src="/images/gostu-white.png" />
+    <div class="intro__fade"></div>
+    <div class="intro__content animated fadeIn">
+      <div class="intro__logo-and-trigger">
+        <div class="intro__description">
+          <img src="/images/gostu-white.png" />
+        </div>
+
+        <button class="trigger">
+          <svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+          <g class="icon icon--grid">
+          <rect x="32.5" y="5.5" width="22" height="22"/>
+          <rect x="4.5" y="5.5" width="22" height="22"/>
+          <rect x="32.5" y="33.5" width="22" height="22"/>
+          <rect x="4.5" y="33.5" width="22" height="22"/>
+          </g>
+          <g class="icon icon--cross">
+          <line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+          <line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+          </g>
+          </svg>
+          <span>View content</span>
+        </button>
+
       </div>
-      <button class="trigger">
-        <svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
-        <g class="icon icon--grid">
-        <rect x="32.5" y="5.5" width="22" height="22"/>
-        <rect x="4.5" y="5.5" width="22" height="22"/>
-        <rect x="32.5" y="33.5" width="22" height="22"/>
-        <rect x="4.5" y="33.5" width="22" height="22"/>
-        </g>
-        <g class="icon icon--cross">
-        <line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
-        <line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
-        </g>
-        </svg>
-        <span>View content</span>
-      </button>
     </div>
-  </div><!-- /intro__content -->
-  </header><!-- /intro -->
+  </header>
 
-      <section class="items-wrap">
-        <a href="/blog/" class="item">
-          <img class="item__image" src="/images/index/blog.jpg" alt="item01"/>
-          <h2 class="item__title">Blog</h2>
-        </a>
-        <a href="/portfolio/" class="item">
-          <img class="item__image" src="/images/index/portfolio.jpg" alt="item02"/>
-          <h2 class="item__title">Portfolio</h2>
-        </a>
-        <a href="/collections/chicago/" class="item">
-          <img class="item__image" src="/images/index/chicago.jpg" alt="item02"/>
-          <h2 class="item__title">Chicago</h2>
-        </a>
-        <a href="/collections/london/" class="item">
-          <img class="item__image" src="/images/index/london.jpg" alt="item02"/>
-          <h2 class="item__title">London</h2>
-        </a>
-        <a href="/collections/music/" class="item">
-          <img class="item__image" src="/images/index/music.jpg" alt="item02"/>
-          <h2 class="item__title">Music</h2>
-        </a>
-        <a href="/collections/black-and-white/" class="item">
-          <img class="item__image" src="/images/index/black-white.jpg" alt="item02"/>
-          <h2 class="item__title">Black &amp; White</h2>
-        </a>
-        <a href="/collections/cityscapes/" class="item">
-          <img class="item__image" src="/images/index/cityscapes.jpg" alt="item02"/>
-          <h2 class="item__title">Cityscapes</h2>
-        </a>
-        <a href="/collections/architecture/" class="item">
-          <img class="item__image" src="/images/index/architecture.jpg" alt="item02"/>
-          <h2 class="item__title">Architecture</h2>
-        </a>
-        <a href="/collections/manhattan/" class="item">
-          <img class="item__image" src="/images/index/manhattan.jpg" alt="item02"/>
-          <h2 class="item__title">New York</h2>
-        </a>
-        <a href="/collections/panoramas/" class="item">
-          <img class="item__image" src="/images/index/panoramas.jpg" alt="item02"/>
-          <h2 class="item__title">Panoramas</h2>
-        </a>
-        <a href="/collections/long-exposures/" class="item">
-          <img class="item__image" src="/images/index/long-exposures.jpg" alt="item02"/>
-          <h2 class="item__title">Long Exposures</h2>
-        </a>
-        <a href="/collections/birds/" class="item">
-          <img class="item__image" src="/images/index/birds.jpg" alt="item02"/>
-          <h2 class="item__title">Birds</h2>
-        </a>
-        <a href="/collections/abstract/" class="item">
-          <img class="item__image" src="/images/index/abstract.jpg" alt="item02"/>
-          <h2 class="item__title">Abstract</h2>
-        </a>
-        <a href="/collections/nature/" class="item">
-          <img class="item__image" src="/images/index/nature.jpg" alt="item02"/>
-          <h2 class="item__title">Nature</h2>
-        </a>
-        <a href="/collections/new-england/" class="item">
-          <img class="item__image" src="/images/index/new-england.jpg" alt="item02"/>
-          <h2 class="item__title">New England</h2>
-        </a>
-        <a href="/collections/sunsets/" class="item">
-          <img class="item__image" src="/images/index/sunsets.jpg" alt="item02"/>
-          <h2 class="item__title">Sunsets</h2>
-        </a>
-        <a href="/collections/landscapes/" class="item">
-          <img class="item__image" src="/images/index/landscapes.jpg" alt="item02"/>
-          <h2 class="item__title">Landscapes</h2>
-        </a>
-        <a href="/collections/egrets/" class="item">
-          <img class="item__image" src="/images/index/egrets.jpg" alt="item02"/>
-          <h2 class="item__title">Egrets</h2>
-        </a>
-        <a href="/collections/sears-tower/" class="item">
-          <img class="item__image" src="/images/index/sears.jpg" alt="item02"/>
-          <h2 class="item__title">Sears Tower</h2>
-        </a>
-        <a href="/collections/the-bean/" class="item">
-          <img class="item__image" src="/images/index/the-bean.jpg" alt="item02"/>
-          <h2 class="item__title">The Bean</h2>
-        </a>
-        <a href="/collections/bret-michaels/" class="item">
-          <img class="item__image" src="/images/index/bret-michaels.jpg" alt="item02"/>
-          <h2 class="item__title">Bret Michaels Band</h2>
-        </a>
-        <a href="/collections/trump-tower/" class="item">
-          <img class="item__image" src="/images/index/trump.jpg" alt="item02"/>
-          <h2 class="item__title">Trump Tower</h2>
-        </a>
-        <a href="/collections/cadillac-cassanovas/" class="item">
-          <img class="item__image" src="/images/index/cadillac.jpg" alt="item02"/>
-          <h2 class="item__title">Cadillac Cassanovas</h2>
-        </a>
-        <a href="/collections/" class="item">
-          <img class="item__image" src="/images/index/all.jpg" alt="item02"/>
-          <h2 class="item__title">All Collections</h2>
-        </a>
-      </section>
-    </div><!-- /container -->
+  <section class="items-wrap">
+    <a href="/blog/" class="item">
+      <img class="item__image" src="/images/index/blog.jpg" alt="item01"/>
+      <h2 class="item__title">Blog</h2>
+    </a>
+    <a href="/portfolio/" class="item">
+      <img class="item__image" src="/images/index/portfolio.jpg" alt="item02"/>
+      <h2 class="item__title">Portfolio</h2>
+    </a>
+    <a href="/collections/chicago/" class="item">
+      <img class="item__image" src="/images/index/chicago.jpg" alt="item02"/>
+      <h2 class="item__title">Chicago</h2>
+    </a>
+    <a href="/collections/london/" class="item">
+      <img class="item__image" src="/images/index/london.jpg" alt="item02"/>
+      <h2 class="item__title">London</h2>
+    </a>
+    <a href="/collections/music/" class="item">
+      <img class="item__image" src="/images/index/music.jpg" alt="item02"/>
+      <h2 class="item__title">Music</h2>
+    </a>
+    <a href="/collections/black-and-white/" class="item">
+      <img class="item__image" src="/images/index/black-white.jpg" alt="item02"/>
+      <h2 class="item__title">Black &amp; White</h2>
+    </a>
+    <a href="/collections/cityscapes/" class="item">
+      <img class="item__image" src="/images/index/cityscapes.jpg" alt="item02"/>
+      <h2 class="item__title">Cityscapes</h2>
+    </a>
+    <a href="/collections/architecture/" class="item">
+      <img class="item__image" src="/images/index/architecture.jpg" alt="item02"/>
+      <h2 class="item__title">Architecture</h2>
+    </a>
+    <a href="/collections/manhattan/" class="item">
+      <img class="item__image" src="/images/index/manhattan.jpg" alt="item02"/>
+      <h2 class="item__title">New York</h2>
+    </a>
+    <a href="/collections/panoramas/" class="item">
+      <img class="item__image" src="/images/index/panoramas.jpg" alt="item02"/>
+      <h2 class="item__title">Panoramas</h2>
+    </a>
+    <a href="/collections/long-exposures/" class="item">
+      <img class="item__image" src="/images/index/long-exposures.jpg" alt="item02"/>
+      <h2 class="item__title">Long Exposures</h2>
+    </a>
+    <a href="/collections/birds/" class="item">
+      <img class="item__image" src="/images/index/birds.jpg" alt="item02"/>
+      <h2 class="item__title">Birds</h2>
+    </a>
+    <a href="/collections/abstract/" class="item">
+      <img class="item__image" src="/images/index/abstract.jpg" alt="item02"/>
+      <h2 class="item__title">Abstract</h2>
+    </a>
+    <a href="/collections/nature/" class="item">
+      <img class="item__image" src="/images/index/nature.jpg" alt="item02"/>
+      <h2 class="item__title">Nature</h2>
+    </a>
+    <a href="/collections/new-england/" class="item">
+      <img class="item__image" src="/images/index/new-england.jpg" alt="item02"/>
+      <h2 class="item__title">New England</h2>
+    </a>
+    <a href="/collections/sunsets/" class="item">
+      <img class="item__image" src="/images/index/sunsets.jpg" alt="item02"/>
+      <h2 class="item__title">Sunsets</h2>
+    </a>
+    <a href="/collections/landscapes/" class="item">
+      <img class="item__image" src="/images/index/landscapes.jpg" alt="item02"/>
+      <h2 class="item__title">Landscapes</h2>
+    </a>
+    <a href="/collections/egrets/" class="item">
+      <img class="item__image" src="/images/index/egrets.jpg" alt="item02"/>
+      <h2 class="item__title">Egrets</h2>
+    </a>
+    <a href="/collections/sears-tower/" class="item">
+      <img class="item__image" src="/images/index/sears.jpg" alt="item02"/>
+      <h2 class="item__title">Sears Tower</h2>
+    </a>
+    <a href="/collections/the-bean/" class="item">
+      <img class="item__image" src="/images/index/the-bean.jpg" alt="item02"/>
+      <h2 class="item__title">The Bean</h2>
+    </a>
+    <a href="/collections/bret-michaels/" class="item">
+      <img class="item__image" src="/images/index/bret-michaels.jpg" alt="item02"/>
+      <h2 class="item__title">Bret Michaels Band</h2>
+    </a>
+    <a href="/collections/trump-tower/" class="item">
+      <img class="item__image" src="/images/index/trump.jpg" alt="item02"/>
+      <h2 class="item__title">Trump Tower</h2>
+    </a>
+    <a href="/collections/cadillac-cassanovas/" class="item">
+      <img class="item__image" src="/images/index/cadillac.jpg" alt="item02"/>
+      <h2 class="item__title">Cadillac Cassanovas</h2>
+    </a>
+    <a href="/collections/" class="item">
+      <img class="item__image" src="/images/index/all.jpg" alt="item02"/>
+      <h2 class="item__title">All Collections</h2>
+    </a>
+  </section>
 
-    <script>
-      (function() {
-        var container = document.getElementById( 'container' ),
-          trigger = container.querySelector( 'button.trigger' );
+</div>
 
-        function toggleContent() {
-          if( classie.has( container, 'container--open' ) ) {
-            classie.remove( container, 'container--open' );
-            classie.remove( trigger, 'trigger--active' );
-            window.addEventListener( 'scroll', noscroll );
-          }
-          else {
-            classie.add( container, 'container--open' );
-            classie.add( trigger, 'trigger--active' );
-            window.removeEventListener( 'scroll', noscroll );
-          }
-        }
+<script>
+  (function() {
+    var container = document.getElementById( 'container' ),
+    trigger = container.querySelector( 'button.trigger' );
 
-        function noscroll() {
-          window.scrollTo( 0, 0 );
-        }
-
-        // reset scrolling position
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
-
-        // disable scrolling
+    function toggleContent() {
+      if( classie.has( container, 'container--open' ) ) {
+        classie.remove( container, 'container--open' );
+        classie.remove( trigger, 'trigger--active' );
         window.addEventListener( 'scroll', noscroll );
+      }
+      else {
+        classie.add( container, 'container--open' );
+        classie.add( trigger, 'trigger--active' );
+        window.removeEventListener( 'scroll', noscroll );
+      }
+    }
 
-        trigger.addEventListener( 'click', toggleContent );
+    function noscroll() {
+      window.scrollTo( 0, 0 );
+    }
 
-      })();
-    </script>
+    // reset scrolling position
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+    // disable scrolling
+    window.addEventListener( 'scroll', noscroll );
+
+    trigger.addEventListener( 'click', toggleContent );
+
+  })();
+</script>
 
     </div>
   </body>

@@ -1,7 +1,7 @@
 .intro {
-  background-image: url("/images/p52/25.jpg");
+  background-image: url("/images/bm/12.jpg");
   background-size: cover;
-  background-position: 60% 50%;
+  background-position: 30% 50%;
   height: 100%;
   overflow: hidden;
   position: fixed;
@@ -87,7 +87,7 @@
 
 .icon rect,
 .icon line {
-  stroke: #dbdbdb;
+  stroke: #fff;
   fill: none;
   stroke-width: 2px; }
 
@@ -180,7 +180,16 @@
   -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0); }
 
-/* Media Queries */
+.image-caption {
+  bottom: 5px;
+  color: white;
+  font-size: .6em;
+  font-style: italic;
+  margin: 0;
+  opacity: 0.75;
+  position: absolute;
+  right: 10px; }
+
 @media screen and (max-width: 1440px) {
   .item {
     -webkit-flex: 1 0 33.333%;
