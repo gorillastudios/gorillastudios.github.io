@@ -172,6 +172,8 @@
   transform: translate3d(0, -50%, 0); }
 
 .item__title {
+  font-family: "freight-sans-pro";
+  font-weight: 300;
   bottom: 0;
   color: #FFF;
   font-size: 1.5em;
