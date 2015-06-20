@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Music collection
-permalink: /collections/music/
+permalink: /music/
 ---
 
 
-<section class='portfolio gallery--half'>
+<section class="gallery">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'music' %}
     <figure class="{{ photo.orientation }}">

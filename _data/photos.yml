@@ -544,13 +544,13 @@
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, architecture, skyscraper, black-and-white
 
-- title: Manhattan building
+- title: 168 E. 58th
   orientation: vertical
   image_path: images/posts/fight.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, architecture, black-and-white, abstract
 
-- title: Manhattan building
+- title: 168 E. 58th
   image_path: images/union/3.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, architecture, black-and-white, abstract
@@ -894,7 +894,7 @@
 - title: Midtown
   image_path: images/posts/midtown.jpg
   exposure: 1/125th, f/8, ISO4000
-  tags: cityscape, black-and-white, new-york, manhattan
+  tags: cityscape, black-and-white, new-york, manhattan, street
 
 - title: Fireworks over Navy Pier
   image_path: images/posts/navy-pier-fireworks-14.jpg
@@ -972,10 +972,15 @@
   exposure: 5s, f/22, ISO50
   tags: new-england, sunset, bird, nature
 
+- title: Imagine
+  image_path: images/posts/imagine.jpg
+  exposure: 1/250th, f/8, ISO100
+  tags: new-york, manhattan, black-and-white
+
 - title: Manhattan sunset
   image_path: images/catalog/0K6A7439.jpg
   exposure: 0.6s, f/18, ISO50
-  tags: new-york, manhattan, sunset, cityscape
+  tags: new-york, manhattan, sunset, cityscape, street
 
 - title: Flatiron building
   orientation: vertical
@@ -1229,7 +1234,7 @@
   orientation: vertical
   image_path: images/catalog/CRW_2285.jpg
   exposure: 15s, f/4, ISO100
-  tags: sunset, long-exposure
+  tags: long-exposure
 
 - title: The Bean
   image_path: images/catalog/CRW_2369.jpg

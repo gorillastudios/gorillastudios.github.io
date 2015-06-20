@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Nature collection
-permalink: /collections/nature/
+permalink: /nature/
 ---
 
 
-<section class='portfolio gallery--half'>
+<section class="gallery">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'nature' %}
     <figure class="{{ photo.orientation }}">

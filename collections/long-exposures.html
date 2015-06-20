@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Long Exposure collection
-permalink: /collections/long-exposures/
+permalink: /long-exposures/
 ---
 
 
-<section class='portfolio gallery--half'>
+<section class="gallery">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'long-exposure' %}
     <figure class="{{ photo.orientation }}">

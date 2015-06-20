@@ -1,16 +1,15 @@
 ---
 layout: page
 title: Sears Tower collection
-permalink: /collections/sears-tower/
+permalink: /sears-tower/
 ---
 
 
-<section class='portfolio gallery--half' >
+<section class="gallery">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'sears-tower' %}
     <figure class="{{ photo.orientation }}">
       <img src="/{{ photo.image_path }}"/>
-      <figcaption>{{ photo.title }}</figcaption>
     </figure>
     {% endif %}
   {% endfor %}

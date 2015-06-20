@@ -11,10 +11,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/vendor/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/gorilla.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/blog.css">
-    <link rel="stylesheet" href="/css/store.css">
     <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/animation.css">
 
@@ -24,6 +20,7 @@
     <script src="/js/jquery.lazyload.min.js"></script>
     <script src="/js/responsive-nav.js"></script>
     <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/classie.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -52,11 +49,11 @@
       </section>
       <section>
         <h4>Collections</h4>
-        <li><a href="/collections/music/">Music</a></li>
-        <li><a href="/collections/chicago/">Chicago</a></li>
-        <li><a href="/collections/london/">London</a></li>
-        <li><a href="/collections/black-and-white/">Black &amp; White</a></li>
-        <li><a href="/collections/">All Collections</a></li>
+        <li><a href="/music/">Music</a></li>
+        <li><a href="/chicago/">Chicago</a></li>
+        <li><a href="/london/">London</a></li>
+        <li><a href="/black-and-white/">Black &amp; White</a></li>
+        <li><a href="/collections">All Collections</a></li>
       </section>
     </ul>
   </nav>
@@ -68,7 +65,7 @@
 </div>
 
 <section class="collections">
-<a id="chicago" href="/collections/chicago">Chicago</a>
+<a id="chicago" href="/chicago">Chicago</a>
 <a id="architecture" href="/collections/architecture">Architecture</a>
 <a id="black-white" href="/collections/black-and-white">Black &amp; White</a>
 <a id="music" href="/collections/music">Music</a>
@@ -91,8 +88,8 @@
 </div>
 
 <section class="collections">
-<a id="sears-tower" href="/collections/sears-tower">The Sears Tower</a>
-<a id="the-bean" href="/collections/the-bean">The Bean</a>
+<a id="sears-tower" href="/sears-tower">The Sears Tower</a>
+<a id="the-bean" href="/the-bean">The Bean</a>
 <a id="cadillac-cassanovas" href="/collections/cadillac-cassanovas">Cadillac Cassanovas</a>
 <a id="bret-michaels" href="/collections/bret-michaels">The Bret Michaels Band</a>
 <a id="trump-tower" href="/collections/trump-tower">Trump Tower</a>

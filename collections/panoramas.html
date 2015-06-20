@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Panoramic collection
-permalink: /collections/panoramas/
+permalink: /panoramas/
 ---
 
 
-<section class='portfolio' >
+<section class="portfolio">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'panorama' %}
     <figure class="{{ photo.orientation }}">

@@ -1,11 +1,11 @@
 ---
 layout: page
 title: New York City collection
-permalink: /collections/manhattan/
+permalink: /new-york-city/
 ---
 
 
-<section class='portfolio gallery--half'>
+<section class="gallery">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'manhattan' %}
     <figure class="{{ photo.orientation }}">

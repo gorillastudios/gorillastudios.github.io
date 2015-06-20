@@ -3,279 +3,157 @@
 
 
 /*
-=BI Blog Index Page
-=PO Portfolios
-=CO Collections
-  =AR Archives
+  =ST Settings
+  =MI Mixins
+  =GL Globals
+  =LO Layout
+  =IM Import Stylesheets
 */
 
+// ------------------------------------ =ST Settings
 
-@import 'mixins';
+$red: #990000;
+$slate: #262626;
+$cream: #f0eded;
+$salmon: #c14e51;
+$charcoal: #2b2b2b;
 
-.divider {
-  margin: 20px 0;
-  position: relative;
-  text-align: center;
-  p {
-    @include sans-serif-light;
-    background: #fff;
-    font-size: .8em;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0 15px;
-    position: relative;
-    text-transform: uppercase;
-    z-index: 10;
-  }
-  &:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 18px;
-    border-top: 1px solid rgba(0,0,0,0.25);
-    width: 100%;
-  }
+$site-width: 1500px;
+
+
+// ------------------------------------ =MI Mixins
+@mixin content-width {
+  margin: 0 auto;
+  width: 95%;
+  max-width: $site-width;
 }
 
-@media screen and (max-width: 800px) {
-  .divider p {
-    font-size: 1em;
-  }
-  .divider:before {
-    top: 12px;
-  }
+@mixin serif {
+  font-family: "freight-text-pro", Times, serif;
+  font-weight: 300;
 }
 
-
-// --------------------------------------- =BI Blog Index
-
-.blog-preview-container {
-  a {
-    display: block;
-    overflow: hidden;
-    position: relative;
-    div {
-      float: right;
-      width: 50%;
-    }
-    div.hero {
-      display: inline-block;
-      position: absolute;
-      left: 0;
-      right: 50%;
-      bottom: 0;
-      top: 0;
-    }
-  }
-  a:nth-child(odd) {
-    div.hero {
-      left: 50%;
-      right: 0;
-    }
-    div.post-preview {
-      background: $slate;
-      color: white;
-      float: left;
-      h3, p {
-        color: white;
-      }
-      p.categories {
-        color: #999;
-      }
-    }
-    &:hover {
-      div {
-        background: lighten($slate, 5%);
-      }
-    }
-  }
-  a:nth-child(even) {
-    div {
-      background: $cream;
-      float: right;
-      p.categories {
-        color: #b7adad;
-      }
-    }
-    &:hover {
-      div {
-        background: darken($cream, 4%);
-        color: black;
-      }
-    }
-  }
+@mixin sans-serif-light {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 300;
+}
+@mixin sans-serif {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 400;
+}
+@mixin sans-serif-medium {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 500;
 }
 
-.new-blog-preview {
+@mixin sans-serif-bold {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 700;
+}
+
+// ------------------------------------ =GL Globals
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @include serif;
+  font-size: 90%;
+  line-height: 1.5;
+  webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include sans-serif;
+}
+
+h1 { font-size: 2.369em; }
+h2 { font-size: 1.777em; }
+h3 { font-size: 1.333em; }
+h4, h5, h6 { font-size: 1em; }
+
+p {
+  color: rgba(0,0,0,0.75);
+  //letter-spacing: 0.01rem;
+  line-height: 1.75em;
+  margin-bottom: 1.5em;
+}
+
+a, a:visited {
+  color: black;
+  transition: all 0.15s ease-in;
+  text-decoration: none; }
+
+a:hover {
+  color: #555; }
+
+ul {
+  list-style: none;
+}
+
+.quote {
+  font-style: italic;
+  padding: 0 2em; }
+
+figure img {
   display: block;
-  overflow: hidden;
-  div.hero {
-    background-size: cover !important;
-    background-position: 50% 50% !important;
-  }
-  div {
-    padding: 30px 20px;
-    width: 50%;
-    h4 {
-      color: $salmon;
-    }
-    h3 {
-      @include sans-serif-bold;
-      line-height: 1.15em;
-      margin-bottom: 10px;
-    }
-    p {
-      @include sans-serif;
-      line-height: 1.2em;
-    }
-    p.categories {
-      margin-bottom: 0;
-      font-size: 0.9em;
-      text-transform: uppercase;
-    }
-  }
+  margin: 0 auto;
+  max-width: 100%;
 }
+
+figcaption {
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+p.notice {
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  font-style: italic;
+  padding: 10px 20px;
+}
+
 
 @media screen and (min-width: 650px) {
-  .new-blog-preview div {
-    padding: 80px 60px;
+  body {
+    font-size: 125%;
   }
-}
+  figure.vertical img {
+    max-width: 60%; }
 
-@media screen and (min-width: 1000px) {
-  .new-blog-preview div {
-    padding: 120px 100px;
+  figure.vertical figcaption {
+    width: 60%;
   }
-}
-
-
-// --------------------------------------- =PO Portfolios
-.portfolio figure {
-  margin: 0 auto 4em auto;
-  overflow: hidden;
-  img {
-    width: 100%;
-  }
-}
-
-.portfolio figcaption {
-  color: rgba(0,0,0,0.5);
-  padding: 5px 10px;
-  span {
-    display: inline-block;
-    width: 100%;
-    a {
-      color: rgba(0,0,0,0.5);
-      &:hover {
-        color: #000;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 650px) {
-  figcaption {
-    font-size: 0.75em;
-    span {
-      float: right;
-      display: block;
-      width: auto !important;
-    }
-  }
-}
-
-// --------------------------------------- =CO Collections
-
-.collections {
-  margin-bottom: 1em;
-  overflow: hidden;
-  a {
-    @include sans-serif-bold;
-    background-position: 50% 50% !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    color: #fff !important;
-    display: block;
-    float: left;
-    padding: 40px 0;
+  p.notice {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin: 0 auto 3em auto;
     text-align: center;
-    text-shadow: 0 0 50px #000;
-    width: 50%;
-  }
-  #abstract { background: url('/images/collections/abstract.jpg'); }
-  #architecture { background: url('/images/collections/architecture.jpg'); }
-  #birds { background: url('/images/collections/birds.jpg'); }
-  #black-white { background: url('/images/collections/black-white.jpg'); }
-  #bret-michaels { background: url('/images/collections/bmb.jpg'); }
-  #cadillac-cassanovas { background: url('/images/collections/cadillac.jpg'); }
-  #chicago { background: url('/images/collections/chicago.jpg'); }
-  #cityscapes { background: url('/images/collections/cityscapes.jpg'); }
-  #egrets { background: url('/images/collections/egrets.jpg'); }
-  #landscapes { background: url('/images/collections/landscapes.jpg'); }
-  #london { background: url('/images/collections/london.jpg'); }
-  #long-exposures { background: url('/images/collections/long-exposures.jpg'); }
-  #macro { background: url('/images/collections/macro.jpg'); }
-  #manhattan { background: url('/images/collections/new-york.jpg'); }
-  #music { background: url('/images/collections/music.jpg'); }
-  #nature { background: url('/images/collections/nature.jpg'); }
-  #new-england { background: url('/images/collections/new-england.jpg'); }
-  #panoramas { background: url('/images/collections/panoramas.jpg'); }
-  #sunsets { background: url('/images/collections/sunsets.jpg'); }
-  #sears-tower { background: url('/images/collections/sears.jpg'); }
-  #trump-tower { background: url('/images/collections/trump.jpg'); }
-  #the-bean { background: url('/images/collections/bean.jpg'); }
-}
-
-@media screen and (min-width: 650px) {
-  .collections a {
-    font-size: 1.25em;
-    padding: 100px 0;
+    max-width: 1200px;
+    width: 90%;
   }
 }
 
 
-// --------------------------------------- =AR Archives
 
-ul.post-list {
-  padding: 40px;
-  -webkit-column-count: 1;
-  column-count: 1;
-  span {
-    color: $salmon;
-    font-size: 0.8em;
-  }
+// --------------------------------------- =LO Layout
+.container {
+  @include content-width;
 }
 
-@media screen and (min-width: 650px) {
-  ul.post-list {
-    margin: 0 auto;
-    max-width: 800px;
-    -webkit-column-count: 2;
-    column-count: 2;
-  }
-}
 
-@media screen and (min-width: 1100px) {
-  ul.post-list {
-    max-width: 1400px;
-    -webkit-column-count: 3;
-    column-count: 3;
-  }
-}
 
-/* -------------------------------------------- Wallpapers */
-.iphone-gallery img {
-  padding: 10px;
-  width: 100%;
-}
-
-@media screen and (min-width: 650px) {
-  .iphone-gallery {
-    overflow: hidden;
-    padding: 10px;
-  }
-  .iphone-gallery img {
-    float: left;
-    width: 25%;
-  }
-}
+// --------------------------------------- =IM Import Stylesheets
+@import
+  "header",
+  "blog",
+  "elements",
+  "landing",
+  "galleries"
+;

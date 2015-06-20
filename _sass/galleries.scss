@@ -1,0 +1,148 @@
+// --------------------------------------- =PO Portfolios
+.portfolio figure {
+  margin: 0 auto 4em auto;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.portfolio figcaption {
+  color: rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  span {
+    display: inline-block;
+    width: 100%;
+    a {
+      color: rgba(0,0,0,0.5);
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  figcaption {
+    font-size: 0.75em;
+    span {
+      float: right;
+      display: block;
+      width: auto !important;
+    }
+  }
+}
+// --------------------------------------- =HG Half Gallery
+.gallery {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  background: $slate;
+  figure {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: -3px;
+    figcaption {
+      color: rgba(255,255,255,0.85);
+      margin-top: -40px;
+      text-shadow: 0 0 5px black;
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .gallery {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0;
+    column-gap: 0;
+    figure {
+      margin-bottom: -8px;
+      &.vertical {
+        display: block;
+        figcaption {
+          padding-bottom: 10px;
+          width: 100%;
+        }
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1500px) {
+  .gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+
+// --------------------------------------- =CO Collections
+
+.collections {
+  margin-bottom: 1em;
+  overflow: hidden;
+  a {
+    @include sans-serif-bold;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: #fff !important;
+    display: block;
+    float: left;
+    padding: 40px 0;
+    text-align: center;
+    text-shadow: 0 0 50px #000;
+    width: 50%;
+  }
+  #abstract { background: url('/images/collections/abstract.jpg'); }
+  #architecture { background: url('/images/collections/architecture.jpg'); }
+  #birds { background: url('/images/collections/birds.jpg'); }
+  #black-white { background: url('/images/collections/black-white.jpg'); }
+  #bret-michaels { background: url('/images/collections/bmb.jpg'); }
+  #cadillac-cassanovas { background: url('/images/collections/cadillac.jpg'); }
+  #chicago { background: url('/images/collections/chicago.jpg'); }
+  #cityscapes { background: url('/images/collections/cityscapes.jpg'); }
+  #egrets { background: url('/images/collections/egrets.jpg'); }
+  #landscapes { background: url('/images/collections/landscapes.jpg'); }
+  #london { background: url('/images/collections/london.jpg'); }
+  #long-exposures { background: url('/images/collections/long-exposures.jpg'); }
+  #macro { background: url('/images/collections/macro.jpg'); }
+  #manhattan { background: url('/images/collections/new-york.jpg'); }
+  #music { background: url('/images/collections/music.jpg'); }
+  #nature { background: url('/images/collections/nature.jpg'); }
+  #new-england { background: url('/images/collections/new-england.jpg'); }
+  #panoramas { background: url('/images/collections/panoramas.jpg'); }
+  #sunsets { background: url('/images/collections/sunsets.jpg'); }
+  #sears-tower { background: url('/images/collections/sears.jpg'); }
+  #trump-tower { background: url('/images/collections/trump.jpg'); }
+  #the-bean { background: url('/images/collections/bean.jpg'); }
+}
+
+@media screen and (min-width: 650px) {
+  .collections a {
+    font-size: 1.25em;
+    padding: 100px 0;
+  }
+}
+
+// --------------------------------------- =IG iPhone Gallery
+.iphone-gallery img {
+  padding: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+  .iphone-gallery {
+    overflow: hidden;
+    padding: 10px;
+  }
+  .iphone-gallery img {
+    float: left;
+    width: 25%;
+  }
+}
+

@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Sunset collection
-permalink: /collections/sunsets/
+permalink: /sunsets/
 ---
 
 
-<section class='portfolio gallery--half'>
+<section class="gallery">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'sunset' %}
     <figure class="{{ photo.orientation }}">

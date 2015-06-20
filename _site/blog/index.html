@@ -11,10 +11,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/vendor/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/gorilla.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/blog.css">
-    <link rel="stylesheet" href="/css/store.css">
     <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/animation.css">
 
@@ -24,6 +20,7 @@
     <script src="/js/jquery.lazyload.min.js"></script>
     <script src="/js/responsive-nav.js"></script>
     <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/classie.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -52,22 +49,22 @@
       </section>
       <section>
         <h4>Collections</h4>
-        <li><a href="/collections/music/">Music</a></li>
-        <li><a href="/collections/chicago/">Chicago</a></li>
-        <li><a href="/collections/london/">London</a></li>
-        <li><a href="/collections/black-and-white/">Black &amp; White</a></li>
-        <li><a href="/collections/">All Collections</a></li>
+        <li><a href="/music/">Music</a></li>
+        <li><a href="/chicago/">Chicago</a></li>
+        <li><a href="/london/">London</a></li>
+        <li><a href="/black-and-white/">Black &amp; White</a></li>
+        <li><a href="/collections">All Collections</a></li>
       </section>
     </ul>
   </nav>
 </header>
 
     <div class="page-content animated fadeIn">
-      <div class='blog-preview-container'>
+      <div class='blog-previews'>
 
-<a href="/photo/2015/06/09/campton-hills/" class='new-blog-preview'>
+<a href="/photo/2015/06/09/campton-hills/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/campton.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>June 9 2015</h4>
     <h3>Campton Hills Road</h3>
     <p>From the archives - a night exposure from Campton Hills Road</p>
@@ -75,9 +72,9 @@
   </div>
 </a>
 
-<a href="/photo/2015/05/15/thompson-center/" class='new-blog-preview'>
+<a href="/photo/2015/05/15/thompson-center/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/thompson.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>May 15 2015</h4>
     <h3>James Thompson Center</h3>
     <p>Panorama inside the Thompson building</p>
@@ -85,9 +82,9 @@
   </div>
 </a>
 
-<a href="/photo/2015/04/22/natural-light/" class='new-blog-preview'>
+<a href="/photo/2015/04/22/natural-light/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/natural-light.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>April 22 2015</h4>
     <h3>Natural Light Portrait</h3>
     <p>Using natural light for a high-contrast portrait</p>
@@ -95,9 +92,9 @@
   </div>
 </a>
 
-<a href="/photo/2015/03/04/over-the-l/" class='new-blog-preview'>
+<a href="/photo/2015/03/04/over-the-l/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/over-the-l.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>March 4 2015</h4>
     <h3>Wabash Ave</h3>
     <p>Scouting the L stop at Wabash &amp; Adams</p>
@@ -105,9 +102,9 @@
   </div>
 </a>
 
-<a href="/tutorial/2015/02/07/selective-sharpening/" class='new-blog-preview'>
+<a href="/tutorial/2015/02/07/selective-sharpening/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/mask.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>February 7 2015</h4>
     <h3>Selective Sharpening</h3>
     <p>Simple use of high-pass filter with a layer mask to selectively sharpen images</p>
@@ -115,9 +112,9 @@
   </div>
 </a>
 
-<a href="/travelogue/2014/12/19/sedona-traveloge/" class='new-blog-preview'>
+<a href="/travelogue/2014/12/19/sedona-traveloge/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/sedona.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>December 19 2014</h4>
     <h3>Sedona</h3>
     <p>A quick weekend getaway to beautiful Sedona Arizona</p>
@@ -125,9 +122,9 @@
   </div>
 </a>
 
-<a href="/photo52/2014/12/09/photo52-week49/" class='new-blog-preview'>
+<a href="/photo52/2014/12/09/photo52-week49/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/week49.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>December 9 2014</h4>
     <h3>Week 49 - Sedona Panorama</h3>
     <p>Nine shot panorama of a large rock formation in Sedona, Arizona</p>
@@ -135,9 +132,9 @@
   </div>
 </a>
 
-<a href="/photo52/2014/12/02/photo52-week48/" class='new-blog-preview'>
+<a href="/photo52/2014/12/02/photo52-week48/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/week48.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>December 2 2014</h4>
     <h3>Week 48 - Family Portrait Shoot</h3>
     <p>This weeks photo project was a family portrait session on Masons Island, Stonington Connecticut</p>
@@ -145,9 +142,9 @@
   </div>
 </a>
 
-<a href="/photo52/2014/11/24/photo52-week47/" class='new-blog-preview'>
+<a href="/photo52/2014/11/24/photo52-week47/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/week47.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>November 24 2014</h4>
     <h3>Week 47 - Starry Night at Watch Hill</h3>
     <p>A trek out to Watch Hill for some stargazing for this weeks photo project</p>
@@ -155,9 +152,9 @@
   </div>
 </a>
 
-<a href="/photo52/2014/11/16/photo52-week46/" class='new-blog-preview'>
+<a href="/photo52/2014/11/16/photo52-week46/" class='blog-preview'>
   <div class='hero' style="background: url('/images/heroes/masons.jpg')"></div>
-  <div class='post-preview'>
+  <div class='blog-post-details'>
     <h4>November 16 2014</h4>
     <h3>Week 46 - Sunset at Masons Island</h3>
     <p>This week I headed down to Masons Island in Stonington to capture a serene fall sunset</p>

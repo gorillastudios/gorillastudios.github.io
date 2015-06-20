@@ -10,4 +10,4 @@ markdown: kramdown
 permalink: pretty
 
 sass:
-  sass_dir: /css/_sass
+  sass_dir: /_sass
