@@ -79,7 +79,7 @@ h4, h5, h6 { font-size: 1em; }
 
 p {
   color: rgba(0,0,0,0.75);
-  //letter-spacing: 0.01rem;
+  letter-spacing: 0.01rem;
   line-height: 1.75em;
   margin-bottom: 1.5em;
 }
@@ -98,7 +98,8 @@ ul {
 
 .quote {
   font-style: italic;
-  padding: 0 2em; }
+  padding: 0 2em;
+}
 
 figure img {
   display: block;
@@ -111,14 +112,6 @@ figcaption {
   margin: 0 auto;
 }
 
-p.notice {
-  background: #f9f9f9;
-  border-bottom: 1px solid #ddd;
-  border-top: 1px solid #ddd;
-  font-style: italic;
-  padding: 10px 20px;
-}
-
 
 @media screen and (min-width: 650px) {
   body {
@@ -129,14 +122,6 @@ p.notice {
 
   figure.vertical figcaption {
     width: 60%;
-  }
-  p.notice {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    margin: 0 auto 3em auto;
-    text-align: center;
-    max-width: 1200px;
-    width: 90%;
   }
 }
 
