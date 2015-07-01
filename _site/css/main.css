@@ -13,7 +13,7 @@
   padding: 0; }
 
 body {
-  font-family: "freight-text-pro", Times, serif;
+  font-family: "freight-text-pro", "Adobe Garamond Pro", Times, serif;
   font-weight: 300;
   font-size: 90%;
   line-height: 1.5;
@@ -246,7 +246,8 @@ footer {
     width: 100%; }
   .post iframe {
     min-height: 200px;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 1.53em; }
 
 .archive-link {
   color: rgba(0, 0, 0, 0.5);
@@ -265,7 +266,7 @@ footer {
       margin: 0 auto 1.5em auto;
       max-width: 900px; }
     .post iframe {
-      min-height: 700px; }
+      min-height: 500px; }
 
   .archive-link {
     margin: 1em 0; } }
