@@ -1288,4 +1288,30 @@
 - title: Morning on the L
   image_path: images/mobile/IMG_2705.jpg
   exposure: 1/180th, f/8, ISO100
-  tags: urban, black-and-white, chicago, mobile
+  tags: urban, black-and-white, chicago, mobile, the-l
+
+- title: Millenium Park Fountain
+  orientation: vertical
+  image_path: images/catalog/0K6A9531.jpg
+  exposure: 1/640th, f/3.5, ISO2000
+  tags: chicago, urban
+
+- title: <i>Good Morning Mystic</i>
+  image_path: images/catalog/0K6A2937.jpg
+  exposure: 1/30th, f/8, ISO50
+  tags: new-england
+
+- title: Alison
+  image_path: images/catalog/0A1.jpg
+  exposure: 1/180th, f/8, ISO100
+  tags: portrait
+
+- title: Briana
+  image_path: images/catalog/0K6A1818.jpg
+  exposure: 1/180th, f/8, ISO100
+  tags: portrait
+
+- title: Stonington Borough Lighthouse
+  image_path: images/catalog/0K6A3047.jpg
+  exposure: 30s, f/8, ISO800
+  tags: black-and-white, new-england, long-exposure

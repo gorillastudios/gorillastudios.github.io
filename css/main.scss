@@ -101,26 +101,18 @@ ul {
   padding: 0 2em;
 }
 
-figure img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-figcaption {
-  padding-left: 10px;
-  margin: 0 auto;
-}
-
-
 @media screen and (min-width: 650px) {
   body {
     font-size: 125%;
   }
   figure.vertical img {
-    max-width: 60%; }
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+  }
 
   figure.vertical figcaption {
+    margin: 0 auto;
     width: 60%;
   }
 }
