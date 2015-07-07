@@ -167,6 +167,11 @@
   exposure: f/8, ISO50, 60s
   tags: london, architecture, panorama, dusk, trafalgar-square
 
+- title: The Mystic Seaport
+  image_path: images/catalog/seaport-panorama.jpg
+  exposure: f/8, ISO100, 1/200th
+  tags: panorama, fall, new-england
+
 - title: Sunset at Tower Bridge
   image_path: images/london/tower-bridge-sunset.jpg
   portfolio: london

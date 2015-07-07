@@ -230,7 +230,6 @@ footer {
   .post h1 {
     font-weight: 700; }
   .post figure {
-    border: 1px solid red;
     margin-bottom: 3em; }
   .post figcaption {
     font-size: .8em;
