@@ -94,6 +94,12 @@
   exposure: f/8, ISO50, 30s
   tags: chicago, sunrise, lake-michigan, adler-planetarium
 
+- title: Tokyo Tower
+  orientation: vertical
+  image_path: images/catalog/tokyo-tower.jpg
+  exposure: f/6.7, ISO100, 1/125th
+  tags: architecture
+
 - title: Adams &amp; Wabash L Platform
   image_path: images/chicago/over-the-l.jpg
   portfolio: chicago
@@ -539,7 +545,7 @@
   tags: new-york, manhattan, long-exposure, dusk, cityscape
 
 - title: The Brooklyn Bridge
-  image_path: images/posts/brooklyn-bridge-dark.jpg
+  image_path: images/catalog/0K6A7508.jpg
   exposure: 90s, f/16, ISO100
   tags: new-york, manhattan, long-exposure, cityscape
 
@@ -654,6 +660,11 @@
   image_path: images/chicago/lighthouse-sail.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, lake-michigan, nautical
+
+- title: The Picasso
+  image_path: images/catalog/IMG_7397.jpg
+  exposure: 10s, f/11, ISO50
+  tags: chicago, architecture, black-and-white
 
 - title: Wrigley Building clock face
   image_path: images/chicago/wrigley-clock.jpg
@@ -911,6 +922,11 @@
   image_path: images/posts/nyc-night.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: cityscape, new-york, manhattan
+
+- title: Brooklyn Bridge
+  image_path: images/catalog/0K6A7506.jpg
+  exposure: f/16, ISO100, 90s
+  tags: new-york, manhattan, cityscape, skyscraper, long-exposure
 
 - title: Train signal
   image_path: images/posts/pom-december.jpg
