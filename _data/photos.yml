@@ -503,6 +503,11 @@
   exposure: 13s, f/10, ISO50
   tags: chicago, cityscape, dusk
 
+- title: Chicago sunset
+  image_path: images/catalog/IMG_6155.jpg
+  exposure: 1/160th, f/8, ISO250
+  tags: chicago, sears-tower, cityscape, sunset
+
 - title: Chicago by train
   image_path: images/p52/08.jpg
   exposure: 1/100th, f/16, ISO100
