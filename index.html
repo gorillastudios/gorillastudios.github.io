@@ -3,9 +3,11 @@ layout: fullscreen
 title: Photography
 ---
 
+<script src="/js/index-backgrounds.js"></script>
+
 <div id="container">
 
-  <header class="intro">
+  <header id="cover-image" class="intro">
     <div class="intro__fade"></div>
     <div class="intro__content animated fadeIn">
       <div class="intro__logo-and-trigger">
@@ -32,6 +34,12 @@ title: Photography
       </div>
     </div>
   </header>
+
+  <script>
+    var background = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+
+    document.getElementById("cover-image").style.background = 'url('+background+')';
+  </script>
 
   <section class="items-wrap">
     <a href="/blog/" class="item">

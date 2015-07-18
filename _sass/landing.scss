@@ -3,7 +3,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 
 
@@ -15,30 +16,7 @@ $fade-color: $charcoal;
 
 
 .intro {
-  // ----------------------------- Regular backgrounds
-	//background-image: url("/images/chicago/inky-lake2.jpg");
-	//background-image: url("/images/london/london-eye-2015.jpg");
-	//background-image: url("/images/london/shard-streaks.jpg");
-	//background-image: url("/images/new-england/watch-hill-3.jpg");
-	//background-image: url("/images/p52/25.jpg");
-	//background-image: url("/images/p52/45.jpg");
-	//background-image: url("/images/portfolio/dance.jpg");
-	//background-image: url("/images/posts/manhattan.jpg");
-	//background-image: url("/images/portfolio/masons-dock.jpg");
-	background-image: url('/images/bm/12.jpg');
-	//background-image: url('/images/bm/5.jpg');
-	//background-image: url('/images/bm/6.jpg');
-	//background-image: url('/images/chicago/sunrays.jpg');
-	//background-image: url('/images/posts/brooklyn-bridge-dark.jpg');
-	//background-image: url('/images/union/28.jpg');
-  //background-image: url('/images/portfolio/archways.jpg');
-  //background-image: url('/images/catalog/0K6A3047.jpg');
-
-  // ----------------------------- White backgrounds
-	//background-image: url("/images/portfolio/leroy-oaks.jpg");
-	//background-image: url("/images/portfolio/snowy-bean.jpg");
-
-  background-size: cover;
+  background-size: cover !important;
   background-position: 30% 50%;
 	height: 100%;
 	overflow: hidden;

@@ -35,8 +35,6 @@
 
 - title: Cloud Gate Snowstorm
   image_path: images/portfolio/snowy-bean.jpg
-  portfolio: primary
-  position: eee
   exposure: f/8, ISO50, 30s
   tags: chicago, winter, architecture, the-bean
 
@@ -68,29 +66,26 @@
 
 - title: The Wrigley Building and Trump Tower
   image_path: images/chicago/wrigley-trump.jpg
-  portfolio: chicago
-  position: aaa
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, wrigley-building, trump-tower
 
+- title: Frozen Chicago
+  image_path: images/catalog/IMG_7485.jpg
+  exposure: 1/5th, f/16, ISO50
+  tags: chicago, cityscape, black-and-white
+
 - title: <i>Chicago Sunset</i>
   image_path: images/chicago/sunrays2.jpg
-  portfolio: chicago
-  position: bbb
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, sunset, sears-tower
 
 - title: Grant Park
   image_path: images/chicago/grant-park.jpg
-  portfolio: chicago
-  position: ccc
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, sunset, trump-tower, aon-center, grant-park, skyscraper
 
 - title: The Adler Planetarium at sunrise
   image_path: images/chicago/sunset-adler.jpg
-  portfolio: chicago
-  position: ddd
   exposure: f/8, ISO50, 30s
   tags: chicago, sunrise, lake-michigan, adler-planetarium
 
@@ -102,59 +97,43 @@
 
 - title: Adams &amp; Wabash L Platform
   image_path: images/chicago/over-the-l.jpg
-  portfolio: chicago
-  position: eee
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, the-l, trump-tower
 
 - title: The John Hancock building at dusk
   image_path: images/chicago/hancock-lsd.jpg
-  portfolio: chicago
-  position: fff
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, hancock-building, long-exposure, dusk
 
 - title: Trump Tower and the Chicago River
   orientation: vertical
   image_path: images/chicago/trump2.jpg
-  portfolio: chicago
-  position: ggg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, trump-tower, winter, chicago-river
 
 - title: The John Hancock building
   image_path: images/chicago/inky-lake2.jpg
-  portfolio: chicago
-  position: hhh
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, hancock-building, lake-michigan, black-and-white, long-exposure
 
 - title: Sears Tower skyboxes
   image_path: images/portfolio/blue-sky-walk.jpg
-  portfolio: chicago
-  position: iii
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, abstract, sears-tower
 
 - title: <i>Cloud Gate</i> sunset during winter
   image_path: images/chicago/winter-bean.jpg
-  portfolio: chicago
-  position: jjj
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, cloud-gate, the-bean, winter
 
 - title: A stormfront rolls in over the Sears Tower
   orientation: vertical
   image_path: images/chicago/sears-storm2.jpg
-  portfolio: chicago
-  position: kkk
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, black-and-white
 
 - title: Chicago skyline at dusk
   image_path: images/chicago/chicago-skyline.jpg
-  portfolio: chicago
-  position: lll
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, cityscape, lake-michigan, trump-tower
 
@@ -429,6 +408,11 @@
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
+- title: Juvenile Bald Eagle
+  image_path: images/catalog/IMG_7827.jpg
+  exposure: 1/2000th, f/5.6, ISO2500
+  tags: nature, bird, bald-eagle
+
 - title: <i>Somber sunrise</i>
   image_path: images/nature/somber-sunrise.jpg
   portfolio: nature
@@ -604,6 +588,11 @@
   image_path: images/posts/sunburst.jpg
   exposure: 1/500th, f/8, ISO100
   tags: cityscape, sears-tower, chicago
+
+- title: Day Cruise
+  image_path: images/catalog/EI2C4866.jpg
+  exposure: 1/1000th, f/7.1, ISO200
+  tags: new-england, black-and-white
 
 - title: Mystic River panorama
   image_path: images/new-england/downriver-pano.jpg
@@ -1324,6 +1313,8 @@
 
 - title: <i>Good Morning Mystic</i>
   image_path: images/catalog/0K6A2937.jpg
+  portfolio: primary
+  position: eee
   exposure: 1/30th, f/8, ISO50
   tags: new-england
 
@@ -1341,3 +1332,8 @@
   image_path: images/catalog/0K6A3047.jpg
   exposure: 30s, f/8, ISO800
   tags: black-and-white, new-england, long-exposure
+
+- title: Juvenile Bald Eagles
+  image_path: images/catalog/IMG_7830.jpg
+  exposure: 1/2000th, f/6.3, ISO2500
+  tags: nature, bird, bald-eagle

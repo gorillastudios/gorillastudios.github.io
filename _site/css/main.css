@@ -327,8 +327,7 @@ ul.post-list {
   padding: 0; }
 
 .intro {
-  background-image: url("/images/bm/12.jpg");
-  background-size: cover;
+  background-size: cover !important;
   background-position: 30% 50%;
   height: 100%;
   overflow: hidden;
@@ -417,7 +416,7 @@ ul.post-list {
 
 .icon rect,
 .icon line {
-  stroke: #fff;
+  stroke: white;
   fill: none;
   stroke-width: 2px; }
 
@@ -666,6 +665,9 @@ ul.post-list {
   .collections a {
     font-size: 1.25em;
     padding: 100px 0; } }
+@media screen and (min-width: 800px) {
+  .collections a {
+    width: 33.333%; } }
 .iphone-gallery img {
   padding: 10px;
   width: 100%; }
