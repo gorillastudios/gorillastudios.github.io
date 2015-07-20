@@ -85,7 +85,7 @@
 // --------------------------------------- =CO Collections
 
 .collections {
-  margin-bottom: 1em;
+  margin: 0 10px 1em 10px;
   overflow: hidden;
   a {
     @include sans-serif-bold;
@@ -95,10 +95,11 @@
     color: #fff !important;
     display: block;
     float: left;
+    margin: 0.5%;
     padding: 40px 0;
     text-align: center;
     text-shadow: 0 0 50px #000;
-    width: 50%;
+    width: 49%;
   }
   #abstract { background: url('/images/collections/abstract.jpg'); }
   #architecture { background: url('/images/collections/architecture.jpg'); }
@@ -132,7 +133,7 @@
 }
 @media screen and (min-width: 800px) {
   .collections a {
-    width: 33.333%;
+    width: 32.333%;
   }
 }
 
