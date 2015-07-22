@@ -10,7 +10,6 @@ permalink: /portraits/
     {% if photo.tags contains 'portrait' %}
     <figure class="{{ photo.orientation }}">
       <img src="/{{ photo.image_path }}"/>
-      <figcaption>{{ photo.title }}</figcaption>
     </figure>
     {% endif %}
   {% endfor %}

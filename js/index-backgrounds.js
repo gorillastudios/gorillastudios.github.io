@@ -9,7 +9,6 @@ var backgrounds = [
   "/images/bm/12.jpg",
   "/images/bm/5.jpg",
   "/images/bm/6.jpg",
-  "/images/chicago/sunrays.jpg",
   "/images/catalog/0K6A7508.jpg",
   "/images/catalog/0K6A7506.jpg",
   "/images/catalog/0K6A2937.jpg",
