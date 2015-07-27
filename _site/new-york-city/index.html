@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
@@ -20,6 +21,7 @@
     <script src="/js/responsive-nav.js"></script>
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/classie.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -63,7 +65,7 @@
   
     
     <figure class="">
-      <img src="/images/portfolio/brooklyn-bridge2.jpg"/>
+      <a href="/images/portfolio/brooklyn-bridge2.jpg" title="Manhattan and the Brooklyn Bridge"><img src="/images/portfolio/brooklyn-bridge2.jpg"></a>
       <figcaption>Manhattan and the Brooklyn Bridge</figcaption>
     </figure>
     
@@ -160,7 +162,7 @@
   
     
     <figure class="">
-      <img src="/images/p52/25.jpg"/>
+      <a href="/images/p52/25.jpg" title="Manhattan skyline"><img src="/images/p52/25.jpg"></a>
       <figcaption>Manhattan skyline</figcaption>
     </figure>
     
@@ -171,7 +173,7 @@
   
     
     <figure class="">
-      <img src="/images/portfolio/flatiron-horiz.jpg"/>
+      <a href="/images/portfolio/flatiron-horiz.jpg" title="The Flatiron Building"><img src="/images/portfolio/flatiron-horiz.jpg"></a>
       <figcaption>The Flatiron Building</figcaption>
     </figure>
     
@@ -180,7 +182,7 @@
   
     
     <figure class="vertical">
-      <img src="/images/portfolio/grand-central-standing.jpg"/>
+      <a href="/images/portfolio/grand-central-standing.jpg" title="Grand Central Station great hall"><img src="/images/portfolio/grand-central-standing.jpg"></a>
       <figcaption>Grand Central Station great hall</figcaption>
     </figure>
     
@@ -251,35 +253,35 @@
   
     
     <figure class="">
-      <img src="/images/posts/manhattan.jpg"/>
+      <a href="/images/posts/manhattan.jpg" title="Manhattan Skyline"><img src="/images/posts/manhattan.jpg"></a>
       <figcaption>Manhattan Skyline</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/0K6A7508.jpg"/>
+      <a href="/images/catalog/0K6A7508.jpg" title="The Brooklyn Bridge"><img src="/images/catalog/0K6A7508.jpg"></a>
       <figcaption>The Brooklyn Bridge</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/posts/chrysler2.jpg"/>
+      <a href="/images/posts/chrysler2.jpg" title="The Chrysler Building"><img src="/images/posts/chrysler2.jpg"></a>
       <figcaption>The Chrysler Building</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/posts/fight.jpg"/>
+      <a href="/images/posts/fight.jpg" title="168 E. 58th"><img src="/images/posts/fight.jpg"></a>
       <figcaption>168 E. 58th</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/union/3.jpg"/>
+      <a href="/images/union/3.jpg" title="168 E. 58th"><img src="/images/union/3.jpg"></a>
       <figcaption>168 E. 58th</figcaption>
     </figure>
     
@@ -292,14 +294,14 @@
   
     
     <figure class="vertical">
-      <img src="/images/posts/flatiron.jpg"/>
+      <a href="/images/posts/flatiron.jpg" title="Flatiron Building"><img src="/images/posts/flatiron.jpg"></a>
       <figcaption>Flatiron Building</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/posts/grand-central.jpg"/>
+      <a href="/images/posts/grand-central.jpg" title="Grand Central great hall"><img src="/images/posts/grand-central.jpg"></a>
       <figcaption>Grand Central great hall</figcaption>
     </figure>
     
@@ -420,7 +422,7 @@
   
     
     <figure class="">
-      <img src="/images/posts/midtown.jpg"/>
+      <a href="/images/posts/midtown.jpg" title="Midtown"><img src="/images/posts/midtown.jpg"></a>
       <figcaption>Midtown</figcaption>
     </figure>
     
@@ -429,14 +431,14 @@
   
     
     <figure class="vertical">
-      <img src="/images/posts/nyc-night.jpg"/>
+      <a href="/images/posts/nyc-night.jpg" title="Manhattan"><img src="/images/posts/nyc-night.jpg"></a>
       <figcaption>Manhattan</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/0K6A7506.jpg"/>
+      <a href="/images/catalog/0K6A7506.jpg" title="Brooklyn Bridge"><img src="/images/catalog/0K6A7506.jpg"></a>
       <figcaption>Brooklyn Bridge</figcaption>
     </figure>
     
@@ -467,21 +469,21 @@
   
     
     <figure class="">
-      <img src="/images/posts/imagine.jpg"/>
+      <a href="/images/posts/imagine.jpg" title="Imagine"><img src="/images/posts/imagine.jpg"></a>
       <figcaption>Imagine</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/0K6A7439.jpg"/>
+      <a href="/images/catalog/0K6A7439.jpg" title="Manhattan sunset"><img src="/images/catalog/0K6A7439.jpg"></a>
       <figcaption>Manhattan sunset</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/catalog/0K6A7822.jpg"/>
+      <a href="/images/catalog/0K6A7822.jpg" title="Flatiron building"><img src="/images/catalog/0K6A7822.jpg"></a>
       <figcaption>Flatiron building</figcaption>
     </figure>
     
@@ -611,6 +613,29 @@
     
   
 </section>
+
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      tLoading: 'Loading image #%curr%...',
+      mainClass: 'mfp-img-mobile',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      },
+      image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        titleSrc: function(item) {
+          return item.el.attr('title') + '';
+        }
+      }
+    });
+  });
+</script>
+
 
 
     </div>

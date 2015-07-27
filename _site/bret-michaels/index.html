@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
@@ -20,6 +21,7 @@
     <script src="/js/responsive-nav.js"></script>
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/classie.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -295,7 +297,8 @@
   
     
     <figure class="">
-      <img src="/images/bm/4.jpg"/>
+      <a href="/images/bm/4.jpg" title="Bret Michaels"><img src="/images/bm/4.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
@@ -313,7 +316,8 @@
   
     
     <figure class="vertical">
-      <img src="/images/bm/7.jpg"/>
+      <a href="/images/bm/7.jpg" title="Bret Michaels"><img src="/images/bm/7.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
@@ -331,49 +335,57 @@
   
     
     <figure class="">
-      <img src="/images/bm/1.jpg"/>
+      <a href="/images/bm/1.jpg" title="Bret Michaels"><img src="/images/bm/1.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/10.jpg"/>
+      <a href="/images/bm/10.jpg" title="Bret Michaels"><img src="/images/bm/10.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/bm/2.jpg"/>
+      <a href="/images/bm/2.jpg" title="Bret Michaels"><img src="/images/bm/2.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/12.jpg"/>
+      <a href="/images/bm/12.jpg" title="Bret Michaels"><img src="/images/bm/12.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/8.jpg"/>
+      <a href="/images/bm/8.jpg" title="Bret Michaels"><img src="/images/bm/8.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/bm/14.jpg"/>
+      <a href="/images/bm/14.jpg" title="Bret Michaels Band"><img src="/images/bm/14.jpg"></a>
+      <figcaption>Bret Michaels Band</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/6.jpg"/>
+      <a href="/images/bm/6.jpg" title="Bret Michaels Band"><img src="/images/bm/6.jpg"></a>
+      <figcaption>Bret Michaels Band</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/3.jpg"/>
+      <a href="/images/bm/3.jpg" title="Bret Michaels"><img src="/images/bm/3.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
@@ -381,31 +393,36 @@
   
     
     <figure class="">
-      <img src="/images/bm/13.jpg"/>
+      <a href="/images/bm/13.jpg" title="Bret Michaels"><img src="/images/bm/13.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/5.jpg"/>
+      <a href="/images/bm/5.jpg" title="Bret Michaels"><img src="/images/bm/5.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/9.jpg"/>
+      <a href="/images/bm/9.jpg" title="Bret Michaels"><img src="/images/bm/9.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/bm/11.jpg"/>
+      <a href="/images/bm/11.jpg" title="Bret Michaels"><img src="/images/bm/11.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/music/bret-michaels.jpg"/>
+      <a href="/images/music/bret-michaels.jpg" title="Bret Michaels"><img src="/images/music/bret-michaels.jpg"></a>
+      <figcaption>Bret Michaels</figcaption>
     </figure>
     
   
@@ -586,6 +603,29 @@
     
   
 </section>
+
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      tLoading: 'Loading image #%curr%...',
+      mainClass: 'mfp-img-mobile',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      },
+      image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        titleSrc: function(item) {
+          return item.el.attr('title') + '';
+        }
+      }
+    });
+  });
+</script>
+
 
 
     </div>

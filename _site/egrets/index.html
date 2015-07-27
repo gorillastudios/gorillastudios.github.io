@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/animation.css">
+    <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/zrp7zuy.js"></script>
@@ -20,6 +21,7 @@
     <script src="/js/responsive-nav.js"></script>
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/classie.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -173,7 +175,8 @@
   
     
     <figure class="">
-      <img src="/images/nature/flight.jpg"/>
+      <a href="/images/nature/flight.jpg" title="A pair of egrets in flight"><img src="/images/nature/flight.jpg"></a>
+      <figcaption>A pair of egrets in flight</figcaption>
     </figure>
     
   
@@ -181,19 +184,8 @@
   
     
     <figure class="">
-      <img src="/images/nature/itchy-egret.jpg"/>
-    </figure>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-    <figure class="">
-      <img src="/images/catalog/CRW_4020.jpg"/>
+      <a href="/images/nature/itchy-egret.jpg" title="Molting egret"><img src="/images/nature/itchy-egret.jpg"></a>
+      <figcaption>Molting egret</figcaption>
     </figure>
     
   
@@ -204,6 +196,19 @@
     
   
     
+    <figure class="">
+      <a href="/images/catalog/CRW_4020.jpg" title="An egret wading in the Fox River"><img src="/images/catalog/CRW_4020.jpg"></a>
+      <figcaption>An egret wading in the Fox River</figcaption>
+    </figure>
+    
+  
+    
+  
+    
+  
+    
+  
+    
   
     
   
@@ -463,25 +468,29 @@
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_0532.jpg"/>
+      <a href="/images/catalog/CRW_0532.jpg" title="Egret in flight"><img src="/images/catalog/CRW_0532.jpg"></a>
+      <figcaption>Egret in flight</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_0573.jpg"/>
+      <a href="/images/catalog/CRW_0573.jpg" title="Egret in flight"><img src="/images/catalog/CRW_0573.jpg"></a>
+      <figcaption>Egret in flight</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_0582.jpg"/>
+      <a href="/images/catalog/CRW_0582.jpg" title="An egret catching a fish"><img src="/images/catalog/CRW_0582.jpg"></a>
+      <figcaption>An egret catching a fish</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/catalog/CRW_0925.jpg"/>
+      <a href="/images/catalog/CRW_0925.jpg" title="Egret in the Fox River"><img src="/images/catalog/CRW_0925.jpg"></a>
+      <figcaption>Egret in the Fox River</figcaption>
     </figure>
     
   
@@ -489,19 +498,22 @@
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_4047.jpg"/>
+      <a href="/images/catalog/CRW_4047.jpg" title="An Egret grabbing a fish"><img src="/images/catalog/CRW_4047.jpg"></a>
+      <figcaption>An Egret grabbing a fish</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_1156.jpg"/>
+      <a href="/images/catalog/CRW_1156.jpg" title="Crossed Egrets"><img src="/images/catalog/CRW_1156.jpg"></a>
+      <figcaption>Crossed Egrets</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_1974.jpg"/>
+      <a href="/images/catalog/CRW_1974.jpg" title="Egret taking off"><img src="/images/catalog/CRW_1974.jpg"></a>
+      <figcaption>Egret taking off</figcaption>
     </figure>
     
   
@@ -521,25 +533,29 @@
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_0581.jpg"/>
+      <a href="/images/catalog/CRW_0581.jpg" title="An egret fishing in the Fox River"><img src="/images/catalog/CRW_0581.jpg"></a>
+      <figcaption>An egret fishing in the Fox River</figcaption>
     </figure>
     
   
     
     <figure class="">
-      <img src="/images/catalog/CRW_0867.jpg"/>
+      <a href="/images/catalog/CRW_0867.jpg" title="Two egrets and a great blue heron"><img src="/images/catalog/CRW_0867.jpg"></a>
+      <figcaption>Two egrets and a great blue heron</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/catalog/CRW_1017.jpg"/>
+      <a href="/images/catalog/CRW_1017.jpg" title="A molting Egret"><img src="/images/catalog/CRW_1017.jpg"></a>
+      <figcaption>A molting Egret</figcaption>
     </figure>
     
   
     
     <figure class="vertical">
-      <img src="/images/catalog/CRW_9636.jpg"/>
+      <a href="/images/catalog/CRW_9636.jpg" title="A molting Egret"><img src="/images/catalog/CRW_9636.jpg"></a>
+      <figcaption>A molting Egret</figcaption>
     </figure>
     
   
@@ -582,6 +598,29 @@
     
   
 </section>
+
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      tLoading: 'Loading image #%curr%...',
+      mainClass: 'mfp-img-mobile',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      },
+      image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        titleSrc: function(item) {
+          return item.el.attr('title') + '';
+        }
+      }
+    });
+  });
+</script>
+
 
 
     </div>

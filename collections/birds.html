@@ -4,14 +4,15 @@ title: Birds collection
 permalink: /birds/
 ---
 
-
 <section class="gallery">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'bird' %}
     <figure class="{{ photo.orientation }}">
-      <img src="/{{ photo.image_path }}"/>
+      <a href="/{{ photo.image_path }}" title="{{ photo.title }}"><img src="/{{ photo.image_path }}"></a>
       <figcaption>{{ photo.title }}</figcaption>
     </figure>
     {% endif %}
   {% endfor %}
 </section>
+
+{% include gallery_script.html %}
