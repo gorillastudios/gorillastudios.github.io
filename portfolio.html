@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<section class='portfolio'>
+<section class='portfolio--fancy zoomable'>
 
   {% assign sorted_photos = (site.data.photos | where: "portfolio", "primary" | sort: "position") %}
 
@@ -12,7 +12,13 @@ permalink: /portfolio/
     <figure class="{{ photo.orientation }}">
       <img class="lazy" data-original="/{{ photo.image_path }}"/>
       <noscript><img src="/{{ photo.image_path }}" /></noscript>
-      <figcaption>{{ photo.title }}</figcaption>
+      <figcaption>
+        <span class="title">{{ photo.title }}</span>
+        <span class="exposure">{{ photo.exposure }}</span>
+        <span class="date">{{ photo.date }}</span>
+        <span class="description">{{ photo.description }}</span>
+        <a href="/{{ photo.image_path }}" title="{{ photo.title }}">Zoom In</a>
+      </figcaption>
     </figure>
   {% endfor %}
 
@@ -26,3 +32,5 @@ permalink: /portfolio/
     });
   });
 </script>
+
+{% include gallery_script.html %}

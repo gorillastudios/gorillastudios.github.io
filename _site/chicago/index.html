@@ -61,7 +61,7 @@
 </header>
 
     <div class="page-content animated fadeIn">
-      <section class="gallery">
+      <section class="gallery zoomable">
   
     
   
@@ -94,8 +94,8 @@
   
     
     <figure class="">
-      <a href="/images/portfolio/rainy-sails.jpg" title="The schooner <i>Lynx</i> rounding the Chicago Harbor Light"><img src="/images/portfolio/rainy-sails.jpg"></a>
-      <figcaption>The schooner <i>Lynx</i> rounding the Chicago Harbor Light</figcaption>
+      <a href="/images/portfolio/rainy-sails.jpg" title="The privateer <i>Lynx</i> rounding the Chicago Harbor Light"><img src="/images/portfolio/rainy-sails.jpg"></a>
+      <figcaption>The privateer <i>Lynx</i> rounding the Chicago Harbor Light</figcaption>
     </figure>
     
   
@@ -882,11 +882,13 @@
   
     
   
+    
+  
 </section>
 
 <script>
   $(document).ready(function() {
-    $('.gallery').magnificPopup({
+    $('.zoomable').magnificPopup({
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',

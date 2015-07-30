@@ -61,7 +61,7 @@
 </header>
 
     <div class="page-content animated fadeIn">
-      <section class="gallery">
+      <section class="gallery zoomable">
   
     
   
@@ -662,11 +662,13 @@
     </figure>
     
   
+    
+  
 </section>
 
 <script>
   $(document).ready(function() {
-    $('.gallery').magnificPopup({
+    $('.zoomable').magnificPopup({
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',

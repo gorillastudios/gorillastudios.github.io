@@ -3,6 +3,8 @@
   portfolio: primary
   position: aaa
   exposure: f/8, ISO50, 30s
+  description: One WTC stands tall overlooking the Brooklyn Bridge and the East River. Taken from Brooklyn Bridge Park, Brooklyn, NY
+  date: June 19th, 2014
   tags: new-york, architecture, cityscape, manhattan, brooklyn-bridge, long-exposure
 
 - title: <i>Archways</i>
@@ -10,6 +12,8 @@
   portfolio: primary
   position: zzz
   exposure: f/8, ISO50, 30s
+  description: An experiment with light painting in Mary Bartelme Park on the near west side of Chicago
+  date: July 18th, 2014
   tags: chicago, sears-tower, architecture, sculpture, long-exposure, dusk
 
 - title: Sunset at Masons Island
@@ -17,6 +21,8 @@
   portfolio: primary
   position: bbb
   exposure: f/8, ISO50, 30s
+  description: A small rowboat is tied up during a serene sunset on Masons Island in Mystic, Connecticut.
+  date: November 11th, 2014
   tags: connecticut, new-england, sunset, nautical, long-exposure, landscape
 
 - title: Fresh snow at Leroy Oaks
@@ -24,6 +30,8 @@
   portfolio: primary
   position: ccc
   exposure: f/8, ISO50, 30s
+  description: A heavy snowstorm at Leroy Oaks Forest Preserve on the west side of St. Charles, IL
+  date: March 4th, 2013
   tags: illinois, snow, landscape, winter, nature
 
 - title: Pritzker Pavilion
@@ -31,6 +39,8 @@
   portfolio: primary
   position: ddd
   exposure: f/8, ISO50, 30s
+  description: A fresh layer of snow covers the Pritzker Pavilion field in Millenium Park, Chicago IL
+  date: January 29th, 2014
   tags: chicago, cityscape, winter, architecture
 
 - title: Cloud Gate Snowstorm
@@ -43,11 +53,13 @@
   exposure: f/8, ISO50, 30s
   tags: london, england, architecture, london-eye, cityscape, sunset
 
-- title: The schooner <i>Lynx</i> rounding the Chicago Harbor Light
+- title: The privateer <i>Lynx</i> rounding the Chicago Harbor Light
   image_path: images/portfolio/rainy-sails.jpg
   portfolio: primary
   position: ggg
   exposure: f/8, ISO50, 30s
+  description: Taken during the Parade of Sails 2013, the privateer <i>Lynx</i> rounds the Chicago Harbor Light during a sudden downpour. Ahead of her to port is the <i>Madeline</i>, and dissapearing behind the lighthouse is <i>Friends Good Will</i>
+  date: August 7th, 2013
   tags: nautical, chicago, lake-michigan, lighthouse, rain
 
 - title: <i>Reach for the sky</i>
@@ -55,6 +67,8 @@
   portfolio: primary
   position: hhh
   exposure: f/8, ISO50, 30s
+  description: A long exposure of the Sears Tower stretching upwards into the night sky. Taken from the east side of the tower on Franklin Ave
+  date: January 13th, 2014
   tags: chicago, skyscraper, architecture, black-and-white, cityscape, PP08, sears-tower
 
 - title: <i>Dance</i>
@@ -62,6 +76,7 @@
   portfolio: primary
   position: iii
   exposure: f/8, ISO50, 30s
+  description: A newlywed couple share a quick dance before photos at Chicagos famous Cloud Gate in Grant Park
   tags: chicago, the-bean, black-and-white, PP09
 
 - title: The Wrigley Building and Trump Tower
@@ -184,6 +199,8 @@
   portfolio: primary
   position: fff
   exposure: f/8, ISO50, 60s
+  description: The London Eye overlooks the Thames River seen from Queen Elizabeth Bridge. A long exposure turns the passing boats into surreal light streaks across the smooth water
+  date: April 26th, 2015
   tags: london, architecture, river-thames, long-exposure, dusk, london-eye
 
 - title: Whitehall Street
@@ -658,6 +675,8 @@
 - title: The Picasso
   image_path: images/catalog/IMG_7397.jpg
   exposure: 10s, f/11, ISO50
+  description: A freezing cold Picasso Sculpture stands guard over Daley Plaza in the heart of the Loop, downtown Chicago
+  date: January 2nd, 2014
   tags: chicago, architecture, black-and-white
 
 - title: Wrigley Building clock face
@@ -1206,6 +1225,8 @@
 - title: Peoria, IL panorama
   image_path: images/catalog/peoria-panorama.jpg
   exposure: 1/250th, f/5.6, ISO4000
+  description: A 9 shot panorama of the Illinois River flowing past downtown Peoria IL
+  date: June 1st, 2015
   tags: cityscape, dusk, long-exposure, panorama
 
 - title: Peoria gazebo
@@ -1316,6 +1337,8 @@
   portfolio: primary
   position: eee
   exposure: 1/30th, f/8, ISO50
+  description: The Mystic River bascule bridge at sunrise, downtown Mystic Connecticut
+  date: November 8th, 2014
   tags: new-england
 
 - title: Alison
@@ -1331,9 +1354,16 @@
 - title: Stonington Borough Lighthouse
   image_path: images/catalog/0K6A3047.jpg
   exposure: 30s, f/8, ISO800
+  description: The Stonington Borough Lighthouse in Stonington CT. A long exposure exaggerates the clouds coming in off of Fishers Island Sound
+  date: November 9th, 2014
   tags: black-and-white, new-england, long-exposure
 
 - title: Juvenile Bald Eagles
   image_path: images/catalog/IMG_7830.jpg
   exposure: 1/2000th, f/6.3, ISO2500
   tags: nature, bird, bald-eagle
+
+- title: Purple Habiscus Flower
+  image_path: images/catalog/0K6A3456.jpg
+  exposure: 1/100th, f/11, ISO400
+  tags: nature, macro

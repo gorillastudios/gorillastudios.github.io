@@ -4,7 +4,7 @@ title: Portrait collection
 permalink: /portraits/
 ---
 
-<section class="gallery">
+<section class="gallery zoomable">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'portrait' %}
     <figure class="{{ photo.orientation }}">

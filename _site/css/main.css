@@ -544,21 +544,26 @@ ul.post-list {
 
   .intro__title {
     font-size: 2em; } }
-.portfolio figure {
-  margin: 0 auto 4em auto;
+[class*="portfolio"] figure {
+  margin: 0 auto 2em auto;
   overflow: hidden; }
-  .portfolio figure img {
+  [class*="portfolio"] figure img {
     width: 100%; }
 
-.portfolio figcaption {
+[class*="portfolio"] figcaption {
   color: rgba(0, 0, 0, 0.5);
   padding: 5px 10px; }
-  .portfolio figcaption span {
+  [class*="portfolio"] figcaption span {
     display: inline-block;
+    line-height: 1em;
     width: 100%; }
-    .portfolio figcaption span a {
+    [class*="portfolio"] figcaption span.title {
+      font-weight: bold; }
+    [class*="portfolio"] figcaption span.description {
+      font-style: italic; }
+    [class*="portfolio"] figcaption span a {
       color: rgba(0, 0, 0, 0.5); }
-      .portfolio figcaption span a:hover {
+      [class*="portfolio"] figcaption span a:hover {
         color: #000; }
 
 @media screen and (min-width: 650px) {
@@ -567,7 +572,20 @@ ul.post-list {
     figcaption span {
       float: right;
       display: block;
-      width: auto !important; } }
+      width: auto; } }
+@media screen and (min-width: 650px) {
+  .portfolio--fancy figure {
+    border-bottom: 1px solid #f2f2f2;
+    margin: 0;
+    padding: 80px 60px; }
+    .portfolio--fancy figure img {
+      float: right;
+      width: 70%; }
+    .portfolio--fancy figure figcaption {
+      padding: 0 2em 0 0;
+      width: 30%; }
+      .portfolio--fancy figure figcaption span {
+        margin-bottom: 10px; } }
 .gallery figure {
   display: inline-block;
   overflow: hidden;

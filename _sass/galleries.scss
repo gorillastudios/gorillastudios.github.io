@@ -1,18 +1,25 @@
 // --------------------------------------- =PO Portfolios
-.portfolio figure {
-  margin: 0 auto 4em auto;
+[class*="portfolio"] figure {
+  margin: 0 auto 2em auto;
   overflow: hidden;
   img {
     width: 100%;
   }
 }
 
-.portfolio figcaption {
+[class*="portfolio"] figcaption {
   color: rgba(0,0,0,0.5);
   padding: 5px 10px;
   span {
     display: inline-block;
+    line-height: 1em;
     width: 100%;
+    &.title {
+      font-weight: bold;
+    }
+    &.description {
+      font-style: italic;
+    }
     a {
       color: rgba(0,0,0,0.5);
       &:hover {
@@ -28,10 +35,31 @@
     span {
       float: right;
       display: block;
-      width: auto !important;
+      width: auto;
     }
   }
 }
+
+
+@media screen and (min-width: 650px) {
+  .portfolio--fancy figure {
+    border-bottom: 1px solid $hairline;
+    margin: 0;
+    padding: 80px 60px;
+    img {
+      float: right;
+      width: 70%;
+    }
+    figcaption {
+      padding: 0 2em 0 0;
+      width: 30%;
+      span {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 // --------------------------------------- =HG Half Gallery
 .gallery {
   figure {

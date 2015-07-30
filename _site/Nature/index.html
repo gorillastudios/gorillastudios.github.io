@@ -61,7 +61,7 @@
 </header>
 
     <div class="page-content animated fadeIn">
-      <section class="gallery">
+      <section class="gallery zoomable">
   
     
   
@@ -712,11 +712,18 @@
     </figure>
     
   
+    
+    <figure class="">
+      <a href="/images/catalog/0K6A3456.jpg" title="Purple Habiscus Flower"><img src="/images/catalog/0K6A3456.jpg"></a>
+      <figcaption>Purple Habiscus Flower</figcaption>
+    </figure>
+    
+  
 </section>
 
 <script>
   $(document).ready(function() {
-    $('.gallery').magnificPopup({
+    $('.zoomable').magnificPopup({
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',
