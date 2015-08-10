@@ -2244,6 +2244,10 @@ footer {
     padding: 0 10px; }
   .post h1 {
     font-weight: 700; }
+  .post a {
+    border-bottom: 1px solid; }
+    .post a:hover {
+      border: none; }
   .post figure {
     margin-bottom: 3em; }
   .post figcaption {
@@ -2251,6 +2255,15 @@ footer {
     padding: 0 20px; }
     .post figcaption span {
       float: right; }
+  .post figure.half-and-half {
+    overflow: hidden; }
+    .post figure.half-and-half img {
+      float: left;
+      width: 49%; }
+    .post figure.half-and-half img:first-of-type {
+      margin: 0 1% 0 0; }
+    .post figure.half-and-half img:last-of-type {
+      margin: 0 0 0 1%; }
   .post img {
     width: 100%; }
   .post iframe {

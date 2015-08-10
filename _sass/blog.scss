@@ -118,6 +118,12 @@
   h1 {
     font-weight: 700;
   }
+  a {
+    border-bottom: 1px solid;
+    &:hover {
+      border: none;
+    }
+  }
   figure {
     margin-bottom: 3em;
   }
@@ -126,6 +132,19 @@
     padding: 0 20px;
     span {
       float: right;
+    }
+  }
+  figure.half-and-half {
+    overflow: hidden;
+    img {
+      float: left;
+      width: 49%;
+    }
+    img:first-of-type {
+      margin: 0 1% 0 0;
+    }
+    img:last-of-type {
+      margin: 0 0 0 1%;
     }
   }
   img {

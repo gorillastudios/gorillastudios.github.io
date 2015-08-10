@@ -1373,12 +1373,13 @@
   exposure: 1/500th, f/7.1, ISO200
   tags: black-and-white
 
-- title: Sean &amp; Jaik
-  image_path: images/bfbc/0K6A3851.jpg
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3771.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
-  tags: bfbc, jaikwilis
+  tags: bfbc
 
-- title: Drums
+- title: Bigfoot Bandcamp
   image_path: images/bfbc/0K6A3790.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
@@ -1386,12 +1387,7 @@
 - title: Bigfoot Bandcamp
   image_path: images/bfbc/0K6A3865.jpg
   exposure: 1/500th, f/7.1, ISO200
-  tags: bfbc
-
-- title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3978.jpg
-  exposure: 1/500th, f/7.1, ISO200
-  tags: bfbc
+  tags: bfbc, evacuate
 
 - title: The Krank Daddies
   image_path: images/bfbc/0K6A3983.jpg
@@ -1399,22 +1395,7 @@
   tags: bfbc, krank
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A4131.jpg
-  exposure: 1/500th, f/7.1, ISO200
-  tags: bfbc, jaikwilis
-
-- title: Bigfoot Bandcamp
   image_path: images/bfbc/0K6A4143.jpg
-  exposure: 1/500th, f/7.1, ISO200
-  tags: bfbc
-
-- title: Firedancer Julie Stork
-  image_path: images/bfbc/0K6A4560.jpg
-  exposure: 1/500th, f/7.1, ISO200
-  tags: bfbc
-
-- title: Firedancer
-  image_path: images/bfbc/0K6A4579.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
@@ -1440,7 +1421,17 @@
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
+  image_path: images/bfbc/0K6A3816.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, jaikwilis
+
+- title: Jaik Wilis
   image_path: images/bfbc/0K6A3824.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, jaikwilis
+
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A4131.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
@@ -1460,6 +1451,21 @@
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
+
+- title: Sean &amp; Jaik
+  image_path: images/bfbc/0K6A3851.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, jaikwilis
+
+- title: The lovely ladies of Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3978.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
+- title: Evacuate The Earth
+  image_path: images/bfbc/0K6A3857.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, evacuate
 
 - title: Evacuate The Earth
   image_path: images/bfbc/0K6A3861.jpg
@@ -1505,6 +1511,11 @@
   image_path: images/bfbc/0K6A3940.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
+
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A4184.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
 
 - title: The Voodoo Fix
   image_path: images/bfbc/0K6A4020.jpg
@@ -1611,6 +1622,11 @@
   image_path: images/bfbc/0K6A4252.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
+
+- title: Firedancer Julie Stork
+  image_path: images/bfbc/0K6A4560.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
 
 - title: The Krank Daddies
   image_path: images/bfbc/0K6A4261.jpg
@@ -1731,6 +1747,11 @@
   image_path: images/bfbc/0K6A4551.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
+
+- title: Firedancer
+  image_path: images/bfbc/0K6A4579.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
 
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A3832.jpg
