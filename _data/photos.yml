@@ -717,7 +717,7 @@
 - title: Bret Michaels
   image_path: images/bm/4.jpg
   portfolio: music
-  position: aaa
+  position: ccc
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
@@ -725,13 +725,12 @@
   orientation: vertical
   image_path: images/music/carl.jpg
   portfolio: music
-  position: bbb
+  position: ggg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: Kodiak
   image_path: images/music/kodiak1.jpg
-  portfolio: music
   position: ccc
   exposure: 1/125th, f/8, ISO4000
   tags: music
@@ -739,15 +738,11 @@
 - title: Mike Nathan of Just Enuff
   orientation: vertical
   image_path: images/music/mike.jpg
-  portfolio: music
-  position: ddd
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
 - title: Driven Under
   image_path: images/music/driven-under-2.jpg
-  portfolio: music
-  position: eee
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
@@ -755,7 +750,7 @@
   orientation: vertical
   image_path: images/music/standing-bass2.jpg
   portfolio: music
-  position: fff
+  position: bbb
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
@@ -767,23 +762,17 @@
 - title: Bret Michaels
   orientation: vertical
   image_path: images/bm/7.jpg
-  portfolio: music
-  position: ggg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Driven Under
   image_path: images/music/driven-under.jpg
-  portfolio: music
-  position: hhh
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
 - title: The Everly Hillbillies
   orientation: vertical
   image_path: images/music/drumming.jpg
-  portfolio: music
-  position: iii
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
@@ -802,7 +791,7 @@
 - title: The Cadillac Cassanovas
   image_path: images/music/bass2.jpg
   portfolio: music
-  position: jjj
+  position: lll
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
@@ -830,6 +819,8 @@
 
 - title: Bret Michaels
   image_path: images/bm/12.jpg
+  portfolio: music
+  position: kkk
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
@@ -846,6 +837,8 @@
 
 - title: Bret Michaels Band
   image_path: images/bm/6.jpg
+  portfolio: music
+  position: mmm
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
@@ -1395,6 +1388,17 @@
   tags: bfbc, krank
 
 - title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3910.jpg
+  orientation: vertical
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3829.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
+- title: Bigfoot Bandcamp
   image_path: images/bfbc/0K6A4143.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
@@ -1493,12 +1497,22 @@
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
+  image_path: images/bfbc/0K6A3887.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, evacuate
+
+- title: Evacuate The Earth
   image_path: images/bfbc/0K6A3912.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
   image_path: images/bfbc/0K6A3921.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, evacuate
+
+- title: Evacuate The Earth
+  image_path: images/bfbc/0K6A3904.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
@@ -1513,7 +1527,24 @@
   tags: bfbc, evacuate
 
 - title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3920.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
+- title: Bigfoot Bandcamp
   image_path: images/bfbc/0K6A4184.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3959.jpg
+  orientation: vertical
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3991.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
@@ -1524,6 +1555,8 @@
 
 - title: The Voodoo Fix
   image_path: images/bfbc/0K6A4022.jpg
+  portfolio: music
+  position: nnn
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
@@ -1552,6 +1585,11 @@
 
 - title: The Voodoo Fix
   image_path: images/bfbc/0K6A4048.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, voodoo
+
+- title: The Voodoo Fix
+  image_path: images/bfbc/0K6A4094.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
@@ -1620,8 +1658,20 @@
 
 - title: The Voodoo Fix
   image_path: images/bfbc/0K6A4252.jpg
+  portfolio: music
+  position: ddd
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
+
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3937.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A3941.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
 
 - title: Firedancer Julie Stork
   image_path: images/bfbc/0K6A4560.jpg
@@ -1652,6 +1702,12 @@
 
 - title: The Krank Daddies
   image_path: images/bfbc/0K6A4298.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, krank
+
+- title: The Krank Daddies
+  image_path: images/bfbc/0K6A4357.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -1692,6 +1748,8 @@
 - title: The Krank Daddies
   image_path: images/bfbc/0K6A4393.jpg
   orientation: vertical
+  portfolio: music
+  position: fff
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -1713,6 +1771,11 @@
 
 - title: The Krank Daddies
   image_path: images/bfbc/0K6A4454.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, krank
+
+- title: The Krank Daddies
+  image_path: images/bfbc/0K6A4381.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -1753,6 +1816,11 @@
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
+- title: Bigfoot Bandcamp
+  image_path: images/bfbc/0K6A4602.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc
+
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A3832.jpg
   exposure: 1/500th, f/7.1, ISO200
@@ -1770,6 +1838,8 @@
 
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A4708.jpg
+  portfolio: music
+  position: eee
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -1800,6 +1870,8 @@
 
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A4771.jpg
+  portfolio: music
+  position: ooo
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -1825,11 +1897,15 @@
 
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A4855.jpg
+  portfolio: music
+  position: aaa
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A4862.jpg
+  portfolio: music
+  position: hhh
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -1860,11 +1936,15 @@
 
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A4923.jpg
+  portfolio: music
+  position: iii
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
   image_path: images/bfbc/0K6A4934.jpg
+  portfolio: music
+  position: jjj
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
