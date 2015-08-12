@@ -1625,7 +1625,18 @@
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
+  image_path: images/bfbc/0K6A4013.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, voodoo
+
+- title: The Voodoo Fix
   image_path: images/bfbc/0K6A4116.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, voodoo
+
+- title: The Voodoo Fix
+  image_path: images/bfbc/0K6A4177.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
@@ -1645,7 +1656,18 @@
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
+  image_path: images/bfbc/0K6A4085.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, voodoo
+
+- title: The Voodoo Fix
   image_path: images/bfbc/0K6A4186.jpg
+  orientation: vertical
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, voodoo
+
+- title: The Voodoo Fix
+  image_path: images/bfbc/0K6A4191.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
@@ -1670,6 +1692,17 @@
   image_path: images/bfbc/0K6A4252.jpg
   portfolio: music
   position: ddd
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, voodoo
+
+- title: The Voodoo Fix
+  image_path: images/bfbc/0K6A4182.jpg
+  orientation: vertical
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, voodoo
+
+- title: The Voodoo Fix
+  image_path: images/bfbc/0K6A4248.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
@@ -1764,6 +1797,17 @@
   tags: bfbc, krank
 
 - title: The Krank Daddies
+  image_path: images/bfbc/0K6A4287.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, krank
+
+- title: The Krank Daddies
+  image_path: images/bfbc/0K6A4322.jpg
+  orientation: vertical
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, krank
+
+- title: The Krank Daddies
   image_path: images/bfbc/0K6A4407.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
@@ -1801,12 +1845,23 @@
   tags: bfbc, krank
 
 - title: The Krank Daddies
+  image_path: images/bfbc/0K6A4422.jpg
+  orientation: vertical
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, krank
+
+- title: The Krank Daddies
   image_path: images/bfbc/0K6A4500.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
   image_path: images/bfbc/0K6A4513.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, krank
+
+- title: The Krank Daddies
+  image_path: images/bfbc/0K6A4506.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
