@@ -10,7 +10,7 @@ permalink: /portfolio/
 
   {% for photo in sorted_photos %}
     <figure class="{{ photo.orientation }}">
-    <a href="/images/{{ photo.image_path }}"><img class="lazy" data-original="/images/{{ photo.image_path }}"/></a>
+    <a href="/images/{{ photo.image_path }}" title="{{ photo.title }}"><img class="lazy" data-original="/images/{{ photo.image_path }}"/></a>
       <noscript><img src="/images/{{ photo.image_path }}" /></noscript>
       <figcaption>
         <span class="title">{{ photo.title }}</span>
