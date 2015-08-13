@@ -10,14 +10,13 @@ permalink: /portfolio/
 
   {% for photo in sorted_photos %}
     <figure class="{{ photo.orientation }}">
-      <img class="lazy" data-original="/images/{{ photo.image_path }}"/>
+    <a href="/images/{{ photo.image_path }}"><img class="lazy" data-original="/images/{{ photo.image_path }}"/></a>
       <noscript><img src="/images/{{ photo.image_path }}" /></noscript>
       <figcaption>
         <span class="title">{{ photo.title }}</span>
         <span class="exposure">{{ photo.exposure }}</span>
         <span class="date">{{ photo.date }}</span>
         <span class="description">{{ photo.description }}</span>
-        <a href="/{{ photo.image_path }}" title="{{ photo.title }}"><i class="fa fa-search-plus"></i> Zoom In</a>
       </figcaption>
     </figure>
   {% endfor %}
