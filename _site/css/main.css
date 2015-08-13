@@ -2572,6 +2572,11 @@ ul.post-list {
 
   .intro__title {
     font-size: 2em; } }
+.portfolio,
+.portfolio--fancy {
+  margin: 0 auto;
+  max-width: 1500px; }
+
 [class*="portfolio"] figure {
   margin: 0 auto 2em auto;
   overflow: hidden; }
@@ -2605,7 +2610,7 @@ ul.post-list {
   .portfolio--fancy figure {
     border-bottom: 1px solid #f2f2f2;
     margin: 0;
-    padding: 80px 60px; }
+    padding: 80px 20px; }
     .portfolio--fancy figure img {
       float: right;
       width: 70%; }
@@ -2618,34 +2623,38 @@ ul.post-list {
           color: #2b2b2b; }
       .portfolio--fancy figure figcaption span {
         margin-bottom: 10px; } }
-.gallery figure {
-  display: inline-block;
-  overflow: hidden;
-  margin-bottom: 10px;
-  padding: 10px 10px 0 10px;
-  -webkit-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in; }
-  .gallery figure img {
-    display: block;
-    width: 100%; }
-  .gallery figure figcaption {
-    color: #aaa;
-    padding: 5px;
-    text-align: right;
+.gallery {
+  margin: 0 auto;
+  max-width: 1500px; }
+  .gallery figure {
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 10px 10px 0 10px;
     -webkit-transition: all 0.25s ease-in;
-    transition: all 0.25s ease-in; }
-  .gallery figure.vertical img {
-    max-width: 100%; }
-  .gallery figure:hover {
-    background: #f5f5f5; }
-    .gallery figure:hover figcaption {
-      color: #555; }
+    transition: all 0.25s ease-in;
+    width: 100%; }
+    .gallery figure img {
+      display: inline;
+      width: 100%; }
+    .gallery figure figcaption {
+      color: #aaa;
+      padding: 5px;
+      text-align: right;
+      -webkit-transition: all 0.25s ease-in;
+      transition: all 0.25s ease-in; }
+    .gallery figure.vertical img {
+      max-width: 100%; }
+    .gallery figure:hover {
+      background: #f5f5f5; }
+      .gallery figure:hover figcaption {
+        color: #555; }
 
 @media screen and (min-width: 650px) {
   .gallery {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
     -webkit-column-gap: 0;
     column-gap: 0;
     padding: 5px; }
@@ -2653,9 +2662,9 @@ ul.post-list {
       width: 100%; } }
 @media screen and (min-width: 1500px) {
   .gallery {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
     padding: 10px; } }
 .collections {
   margin: 0 10px 1em 10px;
@@ -2680,6 +2689,8 @@ ul.post-list {
     background: url("/images/collections/architecture.jpg"); }
   .collections #birds {
     background: url("/images/collections/birds.jpg"); }
+  .collections #bigfoot {
+    background: url("/images/collections/bigfoot.jpg"); }
   .collections #black-white {
     background: url("/images/collections/black-white.jpg"); }
   .collections #bret-michaels {
@@ -2690,8 +2701,8 @@ ul.post-list {
     background: url("/images/collections/chicago.jpg"); }
   .collections #cityscapes {
     background: url("/images/collections/cityscapes.jpg"); }
-  .collections #egrets {
-    background: url("/images/collections/egrets.jpg"); }
+  .collections #krank {
+    background: url("/images/collections/krank.jpg"); }
   .collections #landscapes {
     background: url("/images/collections/landscapes.jpg"); }
   .collections #london {
@@ -2710,14 +2721,12 @@ ul.post-list {
     background: url("/images/collections/new-england.jpg"); }
   .collections #panoramas {
     background: url("/images/collections/panoramas.jpg"); }
+  .collections #rev {
+    background: url("/images/collections/rev.jpg"); }
   .collections #sunsets {
     background: url("/images/collections/sunsets.jpg"); }
-  .collections #sears-tower {
-    background: url("/images/collections/sears.jpg"); }
-  .collections #trump-tower {
-    background: url("/images/collections/trump.jpg"); }
-  .collections #the-bean {
-    background: url("/images/collections/bean.jpg"); }
+  .collections #voodoo {
+    background: url("/images/collections/voodoo.jpg"); }
 
 @media screen and (min-width: 650px) {
   .collections a {

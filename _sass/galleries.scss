@@ -1,4 +1,10 @@
 // --------------------------------------- =PO Portfolios
+.portfolio,
+.portfolio--fancy {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
 [class*="portfolio"] figure {
   margin: 0 auto 2em auto;
   overflow: hidden;
@@ -45,7 +51,7 @@
   .portfolio--fancy figure {
     border-bottom: 1px solid $hairline;
     margin: 0;
-    padding: 80px 60px;
+    padding: 80px 20px;
     img {
       float: right;
       width: 70%;
@@ -68,6 +74,8 @@
 
 // --------------------------------------- =HG Half Gallery
 .gallery {
+  margin: 0 auto;
+  max-width: 1500px;
   figure {
     display: inline-block;
     overflow: hidden;
@@ -75,8 +83,9 @@
     padding: 10px 10px 0 10px;
     -webkit-transition: all 0.25s ease-in;
     transition: all 0.25s ease-in;
+    width: 100%;
     img {
-      display: block;
+      display: inline;
       width: 100%;
     }
     figcaption {
@@ -102,9 +111,9 @@
 
 @media screen and (min-width: 650px) {
   .gallery {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
     -webkit-column-gap: 0;
     column-gap: 0;
     padding: 5px;
@@ -120,9 +129,9 @@
 
 @media screen and (min-width: 1500px) {
   .gallery {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
     padding: 10px;
   }
 }
@@ -149,12 +158,13 @@
   #abstract { background: url('/images/collections/abstract.jpg'); }
   #architecture { background: url('/images/collections/architecture.jpg'); }
   #birds { background: url('/images/collections/birds.jpg'); }
+  #bigfoot { background: url('/images/collections/bigfoot.jpg'); }
   #black-white { background: url('/images/collections/black-white.jpg'); }
   #bret-michaels { background: url('/images/collections/bmb.jpg'); }
   #cadillac-cassanovas { background: url('/images/collections/cadillac.jpg'); }
   #chicago { background: url('/images/collections/chicago.jpg'); }
   #cityscapes { background: url('/images/collections/cityscapes.jpg'); }
-  #egrets { background: url('/images/collections/egrets.jpg'); }
+  #krank { background: url('/images/collections/krank.jpg'); }
   #landscapes { background: url('/images/collections/landscapes.jpg'); }
   #london { background: url('/images/collections/london.jpg'); }
   #long-exposures { background: url('/images/collections/long-exposures.jpg'); }
@@ -164,10 +174,9 @@
   #nature { background: url('/images/collections/nature.jpg'); }
   #new-england { background: url('/images/collections/new-england.jpg'); }
   #panoramas { background: url('/images/collections/panoramas.jpg'); }
+  #rev { background: url('/images/collections/rev.jpg'); }
   #sunsets { background: url('/images/collections/sunsets.jpg'); }
-  #sears-tower { background: url('/images/collections/sears.jpg'); }
-  #trump-tower { background: url('/images/collections/trump.jpg'); }
-  #the-bean { background: url('/images/collections/bean.jpg'); }
+  #voodoo { background: url('/images/collections/voodoo.jpg'); }
 }
 
 @media screen and (min-width: 650px) {

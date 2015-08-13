@@ -1,5 +1,6 @@
 - title: Manhattan and the Brooklyn Bridge
-  image_path: images/portfolio/brooklyn-bridge2.jpg
+  image_path: portfolio/brooklyn-bridge2.jpg
+  thumbnail: /images/thumbnails/brooklyn-bridge2.jpg
   portfolio: primary
   position: aaa
   exposure: f/8, ISO50, 30s
@@ -8,7 +9,8 @@
   tags: new-york, architecture, cityscape, manhattan, brooklyn-bridge, long-exposure
 
 - title: <i>Archways</i>
-  image_path: images/portfolio/archways.jpg
+  image_path: portfolio/archways.jpg
+  thumbnail: /images/thumbnails/archways.jpg
   portfolio: primary
   position: zzz
   exposure: f/8, ISO50, 30s
@@ -17,7 +19,8 @@
   tags: chicago, sears-tower, architecture, sculpture, long-exposure, dusk
 
 - title: Sunset at Masons Island
-  image_path: images/portfolio/masons-dock.jpg
+  image_path: portfolio/masons-dock.jpg
+  thumbnail: /images/thumbnails/masons-dock.jpg
   portfolio: primary
   position: bbb
   exposure: f/8, ISO50, 30s
@@ -26,7 +29,8 @@
   tags: connecticut, new-england, sunset, nautical, long-exposure, landscape
 
 - title: Fresh snow at Leroy Oaks
-  image_path: images/portfolio/leroy-oaks.jpg
+  image_path: portfolio/leroy-oaks.jpg
+  thumbnail: /images/thumbnails/leroy-oaks.jpg
   portfolio: primary
   position: ccc
   exposure: f/8, ISO50, 30s
@@ -35,7 +39,8 @@
   tags: illinois, snow, landscape, winter, nature
 
 - title: Pritzker Pavilion
-  image_path: images/portfolio/pritzker.jpg
+  image_path: portfolio/pritzker.jpg
+  thumbnail: /images/thumbnails/pritzker.jpg
   portfolio: primary
   position: ddd
   exposure: f/8, ISO50, 30s
@@ -44,17 +49,20 @@
   tags: chicago, cityscape, winter, architecture
 
 - title: Cloud Gate Snowstorm
-  image_path: images/portfolio/snowy-bean.jpg
+  image_path: portfolio/snowy-bean.jpg
+  thumbnail: /images/thumbnails/snowy-bean.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, winter, architecture, the-bean
 
 - title: The London Eye
-  image_path: images/portfolio/london-eye.jpg
+  image_path: portfolio/london-eye.jpg
+  thumbnail: /images/thumbnails/london-eye.jpg
   exposure: f/8, ISO50, 30s
   tags: london, england, architecture, london-eye, cityscape, sunset
 
 - title: The privateer <i>Lynx</i> rounding the Chicago Harbor Light
-  image_path: images/portfolio/rainy-sails.jpg
+  image_path: portfolio/rainy-sails.jpg
+  thumbnail: /images/thumbnails/rainy-sails.jpg
   portfolio: primary
   position: ggg
   exposure: f/8, ISO50, 30s
@@ -63,7 +71,8 @@
   tags: nautical, chicago, lake-michigan, lighthouse, rain
 
 - title: <i>Reach for the sky</i>
-  image_path: images/portfolio/sears-reach2.jpg
+  image_path: portfolio/sears-reach2.jpg
+  thumbnail: /images/thumbnails/sears-reach2.jpg
   portfolio: primary
   position: hhh
   exposure: f/8, ISO50, 30s
@@ -72,7 +81,8 @@
   tags: chicago, skyscraper, architecture, black-and-white, cityscape, PP08, sears-tower
 
 - title: <i>Dance</i>
-  image_path: images/portfolio/dance.jpg
+  image_path: portfolio/dance.jpg
+  thumbnail: /images/thumbnails/dance.jpg
   portfolio: primary
   position: iii
   exposure: f/8, ISO50, 30s
@@ -80,100 +90,118 @@
   tags: chicago, the-bean, black-and-white, PP09
 
 - title: The Wrigley Building and Trump Tower
-  image_path: images/chicago/wrigley-trump.jpg
+  image_path: chicago/wrigley-trump.jpg
+  thumbnail: /images/thumbnails/wrigley-trump.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, wrigley-building, trump-tower
 
 - title: Frozen Chicago
-  image_path: images/catalog/IMG_7485.jpg
+  image_path: catalog/IMG_7485.jpg
+  thumbnail: /images/thumbnails/IMG_7485.jpg
   exposure: 1/5th, f/16, ISO50
   tags: chicago, cityscape, black-and-white
 
 - title: <i>Chicago Sunset</i>
-  image_path: images/chicago/sunrays2.jpg
+  image_path: chicago/sunrays2.jpg
+  thumbnail: /images/thumbnails/sunrays2.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, sunset, sears-tower
 
 - title: Grant Park
-  image_path: images/chicago/grant-park.jpg
+  image_path: chicago/grant-park.jpg
+  thumbnail: /images/thumbnails/grant-park.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, sunset, trump-tower, aon-center, grant-park, skyscraper
 
 - title: The Adler Planetarium at sunrise
-  image_path: images/chicago/sunset-adler.jpg
+  image_path: chicago/sunset-adler.jpg
+  thumbnail: /images/thumbnails/sunset-adler.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, sunrise, lake-michigan, adler-planetarium
 
 - title: Tokyo Tower
   orientation: vertical
-  image_path: images/catalog/tokyo-tower.jpg
+  image_path: catalog/tokyo-tower.jpg
+  thumbnail: /images/thumbnails/tokyo-tower.jpg
   exposure: f/6.7, ISO100, 1/125th
   tags: architecture
 
 - title: Adams &amp; Wabash L Platform
-  image_path: images/chicago/over-the-l.jpg
+  image_path: chicago/over-the-l.jpg
+  thumbnail: /images/thumbnails/over-the-l.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, the-l, trump-tower
 
 - title: The John Hancock building at dusk
-  image_path: images/chicago/hancock-lsd.jpg
+  image_path: chicago/hancock-lsd.jpg
+  thumbnail: /images/thumbnails/hancock-lsd.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, hancock-building, long-exposure, dusk
 
 - title: Trump Tower and the Chicago River
   orientation: vertical
-  image_path: images/chicago/trump2.jpg
+  image_path: chicago/trump2.jpg
+  thumbnail: /images/thumbnails/trump2.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, trump-tower, winter, chicago-river
 
 - title: The John Hancock building
-  image_path: images/chicago/inky-lake2.jpg
+  image_path: chicago/inky-lake2.jpg
+  thumbnail: /images/thumbnails/inky-lake2.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, hancock-building, lake-michigan, black-and-white, long-exposure
 
 - title: Sears Tower skyboxes
-  image_path: images/portfolio/blue-sky-walk.jpg
+  image_path: portfolio/blue-sky-walk.jpg
+  thumbnail: /images/thumbnails/blue-sky-walk.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, abstract, sears-tower
 
 - title: <i>Cloud Gate</i> sunset during winter
-  image_path: images/chicago/winter-bean.jpg
+  image_path: chicago/winter-bean.jpg
+  thumbnail: /images/thumbnails/winter-bean.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, cloud-gate, the-bean, winter
 
 - title: A stormfront rolls in over the Sears Tower
   orientation: vertical
-  image_path: images/chicago/sears-storm2.jpg
+  image_path: chicago/sears-storm2.jpg
+  thumbnail: /images/thumbnails/sears-storm2.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, black-and-white
 
 - title: Chicago skyline at dusk
-  image_path: images/chicago/chicago-skyline.jpg
+  image_path: chicago/chicago-skyline.jpg
+  thumbnail: /images/thumbnails/chicago-skyline.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, cityscape, lake-michigan, trump-tower
 
 - title: Elizabeth Tower
   orientation: vertical
-  image_path: images/london/elizabeth-tower-bw-vertical.jpg
+  image_path: london/elizabeth-tower-bw-vertical.jpg
+  thumbnail: /images/thumbnails/elizabeth-tower-bw-vertical.jpg
   portfolio: london
   position: bbb
   exposure: f/8, ISO50, 60s
   tags: london, architecture, elizabeth-tower, black-and-white
 
 - title: The National Gallery
-  image_path: images/london/national-gallery.jpg
+  image_path: london/national-gallery.jpg
+  thumbnail: /images/thumbnails/national-gallery.jpg
   portfolio: london
   position: ccc
   exposure: f/8, ISO50, 60s
   tags: london, architecture, panorama, dusk, trafalgar-square
 
 - title: The Mystic Seaport
-  image_path: images/catalog/seaport-panorama.jpg
+  image_path: catalog/seaport-panorama.jpg
+  thumbnail: /images/thumbnails/seaport-panorama.jpg
   exposure: f/8, ISO100, 1/200th
   tags: panorama, fall, new-england
 
 - title: Sunset at Tower Bridge
-  image_path: images/london/tower-bridge-sunset.jpg
+  image_path: london/tower-bridge-sunset.jpg
+  thumbnail: /images/thumbnails/tower-bridge-sunset.jpg
   portfolio: london
   position: ddd
   exposure: f/8, ISO50, 60s
@@ -181,21 +209,24 @@
 
 - title: Shad Thames
   orientation: vertical
-  image_path: images/london/shad-thames.jpg
+  image_path: london/shad-thames.jpg
+  thumbnail: /images/thumbnails/shad-thames.jpg
   portfolio: london
   position: eee
   exposure: f/8, ISO50, 60s
   tags: london, architecture, black-and-white
 
 - title: Her Majestys Household Cavalry
-  image_path: images/london/cavalry.jpg
+  image_path: london/cavalry.jpg
+  thumbnail: /images/thumbnails/cavalry.jpg
   portfolio: london
   position: fff
   exposure: f/8, ISO50, 60s
   tags: london
 
 - title: The London Eye and Thames River
-  image_path: images/london/london-eye-2015.jpg
+  image_path: london/london-eye-2015.jpg
+  thumbnail: /images/thumbnails/london-eye-2015.jpg
   portfolio: primary
   position: fff
   exposure: f/8, ISO50, 60s
@@ -205,14 +236,16 @@
 
 - title: Whitehall Street
   orientation: vertical
-  image_path: images/london/whitehall-street.jpg
+  image_path: london/whitehall-street.jpg
+  thumbnail: /images/thumbnails/whitehall-street.jpg
   portfolio: london
   position: ggg
   exposure: f/8, ISO50, 60s
   tags: london, architecture, long-exposure, dusk
 
 - title: St. Pauls Cathedral and Millenium Bridge
-  image_path: images/london/st-pauls.jpg
+  image_path: london/st-pauls.jpg
+  thumbnail: /images/thumbnails/st-pauls.jpg
   portfolio: london
   position: hhh
   exposure: f/8, ISO50, 60s
@@ -220,14 +253,16 @@
 
 - title: Bishops Gate Road
   orientation: vertical
-  image_path: images/london/shoreditch-high-street.jpg
+  image_path: london/shoreditch-high-street.jpg
+  thumbnail: /images/thumbnails/shoreditch-high-street.jpg
   portfolio: london
   position: iii
   exposure: f/8, ISO50, 60s
   tags: london, architecture, cityscape, black-and-white
 
 - title: Tower Bridge 180&deg; panorama
-  image_path: images/london/tower-pano-second.jpg
+  image_path: london/tower-pano-second.jpg
+  thumbnail: /images/thumbnails/tower-pano-second.jpg
   portfolio: london
   position: jjj
   exposure: f/8, ISO50, 60s
@@ -235,28 +270,32 @@
 
 - title: Liverpool Street Station
   orientation: vertical
-  image_path: images/london/liverpool-station.jpg
+  image_path: london/liverpool-station.jpg
+  thumbnail: /images/thumbnails/liverpool-station.jpg
   portfolio: london
   position: kkk
   exposure: f/8, ISO50, 60s
   tags: london, architecture, black-and-white, panorama
 
 - title: The Bridge Lounge
-  image_path: images/london/bridge-lounge.jpg
+  image_path: london/bridge-lounge.jpg
+  thumbnail: /images/thumbnails/bridge-lounge.jpg
   portfolio: london
   position: lll
   exposure: f/8, ISO50, 60s
   tags: london, long-exposure, dusk
 
 - title: Trafalgar Square 180&deg; panorama
-  image_path: images/london/trafalgar-square.jpg
+  image_path: london/trafalgar-square.jpg
+  thumbnail: /images/thumbnails/trafalgar-square.jpg
   portfolio: london
   position: mmm
   exposure: f/8, ISO50, 60s
   tags: london, long-exposure, dusk, panorama, cityscape, trafalgar-square
 
 - title: Elizabeth Tower and the River Thames
-  image_path: images/london/elizabeth-tower.jpg
+  image_path: london/elizabeth-tower.jpg
+  thumbnail: /images/thumbnails/elizabeth-tower.jpg
   portfolio: london
   position: nnn
   exposure: f/8, ISO50, 60s
@@ -264,14 +303,16 @@
 
 - title: The lions of Trafalgar Square
   orientation: vertical
-  image_path: images/london/lions-tower.jpg
+  image_path: london/lions-tower.jpg
+  thumbnail: /images/thumbnails/lions-tower.jpg
   portfolio: london
   position: ooo
   exposure: f/8, ISO50, 60s
   tags: london, trafalgar-square, long-exposure, elizabeth-tower
 
 - title: National Gallery fountain
-  image_path: images/london/gallery-fountain.jpg
+  image_path: london/gallery-fountain.jpg
+  thumbnail: /images/thumbnails/gallery-fountain.jpg
   portfolio: london
   position: ppp
   exposure: f/8, ISO50, 60s
@@ -279,47 +320,54 @@
 
 - title: Her Majestys Household Cavalry Life Guard
   orientation: vertical
-  image_path: images/london/cavalry-guard.jpg
+  image_path: london/cavalry-guard.jpg
+  thumbnail: /images/thumbnails/cavalry-guard.jpg
   portfolio: london
   position: qqq
   exposure: f/8, ISO50, 60s
   tags: london, black-and-white
 
 - title: The Shard, from Tooley Street
-  image_path: images/london/shard-streaks.jpg
+  image_path: london/shard-streaks.jpg
+  thumbnail: /images/thumbnails/shard-streaks.jpg
   portfolio: london
   position: rrr
   exposure: f/8, ISO50, 60s
   tags: london, architecture, long-exposure, cityscape, dusk
 
 - title: Trump Tower
-  image_path: images/black-white/trump-abstract.jpg
+  image_path: black-white/trump-abstract.jpg
+  thumbnail: /images/thumbnails/trump-abstract.jpg
   portfolio: black-white
   position: aaa
   exposure: f/8, ISO50, 60s
   tags: chicago, trump-tower, architecture, black-and-white, skyscraper, abstract
 
 - title: Grant Park
-  image_path: images/chicago/sears-from-grant.jpg
+  image_path: chicago/sears-from-grant.jpg
+  thumbnail: /images/thumbnails/sears-from-grant.jpg
   exposure: f/8, ISO50, 60s
   tags: chicago, cityscape, sears-tower
 
 - title: Aqua building, Chicago
-  image_path: images/chicago/waves.jpg
+  image_path: chicago/waves.jpg
+  thumbnail: /images/thumbnails/waves.jpg
   portfolio: black-white
   position: bbb
   exposure: f/8, ISO50, 60s
   tags: chicago, architecture, black-and-white, abstract
 
 - title: Manhattan skyline
-  image_path: images/p52/25.jpg
+  image_path: p52/25.jpg
+  thumbnail: /images/thumbnails/25.jpg
   portfolio: black-white
   position: ccc
   exposure: f/8, ISO50, 60s
   tags: new-york, manhattan, architecture, black-and-white, cityscape, skyscraper, long-exposure
 
 - title: The London Eye
-  image_path: images/union/7.jpg
+  image_path: union/7.jpg
+  thumbnail: /images/thumbnails/union/7.jpg
   portfolio: black-white
   position: ddd
   portfolio: london
@@ -328,21 +376,24 @@
   tags: london, london-eye, black-and-white
 
 - title: <i>Glass &amp; Steel</i>
-  image_path: images/union/28.jpg
+  image_path: union/28.jpg
+  thumbnail: /images/thumbnails/union/28.jpg
   portfolio: black-white
   position: eee
   exposure: f/8, ISO50, 60s
   tags: chicago, architecture, black-and-white
 
 - title: The Flatiron Building
-  image_path: images/portfolio/flatiron-horiz.jpg
+  image_path: portfolio/flatiron-horiz.jpg
+  thumbnail: /images/thumbnails/flatiron-horiz.jpg
   portfolio: black-white
   position: fff
   exposure: f/8, ISO50, 60s
   tags: new-york, black-and-white, cityscape, architecture, long-exposure, manhattan
 
 - title: Art Institute of Chicago
-  image_path: images/black-white/lion-spotlight.jpg
+  image_path: black-white/lion-spotlight.jpg
+  thumbnail: /images/thumbnails/lion-spotlight.jpg
   portfolio: black-white
   position: ggg
   exposure: f/8, ISO50, 60s
@@ -350,14 +401,16 @@
 
 - title: Grand Central Station great hall
   orientation: vertical
-  image_path: images/portfolio/grand-central-standing.jpg
+  image_path: portfolio/grand-central-standing.jpg
+  thumbnail: /images/thumbnails/grand-central-standing.jpg
   portfolio: black-white
   position: hhh
   exposure: f/8, ISO50, 60s
   tags: new-york, manhattan, black-and-white
 
 - title: Juvenile Bald Eagle in flight
-  image_path: images/p52/06.jpg
+  image_path: p52/06.jpg
+  thumbnail: /images/thumbnails/06.jpg
   portfolio: nature
   position: aaa
   exposure: f/8, ISO50, 60s
@@ -365,73 +418,84 @@
 
 - title: Great Blue Heron
   orientation: vertical
-  image_path: images/portfolio/heron-portrait.jpg
+  image_path: portfolio/heron-portrait.jpg
+  thumbnail: /images/thumbnails/heron-portrait.jpg
   portfolio: nature
   position: bbb
   exposure: f/8, ISO50, 60s
   tags: heron, nature, bird
 
 - title: Dandelion head
-  image_path: images/nature/dandelion.jpg
+  image_path: nature/dandelion.jpg
+  thumbnail: /images/thumbnails/dandelion.jpg
   portfolio: nature
   position: ccc
   exposure: f/8, ISO50, 60s
   tags: flower, nature
 
 - title: A pair of egrets in flight
-  image_path: images/nature/flight.jpg
+  image_path: nature/flight.jpg
+  thumbnail: /images/thumbnails/flight.jpg
   portfolio: nature
   position: ddd
   exposure: f/8, ISO50, 60s
   tags: egret, nature, bird
 
 - title: Bug on flower
-  image_path: images/nature/flower-bug.jpg
+  image_path: nature/flower-bug.jpg
+  thumbnail: /images/thumbnails/flower-bug.jpg
   portfolio: nature
   position: eee
   exposure: f/8, ISO50, 60s
   tags: nature, macro, flower
 
 - title: Molting egret
-  image_path: images/nature/itchy-egret.jpg
+  image_path: nature/itchy-egret.jpg
+  thumbnail: /images/thumbnails/itchy-egret.jpg
   portfolio: nature
   position: fff
   exposure: f/8, ISO50, 60s
   tags: nature, egret, bird
 
 - title: Blue dragonfly
-  image_path: images/nature/dragonfly.jpg
+  image_path: nature/dragonfly.jpg
+  thumbnail: /images/thumbnails/dragonfly.jpg
   portfolio: nature
   position: ggg
   exposure: f/8, ISO50, 60s
   tags: nature, macro
 
 - title: Purple flower
-  image_path: images/nature/purple-flower.jpg
+  image_path: nature/purple-flower.jpg
+  thumbnail: /images/thumbnails/purple-flower.jpg
   portfolio: nature
   position: hhh
   exposure: f/8, ISO50, 60s
   tags: nature, macro, flower
 
 - title: Dew drops on a blade of grass
-  image_path: images/nature/droplet.jpg
+  image_path: nature/droplet.jpg
+  thumbnail: /images/thumbnails/droplet.jpg
   portfolio: nature
   position: iii
   exposure: f/8, ISO50, 60s
   tags: nature, macro, flower
 
 - title: An egret wading in the Fox River
-  image_path: images/catalog/CRW_4020.jpg
+  image_path: catalog/CRW_4020.jpg
+  thumbnail: /images/thumbnails/CRW_4020.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Juvenile Bald Eagle
-  image_path: images/catalog/IMG_7827.jpg
+  image_path: catalog/IMG_7827.jpg
+  thumbnail: /images/thumbnails/IMG_7827.jpg
   exposure: 1/2000th, f/5.6, ISO2500
   tags: nature, bird, bald-eagle
 
 - title: <i>Somber sunrise</i>
-  image_path: images/nature/somber-sunrise.jpg
+  image_path: nature/somber-sunrise.jpg
+  thumbnail: /images/thumbnails/somber-sunrise.jpg
   portfolio: nature
   position: jjj
   exposure: f/8, ISO50, 60s
@@ -439,146 +503,173 @@
 
 - title: James Thompson Center
   orientation: vertical
-  image_path: images/chicago/thompson-center.jpg
+  image_path: chicago/thompson-center.jpg
+  thumbnail: /images/thumbnails/thompson-center.jpg
   exposure: 1/60th, f/8, ISO4000
   tags: chicago, architecture, panorama
 
 - title: Art Institute Lion
   orientation: vertical
-  image_path: images/chicago/lion-portrait.jpg
+  image_path: chicago/lion-portrait.jpg
+  thumbnail: /images/thumbnails/lion-portrait.jpg
   exposure: 1/60th, f/8, ISO4000
   tags: chicago, sculpture, dusk
 
 - title: Mystic River bascule bridge
-  image_path: images/p52/45.jpg
+  image_path: p52/45.jpg
+  thumbnail: /images/thumbnails/45.jpg
   exposure: 1/60th, f/8, ISO4000
   tags: new-england, panorama
 
 - title: 37 N. Dearborn
-  image_path: images/black-white/0K6A0017.jpg
+  image_path: black-white/0K6A0017.jpg
+  thumbnail: /images/thumbnails/0K6A0017.jpg
   portfolio: black-white
   position: iii
   exposure: 1/250th, f/9, ISO125
   tags: black-and-white, architecture, chicago, abstract
 
 - title: Trump Tower, Chicago
-  image_path: images/union/15.jpg
+  image_path: union/15.jpg
+  thumbnail: /images/thumbnails/union/15.jpg
   exposure: 1/500th, f/9, ISO320
   tags: chicago, trump-tower, architecture, black-and-white, abstract
 
 - title: Trump Tower, Chicago
-  image_path: images/union/16.jpg
+  image_path: union/16.jpg
+  thumbnail: /images/thumbnails/union/16.jpg
   exposure: 1/500th, f/9, ISO125
   tags: chicago, trump-tower, architecture, black-and-white, abstract
 
 - title: The Bean
-  image_path: images/chicago/bean.jpg
+  image_path: chicago/bean.jpg
+  thumbnail: /images/thumbnails/bean.jpg
   exposure: 1/500th, f/9, ISO125
   tags: chicago, the-bean
 
 - title: Trump Tower, Chicago
-  image_path: images/union/22.jpg
+  image_path: union/22.jpg
+  thumbnail: /images/thumbnails/union/22.jpg
   exposure: 1/500th, f/9, ISO125
   tags: chicago, trump-tower, architecture, black-and-white, abstract
 
 - title: Pritzker Pavilion band shell
-  image_path: images/union/26.jpg
+  image_path: union/26.jpg
+  thumbnail: /images/thumbnails/union/26.jpg
   portfolio: black-white
   position: hhh
   exposure: 1/320th, f/8, ISO100
   tags: chicago, architecture, black-and-white, abstract
 
 - title: Cloudy windows
-  image_path: images/union/29.jpg
+  image_path: union/29.jpg
+  thumbnail: /images/thumbnails/union/29.jpg
   exposure: 1/500th, f/9, ISO160
   tags: chicago, architecture, black-and-white
 
 - title: Cyclists at the Picasso
   orientation: vertical
-  image_path: images/p52/03.jpg
+  image_path: p52/03.jpg
+  thumbnail: /images/thumbnails/03.jpg
   exposure: 15s, f/13, ISO100
   tags: chicago, black-and-white, sculpture, long-exposure
 
 - title: The Wrigley Building
-  image_path: images/p52/04.jpg
+  image_path: p52/04.jpg
+  thumbnail: /images/thumbnails/04.jpg
   exposure: 13s, f/10, ISO50
   tags: chicago, cityscape, dusk
 
 - title: Chicago sunset
-  image_path: images/catalog/IMG_6155.jpg
+  image_path: catalog/IMG_6155.jpg
+  thumbnail: /images/thumbnails/IMG_6155.jpg
   exposure: 1/160th, f/8, ISO250
   tags: chicago, sears-tower, cityscape, sunset
 
 - title: Chicago by train
-  image_path: images/p52/08.jpg
+  image_path: p52/08.jpg
+  thumbnail: /images/thumbnails/08.jpg
   exposure: 1/100th, f/16, ISO100
   tags: chicago, sears-tower, cityscape
 
 - title: Chicago sunset
-  image_path: images/chicago/sunrays.jpg
+  image_path: chicago/sunrays.jpg
+  thumbnail: /images/thumbnails/sunrays.jpg
   exposure: 1/160th, f/8, ISO50
   tags: chicago, sears-tower, cityscape, sunset, lake-michigan
 
 - title: Union Station columns
   orientation: vertical
-  image_path: images/black-white/columns.jpg
+  image_path: black-white/columns.jpg
+  thumbnail: /images/thumbnails/columns.jpg
   exposure: 1/30th, f/8, ISO160
   tags: chicago, black-and-white, architecture
 
 - title: Millenium Park busts
-  image_path: images/p52/30.jpg
+  image_path: p52/30.jpg
+  thumbnail: /images/thumbnails/30.jpg
   exposure: 3.2s, f/8, ISO50
   tags: chicago, black-and-white, sculpture
 
 - title: Sedona panorama
-  image_path: images/p52/49.jpg
+  image_path: p52/49.jpg
+  thumbnail: /images/thumbnails/49.jpg
   exposure: 9 shot panorama
   tags: nature, panorama, landscape
 
 - title: OHare walkway
-  image_path: images/posts/ohare-tunnel.jpg
+  image_path: posts/ohare-tunnel.jpg
+  thumbnail: /images/thumbnails/ohare-tunnel.jpg
   exposure: 1s, f/7.1, ISO2000
   tags: chicago, abstract, long-exposure
 
 - title: Chicago from above
-  image_path: images/posts/takeoff.jpg
+  image_path: posts/takeoff.jpg
+  thumbnail: /images/thumbnails/takeoff-chicago.jpg
   exposure: 1/250th, f/8, ISO100
   tags: chicago, cityscape, sears-tower
 
 - title: Manhattan Skyline
-  image_path: images/posts/manhattan.jpg
+  image_path: posts/manhattan.jpg
+  thumbnail: /images/thumbnails/manhattan.jpg
   exposure: 240s, f/11, ISO50
   tags: new-york, manhattan, long-exposure, dusk, cityscape
 
 - title: The Brooklyn Bridge
-  image_path: images/catalog/0K6A7508.jpg
+  image_path: catalog/0K6A7508.jpg
+  thumbnail: /images/thumbnails/0K6A7508.jpg
   exposure: 90s, f/16, ISO100
   tags: new-york, manhattan, long-exposure, cityscape
 
 - title: The Chrysler Building
   orientation: vertical
-  image_path: images/posts/chrysler2.jpg
+  image_path: posts/chrysler2.jpg
+  thumbnail: /images/thumbnails/chrysler2.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, architecture, skyscraper, black-and-white
 
 - title: 168 E. 58th
   orientation: vertical
-  image_path: images/posts/fight.jpg
+  image_path: posts/fight.jpg
+  thumbnail: /images/thumbnails/fight.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, architecture, black-and-white, abstract
 
 - title: 168 E. 58th
-  image_path: images/union/3.jpg
+  image_path: union/3.jpg
+  thumbnail: /images/thumbnails/union/3.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, architecture, black-and-white, abstract
 
 - title: Rainy Day Man
-  image_path: images/black-white/rainy-day-man.jpg
+  image_path: black-white/rainy-day-man.jpg
+  thumbnail: /images/thumbnails/rainy-day-man.jpg
   exposure: 1/200th, f/8, ISO100
   tags: black-and-white, sculpture
 
 - title: City of broad shoulders
-  image_path: images/black-white/sears-abstract.jpg
+  image_path: black-white/sears-abstract.jpg
+  thumbnail: /images/thumbnails/sears-abstract.jpg
   portfolio: black-white
   position: jjj
   exposure: 1/200th, f/8, ISO100
@@ -586,136 +677,162 @@
 
 - title: Sunset from Aon Center
   orientation: vertical
-  image_path: images/posts/aon-sunset.jpg
+  image_path: posts/aon-sunset.jpg
+  thumbnail: /images/thumbnails/aon-sunset.jpg
   exposure: 1/200th, f/8, ISO100
   tags: chicago, sears-tower, cityscape, sunset
 
 - title: Flatiron Building
   orientation: vertical
-  image_path: images/posts/flatiron.jpg
+  image_path: posts/flatiron.jpg
+  thumbnail: /images/thumbnails/flatiron.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, cityscape, black-and-white, long-exposure
 
 - title: Grand Central great hall
-  image_path: images/posts/grand-central.jpg
+  image_path: posts/grand-central.jpg
+  thumbnail: /images/thumbnails/grand-central.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, black-and-white, long-exposure
 
 - title: Sears Tower sunburst
-  image_path: images/posts/sunburst.jpg
+  image_path: posts/sunburst.jpg
+  thumbnail: /images/thumbnails/sunburst.jpg
   exposure: 1/500th, f/8, ISO100
   tags: cityscape, sears-tower, chicago
 
 - title: Day Cruise
-  image_path: images/catalog/EI2C4866.jpg
+  image_path: catalog/EI2C4866.jpg
+  thumbnail: /images/thumbnails/EI2C4866.jpg
   exposure: 1/1000th, f/7.1, ISO200
   tags: new-england, black-and-white
 
 - title: Mystic River panorama
-  image_path: images/new-england/downriver-pano.jpg
+  image_path: new-england/downriver-pano.jpg
+  thumbnail: /images/thumbnails/downriver-pano.jpg
   exposure: 1/150th, f/8, ISO100
   tags: new-england, panorama
 
 - title: Latimer Reef Light
-  image_path: images/new-england/latimer.jpg
+  image_path: new-england/latimer.jpg
+  thumbnail: /images/thumbnails/latimer.jpg
   exposure: 1/150th, f/8, ISO100
   tags: new-england, sunset, landscape
 
 - title: Mystic River fall afternoon
-  image_path: images/new-england/mystic-river.jpg
+  image_path: new-england/mystic-river.jpg
+  thumbnail: /images/thumbnails/mystic-river.jpg
   exposure: 1/150th, f/8, ISO100
   tags: new-england, fall
 
 - title: Stonington Borough sunset
-  image_path: images/new-england/sb-rocks-sunset.jpg
+  image_path: new-england/sb-rocks-sunset.jpg
+  thumbnail: /images/thumbnails/sb-rocks-sunset.jpg
   exposure: 30s, f/8, ISO50
   tags: new-england, sunset, long-exposure, landscape
 
 - title: John Hancock Center
-  image_path: images/chicago/hancock-photo.jpg
+  image_path: chicago/hancock-photo.jpg
+  thumbnail: /images/thumbnails/hancock-photo.jpg
   exposure: 1/125th, f/8, ISO1000
   tags: chicago, cityscape, lake-michigan, hancock-building
 
 - title: Art Institute staircase
-  image_path: images/artinst/1.jpg
+  image_path: artinst/1.jpg
+  thumbnail: /images/thumbnails/artinst/1.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago
 
 - title: Art Institute
   orientation: vertical
-  image_path: images/artinst/4.jpg
+  image_path: artinst/4.jpg
+  thumbnail: /images/thumbnails/artinst/4.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago
 
 - title: 37 N. Dearborn
-  image_path: images/union/11.jpg
+  image_path: union/11.jpg
+  thumbnail: /images/thumbnails/union/11.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, black-and-white, abstract, architecture
 
 - title: Quaker Tower
-  image_path: images/union/13.jpg
+  image_path: union/13.jpg
+  thumbnail: /images/thumbnails/union/13.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, black-and-white, abstract, architecture
 
 - title: 65 W. Kinzie
-  image_path: images/union/14.jpg
+  image_path: union/14.jpg
+  thumbnail: /images/thumbnails/union/14.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, black-and-white, abstract, architecture
 
 - title: Trump Tower
-  image_path: images/union/20.jpg
+  image_path: union/20.jpg
+  thumbnail: /images/thumbnails/union/20.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, black-and-white, trump-tower, abstract, architecture
 
 - title: Chicago Harbor light
-  image_path: images/chicago/lighthouse-sail.jpg
+  image_path: chicago/lighthouse-sail.jpg
+  thumbnail: /images/thumbnails/lighthouse-sail.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, lake-michigan, nautical
 
 - title: The Picasso
-  image_path: images/catalog/IMG_7397.jpg
+  image_path: catalog/IMG_7397.jpg
+  thumbnail: /images/thumbnails/IMG_7397.jpg
   exposure: 10s, f/11, ISO50
   description: A freezing cold Picasso Sculpture stands guard over Daley Plaza in the heart of the Loop, downtown Chicago
   date: January 2nd, 2014
   tags: chicago, architecture, black-and-white
 
 - title: Wrigley Building clock face
-  image_path: images/chicago/wrigley-clock.jpg
+  image_path: chicago/wrigley-clock.jpg
+  thumbnail: /images/thumbnails/wrigley-clock.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, architecture
 
 - title: The stars over Masons Island
-  image_path: images/new-england/masons-stars.jpg
+  image_path: new-england/masons-stars.jpg
+  thumbnail: /images/thumbnails/masons-stars.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, astronomy, long-exposure
 
 - title: Stonington Borough sunset
-  image_path: images/new-england/sb-dock-sunset.jpg
+  image_path: new-england/sb-dock-sunset.jpg
+  thumbnail: /images/thumbnails/sb-dock-sunset.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, sunset, landscape
 
 - title: The stars over Watch Hill
-  image_path: images/new-england/watch-hill-3.jpg
+  image_path: new-england/watch-hill-3.jpg
+  thumbnail: /images/thumbnails/watch-hill-3.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, astronomy, long-exposure, landscape
 
 - title: Watch Hill Yacht Club
-  image_path: images/new-england/watch-hill.jpg
+  image_path: new-england/watch-hill.jpg
+  thumbnail: /images/thumbnails/watch-hill.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, nautical
 
 - title: The Emma Berry
-  image_path: images/black-white/emma-berry.jpg
+  image_path: black-white/emma-berry.jpg
+  thumbnail: /images/thumbnails/emma-berry.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, nautical, black-and-white
 
 - title: Thomas Oyster Co.
-  image_path: images/portfolio/thomas.jpg
+  image_path: portfolio/thomas.jpg
+  thumbnail: /images/thumbnails/thomas.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, nautical, black-and-white
 
 - title: Bret Michaels
-  image_path: images/bm/4.jpg
+  image_path: bm/4.jpg
+  thumbnail: /images/thumbnails/bm/4.jpg
   portfolio: music
   position: ccc
   exposure: 1/125th, f/8, ISO4000
@@ -723,73 +840,85 @@
 
 - title: Cadillac Cassanovas
   orientation: vertical
-  image_path: images/music/carl.jpg
+  image_path: music/carl.jpg
+  thumbnail: /images/thumbnails/carl.jpg
   portfolio: music
   position: ggg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: Kodiak
-  image_path: images/music/kodiak1.jpg
+  image_path: music/kodiak1.jpg
+  thumbnail: /images/thumbnails/kodiak1.jpg
   position: ccc
   exposure: 1/125th, f/8, ISO4000
   tags: music
 
 - title: Mike Nathan of Just Enuff
   orientation: vertical
-  image_path: images/music/mike.jpg
+  image_path: music/mike.jpg
+  thumbnail: /images/thumbnails/mike.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
 - title: Driven Under
-  image_path: images/music/driven-under-2.jpg
+  image_path: music/driven-under-2.jpg
+  thumbnail: /images/thumbnails/driven-under-2.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
 - title: Cadillac Cassanovas
   orientation: vertical
-  image_path: images/music/standing-bass2.jpg
+  image_path: music/standing-bass2.jpg
+  thumbnail: /images/thumbnails/standing-bass2.jpg
   portfolio: music
   position: bbb
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: Kodiak
-  image_path: images/music/kodiak2.jpg
+  image_path: music/kodiak2.jpg
+  thumbnail: /images/thumbnails/kodiak2.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, kodiak
 
 - title: Bret Michaels
   orientation: vertical
-  image_path: images/bm/7.jpg
+  image_path: bm/7.jpg
+  thumbnail: /images/thumbnails/bm/7.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Driven Under
-  image_path: images/music/driven-under.jpg
+  image_path: music/driven-under.jpg
+  thumbnail: /images/thumbnails/driven-under.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
 - title: The Everly Hillbillies
   orientation: vertical
-  image_path: images/music/drumming.jpg
+  image_path: music/drumming.jpg
+  thumbnail: /images/thumbnails/drumming.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/IMG_1302.jpg
+  image_path: catalog/IMG_1302.jpg
+  thumbnail: /images/thumbnails/IMG_1302.jpg
   exposure: 1/200th, f/5.6, ISO2500
   tags: music, concert, cadillac-cassanovas
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/EI2C1728.jpg
+  image_path: catalog/EI2C1728.jpg
+  thumbnail: /images/thumbnails/EI2C1728.jpg
   exposure: 1/250th, f/4.5, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: The Cadillac Cassanovas
-  image_path: images/music/bass2.jpg
+  image_path: music/bass2.jpg
+  thumbnail: /images/thumbnails/bass2.jpg
   portfolio: music
   position: lll
   exposure: 1/125th, f/8, ISO4000
@@ -797,536 +926,629 @@
 
 - title: Driven Under
   orientation: vertical
-  image_path: images/bm/driven-under.jpg
+  image_path: bm/driven-under.jpg
+  thumbnail: /images/thumbnails/bm/driven-under.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert
 
 - title: Bret Michaels
-  image_path: images/bm/1.jpg
+  image_path: bm/1.jpg
+  thumbnail: /images/thumbnails/bm/1.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/bm/10.jpg
+  image_path: bm/10.jpg
+  thumbnail: /images/thumbnails/bm/10.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
   orientation: vertical
-  image_path: images/bm/2.jpg
+  image_path: bm/2.jpg
+  thumbnail: /images/thumbnails/bm/2.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/bm/12.jpg
+  image_path: bm/12.jpg
+  thumbnail: /images/thumbnails/bm/12.jpg
   portfolio: music
   position: kkk
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/bm/8.jpg
+  image_path: bm/8.jpg
+  thumbnail: /images/thumbnails/bm/8.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels Band
   orientation: vertical
-  image_path: images/bm/14.jpg
+  image_path: bm/14.jpg
+  thumbnail: /images/thumbnails/bm/14.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels Band
-  image_path: images/bm/6.jpg
+  image_path: bm/6.jpg
+  thumbnail: /images/thumbnails/bm/6.jpg
   portfolio: music
   position: mmm
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/bm/3.jpg
+  image_path: bm/3.jpg
+  thumbnail: /images/thumbnails/bm/3.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Kodiak
-  image_path: images/music/kodiak4.jpg
+  image_path: music/kodiak4.jpg
+  thumbnail: /images/thumbnails/kodiak4.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music
 
 - title: Bret Michaels
-  image_path: images/bm/13.jpg
+  image_path: bm/13.jpg
+  thumbnail: /images/thumbnails/bm/13.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/bm/5.jpg
+  image_path: bm/5.jpg
+  thumbnail: /images/thumbnails/bm/5.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/bm/9.jpg
+  image_path: bm/9.jpg
+  thumbnail: /images/thumbnails/bm/9.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/bm/11.jpg
+  image_path: bm/11.jpg
+  thumbnail: /images/thumbnails/bm/11.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: Bret Michaels
-  image_path: images/music/bret-michaels.jpg
+  image_path: music/bret-michaels.jpg
+  thumbnail: /images/thumbnails/bret-michaels.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
 - title: The Cadillac Cassanovas
-  image_path: images/music/crowd.jpg
+  image_path: music/crowd.jpg
+  thumbnail: /images/thumbnails/crowd.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: Kodiak
   orientation: vertical
-  image_path: images/music/kodiak5.jpg
+  image_path: music/kodiak5.jpg
+  thumbnail: /images/thumbnails/kodiak5.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: music
 
 - title: <i>Bendy Chicago</i>
-  image_path: images/chicago/bendy-chicago.jpg
+  image_path: chicago/bendy-chicago.jpg
+  thumbnail: /images/thumbnails/bendy-chicago.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago, cityscape, sears-tower
 
 - title: Meadow Saxifrage
-  image_path: images/p52/31.jpg
+  image_path: p52/31.jpg
+  thumbnail: /images/thumbnails/31.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: flower, macro, nature
 
 - title: Bahamas Sunrise
-  image_path: images/portfolio/nassau.jpg
-  exposure: 1/125th, f/8, ISO4000
-  tags: landscape, long-exposure, sunrise
-
-- title: Bahamas Sunrise
-  image_path: images/portfolio/bahamas-waves.jpg
+  image_path: portfolio/nassau.jpg
+  thumbnail: /images/thumbnails/nassau.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: landscape, long-exposure, sunrise
 
 - title: Fireworks
-  image_path: images/posts/fireworks-west.jpg
+  image_path: posts/fireworks-west.jpg
+  thumbnail: /images/thumbnails/bahamas-waves.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: long-exposure, chicago, cityscape
 
 - title: Midtown
-  image_path: images/posts/midtown.jpg
+  image_path: posts/midtown.jpg
+  thumbnail: /images/thumbnails/midtown.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: cityscape, black-and-white, new-york, manhattan, street
 
 - title: Fireworks over Navy Pier
-  image_path: images/posts/navy-pier-fireworks-14.jpg
+  image_path: posts/navy-pier-fireworks-14.jpg
+  thumbnail: /images/thumbnails/navy-pier-fireworks-14.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: long-exposure, chicago, cityscape
 
 - title: Manhattan
   orientation: vertical
-  image_path: images/posts/nyc-night.jpg
+  image_path: posts/nyc-night.jpg
+  thumbnail: /images/thumbnails/nyc-night.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: cityscape, new-york, manhattan
 
 - title: Brooklyn Bridge
-  image_path: images/catalog/0K6A7506.jpg
+  image_path: catalog/0K6A7506.jpg
+  thumbnail: /images/thumbnails/0K6A7506.jpg
   exposure: f/16, ISO100, 90s
   tags: new-york, manhattan, cityscape, skyscraper, long-exposure
 
 - title: Train signal
-  image_path: images/posts/pom-december.jpg
+  image_path: posts/pom-december.jpg
+  thumbnail: /images/thumbnails/pom-december.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: abstract
 
 - title: Leadenhall Market
-  image_path: images/london/leadenhall-market.jpg
+  image_path: london/leadenhall-market.jpg
+  thumbnail: /images/thumbnails/leadenhall-market.jpg
   exposure: 4s, f/8, ISO100
   tags: london
 
 - title: Liverpool Street Station
   orientation: vertical
-  image_path: images/london/liverpool-station-2.jpg
+  image_path: london/liverpool-station-2.jpg
+  thumbnail: /images/thumbnails/liverpool-station-2.jpg
   exposure: 1/250th, f/9, ISO800
   tags: london, panorama
 
 - title: The Shard
-  image_path: images/london/the-shard.jpg
+  image_path: london/the-shard.jpg
+  thumbnail: /images/thumbnails/the-shard.jpg
   portfolio: london
   position: aaa
   exposure: 30s, f/9, ISO50
   tags: london, panorama, cityscape, long-exposure
 
 - title: The London Eye &amp; Thames river panorama
-  image_path: images/london/london-eye-panorama.jpg
+  image_path: london/london-eye-panorama.jpg
+  thumbnail: /images/thumbnails/london-eye-panorama.jpg
   exposure: 60s, f/14, ISO50
   tags: london, panorama, cityscape, long-exposure
 
 - title: Cloud Gate from above
-  image_path: images/catalog/IMG_5855.jpg
+  image_path: catalog/IMG_5855.jpg
+  thumbnail: /images/thumbnails/IMG_5855.jpg
   exposure: 1/250th, f/5.6, ISO100
   tags: chicago, the-bean
 
 - title: Good morning Chicago
-  image_path: images/catalog/IMG_4979.jpg
+  image_path: catalog/IMG_4979.jpg
+  thumbnail: /images/thumbnails/IMG_4979.jpg
   exposure: 1/200th, f/5.6, ISO100
   tags: chicago, cityscape
 
 - title: Sears Tower sunrise
   orientation: vertical
-  image_path: images/catalog/IMG_4974.jpg
+  image_path: catalog/IMG_4974.jpg
+  thumbnail: /images/thumbnails/IMG_4974.jpg
   exposure: 1/250th, f/5.6, ISO100
   tags: chicago, cityscape, sears-tower
 
 - title: John Hancock center panorama
   orientation: vertical
-  image_path: images/catalog/hancock-panorama.jpg
+  image_path: catalog/hancock-panorama.jpg
+  thumbnail: /images/thumbnails/hancock-panorama.jpg
   exposure: 1/800th, f/4, ISO100
   tags: chicago, cityscape, hancock-building, panorama
 
 - title: Chicago Harbor Light
-  image_path: images/catalog/IMG_6124.jpg
+  image_path: catalog/IMG_6124.jpg
+  thumbnail: /images/thumbnails/IMG_6124.jpg
   exposure: 1/200th, f/20, ISO3200
   tags: chicago, lighthouse
 
 - title: Sunset on Masons Island
-  image_path: images/catalog/0K6A3373.jpg
+  image_path: catalog/0K6A3373.jpg
+  thumbnail: /images/thumbnails/0K6A3373.jpg
   exposure: 5s, f/22, ISO50
   tags: new-england, sunset, long-exposure, landscape
 
 - title: Sunset on Masons Island
-  image_path: images/catalog/0K6A3243.jpg
+  image_path: catalog/0K6A3243.jpg
+  thumbnail: /images/thumbnails/0K6A3243.jpg
   exposure: 5s, f/22, ISO50
   tags: new-england, sunset, bird, nature
 
 - title: Imagine
-  image_path: images/posts/imagine.jpg
+  image_path: posts/imagine.jpg
+  thumbnail: /images/thumbnails/imagine.jpg
   exposure: 1/250th, f/8, ISO100
   tags: new-york, manhattan, black-and-white
 
 - title: Manhattan sunset
-  image_path: images/catalog/0K6A7439.jpg
+  image_path: catalog/0K6A7439.jpg
+  thumbnail: /images/thumbnails/0K6A7439.jpg
   exposure: 0.6s, f/18, ISO50
   tags: new-york, manhattan, sunset, cityscape, street
 
 - title: Flatiron building
   orientation: vertical
-  image_path: images/catalog/0K6A7822.jpg
+  image_path: catalog/0K6A7822.jpg
+  thumbnail: /images/thumbnails/0K6A7822.jpg
   exposure: 1.6s, f/20, ISO50
   tags: new-york, manhattan, cityscape
 
 - title: Sears Tower
   orientation: vertical
-  image_path: images/catalog/IMG_0252.jpg
+  image_path: catalog/IMG_0252.jpg
+  thumbnail: /images/thumbnails/IMG_0252.jpg
   exposure: 4s, f/11, ISO400
   tags: chicago, sears-tower, long-exposure
 
 - title: Red flower
-  image_path: images/catalog/IMG_0365.jpg
+  image_path: catalog/IMG_0365.jpg
+  thumbnail: /images/thumbnails/IMG_0365.jpg
   exposure: 1/250th, f/5.6, ISO800
   tags: flower, macro, nature
 
 - title: The Cadillac Cassanovas
-  image_path: images/catalog/IMG_1065.jpg
+  image_path: catalog/IMG_1065.jpg
+  thumbnail: /images/thumbnails/IMG_1065.jpg
   exposure: 1/160th, f/5, ISO400
   tags: music, cadillac-cassanovas
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/IMG_1242.jpg
+  image_path: catalog/IMG_1242.jpg
+  thumbnail: /images/thumbnails/IMG_1242.jpg
   exposure: 1/200th, f/5.6, ISO2500
   tags: music, cadillac-cassanovas
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/IMG_1270.jpg
+  image_path: catalog/IMG_1270.jpg
+  thumbnail: /images/thumbnails/IMG_1270.jpg
   exposure: 1/200th, f/5.6, ISO2500
   tags: music, cadillac-cassanovas
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/EI2C1732.jpg
+  image_path: catalog/EI2C1732.jpg
+  thumbnail: /images/thumbnails/EI2C1732.jpg
   exposure: 1/250th, f/3.5, ISO4000
   tags: music, cadillac-cassanovas
 
 - title: Kodiak
-  image_path: images/music/kodiak6.jpg
+  image_path: music/kodiak6.jpg
+  thumbnail: /images/thumbnails/kodiak6.jpg
   exposure: 1/250th, f/3.5, ISO4000
   tags: music
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/IMG_1200.jpg
+  image_path: catalog/IMG_1200.jpg
+  thumbnail: /images/thumbnails/IMG_1200.jpg
   exposure: 1/200th, f/5.6, ISO2500
   tags: music, cadillac-cassanovas
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/EI2C1737.jpg
+  image_path: catalog/EI2C1737.jpg
+  thumbnail: /images/thumbnails/EI2C1737.jpg
   exposure: 1/250th, f/4.5, ISO4000
   tags: music, cadillac-cassanovas
 
 - title: Just Enuff
   orientation: vertical
-  image_path: images/catalog/EI2C2053.jpg
+  image_path: catalog/EI2C2053.jpg
+  thumbnail: /images/thumbnails/EI2C2053.jpg
   exposure: 1/320th, f/2.8, ISO4000
   tags: music, just-enuff
 
 - title: Adult Bald Eagle in flight
-  image_path: images/catalog/IMG_7860.jpg
+  image_path: catalog/IMG_7860.jpg
+  thumbnail: /images/thumbnails/IMG_7860.jpg
   exposure: 1/2500th, f/6.3, ISO500
   tags: nature, bird, wildlife
 
 - title: Seagull
-  image_path: images/nature/takeoff.jpg
+  image_path: nature/takeoff.jpg
+  thumbnail: /images/thumbnails/takeoff.jpg
   exposure: 1/2500th, f/6.3, ISO500
   tags: nature, bird, wildlife
 
 - title: The Everly Hillbillies
   orientation: vertical
-  image_path: images/catalog/EI2C1885.jpg
+  image_path: catalog/EI2C1885.jpg
+  thumbnail: /images/thumbnails/EI2C1885.jpg
   exposure: 1/350th, f/2.8, ISO4000
   tags: music, concert
 
 - title: Kodiak
-  image_path: images/music/kodiak3.jpg
+  image_path: music/kodiak3.jpg
+  thumbnail: /images/thumbnails/kodiak3.jpg
   exposure: 1/350th, f/2.8, ISO4000
   tags: music
 
 - title: The Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/IMG_1232.jpg
+  image_path: catalog/IMG_1232.jpg
+  thumbnail: /images/thumbnails/IMG_1232.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: music, concert, cadillac-cassanovas
 
 - title: Cleary Walsh Wedding
   orientation: vertical
-  image_path: images/portraits/bride.jpg
+  image_path: portraits/bride.jpg
+  thumbnail: /images/thumbnails/bride.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait, wedding
 
 - title: Stephanie
-  image_path: images/portraits/stephanie.jpg
+  image_path: portraits/stephanie.jpg
+  thumbnail: /images/thumbnails/stephanie.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait, headshot
 
 - title: Alison
-  image_path: images/portraits/blue-portrait.jpg
+  image_path: portraits/blue-portrait.jpg
+  thumbnail: /images/thumbnails/blue-portrait.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait, baby
 
 - title: Cousins
-  image_path: images/portraits/family.jpg
+  image_path: portraits/family.jpg
+  thumbnail: /images/thumbnails/family.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait
 
 - title: Mike
   orientation: vertical
-  image_path: images/portraits/mike.jpg
+  image_path: portraits/mike.jpg
+  thumbnail: /images/thumbnails/mike-ebert.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait
 
 - title: Alison
-  image_path: images/portraits/alison-seven-months.jpg
+  image_path: portraits/alison-seven-months.jpg
+  thumbnail: /images/thumbnails/alison-seven-months.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait, baby
 
 - title: Alison
   orientation: vertical
-  image_path: images/portraits/bubbles.jpg
+  image_path: portraits/bubbles.jpg
+  thumbnail: /images/thumbnails/bubbles.jpg
   exposure: 1/200th, f/5, ISO2500
   tags: portrait, baby
 
 - title: Great Blue Heron
-  image_path: images/catalog/CRW_0488.jpg
+  image_path: catalog/CRW_0488.jpg
+  thumbnail: /images/thumbnails/CRW_0488.jpg
   exposure: 1/500th, f/5.6, ISO100
   tags: nature, bird, heron, wildlife
 
 - title: Great Blue Heron
-  image_path: images/catalog/CRW_0509.jpg
+  image_path: catalog/CRW_0509.jpg
+  thumbnail: /images/thumbnails/CRW_0509.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, heron, wildlife
 
 - title: Egret in flight
-  image_path: images/catalog/CRW_0532.jpg
+  image_path: catalog/CRW_0532.jpg
+  thumbnail: /images/thumbnails/CRW_0532.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Egret in flight
-  image_path: images/catalog/CRW_0573.jpg
+  image_path: catalog/CRW_0573.jpg
+  thumbnail: /images/thumbnails/CRW_0573.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: An egret catching a fish
-  image_path: images/catalog/CRW_0582.jpg
+  image_path: catalog/CRW_0582.jpg
+  thumbnail: /images/thumbnails/CRW_0582.jpg
   exposure: 1/1000th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Egret in the Fox River
   orientation: vertical
-  image_path: images/catalog/CRW_0925.jpg
+  image_path: catalog/CRW_0925.jpg
+  thumbnail: /images/thumbnails/CRW_0925.jpg
   exposure: 1/500th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: A Great Blue Heron spearing a fish
-  image_path: images/catalog/CRW_0511.jpg
+  image_path: catalog/CRW_0511.jpg
+  thumbnail: /images/thumbnails/CRW_0511.jpg
   exposure: 1/1000th, f/5.6, ISO100
   tags: nature, bird, wildlife
 
 - title: An Egret grabbing a fish
-  image_path: images/catalog/CRW_4047.jpg
+  image_path: catalog/CRW_4047.jpg
+  thumbnail: /images/thumbnails/CRW_4047.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Crossed Egrets
-  image_path: images/catalog/CRW_1156.jpg
+  image_path: catalog/CRW_1156.jpg
+  thumbnail: /images/thumbnails/CRW_1156.jpg
   exposure: 1/1000th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Egret taking off
-  image_path: images/catalog/CRW_1974.jpg
+  image_path: catalog/CRW_1974.jpg
+  thumbnail: /images/thumbnails/CRW_1974.jpg
   exposure: 1/1000th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Great Blue Heron reflection
-  image_path: images/catalog/CRW_3868.jpg
+  image_path: catalog/CRW_3868.jpg
+  thumbnail: /images/thumbnails/CRW_3868.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, heron, wildlife
 
 - title: Ornamental Grass
-  image_path: images/catalog/IMG_3495.jpg
+  image_path: catalog/IMG_3495.jpg
+  thumbnail: /images/thumbnails/IMG_3495.jpg
   exposure: 1/400th, f/5.6, ISO100
   tags: nature
 
 - title: Great Blue Heron reflection
   orientation: vertical
-  image_path: images/catalog/CRW_3879.jpg
+  image_path: catalog/CRW_3879.jpg
+  thumbnail: /images/thumbnails/CRW_3879.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, heron, wildlife
 
 - title: Cadillac Cassanovas
   orientation: vertical
-  image_path: images/catalog/EI2C1714.jpg
+  image_path: catalog/EI2C1714.jpg
+  thumbnail: /images/thumbnails/EI2C1714.jpg
   exposure: 1/250th, f/5.6, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: Cadillac Cassanovas
-  image_path: images/catalog/EI2C1769.jpg
+  image_path: catalog/EI2C1769.jpg
+  thumbnail: /images/thumbnails/EI2C1769.jpg
   exposure: 1/250th, f/5.6, ISO4000
   tags: music, concert, cadillac-cassanovas
 
 - title: Peoria, IL panorama
-  image_path: images/catalog/peoria-panorama.jpg
+  image_path: catalog/peoria-panorama.jpg
+  thumbnail: /images/thumbnails/peoria-panorama.jpg
   exposure: 1/250th, f/5.6, ISO4000
   description: A 9 shot panorama of the Illinois River flowing past downtown Peoria IL
   date: June 1st, 2015
   tags: cityscape, dusk, long-exposure, panorama
 
 - title: Peoria gazebo
-  image_path: images/catalog/0K6A0586.jpg
+  image_path: catalog/0K6A0586.jpg
+  thumbnail: /images/thumbnails/0K6A0586.jpg
   exposure: 1/250th, f/5.6, ISO4000
   tags: architecture, sunset
 
 - title: An egret fishing in the Fox River
-  image_path: images/catalog/CRW_0581.jpg
+  image_path: catalog/CRW_0581.jpg
+  thumbnail: /images/thumbnails/CRW_0581.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Two egrets and a great blue heron
-  image_path: images/catalog/CRW_0867.jpg
+  image_path: catalog/CRW_0867.jpg
+  thumbnail: /images/thumbnails/CRW_0867.jpg
   exposure: 1/750th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife, heron
 
 - title: A molting Egret
   orientation: vertical
-  image_path: images/catalog/CRW_1017.jpg
+  image_path: catalog/CRW_1017.jpg
+  thumbnail: /images/thumbnails/CRW_1017.jpg
   exposure: 1/250th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: A molting Egret
   orientation: vertical
-  image_path: images/catalog/CRW_9636.jpg
+  image_path: catalog/CRW_9636.jpg
+  thumbnail: /images/thumbnails/CRW_9636.jpg
   exposure: 1/250th, f/5.6, ISO100
   tags: nature, bird, egret, wildlife
 
 - title: Peoria sunset
-  image_path: images/catalog/0K6A0597.jpg
+  image_path: catalog/0K6A0597.jpg
+  thumbnail: /images/thumbnails/0K6A0597.jpg
   exposure: 1/80th, f/20, ISO50
   tags: sunset
 
 - title: Sunset at the Batavia Windmill
-  image_path: images/catalog/CRW_2250.jpg
+  image_path: catalog/CRW_2250.jpg
+  thumbnail: /images/thumbnails/CRW_2250.jpg
   exposure: 1/125th, f/4, ISO100
   tags: sunset
 
 - title: Campton Hills Road
   orientation: vertical
-  image_path: images/catalog/CRW_2285.jpg
+  image_path: catalog/CRW_2285.jpg
+  thumbnail: /images/thumbnails/CRW_2285.jpg
   exposure: 15s, f/4, ISO100
   tags: long-exposure
 
 - title: The Bean
-  image_path: images/catalog/CRW_2369.jpg
+  image_path: catalog/CRW_2369.jpg
+  thumbnail: /images/thumbnails/CRW_2369.jpg
   exposure: 1/1000th, f/5.6, ISO100
   tags: the-bean, chicago
 
 - title: The Sears Tower
   orientation: vertical
-  image_path: images/catalog/CRW_7486.jpg
+  image_path: catalog/CRW_7486.jpg
+  thumbnail: /images/thumbnails/CRW_7486.jpg
   exposure: 1/125th, f/4, ISO100
   tags: chicago, sears-tower
 
 - title: Kaneland Snowstorm
-  image_path: images/catalog/CRW_7870.jpg
+  image_path: catalog/CRW_7870.jpg
+  thumbnail: /images/thumbnails/CRW_7870.jpg
   exposure: 1/1000th, f/4, ISO100
   tags: landscape, rural, snowscape
 
 - title: The Windy City
-  image_path: images/catalog/windycity.jpg
+  image_path: catalog/windycity.jpg
+  thumbnail: /images/thumbnails/windycity.jpg
   exposure: 1/250th, f/9.5, ISO100
   tags: chicago, black-and-white, sears-tower, cityscape
 
 - title: Kaneland Snowstorm
-  image_path: images/catalog/CRW_7852.jpg
+  image_path: catalog/CRW_7852.jpg
+  thumbnail: /images/thumbnails/CRW_7852.jpg
   exposure: 1/1000th, f/6.7, ISO100
   tags: landscape, rural, snowscape
 
 - title: Baker Park
   orientation: vertical
-  image_path: images/catalog/CRW_7080.jpg
+  image_path: catalog/CRW_7080.jpg
+  thumbnail: /images/thumbnails/CRW_7080.jpg
   exposure: 30s, f/16, ISO100
   tags: fall, long-exposure
 
 - title: 239 S. Halsted
   orientation: vertical
-  image_path: images/catalog/CRW_8654.jpg
+  image_path: catalog/CRW_8654.jpg
+  thumbnail: /images/thumbnails/CRW_8654.jpg
   exposure: 1/750th, f/4.5, ISO100
   tags: chicago, urban, architecture
 
 - title: The Sears Tower
   orientation: vertical
-  image_path: images/catalog/IMG_4127.jpg
+  image_path: catalog/IMG_4127.jpg
+  thumbnail: /images/thumbnails/IMG_4127.jpg
   exposure: 1/60th, f/5.6, ISO640
   tags: chicago, architecture, sears-tower
 
 - title: Old barn
-  image_path: images/catalog/IMG_2711.jpg
+  image_path: catalog/IMG_2711.jpg
+  thumbnail: /images/thumbnails/IMG_2711.jpg
   exposure: 1/180th, f/8, ISO100
   tags: rural, black-and-white, landscape
 
 - title: Morning on the L
-  image_path: images/mobile/IMG_2705.jpg
+  image_path: mobile/IMG_2705.jpg
+  thumbnail: /images/thumbnails/IMG_2705.jpg
   exposure: 1/180th, f/8, ISO100
   tags: urban, black-and-white, chicago, mobile, the-l
 
 - title: Millenium Park Fountain
   orientation: vertical
-  image_path: images/catalog/0K6A9531.jpg
+  image_path: catalog/0K6A9531.jpg
+  thumbnail: /images/thumbnails/0K6A9531.jpg
   exposure: 1/640th, f/3.5, ISO2000
   tags: chicago, urban
 
 - title: <i>Good Morning Mystic</i>
-  image_path: images/catalog/0K6A2937.jpg
+  image_path: catalog/0K6A2937.jpg
+  thumbnail: /images/thumbnails/0K6A2937.jpg
   portfolio: primary
   position: eee
   exposure: 1/30th, f/8, ISO50
@@ -1335,231 +1557,275 @@
   tags: new-england
 
 - title: Alison
-  image_path: images/catalog/0A1.jpg
+  image_path: catalog/0A1.jpg
+  thumbnail: /images/thumbnails/0A1.jpg
   exposure: 1/180th, f/8, ISO100
   tags: portrait
 
 - title: Briana
-  image_path: images/catalog/0K6A1818.jpg
+  image_path: catalog/0K6A1818.jpg
+  thumbnail: /images/thumbnails/0K6A1818.jpg
   exposure: 1/180th, f/8, ISO100
   tags: portrait
 
 - title: Stonington Borough Lighthouse
-  image_path: images/catalog/0K6A3047.jpg
+  image_path: catalog/0K6A3047.jpg
+  thumbnail: /images/thumbnails/0K6A3047.jpg
   exposure: 30s, f/8, ISO800
   description: The Stonington Borough Lighthouse in Stonington CT. A long exposure exaggerates the clouds coming in off of Fishers Island Sound
   date: November 9th, 2014
   tags: black-and-white, new-england, long-exposure
 
 - title: Juvenile Bald Eagles
-  image_path: images/catalog/IMG_7830.jpg
+  image_path: catalog/IMG_7830.jpg
+  thumbnail: /images/thumbnails/IMG_7830.jpg
   exposure: 1/2000th, f/6.3, ISO2500
   tags: nature, bird, bald-eagle
 
 - title: Purple Habiscus Flower
-  image_path: images/catalog/0K6A3456.jpg
+  image_path: catalog/0K6A3456.jpg
+  thumbnail: /images/thumbnails/0K6A3456.jpg
   exposure: 1/100th, f/11, ISO400
   tags: nature, macro
 
 - title: <i>JJ</i>
-  image_path: images/catalog/0K6A3525.jpg
+  image_path: catalog/0K6A3525.jpg
+  thumbnail: /images/thumbnails/0K6A3525.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: black-and-white
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3771.jpg
+  image_path: bfbc/0K6A3771.jpg
+  thumbnail: /images/thumbnails/0K6A3771.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3790.jpg
+  image_path: bfbc/0K6A3790.jpg
+  thumbnail: /images/thumbnails/0K6A3790.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3865.jpg
+  image_path: bfbc/0K6A3865.jpg
+  thumbnail: /images/thumbnails/0K6A3865.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A3983.jpg
+  image_path: bfbc/0K6A3983.jpg
+  thumbnail: /images/thumbnails/0K6A3983.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3910.jpg
+  image_path: bfbc/0K6A3910.jpg
+  thumbnail: /images/thumbnails/0K6A3910.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3829.jpg
+  image_path: bfbc/0K6A3829.jpg
+  thumbnail: /images/thumbnails/0K6A3829.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A4143.jpg
+  image_path: bfbc/0K6A4143.jpg
+  thumbnail: /images/thumbnails/0K6A4143.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A4620.jpg
+  image_path: bfbc/0K6A4620.jpg
+  thumbnail: /images/thumbnails/0K6A4620.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3794.jpg
+  image_path: bfbc/0K6A3794.jpg
+  thumbnail: /images/thumbnails/0K6A3794.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3795.jpg
+  image_path: bfbc/0K6A3795.jpg
+  thumbnail: /images/thumbnails/0K6A3795.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3814.jpg
+  image_path: bfbc/0K6A3814.jpg
+  thumbnail: /images/thumbnails/0K6A3814.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3816.jpg
+  image_path: bfbc/0K6A3816.jpg
+  thumbnail: /images/thumbnails/0K6A3816.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3824.jpg
+  image_path: bfbc/0K6A3824.jpg
+  thumbnail: /images/thumbnails/0K6A3824.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A4131.jpg
+  image_path: bfbc/0K6A4131.jpg
+  thumbnail: /images/thumbnails/0K6A4131.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3833.jpg
+  image_path: bfbc/0K6A3833.jpg
+  thumbnail: /images/thumbnails/0K6A3833.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3837.jpg
+  image_path: bfbc/0K6A3837.jpg
+  thumbnail: /images/thumbnails/0K6A3837.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Jaik Wilis
-  image_path: images/bfbc/0K6A3839.jpg
+  image_path: bfbc/0K6A3839.jpg
+  thumbnail: /images/thumbnails/0K6A3839.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: Sean &amp; Jaik
-  image_path: images/bfbc/0K6A3851.jpg
+  image_path: bfbc/0K6A3851.jpg
+  thumbnail: /images/thumbnails/0K6A3851.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, jaikwilis
 
 - title: The lovely ladies of Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3978.jpg
+  image_path: bfbc/0K6A3978.jpg
+  thumbnail: /images/thumbnails/0K6A3978.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3857.jpg
+  image_path: bfbc/0K6A3857.jpg
+  thumbnail: /images/thumbnails/0K6A3857.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3861.jpg
+  image_path: bfbc/0K6A3861.jpg
+  thumbnail: /images/thumbnails/0K6A3861.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3873.jpg
+  image_path: bfbc/0K6A3873.jpg
+  thumbnail: /images/thumbnails/0K6A3873.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3878.jpg
+  image_path: bfbc/0K6A3878.jpg
+  thumbnail: /images/thumbnails/0K6A3878.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3886.jpg
+  image_path: bfbc/0K6A3886.jpg
+  thumbnail: /images/thumbnails/0K6A3886.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3907.jpg
+  image_path: bfbc/0K6A3907.jpg
+  thumbnail: /images/thumbnails/0K6A3907.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3887.jpg
+  image_path: bfbc/0K6A3887.jpg
+  thumbnail: /images/thumbnails/0K6A3887.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3912.jpg
+  image_path: bfbc/0K6A3912.jpg
+  thumbnail: /images/thumbnails/0K6A3912.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3921.jpg
+  image_path: bfbc/0K6A3921.jpg
+  thumbnail: /images/thumbnails/0K6A3921.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3904.jpg
+  image_path: bfbc/0K6A3904.jpg
+  thumbnail: /images/thumbnails/0K6A3904.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3928.jpg
+  image_path: bfbc/0K6A3928.jpg
+  thumbnail: /images/thumbnails/0K6A3928.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3940.jpg
+  image_path: bfbc/0K6A3940.jpg
+  thumbnail: /images/thumbnails/0K6A3940.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Evacuate The Earth
-  image_path: images/bfbc/0K6A3958.jpg
+  image_path: bfbc/0K6A3958.jpg
+  thumbnail: /images/thumbnails/0K6A3958.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3920.jpg
+  image_path: bfbc/0K6A3920.jpg
+  thumbnail: /images/thumbnails/0K6A3920.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A4184.jpg
+  image_path: bfbc/0K6A4184.jpg
+  thumbnail: /images/thumbnails/0K6A4184.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3959.jpg
+  image_path: bfbc/0K6A3959.jpg
+  thumbnail: /images/thumbnails/0K6A3959.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3991.jpg
+  image_path: bfbc/0K6A3991.jpg
+  thumbnail: /images/thumbnails/0K6A3991.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4020.jpg
+  image_path: bfbc/0K6A4020.jpg
+  thumbnail: /images/thumbnails/0K6A4020.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4022.jpg
+  image_path: bfbc/0K6A4022.jpg
+  thumbnail: /images/thumbnails/0K6A4022.jpg
   portfolio: music
   position: nnn
   orientation: vertical
@@ -1567,229 +1833,271 @@
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4025.jpg
+  image_path: bfbc/0K6A4025.jpg
+  thumbnail: /images/thumbnails/0K6A4025.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4027.jpg
+  image_path: bfbc/0K6A4027.jpg
+  thumbnail: /images/thumbnails/0K6A4027.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4043.jpg
+  image_path: bfbc/0K6A4043.jpg
+  thumbnail: /images/thumbnails/0K6A4043.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4045.jpg
+  image_path: bfbc/0K6A4045.jpg
+  thumbnail: /images/thumbnails/0K6A4045.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4048.jpg
+  image_path: bfbc/0K6A4048.jpg
+  thumbnail: /images/thumbnails/0K6A4048.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4094.jpg
+  image_path: bfbc/0K6A4094.jpg
+  thumbnail: /images/thumbnails/0K6A4094.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4057.jpg
+  image_path: bfbc/0K6A4057.jpg
+  thumbnail: /images/thumbnails/0K6A4057.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A3987.jpg
+  image_path: bfbc/0K6A3987.jpg
+  thumbnail: /images/thumbnails/0K6A3987.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4059.jpg
+  image_path: bfbc/0K6A4059.jpg
+  thumbnail: /images/thumbnails/0K6A4059.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4060.jpg
+  image_path: bfbc/0K6A4060.jpg
+  thumbnail: /images/thumbnails/0K6A4060.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4108.jpg
+  image_path: bfbc/0K6A4108.jpg
+  thumbnail: /images/thumbnails/0K6A4108.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4013.jpg
+  image_path: bfbc/0K6A4013.jpg
+  thumbnail: /images/thumbnails/0K6A4013.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4116.jpg
+  image_path: bfbc/0K6A4116.jpg
+  thumbnail: /images/thumbnails/0K6A4116.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4177.jpg
+  image_path: bfbc/0K6A4177.jpg
+  thumbnail: /images/thumbnails/0K6A4177.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4120.jpg
+  image_path: bfbc/0K6A4120.jpg
+  thumbnail: /images/thumbnails/0K6A4120.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4160.jpg
+  image_path: bfbc/0K6A4160.jpg
+  thumbnail: /images/thumbnails/0K6A4160.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4170.jpg
+  image_path: bfbc/0K6A4170.jpg
+  thumbnail: /images/thumbnails/0K6A4170.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4085.jpg
+  image_path: bfbc/0K6A4085.jpg
+  thumbnail: /images/thumbnails/0K6A4085.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4186.jpg
+  image_path: bfbc/0K6A4186.jpg
+  thumbnail: /images/thumbnails/0K6A4186.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4191.jpg
+  image_path: bfbc/0K6A4191.jpg
+  thumbnail: /images/thumbnails/0K6A4191.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4192.jpg
+  image_path: bfbc/0K6A4192.jpg
+  thumbnail: /images/thumbnails/0K6A4192.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4207.jpg
+  image_path: bfbc/0K6A4207.jpg
+  thumbnail: /images/thumbnails/0K6A4207.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4223.jpg
+  image_path: bfbc/0K6A4223.jpg
+  thumbnail: /images/thumbnails/0K6A4223.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4252.jpg
+  image_path: bfbc/0K6A4252.jpg
+  thumbnail: /images/thumbnails/0K6A4252.jpg
   portfolio: music
   position: ddd
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4182.jpg
+  image_path: bfbc/0K6A4182.jpg
+  thumbnail: /images/thumbnails/0K6A4182.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: The Voodoo Fix
-  image_path: images/bfbc/0K6A4248.jpg
+  image_path: bfbc/0K6A4248.jpg
+  thumbnail: /images/thumbnails/0K6A4248.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3937.jpg
+  image_path: bfbc/0K6A3937.jpg
+  thumbnail: /images/thumbnails/0K6A3937.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A3941.jpg
+  image_path: bfbc/0K6A3941.jpg
+  thumbnail: /images/thumbnails/0K6A3941.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Firedancer Julie Stork
-  image_path: images/bfbc/0K6A4560.jpg
+  image_path: bfbc/0K6A4560.jpg
+  thumbnail: /images/thumbnails/0K6A4560.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4261.jpg
+  image_path: bfbc/0K6A4261.jpg
+  thumbnail: /images/thumbnails/0K6A4261.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4279.jpg
+  image_path: bfbc/0K6A4279.jpg
+  thumbnail: /images/thumbnails/0K6A4279.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4282.jpg
+  image_path: bfbc/0K6A4282.jpg
+  thumbnail: /images/thumbnails/0K6A4282.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4293.jpg
+  image_path: bfbc/0K6A4293.jpg
+  thumbnail: /images/thumbnails/0K6A4293.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4298.jpg
+  image_path: bfbc/0K6A4298.jpg
+  thumbnail: /images/thumbnails/0K6A4298.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4357.jpg
+  image_path: bfbc/0K6A4357.jpg
+  thumbnail: /images/thumbnails/0K6A4357.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4302.jpg
+  image_path: bfbc/0K6A4302.jpg
+  thumbnail: /images/thumbnails/0K6A4302.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4306.jpg
+  image_path: bfbc/0K6A4306.jpg
+  thumbnail: /images/thumbnails/0K6A4306.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4311.jpg
+  image_path: bfbc/0K6A4311.jpg
+  thumbnail: /images/thumbnails/0K6A4311.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4326.jpg
+  image_path: bfbc/0K6A4326.jpg
+  thumbnail: /images/thumbnails/0K6A4326.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4350.jpg
+  image_path: bfbc/0K6A4350.jpg
+  thumbnail: /images/thumbnails/0K6A4350.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4362.jpg
+  image_path: bfbc/0K6A4362.jpg
+  thumbnail: /images/thumbnails/0K6A4362.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4393.jpg
+  image_path: bfbc/0K6A4393.jpg
+  thumbnail: /images/thumbnails/0K6A4393.jpg
   orientation: vertical
   portfolio: music
   position: fff
@@ -1797,228 +2105,296 @@
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4287.jpg
+  image_path: bfbc/0K6A4287.jpg
+  thumbnail: /images/thumbnails/0K6A4287.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4322.jpg
+  image_path: bfbc/0K6A4322.jpg
+  thumbnail: /images/thumbnails/0K6A4322.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4407.jpg
+  image_path: bfbc/0K6A4407.jpg
+  thumbnail: /images/thumbnails/0K6A4407.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4428.jpg
+  image_path: bfbc/0K6A4428.jpg
+  thumbnail: /images/thumbnails/0K6A4428.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4443.jpg
+  image_path: bfbc/0K6A4443.jpg
+  thumbnail: /images/thumbnails/0K6A4443.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4454.jpg
+  image_path: bfbc/0K6A4454.jpg
+  thumbnail: /images/thumbnails/0K6A4454.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4381.jpg
+  image_path: bfbc/0K6A4381.jpg
+  thumbnail: /images/thumbnails/0K6A4381.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4479.jpg
+  image_path: bfbc/0K6A4479.jpg
+  thumbnail: /images/thumbnails/0K6A4479.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4482.jpg
+  image_path: bfbc/0K6A4482.jpg
+  thumbnail: /images/thumbnails/0K6A4482.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4422.jpg
+  image_path: bfbc/0K6A4422.jpg
+  thumbnail: /images/thumbnails/0K6A4422.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4500.jpg
+  image_path: bfbc/0K6A4500.jpg
+  thumbnail: /images/thumbnails/0K6A4500.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4513.jpg
+  image_path: bfbc/0K6A4513.jpg
+  thumbnail: /images/thumbnails/0K6A4513.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4506.jpg
+  image_path: bfbc/0K6A4506.jpg
+  thumbnail: /images/thumbnails/0K6A4506.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4537.jpg
+  image_path: bfbc/0K6A4537.jpg
+  thumbnail: /images/thumbnails/0K6A4537.jpg
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: The Krank Daddies
-  image_path: images/bfbc/0K6A4551.jpg
+  image_path: bfbc/0K6A4551.jpg
+  thumbnail: /images/thumbnails/0K6A4551.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
 - title: Firedancer
-  image_path: images/bfbc/0K6A4579.jpg
+  image_path: bfbc/0K6A4579.jpg
+  thumbnail: /images/thumbnails/0K6A4579.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Bigfoot Bandcamp
-  image_path: images/bfbc/0K6A4602.jpg
+  image_path: bfbc/0K6A4602.jpg
+  thumbnail: /images/thumbnails/0K6A4602.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A3832.jpg
+  image_path: bfbc/0K6A3832.jpg
+  thumbnail: /images/thumbnails/0K6A3832.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4649.jpg
+  image_path: bfbc/0K6A4649.jpg
+  thumbnail: /images/thumbnails/0K6A4649.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4704.jpg
+  image_path: bfbc/0K6A4686.jpg
+  thumbnail: /images/thumbnails/0K6A4686.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4708.jpg
+  image_path: bfbc/0K6A4704.jpg
+  thumbnail: /images/thumbnails/0K6A4704.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, rhh
+
+- title: Reverend Horton Heat
+  image_path: bfbc/0K6A4708.jpg
+  thumbnail: /images/thumbnails/0K6A4708.jpg
   portfolio: music
   position: eee
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4711.jpg
+  image_path: bfbc/0K6A4711.jpg
+  thumbnail: /images/thumbnails/0K6A4711.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4727.jpg
+  image_path: bfbc/0K6A4727.jpg
+  thumbnail: /images/thumbnails/0K6A4727.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4734.jpg
+  image_path: bfbc/0K6A4734.jpg
+  thumbnail: /images/thumbnails/0K6A4734.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4737.jpg
+  image_path: bfbc/0K6A4737.jpg
+  thumbnail: /images/thumbnails/0K6A4737.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4754.jpg
+  image_path: bfbc/0K6A4754.jpg
+  thumbnail: /images/thumbnails/0K6A4754.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4771.jpg
+  image_path: bfbc/0K6A4771.jpg
+  thumbnail: /images/thumbnails/0K6A4771.jpg
   portfolio: music
   position: ooo
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4780.jpg
+  image_path: bfbc/0K6A4780.jpg
+  thumbnail: /images/thumbnails/0K6A4780.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4797.jpg
+  image_path: bfbc/0K6A4797.jpg
+  thumbnail: /images/thumbnails/0K6A4797.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat <i>Zombie, DUMB!</i>
-  image_path: images/bfbc/0K6A4820.jpg
+  image_path: bfbc/0K6A4820.jpg
+  thumbnail: /images/thumbnails/0K6A4820.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4824.jpg
+  image_path: bfbc/0K6A4824.jpg
+  thumbnail: /images/thumbnails/0K6A4824.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4855.jpg
+  image_path: bfbc/0K6A4853.jpg
+  thumbnail: /images/thumbnails/0K6A4853.jpg
+  orientation: vertical
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, rhh
+
+- title: Reverend Horton Heat
+  image_path: bfbc/0K6A4855.jpg
+  thumbnail: /images/thumbnails/0K6A4855.jpg
   portfolio: music
   position: aaa
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4862.jpg
+  image_path: bfbc/0K6A4862.jpg
+  thumbnail: /images/thumbnails/0K6A4862.jpg
   portfolio: music
   position: hhh
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4872.jpg
+  image_path: bfbc/0K6A4872.jpg
+  thumbnail: /images/thumbnails/0K6A4872.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4883.jpg
+  image_path: bfbc/0K6A4883.jpg
+  thumbnail: /images/thumbnails/0K6A4883.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4888.jpg
+  image_path: bfbc/0K6A4888.jpg
+  thumbnail: /images/thumbnails/0K6A4888.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4903.jpg
+  image_path: bfbc/0K6A4896.jpg
+  thumbnail: /images/thumbnails/0K6A4896.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4915.jpg
+  image_path: bfbc/0K6A4903.jpg
+  thumbnail: /images/thumbnails/0K6A4903.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4923.jpg
+  image_path: bfbc/0K6A4915.jpg
+  thumbnail: /images/thumbnails/0K6A4915.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, rhh
+
+- title: Reverend Horton Heat
+  image_path: bfbc/0K6A4923.jpg
+  thumbnail: /images/thumbnails/0K6A4923.jpg
   portfolio: music
   position: iii
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4934.jpg
+  image_path: bfbc/0K6A4934.jpg
+  thumbnail: /images/thumbnails/0K6A4934.jpg
   portfolio: music
   position: jjj
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4963.jpg
+  image_path: bfbc/0K6A4932.jpg
+  thumbnail: /images/thumbnails/0K6A4932.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
-  image_path: images/bfbc/0K6A4974.jpg
+  image_path: bfbc/0K6A4963.jpg
+  thumbnail: /images/thumbnails/0K6A4963.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, rhh
+
+- title: Reverend Horton Heat
+  image_path: bfbc/0K6A4974.jpg
+  thumbnail: /images/thumbnails/0K6A4974.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh

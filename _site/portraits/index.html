@@ -432,62 +432,59 @@
     
   
     
-  
-    
-    <figure class="vertical">
-      <a href="/images/portraits/bride.jpg" title="Cleary Walsh Wedding"><img src="/images/portraits/bride.jpg"></a>
-      <figcaption>Cleary Walsh Wedding</figcaption>
-    </figure>
-    
-  
-    
-    <figure class="">
-      <a href="/images/portraits/stephanie.jpg" title="Stephanie"><img src="/images/portraits/stephanie.jpg"></a>
-      <figcaption>Stephanie</figcaption>
-    </figure>
+      <figure class="vertical">
+<a href="/images/portraits/bride.jpg" title="Cleary Walsh Wedding"><img src="/images/thumbnails/bride.jpg"></a>
+<figcaption>Cleary Walsh Wedding</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/portraits/blue-portrait.jpg" title="Alison"><img src="/images/portraits/blue-portrait.jpg"></a>
-      <figcaption>Alison</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/portraits/stephanie.jpg" title="Stephanie"><img src="/images/thumbnails/stephanie.jpg"></a>
+<figcaption>Stephanie</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/portraits/family.jpg" title="Cousins"><img src="/images/portraits/family.jpg"></a>
-      <figcaption>Cousins</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/portraits/blue-portrait.jpg" title="Alison"><img src="/images/thumbnails/blue-portrait.jpg"></a>
+<figcaption>Alison</figcaption>
+</figure>
+
     
   
     
-    <figure class="vertical">
-      <a href="/images/portraits/mike.jpg" title="Mike"><img src="/images/portraits/mike.jpg"></a>
-      <figcaption>Mike</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/portraits/family.jpg" title="Cousins"><img src="/images/thumbnails/family.jpg"></a>
+<figcaption>Cousins</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/portraits/alison-seven-months.jpg" title="Alison"><img src="/images/portraits/alison-seven-months.jpg"></a>
-      <figcaption>Alison</figcaption>
-    </figure>
+      <figure class="vertical">
+<a href="/images/portraits/mike.jpg" title="Mike"><img src="/images/thumbnails/mike-ebert.jpg"></a>
+<figcaption>Mike</figcaption>
+</figure>
+
     
   
     
-    <figure class="vertical">
-      <a href="/images/portraits/bubbles.jpg" title="Alison"><img src="/images/portraits/bubbles.jpg"></a>
-      <figcaption>Alison</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/portraits/alison-seven-months.jpg" title="Alison"><img src="/images/thumbnails/alison-seven-months.jpg"></a>
+<figcaption>Alison</figcaption>
+</figure>
+
     
   
     
-  
-    
-  
-    
-  
+      <figure class="vertical">
+<a href="/images/portraits/bubbles.jpg" title="Alison"><img src="/images/thumbnails/bubbles.jpg"></a>
+<figcaption>Alison</figcaption>
+</figure>
+
     
   
     
@@ -555,17 +552,35 @@
     
   
     
-    <figure class="">
-      <a href="/images/catalog/0A1.jpg" title="Alison"><img src="/images/catalog/0A1.jpg"></a>
-      <figcaption>Alison</figcaption>
-    </figure>
+  
     
   
     
-    <figure class="">
-      <a href="/images/catalog/0K6A1818.jpg" title="Briana"><img src="/images/catalog/0K6A1818.jpg"></a>
-      <figcaption>Briana</figcaption>
-    </figure>
+  
+    
+  
+    
+      <figure class="">
+<a href="/images/catalog/0A1.jpg" title="Alison"><img src="/images/thumbnails/0A1.jpg"></a>
+<figcaption>Alison</figcaption>
+</figure>
+
+    
+  
+    
+      <figure class="">
+<a href="/images/catalog/0K6A1818.jpg" title="Briana"><img src="/images/thumbnails/0K6A1818.jpg"></a>
+<figcaption>Briana</figcaption>
+</figure>
+
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -828,7 +843,15 @@
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',
-      mainClass: 'mfp-img-mobile',
+      mainClass: 'mfp-with-fade',
+      zoom: {
+        enabled: true,
+        duration: 150,
+        easing: 'ease-in-out',
+        opener: function(openerElement) {
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      },
       gallery: {
         enabled: true,
         navigateByImgClick: true,

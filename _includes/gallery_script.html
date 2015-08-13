@@ -4,7 +4,15 @@
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',
-      mainClass: 'mfp-img-mobile',
+      mainClass: 'mfp-with-fade',
+      zoom: {
+        enabled: true,
+        duration: 150,
+        easing: 'ease-in-out',
+        opener: function(openerElement) {
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      },
       gallery: {
         enabled: true,
         navigateByImgClick: true,

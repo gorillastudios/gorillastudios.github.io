@@ -74,10 +74,11 @@
     
   
     
-    <figure class="">
-      <a href="/images/portfolio/snowy-bean.jpg" title="Cloud Gate Snowstorm"><img src="/images/portfolio/snowy-bean.jpg"></a>
-      <figcaption>Cloud Gate Snowstorm</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/portfolio/snowy-bean.jpg" title="Cloud Gate Snowstorm"><img src="/images/thumbnails/snowy-bean.jpg"></a>
+<figcaption>Cloud Gate Snowstorm</figcaption>
+</figure>
+
     
   
     
@@ -87,10 +88,11 @@
     
   
     
-    <figure class="">
-      <a href="/images/portfolio/dance.jpg" title="<i>Dance</i>"><img src="/images/portfolio/dance.jpg"></a>
-      <figcaption><i>Dance</i></figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/portfolio/dance.jpg" title="<i>Dance</i>"><img src="/images/thumbnails/dance.jpg"></a>
+<figcaption><i>Dance</i></figcaption>
+</figure>
+
     
   
     
@@ -116,10 +118,11 @@
     
   
     
-    <figure class="">
-      <a href="/images/chicago/winter-bean.jpg" title="<i>Cloud Gate</i> sunset during winter"><img src="/images/chicago/winter-bean.jpg"></a>
-      <figcaption><i>Cloud Gate</i> sunset during winter</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/chicago/winter-bean.jpg" title="<i>Cloud Gate</i> sunset during winter"><img src="/images/thumbnails/winter-bean.jpg"></a>
+<figcaption><i>Cloud Gate</i> sunset during winter</figcaption>
+</figure>
+
     
   
     
@@ -219,10 +222,11 @@
     
   
     
-    <figure class="">
-      <a href="/images/chicago/bean.jpg" title="The Bean"><img src="/images/chicago/bean.jpg"></a>
-      <figcaption>The Bean</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/chicago/bean.jpg" title="The Bean"><img src="/images/thumbnails/bean.jpg"></a>
+<figcaption>The Bean</figcaption>
+</figure>
+
     
   
     
@@ -402,12 +406,17 @@
     
   
     
+      <figure class="">
+<a href="/images/catalog/IMG_5855.jpg" title="Cloud Gate from above"><img src="/images/thumbnails/IMG_5855.jpg"></a>
+<figcaption>Cloud Gate from above</figcaption>
+</figure>
+
+    
+  
+    
   
     
-    <figure class="">
-      <a href="/images/catalog/IMG_5855.jpg" title="Cloud Gate from above"><img src="/images/catalog/IMG_5855.jpg"></a>
-      <figcaption>Cloud Gate from above</figcaption>
-    </figure>
+  
     
   
     
@@ -515,16 +524,19 @@
     
   
     
+      <figure class="">
+<a href="/images/catalog/CRW_2369.jpg" title="The Bean"><img src="/images/thumbnails/CRW_2369.jpg"></a>
+<figcaption>The Bean</figcaption>
+</figure>
+
+    
   
     
   
     
   
     
-    <figure class="">
-      <a href="/images/catalog/CRW_2369.jpg" title="The Bean"><img src="/images/catalog/CRW_2369.jpg"></a>
-      <figcaption>The Bean</figcaption>
-    </figure>
+  
     
   
     
@@ -813,7 +825,15 @@
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',
-      mainClass: 'mfp-img-mobile',
+      mainClass: 'mfp-with-fade',
+      zoom: {
+        enabled: true,
+        duration: 150,
+        easing: 'ease-in-out',
+        opener: function(openerElement) {
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      },
       gallery: {
         enabled: true,
         navigateByImgClick: true,

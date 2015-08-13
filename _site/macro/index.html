@@ -176,33 +176,37 @@
     
   
     
-    <figure class="">
-      <a href="/images/nature/flower-bug.jpg" title="Bug on flower"><img src="/images/nature/flower-bug.jpg"></a>
-      <figcaption>Bug on flower</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/nature/flower-bug.jpg" title="Bug on flower"><img src="/images/thumbnails/flower-bug.jpg"></a>
+<figcaption>Bug on flower</figcaption>
+</figure>
+
     
   
     
   
     
-    <figure class="">
-      <a href="/images/nature/dragonfly.jpg" title="Blue dragonfly"><img src="/images/nature/dragonfly.jpg"></a>
-      <figcaption>Blue dragonfly</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/nature/dragonfly.jpg" title="Blue dragonfly"><img src="/images/thumbnails/dragonfly.jpg"></a>
+<figcaption>Blue dragonfly</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/nature/purple-flower.jpg" title="Purple flower"><img src="/images/nature/purple-flower.jpg"></a>
-      <figcaption>Purple flower</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/nature/purple-flower.jpg" title="Purple flower"><img src="/images/thumbnails/purple-flower.jpg"></a>
+<figcaption>Purple flower</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/nature/droplet.jpg" title="Dew drops on a blade of grass"><img src="/images/nature/droplet.jpg"></a>
-      <figcaption>Dew drops on a blade of grass</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/nature/droplet.jpg" title="Dew drops on a blade of grass"><img src="/images/thumbnails/droplet.jpg"></a>
+<figcaption>Dew drops on a blade of grass</figcaption>
+</figure>
+
     
   
     
@@ -378,10 +382,11 @@
     
   
     
-    <figure class="">
-      <a href="/images/p52/31.jpg" title="Meadow Saxifrage"><img src="/images/p52/31.jpg"></a>
-      <figcaption>Meadow Saxifrage</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/p52/31.jpg" title="Meadow Saxifrage"><img src="/images/thumbnails/31.jpg"></a>
+<figcaption>Meadow Saxifrage</figcaption>
+</figure>
+
     
   
     
@@ -429,12 +434,17 @@
     
   
     
+      <figure class="">
+<a href="/images/catalog/IMG_0365.jpg" title="Red flower"><img src="/images/thumbnails/IMG_0365.jpg"></a>
+<figcaption>Red flower</figcaption>
+</figure>
+
+    
+  
+    
   
     
-    <figure class="">
-      <a href="/images/catalog/IMG_0365.jpg" title="Red flower"><img src="/images/catalog/IMG_0365.jpg"></a>
-      <figcaption>Red flower</figcaption>
-    </figure>
+  
     
   
     
@@ -552,16 +562,19 @@
     
   
     
+      <figure class="">
+<a href="/images/catalog/0K6A3456.jpg" title="Purple Habiscus Flower"><img src="/images/thumbnails/0K6A3456.jpg"></a>
+<figcaption>Purple Habiscus Flower</figcaption>
+</figure>
+
+    
   
     
   
     
   
     
-    <figure class="">
-      <a href="/images/catalog/0K6A3456.jpg" title="Purple Habiscus Flower"><img src="/images/catalog/0K6A3456.jpg"></a>
-      <figcaption>Purple Habiscus Flower</figcaption>
-    </figure>
+  
     
   
     
@@ -818,7 +831,15 @@
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',
-      mainClass: 'mfp-img-mobile',
+      mainClass: 'mfp-with-fade',
+      zoom: {
+        enabled: true,
+        duration: 150,
+        easing: 'ease-in-out',
+        opener: function(openerElement) {
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      },
       gallery: {
         enabled: true,
         navigateByImgClick: true,

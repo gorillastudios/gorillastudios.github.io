@@ -546,75 +546,91 @@
     
   
     
-  
-    
-    <figure class="">
-      <a href="/images/bfbc/0K6A3794.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3794.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
-    
-  
-    
-    <figure class="vertical">
-      <a href="/images/bfbc/0K6A3795.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3795.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/bfbc/0K6A3794.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3794.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/bfbc/0K6A3814.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3814.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
+      <figure class="vertical">
+<a href="/images/bfbc/0K6A3795.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3795.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/bfbc/0K6A3816.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3816.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/bfbc/0K6A3814.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3814.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/bfbc/0K6A3824.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3824.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/bfbc/0K6A3816.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3816.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/bfbc/0K6A4131.jpg" title="Bigfoot Bandcamp"><img src="/images/bfbc/0K6A4131.jpg"></a>
-      <figcaption>Bigfoot Bandcamp</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/bfbc/0K6A3824.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3824.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/bfbc/0K6A3833.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3833.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/bfbc/0K6A4131.jpg" title="Bigfoot Bandcamp"><img src="/images/thumbnails/0K6A4131.jpg"></a>
+<figcaption>Bigfoot Bandcamp</figcaption>
+</figure>
+
     
   
     
-    <figure class="vertical">
-      <a href="/images/bfbc/0K6A3837.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3837.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
+      <figure class="">
+<a href="/images/bfbc/0K6A3833.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3833.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
     
   
     
-    <figure class="vertical">
-      <a href="/images/bfbc/0K6A3839.jpg" title="Jaik Wilis"><img src="/images/bfbc/0K6A3839.jpg"></a>
-      <figcaption>Jaik Wilis</figcaption>
-    </figure>
+      <figure class="vertical">
+<a href="/images/bfbc/0K6A3837.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3837.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
     
   
     
-    <figure class="">
-      <a href="/images/bfbc/0K6A3851.jpg" title="Sean &amp; Jaik"><img src="/images/bfbc/0K6A3851.jpg"></a>
-      <figcaption>Sean &amp; Jaik</figcaption>
-    </figure>
+      <figure class="vertical">
+<a href="/images/bfbc/0K6A3839.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3839.jpg"></a>
+<figcaption>Jaik Wilis</figcaption>
+</figure>
+
+    
+  
+    
+      <figure class="">
+<a href="/images/bfbc/0K6A3851.jpg" title="Sean &amp; Jaik"><img src="/images/thumbnails/0K6A3851.jpg"></a>
+<figcaption>Sean &amp; Jaik</figcaption>
+</figure>
+
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -833,7 +849,15 @@
       delegate: 'a',
       type: 'image',
       tLoading: 'Loading image #%curr%...',
-      mainClass: 'mfp-img-mobile',
+      mainClass: 'mfp-with-fade',
+      zoom: {
+        enabled: true,
+        duration: 150,
+        easing: 'ease-in-out',
+        opener: function(openerElement) {
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      },
       gallery: {
         enabled: true,
         navigateByImgClick: true,
