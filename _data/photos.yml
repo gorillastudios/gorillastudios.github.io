@@ -919,8 +919,6 @@
 - title: The Cadillac Cassanovas
   image_path: music/bass2.jpg
   thumbnail: /images/thumbnails/bass2.jpg
-  portfolio: music
-  position: lll
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
@@ -1615,6 +1613,8 @@
 
 - title: The Krank Daddies
   image_path: bfbc/0K6A3983.jpg
+  portfolio: music
+  position: lll
   thumbnail: /images/thumbnails/0K6A3983.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
@@ -1827,7 +1827,7 @@
   image_path: bfbc/0K6A4022.jpg
   thumbnail: /images/thumbnails/0K6A4022.jpg
   portfolio: music
-  position: nnn
+  position: fff
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
@@ -1980,8 +1980,6 @@
 - title: The Voodoo Fix
   image_path: bfbc/0K6A4252.jpg
   thumbnail: /images/thumbnails/0K6A4252.jpg
-  portfolio: music
-  position: ddd
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
@@ -2058,6 +2056,8 @@
 - title: The Krank Daddies
   image_path: bfbc/0K6A4302.jpg
   thumbnail: /images/thumbnails/0K6A4302.jpg
+  portfolio: music
+  position: ddd
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -2096,11 +2096,17 @@
   tags: bfbc, krank
 
 - title: The Krank Daddies
+  image_path: bfbc/0K6A4363.jpg
+  thumbnail: /images/thumbnails/0K6A4363.jpg
+  exposure: 1/500th, f/7.1, ISO200
+  tags: bfbc, krank
+
+- title: The Krank Daddies
   image_path: bfbc/0K6A4393.jpg
   thumbnail: /images/thumbnails/0K6A4393.jpg
   orientation: vertical
   portfolio: music
-  position: fff
+  position: iii
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -2367,8 +2373,9 @@
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4923.jpg
   thumbnail: /images/thumbnails/0K6A4923.jpg
+  orientation: vertical
   portfolio: music
-  position: iii
+  position: nnn
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
