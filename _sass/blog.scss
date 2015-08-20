@@ -165,6 +165,17 @@
   margin: 1em 0;
 }
 
+.module-half-half {
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  h2, h3, h4, h5, p {
+    padding: 0 10px;
+  }
+  section img {
+    max-width: 100%;
+  }
+}
+
 @media screen and (min-width: 650px) {
   .post {
     margin-bottom: 4em;
@@ -182,6 +193,20 @@
   }
   .archive-link {
     margin: 1em 0;
+  }
+  .module-half-half {
+    margin: 0 auto 1.5em auto;
+    max-width: 900px;
+    section {
+      float: left;
+      width: 50%;
+    }
+    section.left {
+      padding-right: 5px;
+    }
+    section.right {
+      padding-left: 5px;
+    }
   }
 }
 

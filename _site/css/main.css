@@ -2278,6 +2278,14 @@ footer {
   transition: all 0.15s ease-in;
   margin: 1em 0; }
 
+.module-half-half {
+  margin-bottom: 1.5em;
+  overflow: hidden; }
+  .module-half-half h2, .module-half-half h3, .module-half-half h4, .module-half-half h5, .module-half-half p {
+    padding: 0 10px; }
+  .module-half-half section img {
+    max-width: 100%; }
+
 @media screen and (min-width: 650px) {
   .post {
     margin-bottom: 4em; }
@@ -2291,7 +2299,18 @@ footer {
       min-height: 500px; }
 
   .archive-link {
-    margin: 1em 0; } }
+    margin: 1em 0; }
+
+  .module-half-half {
+    margin: 0 auto 1.5em auto;
+    max-width: 900px; }
+    .module-half-half section {
+      float: left;
+      width: 50%; }
+    .module-half-half section.left {
+      padding-right: 5px; }
+    .module-half-half section.right {
+      padding-left: 5px; } }
 @media screen and (min-width: 1400px) {
   .post {
     font-size: 130%;
