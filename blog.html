@@ -1,20 +1,25 @@
 ---
-layout: page
+layout: fixed
 title: Blog
 permalink: /blog/
+id: blog
 ---
-<div class='blog-previews'>
-{% for post in site.posts limit:10 %}
-<a href="{{ post.url }}" class='blog-preview'>
-  <div class='hero' style="background: url('/images/{{ post.hero }}')"></div>
-  <div class='blog-post-details'>
-    <h4>{{ post.date | date: "%B %-d %Y" }}</h4>
-    <h3>{{ post.title }}</h3>
-    <p>{{ post.intro }}</p>
-    <p class='categories'>{{ post.category }}</p>
-  </div>
-</a>
+<div class="filmstrip animated fadeIn">
+{% for post in site.posts limit: 9 %}
+  <div class="blog-preview" style="background: url('/images/{{ post.hero }}'); "><a href="{{ post.url }}"><span>{{ post.intro }}</span></a></div>
 {% endfor %}
+  <div class="blog-preview archive-link"><a href="/blog-archive"><span>Older posts</span></a></div>
 </div>
 
-<a href="/blog-archive/"><h3 class='archive-link'>Older Posts</h3></a>
+
+<script>
+  $('.filmstrip').slick({
+    arrows: true,
+    dots: true,
+    centerMode: true,
+    centerPadding: '30px',
+    slidesToShow: 1,
+    variableWidth: true
+  });
+</script>
+

@@ -1,4 +1,4 @@
-/*! responsive-nav.js 1.0.34 by @viljamis */
+/*! responsive-nav.js 1.0.36 by @viljamis */
 
 .nav-collapse ul {
   margin: 0;
@@ -36,7 +36,7 @@
   user-select: none;
 }
 
-@media screen and (max-width: 1px) {
+@media screen and (max-width: 1em) {
   .js .nav-collapse {
     position: relative;
   }

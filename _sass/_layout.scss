@@ -1,0 +1,62 @@
+.content--fixed {
+  position: absolute;
+  overflow: hidden;
+  max-height: 500px;
+  width: 100%;
+  .filmstrip {
+    height: 500px;
+  }
+}
+
+.content--floating {
+  margin: 4em 10px;
+}
+
+@media screen and (min-width: 60em) {
+  .content--fixed {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    max-height: 1000px;
+  }
+  .content--floating {
+    margin: 4em 10%;
+  }
+}
+
+
+
+
+
+.filmstrip {
+  height: 80%;
+  > div {
+    height: 100%;
+    .slick-track {
+      height: 100%;
+    }
+    .slick-slide {
+      height: 100%;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    z-index: 2;
+    transition: all 0.15s ease-in;
+    &:hover {
+      background: rgba(255,255,255,0.25);
+    }
+  }
+  .slick-next {
+    margin-right: 25px;
+  }
+  .slick-prev {
+    margin-left: 25px;
+  }
+}

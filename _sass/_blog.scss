@@ -1,0 +1,201 @@
+// --------------------------------------- Individual Posts
+.post {
+  img { max-width: 100%; }
+  .post-title {
+    font-size: 1.777em;
+    margin: 0;
+  }
+  .post-meta {
+    color: #999;
+    font-family: $base-font-family;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+  }
+  .post-header, h2, h3, h4, h5, p {
+    margin: 0 auto 1.5em auto;
+    max-width: 900px;
+  }
+  p {
+    line-height: 1.777em;
+    font-weight: 300;
+  }
+
+  figure, iframe {
+    margin: 0 auto 1.5em auto;
+    min-height: 350px;
+    width: 100%;
+  }
+
+  figure img {
+    margin: 0 auto;
+  }
+  figure.vertical {
+    img,
+    figcaption {
+      margin: 0 auto;
+      max-width: 60%;
+    }
+  }
+  figure.half-and-half {
+    overflow: hidden;
+    img {
+      float: left;
+      width: 49%;
+    }
+    img:first-of-type {
+      margin: 0 1% 0 0;
+    }
+    img:last-of-type {
+      margin: 0 0 0 1%;
+    }
+  }
+  .quote p {
+    border-left: 2px solid $hairline;
+    padding: 0 2em;
+  }
+}
+
+
+.module-half-half {
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  h2, h3, h4, h5, p {
+    padding: 0 10px;
+  }
+  section img {
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 40em) {
+  .module-half-half {
+    margin: 0 auto 1.5em auto;
+    max-width: 900px;
+    section {
+      float: left;
+      width: 50%;
+  }
+  section.left {
+    padding-right: 5px;
+  }
+  section.right {
+    padding-left: 5px;
+  }
+}
+}
+
+
+// --------------------------------------- Post footer links
+.page-navigation {
+  margin: 2em auto 0 auto;
+  overflow: hidden;
+  max-width: 900px;
+  a {
+    background: #f5f5f5;
+    border: none;
+    color: #999;
+    display: block;
+    padding: 15px 20px;
+    margin: 15px 0;
+    text-align: center;
+    position: relative;
+    &.prev:before {
+      content: "←";
+      font-family: "slick";
+      font-size: 0.9em;
+      position: absolute;
+      margin-left: -30px;
+      bottom: 15px;
+    }
+    &.next:after {
+      content: "→";
+      font-family: "slick";
+      font-size: 0.9em;
+      margin-left: 10px;
+      position: absolute;
+      bottom: 14px;
+    }
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+
+@media screen and (min-width: 40em) {
+  .post {
+    font-size: 1.25em;
+  }
+  .page-navigation a {
+    display: inline-block;
+  }
+  .prev {
+    float: left;
+    padding-left: 45px !important;
+  }
+  .next {
+    float: right;
+    padding-right: 45px !important;
+  }
+}
+
+
+
+// --------------------------------------- Blog Previews
+.blog-preview {
+  position: relative;
+  a {
+    top: 0;
+    bottom: 0;
+    color: white;
+    display: block;
+    font-weight: bold;
+    min-height: 600px;
+    width: 350px;
+    text-align: center;
+    overflow: hidden;
+    span {
+      background: rgba(0,0,0,0.5);
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 50px;
+      transition: all 0.15s ease-in;
+    }
+    &:hover {
+      span {
+        background: rgba(0,0,0,0.8);
+      }
+    }
+  }
+}
+
+.blog-preview.archive-link a {
+  background: url('/images/previews/archives.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+
+
+.blog-archive-list {
+  -webkit-column-count: 2;
+  column-count: 2;
+  a {
+    border-bottom: 1px solid $hairline;
+    color: $charcoal;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    span {
+      color: #aaa;
+    }
+    &:hover {
+      background: #f9f9f9;
+    }
+  }
+}

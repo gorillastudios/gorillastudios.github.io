@@ -1,138 +1,88 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+@charset "utf-8";
 
-
-/*
-  =ST Settings
-  =MI Mixins
-  =GL Globals
-  =LO Layout
-  =IM Import Stylesheets
-*/
-
-// ------------------------------------ =ST Settings
-
+// ---------------------------------------- Colors
+$black-absolute: #000000;
+$black: #262626;
+$blue-navy: #3F576E;
 $red: #990000;
-$slate: #262626;
-$cream: #f0eded;
-$salmon: #c14e51;
+$white: #FFF;
+
 $charcoal: #2b2b2b;
-$hairline: #f2f2f2;
 
-$site-width: 1500px;
+$link-color: $charcoal;
+$link-hover: darken($link-color, 25%);
+
+$hairline:         #DDDDDD;
+$text-color:       $black;
+$background-color: #fdfdfd;
+$brand-color:      $blue-navy;
+
+$grey:       #828282;
+$grey-light: lighten($grey, 40%);
+$grey-dark:  darken($grey, 25%);
 
 
-// ------------------------------------ =MI Mixins
-@mixin content-width {
-  margin: 0 auto;
-  width: 95%;
-  max-width: $site-width;
-}
+// ---------------------------------------- Header & Nav
+$number-of-nav-items: 4;
+$nav-item-width: (100%/$number-of-nav-items);
 
-@mixin serif {
-  font-family: "freight-text-pro", "Adobe Garamond Pro", Times, serif;
-  font-weight: 300;
-}
+$nav-background: $blue-navy;
 
-@mixin sans-serif-light {
-  font-family: "freight-sans-pro", sans-serif;
-  font-weight: 300;
-}
-@mixin sans-serif {
-  font-family: "freight-sans-pro", sans-serif;
-  font-weight: 400;
-}
-@mixin sans-serif-medium {
-  font-family: "freight-sans-pro", sans-serif;
-  font-weight: 500;
-}
 
-@mixin sans-serif-bold {
-  font-family: "freight-sans-pro", sans-serif;
-  font-weight: 700;
-}
 
-// ------------------------------------ =GL Globals
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  @include serif;
-  font-size: 90%;
-  line-height: 1.5;
-  webkit-backface-visibility: hidden;
-  -webkit-font-smoothing: antialiased;
-}
+// ---------------------------------------- Font & Vertical Rythm
+$base-font-family: "open-sans", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
 
-h1, h2, h3, h4, h5, h6 {
-  @include sans-serif;
-}
+$spacing-unit:     30px;
 
-h1 { font-size: 2.369em; }
-h2 { font-size: 1.777em; }
-h3 { font-size: 1.333em; }
-h4, h5, h6 { font-size: 1em; }
+$heavy-type: "aktiv-grotesk", sans-serif;
 
-p {
-  color: rgba(0,0,0,0.75);
-  letter-spacing: 0.01rem;
-  line-height: 1.75em;
-  margin-bottom: 1.5em;
-}
 
-a, a:visited {
-  color: black;
-  transition: all 0.15s ease-in;
-  text-decoration: none; }
 
-a:hover {
-  color: #555; }
+// ------------------------------------------- Breakpoints
+$small: 600px;
+$medium: 600px;
+$large: 1000px;
 
-ul {
-  list-style: none;
-}
 
-.quote {
-  font-style: italic;
-  padding: 0 2em;
-}
-
-@media screen and (min-width: 650px) {
-  body {
-    font-size: 125%;
-  }
-  figure.vertical img {
-    display: block;
-    margin: 0 auto;
-    max-width: 60%;
-  }
-
-  figure.vertical figcaption {
-    margin: 0 auto;
-    width: 60%;
+@mixin media-query($size) {
+  @media screen and (min-width: $size) {
+    @content;
   }
 }
 
+@mixin prefix-property($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
 
+@mixin transition($arguments) {
+  @include prefix-property(transition, unquote($arguments));
+}
 
-// --------------------------------------- =LO Layout
-.container {
-  @include content-width;
+@mixin transform($arguments) {
+  @include prefix-property(transform, unquote($arguments));
 }
 
 
-
-// --------------------------------------- =IM Import Stylesheets
+// Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "header",
-  "vendor/font-awesome",
+  "base",
+  "layout",
   "blog",
-  "elements",
-  "landing",
-  "galleries"
+  "gallery",
+  "header_nav",
+  "syntax-highlighting",
+  "vendor/slick",
+  "vendor/slick-theme"
 ;

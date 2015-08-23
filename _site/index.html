@@ -1,213 +1,89 @@
 <!DOCTYPE html>
-<html class='fullscreen'>
+<html>
+
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Gorilla-Studios - Photography</title>
-    <meta name="description" content="Gorilla-Studios Photography">
-    <link rel="canonical" href="http://www.gorilla-studios.com/">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link rel="stylesheet" href="/css/vendor/normalize.css">
+    <title>Home</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/vendor/animate.css">
     <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
-    <link rel="stylesheet" href="/css/vendor/animation.css">
     <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
 
-    <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="//use.typekit.net/zrp7zuy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script src="/js/jquery.lazyload.min.js"></script>
-    <script src="/js/responsive-nav.js"></script>
-    <script src="/js/modernizr.custom.js"></script>
-    <script src="/js/classie.js"></script>
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/responsive-nav.min.js"></script>
+    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-35144702-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+    <link rel="canonical" href="http://gorilla-studios.com/">
 </head>
 
-  <body>
-    <div class="full-page-content">
-      <script src="/js/index-backgrounds.js"></script>
 
-<div id="container">
-  <header id="cover-image" class="intro">
-    <div class="intro__fade"></div>
-    <div class="intro__content animated fadeIn">
-      <div class="intro__logo-and-trigger">
-        <div class="intro__description">
-          <img src="/images/gostu-white.png" />
-        </div>
+  <body >
 
-        <button class="trigger">
-          <svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
-          <g class="icon icon--grid">
-          <rect x="32.5" y="5.5" width="22" height="22"/>
-          <rect x="4.5" y="5.5" width="22" height="22"/>
-          <rect x="32.5" y="33.5" width="22" height="22"/>
-          <rect x="4.5" y="33.5" width="22" height="22"/>
-          </g>
-          <g class="icon icon--cross">
-          <line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
-          <line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
-          </g>
-          </svg>
-          <span>View content</span>
-        </button>
-
-      </div>
-    </div>
-  </header>
-
-  <script>
-    var background = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-
-    document.getElementById("cover-image").style.background = 'url('+background+')';
-  </script>
-
-  <section class="items-wrap">
-    <a href="/blog/" class="item">
-      <img class="item__image" src="/images/index/blog.jpg" alt="item01"/>
-      <h2 class="item__title">Blog</h2>
-    </a>
-    <a href="/portfolio/" class="item">
-      <img class="item__image" src="/images/index/portfolio.jpg" alt="item02"/>
-      <h2 class="item__title">Portfolio</h2>
-    </a>
-    <a href="/bigfoot/" class="item">
-      <img class="item__image" src="/images/index/bigfoot.jpg" alt="item02"/>
-      <h2 class="item__title">Bigfoot Bandcamp</h2>
-    </a>
-    <a href="/chicago/" class="item">
-      <img class="item__image" src="/images/index/chicago.jpg" alt="item02"/>
-      <h2 class="item__title">Chicago</h2>
-    </a>
-    <a href="/london/" class="item">
-      <img class="item__image" src="/images/index/london.jpg" alt="item02"/>
-      <h2 class="item__title">London</h2>
-    </a>
-    <a href="/music/" class="item">
-      <img class="item__image" src="/images/index/music.jpg" alt="item02"/>
-      <h2 class="item__title">Music</h2>
-    </a>
-    <a href="/black-and-white/" class="item">
-      <img class="item__image" src="/images/index/black-white.jpg" alt="item02"/>
-      <h2 class="item__title">Black &amp; White</h2>
-    </a>
-    <a href="/cityscapes/" class="item">
-      <img class="item__image" src="/images/index/cityscapes.jpg" alt="item02"/>
-      <h2 class="item__title">Cityscapes</h2>
-    </a>
-    <a href="/architecture/" class="item">
-      <img class="item__image" src="/images/index/architecture.jpg" alt="item02"/>
-      <h2 class="item__title">Architecture</h2>
-    </a>
-    <a href="/new-york-city/" class="item">
-      <img class="item__image" src="/images/index/manhattan.jpg" alt="item02"/>
-      <h2 class="item__title">New York</h2>
-    </a>
-    <a href="/panoramas/" class="item">
-      <img class="item__image" src="/images/index/panoramas.jpg" alt="item02"/>
-      <h2 class="item__title">Panoramas</h2>
-    </a>
-    <a href="/long-exposures/" class="item">
-      <img class="item__image" src="/images/index/long-exposures.jpg" alt="item02"/>
-      <h2 class="item__title">Long Exposures</h2>
-    </a>
-    <a href="/birds/" class="item">
-      <img class="item__image" src="/images/index/birds.jpg" alt="item02"/>
-      <h2 class="item__title">Birds</h2>
-    </a>
-    <a href="/abstract/" class="item">
-      <img class="item__image" src="/images/index/abstract.jpg" alt="item02"/>
-      <h2 class="item__title">Abstract</h2>
-    </a>
-    <a href="/nature/" class="item">
-      <img class="item__image" src="/images/index/nature.jpg" alt="item02"/>
-      <h2 class="item__title">Nature</h2>
-    </a>
-    <a href="/new-england/" class="item">
-      <img class="item__image" src="/images/index/new-england.jpg" alt="item02"/>
-      <h2 class="item__title">New England</h2>
-    </a>
-    <a href="/sunsets/" class="item">
-      <img class="item__image" src="/images/index/sunsets.jpg" alt="item02"/>
-      <h2 class="item__title">Sunsets</h2>
-    </a>
-    <a href="/landscapes/" class="item">
-      <img class="item__image" src="/images/index/landscapes.jpg" alt="item02"/>
-      <h2 class="item__title">Landscapes</h2>
-    </a>
-    <a href="/egrets/" class="item">
-      <img class="item__image" src="/images/index/egrets.jpg" alt="item02"/>
-      <h2 class="item__title">Egrets</h2>
-    </a>
-    <a href="/sears-tower/" class="item">
-      <img class="item__image" src="/images/index/sears.jpg" alt="item02"/>
-      <h2 class="item__title">Sears Tower</h2>
-    </a>
-    <a href="/the-bean/" class="item">
-      <img class="item__image" src="/images/index/the-bean.jpg" alt="item02"/>
-      <h2 class="item__title">The Bean</h2>
-    </a>
-    <a href="/bret-michaels/" class="item">
-      <img class="item__image" src="/images/index/bret-michaels.jpg" alt="item02"/>
-      <h2 class="item__title">Bret Michaels Band</h2>
-    </a>
-    <a href="/cadillac-cassanovas/" class="item">
-      <img class="item__image" src="/images/index/cadillac.jpg" alt="item02"/>
-      <h2 class="item__title">Cadillac Cassanovas</h2>
-    </a>
-    <a href="/collections" class="item">
-      <img class="item__image" src="/images/index/all.jpg" alt="item02"/>
-      <h2 class="item__title">All Collections</h2>
-    </a>
-  </section>
-
+    <header class="site-header--fixed">
+  <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+<div id="nav">
+  <ul>
+    <li><a href="/landscapes/" data-page-id="landscapes">Landscapes</a></li>
+    <li><a href="/music/" data-page-id="music">Music</a></li>
+    <li><a href="/nature/" data-page-id="nature">Nature</a></li>
+    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
+    <!-- <li><a href="/about/" data-page-id="about">About</a></li> -->
+  </ul>
 </div>
 
 <script>
-  (function() {
-    var container = document.getElementById( 'container' ),
-    trigger = container.querySelector( 'button.trigger' );
-
-    function toggleContent() {
-      if( classie.has( container, 'container--open' ) ) {
-        classie.remove( container, 'container--open' );
-        classie.remove( trigger, 'trigger--active' );
-        window.addEventListener( 'scroll', noscroll );
-      }
-      else {
-        classie.add( container, 'container--open' );
-        classie.add( trigger, 'trigger--active' );
-        window.removeEventListener( 'scroll', noscroll );
-      }
-    }
-
-    function noscroll() {
-      window.scrollTo( 0, 0 );
-    }
-
-    // reset scrolling position
-    document.body.scrollTop = document.documentElement.scrollTop = 0;
-
-    // disable scrolling
-    window.addEventListener( 'scroll', noscroll );
-
-    trigger.addEventListener( 'click', toggleContent );
-
-  })();
+  var currentPage = $("body").data("current-page");
+  if (currentPage) {
+    $("a[data-page-id='" + currentPage + "']").addClass("active");
+  }
 </script>
 
+
+</header>
+
+<script>
+  var navigation = responsiveNav("#nav", {
+  insert: "before"
+  });
+</script>
+
+
+
+    <div class="content--fixed">
+      <div class="filmstrip animated fadeIn">
+  <div><img src="/images/music/0K6A4915.jpg" /></div>
+  <div><img src="/images/portfolio/0K6A7506.jpg" /></div>
+  <div><img src="/images/music/0K6A4302.jpg" /></div>
+  <div><img src="/images/portfolio/london-eye-2015.jpg" /></div>
+  <div><img src="/images/music/0K6A4708.jpg" /></div>
+  <div><img src="/images/portfolio/archways.jpg" /></div>
+</div>
+
+
+<script>
+  $('.filmstrip').slick({
+    arrows: true,
+    dots: true,
+    centerMode: true,
+    centerPadding: '30px',
+    slidesToShow: 1,
+    variableWidth: true
+  });
+</script>
+
+
     </div>
+
+
   </body>
 </html>

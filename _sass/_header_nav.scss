@@ -1,0 +1,135 @@
+
+// ------------------------------------------ Header
+[class*="site-header"] {
+  display: block;
+  overflow: hidden;
+  padding: 20px 10px;
+  a.site-title {
+    border: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    img {
+      max-width: 200px;
+    }
+  }
+}
+
+
+@media screen and (max-height: 640px) {
+  [class*="site-header"] {
+    padding-top: 30px !important;
+  }
+}
+
+
+@media screen and (min-width: 60em) {
+  header.site-header--fixed {
+    padding: 5% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    bottom: 80%;
+  }
+  a.site-title img {
+    max-width: 200px !important;
+  }
+  header.site-header {
+    padding: 5% 0 0 0;
+    margin: 0 10%;
+  }
+}
+
+
+
+
+// ---------------------------------------
+#nav-toggle {
+  border: none;
+  display: inline-block;
+  float: right;
+  padding: 10px 0 0 0;
+  color: #bbb;
+}
+
+#nav ul {
+  display: block;
+  font-size: 0.9em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#nav li {
+  width: 100%;
+  display: block;
+  a {
+    border-bottom: 1px solid $hairline;
+    display: inline-block;
+    color: #bbb;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+    &.active {
+      color: black;
+    }
+    &:hover {
+      color: black;
+    }
+  }
+  &:last-child a {
+    border: none;
+  }
+}
+
+.js #nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+#nav.opened {
+  max-height: 9999px;
+}
+
+@media screen and (min-width: 60em) {
+  .js #nav {
+    position: relative;
+    float: right;
+    width: 70%;
+    ul  {
+      text-align: right;
+      li {
+      display: inline-block;
+      width: auto;
+      a {
+        padding: 5px 20px;
+        border-right: 1px solid $hairline;
+        border-bottom: none;
+      }
+      &:last-child a {
+        border: none;
+      }
+    }
+  }
+  }
+  .js #nav.closed {
+    max-height: none;
+  }
+  #nav-toggle {
+    display: none;
+  }
+}
+
+// ------------------------------------------ Footer
+footer {
+  border-top: 1px solid $hairline;
+  font-size: $small-font-size;
+  margin-top: 2em;
+  text-align: center;
+}
+

@@ -1,0 +1,25 @@
+.gallery {
+  overflow: hidden;
+  figure {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 30em) {
+  .gallery {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .gallery {
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}

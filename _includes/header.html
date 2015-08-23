@@ -1,23 +1,10 @@
 <header class="site-header">
-  <a class="site-title" href="{{ site.baseurl }}/"><img src="/images/gostu-color.svg"/></a>
-  <nav class='nav-collapse'>
-    <ul>
-      <section>
-        <h4>Pages</h4>
-        <li><a href="/portfolio/">Portfolio</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/blog-archive/">Archives</a></li>
-        <li><a href="/photo52/">Photo52 Project</a></li>
-        <li><a href="/iphone/">iPhone Wallpapers</a></li>
-      </section>
-      <section>
-        <h4>Collections</h4>
-        <li><a href="/chicago/">Chicago</a></li>
-        <li><a href="/music/">Music</a></li>
-        <li><a href="/london/">London</a></li>
-        <li><a href="/black-and-white/">Black &amp; White</a></li>
-        <li><a href="/collections">All Collections</a></li>
-      </section>
-    </ul>
-  </nav>
+  {% include navigation.html %}
 </header>
+
+<script>
+  var navigation = responsiveNav("#nav", {
+  insert: "before"
+  });
+</script>
+

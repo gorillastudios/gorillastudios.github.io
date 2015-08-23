@@ -2,9 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gorilla-Studios Photography</title>
-    <description>Gorilla-Studios Photography</description>
-    <link>http://www.gorilla-studios.com/</link>
-    <atom:link href="http://www.gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://gorilla-studios.com/</link>
+    <atom:link href="http://gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 23 Aug 2015 10:37:06 -0500</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2015 10:37:06 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Bigfoot Bandcamp</title>
@@ -59,8 +63,12 @@
 &lt;p&gt;Check out &lt;a href=&quot;/rev-horton-heat&quot;&gt;all the photos from their set here&lt;/a&gt; and find out where they&#39;ll be soon at &lt;a href=&quot;http://www.reverendhortonheat.com&quot; target=&quot;blank&quot;&gt;their website&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Aug 2015 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/blog/2015/08/10/bigfoot/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/blog/2015/08/10/bigfoot/</guid>
+        <link>http://gorilla-studios.com/blog/2015/08/10/bigfoot.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/blog/2015/08/10/bigfoot.html</guid>
+        
+        
+        <category>blog</category>
+        
       </item>
     
       <item>
@@ -75,8 +83,12 @@
 &lt;p&gt;I was disappointed when I remembered that Instagram limits video to 15 seconds, the entire clip is pretty cool. I&#39;m not sure if the lag in the beginning is due to the limited processing capabilities of the iPhone 4 or something along those lines, I was just irritated it wasn&#39;t as smooth as I had hoped. I was impressed enough to want to take some more time lapses in the future, so we&#39;ll see if its the phone or something I did.&lt;/p&gt;
 </description>
         <pubDate>Sat, 27 Jun 2015 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/photo/2015/06/27/morning-L/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/photo/2015/06/27/morning-L/</guid>
+        <link>http://gorilla-studios.com/photo/2015/06/27/morning-L.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/06/27/morning-L.html</guid>
+        
+        
+        <category>photo</category>
+        
       </item>
     
       <item>
@@ -91,8 +103,12 @@
 &lt;p&gt;I had originally edited this as a black and white and let it sit for years, but it never really grabbed me. Looking at it again I realized the color version was much better, the light of the city combined with the very tail end of a warm midwestern sunset create something much more special than a black and white print can do. This is a prime example of why I always keep my original RAW files - there have been quite a few I go back to years later and rescue them from obscurity. Additionally the tree died and was finally cut down sometime around 2012, so I can&#39;t go and re-shoot in this location much to my dismay.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Jun 2015 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/photo/2015/06/09/campton-hills/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/photo/2015/06/09/campton-hills/</guid>
+        <link>http://gorilla-studios.com/photo/2015/06/09/campton-hills.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/06/09/campton-hills.html</guid>
+        
+        
+        <category>photo</category>
+        
       </item>
     
       <item>
@@ -106,23 +122,31 @@
 &lt;p&gt;I love the blue glass near the entrance, and all the exposed staircases, so many little details that almost get lost in the photo. If you are downtown I recommend you at least stop in and look around for a few minutes.&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/photo/2015/05/15/thompson-center/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/photo/2015/05/15/thompson-center/</guid>
+        <link>http://gorilla-studios.com/photo/2015/05/15/thompson-center.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/05/15/thompson-center.html</guid>
+        
+        
+        <category>photo</category>
+        
       </item>
     
       <item>
         <title>Natural Light Portrait</title>
         <description>&lt;p&gt;In most situations nothing beats natural light. This morning I was playing with my daughter in front of our large picture window when I noticed the light fall-off on the side of her face as she gazed outside. I knew just looking at her if I used a high shutter speed I could drop the background to a solid black even though the room was fully lit. It&#39;s actually a gloomy day outside which is perfect - clouds create the perfect diffuser, softening the light and removing all the harsh shadows that are present on a sunny day.&lt;/p&gt;
 &lt;figure&gt;
-  &lt;img src=&quot;/images/portriats/alison-seven-months.jpg&quot;&gt;
+  &lt;img src=&quot;/images/portraits/alison-seven-months.jpg&quot;&gt;
   &lt;figcaption&gt;Natural portrait&lt;span&gt;1/250th, f/4, ISO8000&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;I propped her up between my knees as she braced herself on the back of the couch. Leaning back I snapped a few photos, as she looked around. Composition was a little difficult because just to the left of the frame are the white window blinds which completely throws off the image. I cropped them out in camera, while keeping her to the right side. After a few test shots I landed on 1/250th of a second which was enough to drop the background completely black. I bumped the shadows just a touch to make it a bit more dramatic, adjusted the color temperature, sharpened up her eye and that was it.&lt;/p&gt;
 &lt;p&gt;For adult portraits and other situations I do like using off-camera flash, but for simple, up close headshots and portraits, I still absolutely love natural light. During the summer I try to shoot during the early morning and evening to avoid harsh light, however when its cloudy thats the perfect time to shoot all day long. So don&#39;t be dissapointed on gloomy days, grab your camera and make something special.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Apr 2015 00:00:00 -0500</pubDate>
-        <link>http://www.gorilla-studios.com/photo/2015/04/22/natural-light/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/photo/2015/04/22/natural-light/</guid>
+        <link>http://gorilla-studios.com/photo/2015/04/22/natural-light.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/04/22/natural-light.html</guid>
+        
+        
+        <category>photo</category>
+        
       </item>
     
       <item>
@@ -135,8 +159,12 @@
 &lt;p&gt;Timing the shots was particularly tricky - I wanted to get trains going in both directions, but being pressed for time I didn&#39;t have any luck in the 15 minutes I was there. Overall I like the shot with the one train streaking into the station, but I want to go back in the spring or summer when there isn&#39;t snow on the platform roofs and the sky isn&#39;t so overcast and dull.&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Mar 2015 00:00:00 -0600</pubDate>
-        <link>http://www.gorilla-studios.com/photo/2015/03/04/over-the-l/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/photo/2015/03/04/over-the-l/</guid>
+        <link>http://gorilla-studios.com/photo/2015/03/04/over-the-l.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/03/04/over-the-l.html</guid>
+        
+        
+        <category>photo</category>
+        
       </item>
     
       <item>
@@ -171,8 +199,12 @@
 &lt;iframe src=&quot;https://www.youtube.com/embed/SndYnCRfWpE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sat, 07 Feb 2015 00:00:00 -0600</pubDate>
-        <link>http://www.gorilla-studios.com/tutorial/2015/02/07/selective-sharpening/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/tutorial/2015/02/07/selective-sharpening/</guid>
+        <link>http://gorilla-studios.com/tutorial/2015/02/07/selective-sharpening.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/tutorial/2015/02/07/selective-sharpening.html</guid>
+        
+        
+        <category>tutorial</category>
+        
       </item>
     
       <item>
@@ -230,12 +262,16 @@
   &lt;img src=&quot;/images/sedona/10.jpg&quot;&gt;
   &lt;figcaption&gt;&lt;span&gt;4 shot panorama&lt;/span&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;On some of the conversions Photoshop got rather confused by the deep blue skys and attempted to merge them together with interesting results - the sky would skew up another 3000 pixels in the center of the stitching. I got a few other panoramas, but none better than the &lt;a href=&quot;/2014/12/09/photo52-week49/&quot;&gt;nine shot panorama of the entire formation that morning&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On some of the conversions Photoshop got rather confused by the deep blue skys and attempted to merge them together with interesting results - the sky would skew up another 3000 pixels in the center of the stitching. I got a few other panoramas, but none better than the &lt;a href=&quot;/photo52/2014/12/09/photo52-week49.html&quot;&gt;nine shot panorama of the entire formation that morning&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I genuinely wish I had a few weeks to just camp out and shoot landscapes, but alas I only had a few hours to spend in and around Sedona. It is one of the most beautiful locaitions I have ever seen and really hope to get back some day.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Dec 2014 00:00:00 -0600</pubDate>
-        <link>http://www.gorilla-studios.com/travelogue/2014/12/19/sedona-traveloge/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/travelogue/2014/12/19/sedona-traveloge/</guid>
+        <link>http://gorilla-studios.com/travelogue/2014/12/19/sedona-traveloge.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/travelogue/2014/12/19/sedona-traveloge.html</guid>
+        
+        
+        <category>travelogue</category>
+        
       </item>
     
       <item>
@@ -250,8 +286,14 @@
 &lt;p&gt;Getting nine exposures down into one large panorama is pretty tricky but I am getting much better. I hope to take what I have learned and use it for a 15-20 exposure panorama of the city skyline, but I have never stacked them both horizontally and vertically. We&#39;ll see how that goes.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Dec 2014 00:00:00 -0600</pubDate>
-        <link>http://www.gorilla-studios.com/photo52/2014/12/09/photo52-week49/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/photo52/2014/12/09/photo52-week49/</guid>
+        <link>http://gorilla-studios.com/photo52/2014/12/09/photo52-week49.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/photo52/2014/12/09/photo52-week49.html</guid>
+        
+        <category>Photo52</category>
+        
+        
+        <category>photo52</category>
+        
       </item>
     
       <item>
@@ -260,13 +302,19 @@
   &lt;img src=&quot;/images/p52/48.jpg&quot;&gt;
   &lt;figcaption&gt;Candid portrait&lt;span&gt;1/125th, f/5, ISO100&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;For our last week on the east coast my wife wanted to do a quick family portrait session for our Christmas cards, needless to say I couldn&#39;t say no. We headed down to Mason&#39;s Island where I captured &lt;a href=&quot;/2014/11/16/photo52-week46/&quot;&gt;the sunset for Week 46&lt;/a&gt;. Shooting a family portrait is always a challenge, but adding the fact I had to be in the photo was a real pain.&lt;/p&gt;
+&lt;p&gt;For our last week on the east coast my wife wanted to do a quick family portrait session for our Christmas cards, needless to say I couldn&#39;t say no. We headed down to Mason&#39;s Island where I captured &lt;a href=&quot;/photo52/2014/11/16/photo52-week46.html&quot;&gt;the sunset for Week 46&lt;/a&gt;. Shooting a family portrait is always a challenge, but adding the fact I had to be in the photo was a real pain.&lt;/p&gt;
 &lt;p&gt;We did a few poses on the steps of the clubhouse, and got some really good shots, but it was overcast and starting to drizzle so we went under the porch to pack up my gear and get ready to go. Right before I put the camera away I noticed the soft light coming from camera left lighting up our little one&#39;s face, and the fact she was all smiles made me take a few candid photos as my wife was playing with her. I have found recently that anything below 1/125th or 1/150th is too slow for infant photography. I wrongly assumed they didn&#39;t move that much, and they don&#39;t, but when they move their heads the whip them around causing quite a few shots to be motion blurred. This one however was absolutely great as she smiled looking out over the ocean.&lt;/p&gt;
 &lt;p&gt;I have been putting a lot of effort back into the editing process lately, and I tried a few things I don&#39;t usually do here. I tried a different selective sharpening technique using a high-pass filter and opacity mask, combined with a gradient map for the black and white conversion. Adding a touch of vingetting and this is one of my favorite photos of my wife and baby. I absolutely love shooting candid portraits, they are almost always leaps and bounds better than posed photos.&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Dec 2014 00:00:00 -0600</pubDate>
-        <link>http://www.gorilla-studios.com/photo52/2014/12/02/photo52-week48/</link>
-        <guid isPermaLink="true">http://www.gorilla-studios.com/photo52/2014/12/02/photo52-week48/</guid>
+        <link>http://gorilla-studios.com/photo52/2014/12/02/photo52-week48.html</link>
+        <guid isPermaLink="true">http://gorilla-studios.com/photo52/2014/12/02/photo52-week48.html</guid>
+        
+        <category>Photo52</category>
+        
+        
+        <category>photo52</category>
+        
       </item>
     
   </channel>
