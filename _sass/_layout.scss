@@ -1,3 +1,23 @@
+.row {
+  overflow: hidden;
+  .block {
+    float: left;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 40em) {
+  .one-third { width: 33.333% !important; }
+  .two-thirds { width: 66.666% !important; }
+}
+
+
+
+
+
+
+
 .content--fixed {
   position: absolute;
   overflow: hidden;
