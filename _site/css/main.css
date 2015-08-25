@@ -341,10 +341,23 @@ blockquote {
     .blog-preview a:hover span {
       background: rgba(0, 0, 0, 0.8); }
 
-.blog-preview.archive-link a {
-  background: url("/images/previews/archives.jpg");
+.blog-preview {
   background-size: cover;
   background-position: 50%; }
+  .blog-preview.archive-link a {
+    background: url("/images/previews/archives.jpg"); }
+  .blog-preview.chicago a {
+    background: url("/images/previews/chicago.jpg"); }
+  .blog-preview.music a {
+    background: url("/images/previews/music.jpg"); }
+  .blog-preview.new-york a {
+    background: url("/images/previews/new-york.jpg"); }
+  .blog-preview.black-white a {
+    background: url("/images/previews/black-white.jpg"); }
+  .blog-preview.london a {
+    background: url("/images/previews/london.jpg"); }
+  .blog-preview.nature a {
+    background: url("/images/previews/nature.jpg"); }
 
 .blog-archive-list {
   -webkit-column-count: 2;
@@ -464,7 +477,8 @@ blockquote {
           border-right: 1px solid #DDDDDD;
           border-bottom: none; }
         .js #nav ul li:last-child a {
-          border: none; }
+          border: none;
+          padding-right: 0; }
 
   .js #nav.closed {
     max-height: none; }

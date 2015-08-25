@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Chicago</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/vendor/animate.css">
+    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
+    <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
+
+    <script src="//use.typekit.net/zrp7zuy.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/responsive-nav.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+
+    <link rel="canonical" href="http://gorilla-studios.com/chicago/">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-35144702-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+
+  <body >
+
+    <header class="site-header--fixed">
+  <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+<div id="nav">
+  <ul>
+    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
+    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
+    <li><a href="/about/" data-page-id="about">About</a></li>
+  </ul>
+</div>
+
+<script>
+  var currentPage = $("body").data("current-page");
+  if (currentPage) {
+    $("a[data-page-id='" + currentPage + "']").addClass("active");
+  }
+</script>
+
+
+</header>
+
+<script>
+  var navigation = responsiveNav("#nav", {
+  insert: "before"
+  });
+</script>
+
+
+
+    <div class="content--fixed">
+      <div class="filmstrip animated fadeIn">
+  <div><img src="/images/black-white/sears-abstract.jpg" /></div>
+  <div><img src="/images/chicago/wrigley-trump.jpg" /></div>
+  <div><img src="/images/portfolio/lion-portrait.jpg" /></div>
+  <div><img src="/images/portfolio/pritzker.jpg" /></div>
+  <div><img src="/images/catalog/IMG_5855.jpg" /></div>
+  <div><img src="/images/chicago/wrigley-clock.jpg" /></div>
+  <div><img src="/images/chicago/winter-bean.jpg" /></div>
+  <div><img src="/images/catalog/IMG_7397.jpg" /></div>
+  <div><img src="/images/catalog/0K6A9531.jpg" /></div>
+  <div><img src="/images/catalog/CRW_2369.jpg" /></div>
+  <div><img src="/images/catalog/IMG_4979.jpg" /></div>
+  <div><img src="/images/portfolio/archways.jpg" /></div>
+</div>
+
+
+<script>
+  $('.filmstrip').slick({
+    arrows: true,
+    centerMode: true,
+    centerPadding: '30px',
+    slidesToShow: 1,
+    variableWidth: true
+  });
+</script>
+
+
+    </div>
+
+
+  </body>
+</html>
