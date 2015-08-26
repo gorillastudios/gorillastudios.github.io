@@ -346,6 +346,8 @@ blockquote {
   background-position: 50%; }
   .blog-preview.archive-link a {
     background: url("/images/previews/archives.jpg"); }
+  .blog-preview.landscapes a {
+    background: url("/images/previews/landscapes.jpg"); }
   .blog-preview.chicago a {
     background: url("/images/previews/chicago.jpg"); }
   .blog-preview.music a {
