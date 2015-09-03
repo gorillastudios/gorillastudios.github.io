@@ -197,9 +197,24 @@ blockquote {
     .filmstrip > div .slick-track {
       height: 100%; }
     .filmstrip > div .slick-slide {
+      position: relative;
       height: 100%; }
+      .filmstrip > div .slick-slide p {
+        background: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        color: white;
+        font-size: 0.75em;
+        margin: 0;
+        padding: 10px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        opacity: 0.075;
+        -webkit-transition: all 0.25s ease-in; }
       .filmstrip > div .slick-slide:focus {
         outline: none; }
+      .filmstrip > div .slick-slide:hover p {
+        opacity: 1; }
   .filmstrip .slick-prev,
   .filmstrip .slick-next {
     z-index: 2;
