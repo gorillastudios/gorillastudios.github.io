@@ -1,0 +1,48 @@
+---
+layout: fixed
+title: Landscapes
+permalink: /landscapes-static/
+id: landscapes
+---
+<div class="filmstrip animated fadeIn">
+  <div>
+    <img src="/images/catalog/0K6A7508.jpg" />
+    <section class="information">
+    <p>New York City
+    <span>
+      <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
+      <a href="#"><i class="fa fa-twitter-square"></i></a>
+      <a href="#"><i class="fa fa-facebook-square"></i></a>
+      <a href="#"><i class="fa fa-pinterest-square"></i></a>
+    </span>
+    </p>
+    <p class="description">The Brooklyn Bridge spanning the East River, taken from Brooklyn Bridge Park, New York City.</p>
+    </section>
+  </div>
+
+  <div><img src="/images/portfolio/masons-dock.jpg" /></div>
+  <div><img src="/images/portfolio/leroy-oaks.jpg" /></div>
+  <div><img src="/images/new-england/watch-hill-3.jpg" /></div>
+  <div><img src="/images/new-england/mystic-river.jpg" /></div>
+  <div><img src="/images/chicago/inky-lake2.jpg" /></div>
+  <div id="stonington"><img src="/images/new-england/sb-rocks-sunset.jpg" /></div>
+  <div><img src="/images/catalog/0K6A2937.jpg" /></div>
+  <div><img src="/images/portfolio/nassau.jpg" /></div>
+  <div><img src="/images/catalog/0K6A3373.jpg" /></div>
+</div>
+
+
+<script>
+  $('.filmstrip').slick({
+    arrows: true,
+    centerMode: true,
+    centerPadding: '30px',
+    slidesToShow: 1,
+    variableWidth: true
+  });
+
+  $(".toggle-information").click(function() {
+    $(".description").toggleClass("open");
+  });
+</script>
+

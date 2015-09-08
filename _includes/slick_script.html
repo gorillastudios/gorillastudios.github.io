@@ -1,0 +1,14 @@
+<script>
+  $('.filmstrip').slick({
+    arrows: true,
+    centerMode: true,
+    centerPadding: '30px',
+    slidesToShow: 1,
+    variableWidth: true
+  });
+
+  $(".toggle-information").click(function() {
+    $(this).closest("p").next(".description").toggleClass("open");
+  });
+</script>
+

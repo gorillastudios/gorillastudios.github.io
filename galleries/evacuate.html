@@ -7,7 +7,7 @@ permalink: /evacuate-the-earth/
 <section class="gallery zoomable">
   {% for photo in site.data.photos %}
     {% if photo.tags contains 'evacuate' %}
-      {% include figure_template.html %}
+      {% include figure_template--clean.html %}
     {% endif %}
   {% endfor %}
 </section>

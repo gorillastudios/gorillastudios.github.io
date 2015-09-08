@@ -18,23 +18,23 @@
   date: July 18th, 2014
   tags: chicago, sears-tower, architecture, sculpture, long-exposure, dusk
 
-- title: Sunset at Masons Island
+- title: Masons Island
   image_path: portfolio/masons-dock.jpg
   thumbnail: /images/thumbnails/masons-dock.jpg
-  portfolio: primary
+  portfolio: landscape
   position: bbb
   exposure: f/8, ISO50, 30s
   description: A small rowboat is tied up during a serene sunset on Masons Island in Mystic, Connecticut.
   date: November 11th, 2014
   tags: connecticut, new-england, sunset, nautical, long-exposure, landscape
 
-- title: Fresh snow at Leroy Oaks
+- title: Leroy Oaks
   image_path: portfolio/leroy-oaks.jpg
   thumbnail: /images/thumbnails/leroy-oaks.jpg
-  portfolio: primary
+  portfolio: landscape
   position: ccc
   exposure: f/8, ISO50, 30s
-  description: A heavy snowstorm at Leroy Oaks Forest Preserve on the west side of St. Charles, IL
+  description: A heavy snowstorm at Leroy Oaks Forest Preserve, St. Charles, IL
   date: March 4th, 2013
   tags: illinois, snow, landscape, winter, nature
 
@@ -145,10 +145,13 @@
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, trump-tower, winter, chicago-river
 
-- title: The John Hancock building
+- title: Chicago
   image_path: chicago/inky-lake2.jpg
   thumbnail: /images/thumbnails/inky-lake2.jpg
+  portfolio: landscape
+  position: fff
   exposure: f/8, ISO50, 30s
+  description: A long exposure of the Chicago cityscape towering over Lake Michigan
   tags: chicago, architecture, cityscape, hancock-building, lake-michigan, black-and-white, long-exposure
 
 - title: Sears Tower skyboxes
@@ -637,7 +640,10 @@
 
 - title: The Brooklyn Bridge
   image_path: catalog/0K6A7508.jpg
+  portfolio: landscape
+  position: aaa
   thumbnail: /images/thumbnails/0K6A7508.jpg
+  description: The Brooklyn Bridge spans over the East River with One WTC standing tall behind
   exposure: 90s, f/16, ISO100
   tags: new-york, manhattan, long-exposure, cityscape
 
@@ -719,16 +725,22 @@
   exposure: 1/150th, f/8, ISO100
   tags: new-england, sunset, landscape
 
-- title: Mystic River fall afternoon
+- title: Mystic River
   image_path: new-england/mystic-river.jpg
+  portfolio: landscape
+  position: eee
   thumbnail: /images/thumbnails/mystic-river.jpg
   exposure: 1/150th, f/8, ISO100
+  description: A fall evening in New England, taken on the Mystic River, Mystic CT
   tags: new-england, fall
 
-- title: Stonington Borough sunset
+- title: Stonington Borough Sunset
   image_path: new-england/sb-rocks-sunset.jpg
+  portfolio: landscape
+  position: ggg
   thumbnail: /images/thumbnails/sb-rocks-sunset.jpg
   exposure: 30s, f/8, ISO50
+  description: A november sunset along the shore of Stonington Borough point
   tags: new-england, sunset, long-exposure, landscape
 
 - title: John Hancock Center
@@ -806,10 +818,13 @@
   exposure: 1/125th, f/8, ISO4000
   tags: new-england, sunset, landscape
 
-- title: The stars over Watch Hill
+- title: Watch Hill
   image_path: new-england/watch-hill-3.jpg
+  portfolio: landscape
+  position: ddd
   thumbnail: /images/thumbnails/watch-hill-3.jpg
   exposure: 1/125th, f/8, ISO4000
+  description: A starry night over Watch Hill, RI
   tags: new-england, astronomy, long-exposure, landscape
 
 - title: Watch Hill Yacht Club
@@ -834,7 +849,7 @@
   image_path: bm/4.jpg
   thumbnail: /images/thumbnails/bm/4.jpg
   portfolio: music
-  position: ccc
+  position: iii
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
@@ -843,7 +858,7 @@
   image_path: music/carl.jpg
   thumbnail: /images/thumbnails/carl.jpg
   portfolio: music
-  position: ggg
+  position: kkk
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
@@ -872,7 +887,7 @@
   image_path: music/standing-bass2.jpg
   thumbnail: /images/thumbnails/standing-bass2.jpg
   portfolio: music
-  position: bbb
+  position: hhh
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, cadillac-cassanovas
 
@@ -951,8 +966,6 @@
 - title: Bret Michaels
   image_path: bm/12.jpg
   thumbnail: /images/thumbnails/bm/12.jpg
-  portfolio: music
-  position: kkk
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
@@ -972,8 +985,6 @@
 - title: Bret Michaels Band
   image_path: bm/6.jpg
   thumbnail: /images/thumbnails/bm/6.jpg
-  portfolio: music
-  position: mmm
   exposure: 1/125th, f/8, ISO4000
   tags: music, concert, bmb
 
@@ -1044,10 +1055,13 @@
   exposure: 1/125th, f/8, ISO4000
   tags: flower, macro, nature
 
-- title: Bahamas Sunrise
+- title: Bahamian Sunrise
   image_path: portfolio/nassau.jpg
+  portfolio: landscape
+  position: iii
   thumbnail: /images/thumbnails/nassau.jpg
-  exposure: 1/125th, f/8, ISO4000
+  exposure: 20s, f/8, ISO100
+  description: An early morning sunrise from the beaches of Nassau, Bahamas
   tags: landscape, long-exposure, sunrise
 
 - title: Fireworks
@@ -1124,6 +1138,7 @@
   image_path: catalog/IMG_4979.jpg
   thumbnail: /images/thumbnails/IMG_4979.jpg
   exposure: 1/200th, f/5.6, ISO100
+  description: The morning sun rises over downtown Mystc CT
   tags: chicago, cityscape
 
 - title: Sears Tower sunrise
@@ -1148,8 +1163,11 @@
 
 - title: Sunset on Masons Island
   image_path: catalog/0K6A3373.jpg
+  portfolio: landscape
+  position: jjj
   thumbnail: /images/thumbnails/0K6A3373.jpg
   exposure: 5s, f/22, ISO50
+  description: A fall sunset from Masons Island, Mystic CT
   tags: new-england, sunset, long-exposure, landscape
 
 - title: Sunset on Masons Island
@@ -1547,8 +1565,8 @@
 - title: <i>Good Morning Mystic</i>
   image_path: catalog/0K6A2937.jpg
   thumbnail: /images/thumbnails/0K6A2937.jpg
-  portfolio: primary
-  position: eee
+  portfolio: landscape
+  position: hhh
   exposure: 1/30th, f/8, ISO50
   description: The Mystic River bascule bridge at sunrise, downtown Mystic Connecticut
   date: November 8th, 2014
@@ -1608,13 +1626,15 @@
 - title: Bigfoot Bandcamp
   image_path: bfbc/0K6A3865.jpg
   thumbnail: /images/thumbnails/0K6A3865.jpg
+  portfolio: music
+  position: ggg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, evacuate
 
 - title: The Krank Daddies
   image_path: bfbc/0K6A3983.jpg
   portfolio: music
-  position: lll
+  position: jjj
   thumbnail: /images/thumbnails/0K6A3983.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
@@ -1622,6 +1642,8 @@
 - title: Bigfoot Bandcamp
   image_path: bfbc/0K6A3910.jpg
   thumbnail: /images/thumbnails/0K6A3910.jpg
+  portfolio: music
+  position: nnn
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc
@@ -1827,7 +1849,7 @@
   image_path: bfbc/0K6A4022.jpg
   thumbnail: /images/thumbnails/0K6A4022.jpg
   portfolio: music
-  position: fff
+  position: eee
   orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
@@ -1929,6 +1951,9 @@
 - title: The Voodoo Fix
   image_path: bfbc/0K6A4160.jpg
   thumbnail: /images/thumbnails/0K6A4160.jpg
+  portfolio: music
+  position: bbb
+  description: The Voodoo Fix
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, voodoo
 
@@ -2017,6 +2042,9 @@
 - title: The Krank Daddies
   image_path: bfbc/0K6A4261.jpg
   thumbnail: /images/thumbnails/0K6A4261.jpg
+  portfolio: music
+  position: ddd
+  description: Chops McClintok of The Krank Daddies Gibson Les Paul
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -2057,7 +2085,7 @@
   image_path: bfbc/0K6A4302.jpg
   thumbnail: /images/thumbnails/0K6A4302.jpg
   portfolio: music
-  position: ddd
+  position: lll
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -2106,7 +2134,8 @@
   thumbnail: /images/thumbnails/0K6A4393.jpg
   orientation: vertical
   portfolio: music
-  position: iii
+  position: ccc
+  description: Chops McClintok of The Krank Daddies takes a quick drink during their set
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, krank
 
@@ -2245,7 +2274,8 @@
   image_path: bfbc/0K6A4708.jpg
   thumbnail: /images/thumbnails/0K6A4708.jpg
   portfolio: music
-  position: eee
+  position: aaa
+  description: The Reverend Horton Heat performs at the Bigfoot Bandcamp Festival, August 8th, 2015
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -2321,16 +2351,12 @@
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4855.jpg
   thumbnail: /images/thumbnails/0K6A4855.jpg
-  portfolio: music
-  position: aaa
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4862.jpg
   thumbnail: /images/thumbnails/0K6A4862.jpg
-  portfolio: music
-  position: hhh
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -2367,6 +2393,8 @@
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4915.jpg
   thumbnail: /images/thumbnails/0K6A4915.jpg
+  portfolio: music
+  position: mmm
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -2375,15 +2403,14 @@
   thumbnail: /images/thumbnails/0K6A4923.jpg
   orientation: vertical
   portfolio: music
-  position: nnn
+  position: fff
+  description: Jimbo of the Reverent Horton Heat throws up the horns
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4934.jpg
   thumbnail: /images/thumbnails/0K6A4934.jpg
-  portfolio: music
-  position: jjj
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
