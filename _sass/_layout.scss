@@ -41,6 +41,9 @@
     bottom: 0;
     overflow: hidden;
     max-height: 1000px;
+    .filmstrip {
+      height: 600px;
+    }
   }
   .content--floating {
     margin: 4em 10%;

@@ -563,71 +563,83 @@
     
   
     
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
       <figure class="">
-<a href="/images/bfbc/0K6A3794.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3794.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3794.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3794.jpg"></a>
 </figure>
 
     
   
     
       <figure class="vertical">
-<a href="/images/bfbc/0K6A3795.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3795.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3795.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3795.jpg"></a>
 </figure>
 
     
   
     
       <figure class="">
-<a href="/images/bfbc/0K6A3814.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3814.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3814.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3814.jpg"></a>
 </figure>
 
     
   
     
       <figure class="">
-<a href="/images/bfbc/0K6A3816.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3816.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3816.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3816.jpg"></a>
 </figure>
 
     
   
     
       <figure class="">
-<a href="/images/bfbc/0K6A3824.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3824.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3824.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3824.jpg"></a>
 </figure>
 
     
   
     
       <figure class="">
-<a href="/images/bfbc/0K6A4131.jpg" title="Bigfoot Bandcamp"><img src="/images/thumbnails/0K6A4131.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A4131.jpg" title="Bigfoot Bandcamp"><img src="/images/thumbnails/0K6A4131.jpg"></a>
 </figure>
 
     
   
     
       <figure class="">
-<a href="/images/bfbc/0K6A3833.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3833.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3833.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3833.jpg"></a>
 </figure>
 
     
   
     
       <figure class="vertical">
-<a href="/images/bfbc/0K6A3837.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3837.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3837.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3837.jpg"></a>
 </figure>
 
     
   
     
       <figure class="vertical">
-<a href="/images/bfbc/0K6A3839.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3839.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3839.jpg" title="Jaik Wilis"><img src="/images/thumbnails/0K6A3839.jpg"></a>
 </figure>
 
     
   
     
       <figure class="">
-<a href="/images/bfbc/0K6A3851.jpg" title="Sean &amp; Jaik"><img src="/images/thumbnails/0K6A3851.jpg"></a>
+<a class="zoomable_image" href="/images/bfbc/0K6A3851.jpg" title="Sean &amp; Jaik"><img src="/images/thumbnails/0K6A3851.jpg"></a>
 </figure>
 
     
@@ -855,28 +867,16 @@
 <script>
   $(document).ready(function() {
     $('.zoomable').magnificPopup({
-      delegate: 'a',
+      delegate: '.zoomable_image',
       type: 'image',
-      tLoading: 'Loading image #%curr%...',
-      mainClass: 'mfp-with-fade',
-      zoom: {
-        enabled: true,
-        duration: 150,
-        easing: 'ease-in-out',
-        opener: function(openerElement) {
-          return openerElement.is('img') ? openerElement : openerElement.find('img');
+      image: {
+        verticalFit: true,
+        titleSrc: function(item) {
+          return item.el.attr('title');
         }
       },
       gallery: {
-        enabled: true,
-        navigateByImgClick: true,
-        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-      },
-      image: {
-        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-        titleSrc: function(item) {
-          return item.el.attr('title') + '';
-        }
+        enabled: true
       }
     });
   });

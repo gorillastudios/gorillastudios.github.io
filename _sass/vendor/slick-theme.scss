@@ -12,7 +12,7 @@ $slick-prev-character: "←" !default;
 $slick-next-character: "→" !default;
 $slick-dot-character: "•" !default;
 $slick-dot-size: 6px !default;
-$slick-opacity-default: 0.75 !default;
+$slick-opacity-default: 1 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.25 !default;
 
@@ -70,6 +70,7 @@ $slick-opacity-not-active: 0.25 !default;
   height: 100%;
   border: none;
   outline: none;
+  text-shadow: 0 0 10px rgba(0,0,0,0.75);
   &:hover, &:focus {
     outline: none;
     background: transparent;

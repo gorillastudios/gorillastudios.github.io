@@ -1,28 +1,16 @@
 <script>
   $(document).ready(function() {
     $('.zoomable').magnificPopup({
-      delegate: 'a',
+      delegate: '.zoomable_image',
       type: 'image',
-      tLoading: 'Loading image #%curr%...',
-      mainClass: 'mfp-with-fade',
-      zoom: {
-        enabled: true,
-        duration: 150,
-        easing: 'ease-in-out',
-        opener: function(openerElement) {
-          return openerElement.is('img') ? openerElement : openerElement.find('img');
+      image: {
+        verticalFit: true,
+        titleSrc: function(item) {
+          return item.el.attr('title');
         }
       },
       gallery: {
-        enabled: true,
-        navigateByImgClick: true,
-        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-      },
-      image: {
-        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-        titleSrc: function(item) {
-          return item.el.attr('title') + '';
-        }
+        enabled: true
       }
     });
   });

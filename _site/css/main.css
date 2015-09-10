@@ -187,6 +187,8 @@ blockquote {
     bottom: 0;
     overflow: hidden;
     max-height: 1000px; }
+    .content--fixed .filmstrip {
+      height: 600px; }
 
   .content--floating {
     margin: 4em 10%; } }
@@ -310,11 +312,13 @@ blockquote {
     overflow: hidden; }
     .blog-preview a span {
       background: rgba(0, 0, 0, 0.5);
-      position: absolute;
-      left: 0;
-      right: 0;
       bottom: 0;
+      font-size: 0.8em;
+      left: 0;
       padding: 50px;
+      position: absolute;
+      right: 0;
+      -webkit-transition: all 0.15s ease-in;
       transition: all 0.15s ease-in; }
     .blog-preview a:hover span {
       background: rgba(0, 0, 0, 0.8); }
@@ -379,6 +383,12 @@ blockquote {
     .filmstrip > div .slick-slide {
       position: relative;
       height: 100%; }
+      .filmstrip > div .slick-slide img {
+        opacity: 0.5;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out; }
+      .filmstrip > div .slick-slide .full-opacity, .filmstrip > div .slick-slide.slick-current img {
+        opacity: 1; }
       .filmstrip > div .slick-slide .information {
         background: rgba(0, 0, 0, 0.5);
         bottom: 0;
@@ -394,17 +404,16 @@ blockquote {
         .filmstrip > div .slick-slide .information p {
           margin: 0; }
         .filmstrip > div .slick-slide .information p.description {
-          max-height: 0;
+          display: none;
           font-style: italic;
           opacity: 0.8;
           overflow: hidden;
-          padding: 0 0;
+          padding: 10px 0;
           width: 100%;
           -webkit-transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
           transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
           .filmstrip > div .slick-slide .information p.description.open {
-            max-height: 500px;
-            padding: 10px 0; }
+            max-height: 500px; }
         .filmstrip > div .slick-slide .information span {
           float: right;
           padding-right: 2px; }
@@ -774,7 +783,8 @@ footer {
   top: 0;
   height: 100%;
   border: none;
-  outline: none; }
+  outline: none;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
   .slick-prev:hover, .slick-prev:focus,
   .slick-next:hover,
   .slick-next:focus {
@@ -794,7 +804,7 @@ footer {
   font-size: 30px;
   line-height: 1;
   color: white;
-  opacity: 0.75;
+  opacity: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -871,7 +881,7 @@ footer {
         -moz-osx-font-smoothing: grayscale; }
     .slick-dots li.slick-active button:before {
       color: black;
-      opacity: 0.75; }
+      opacity: 1; }
 
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome

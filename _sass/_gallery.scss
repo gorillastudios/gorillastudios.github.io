@@ -38,6 +38,15 @@
     .slick-slide {
       position: relative;
       height: 100%;
+      img {
+        opacity: 0.5;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+      }
+      .full-opacity,
+      &.slick-current img {
+        opacity: 1;
+      }
       .information {
         background: rgba(0,0,0,0.5);
         bottom: 0;
@@ -54,17 +63,16 @@
           margin: 0;
         }
         p.description {
-          max-height: 0;
+          display: none;
           font-style: italic;
           opacity: 0.8;
           overflow: hidden;
-          padding: 0 0;
+          padding: 10px 0;
           width: 100%;
           -webkit-transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
           transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
           &.open {
             max-height: 500px;
-            padding: 10px 0;
           }
         }
         span {

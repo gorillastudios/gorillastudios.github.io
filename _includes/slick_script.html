@@ -2,13 +2,13 @@
   $('.filmstrip').slick({
     arrows: true,
     centerMode: true,
-    centerPadding: '30px',
+    centerPadding: '10px',
     slidesToShow: 1,
     variableWidth: true
   });
 
   $(".toggle-information").click(function() {
-    $(this).closest("p").next(".description").toggleClass("open");
+    $(this).closest("p").next(".description").slideToggle(200);
   });
 </script>
 

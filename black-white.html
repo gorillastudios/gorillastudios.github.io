@@ -3,27 +3,13 @@ layout: fixed
 title: Black and White
 permalink: /black-and-white/
 ---
-<div class="filmstrip borders animated fadeIn">
-  <div><img src="/images/union/13.jpg" /></div>
-  <div><img src="/images/union/14.jpg" /></div>
-  <div><img src="/images/union/16.jpg" /></div>
-  <div><img src="/images/union/22.jpg" /></div>
-  <div><img src="/images/union/26.jpg" /></div>
-  <div><img src="/images/union/28.jpg" /></div>
-  <div><img src="/images/union/30.jpg" /></div>
-  <div><img src="/images/union/31.jpg" /></div>
-  <div><img src="/images/chicago/waves.jpg" /></div>
-  <div><img src="/images/union/21.jpg" /></div>
+<div class="filmstrip animated fadeIn zoomable">
+  {% assign sorted_photos = (site.data.photos | where: "portfolio", "black-white" | sort: "position") %}
+
+  {% for photo in sorted_photos %}
+    {% include strip_template.html %}
+  {% endfor %}
 </div>
 
-
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '30px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
-</script>
-
+{% include gallery_script.html %}
+{% include slick_script.html %}

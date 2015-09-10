@@ -5,7 +5,7 @@ permalink: /landscapes/
 ---
 
 
-<div class="filmstrip animated fadeIn">
+<div class="filmstrip animated fadeIn zoomable">
   {% assign sorted_photos = (site.data.photos | where: "portfolio", "landscape" | sort: "position") %}
 
   {% for photo in sorted_photos %}
@@ -13,4 +13,5 @@ permalink: /landscapes/
   {% endfor %}
 </div>
 
+{% include gallery_script.html %}
 {% include slick_script.html %}

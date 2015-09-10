@@ -2,34 +2,15 @@
 layout: fixed
 title: Music
 permalink: /music/
-id: music
 ---
-<div class="filmstrip animated fadeIn">
-  <div><img src="/images/music/0K6A4708.jpg" alt="The Reverend Horton Heat"/></div>
-  <div><img src="/images/bfbc/0K6A4160.jpg" alt="The Voodoo Fix"/></div>
-  <div><img src="/images/music/0K6A4393.jpg" alt="The Krank Daddies"/></div>
-  <div><img src="/images/music/0K6A4261.jpg" alt="Chops Axe"/></div>
-  <div><img src="/images/music/0K6A4022.jpg" alt="The Voodoo Fix"/></div>
-  <div><img src="/images/music/0K6A4923.jpg" alt="Jimbo of Reverend Horton Heat" /></div>
-  <div><img src="/images/bfbc/0K6A3865.jpg" alt="Evacuate The Earth"/></div>
-  <div><img src="/images/music/standing-bass2.jpg" alt="The Cadillac Cassanovas" /></div>
-  <div><img src="/images/music/4.jpg" alt="Bret Michaels"/></div>
-  <div><img src="/images/bfbc/0K6A3983.jpg" alt="The Krank Daddies"/></div>
-  <div><img src="/images/music/carl.jpg" alt="The Cadillac Cassanovas"/></div>
-  <div><img src="/images/music/0K6A4302.jpg" alt="The Krank Daddies"/></div>
-  <div><img src="/images/music/0K6A4915.jpg" alt="The Reverend Horton Heat"/></div>
-  <div><img src="/images/bfbc/0K6A3910.jpg" /></div>
-  <div><img src="/images/music/0K6A4771.jpg" alt="The Reverend Horton Heat"/></div>
+
+<div class="filmstrip animated fadeIn zoomable">
+  {% assign sorted_photos = (site.data.photos | where: "portfolio", "music" | sort: "position") %}
+
+  {% for photo in sorted_photos %}
+    {% include strip_template.html %}
+  {% endfor %}
 </div>
 
-
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '30px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
-</script>
-
+{% include gallery_script.html %}
+{% include slick_script.html %}

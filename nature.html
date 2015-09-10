@@ -4,27 +4,13 @@ title: Nature
 permalink: /nature/
 id: nature
 ---
-<div class="filmstrip animated fadeIn">
-  <div><img src="/images/nature/06.jpg" alt="Juvenile Bald Eagle in flight"/></div>
-  <div><img src="/images/nature/dandelion.jpg" alt="Dandelion head"/></div>
-  <div><img src="/images/nature/heron-portrait.jpg" alt="Portrait of a Great Blue Heron"/></div>
-  <div><img src="/images/nature/IMG_3495.jpg" alt="Ornamental grass"/></div>
-  <div><img src="/images/nature/CRW_0925.jpg" alt="White Egret in the Fox River"/></div>
-  <div><img src="/images/nature/IMG_7830.jpg" alt="Juvenile Bald Eagles"/></div>
-  <div><img src="/images/nature/0K6A3456.jpg" alt="Hibiscus Flower"/></div>
-  <div><img src="/images/nature/somber-sunrise.jpg" alt="A Great Blue Heron at sunrise"/></div>
-  <div><img src="/images/nature/CRW_0581.jpg" alt="An Egret spearing a fish"/></div>
-  <div><img src="/images/nature/CRW_0509.jpg" alt="A Great Blue Heron spears a fish"/></div>
+<div class="filmstrip animated fadeIn zoomable">
+  {% assign sorted_photos = (site.data.photos | where: "portfolio", "nature" | sort: "position") %}
+
+  {% for photo in sorted_photos %}
+    {% include strip_template.html %}
+  {% endfor %}
 </div>
 
-
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '30px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
-</script>
-
+{% include gallery_script.html %}
+{% include slick_script.html %}
