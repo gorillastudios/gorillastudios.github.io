@@ -359,6 +359,7 @@
     $('.zoomable').magnificPopup({
       delegate: '.zoomable_image',
       type: 'image',
+      mainClass: 'mfp-with-zoom',
       image: {
         verticalFit: true,
         titleSrc: function(item) {
@@ -385,7 +386,6 @@
     $(this).closest("p").next(".description").slideToggle(200);
   });
 </script>
-
 
 
     </div>

@@ -188,7 +188,7 @@ blockquote {
     overflow: hidden;
     max-height: 1000px; }
     .content--fixed .filmstrip {
-      height: 600px; }
+      height: 550px; }
 
   .content--floating {
     margin: 4em 10%; } }
@@ -384,7 +384,7 @@ blockquote {
       position: relative;
       height: 100%; }
       .filmstrip > div .slick-slide img {
-        opacity: 0.5;
+        opacity: 0.75;
         -webkit-transition: opacity 0.5s ease-in-out;
         transition: opacity 0.5s ease-in-out; }
       .filmstrip > div .slick-slide .full-opacity, .filmstrip > div .slick-slide.slick-current img {
@@ -412,8 +412,6 @@ blockquote {
           width: 100%;
           -webkit-transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
           transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
-          .filmstrip > div .slick-slide .information p.description.open {
-            max-height: 500px; }
         .filmstrip > div .slick-slide .information span {
           float: right;
           padding-right: 2px; }

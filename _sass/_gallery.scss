@@ -39,7 +39,7 @@
       position: relative;
       height: 100%;
       img {
-        opacity: 0.5;
+        opacity: 0.75;
         -webkit-transition: opacity 0.5s ease-in-out;
         transition: opacity 0.5s ease-in-out;
       }
@@ -71,9 +71,6 @@
           width: 100%;
           -webkit-transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
           transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-          &.open {
-            max-height: 500px;
-          }
         }
         span {
           float: right;
