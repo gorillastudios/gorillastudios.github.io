@@ -191,14 +191,12 @@
   thumbnail: /images/thumbnails/elizabeth-tower-bw-vertical.jpg
   portfolio: london
   position: iii
-  exposure: f/8, ISO50, 60s
   description: The sun peeks out from behind Elizabeth Tower
   tags: london, architecture, elizabeth-tower, black-and-white
 
 - title: The National Gallery
   image_path: london/national-gallery.jpg
   thumbnail: /images/thumbnails/national-gallery.jpg
-  exposure: f/8, ISO50, 60s
   tags: london, architecture, panorama, dusk, trafalgar-square
 
 - title: The Mystic Seaport
@@ -210,20 +208,17 @@
 - title: Sunset at Tower Bridge
   image_path: london/tower-bridge-sunset.jpg
   thumbnail: /images/thumbnails/tower-bridge-sunset.jpg
-  exposure: f/8, ISO50, 60s
   tags: london, architecture, sunset, tower-bridge, river-thames
 
 - title: Shad Thames
   orientation: vertical
   image_path: london/shad-thames.jpg
   thumbnail: /images/thumbnails/shad-thames.jpg
-  exposure: f/8, ISO50, 60s
   tags: london, architecture, black-and-white
 
 - title: Her Majestys Household Cavalry
   image_path: london/cavalry.jpg
   thumbnail: /images/thumbnails/cavalry.jpg
-  exposure: f/8, ISO50, 60s
   tags: london
 
 - title: The London Eye and Thames River
@@ -422,7 +417,7 @@
   thumbnail: /images/thumbnails/06.jpg
   portfolio: nature
   position: aaa
-  exposure: f/8, ISO50, 60s
+  exposure: f/5.6, ISO50, 1/250th
   tags: bald-eagle, nature, bird
 
 - title: Great Blue Heron
@@ -431,7 +426,6 @@
   thumbnail: /images/thumbnails/heron-portrait.jpg
   portfolio: nature
   position: ccc
-  exposure: f/8, ISO50, 60s
   tags: heron, nature, bird
 
 - title: Dandelion head
@@ -439,43 +433,40 @@
   thumbnail: /images/thumbnails/dandelion.jpg
   portfolio: nature
   position: bbb
-  exposure: f/8, ISO50, 60s
+  exposure: f/2.8, ISO100, 1/125th
   tags: flower, nature
 
 - title: A pair of egrets in flight
   image_path: nature/flight.jpg
   thumbnail: /images/thumbnails/flight.jpg
-  exposure: f/8, ISO50, 60s
+  exposure: f/5.6, ISO400, 1/250th
   tags: egret, nature, bird
 
 - title: Bug on flower
   image_path: nature/flower-bug.jpg
   thumbnail: /images/thumbnails/flower-bug.jpg
-  exposure: f/8, ISO50, 60s
+  exposure: f/4, ISO100, 1/100th
   tags: nature, macro, flower
 
 - title: Molting egret
   image_path: nature/itchy-egret.jpg
   thumbnail: /images/thumbnails/itchy-egret.jpg
-  exposure: f/8, ISO50, 60s
+  exposure: f/5.6, ISO100, 1/250th
   tags: nature, egret, bird
 
 - title: Blue dragonfly
   image_path: nature/dragonfly.jpg
   thumbnail: /images/thumbnails/dragonfly.jpg
-  exposure: f/8, ISO50, 60s
   tags: nature, macro
 
 - title: Purple flower
   image_path: nature/purple-flower.jpg
   thumbnail: /images/thumbnails/purple-flower.jpg
-  exposure: f/8, ISO50, 60s
   tags: nature, macro, flower
 
 - title: Dew drops on a blade of grass
   image_path: nature/droplet.jpg
   thumbnail: /images/thumbnails/droplet.jpg
-  exposure: f/8, ISO50, 60s
   tags: nature, macro, flower
 
 - title: An egret wading in the Fox River
@@ -495,7 +486,7 @@
   thumbnail: /images/thumbnails/somber-sunrise.jpg
   portfolio: nature
   postion: ggg
-  exposure: f/8, ISO50, 60s
+  exposure: f/5.6, ISO100, 1/2000th
   description: A Great Blue Heron perched in a tree having a quiet moment during sunrise
   tags: nature, bird, sunrise
 
