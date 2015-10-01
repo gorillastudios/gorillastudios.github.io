@@ -52,6 +52,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "aktiv-grotesk", sans-serif;
   font-weight: 600; }
 
+.centered {
+  text-align: center; }
+
 code {
   background: #ECF2FF;
   padding: 4px 2px; }
@@ -364,19 +367,24 @@ blockquote {
     font-weight: bold;
     min-height: 600px;
     width: 350px;
-    text-align: center;
     overflow: hidden; }
-    .blog-preview a span {
-      background: rgba(0, 0, 0, 0.5);
+    .blog-preview a .preview-meta {
+      background: rgba(0, 0, 0, 0.6);
       bottom: 0;
       font-size: 0.8em;
       left: 0;
-      padding: 50px;
+      padding: 40px 15px;
       position: absolute;
       right: 0;
       -webkit-transition: all 0.15s ease-in;
       transition: all 0.15s ease-in; }
-    .blog-preview a:hover span {
+      .blog-preview a .preview-meta span {
+        display: block; }
+        .blog-preview a .preview-meta span.preview-intro {
+          font-size: 0.85em;
+          font-style: italic;
+          font-weight: 300; }
+    .blog-preview a:hover .preview-meta {
       background: rgba(0, 0, 0, 0.8); }
 
 .blog-preview {

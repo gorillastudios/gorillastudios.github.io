@@ -241,21 +241,28 @@
     font-weight: bold;
     min-height: 600px;
     width: 350px;
-    text-align: center;
     overflow: hidden;
-    span {
-      background: rgba(0,0,0,0.5);
+    .preview-meta {
+      background: rgba(0,0,0,0.6);
       bottom: 0;
       font-size: 0.8em;
       left: 0;
-      padding: 50px;
+      padding: 40px 15px;
       position: absolute;
       right: 0;
       -webkit-transition: all 0.15s ease-in;
       transition: all 0.15s ease-in;
+      span {
+        display: block;
+        &.preview-intro {
+          font-size: 0.85em;
+          font-style: italic;
+          font-weight: 300;
+        }
+      }
     }
     &:hover {
-      span {
+      .preview-meta {
         background: rgba(0,0,0,0.8);
       }
     }

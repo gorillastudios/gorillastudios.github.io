@@ -6,9 +6,26 @@ id: blog
 ---
 <div class="filmstrip animated fadeIn">
 {% for post in site.posts limit: 9 %}
-  <div class="blog-preview" style="background: url('/images/{{ post.hero }}'); "><a href="{{ post.url }}"><span>{{ post.intro }}</span></a></div>
+
+<div class="blog-preview" style="background: url('/images/{{ post.hero }}'); ">
+  <a href="{{ post.url }}">
+    <div class="preview-meta">
+      <span class="preview-title">{{ post.title }}</span>
+      <span class="preview-intro">{{ post.intro }}</span>
+    </div>
+  </a>
+</div>
+
 {% endfor %}
-  <div class="blog-preview archive-link"><a href="/blog-archive"><span>Older posts</span></a></div>
+<div class="blog-preview archive-link">
+  <a href="/blog-archive">
+    <div class="preview-meta">
+      <span class="preview-title">Older posts</span>
+      <span class="preview-intro">Browse older blog posts here</span>
+    </div>
+  </a>
+</div>
+
 </div>
 
 
