@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/black-and-white/">
 
@@ -49,234 +50,97 @@
 
   <body >
 
-    <header class="site-header--fixed">
+    <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
-</script>
 
 
-
-    <div class="content--fixed">
-      <div class="filmstrip animated fadeIn zoomable">
-  
-
-  
-    <div>
-  <img src="/images/union/13.jpg" alt="" />
-  <section class="information">
-  <p>Quaker Tower
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/13.jpg" title="Quaker Tower"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">321 N Clark Street, Chicago<span><i class="fa fa-camera"></i>  1/125th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/14.jpg" alt="" />
-  <section class="information">
-  <p>65 W. Kinzie
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/14.jpg" title="65 W. Kinzie"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">65 W. Kinzie, Chicago<span><i class="fa fa-camera"></i>  1/125th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/16.jpg" alt="" />
-  <section class="information">
-  <p>Trump Tower
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/16.jpg" title="Trump Tower"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Trump Tower Chicago<span><i class="fa fa-camera"></i>  1/500th, f/9, ISO125</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/22.jpg" alt="" />
-  <section class="information">
-  <p>Trump Tower, Chicago
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/22.jpg" title="Trump Tower, Chicago"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Trump Tower Chicago<span><i class="fa fa-camera"></i>  1/500th, f/9, ISO125</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/28.jpg" alt="" />
-  <section class="information">
-  <p><i>Glass &amp; Steel</i>
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/28.jpg" title="<i>Glass &amp; Steel</i>"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A new skyscraper in the Streeterville neighborhood, Chicago<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/26.jpg" alt="" />
-  <section class="information">
-  <p>Pritzker Pavilion
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/26.jpg" title="Pritzker Pavilion"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Pritzker Pavilion band shell at Millenium Park<span><i class="fa fa-camera"></i>  1/320th, f/8, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/30.jpg" alt="" />
-  <section class="information">
-  <p>Trump Tower
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/30.jpg" title="Trump Tower"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Trump Tower Chicago<span><i class="fa fa-camera"></i>  1/200th, f/8, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/31.jpg" alt="" />
-  <section class="information">
-  <p>Citatel Center
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/31.jpg" title="Citatel Center"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Citadel Center, 131 S. Dearborn Street<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/chicago/waves.jpg" alt="" />
-  <section class="information">
-  <p>Aqua building, Chicago
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/chicago/waves.jpg" title="Aqua building, Chicago"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Aqua Building, Near North Side, Chicago<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/union/21.jpg" alt="" />
-  <section class="information">
-  <p>Trump Tower
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/union/21.jpg" title="Trump Tower"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Trump Tower Chicago<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-</div>
-
-<script>
-  $(document).ready(function() {
-    $('.zoomable').magnificPopup({
-      delegate: '.zoomable_image',
-      type: 'image',
-      mainClass: 'mfp-with-zoom',
-      image: {
-        verticalFit: true,
-        titleSrc: function(item) {
-          return item.el.attr('title');
-        }
-      },
-      gallery: {
-        enabled: true
-      }
-    });
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
   });
 </script>
 
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '10px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
 
-  $(".toggle-information").click(function() {
-    $(this).closest("p").next(".description").slideToggle(200);
-  });
-</script>
+    <div class="animated fadeIn">
+      <div class="portfolio">
+  
 
+  
+    <div class="item ">
+  <img src="/images/union/13.jpg">
+  <p>Quaker Tower<span>1/125th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/14.jpg">
+  <p>65 W. Kinzie<span>1/125th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/16.jpg">
+  <p>Trump Tower<span>1/500th, f/9, ISO125</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/22.jpg">
+  <p>Trump Tower, Chicago<span>1/500th, f/9, ISO125</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/28.jpg">
+  <p><i>Glass &amp; Steel</i><span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/26.jpg">
+  <p>Pritzker Pavilion<span>1/320th, f/8, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/30.jpg">
+  <p>Trump Tower<span>1/200th, f/8, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/31.jpg">
+  <p>Citatel Center<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/chicago/waves.jpg">
+  <p>Aqua building, Chicago<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/union/21.jpg">
+  <p>Trump Tower<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+</div>
 
     </div>
 

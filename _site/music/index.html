@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/music/">
 
@@ -49,313 +50,127 @@
 
   <body >
 
-    <header class="site-header--fixed">
+    <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
-</script>
 
 
-
-    <div class="content--fixed">
-      <div class="filmstrip animated fadeIn zoomable">
-  
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4708.jpg" alt="" />
-  <section class="information">
-  <p>Reverend Horton Heat
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4708.jpg" title="Reverend Horton Heat"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Reverend Horton Heat performs at the Bigfoot Bandcamp Festival, August 8th, 2015<span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4160.jpg" alt="" />
-  <section class="information">
-  <p>The Voodoo Fix
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4160.jpg" title="The Voodoo Fix"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Voodoo Fix<span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4393.jpg" alt="" />
-  <section class="information">
-  <p>The Krank Daddies
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4393.jpg" title="The Krank Daddies"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Chops McClintok of The Krank Daddies takes a quick drink during their set<span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4261.jpg" alt="" />
-  <section class="information">
-  <p>The Krank Daddies
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4261.jpg" title="The Krank Daddies"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Chops McClintok of The Krank Daddies Gibson Les Paul<span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4022.jpg" alt="" />
-  <section class="information">
-  <p>The Voodoo Fix
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4022.jpg" title="The Voodoo Fix"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4923.jpg" alt="" />
-  <section class="information">
-  <p>Reverend Horton Heat
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4923.jpg" title="Reverend Horton Heat"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Jimbo of the Reverent Horton Heat throws up the horns<span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A3865.jpg" alt="" />
-  <section class="information">
-  <p>Bigfoot Bandcamp
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A3865.jpg" title="Bigfoot Bandcamp"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/music/standing-bass2.jpg" alt="" />
-  <section class="information">
-  <p>Cadillac Cassanovas
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/music/standing-bass2.jpg" title="Cadillac Cassanovas"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/125th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bm/4.jpg" alt="" />
-  <section class="information">
-  <p>Bret Michaels
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bm/4.jpg" title="Bret Michaels"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/125th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A3983.jpg" alt="" />
-  <section class="information">
-  <p>The Krank Daddies
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A3983.jpg" title="The Krank Daddies"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/music/carl.jpg" alt="" />
-  <section class="information">
-  <p>Cadillac Cassanovas
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/music/carl.jpg" title="Cadillac Cassanovas"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/125th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4302.jpg" alt="" />
-  <section class="information">
-  <p>The Krank Daddies
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4302.jpg" title="The Krank Daddies"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4915.jpg" alt="" />
-  <section class="information">
-  <p>Reverend Horton Heat
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4915.jpg" title="Reverend Horton Heat"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A3910.jpg" alt="" />
-  <section class="information">
-  <p>Bigfoot Bandcamp
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A3910.jpg" title="Bigfoot Bandcamp"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/bfbc/0K6A4771.jpg" alt="" />
-  <section class="information">
-  <p>Reverend Horton Heat
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/bfbc/0K6A4771.jpg" title="Reverend Horton Heat"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description"><span><i class="fa fa-camera"></i>  1/500th, f/7.1, ISO200</p>
-  </section>
-
-</div>
-
-
-  
-</div>
-
-<script>
-  $(document).ready(function() {
-    $('.zoomable').magnificPopup({
-      delegate: '.zoomable_image',
-      type: 'image',
-      mainClass: 'mfp-with-zoom',
-      image: {
-        verticalFit: true,
-        titleSrc: function(item) {
-          return item.el.attr('title');
-        }
-      },
-      gallery: {
-        enabled: true
-      }
-    });
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
   });
 </script>
 
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '10px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
 
-  $(".toggle-information").click(function() {
-    $(this).closest("p").next(".description").slideToggle(200);
-  });
-</script>
+    <div class="animated fadeIn">
+      <div class="portfolio">
+  
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A4708.jpg">
+  <p>Reverend Horton Heat<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A4160.jpg">
+  <p>The Voodoo Fix<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/bfbc/0K6A4393.jpg">
+  <p>The Krank Daddies<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A4261.jpg">
+  <p>The Krank Daddies<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/bfbc/0K6A4022.jpg">
+  <p>The Voodoo Fix<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/bfbc/0K6A4923.jpg">
+  <p>Reverend Horton Heat<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A3865.jpg">
+  <p>Bigfoot Bandcamp<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/music/standing-bass2.jpg">
+  <p>Cadillac Cassanovas<span>1/125th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bm/4.jpg">
+  <p>Bret Michaels<span>1/125th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A3983.jpg">
+  <p>The Krank Daddies<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/music/carl.jpg">
+  <p>Cadillac Cassanovas<span>1/125th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A4302.jpg">
+  <p>The Krank Daddies<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A4915.jpg">
+  <p>Reverend Horton Heat<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/bfbc/0K6A3910.jpg">
+  <p>Bigfoot Bandcamp<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/bfbc/0K6A4771.jpg">
+  <p>Reverend Horton Heat<span>1/500th, f/7.1, ISO200</p>
+</div>
+
+  
+</div>
 
 
     </div>

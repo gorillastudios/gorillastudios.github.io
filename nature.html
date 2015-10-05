@@ -1,16 +1,13 @@
 ---
-layout: fixed
+layout: default
 title: Nature
 permalink: /nature/
-id: nature
 ---
-<div class="filmstrip animated fadeIn zoomable">
+<div class="portfolio">
   {% assign sorted_photos = (site.data.photos | where: "portfolio", "nature" | sort: "position") %}
 
   {% for photo in sorted_photos %}
-    {% include strip_template.html %}
+    {% include portfolio_template.html %}
   {% endfor %}
 </div>
 
-{% include gallery_script.html %}
-{% include slick_script.html %}

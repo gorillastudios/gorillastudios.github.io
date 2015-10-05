@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/landscapes/">
 
@@ -49,234 +50,97 @@
 
   <body >
 
-    <header class="site-header--fixed">
+    <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
-</script>
 
 
-
-    <div class="content--fixed">
-      <div class="filmstrip animated fadeIn zoomable">
-  
-
-  
-    <div>
-  <img src="/images/catalog/0K6A7508.jpg" alt="" />
-  <section class="information">
-  <p>The Brooklyn Bridge
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/catalog/0K6A7508.jpg" title="The Brooklyn Bridge"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Brooklyn Bridge spans over the East River with One WTC standing tall behind<span><i class="fa fa-camera"></i>  90s, f/16, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/portfolio/masons-dock.jpg" alt="" />
-  <section class="information">
-  <p>Masons Island
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/portfolio/masons-dock.jpg" title="Masons Island"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A small rowboat is tied up during a serene sunset on Masons Island in Mystic, Connecticut.<span><i class="fa fa-camera"></i>  f/8, ISO50, 30s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/portfolio/leroy-oaks.jpg" alt="" />
-  <section class="information">
-  <p>Leroy Oaks
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/portfolio/leroy-oaks.jpg" title="Leroy Oaks"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A heavy snowstorm at Leroy Oaks Forest Preserve, St. Charles, IL<span><i class="fa fa-camera"></i>  f/8, ISO50, 30s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/new-england/watch-hill-3.jpg" alt="" />
-  <section class="information">
-  <p>Watch Hill
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/new-england/watch-hill-3.jpg" title="Watch Hill"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A starry night over the sand dunes at Watch Hill, RI<span><i class="fa fa-camera"></i>  1/125th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/new-england/mystic-river.jpg" alt="" />
-  <section class="information">
-  <p>Mystic River
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/new-england/mystic-river.jpg" title="Mystic River"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A fall afternoon in New England, taken on the Mystic River, Mystic CT<span><i class="fa fa-camera"></i>  1/150th, f/8, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/chicago/inky-lake2.jpg" alt="" />
-  <section class="information">
-  <p>Chicago
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/chicago/inky-lake2.jpg" title="Chicago"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A long exposure of the Chicago cityscape towering over Lake Michigan<span><i class="fa fa-camera"></i>  f/8, ISO50, 30s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/new-england/sb-rocks-sunset.jpg" alt="" />
-  <section class="information">
-  <p>Stonington Borough Sunset
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/new-england/sb-rocks-sunset.jpg" title="Stonington Borough Sunset"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A November sunset along the shore of Stonington Borough point<span><i class="fa fa-camera"></i>  30s, f/8, ISO50</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/catalog/0K6A2937.jpg" alt="" />
-  <section class="information">
-  <p><i>Good Morning Mystic</i>
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/catalog/0K6A2937.jpg" title="<i>Good Morning Mystic</i>"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Mystic River bascule bridge at sunrise, downtown Mystic Connecticut<span><i class="fa fa-camera"></i>  1/30th, f/8, ISO50</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/portfolio/nassau.jpg" alt="" />
-  <section class="information">
-  <p>Bahamian Sunrise
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/portfolio/nassau.jpg" title="Bahamian Sunrise"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">An early morning sunrise from the beaches of Nassau, Bahamas<span><i class="fa fa-camera"></i>  20s, f/8, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/catalog/0K6A3373.jpg" alt="" />
-  <section class="information">
-  <p>Sunset on Masons Island
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/catalog/0K6A3373.jpg" title="Sunset on Masons Island"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A fall sunset from Masons Island, Mystic CT<span><i class="fa fa-camera"></i>  5s, f/22, ISO50</p>
-  </section>
-
-</div>
-
-
-  
-</div>
-
-<script>
-  $(document).ready(function() {
-    $('.zoomable').magnificPopup({
-      delegate: '.zoomable_image',
-      type: 'image',
-      mainClass: 'mfp-with-zoom',
-      image: {
-        verticalFit: true,
-        titleSrc: function(item) {
-          return item.el.attr('title');
-        }
-      },
-      gallery: {
-        enabled: true
-      }
-    });
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
   });
 </script>
 
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '10px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
 
-  $(".toggle-information").click(function() {
-    $(this).closest("p").next(".description").slideToggle(200);
-  });
-</script>
+    <div class="animated fadeIn">
+      <div class="portfolio">
+  
 
+  
+    <div class="item ">
+  <img src="/images/catalog/0K6A7508.jpg">
+  <p>The Brooklyn Bridge<span>90s, f/16, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/portfolio/masons-dock.jpg">
+  <p>Masons Island<span>f/8, ISO50, 30s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/portfolio/leroy-oaks.jpg">
+  <p>Leroy Oaks<span>f/8, ISO50, 30s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/new-england/watch-hill-3.jpg">
+  <p>Watch Hill<span>1/125th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/new-england/mystic-river.jpg">
+  <p>Mystic River<span>1/150th, f/8, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/chicago/inky-lake2.jpg">
+  <p>Chicago<span>f/8, ISO50, 30s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/new-england/sb-rocks-sunset.jpg">
+  <p>Stonington Borough Sunset<span>30s, f/8, ISO50</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/catalog/0K6A2937.jpg">
+  <p><i>Good Morning Mystic</i><span>1/30th, f/8, ISO50</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/portfolio/nassau.jpg">
+  <p>Bahamian Sunrise<span>20s, f/8, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/catalog/0K6A3373.jpg">
+  <p>Sunset on Masons Island<span>5s, f/22, ISO50</p>
+</div>
+
+  
+</div>
 
     </div>
 

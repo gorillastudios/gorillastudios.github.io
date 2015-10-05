@@ -1,51 +1,46 @@
-.row {
-  overflow: hidden;
-  .block {
-    float: left;
-    width: 100%;
-  }
+
+// ---------------------------------- Content
+.content {
+  padding: 10px;
 }
 
-
-@media screen and (min-width: 40em) {
-  .one-third { width: 33.333% !important; }
-  .two-thirds { width: 66.666% !important; }
-}
-
-
-
-
-
-
-
-.content--fixed {
-  position: absolute;
-  overflow: hidden;
-  max-height: 500px;
-  width: 100%;
-  .filmstrip {
-    height: 500px;
-  }
-}
-
-.content--floating {
-  margin: 1em 10px;
-}
-
-@media screen and (min-width: 60em) {
-  .content--fixed {
-    position: fixed;
-    top: 20%;
-    left: 0;
-    right: 0;
-    bottom: 0;
+@media screen and (min-width: 600px) {
+  .content {
+    margin: 0 auto;
     overflow: hidden;
-    max-height: 1000px;
-    .filmstrip {
-      height: 550px;
+    padding: 0;
+    max-width: $site-width;
+    width: 95%;
+  }
+}
+
+
+// ---------------------------------- Modules
+.module {
+  border-bottom: 1px solid $hairline;
+  padding: 20px 0;
+  > h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+  }
+  > div {
+    overflow: hidden;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .module {
+    padding: 0 0 6em 0;
+    h2 {
+      font-size: 3em;
+      margin: 1em 0;
+    }
+    div {
+      margin: 0 auto;
+      max-width: $site-width;
     }
   }
-  .content--floating {
-    margin: 4em 10%;
-  }
 }
+

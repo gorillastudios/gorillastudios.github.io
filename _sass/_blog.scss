@@ -1,5 +1,6 @@
 // --------------------------------------- Individual Posts
 .post {
+  padding: 10px;
   img { max-width: 100%; }
   .post-title {
     font-size: 1.777em;
@@ -15,6 +16,9 @@
   .post-header, h2, h3, h4, h5, p {
     margin: 0 auto 1.5em auto;
     max-width: 900px;
+  }
+  h4 {
+    font-size: 1.5em;
   }
   p {
     line-height: 1.777em;
@@ -76,15 +80,21 @@
 @media screen and (min-width: 600px) {
   .post {
     padding: 0 35px;
+    p {
+      font-size: 120%;
+    }
   }
 }
 
 
 @media screen and (min-width: 960px) {
   .post {
-    padding: 0;
+    margin: 0 auto;
+    padding: 2em 0;
+    max-width: $site-width;
   }
 }
+
 @media screen and (min-width: 40em) {
   .module-half-half {
     margin: 0 auto 1.5em auto;
@@ -168,7 +178,6 @@
       height: 122px;
       top: 50%;
       width: 400px;
-      //left: 29px;
       opacity: 0;
       text-align: left;
       transform: translateY(-50%);
@@ -230,77 +239,43 @@
 }
 
 
-// --------------------------------------- Blog Previews
-.blog-preview {
-  position: relative;
-  a {
-    top: 0;
-    bottom: 0;
-    color: white;
-    display: block;
-    font-weight: bold;
-    min-height: 600px;
-    width: 350px;
-    overflow: hidden;
-    .preview-meta {
-      background: rgba(0,0,0,0.6);
-      bottom: 0;
-      font-size: 0.8em;
-      left: 0;
-      padding: 40px 15px;
-      position: absolute;
-      right: 0;
-      -webkit-transition: all 0.15s ease-in;
-      transition: all 0.15s ease-in;
-      span {
-        display: block;
-        &.preview-intro {
-          font-size: 0.85em;
-          font-style: italic;
-          font-weight: 300;
-        }
-      }
-    }
-    &:hover {
-      .preview-meta {
-        background: rgba(0,0,0,0.8);
-      }
-    }
-  }
-}
-
-.blog-preview {
-  background-size: cover;
-  background-position: 50%;
-  &.archive-link a { background: url('/images/previews/archives.jpg'); }
-  &.landscapes a { background: url('/images/previews/landscapes.jpg'); }
-  &.chicago a { background: url('/images/previews/chicago.jpg'); }
-  &.music a { background: url('/images/previews/music.jpg'); }
-  &.new-york a { background: url('/images/previews/new-york.jpg'); }
-  &.black-white a { background: url('/images/previews/black-white.jpg'); }
-  &.london a { background: url('/images/previews/london.jpg'); }
-  &.nature a { background: url('/images/previews/nature.jpg'); }
-}
-
-
-
-
 
 
 .blog-archive-list {
   -webkit-column-count: 2;
   column-count: 2;
+  margin-bottom: 4em;
   a {
-    border-bottom: 1px solid $hairline;
+    border-bottom: 1px dotted $hairline;
     color: $charcoal;
     display: inline-block;
     width: 100%;
     padding: 10px 0;
     span {
-      color: #aaa;
+      color: #999;
+      display: block;
+      font-family: $serif-font;
+      font-style: italic;
+      font-size: 1em;
+      line-height: 1.25em;
+      margin-bottom: 5px;
+    }
+    .date {
+      color: $red;
     }
     &:hover {
       background: #f9f9f9;
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .blog-archive-list {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    a {
+      padding: 10px;
     }
   }
 }

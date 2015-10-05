@@ -1,0 +1,150 @@
+
+// ---------------------------------------- About
+.module.about {
+  p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .module.about {
+    div {
+      -webkit-column-count: 2;
+      column-count: 2;
+      -webkit-column-gap: 20px;
+      column-gap: 20px;
+      width: 60%;
+      p {
+        font-size: 1em;
+        margin: 0;
+      }
+    }
+  }
+}
+
+// ---------------------------------------- Contact
+@media screen and (min-width: 600px) {
+  .module.contact {
+    div {
+      width: 40%;
+    }
+  }
+}
+
+// ---------------------------------------- Portfolio Links
+
+.portfolio-link {
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 10px 6em 10px;
+  width: 60%;
+  .link {
+    background-size: cover;
+    background-position: 0 50%;
+    border-radius: 50%;
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .info {
+    border: none;
+    padding-top: 10px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    p {
+      font-weight: bold;
+      line-height: 1.05em;
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .portfolio-link {
+    float: left;
+    padding: 10px !important;
+    width: 20% !important;
+    .link {
+      box-shadow:
+        inset 0 0 0 12px rgba(255,255,255,.25),
+        0 1px 2px rgba(255,255,255,0.1);
+      transition: all 0.4s ease-in-out;
+    }
+    .info {
+      background: rgba(0,0,0, 0.3);
+      border-radius: 50%;
+      color: white;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      padding: 70% 25px 0 25px !important;
+      transform: scale(0);
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      top: 0;
+      text-shadow:
+        0 0 1px #fff,
+        0 1px 2px rgba(0,0,0,0.3);
+    }
+    &:hover {
+      .link {
+        box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,0.1),
+        0 1px 2px rgba(0,0,0,0.1);
+      }
+      .info {
+        transform: scale(1);
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// ---------------------------------------- Index New & Blog
+#index-news {
+  p {
+    border-bottom: 1px dotted $hairline;
+    padding-bottom: 1em;
+  }
+  span {
+    color: $red;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #index-news p {
+    margin-right: 1em;
+  }
+}
+
+#index-blog ul li a {
+  border-bottom: 1px dotted $hairline;
+  display: block;
+  padding: 20px 0;
+  &:hover {
+    background: #f5f5f5;
+  }
+  h3, p {
+    margin: 0;
+  }
+  p {
+    color: #999;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #index-blog ul li a {
+    padding: 1em;
+  }
+  #blog > div {
+    width: 60%;
+    section {
+      float: left;
+      width: 50%;
+    }
+  }
+}

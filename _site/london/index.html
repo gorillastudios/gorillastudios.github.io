@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/london/">
 
@@ -49,234 +50,97 @@
 
   <body >
 
-    <header class="site-header--fixed">
+    <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
-</script>
 
 
-
-    <div class="content--fixed">
-      <div class="filmstrip animated fadeIn zoomable">
-  
-
-  
-    <div>
-  <img src="/images/london/bridge-lounge.jpg" alt="" />
-  <section class="information">
-  <p>The Bridge Lounge
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/bridge-lounge.jpg" title="The Bridge Lounge"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Bridge Lounge on Tooley Street, Southwark London<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/cavalry-guard.jpg" alt="" />
-  <section class="information">
-  <p>Cavalry Guard
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/cavalry-guard.jpg" title="Cavalry Guard"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Her Majestys Household Cavalry Life Guard<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/gallery-fountain.jpg" alt="" />
-  <section class="information">
-  <p>National Gallery fountain
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/gallery-fountain.jpg" title="National Gallery fountain"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">One of the two fountains in front of the National Gallery in London<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/leadenhall-market.jpg" alt="" />
-  <section class="information">
-  <p>Leadenhall Market
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/leadenhall-market.jpg" title="Leadenhall Market"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The iconic Leadenhall Market off of Bishopsgate Road, London<span><i class="fa fa-camera"></i>  4s, f/8, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/tower-pano-second.jpg" alt="" />
-  <section class="information">
-  <p>Tower Bridge
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/tower-pano-second.jpg" title="Tower Bridge"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A 9 shot 180&deg; panorama of Tower Bridge and Potters Fields Park<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/lions-tower.jpg" alt="" />
-  <section class="information">
-  <p>Trafalgar Square
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/lions-tower.jpg" title="Trafalgar Square"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The lions of Trafalgar Square stand guard<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/shard-streaks.jpg" alt="" />
-  <section class="information">
-  <p>The Shard
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/shard-streaks.jpg" title="The Shard"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Shard seen from Tooley Street<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/london-eye-2015.jpg" alt="" />
-  <section class="information">
-  <p>The London Eye and Thames River
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/london-eye-2015.jpg" title="The London Eye and Thames River"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The London Eye overlooks the Thames River seen from Queen Elizabeth Bridge. A long exposure turns the passing boats into surreal light streaks across the smooth water<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/elizabeth-tower-bw-vertical.jpg" alt="" />
-  <section class="information">
-  <p>Elizabeth Tower
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/elizabeth-tower-bw-vertical.jpg" title="Elizabeth Tower"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The sun peeks out from behind Elizabeth Tower<span><i class="fa fa-camera"></i>  </p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/london/trafalgar-square.jpg" alt="" />
-  <section class="information">
-  <p>Trafalgar Square
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/london/trafalgar-square.jpg" title="Trafalgar Square"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A 12 shot panorama of Trafalgar Square taken from the steps of the National Gallery<span><i class="fa fa-camera"></i>  f/8, ISO50, 60s</p>
-  </section>
-
-</div>
-
-
-  
-</div>
-
-<script>
-  $(document).ready(function() {
-    $('.zoomable').magnificPopup({
-      delegate: '.zoomable_image',
-      type: 'image',
-      mainClass: 'mfp-with-zoom',
-      image: {
-        verticalFit: true,
-        titleSrc: function(item) {
-          return item.el.attr('title');
-        }
-      },
-      gallery: {
-        enabled: true
-      }
-    });
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
   });
 </script>
 
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '10px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
 
-  $(".toggle-information").click(function() {
-    $(this).closest("p").next(".description").slideToggle(200);
-  });
-</script>
+    <div class="animated fadeIn">
+      <div class="portfolio">
+  
 
+  
+    <div class="item ">
+  <img src="/images/london/bridge-lounge.jpg">
+  <p>The Bridge Lounge<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/london/cavalry-guard.jpg">
+  <p>Cavalry Guard<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/london/gallery-fountain.jpg">
+  <p>National Gallery fountain<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/london/leadenhall-market.jpg">
+  <p>Leadenhall Market<span>4s, f/8, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/london/tower-pano-second.jpg">
+  <p>Tower Bridge<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/london/lions-tower.jpg">
+  <p>Trafalgar Square<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/london/shard-streaks.jpg">
+  <p>The Shard<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/london/london-eye-2015.jpg">
+  <p>The London Eye and Thames River<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/london/elizabeth-tower-bw-vertical.jpg">
+  <p>Elizabeth Tower<span></p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/london/trafalgar-square.jpg">
+  <p>Trafalgar Square<span>f/8, ISO50, 60s</p>
+</div>
+
+  
+</div>
 
     </div>
 

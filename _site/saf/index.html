@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/saf/">
 
@@ -50,34 +51,31 @@
   <body >
 
     <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
+
+
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
+  });
 </script>
 
 
-
-    <div class="content--floating animated fadeIn">
+    <div class="animated fadeIn">
       <div class="post">
   <h3>Christopher Peak</h3>
   <p>My name is Christopher Peak and I am a loving father &amp; husband, web-developer, and photographer from Chicago, IL. I have been a landscape &amp; nature photographer since high school but I have always loved taking portraits of friends and family. Since my daughter was born in August of 2014 I have spent all my free time playing with her, making her laugh, and taking candid portraits. She truly has awakened my love of portraiture and I want to share my talent with other families by offering my services on a professional level. Taking photos of her almost every day allows me to practice one of the most important aspects of candid portraits - capturing that special moment that can come and go in an instant - the little laugh, the smile, or simple look someone gives. When I record those moments it makes me smile ear to ear, and I can enjoy them for the rest of my life.</p>

@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/">
 
@@ -49,59 +50,171 @@
 
   <body >
 
-    <header class="site-header--fixed">
+    <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
-</script>
 
 
-
-    <div class="content--fixed">
-      <div class="filmstrip animated fadeIn">
-  <div><img class="full-opacity" src="/images/music/0K6A4708.jpg" alt="Reverend Horton Heat"/></div>
-  <div><img class="full-opacity" src="/images/portfolio/archways.jpg" alt="Mary Bartelme Park, Chicago" /></div>
-  <div><img class="full-opacity" src="/images/nature/06.jpg" alt="Juvenile Bald Eagle in flight"/></div>
-  <div><img class="full-opacity" src="/images/music/0K6A4915.jpg" alt="Jim Bob, Reverend Horton Heat" /></div>
-  <div><img class="full-opacity" src="/images/portfolio/0K6A7506.jpg" alt="The Brooklyn Bridge, One WTC, and Manhattan"/></div>
-  <div><img class="full-opacity" src="/images/music/0K6A4302.jpg" alt="Chops McClintock, The Krank Daddies" /></div>
-  <div><img class="full-opacity" src="/images/portfolio/london-eye-2015.jpg" alt="The London Eye from Queen Elizabeth Bridge" /></div>
-</div>
-
-
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    autoplay: true,
-    dots: true,
-    initialSlide: 3,
-    centerMode: true,
-    centerPadding: '30px',
-    slidesToShow: 1,
-    variableWidth: true
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
   });
 </script>
 
+
+    <div class="animated fadeIn">
+      <div id="marquee">
+</div>
+
+
+<section class="module about">
+  <h2>Fine art photography</h2>
+  <div>
+    <p>Founded in 2003, Gorilla-Studios is a showcase for my photography portfolio. I have been lucky enough to shoot in Chicago, New York, Tokyo, and London. While primarily focusing on landscape and urban photography, I also specialize in live music, portraits, and nature photography. I am available for commission work so please contact me to discuss your project. You will find a selection of <a href="/#portfolios">my work in my portfolios</a> with additional or specific content available upon request.</p>
+  </div>
+</section>
+
+
+<section class="module portfolios anchor" id="portfolios">
+  <h2>Portfolios</h2>
+  <div>
+    <div class="portfolio-link">
+  <a href="/landscapes/"><div class="link" style="background-image: url('/images/previews/landscapes.jpg')">
+      <section class="info">
+      <p>Landscapes</p>
+      </section>
+  </div></a>
+</div>
+
+<div class="portfolio-link">
+  <a href="/music/"><div class="link" style="background-image: url('/images/previews/music.jpg')">
+      <section class="info">
+      <p>Music</p>
+      </section>
+  </div></a>
+</div>
+
+<div class="portfolio-link">
+  <a href="/black-and-white/"><div class="link" style="background-image: url('/images/previews/black-white.jpg')">
+      <section class="info">
+      <p>Black &amp; White</p>
+      </section>
+  </div></a>
+</div>
+
+<div class="portfolio-link">
+  <a href="/nature/"><div class="link" style="background-image: url('/images/previews/nature.jpg')">
+      <section class="info">
+      <p>Nature</p>
+      </section>
+  </div></a>
+</div>
+
+
+<div class="portfolio-link">
+  <a href="/chicago/"><div class="link" style="background-image: url('/images/previews/chicago.jpg')">
+      <section class="info">
+      <p>Chicago</p>
+      </section>
+  </div></a>
+</div>
+
+
+
+  </div>
+</section>
+
+
+<section class="module blog anchor" id="blog">
+  <h2>News &amp; Blog</h2>
+  <div>
+    <section id="index-news">
+  <p><span>10 • 5 • 15</span> Introducing Gorilla-Studios new site. This is the 6th major revision to the site, and hopefully the last for a while now. Please enjoy.</p>
+  <p><span>10 • 1 • 15</span> I am currently looking into printers and framers in the area so I can start selling my work again. Please stay tuned.</p>
+  <p><span>09 • 28 • 15</span> Gorilla-Studios hit 50 likes on Facebook, please <a href="https://www.facebook.com/gorillastudiosphotography" target="blank">check out my page</a> and click the like button if you enjoy my work.</p>
+</section>
+<section id="index-blog">
+  <ul>
+    
+    <li><a href="/blog/2015/10/01/twenty-years.html">
+      <h3>The 20 Year Photo</h3>
+      <p>My journey as a photographer over the last 20 years</p>
+    </a></li>
+    
+    <li><a href="/blog/2015/08/10/bigfoot.html">
+      <h3>Bigfoot Bandcamp</h3>
+      <p>My shots from the Bigfoot Bandcamp Festival in central IL</p>
+    </a></li>
+    
+    <li><a href="/photo/2015/06/27/morning-L.html">
+      <h3>Morning on the L</h3>
+      <p>A quick snapshot from my iPhone on the L</p>
+    </a></li>
+    
+    <li><a href="/photo/2015/06/09/campton-hills.html">
+      <h3>Campton Hills Road</h3>
+      <p>From the archives - a night exposure from Campton Hills Road</p>
+    </a></li>
+    
+    <li><a href="/blog-archive">
+      <h3>Older posts</h3>
+    </a></li>
+  </ul>
+</section>
+
+  </div>
+</section>
+
+<section class="module contact anchor" id="contact">
+  <h2>Contact</h2>
+  <div>
+    <form class="contact" action="//formspree.io/chris@gorilla-studios.com"
+      method="POST">
+      <input type="text" name="name" placeholder="Name">
+      <input type="email" name="_replyto" placeholder="Email">
+      <textarea rows="4" name="body" placeholder="Message"></textarea>
+      <input type="submit" value="Send">
+      <input type="hidden" name="_next" value="//www.gorilla-studios.com" />
+    </form>
+  </div>
+</section>
+
+<script>
+  $(window).scroll(function() {
+    $("#marquee").css({
+      'opacity' : 1-(($(this).scrollTop())/400)
+    });
+  });
+
+    $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 500);
+          return false;
+        }
+      }
+    });
+  });
+
+</script>
 
     </div>
 

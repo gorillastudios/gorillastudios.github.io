@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/chicago/">
 
@@ -49,281 +50,115 @@
 
   <body >
 
-    <header class="site-header--fixed">
+    <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
-</script>
 
 
-
-    <div class="content--fixed">
-      <div class="filmstrip animated fadeIn zoomable">
-  
-
-  
-    <div>
-  <img src="/images/black-white/sears-abstract.jpg" alt="" />
-  <section class="information">
-  <p>City of broad shoulders
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/black-white/sears-abstract.jpg" title="City of broad shoulders"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Sears Tower stands tall over Jackson &amp; Franklin<span><i class="fa fa-camera"></i>  1/200th, f/8, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/chicago/wrigley-trump.jpg" alt="" />
-  <section class="information">
-  <p>The Wrigley Building and Trump Tower
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/chicago/wrigley-trump.jpg" title="The Wrigley Building and Trump Tower"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The Wrigley Building and Trump Tower taken on a summers evening from Michigan Ave<span><i class="fa fa-camera"></i>  f/8, ISO50, 30s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/chicago/lion-portrait.jpg" alt="" />
-  <section class="information">
-  <p>Art Institute Lion
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/chicago/lion-portrait.jpg" title="Art Institute Lion"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A portrait of an Art Institute Lion<span><i class="fa fa-camera"></i>  1/60th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/chicago/IMG_2167.jpg" alt="" />
-  <section class="information">
-  <p>Chicago skyline
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/chicago/IMG_2167.jpg" title="Chicago skyline"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The John Hancock Building standing tall among the Chicago skyline, taken from North Ave beach<span><i class="fa fa-camera"></i>  30s, f/16, ISO50</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/portfolio/pritzker.jpg" alt="" />
-  <section class="information">
-  <p>Pritzker Pavilion
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/portfolio/pritzker.jpg" title="Pritzker Pavilion"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A fresh layer of snow covers the Pritzker Pavilion field in Millenium Park, Chicago IL<span><i class="fa fa-camera"></i>  f/8, ISO50, 30s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/catalog/IMG_5855.jpg" alt="" />
-  <section class="information">
-  <p>Cloud Gate
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/catalog/IMG_5855.jpg" title="Cloud Gate"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Cloud Gate on a fall afternoon from the top of Aon Center<span><i class="fa fa-camera"></i>  1/250th, f/5.6, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/chicago/wrigley-clock.jpg" alt="" />
-  <section class="information">
-  <p>Wrigley Building
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/chicago/wrigley-clock.jpg" title="Wrigley Building"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The clock tower on the historic Wrigley Building<span><i class="fa fa-camera"></i>  1/125th, f/8, ISO4000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/portfolio/snowy-bean.jpg" alt="" />
-  <section class="information">
-  <p>Cloud Gate Snowstorm
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/portfolio/snowy-bean.jpg" title="Cloud Gate Snowstorm"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A couple temporarily finds shelter beneath Cloud Gate in Millenium Park during a brutal Chicago snowstorm<span><i class="fa fa-camera"></i>  f/8, ISO50, 30s</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/catalog/IMG_7397.jpg" alt="" />
-  <section class="information">
-  <p>The Picasso
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/catalog/IMG_7397.jpg" title="The Picasso"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">A freezing cold Picasso Sculpture stands guard over Daley Plaza in the heart of the Loop, downtown Chicago<span><i class="fa fa-camera"></i>  10s, f/11, ISO50</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/catalog/0K6A9531.jpg" alt="" />
-  <section class="information">
-  <p>Millenium Park Fountain
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/catalog/0K6A9531.jpg" title="Millenium Park Fountain"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Cooling off in the reflecting pool at Millenium park on a hot summer evening<span><i class="fa fa-camera"></i>  1/640th, f/3.5, ISO2000</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/catalog/CRW_2369.jpg" alt="" />
-  <section class="information">
-  <p>The Bean
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/catalog/CRW_2369.jpg" title="The Bean"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">Cloud Gate in Millenium Park<span><i class="fa fa-camera"></i>  1/1000th, f/5.6, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/chicago/CRW_6032.jpg" alt="" />
-  <section class="information">
-  <p>Chicago at dusk
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/chicago/CRW_6032.jpg" title="Chicago at dusk"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">The John Hancock center and Lake Shore Drive at dusk<span><i class="fa fa-camera"></i>  15s, f/16, ISO100</p>
-  </section>
-
-</div>
-
-
-  
-    <div>
-  <img src="/images/portfolio/archways.jpg" alt="" />
-  <section class="information">
-  <p><i>Archways</i>
-  <span>
-    <a href="#" class="toggle-information"><i class="fa fa-info"></i></a>
-    <a class="zoomable_image" href="/images/portfolio/archways.jpg" title="<i>Archways</i>"><i class="fa fa-search-plus"></i></a>
-  </span>
-  </p>
-  <p class="description">An experiment with light painting in Mary Bartelme Park on the near west side of Chicago<span><i class="fa fa-camera"></i>  f/8, ISO50, 30s</p>
-  </section>
-
-</div>
-
-
-  
-</div>
-
-<script>
-  $(document).ready(function() {
-    $('.zoomable').magnificPopup({
-      delegate: '.zoomable_image',
-      type: 'image',
-      mainClass: 'mfp-with-zoom',
-      image: {
-        verticalFit: true,
-        titleSrc: function(item) {
-          return item.el.attr('title');
-        }
-      },
-      gallery: {
-        enabled: true
-      }
-    });
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
   });
 </script>
 
-<script>
-  $('.filmstrip').slick({
-    arrows: true,
-    centerMode: true,
-    centerPadding: '10px',
-    slidesToShow: 1,
-    variableWidth: true
-  });
 
-  $(".toggle-information").click(function() {
-    $(this).closest("p").next(".description").slideToggle(200);
-  });
-</script>
+    <div class="animated fadeIn">
+      <div class="portfolio">
+  
+
+  
+    <div class="item ">
+  <img src="/images/black-white/sears-abstract.jpg">
+  <p>City of broad shoulders<span>1/200th, f/8, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/chicago/wrigley-trump.jpg">
+  <p>The Wrigley Building and Trump Tower<span>f/8, ISO50, 30s</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/chicago/lion-portrait.jpg">
+  <p>Art Institute Lion<span>1/60th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/chicago/IMG_2167.jpg">
+  <p>Chicago skyline<span>30s, f/16, ISO50</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/portfolio/pritzker.jpg">
+  <p>Pritzker Pavilion<span>f/8, ISO50, 30s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/catalog/IMG_5855.jpg">
+  <p>Cloud Gate<span>1/250th, f/5.6, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/chicago/wrigley-clock.jpg">
+  <p>Wrigley Building<span>1/125th, f/8, ISO4000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/portfolio/snowy-bean.jpg">
+  <p>Cloud Gate Snowstorm<span>f/8, ISO50, 30s</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/catalog/IMG_7397.jpg">
+  <p>The Picasso<span>10s, f/11, ISO50</p>
+</div>
+
+  
+    <div class="item vertical">
+  <img src="/images/catalog/0K6A9531.jpg">
+  <p>Millenium Park Fountain<span>1/640th, f/3.5, ISO2000</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/catalog/CRW_2369.jpg">
+  <p>The Bean<span>1/1000th, f/5.6, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/chicago/CRW_6032.jpg">
+  <p>Chicago at dusk<span>15s, f/16, ISO100</p>
+</div>
+
+  
+    <div class="item ">
+  <img src="/images/portfolio/archways.jpg">
+  <p><i>Archways</i><span>f/8, ISO50, 30s</p>
+</div>
+
+  
+</div>
 
 
     </div>

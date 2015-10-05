@@ -1,15 +1,13 @@
 ---
-layout: fixed
+layout: default
 title: Chicago
 permalink: /chicago/
 ---
-<div class="filmstrip animated fadeIn zoomable">
+<div class="portfolio">
   {% assign sorted_photos = (site.data.photos | where: "portfolio", "chicago" | sort: "position") %}
 
   {% for photo in sorted_photos %}
-    {% include strip_template.html %}
+    {% include portfolio_template.html %}
   {% endfor %}
 </div>
 
-{% include gallery_script.html %}
-{% include slick_script.html %}

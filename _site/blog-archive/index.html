@@ -29,8 +29,9 @@
 
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/js/responsive-nav.min.js"></script>
-    <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/blog-archive/">
 
@@ -50,153 +51,152 @@
   <body >
 
     <header class="site-header">
+  <div>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-<div id="nav">
-  <ul>
-    <li><a href="/portfolios/" data-page-id="portfolios">Portfolios</a></li>
-    <li><a href="/blog/" data-page-id="blog">Blog</a></li>
-    <li><a href="/about/" data-page-id="about">About</a></li>
-  </ul>
-</div>
-
-<script>
-  var currentPage = $("body").data("current-page");
-  if (currentPage) {
-    $("a[data-page-id='" + currentPage + "']").addClass("active");
-  }
-</script>
-
-
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
   });
+
+
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
+  });
 </script>
 
 
-
-    <div class="content--floating animated fadeIn">
-      <h2>Blog Archive</h2>
-<div class="blog-archive-list">
-  
-  <a href="/blog/2015/10/01/twenty-years.html">The 20 Year Photo <span class="date">- October 1 2015</span></a>
-  
-  <a href="/blog/2015/08/10/bigfoot.html">Bigfoot Bandcamp <span class="date">- August 10 2015</span></a>
-  
-  <a href="/photo/2015/06/27/morning-L.html">Morning on the L <span class="date">- June 27 2015</span></a>
-  
-  <a href="/photo/2015/06/09/campton-hills.html">Campton Hills Road <span class="date">- June 9 2015</span></a>
-  
-  <a href="/photo/2015/05/15/thompson-center.html">James Thompson Center <span class="date">- May 15 2015</span></a>
-  
-  <a href="/photo/2015/04/22/natural-light.html">Natural Light Portrait <span class="date">- April 22 2015</span></a>
-  
-  <a href="/photo/2015/03/04/over-the-l.html">Wabash Ave <span class="date">- March 4 2015</span></a>
-  
-  <a href="/tutorial/2015/02/07/selective-sharpening.html">Selective Sharpening <span class="date">- February 7 2015</span></a>
-  
-  <a href="/travelogue/2014/12/19/sedona-traveloge.html">Sedona <span class="date">- December 19 2014</span></a>
-  
-  <a href="/photo52/2014/12/09/photo52-week49.html">Week 49 - Sedona Panorama <span class="date">- December 9 2014</span></a>
-  
-  <a href="/photo52/2014/12/02/photo52-week48.html">Week 48 - Family Portrait Shoot <span class="date">- December 2 2014</span></a>
-  
-  <a href="/photo52/2014/11/24/photo52-week47.html">Week 47 - Starry Night at Watch Hill <span class="date">- November 24 2014</span></a>
-  
-  <a href="/photo52/2014/11/16/photo52-week46.html">Week 46 - Sunset at Masons Island <span class="date">- November 16 2014</span></a>
-  
-  <a href="/photo52/2014/11/08/photo52-week45.html">Week 45 - Mystic River Bascule Bridge <span class="date">- November 8 2014</span></a>
-  
-  <a href="/photo52/2014/10/28/photo52-week43.html">Week 43 - Fall Panorama <span class="date">- October 28 2014</span></a>
-  
-  <a href="/photo52/2014/10/10/photo52-week41.html">Week 41 - Off Camera Flash <span class="date">- October 10 2014</span></a>
-  
-  <a href="/review/2014/10/01/phottex-ares.html">Phottix Ares Trigger <span class="date">- October 1 2014</span></a>
-  
-  <a href="/2014/09/06/photo52-week36.html">Week 36 - Alison Noel <span class="date">- September 6 2014</span></a>
-  
-  <a href="/2014/08/26/photo52-week34.html">Week 34 - Bret Michaels <span class="date">- August 26 2014</span></a>
-  
-  <a href="/2014/08/19/photo52-week33.html">Week 33 - Kodiak <span class="date">- August 19 2014</span></a>
-  
-  <a href="/2014/08/15/ferguson-chicago.html">NMOS14 - Chicago <span class="date">- August 15 2014</span></a>
-  
-  <a href="/2014/08/12/photo52-week32.html">Week 32 - Porsche Speedster <span class="date">- August 12 2014</span></a>
-  
-  <a href="/2014/08/11/rolliflex.html">Rolliflex Kit <span class="date">- August 11 2014</span></a>
-  
-  <a href="/2014/08/04/photo52-week31.html">Week 31 - Meadow Saxifrage <span class="date">- August 4 2014</span></a>
-  
-  <a href="/2014/07/28/photo52-week30.html">Week 30 - Millenium Park Busts <span class="date">- July 28 2014</span></a>
-  
-  <a href="/2014/07/22/photo52-week29.html">Week 29 - Archways <span class="date">- July 22 2014</span></a>
-  
-  <a href="/2014/07/17/photo52-week28.html">Week 28 - Sears Tower <span class="date">- July 17 2014</span></a>
-  
-  <a href="/2014/07/05/Fireworks.html">Week 27 - Fireworks <span class="date">- July 5 2014</span></a>
-  
-  <a href="/2014/07/05/4th-of-July.html">Fourth Of July <span class="date">- July 5 2014</span></a>
-  
-  <a href="/2014/06/29/bald-eagles.html">Week 26 - Bald Eagle <span class="date">- June 29 2014</span></a>
-  
-  <a href="/2014/06/27/photo52-week25.html">Week 25 - Manhattan <span class="date">- June 27 2014</span></a>
-  
-  <a href="/2014/06/23/NYC.html">Weekend in New York <span class="date">- June 23 2014</span></a>
-  
-  <a href="/2014/06/16/photo52-week24.html">Week 24 - Union Station <span class="date">- June 16 2014</span></a>
-  
-  <a href="/2014/05/30/map-room.html">Map Room, Chicago <span class="date">- May 30 2014</span></a>
-  
-  <a href="/2014/05/29/photo52-week22.html">Week 22 - Chicago Sunset <span class="date">- May 29 2014</span></a>
-  
-  <a href="/2014/04/24/canon-70-300-L.html">Canon 70-300mm IS L <span class="date">- April 24 2014</span></a>
-  
-  <a href="/2014/04/23/spring-on-lake-michigan.html">Spring on Lake Michigan <span class="date">- April 23 2014</span></a>
-  
-  <a href="/2014/03/06/photo101-getting-out-of-auto.html">The Exposure Triangle <span class="date">- March 6 2014</span></a>
-  
-  <a href="/2014/02/24/photo52-week8.html">Week 8 - Chicago By Train <span class="date">- February 24 2014</span></a>
-  
-  <a href="/2014/02/17/photo52-week7.html">Week 7 - Snowy Bean <span class="date">- February 17 2014</span></a>
-  
-  <a href="/2014/02/09/photo52-week6.html">Week 6 - Bald Eagle <span class="date">- February 9 2014</span></a>
-  
-  <a href="/2014/01/29/photo52-week5.html">Week 5 - Pritzker Pavilion <span class="date">- January 29 2014</span></a>
-  
-  <a href="/2014/01/24/photo52-week4.html">Week 4 - Wrigley Building <span class="date">- January 24 2014</span></a>
-  
-  <a href="/2014/01/15/photo52-week3.html">Week 3 - Picasso <span class="date">- January 15 2014</span></a>
-  
-  <a href="/2014/01/13/photo52-week2.html">Week 2 - Sears Tower <span class="date">- January 13 2014</span></a>
-  
-  <a href="/2014/01/07/sears-tower-sunburst.html">Sears Tower Sunburst <span class="date">- January 7 2014</span></a>
-  
-  <a href="/2014/01/05/photo365-review.html">Photo 365 Review <span class="date">- January 5 2014</span></a>
-  
-  <a href="/2014/01/03/photo52-watertower.html">Week 1 - Watertower <span class="date">- January 3 2014</span></a>
-  
-  <a href="/2014/01/01/hello-2014.html">Hello 2014! <span class="date">- January 1 2014</span></a>
-  
-  <a href="/2013/12/10/why-i-dont-machine-gun.html">Why I Don't Machine Gun <span class="date">- December 10 2013</span></a>
-  
-  <a href="/2013/10/28/nine-months-of-kata.html">Nine Months With The Kata Bag <span class="date">- October 28 2013</span></a>
-  
-  <a href="/2013/09/10/hofner.html">Hofner Guitars Used My Photo <span class="date">- September 10 2013</span></a>
-  
-  <a href="/2013/08/30/retiring-the-10D.html">Retiring The EOS 10D <span class="date">- August 30 2013</span></a>
-  
-  <a href="/2013/08/07/parade-of-sails.html">Parade Of Sails <span class="date">- August 7 2013</span></a>
-  
-  <a href="/2013/04/20/cable-organization.html">Quick Tip <span class="date">- April 20 2013</span></a>
-  
-  <a href="/2012/12/30/practice-swapping-lenses.html">Practice Swapping Lenses <span class="date">- December 30 2012</span></a>
-  
-  <a href="/2011/12/30/whats-in-the-bag-black-rapid-rs-7.html">Whats In The Bag? Black Rapid RS 7 <span class="date">- December 30 2011</span></a>
-  
-  <a href="/2011/12/27/quote-ira-glass.html">Quote - Ira Glass <span class="date">- December 27 2011</span></a>
-  
+    <div class="animated fadeIn">
+      <div class="module content">
+  <h2>Blog Archive</h2>
+  <div class="blog-archive-list">
+    
+    <a href="/blog/2015/10/01/twenty-years.html">The 20 Year Photo <span class="description">My journey as a photographer over the last 20 years</span><span class="date">October 1 2015</span></a>
+    
+    <a href="/blog/2015/08/10/bigfoot.html">Bigfoot Bandcamp <span class="description">My shots from the Bigfoot Bandcamp Festival in central IL</span><span class="date">August 10 2015</span></a>
+    
+    <a href="/photo/2015/06/27/morning-L.html">Morning on the L <span class="description">A quick snapshot from my iPhone on the L</span><span class="date">June 27 2015</span></a>
+    
+    <a href="/photo/2015/06/09/campton-hills.html">Campton Hills Road <span class="description">From the archives - a night exposure from Campton Hills Road</span><span class="date">June 9 2015</span></a>
+    
+    <a href="/photo/2015/05/15/thompson-center.html">James Thompson Center <span class="description">Panorama inside the Thompson building</span><span class="date">May 15 2015</span></a>
+    
+    <a href="/photo/2015/04/22/natural-light.html">Natural Light Portrait <span class="description">Using natural light for a high-contrast portrait</span><span class="date">April 22 2015</span></a>
+    
+    <a href="/photo/2015/03/04/over-the-l.html">Wabash Ave <span class="description">Scouting the L stop at Wabash &amp; Adams</span><span class="date">March 4 2015</span></a>
+    
+    <a href="/tutorial/2015/02/07/selective-sharpening.html">Selective Sharpening <span class="description">Simple use of high-pass filter with a layer mask to selectively sharpen images</span><span class="date">February 7 2015</span></a>
+    
+    <a href="/travelogue/2014/12/19/sedona-traveloge.html">Sedona <span class="description">A quick weekend getaway to beautiful Sedona Arizona</span><span class="date">December 19 2014</span></a>
+    
+    <a href="/photo52/2014/12/09/photo52-week49.html">Week 49 - Sedona Panorama <span class="description">Nine shot panorama of a large rock formation in Sedona, Arizona</span><span class="date">December 9 2014</span></a>
+    
+    <a href="/photo52/2014/12/02/photo52-week48.html">Week 48 - Family Portrait Shoot <span class="description">This weeks photo project was a family portrait session on Masons Island, Stonington Connecticut</span><span class="date">December 2 2014</span></a>
+    
+    <a href="/photo52/2014/11/24/photo52-week47.html">Week 47 - Starry Night at Watch Hill <span class="description">A trek out to Watch Hill for some stargazing for this weeks photo project</span><span class="date">November 24 2014</span></a>
+    
+    <a href="/photo52/2014/11/16/photo52-week46.html">Week 46 - Sunset at Masons Island <span class="description">This week I headed down to Masons Island in Stonington to capture a serene fall sunset</span><span class="date">November 16 2014</span></a>
+    
+    <a href="/photo52/2014/11/08/photo52-week45.html">Week 45 - Mystic River Bascule Bridge <span class="description">Morning in downtown Mystic, Connecticut, watching the sunrise at the Mystic River Bascule Bridge</span><span class="date">November 8 2014</span></a>
+    
+    <a href="/photo52/2014/10/28/photo52-week43.html">Week 43 - Fall Panorama <span class="description">This weeks project was taken during a company retreat to Eagle Ridge in Galena IL</span><span class="date">October 28 2014</span></a>
+    
+    <a href="/photo52/2014/10/10/photo52-week41.html">Week 41 - Off Camera Flash <span class="description">Simple one-light on a softbox portrait with my beautiful daughter produced some wonderful results</span><span class="date">October 10 2014</span></a>
+    
+    <a href="/review/2014/10/01/phottex-ares.html">Phottix Ares Trigger <span class="description">Quick review for a pair of Phottix Ares Wireless Triggers I purchased recently</span><span class="date">October 1 2014</span></a>
+    
+    <a href="/2014/09/06/photo52-week36.html">Week 36 - Alison Noel <span class="description"></span><span class="date">September 6 2014</span></a>
+    
+    <a href="/2014/08/26/photo52-week34.html">Week 34 - Bret Michaels <span class="description"></span><span class="date">August 26 2014</span></a>
+    
+    <a href="/2014/08/19/photo52-week33.html">Week 33 - Kodiak <span class="description"></span><span class="date">August 19 2014</span></a>
+    
+    <a href="/2014/08/15/ferguson-chicago.html">NMOS14 - Chicago <span class="description"></span><span class="date">August 15 2014</span></a>
+    
+    <a href="/2014/08/12/photo52-week32.html">Week 32 - Porsche Speedster <span class="description"></span><span class="date">August 12 2014</span></a>
+    
+    <a href="/2014/08/11/rolliflex.html">Rolliflex Kit <span class="description"></span><span class="date">August 11 2014</span></a>
+    
+    <a href="/2014/08/04/photo52-week31.html">Week 31 - Meadow Saxifrage <span class="description"></span><span class="date">August 4 2014</span></a>
+    
+    <a href="/2014/07/28/photo52-week30.html">Week 30 - Millenium Park Busts <span class="description"></span><span class="date">July 28 2014</span></a>
+    
+    <a href="/2014/07/22/photo52-week29.html">Week 29 - Archways <span class="description"></span><span class="date">July 22 2014</span></a>
+    
+    <a href="/2014/07/17/photo52-week28.html">Week 28 - Sears Tower <span class="description"></span><span class="date">July 17 2014</span></a>
+    
+    <a href="/2014/07/05/Fireworks.html">Week 27 - Fireworks <span class="description"></span><span class="date">July 5 2014</span></a>
+    
+    <a href="/2014/07/05/4th-of-July.html">Fourth Of July <span class="description"></span><span class="date">July 5 2014</span></a>
+    
+    <a href="/2014/06/29/bald-eagles.html">Week 26 - Bald Eagle <span class="description"></span><span class="date">June 29 2014</span></a>
+    
+    <a href="/2014/06/27/photo52-week25.html">Week 25 - Manhattan <span class="description"></span><span class="date">June 27 2014</span></a>
+    
+    <a href="/2014/06/23/NYC.html">Weekend in New York <span class="description"></span><span class="date">June 23 2014</span></a>
+    
+    <a href="/2014/06/16/photo52-week24.html">Week 24 - Union Station <span class="description"></span><span class="date">June 16 2014</span></a>
+    
+    <a href="/2014/05/30/map-room.html">Map Room, Chicago <span class="description"></span><span class="date">May 30 2014</span></a>
+    
+    <a href="/2014/05/29/photo52-week22.html">Week 22 - Chicago Sunset <span class="description"></span><span class="date">May 29 2014</span></a>
+    
+    <a href="/2014/04/24/canon-70-300-L.html">Canon 70-300mm IS L <span class="description"></span><span class="date">April 24 2014</span></a>
+    
+    <a href="/2014/04/23/spring-on-lake-michigan.html">Spring on Lake Michigan <span class="description"></span><span class="date">April 23 2014</span></a>
+    
+    <a href="/2014/03/06/photo101-getting-out-of-auto.html">The Exposure Triangle <span class="description"></span><span class="date">March 6 2014</span></a>
+    
+    <a href="/2014/02/24/photo52-week8.html">Week 8 - Chicago By Train <span class="description"></span><span class="date">February 24 2014</span></a>
+    
+    <a href="/2014/02/17/photo52-week7.html">Week 7 - Snowy Bean <span class="description"></span><span class="date">February 17 2014</span></a>
+    
+    <a href="/2014/02/09/photo52-week6.html">Week 6 - Bald Eagle <span class="description"></span><span class="date">February 9 2014</span></a>
+    
+    <a href="/2014/01/29/photo52-week5.html">Week 5 - Pritzker Pavilion <span class="description"></span><span class="date">January 29 2014</span></a>
+    
+    <a href="/2014/01/24/photo52-week4.html">Week 4 - Wrigley Building <span class="description"></span><span class="date">January 24 2014</span></a>
+    
+    <a href="/2014/01/15/photo52-week3.html">Week 3 - Picasso <span class="description"></span><span class="date">January 15 2014</span></a>
+    
+    <a href="/2014/01/13/photo52-week2.html">Week 2 - Sears Tower <span class="description"></span><span class="date">January 13 2014</span></a>
+    
+    <a href="/2014/01/07/sears-tower-sunburst.html">Sears Tower Sunburst <span class="description"></span><span class="date">January 7 2014</span></a>
+    
+    <a href="/2014/01/05/photo365-review.html">Photo 365 Review <span class="description"></span><span class="date">January 5 2014</span></a>
+    
+    <a href="/2014/01/03/photo52-watertower.html">Week 1 - Watertower <span class="description"></span><span class="date">January 3 2014</span></a>
+    
+    <a href="/2014/01/01/hello-2014.html">Hello 2014! <span class="description"></span><span class="date">January 1 2014</span></a>
+    
+    <a href="/2013/12/10/why-i-dont-machine-gun.html">Why I Don't Machine Gun <span class="description"></span><span class="date">December 10 2013</span></a>
+    
+    <a href="/2013/10/28/nine-months-of-kata.html">Nine Months With The Kata Bag <span class="description"></span><span class="date">October 28 2013</span></a>
+    
+    <a href="/2013/09/10/hofner.html">Hofner Guitars Used My Photo <span class="description"></span><span class="date">September 10 2013</span></a>
+    
+    <a href="/2013/08/30/retiring-the-10D.html">Retiring The EOS 10D <span class="description"></span><span class="date">August 30 2013</span></a>
+    
+    <a href="/2013/08/07/parade-of-sails.html">Parade Of Sails <span class="description"></span><span class="date">August 7 2013</span></a>
+    
+    <a href="/2013/04/20/cable-organization.html">Quick Tip <span class="description"></span><span class="date">April 20 2013</span></a>
+    
+    <a href="/2012/12/30/practice-swapping-lenses.html">Practice Swapping Lenses <span class="description"></span><span class="date">December 30 2012</span></a>
+    
+    <a href="/2011/12/30/whats-in-the-bag-black-rapid-rs-7.html">Whats In The Bag? Black Rapid RS 7 <span class="description"></span><span class="date">December 30 2011</span></a>
+    
+    <a href="/2011/12/27/quote-ira-glass.html">Quote - Ira Glass <span class="description"></span><span class="date">December 27 2011</span></a>
+    
+  </div>
 </div>
 
     </div>

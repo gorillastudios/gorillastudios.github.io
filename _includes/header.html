@@ -1,10 +1,24 @@
 <header class="site-header">
-  {% include navigation.html %}
+  <div>
+  <a class="site-title" href="{{ site.baseurl }}/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
 </header>
 
 <script>
   var navigation = responsiveNav("#nav", {
   insert: "before"
+  });
+
+
+  $('#nav ul li a').on('click', function(){
+    $("#nav").removeClass("opened");
   });
 </script>
 

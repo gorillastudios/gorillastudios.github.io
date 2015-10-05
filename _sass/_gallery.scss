@@ -2,7 +2,7 @@
   overflow: hidden;
   figure {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 100%;
     img {
       width: 100%;
@@ -12,8 +12,11 @@
 
 @media screen and (min-width: 30em) {
   .gallery {
+    padding: 10px;
     -webkit-column-count: 2;
     column-count: 2;
+    -webkit-column-gap: 10px;
+    column-gap: 5px;
   }
 }
 
@@ -26,91 +29,39 @@
 
 
 
+.portfolio {
+  .item {
+    margin: 0 auto 1em auto;
+    max-width: $site-width;
+    img {
+      width: 100%;
+    }
+    p {
+      color: #999;
+      font-size: 0.8em;
+      line-height: 1em;
+      margin: 10px 10px 4em 10px;
+      span {
+        display: block;
+        padding-top: 8px;
+      }
+    }
+  }
+}
 
-.filmstrip {
-  height: 80%;
-  > div {
-    height: 100%;
-    .slick-track {
-      height: 100%;
+
+@media screen and (min-width: 600px) {
+  .portfolio .item {
+    margin-bottom: 6em;
+    &.vertical {
+      display: block;
+      margin: 0 auto 6em auto;
+      width: 45%;
     }
-    // ---------------------------------------- //
-    .slick-slide {
-      position: relative;
-      height: 100%;
-      img {
-        opacity: 0.75;
-        -webkit-transition: opacity 0.5s ease-in-out;
-        transition: opacity 0.5s ease-in-out;
-      }
-      .full-opacity,
-      &.slick-current img {
-        opacity: 1;
-      }
-      .information {
-        background: rgba(0,0,0,0.5);
-        bottom: 0;
-        color: white;
-        font-size: 0.75em;
-        margin: 0;
-        padding: 10px;
-        left: 0;
-        right: 0;
-        position: absolute;
-        opacity: 0.25;
-        -webkit-transition: all 0.25s ease-in;
-        p {
-          margin: 0;
-        }
-        p.description {
-          display: none;
-          font-style: italic;
-          opacity: 0.8;
-          overflow: hidden;
-          padding: 10px 0;
-          width: 100%;
-          -webkit-transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-          transition: max-height 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
-        span {
-          float: right;
-          padding-right: 2px;
-        }
-      }
-      a {
-        border: none;
-        color: white;
-        font-size: 1.3em;
-        padding: 4px;
-        &:focus {
-          outline: none;
-        }
-      }
-      &:focus {
-        outline: none;
-      }
-      &:hover .information {
-        opacity: 1;
-      }
+    p span {
+      display: inline;
+      float: right;
+      padding-top: 0;
     }
-    // ---------------------------------------- //
-  }
-  .slick-prev,
-  .slick-next {
-    z-index: 2;
-    transition: all 0.15s ease-in;
-    &:hover {
-      background: rgba(255,255,255,0.25);
-    }
-  }
-  .slick-next {
-    margin-right: 25px;
-  }
-  .slick-prev {
-    margin-left: 25px;
-  }
-  &.borders .slick-slide {
-    border-right: 4px solid white;
-    border-left: 4px solid white;
   }
 }

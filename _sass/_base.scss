@@ -7,7 +7,7 @@
 // ---------------------------------------- Globals
 body {
   -webkit-text-size-adjust: 100%;
-  background-color: $background-color;
+  background-color: white;
   color: $text-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -23,6 +23,12 @@ html {
   height: 100%;
 }
 
+@media screen and (min-width: 600px) {
+  body {
+    padding-top: 12%;
+  }
+}
+
 
 // ---------------------------------------- Vertical rhythm
 h1, h2, h3, h4, h5, h6,
@@ -34,11 +40,18 @@ ul, ol, dl, figure,
 
 // ---------------------------------------- Images
 img {
+  max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
 }
 img.circular {
   border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -56,6 +69,16 @@ figcaption {
   font-size: $small-font-size;
 }
 
+// ---------------------------------------- Anchors
+@media screen and (min-width: 600px) {
+  .anchor:before {
+    content:"";
+    display:block;
+    height: 120px; /* fixed header height*/
+    margin: -120px 0 0; /* negative fixed header height */
+  }
+}
+
 
 
 // ---------------------------------------- Lists
@@ -67,8 +90,10 @@ figcaption {
 // ----------------------------------------  Headings
 h1, h2, h3, h4, h5, h6 {
   color: $black-absolute;
-  font-family: $heavy-type;
-  font-weight: 600;
+  //font-family: $heavy-type;
+  font-family: $serif-font, serif;
+  font-style: italic;
+  font-weight: 300;
 }
 
 
@@ -153,6 +178,22 @@ blockquote {
   }
 }
 
+// ----------------------------------------- Marquee
+#marquee {
+  display: block;
+  background: #f2f2f2;
+  background-image: url('/images/portfolio/brooklyn-bridge2.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 400px;
+}
+
+@media screen and (min-width: 600px) {
+  #marquee {
+    padding-top: 40%;
+  }
+}
+
 // ----------------------------------------- About
 .headshot {
   border-radius: 50%;
@@ -194,6 +235,46 @@ blockquote {
   }
 }
 
+// ----------------------------------------- Store
+.store-item {
+  border-bottom: 1px solid $hairline;
+  font-size: 0.8em;
+  padding-bottom: 2em;
+  p {
+    margin: 5px 0;
+  }
+  .pricing {
+    li {
+      border-bottom: 1px dotted $hairline;
+      color: #888;
+      padding: 5px 0;
+      span {
+        float: right;
+      }
+      &.header { color: $charcoal; }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .store-item  {
+    overflow: hidden;
+    padding-bottom: 4em;
+    img {
+      float: left;
+      width: 60%;
+    }
+    p {
+      font-size: 1.5em;
+      margin: 0 0 0.5em 0;
+    }
+    .pricing {
+      float: left;
+      padding-left: 2em;
+      width: 40%;
+    }
+  }
+}
 // ----------------------------------------- Thank you
 
 #thank-you {

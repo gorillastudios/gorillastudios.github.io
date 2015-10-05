@@ -27,24 +27,17 @@ $grey-light: lighten($grey, 40%);
 $grey-dark:  darken($grey, 25%);
 
 
-// ---------------------------------------- Header & Nav
-$number-of-nav-items: 4;
-$nav-item-width: (100%/$number-of-nav-items);
-
-$nav-background: $blue-navy;
-
-
-
+$site-width: 1100px;
 
 // ---------------------------------------- Font & Vertical Rythm
-$base-font-family: "open-sans", Helvetica, Arial, sans-serif;
+$base-font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$heavy-type: "aktiv-grotesk", sans-serif;
+$serif-font: "baskerville-urw";
 
 
 
@@ -81,11 +74,10 @@ $large: 1000px;
 @import
   "base",
   "layout",
+  "content",
   "blog",
   "gallery",
   "header_nav",
   "syntax-highlighting",
-  "vendor/slick",
-  "vendor/slick-theme",
   "vendor/font-awesome"
 ;

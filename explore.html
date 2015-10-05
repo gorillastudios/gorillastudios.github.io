@@ -3,18 +3,3 @@ layout: default
 title: Explore
 permalink: /explore/
 ---
-<section class="gallery zoomable">
-<p>Test</p>
-<ul>
-  {% for photo in site.data.photos %}
-    {% if photo.tags contains 'chicago' %}
-      {% include figure_template.html %}
-    {% endif %}
-    {% endfor %}
-  {% for photo in site.data.photos %}
-    <li>{{ photo.tags }}</li>
-  {% endfor %}
-</ul>
-</section>
-
-{% include gallery_script.html %}
