@@ -12,7 +12,7 @@
 - title: <i>Archways</i>
   image_path: portfolio/archways.jpg
   thumbnail: /images/thumbnails/archways.jpg
-  portfolio: chicago
+  portfolio: urban
   position: mmm
   exposure: f/8, ISO50, 30s
   description: An experiment with light painting in Mary Bartelme Park on the near west side of Chicago
@@ -324,7 +324,7 @@
 - title: The Shard
   image_path: london/shard-streaks.jpg
   thumbnail: /images/thumbnails/shard-streaks.jpg
-  portfolio: london
+  portfolio: urban
   position: ggg
   exposure: f/8, ISO50, 60s
   description: The Shard seen from Tooley Street
@@ -403,11 +403,11 @@
   exposure: f/8, ISO50, 60s
   tags: chicago, sculpture, black-and-white
 
-- title: A moment in time
+- title: <i>A moment in time</i>
   orientation: vertical
   image_path: portfolio/grand-central-standing.jpg
   thumbnail: /images/thumbnails/grand-central-standing.jpg
-  portfolio: new-york
+  portfolio: urban
   position: ggg
   exposure: f/8, ISO50, 1/25th
   description: A commuter stands still for a moment at Grand Central Station in Manhattan
@@ -494,6 +494,8 @@
 - title: James Thompson Center
   orientation: vertical
   image_path: chicago/thompson-center.jpg
+  portfolio: urban
+  position: lll
   thumbnail: /images/thumbnails/thompson-center.jpg
   exposure: 1/60th, f/8, ISO4000
   tags: chicago, architecture, panorama
@@ -677,7 +679,7 @@
 - title: Wrapped in Glass &amp; Steel
   image_path: union/3.jpg
   thumbnail: /images/thumbnails/union/3.jpg
-  portfolio: new-york
+  portfolio: urban
   position: ddd
   exposure: 1/200th, f/8, ISO100
   description: Looking up from 168 E. 58th Street
@@ -686,7 +688,7 @@
 - title: The Flatiron Building
   orientation: vertical
   image_path: catalog/0K6A7925.jpg
-  portfolio: new-york
+  portfolio: urban
   position: eee
   exposure: 44s, f/8, ISO50
   description: The iconic Flatiron Building at 5th Ave &amp; 23rd St.
@@ -700,7 +702,7 @@
 - title: City of broad shoulders
   image_path: black-white/sears-abstract.jpg
   thumbnail: /images/thumbnails/sears-abstract.jpg
-  portfolio: chicago
+  portfolio: urban
   position: aaa
   description: The Sears Tower stands tall over Jackson &amp; Franklin
   exposure: 1/200th, f/8, ISO100
@@ -1109,7 +1111,7 @@
 - title: Midtown
   image_path: posts/midtown.jpg
   thumbnail: /images/thumbnails/midtown.jpg
-  portfolio: new-york
+  portfolio: urban
   position: iii
   exposure: 1/125th, f/8, ISO4000
   description: An afternoon in Midtown, Manhattan
@@ -1131,7 +1133,7 @@
 - title: The Brooklyn Bridge
   image_path: catalog/0K6A7506.jpg
   thumbnail: /images/thumbnails/0K6A7506.jpg
-  portfolio: new-york
+  portfolio: urban
   position: fff
   exposure: f/16, ISO100, 90s
   description: The Brooklyn Bridge spanning over the East River, taken from Brooklyn Bridge Park
@@ -1234,7 +1236,7 @@
 - title: Manhattan sunset
   image_path: catalog/0K6A7439.jpg
   thumbnail: /images/thumbnails/0K6A7439.jpg
-  portfolio: new-york
+  portfolio: urban
   position: ccc
   exposure: 0.6s, f/18, ISO50
   description: The sun sets between Manhattans skyscrapers casting a warm glow over Brooklyn Bridge Park
@@ -1634,7 +1636,7 @@
   orientation: vertical
   image_path: catalog/0K6A9531.jpg
   thumbnail: /images/thumbnails/0K6A9531.jpg
-  portfolio: chicago
+  portfolio: urban
   position: jjj
   description: Cooling off in the reflecting pool at Millenium park on a hot summer evening
   exposure: 1/640th, f/3.5, ISO2000
@@ -2522,3 +2524,19 @@
   image_path: /images/catalog/0K6A6644.jpg
   exposure: 1/100th, f/5.6, ISO5000
   tags:
+
+- title: <i>Fly me to the moon</i>
+  date: March 18th, 2011
+  image_path: /portfolio/fly-me-to-the-moon.jpg
+  exposure: 1/250th, f/22, ISO100
+  portfolio: nature
+  position: aaa
+  tags: nature
+
+- title: Lunar Eclipse
+  date: September  28th, 2015
+  image_path: /posts/lunar-progression.jpg
+  exposure: 1/125th, f/22, ISO4000
+  portfolio: nature
+  position: jjj
+  tags: nature

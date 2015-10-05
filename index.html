@@ -43,6 +43,14 @@ title: Home
   </div>
 </section>
 
+
+<h2>TWITTER</h2>
+
+
+
+
+
+
 <script>
   $(window).scroll(function() {
     $("#marquee").css({
@@ -51,4 +59,13 @@ title: Home
   });
 
   {% include /scroll.js %}
+
+
+  var config1 = {
+    "id": '651138185683169280',
+    "domId": 'tw-widget1',
+    "maxTweets": 2,
+    "enableLinks": true
+  };
+  twitterFetcher.fetch(config1);
 </script>

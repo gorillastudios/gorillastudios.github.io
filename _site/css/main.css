@@ -123,7 +123,7 @@ blockquote {
 #marquee {
   display: block;
   background: #f2f2f2;
-  background-image: url("/images/portfolio/brooklyn-bridge2.jpg");
+  background-image: url("/images/catalog/0K6A7506.jpg");
   background-size: cover;
   background-position: 50%;
   height: 400px; }
@@ -318,9 +318,33 @@ blockquote {
   padding-bottom: 1em; }
 #index-news span {
   color: #990000; }
+#index-news li {
+  border-bottom: 1px dotted #DDDDDD;
+  overflow: hidden;
+  margin-bottom: 10px; }
+#index-news li:before {
+  color: #ccc;
+  content: "\f099";
+  display: block;
+  float: left;
+  font-family: "fontawesome";
+  font-size: 2.5em;
+  line-height: 55px;
+  width: 10%; }
+#index-news p.tweet {
+  border: none;
+  display: block;
+  float: right;
+  margin: 0;
+  width: 85%; }
+#index-news .user,
+#index-news .timePosted,
+#index-news .interact {
+  display: none; }
 
 @media screen and (min-width: 600px) {
-  #index-news p {
+  #index-news p,
+  #index-news li {
     margin-right: 1em; } }
 #index-blog ul li a {
   border-bottom: 1px dotted #DDDDDD;
