@@ -417,23 +417,23 @@
   image_path: p52/06.jpg
   thumbnail: /images/thumbnails/06.jpg
   portfolio: nature
-  position: aaa
+  position: bbb
   exposure: f/5.6, ISO50, 1/250th
   tags: bald-eagle, nature, bird
 
-- title: Great Blue Heron
+- title: Great Blue Heron portrait
   orientation: vertical
   image_path: portfolio/heron-portrait.jpg
   thumbnail: /images/thumbnails/heron-portrait.jpg
   portfolio: nature
-  position: ccc
+  position: eee
   tags: heron, nature, bird
 
 - title: Dandelion head
   image_path: nature/dandelion.jpg
   thumbnail: /images/thumbnails/dandelion.jpg
   portfolio: nature
-  position: bbb
+  position: ddd
   exposure: f/2.8, ISO100, 1/125th
   tags: flower, nature
 
@@ -486,7 +486,7 @@
   image_path: nature/somber-sunrise.jpg
   thumbnail: /images/thumbnails/somber-sunrise.jpg
   portfolio: nature
-  postion: ggg
+  position: aaa
   exposure: f/5.6, ISO100, 1/2000th
   description: A Great Blue Heron perched in a tree having a quiet moment during sunrise
   tags: nature, bird, sunrise
@@ -1403,7 +1403,7 @@
   image_path: catalog/CRW_0509.jpg
   thumbnail: /images/thumbnails/CRW_0509.jpg
   portfolio: nature
-  position: iii
+  position: kkk
   exposure: 1/750th, f/5.6, ISO100
   description: A Great Blue Heron has speared a fish on top of the Geneva Fox River Dam
   tags: nature, bird, heron, wildlife
@@ -1431,7 +1431,7 @@
   image_path: catalog/CRW_0925.jpg
   thumbnail: /images/thumbnails/CRW_0925.jpg
   portfolio: nature
-  position: eee
+  position: ggg
   exposure: 1/500th, f/5.6, ISO100
   description: An Egret preening himself in the Fox River
   tags: nature, bird, egret, wildlife
@@ -1470,7 +1470,7 @@
   image_path: catalog/IMG_3495.jpg
   thumbnail: /images/thumbnails/IMG_3495.jpg
   portfolio: nature
-  position: ddd
+  position: fff
   exposure: 1/400th, f/5.6, ISO100
   description: A stalk of Ornamental Grass bathed in the morning sunlight
   tags: nature
@@ -1513,7 +1513,7 @@
   image_path: catalog/CRW_0581.jpg
   thumbnail: /images/thumbnails/CRW_0581.jpg
   portfolio: nature
-  position: hhh
+  position: jjj
   exposure: 1/750th, f/5.6, ISO100
   description: An egret catching a fish in the Fox River, Geneva, IL
   tags: nature, bird, egret, wildlife
@@ -1676,7 +1676,7 @@
   image_path: catalog/IMG_7830.jpg
   thumbnail: /images/thumbnails/IMG_7830.jpg
   portfolio: nature
-  position: eee
+  position: hhh
   exposure: 1/2000th, f/6.3, ISO2500
   description: A juvenile bald eagle comes in for a landing after hunting in the Fox River
   tags: nature, bird, bald-eagle
@@ -1684,7 +1684,7 @@
 - title: Purple Habiscus Flower
   image_path: catalog/0K6A3456.jpg
   portfolio: nature
-  position: fff
+  position: iii
   thumbnail: /images/thumbnails/0K6A3456.jpg
   exposure: 1/100th, f/11, ISO400
   description: The stamen of a pink Hibiscus flower
@@ -2530,7 +2530,7 @@
   image_path: /portfolio/fly-me-to-the-moon.jpg
   exposure: 1/250th, f/22, ISO100
   portfolio: nature
-  position: aaa
+  position: ccc
   tags: nature
 
 - title: Lunar Eclipse
@@ -2538,5 +2538,5 @@
   image_path: /posts/lunar-progression.jpg
   exposure: 1/125th, f/22, ISO4000
   portfolio: nature
-  position: jjj
+  position: lll
   tags: nature

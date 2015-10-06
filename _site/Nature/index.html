@@ -65,14 +65,12 @@
 </header>
 
 <script>
-  var navigation = responsiveNav("#nav", {
-  insert: "before"
+  var nav = responsiveNav("#nav", {
+    insert: "before"
   });
 
+  $("#nav ul li a").click(function(){ nav.toggle();});
 
-  $('#nav ul li a').on('click', function(){
-    $("#nav").removeClass("opened");
-  });
 </script>
 
 
@@ -107,7 +105,7 @@
   
     <div class="item vertical">
   <img src="/images/portfolio/heron-portrait.jpg">
-  <p>Great Blue Heron<span></p>
+  <p>Great Blue Heron portrait<span></p>
 </div>
 
   

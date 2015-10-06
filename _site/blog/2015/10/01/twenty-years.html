@@ -65,14 +65,12 @@
 </header>
 
 <script>
-  var navigation = responsiveNav("#nav", {
-  insert: "before"
+  var nav = responsiveNav("#nav", {
+    insert: "before"
   });
 
+  $("#nav ul li a").click(function(){ nav.toggle();});
 
-  $('#nav ul li a').on('click', function(){
-    $("#nav").removeClass("opened");
-  });
 </script>
 
 
@@ -134,7 +132,7 @@
 </figure>
 <p>After selecting a good set of exposures I was able to make a 10 shot progression of (nearly) the entire eclipse. The clouds parted just after I started and rolled in just before it ended, but it was enough of a window to get the majority of it. I sent over the order to the printer last night, so in a few days I should have a few 40" by 10" prints ready to frame, one for myself and a couple to sell. I can't wait to see them in such a large format.</p>
 <figure>
-  <img src="/images/posts/lunar-progression.jpg">
+  <img src="/images/posts/lunar-progression-tall.jpg">
   <figcaption>10 shot progression of the lunar eclipse. <span>September 27th, 2015</span></figcaption>
 </figure>
 <h3><i>&quot;...it took me my entire life.&quot;</i></h3>
