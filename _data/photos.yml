@@ -1089,8 +1089,6 @@
 
 - title: Bahamian Sunrise
   image_path: portfolio/nassau.jpg
-  portfolio: landscape
-  position: iii
   thumbnail: /images/thumbnails/nassau.jpg
   exposure: 20s, f/8, ISO100
   description: An early morning sunrise from the beaches of Nassau, Bahamas
@@ -2541,5 +2539,13 @@
   image_path: /catalog/stc-panorama-scf.jpg
   exposure: 30s, f/8, ISO50
   portfolio: landscape
-  position: jjj
+  position: iii
   tags: long-exposure, sunset, panorama
+
+- title: Starry night in DeKalb, IL
+  date: October 11th, 2015
+  image_path: /catalog/0K6A6846.jpg
+  exposure: 20s, f/6.3, ISO2000
+  portfolio: landscape
+  position: jjj
+  tags: long-exposure, astrophotography
