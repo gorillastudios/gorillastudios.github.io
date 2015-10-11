@@ -1,0 +1,15 @@
+---
+layout: default
+title: Architecture
+permalink: /architecture/
+---
+
+<section class="gallery zoomable">
+  {% for photo in site.data.photos %}
+    {% if photo.tags contains 'architecture' %}
+      {% include figure_template--clean.html %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+{% include gallery_script.html %}

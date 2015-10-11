@@ -333,6 +333,8 @@
 - title: Trump Tower
   image_path: black-white/trump-abstract.jpg
   thumbnail: /images/thumbnails/trump-abstract.jpg
+  portfolio: black-white
+  position: jjj
   exposure: f/8, ISO50, 60s
   tags: chicago, trump-tower, architecture, black-and-white, skyscraper, abstract
 
@@ -368,18 +370,11 @@
 
 - title: Citatel Center
   image_path: union/31.jpg
+  thumbnail: /images/thumbnails/union/31.jpg
   portfolio: black-white
   position: hhh
   exposure: f/8, ISO50, 60s
   description: The Citadel Center, 131 S. Dearborn Street
-  tags: chicago, architecture, black-and-white
-
-- title: Trump Tower
-  image_path: union/21.jpg
-  portfolio: black-white
-  position: jjj
-  exposure: f/8, ISO50, 60s
-  description: Trump Tower Chicago
   tags: chicago, architecture, black-and-white
 
 - title: <i>Glass &amp; Steel</i>
@@ -670,11 +665,12 @@
 
 - title: Trump Tower
   image_path: union/30.jpg
+  thumbnail: /images/thumbnails/trump-30.jpg
   portfolio: black-white
   position: ggg
   exposure: 1/200th, f/8, ISO100
   description: Trump Tower Chicago
-  tags: new-york, manhattan, architecture, black-and-white, abstract
+  tags: chicago, architecture, black-and-white, abstract
 
 - title: Wrapped in Glass &amp; Steel
   image_path: union/3.jpg
@@ -763,8 +759,6 @@
 
 - title: Stonington Borough Sunset
   image_path: new-england/sb-rocks-sunset.jpg
-  portfolio: landscape
-  position: ggg
   thumbnail: /images/thumbnails/sb-rocks-sunset.jpg
   exposure: 30s, f/8, ISO50
   description: A November sunset along the shore of Stonington Borough point
@@ -777,14 +771,14 @@
   tags: chicago, cityscape, lake-michigan, hancock-building
 
 - title: Art Institute staircase
-  image_path: artinst/1.jpg
+  image_path: chicago/art-institute-stairs.jpg
   thumbnail: /images/thumbnails/artinst/1.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago
 
 - title: Art Institute
   orientation: vertical
-  image_path: artinst/4.jpg
+  image_path: chicago/art-institute.jpg
   thumbnail: /images/thumbnails/artinst/4.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago
@@ -1212,7 +1206,7 @@
 - title: Sunset on Masons Island
   image_path: catalog/0K6A3373.jpg
   portfolio: landscape
-  position: jjj
+  position: ggg
   thumbnail: /images/thumbnails/0K6A3373.jpg
   exposure: 5s, f/22, ISO50
   description: A fall sunset from Masons Island, Mystic CT
@@ -1507,7 +1501,7 @@
   image_path: catalog/0K6A0586.jpg
   thumbnail: /images/thumbnails/0K6A0586.jpg
   exposure: 1/250th, f/5.6, ISO4000
-  tags: architecture, sunset
+  tags: sunset
 
 - title: Egret
   image_path: catalog/CRW_0581.jpg
@@ -1568,6 +1562,7 @@
 
 - title: Chicago at dusk
   image_path: chicago/CRW_6032.jpg
+  thumbnail: /images/thumbnails/CRW_6032.jpg
   portfolio: chicago
   position: lll
   description: The John Hancock center and Lake Shore Drive at dusk
@@ -2540,3 +2535,11 @@
   portfolio: nature
   position: lll
   tags: nature
+
+- title: St. Charles IL at sunset, seven shot panorama
+  date: October 10th, 2015
+  image_path: /catalog/stc-panorama-scf.jpg
+  exposure: 30s, f/8, ISO50
+  portfolio: landscape
+  position: jjj
+  tags: long-exposure, sunset, panorama

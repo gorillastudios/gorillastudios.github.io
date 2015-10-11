@@ -1,0 +1,15 @@
+---
+layout: default
+title: New York
+permalink: /new-york/
+---
+
+<section class="gallery zoomable">
+  {% for photo in site.data.photos %}
+    {% if photo.tags contains 'new-york' %}
+      {% include figure_template--clean.html %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+{% include gallery_script.html %}

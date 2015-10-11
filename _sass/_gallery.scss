@@ -27,6 +27,13 @@
   }
 }
 
+@media screen and (min-width: 70em) {
+  .gallery {
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+
 
 
 .portfolio {
