@@ -22,7 +22,7 @@ html {
 
 @media screen and (min-width: 600px) {
   body {
-    padding-top: 12%; } }
+    padding-top: 9%; } }
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -677,7 +677,7 @@ blockquote {
 @media screen and (min-width: 600px) {
   .site-header {
     background: white;
-    padding: 3.5% 0;
+    padding: 2.5% 0;
     position: fixed;
     left: 0;
     top: 0;
