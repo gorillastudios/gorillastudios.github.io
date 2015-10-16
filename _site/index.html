@@ -90,7 +90,8 @@
 <section class="module portfolios anchor" id="portfolios">
   <h2>Portfolios</h2>
   <div>
-    <div class="portfolio-link">
+    <section class="wrap">
+<div class="portfolio-link">
   <a href="/landscapes/"><div class="link" style="background-image: url('/images/previews/landscapes-circle.jpg')">
       <section class="info">
       <p>Landscapes</p>
@@ -130,8 +131,21 @@
       </section>
   </div></a>
 </div>
+</section>
+
+<section class="content-drawer">
+  <p>Hello!</p>
+</section>
+
+<a class="drawer-toggle"><span>+</span>Additional galleries</a>
 
 
+<script>
+  $(".drawer-toggle").click(function() {
+    $(".content-drawer").toggleClass("open");
+    $(".drawer-toggle").toggleClass("open");
+  });
+</script>
 
   </div>
 </section>

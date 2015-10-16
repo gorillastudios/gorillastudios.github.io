@@ -2540,7 +2540,7 @@
   exposure: 30s, f/8, ISO50
   portfolio: landscape
   position: iii
-  tags: long-exposure, sunset, panorama
+  tags: long-exposure, sunset, panorama, st-charles
 
 - title: Starry night in DeKalb, IL
   date: October 11th, 2015
@@ -2549,3 +2549,9 @@
   portfolio: landscape
   position: jjj
   tags: long-exposure, astrophotography
+
+- title: Fireworks from Pottawatomie Park
+  date: July 4th, 2012
+  image_path: /catalog/CRW_4837.jpg
+  exposure: 8s, f/3.5, ISO100
+  tags: long-exposure, fireworks, st-charles
