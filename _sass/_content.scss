@@ -102,42 +102,21 @@
     }
   }
 }
-.wrap {
-  overflow: hidden;
-}
 
-.content-drawer {
-  display: block;
-  height: 0px;
-  overflow: hidden;
-  margin: 2em 0;
-  //transition: max-height 1s ease-in;
-  transition: height 0.5s cubic-bezier(0.41,-0.38, 0.69, 1.49);
-}
+// ---------------------------------------- Special Gallery
 
-.content-drawer.open {
-  height: 200px;
-}
-
-
-.drawer-toggle {
-  border: none;
-  color: #999;
-  font-family: $serif-font;
-  font-style: italic;
-  display: block;
-  margin: 0 auto;
-  padding: 1em;
+#special-gallery {
+  background-image: url('/images/catalog/stc-festival.jpg');
+  background-size: cover;
+  background-position: 50%;
   text-align: center;
-  span {
-    margin-right: 0.5em;
-    transition: all 1s ease-in;
-  }
-  &:hover {
-    cursor: pointer;
-  }
-  &.open span {
-    transform: rotate(45deg);
+  padding: 10em 0 2em 0;
+}
+
+@media screen and (min-width: 600px) {
+  #special-gallery {
+    padding: 20em 10em 3em 0;
+    text-align: right;
   }
 }
 

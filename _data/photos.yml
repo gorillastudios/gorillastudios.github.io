@@ -2555,3 +2555,22 @@
   image_path: /catalog/CRW_4837.jpg
   exposure: 8s, f/3.5, ISO100
   tags: long-exposure, fireworks, st-charles
+
+- title: Leroy Oaks
+  date: March 5th, 2013
+  image_path: /catalog/CRW_8433.jpg
+  exposure: 1/180th, f/8, ISO100
+  tags: st-charles, snowscape, landscape, rural
+
+- title: Sholes School
+  orientation: vertical
+  date: March 5th, 2013
+  image_path: /catalog/CRW_8450.jpg
+  exposure: 1/90th, f/9.5, ISO100
+  tags: st-charles, snowscape, landscape, rural
+
+- title: Leroy Oaks
+  date: March 5th, 2013
+  image_path: /catalog/CRW_8450.jpg
+  exposure: 1/60th, f/9.5, ISO100
+  tags: st-charles, snowscape, landscape, rural

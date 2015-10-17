@@ -86,6 +86,17 @@ a {
     color: black;
     border: none; }
 
+[class*="button--"] {
+  background: #69A55B;
+  border-bottom: 2px solid #5e9552;
+  color: white;
+  display: inline-block;
+  padding: 0.5em 2em; }
+  [class*="button--"]:hover {
+    color: white;
+    background: #5e9552;
+    border-bottom: 2px solid #548449; }
+
 blockquote {
   color: #828282;
   border-left: 4px solid #e8e8e8;
@@ -153,14 +164,14 @@ blockquote {
   margin-bottom: 20px;
   width: 100%; }
 .contact input[type="submit"] {
-  border-bottom: 2px solid #488f3d;
-  background: #51A145;
+  border-bottom: 2px solid #5e9552;
+  background: #69A55B;
   color: white;
   font-size: 1em;
   padding: 10px;
   transition: all 0.25s ease-in; }
   .contact input[type="submit"]:hover {
-    background: #488f3d;
+    background: #5e9552;
     cursor: pointer; }
 
 .store-item {
@@ -313,36 +324,17 @@ blockquote {
       transform: scale(1);
       opacity: 1;
       cursor: pointer; } }
-.wrap {
-  overflow: hidden; }
+#special-gallery {
+  background-image: url("/images/catalog/stc-festival.jpg");
+  background-size: cover;
+  background-position: 50%;
+  text-align: center;
+  padding: 10em 0 2em 0; }
 
-.content-drawer {
-  display: block;
-  height: 0px;
-  overflow: hidden;
-  margin: 2em 0;
-  transition: height 0.5s cubic-bezier(0.41, -0.38, 0.69, 1.49); }
-
-.content-drawer.open {
-  height: 200px; }
-
-.drawer-toggle {
-  border: none;
-  color: #999;
-  font-family: "baskerville-urw";
-  font-style: italic;
-  display: block;
-  margin: 0 auto;
-  padding: 1em;
-  text-align: center; }
-  .drawer-toggle span {
-    margin-right: 0.5em;
-    transition: all 1s ease-in; }
-  .drawer-toggle:hover {
-    cursor: pointer; }
-  .drawer-toggle.open span {
-    transform: rotate(45deg); }
-
+@media screen and (min-width: 600px) {
+  #special-gallery {
+    padding: 20em 10em 3em 0;
+    text-align: right; } }
 #index-news p {
   border-bottom: 1px dotted #DDDDDD;
   padding-bottom: 1em; }
