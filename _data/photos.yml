@@ -155,8 +155,6 @@
 - title: Chicago
   image_path: chicago/inky-lake2.jpg
   thumbnail: /images/thumbnails/inky-lake2.jpg
-  portfolio: landscape
-  position: fff
   exposure: f/8, ISO50, 30s
   description: A long exposure of the Chicago cityscape towering over Lake Michigan
   tags: chicago, architecture, cityscape, hancock-building, lake-michigan, black-and-white, long-exposure
@@ -639,8 +637,6 @@
 
 - title: The Brooklyn Bridge
   image_path: catalog/0K6A7508.jpg
-  portfolio: landscape
-  position: aaa
   thumbnail: /images/thumbnails/0K6A7508.jpg
   description: The Brooklyn Bridge spans over the East River with One WTC standing tall behind
   exposure: 90s, f/16, ISO100
@@ -2538,8 +2534,6 @@
   date: October 10th, 2015
   image_path: /catalog/stc-panorama-scf.jpg
   exposure: 30s, f/8, ISO50
-  portfolio: landscape
-  position: iii
   tags: long-exposure, sunset, panorama, st-charles
 
 - title: Starry night in DeKalb, IL
@@ -2548,7 +2542,7 @@
   exposure: 20s, f/6.3, ISO2000
   portfolio: landscape
   position: jjj
-  tags: long-exposure, astrophotography
+  tags: long-exposure, astrophotography, rural
 
 - title: Fireworks from Pottawatomie Park
   date: July 4th, 2012
@@ -2559,6 +2553,8 @@
 - title: Leroy Oaks
   date: March 5th, 2013
   image_path: /catalog/CRW_8433.jpg
+  portfolio: landscape
+  position: fff
   exposure: 1/180th, f/8, ISO100
   tags: st-charles, snowscape, landscape, rural
 
@@ -2569,8 +2565,22 @@
   exposure: 1/90th, f/9.5, ISO100
   tags: st-charles, snowscape, landscape, rural
 
+- title: Barn
+  date: October 23rd, 2015
+  image_path: /catalog/0K6A0115.jpg
+  exposure: 1/160th, f/8, ISO50
+  tags: rural
+
+- title: Barn
+  date: October 23rd, 2015
+  portfolio: landscape
+  position: aaa
+  image_path: /catalog/0K6A0111.jpg
+  exposure: 1/160th, f/8, ISO50
+  tags: rural
+
 - title: Leroy Oaks
-  date: March 5th, 2013
-  image_path: /catalog/CRW_8450.jpg
-  exposure: 1/60th, f/9.5, ISO100
-  tags: st-charles, snowscape, landscape, rural
+  portfolio: landscape
+  position: iii
+  image_path: /catalog/CRW_8477.jpg
+  exposure: 1/120th, f/8, ISO100
