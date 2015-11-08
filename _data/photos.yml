@@ -23,7 +23,7 @@
   image_path: portfolio/masons-dock.jpg
   thumbnail: /images/thumbnails/masons-dock.jpg
   portfolio: landscape
-  position: bbb
+  position: ccc
   exposure: f/8, ISO50, 30s
   description: A small rowboat is tied up during a serene sunset on Masons Island in Mystic, Connecticut.
   date: November 11th, 2014
@@ -33,7 +33,7 @@
   image_path: portfolio/leroy-oaks.jpg
   thumbnail: /images/thumbnails/leroy-oaks.jpg
   portfolio: landscape
-  position: ccc
+  position: bbb
   exposure: f/8, ISO50, 30s
   description: A heavy snowstorm at Leroy Oaks Forest Preserve, St. Charles, IL
   date: March 4th, 2013
@@ -746,8 +746,6 @@
 
 - title: Mystic River
   image_path: new-england/mystic-river.jpg
-  portfolio: landscape
-  position: eee
   thumbnail: /images/thumbnails/mystic-river.jpg
   exposure: 1/150th, f/8, ISO100
   description: A fall afternoon in New England, taken on the Mystic River, Mystic CT
@@ -1634,8 +1632,6 @@
 - title: <i>Good Morning Mystic</i>
   image_path: catalog/0K6A2937.jpg
   thumbnail: /images/thumbnails/0K6A2937.jpg
-  portfolio: landscape
-  position: hhh
   exposure: 1/30th, f/8, ISO50
   description: The Mystic River bascule bridge at sunrise, downtown Mystic Connecticut
   date: November 8th, 2014
@@ -2524,7 +2520,7 @@
 
 - title: Lunar Eclipse
   date: September  28th, 2015
-  image_path: /posts/lunar-progression-tall.jpg
+  image_path: posts/lunar-progression-tall.jpg
   exposure: 1/125th, f/22, ISO4000
   portfolio: nature
   position: lll
@@ -2540,8 +2536,6 @@
   date: October 11th, 2015
   image_path: /catalog/0K6A6846.jpg
   exposure: 20s, f/6.3, ISO2000
-  portfolio: landscape
-  position: jjj
   tags: long-exposure, astrophotography, rural
 
 - title: Fireworks from Pottawatomie Park
@@ -2571,10 +2565,10 @@
   exposure: 1/160th, f/8, ISO50
   tags: rural
 
-- title: Barn
+- title: Barn in Low Point, IL
   date: October 23rd, 2015
   portfolio: landscape
-  position: aaa
+  position: eee
   image_path: /catalog/0K6A0111.jpg
   exposure: 1/160th, f/8, ISO50
   tags: rural
@@ -2584,3 +2578,25 @@
   position: iii
   image_path: /catalog/CRW_8477.jpg
   exposure: 1/120th, f/8, ISO100
+
+- title: Leo Carillo Beach
+  image_path: /catalog/0K6A0772.jpg
+  portfolio: landscape
+  position: hhh
+  exposure: 30s, f/8, ISO50
+
+- title: Leo Carillo Beach
+  image_path: /catalog/0K6A0770.jpg
+  exposure: 30s, f/8, ISO50
+
+- title: Leo Carillo Beach
+  image_path: /catalog/0K6A0660.jpg
+  portfolio: landscape
+  position: aaa
+  exposure: 1/20th, f/16, ISO100
+
+- title: Leo Carillo Beach
+  image_path: /catalog/0K6A0789.jpg
+  portfolio: landscape
+  position: jjj
+  exposure: 30s, f/4, ISO100
