@@ -3,10 +3,12 @@ layout: default
 title: Black and White
 permalink: /black-and-white/
 ---
-<div class="portfolio">
-  {% assign sorted_photos = (site.data.photos | where: "portfolio", "black-white" | sort: "position") %}
-
-  {% for photo in sorted_photos %}
-    {% include portfolio_template.html %}
+<section class="gallery zoomable">
+  {% for photo in site.data.photos %}
+    {% if photo.tags contains 'black-and-white' %}
+      {% include figure_template--clean.html %}
+    {% endif %}
   {% endfor %}
-</div>
+</section>
+
+{% include gallery_script.html %}

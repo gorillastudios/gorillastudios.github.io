@@ -235,7 +235,7 @@
   image_path: london/whitehall-street.jpg
   thumbnail: /images/thumbnails/whitehall-street.jpg
   exposure: f/8, ISO50, 60s
-  tags: london, architecture, long-exposure, dusk
+  tags: london, long-exposure, dusk
 
 - title: St. Pauls Cathedral and Millenium Bridge
   image_path: london/st-pauls.jpg
