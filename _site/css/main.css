@@ -136,7 +136,7 @@ blockquote {
   background: #f2f2f2;
   background-image: url("/images/catalog/0K6A7702.jpg");
   background-size: cover;
-  background-position: 50% 60%;
+  background-position: 50%;
   height: 400px; }
 
 @media screen and (min-width: 600px) {

@@ -351,13 +351,14 @@
   description: The Aqua Building, Near North Side, Chicago
   tags: chicago, architecture, black-and-white, abstract
 
-- title: Manhattan skyline
-  image_path: p52/25.jpg
-  thumbnail: /images/thumbnails/25.jpg
-  portfolio: new-york
-  position: ggg
-  exposure: f/8, ISO50, 60s
-  description: One World Trade Center standing tall over the southern tip of Manhattan
+- title: One World Trade Center
+  image_path: catalog/one-wtc-bw-pano.jpg
+  thumbnail: /images/thumbnails/one-wtc-bw-pano.jpg
+  orientation: vertical
+  portfolio: urban
+  position: lll
+  exposure: 30s, f/6.3, ISO50
+  description: One World Trade Center standing tall at sunset
   tags: new-york, manhattan, architecture, black-and-white, cityscape, skyscraper, long-exposure
 
 - title: The London Eye
@@ -487,8 +488,6 @@
 - title: James Thompson Center
   orientation: vertical
   image_path: chicago/thompson-center.jpg
-  portfolio: urban
-  position: lll
   thumbnail: /images/thumbnails/thompson-center.jpg
   exposure: 1/60th, f/8, ISO4000
   tags: chicago, architecture, panorama
@@ -634,7 +633,7 @@
   image_path: catalog/0K6A7901.jpg
   thumbnail: /images/thumbnails/0K6A7901.jpg
   exposure: 30s, f/6.3, ISO50
-  tags: new-york, manhattan, long-exposure, dusk, cityscape, wtc
+  tags: new-york, manhattan, long-exposure, dusk, cityscape, wtc, architecture
 
 - title: Manhattan Skyline
   image_path: catalog/0K6A7702.jpg
@@ -722,6 +721,13 @@
   thumbnail: /images/thumbnails/flatiron.jpg
   exposure: 1/200th, f/8, ISO100
   tags: new-york, manhattan, cityscape, black-and-white, long-exposure
+
+- title: One WTC &amp; The Brooklyn Bridge
+  orientation: vertical
+  image_path: catalog/0K6A7861.jpg
+  thumbnail: /images/thumbnails/0K6A7861.jpg
+  exposure: 1/160th, f/8, ISO100
+  tags: new-york, manhattan, cityscape, urban
 
 - title: Grand Central great hall
   image_path: posts/grand-central.jpg
