@@ -22,7 +22,7 @@ html {
 
 @media screen and (min-width: 600px) {
   body {
-    padding-top: 9%; } }
+    padding-top: 4%; } }
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -134,7 +134,7 @@ blockquote {
 #marquee {
   display: block;
   background: #f2f2f2;
-  background-image: url("/images/portfolio/leroy-oaks.jpg");
+  background-image: url("/images/catalog/0K6A7702.jpg");
   background-size: cover;
   background-position: 50%;
   height: 400px; }
@@ -654,16 +654,15 @@ blockquote {
   padding: 20px 10px; }
   .site-header a.site-title {
     border: none;
-    display: inline-block;
-    margin-bottom: 10px; }
+    display: inline-block; }
     .site-header a.site-title img {
-      max-width: 200px; }
+      max-width: 170px; }
 
 #nav-toggle {
   border: none;
   display: inline-block;
   float: right;
-  padding: 10px 10px 0 10px;
+  padding: 5px 10px 0 10px;
   color: #bbb; }
 
 #nav ul {
@@ -708,8 +707,8 @@ blockquote {
 
 @media screen and (min-width: 600px) {
   .site-header {
-    background: white;
-    padding: 2.5% 0;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1% 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -720,6 +719,8 @@ blockquote {
       margin: 0 auto;
       max-width: 1100px;
       width: 95%; }
+    .site-header #nav-toggle {
+      padding-top: 3px; }
     .site-header #nav ul {
       overflow: hidden; }
       .site-header #nav ul li {
