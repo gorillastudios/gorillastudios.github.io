@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Building a custom time-lapse slider</title>
+    <meta name="description" content="Focusing on stunning landscape and high-energy music photography, Gorilla-Studios has been the online home of my portfolio since 2003. I specialize in landscapes, cityscapes and architecture, nature, candid portraiture, headshots, band promos and concert photography.
+">
+
+    <meta property="og:image" content="http://www.gorilla-studios.com/images/gorilla-studios.jpg">
+    <meta property="og:title" content="Gorilla-Studios Photography"/>
+    <meta property="og:url" content="http://www.gorilla-studios.com"/>
+    <meta property="og:description" content="
+      Focusing on stunning landscape and high-energy music photography,
+      Gorilla-Studios has been the online home of my portfolio since 2003.
+      I specialize in landscapes, cityscapes and architecture, nature,
+      candid portraiture, headshots, band promos and concert photography." />
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/vendor/animate.css">
+    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
+    <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
+
+    <script src="//use.typekit.net/zrp7zuy.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/responsive-nav.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.compatibility.js"></script>
+    <script src="/js/twitterFetcher_min.js"></script>
+
+    <link rel="canonical" href="http://gorilla-studios.com/blog/2016/01/20/slider-project-1.html">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-35144702-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+
+  <body  data-current-page="/blog/2016/01/20/slider-project-1">
+
+    <header class="site-header">
+  <div>
+  <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+  <div id="nav">
+    <ul>
+      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
+      <li><a href="/#contact" data-page-id="about">Contact</a></li>
+    </ul>
+  </div>
+  <div>
+</header>
+
+<script>
+  var nav = responsiveNav("#nav", {
+    insert: "before"
+  });
+
+  $("#nav ul li a").click(function(){ nav.toggle();});
+
+</script>
+
+
+    <div class="animated fadeIn">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Building a custom time-lapse slider</h1>
+    <h3 class="post-meta">Jan 20, 2016</h3>
+  </header>
+
+  <article class="post-content">
+    <p>I have been sketching out ideas for a custom built time-lapse slider for probably years now, so when I opened up an Arduino Uno on Christmas day I realized its time to get on with it and put something together. It should be a straight forward build, as it's only comprised of a few components: a set of rails for the camera to slide on, a stepper motor to move the dolly the camera will be on, a shutter release, and a controller to coordinate the shutter release and camera movement.</p>
+<figure>
+  <img src="/images/posts/slider-notes.jpg">
+  <figcaption>My initial sketch and brain dump</figcaption>
+</figure>
+<p>The goal of this build is to have something simple I can shoot basic time-lapses with, nothing more than that. It's a learning exercise. Could I go drop $2000 on a pro-grade rig and be out shooting this weekend? Sure, but where is the fun in that? No, it won't have a rotating ball head, or carbon fiber components, but it also doesn't have the massive price tag. I think I can complete this build with about $100 worth of parts. So lets get started.</p>
+<p>With daytime time-lapses you don't need to worry about alternating movement and capture as the shutter speeds will be so fast it won't impact the exposure, however I want to shoot sunrises, sunsets, and at night which means exposures of 15-30 seconds each, so movement during exposure is a no-go. Thats where the Arduino comes in. The Arduino will alternate between opening the shutter for a set amount of time, then shifting the camera while the shutter is closed between shots.</p>
+<p>The first step is wiring up the shutter release to the Arduino board so in essence it can talk to the camera.</p>
+<figure>
+  <img src="/images/posts/remote-prototype.jpg">
+  <figcaption>Breadboarding the shutter controls</figcaption>
+</figure>
+<p>I took my old Canon RS-80 shutter release cable and removed the plastic housing around the button to reveal it's simply 3 wires attached to metal reeds. When you depress the button two reeds come into contact activating the AF, and when all three touch it completes the circuit, activating the shutter. For time-lapses I always use manual focus, so I can ignore one wire right off the bat. That means all I have to do is plug the two wires into a breadboard and use the Arduino to complete the circuit. I plugged everything in and wrote a quick script to open the shutter for 1 second, close it, wait a second, and repeat.</p>
+
+<figure>
+  <img src="/images/posts/uno-program-1.jpg">
+  <figcaption>Arduino code - getting started</figcaption>
+</figure>
+
+<p>I pushed the program over to the Uno and the camera started taking 1 second exposures every 2 seconds. It's not much, but it's a great start. Next up is wiring up the stepper motor and alternating between activating it and opening the shutter. The <a target="blank" href="https://brainy-bits.com/shop/new/nema-17-stepper-motor/">stepper motor</a> is on the way, so I'll be working on this in the next week or so. I'll be giving periodic updates as everything comes together, and when I am done I will provide a parts list and instructions. Here's a rough list of tasks to complete and using the Agile mindset from work these are my epics to hit.</p>
+<p>
+<ul>
+  <li><input type="checkbox" checked="checked">Get Arduino to control shutter</input></li>
+  <li><input type="checkbox">Get Arduino to control stepper motor</input></li>
+  <li><input type="checkbox">Arduino shield to enable shutter speed variable definition in the field</input></li>
+  <li><input type="checkbox">Build actual slider and camera mount</input></li>
+  <li><input type="checkbox">Calculate stepper motor rotations for full range of movemnt</input></li>
+  <li><input type="checkbox">Reed switches for either end to act as stoppers</input></li>
+  <li><input type="checkbox">Program Arduino for variable shutter speed input, slider speed, and reed stops to limit movement</input></li>
+  <li><input type="checkbox">Power source?</input></li>
+  <li><input type="checkbox">Wire up PCB and build Arduino enclosure</input></li>
+  <li><input type="checkbox">Test</input></li>
+</ul></p>
+<p>Stay tuned</p>
+
+  </article>
+
+  <div class="page-navigation">
+    
+    <a class="prev" href="/blog/2016/01/15/best-of-2015.html">
+      <span class="arrow"><i class="fa fa-arrow-left"></i></span>
+      <div>
+        <p class="subtitle">Previous post</p>
+        <h3>My top 10 images of 2015</h3>
+        <p>A 10 shot collection of my best work in 2015</p>
+        <p class="date">January 15 2016</p>
+        <span class="post-preview-image" style="background-image: url('/images/previews/lightroom.jpg')"></span>
+      </div>
+    </a>
+    
+    
+  </div>
+
+</div>
+
+    </div>
+
+
+  </body>
+</html>

@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gorilla-Studios Photography</title>
+    <title></title>
     <description>Focusing on stunning landscape and high-energy music photography, Gorilla-Studios has been the online home of my portfolio since 2003. I specialize in landscapes, cityscapes and architecture, nature, candid portraiture, headshots, band promos and concert photography.
 </description>
-    <link>http://gorilla-studios.com/</link>
+    <link>http://gorilla-studios.com</link>
     <atom:link href="http://gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
     
-      <item>
-        <title>My top 10 images of 2015</title>
-        <description>&lt;p&gt;After dragging my feet for a long time I decided that 2016 would be the year I took the plunge and switched my workflow over to Adobe Lightroom. Inspired by Martin Bailey&#39;s Photography Blogcast, I kicked things off by following a yearly tradition where he goes through and shares his top 10 images from the last calendar year. This is an amazing exercise in how to trim down your body of work to showcase only your very best. I highly recommend listening to the &lt;a target=&quot;blank&quot; href=&quot;http://www.martinbaileyphotography.com/2016/01/04/my-personal-top-ten-photos-for-2015-podcast-504/&quot;&gt;episode where he explains this process in detail&lt;/a&gt;, it&#39;s a must for every photographer.&lt;/p&gt;
+    <item>
+      <title>Building a custom time-lapse slider</title>
+      <description>&lt;p&gt;I have been sketching out ideas for a custom built time-lapse slider for probably years now, so when I opened up an Arduino Uno on Christmas day I realized its time to get on with it and put something together. It should be a straight forward build, as it&#39;s only comprised of a few components: a set of rails for the camera to slide on, a stepper motor to move the dolly the camera will be on, a shutter release, and a controller to coordinate the shutter release and camera movement.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/slider-notes.jpg&quot;&gt;
+  &lt;figcaption&gt;My initial sketch and brain dump&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The goal of this build is to have something simple I can shoot basic time-lapses with, nothing more than that. It&#39;s a learning exercise. Could I go drop $2000 on a pro-grade rig and be out shooting this weekend? Sure, but where is the fun in that? No, it won&#39;t have a rotating ball head, or carbon fiber components, but it also doesn&#39;t have the massive price tag. I think I can complete this build with about $100 worth of parts. So lets get started.&lt;/p&gt;
+&lt;p&gt;With daytime time-lapses you don&#39;t need to worry about alternating movement and capture as the shutter speeds will be so fast it won&#39;t impact the exposure, however I want to shoot sunrises, sunsets, and at night which means exposures of 15-30 seconds each, so movement during exposure is a no-go. Thats where the Arduino comes in. The Arduino will alternate between opening the shutter for a set amount of time, then shifting the camera while the shutter is closed between shots.&lt;/p&gt;
+&lt;p&gt;The first step is wiring up the shutter release to the Arduino board so in essence it can talk to the camera.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/remote-prototype.jpg&quot;&gt;
+  &lt;figcaption&gt;Breadboarding the shutter controls&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I took my old Canon RS-80 shutter release cable and removed the plastic housing around the button to reveal it&#39;s simply 3 wires attached to metal reeds. When you depress the button two reeds come into contact activating the AF, and when all three touch it completes the circuit, activating the shutter. For time-lapses I always use manual focus, so I can ignore one wire right off the bat. That means all I have to do is plug the two wires into a breadboard and use the Arduino to complete the circuit. I plugged everything in and wrote a quick script to open the shutter for 1 second, close it, wait a second, and repeat.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/uno-program-1.jpg&quot;&gt;
+  &lt;figcaption&gt;Arduino code - getting started&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I pushed the program over to the Uno and the camera started taking 1 second exposures every 2 seconds. It&#39;s not much, but it&#39;s a great start. Next up is wiring up the stepper motor and alternating between activating it and opening the shutter. The &lt;a target=&quot;blank&quot; href=&quot;https://brainy-bits.com/shop/new/nema-17-stepper-motor/&quot;&gt;stepper motor&lt;/a&gt; is on the way, so I&#39;ll be working on this in the next week or so. I&#39;ll be giving periodic updates as everything comes together, and when I am done I will provide a parts list and instructions. Here&#39;s a rough list of tasks to complete and using the Agile mindset from work these are my epics to hit.&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked=&quot;checked&quot;&gt;Get Arduino to control shutter&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Get Arduino to control stepper motor&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Arduino shield to enable shutter speed variable definition in the field&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Build actual slider and camera mount&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Calculate stepper motor rotations for full range of movemnt&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Reed switches for either end to act as stoppers&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Program Arduino for variable shutter speed input, slider speed, and reed stops to limit movement&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Power source?&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Wire up PCB and build Arduino enclosure&lt;/input&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;Test&lt;/input&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Stay tuned&lt;/p&gt;
+</description>
+      <pubDate>Wed, 20 Jan 2016 00:00:00 -0600</pubDate>
+      <link>http://gorilla-studios.com//blog/2016/01/20/slider-project-1.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//blog/2016/01/20/slider-project-1.html</guid>
+    </item>
+    
+    <item>
+      <title>My top 10 images of 2015</title>
+      <description>&lt;p&gt;After dragging my feet for a long time I decided that 2016 would be the year I took the plunge and switched my workflow over to Adobe Lightroom. Inspired by Martin Bailey&#39;s Photography Blogcast, I kicked things off by following a yearly tradition where he goes through and shares his top 10 images from the last calendar year. This is an amazing exercise in how to trim down your body of work to showcase only your very best. I highly recommend listening to the &lt;a target=&quot;blank&quot; href=&quot;http://www.martinbaileyphotography.com/2016/01/04/my-personal-top-ten-photos-for-2015-podcast-504/&quot;&gt;episode where he explains this process in detail&lt;/a&gt;, it&#39;s a must for every photographer.&lt;/p&gt;
 &lt;p&gt;Lightroom allows you to set a &#39;target&#39; collection so when you are in grid view you can simply tap the B key and add the selected photo into that collection. I started by filtering my entire library to only show shots in 2015 with a rating of 3 stars or higher. Then, going through with an editors mindset I started filling up my &#39;2015 Candidates&#39; collection. After my first pass I was around 45 photos which wasn&#39;t too bad. I switched over to view the collection and started removing the ones that didn&#39;t wow me. A few passes later I was down to about 20 which is where it starts getting difficult. Martin Bailey talks about editing photos which most people confuse with post-processing. Editing your photos means selecting which ones to display and which ones to shelve. Other photographers stress being ruthless in this process and often use the term &#39;killing your babies&#39;, which doesn&#39;t sit well with me. The main point is not to become emotionally attached to a photo that might not be as strong as you think.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/posts/lightroom.jpg&quot;&gt;
@@ -68,14 +110,14 @@
 &lt;/figure&gt;
 &lt;p&gt;Thanks for reading, and Happy 2016 everyone!&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://gorilla-studios.com/blog/2016/01/15/best-of-2015.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/blog/2016/01/15/best-of-2015.html</guid>
-      </item>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 -0600</pubDate>
+      <link>http://gorilla-studios.com//blog/2016/01/15/best-of-2015.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//blog/2016/01/15/best-of-2015.html</guid>
+    </item>
     
-      <item>
-        <title>Leo Carillo Beach</title>
-        <description>&lt;p&gt;This past weekend I flew out to Los Angeles for a conference, and had a small amount of free time the night before so I drove up the Pacific Coast Highway to Leo Carillo State Beach. Having scouted this location on Google Maps weeks before flying out I had a very good idea of the shots I wanted to get, knowing that at sunset I only had a good hour of what I consider to be perfect light. I didn&#39;t know when I would be back out, so I had to make the most of my time.&lt;/p&gt;
+    <item>
+      <title>Leo Carillo Beach</title>
+      <description>&lt;p&gt;This past weekend I flew out to Los Angeles for a conference, and had a small amount of free time the night before so I drove up the Pacific Coast Highway to Leo Carillo State Beach. Having scouted this location on Google Maps weeks before flying out I had a very good idea of the shots I wanted to get, knowing that at sunset I only had a good hour of what I consider to be perfect light. I didn&#39;t know when I would be back out, so I had to make the most of my time.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/posts/0K6A0637.jpg&quot;&gt;
   &lt;figcaption&gt;On approach to LAX&lt;/figcaption&gt;
@@ -110,14 +152,14 @@
 &lt;/figure&gt;
 &lt;p&gt;From my first shot to last I was only on the beach for an hour, so you can see how little time I actually had. I could probably spend each night for a week here and just start to get the shots I want - I didn&#39;t even get down to the small cave that was tucked away in the cliffs. On top of that, this is just one of hundreds of beaches surrounding Los Angeles. I&#39;d love to come back out in the future and shoot some more here as well as drive up to Natural Bridges State Park in Santa Cruz. I&#39;m happy I got to come out to California even if just for a brief time and am looking forward to when I can return in the future.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 08 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://gorilla-studios.com/blog/2015/11/08/leo-carillo.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/blog/2015/11/08/leo-carillo.html</guid>
-      </item>
+      <pubDate>Sun, 08 Nov 2015 00:00:00 -0600</pubDate>
+      <link>http://gorilla-studios.com//blog/2015/11/08/leo-carillo.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//blog/2015/11/08/leo-carillo.html</guid>
+    </item>
     
-      <item>
-        <title>A starry night in DeKalb</title>
-        <description>&lt;p&gt;A few months ago I was heading back from downstate IL when my GPS took me a different route than I was used to, and on the way I stumbled across this old weather-stripped barn on one of the backroads in DeKalb, IL. The county is full of them so I am always on the lookout for any that have a lot of character that stood on their own and this one fit the bill nicely. I made a note of it&#39;s location and thought about how I wanted to photograph it at some point. I&#39;ve done quite a few rural photos of barns, especially when I was getting started, however they were all during the day, and due to my inexperience, mostly in the worst light imagineable. I had always wanted to shoot a starscape through the roof of an old barn at another location, but I thought this might be a better opportunity.&lt;/p&gt;
+    <item>
+      <title>A starry night in DeKalb</title>
+      <description>&lt;p&gt;A few months ago I was heading back from downstate IL when my GPS took me a different route than I was used to, and on the way I stumbled across this old weather-stripped barn on one of the backroads in DeKalb, IL. The county is full of them so I am always on the lookout for any that have a lot of character that stood on their own and this one fit the bill nicely. I made a note of it&#39;s location and thought about how I wanted to photograph it at some point. I&#39;ve done quite a few rural photos of barns, especially when I was getting started, however they were all during the day, and due to my inexperience, mostly in the worst light imagineable. I had always wanted to shoot a starscape through the roof of an old barn at another location, but I thought this might be a better opportunity.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/posts/google-maps-dekalb.jpg&quot;&gt;
   &lt;figcaption&gt;Scouting the location beforehand in Google Maps&lt;/figcaption&gt;
@@ -130,14 +172,14 @@
 &lt;/figure&gt;
 &lt;p&gt;The light from the street was absolutely perfect, but it did throw off the color temperature a bit which is easy enough to fix in post. The night sky has a very dreamy feeling to it which I love, creating a very meditative photograph. I think I am going to head back in a few weeks during the next new moon to take it to the next level and make my first attempt at star-trails.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 14 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://gorilla-studios.com/blog/2015/10/14/starry-night.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/blog/2015/10/14/starry-night.html</guid>
-      </item>
+      <pubDate>Wed, 14 Oct 2015 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//blog/2015/10/14/starry-night.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//blog/2015/10/14/starry-night.html</guid>
+    </item>
     
-      <item>
-        <title>The 20 Year Photo</title>
-        <description>&lt;p&gt;The first time I picked up an SLR camera was some time in early 1995. To this day I can&#39;t really explain what drew me to photography, but I think it has to do with the intersection between art and technology. I was fascinated at how this bulky metal box stuffed with a mirror, prism, mechanical shutter, and a little strip of 35mm film could produce what I was seeing in National Geographic. During my freshman year in High School I took Intro to Photography which to this day is the extent of my formal education in the field.&lt;/p&gt;
+    <item>
+      <title>The 20 Year Photo</title>
+      <description>&lt;p&gt;The first time I picked up an SLR camera was some time in early 1995. To this day I can&#39;t really explain what drew me to photography, but I think it has to do with the intersection between art and technology. I was fascinated at how this bulky metal box stuffed with a mirror, prism, mechanical shutter, and a little strip of 35mm film could produce what I was seeing in National Geographic. During my freshman year in High School I took Intro to Photography which to this day is the extent of my formal education in the field.&lt;/p&gt;
 &lt;p&gt;I immediately loved it, I was shooting as much as I could while trying not to go broke buying roll after roll of 35mm film. In 1998 my dad purchased a Sony Digital camera that literally used 3.5&quot; floppy discs in the back, which held about 10 photos. Between then and 2003 I used a few different digital cameras but never felt as comfortable as I did with that beat up old Nikon film SLR.&lt;/p&gt;
 &lt;h3&gt;The path to mastery&lt;/h3&gt;
 &lt;p&gt;In 2003 I purchased a brand new Canon EOS 10D Digital SLR and I was on top of the world. The problem was that my ambitions were far ahead of my skill level. I was aware of it, but not consciously. I wanted to take amazing photos and be able to share them, and I was getting frustrated at the disconnect between what I had in my head and what was shoing up on the back of the camera. I knew it would take hard work, but I couldn&#39;t grasp how much. At some point I came across this quote by Ira Glass which stopped me in my tracks:&lt;/p&gt;
@@ -201,14 +243,14 @@
 &lt;/div&gt;
   &lt;p&gt;I don&#39;t feel as I am a master photographer yet, and am in no way comparing myself to Picasso, but I really like that quote. The lunar eclipse progression I took on September 27th 2015 technically only took me fractions of a second for each frame to make, but in reality it took 20 years of hard work, many failures, even more learning, reading, patience, and practice to create.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 01 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://gorilla-studios.com/blog/2015/10/01/twenty-years.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/blog/2015/10/01/twenty-years.html</guid>
-      </item>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//blog/2015/10/01/twenty-years.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//blog/2015/10/01/twenty-years.html</guid>
+    </item>
     
-      <item>
-        <title>Bigfoot Bandcamp</title>
-        <description>&lt;p&gt;This weekend I headed down to Cedar Point IL and had a blast photographing the Bigfoot Bandcamp music festival. If you are looking for a truly unique, laid back and intimate atmosphere, this was the place to be. The festival was held in a huge campground with the stage in the center so you could literally hop out of your tent and walk right down to the stage. A huge lineup of unique acts combined with a very laid back environment makes this an event you don&#39;t want to miss. I have it marked on my calendar for next year already. I got down after the show started, but I got to see Jaik Willis, Evacuate The Earth, The Voodoo Fix, The Krank Daddies, and topping the bill was The Reverend Horton Heat. Throw in some fire dancers, hula hoopers, and a burlesque show, its one of the best festivals I have ever been to.&lt;/p&gt;
+    <item>
+      <title>Bigfoot Bandcamp</title>
+      <description>&lt;p&gt;This weekend I headed down to Cedar Point IL and had a blast photographing the Bigfoot Bandcamp music festival. If you are looking for a truly unique, laid back and intimate atmosphere, this was the place to be. The festival was held in a huge campground with the stage in the center so you could literally hop out of your tent and walk right down to the stage. A huge lineup of unique acts combined with a very laid back environment makes this an event you don&#39;t want to miss. I have it marked on my calendar for next year already. I got down after the show started, but I got to see Jaik Willis, Evacuate The Earth, The Voodoo Fix, The Krank Daddies, and topping the bill was The Reverend Horton Heat. Throw in some fire dancers, hula hoopers, and a burlesque show, its one of the best festivals I have ever been to.&lt;/p&gt;
 &lt;figure class=&quot;half-and-half&quot;&gt;
   &lt;img src=&quot;/images/bfbc/0K6A3771.jpg&quot;&gt;
   &lt;img src=&quot;/images/bfbc/0K6A4479.jpg&quot;&gt;
@@ -258,14 +300,14 @@
 &lt;p&gt;Thanks Rev.&lt;/p&gt;
 &lt;p&gt;Check out &lt;a href=&quot;/rev-horton-heat&quot;&gt;all the photos from their set here&lt;/a&gt; and find out where they&#39;ll be soon at &lt;a href=&quot;http://www.reverendhortonheat.com&quot; target=&quot;blank&quot;&gt;their website&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 10 Aug 2015 00:00:00 -0500</pubDate>
-        <link>http://gorilla-studios.com/blog/2015/08/10/bigfoot.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/blog/2015/08/10/bigfoot.html</guid>
-      </item>
+      <pubDate>Mon, 10 Aug 2015 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//blog/2015/08/10/bigfoot.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//blog/2015/08/10/bigfoot.html</guid>
+    </item>
     
-      <item>
-        <title>Morning on the L</title>
-        <description>&lt;figure&gt;
+    <item>
+      <title>Morning on the L</title>
+      <description>&lt;figure&gt;
   &lt;img src=&quot;/images/mobile/IMG_2705.jpg&quot;&gt;
 &lt;/figure&gt;
 &lt;p&gt;This weekend I was in the city and had to take the Orange line of the L down to the South Loop and because I didn&#39;t plan on doing any shooting, my 5D was packed in my camera bag at home. While waiting at the something station in the Loop I noticed the morning light streaming down onto the tracks from between two buildings creating a nice contrast between the shade and sunlight. With a train coming down the tracks at me I got my iPhone 4 out and snapped this photo. Im always nervous shooting with the iPhone because of the shutter lag from when I hit the button but I timed it perfectly so the lead car was in the morning sun. I was frustrated that I didn&#39;t have my DSLR on me but they say the best camera is the one you have with you so I should be happy that at the very least I have a camera in my pocket at all times.&lt;/p&gt;
@@ -274,14 +316,14 @@
 &lt;iframe height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Qbcdf5676Uk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;I was disappointed when I remembered that Instagram limits video to 15 seconds, the entire clip is pretty cool. I&#39;m not sure if the lag in the beginning is due to the limited processing capabilities of the iPhone 4 or something along those lines, I was just irritated it wasn&#39;t as smooth as I had hoped. I was impressed enough to want to take some more time lapses in the future, so we&#39;ll see if its the phone or something I did.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 -0500</pubDate>
-        <link>http://gorilla-studios.com/photo/2015/06/27/morning-L.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/06/27/morning-L.html</guid>
-      </item>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//photo/2015/06/27/morning-L.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//photo/2015/06/27/morning-L.html</guid>
+    </item>
     
-      <item>
-        <title>Campton Hills Road</title>
-        <description>&lt;p&gt;Over the past few weeks I have been cataloging all my photos on my website in order to dynamically create galleries sorted by category, and in doing so I have dug up quote a few old photographs from my archive. This photo was taken back in 2006 on my trusty old EOS 10D - a 6.1MP DSLR that I bought new in 2003.&lt;/p&gt;
+    <item>
+      <title>Campton Hills Road</title>
+      <description>&lt;p&gt;Over the past few weeks I have been cataloging all my photos on my website in order to dynamically create galleries sorted by category, and in doing so I have dug up quote a few old photographs from my archive. This photo was taken back in 2006 on my trusty old EOS 10D - a 6.1MP DSLR that I bought new in 2003.&lt;/p&gt;
 &lt;p&gt;Just west of the town I grew up in there was an old knotty tree that just kept catching my attention when I would drive by, so I decided to try to get an interesting photo of it. I made quite a few attempts - some in broad daylight which aren&#39;t anything special, a handful in a snowstorm which I printed out and gave to my parents, and then a number at night including this one.&lt;/p&gt;
 &lt;figure class=&quot;vertical&quot;&gt;
   &lt;img src=&quot;/images/catalog/CRW_2285.jpg&quot;&gt;
@@ -290,14 +332,14 @@
 &lt;p&gt;This was when I was still learning long exposures, and while it&#39;s a good print, I wish I had gotten it during magic hour or closer to sunset. I lost a lot of details in the foreground (including the base of the trunk), and the overall exposure was extremely dark. Lightroom brought it up enough to display online, but at full resolution the sky doesn&#39;t look so good. I love that I got a silhouette of the tree with the leaves blurred by wind, the cars streaking by were completely intentional, but the plane coming into frame from above left was a happy accident.&lt;/p&gt;
 &lt;p&gt;I had originally edited this as a black and white and let it sit for years, but it never really grabbed me. Looking at it again I realized the color version was much better, the light of the city combined with the very tail end of a warm midwestern sunset create something much more special than a black and white print can do. This is a prime example of why I always keep my original RAW files - there have been quite a few I go back to years later and rescue them from obscurity. Additionally the tree died and was finally cut down sometime around 2012, so I can&#39;t go and re-shoot in this location much to my dismay.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 09 Jun 2015 00:00:00 -0500</pubDate>
-        <link>http://gorilla-studios.com/photo/2015/06/09/campton-hills.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/06/09/campton-hills.html</guid>
-      </item>
+      <pubDate>Tue, 09 Jun 2015 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//photo/2015/06/09/campton-hills.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//photo/2015/06/09/campton-hills.html</guid>
+    </item>
     
-      <item>
-        <title>James Thompson Center</title>
-        <description>&lt;p&gt;Today on my walk to the train station after work I took a quick detour and randomly stopped into the James Thompson government center on Randolph and Clark in the Loop. It&#39;s the kind of place you could walk by a thousand times and not notice anything about it. I first went in years ago because there is a DMV in the basement, and thats when I realized the interior of the building is this beautiful open space all the way up to the ceiling, a sprawling web of glass and steel. The elevator stacks are exposed in the center, with offices wrapping around in a circle on the outside, and a large hole in the floor looking down to the basement level.&lt;/p&gt;
+    <item>
+      <title>James Thompson Center</title>
+      <description>&lt;p&gt;Today on my walk to the train station after work I took a quick detour and randomly stopped into the James Thompson government center on Randolph and Clark in the Loop. It&#39;s the kind of place you could walk by a thousand times and not notice anything about it. I first went in years ago because there is a DMV in the basement, and thats when I realized the interior of the building is this beautiful open space all the way up to the ceiling, a sprawling web of glass and steel. The elevator stacks are exposed in the center, with offices wrapping around in a circle on the outside, and a large hole in the floor looking down to the basement level.&lt;/p&gt;
 &lt;p&gt;I walked in and poked around a little bit, but there are restricted areas because it is a government building and they can be a bit picky about photographers. I went up to the first floor above the lobby and took some panoramas from floor to ceiling from each side. This is a 5 shot panorama from the left side of the first floor overlooking the lobby and down into the basement.&lt;/p&gt;
 &lt;figure class=&quot;vertical&quot;&gt;
   &lt;img src=&quot;/images/chicago/thompson-center.jpg&quot;&gt;
@@ -305,14 +347,14 @@
 &lt;/figure&gt;
 &lt;p&gt;I love the blue glass near the entrance, and all the exposed staircases, so many little details that almost get lost in the photo. If you are downtown I recommend you at least stop in and look around for a few minutes.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
-        <link>http://gorilla-studios.com/photo/2015/05/15/thompson-center.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/05/15/thompson-center.html</guid>
-      </item>
+      <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//photo/2015/05/15/thompson-center.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//photo/2015/05/15/thompson-center.html</guid>
+    </item>
     
-      <item>
-        <title>Natural Light Portrait</title>
-        <description>&lt;p&gt;In most situations nothing beats natural light. This morning I was playing with my daughter in front of our large picture window when I noticed the light fall-off on the side of her face as she gazed outside. I knew just looking at her if I used a high shutter speed I could drop the background to a solid black even though the room was fully lit. It&#39;s actually a gloomy day outside which is perfect - clouds create the perfect diffuser, softening the light and removing all the harsh shadows that are present on a sunny day.&lt;/p&gt;
+    <item>
+      <title>Natural Light Portrait</title>
+      <description>&lt;p&gt;In most situations nothing beats natural light. This morning I was playing with my daughter in front of our large picture window when I noticed the light fall-off on the side of her face as she gazed outside. I knew just looking at her if I used a high shutter speed I could drop the background to a solid black even though the room was fully lit. It&#39;s actually a gloomy day outside which is perfect - clouds create the perfect diffuser, softening the light and removing all the harsh shadows that are present on a sunny day.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/portraits/alison-seven-months.jpg&quot;&gt;
   &lt;figcaption&gt;Natural portrait&lt;span&gt;1/250th, f/4, ISO8000&lt;/figcaption&gt;
@@ -320,24 +362,10 @@
 &lt;p&gt;I propped her up between my knees as she braced herself on the back of the couch. Leaning back I snapped a few photos, as she looked around. Composition was a little difficult because just to the left of the frame are the white window blinds which completely throws off the image. I cropped them out in camera, while keeping her to the right side. After a few test shots I landed on 1/250th of a second which was enough to drop the background completely black. I bumped the shadows just a touch to make it a bit more dramatic, adjusted the color temperature, sharpened up her eye and that was it.&lt;/p&gt;
 &lt;p&gt;For adult portraits and other situations I do like using off-camera flash, but for simple, up close headshots and portraits, I still absolutely love natural light. During the summer I try to shoot during the early morning and evening to avoid harsh light, however when its cloudy thats the perfect time to shoot all day long. So don&#39;t be dissapointed on gloomy days, grab your camera and make something special.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 22 Apr 2015 00:00:00 -0500</pubDate>
-        <link>http://gorilla-studios.com/photo/2015/04/22/natural-light.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/04/22/natural-light.html</guid>
-      </item>
-    
-      <item>
-        <title>Wabash Ave</title>
-        <description>&lt;p&gt;While downtown I don&#39;t typically ride the L, and when I do it&#39;s usually work related so I am heading to client offices. Late last year I happened to get off of the brown line at Wabash &amp;amp; Adams where there is an overpass looking straight up Wabash with a clear view of Trump Tower. At the time I didn&#39;t have my camera on me, but I made a mental note to head back at some point with my gear to see what I could get.&lt;/p&gt;
-&lt;p&gt;It&#39;s the beginning of March and the Chicago weather is still very poor so I decided to only take a few quick shots to see what I could get when the weather gets nicer. I quickly setup my tripod at the center of the overpass between platforms, looking north up Wabash. As the trains rumbled by the overpass would shake quite a bit, but I was surprised to find it didn&#39;t affect any shots. This exposure was taken for 15 seconds, f/8 at ISO100.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/chicago/over-the-l.jpg&quot;&gt;
-&lt;/figure&gt;
-&lt;p&gt;Timing the shots was particularly tricky - I wanted to get trains going in both directions, but being pressed for time I didn&#39;t have any luck in the 15 minutes I was there. Overall I like the shot with the one train streaking into the station, but I want to go back in the spring or summer when there isn&#39;t snow on the platform roofs and the sky isn&#39;t so overcast and dull.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Mar 2015 00:00:00 -0600</pubDate>
-        <link>http://gorilla-studios.com/photo/2015/03/04/over-the-l.html</link>
-        <guid isPermaLink="true">http://gorilla-studios.com/photo/2015/03/04/over-the-l.html</guid>
-      </item>
+      <pubDate>Wed, 22 Apr 2015 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//photo/2015/04/22/natural-light.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//photo/2015/04/22/natural-light.html</guid>
+    </item>
     
   </channel>
 </rss>

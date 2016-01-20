@@ -2557,11 +2557,17 @@
   exposure: 8s, f/3.5, ISO100
   tags: long-exposure, fireworks, st-charles
 
+- title: Untitled snowscape
+  date: March 5th, 2013
+  image_path: /catalog/CRW_7615.jpg
+  portfolio: landscape
+  position: fff
+  exposure: 1/180th, f/8, ISO100
+  tags: snowscape, landscape, rural
+
 - title: Leroy Oaks
   date: March 5th, 2013
   image_path: /catalog/CRW_8433.jpg
-  portfolio: landscape
-  position: fff
   exposure: 1/180th, f/8, ISO100
   tags: st-charles, snowscape, landscape, rural
 
