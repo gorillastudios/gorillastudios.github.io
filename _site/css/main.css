@@ -243,6 +243,9 @@ blockquote {
       clear: both;
       content: "";
       display: table; }
+    [class*="module__"] .container .module-label {
+      padding: 1.5em 0;
+      text-align: center; }
 
 @media screen and (min-width: 800px) {
   [class*="module__"] {
@@ -252,7 +255,9 @@ blockquote {
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%;
-      margin-top: 0; }
+      margin-top: 0;
+      padding: 0 !important;
+      text-align: left !important; }
       [class*="module__"] .module-label:last-child {
         margin-right: 0; }
     [class*="module__"] .content {

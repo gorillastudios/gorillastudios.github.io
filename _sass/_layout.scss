@@ -24,6 +24,10 @@
   margin: 0 auto;
   .container {
     @include outer-container;
+    .module-label {
+      padding: 1.5em 0;
+      text-align: center;
+    }
   }
 }
 
@@ -33,6 +37,8 @@
     .module-label {
       @include span-columns(3);
       margin-top: 0;
+      padding: 0 !important;
+      text-align: left !important;
     }
     .content {
       @include span-columns(9);
