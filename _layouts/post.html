@@ -13,18 +13,6 @@ layout: default
   </article>
 
   <div class="page-navigation">
-    {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">
-      <span class="arrow"><i class="fa fa-arrow-left"></i></span>
-      <div>
-        <p class="subtitle">Previous post</p>
-        <h3>{{ page.previous.title }}</h3>
-        <p>{{ page.previous.intro }}</p>
-        <p class="date">{{ page.previous.date | date: "%B %-d %Y" }}</p>
-        <span class="post-preview-image" style="background-image: url('/images/{{ page.previous.hero}}')"></span>
-      </div>
-    </a>
-    {% endif %}
     {% if page.next.url %}
     <a class="next" href="{{page.next.url}}">
       <span class="arrow"><i class="fa fa-arrow-right"></i></span>
@@ -34,6 +22,18 @@ layout: default
         <p>{{ page.next.intro }}</p>
         <p class="date">{{ page.next.date | date: "%B %-d %Y" }}</p>
         <span class="post-preview-image" style="background-image: url('/images/{{ page.next.hero}}')"></span>
+      </div>
+    </a>
+    {% endif %}
+    {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">
+      <span class="arrow"><i class="fa fa-arrow-left"></i></span>
+      <div>
+        <p class="subtitle">Previous post</p>
+        <h3>{{ page.previous.title }}</h3>
+        <p>{{ page.previous.intro }}</p>
+        <p class="date">{{ page.previous.date | date: "%B %-d %Y" }}</p>
+        <span class="post-preview-image" style="background-image: url('/images/{{ page.previous.hero}}')"></span>
       </div>
     </a>
     {% endif %}

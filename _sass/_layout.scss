@@ -1,46 +1,44 @@
-
-// ---------------------------------- Content
-.content {
-  padding: 10px;
+.wrap {
+  margin: 0 auto;
+  max-width: $site-width;
+  overflow: hidden;
+  padding: 0 10px;
+  @include outer-container;
 }
 
-@media screen and (min-width: 600px) {
-  .content {
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 0;
-    max-width: $site-width;
-    width: 95%;
-  }
-}
-
-
-// ---------------------------------- Modules
-.module {
-  border-bottom: 1px solid $hairline;
-  padding: 20px 0;
-  > h2 {
-    font-size: 2em;
-    text-align: center;
-    margin: 0;
-  }
-  > div {
-    overflow: hidden;
-    padding: 20px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .module {
-    padding: 0 0 6em 0;
-    h2 {
-      font-size: 3em;
-      margin: 1em 0;
-    }
-    div {
-      margin: 0 auto;
-      max-width: $site-width;
+@media screen and (min-width: 800px) {
+  .wrap {
+    .site-content {
+      @include span-columns(9);
+      padding: 4em 0;
     }
   }
 }
 
+
+
+
+[class*="module__"] {
+  border-top: 1px solid $grey-light;
+  max-width: $site-width;
+  margin: 0 auto;
+  .container {
+    @include outer-container;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  [class*="module__"] {
+    padding: 2em 0 4em 0;
+    .module-label {
+      @include span-columns(3);
+      margin-top: 0;
+    }
+    .content {
+      @include span-columns(9);
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+}

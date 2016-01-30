@@ -7,7 +7,7 @@
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #0b0b0b;
+  background: #ffffff;
   opacity: 0.9;
   filter: alpha(opacity=90); }
 
@@ -104,11 +104,12 @@
   display: none; }
 
 button.mfp-close, button.mfp-arrow {
-  overflow: visible;
-  cursor: pointer;
-  background: transparent;
   border: 0;
+  cursor: pointer;
+  overflow: visible;
+  background: transparent;
   -webkit-appearance: none;
+  color: red;
   display: block;
   outline: none;
   padding: 0;
@@ -131,7 +132,7 @@ button::-moz-focus-inner {
   opacity: 0.65;
   filter: alpha(opacity=65);
   padding: 0 0 18px 10px;
-  color: #FFF;
+  color: #2b2b2b;
   font-style: normal;
   font-size: 28px;
   font-family: Arial, Baskerville, monospace; }
@@ -146,17 +147,19 @@ button::-moz-focus-inner {
   color: #333; }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-  color: #FFF;
+  color: #2b2b2b;
   right: -6px;
   text-align: right;
   padding-right: 6px;
-  width: 100%; }
+  width: 100%;
+  transition: all 0.25s ease-in;
+}
 
 .mfp-counter {
   position: absolute;
   top: 0;
   right: 0;
-  color: #CCC;
+  color: #b1b1b1;
   font-size: 12px;
   line-height: 18px;
   white-space: nowrap; }
@@ -236,7 +239,6 @@ button::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #000; }
 
 /* Main image in popup */
@@ -266,7 +268,6 @@ img.mfp-img {
     width: auto;
     height: auto;
     z-index: -1;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #444; }
   .mfp-figure small {
     color: #BDBDBD;
@@ -287,7 +288,7 @@ img.mfp-img {
 .mfp-title {
   text-align: left;
   line-height: 18px;
-  color: #F3F3F3;
+  color: #b1b1b1;
   word-wrap: break-word;
   padding-right: 36px; }
 
@@ -395,7 +396,7 @@ img.mfp-img {
       transform: scale(1);
     }
     &.mfp-bg {
-      opacity: 0.8;
+      opacity: 0.95;
     }
   }
 
@@ -429,7 +430,7 @@ img.mfp-img {
             opacity: 1;
               }
               .mfp-with-zoom.mfp-ready.mfp-bg {
-                opacity: 0.8;
+                opacity: 0.96;
                   }
 
                   .mfp-with-zoom.mfp-removing .mfp-container,

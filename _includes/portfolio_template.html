@@ -1,4 +1,4 @@
-<div class="item {{ photo.orientation }}">
+<figure class="{{ photo.orientation }}">
   <img src="/images/{{ photo.image_path }}">
-  <p>{{ photo.title }}<span>{{ photo.exposure }}</p>
-</div>
+  <figcaption>{{ photo.title }}</figcaption>
+</figure>

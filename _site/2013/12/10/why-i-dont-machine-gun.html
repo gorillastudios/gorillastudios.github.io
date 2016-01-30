@@ -21,17 +21,16 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/vendor/animate.css">
-    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
 
     <script src="//use.typekit.net/zrp7zuy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="/js/jquery-1.11.1.min.js"></script>
-    <script src="/js/responsive-nav.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/jquery.easing.1.3.js"></script>
     <script src="/js/jquery.easing.compatibility.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
     <script src="/js/twitterFetcher_min.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/2013/12/10/why-i-dont-machine-gun.html">
@@ -51,31 +50,19 @@
 
   <body  data-current-page="/2013/12/10/why-i-dont-machine-gun">
 
-    <header class="site-header">
-  <div>
+    <div class="wrap">
+      <header class="site-header" id="sticker">
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <div id="nav">
-    <ul>
-      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
-      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
-      <li><a href="/#contact" data-page-id="about">Contact</a></li>
-    </ul>
-  </div>
-  <div>
+  <nav>
+    <a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+    <a href="/#collections" data-page-id="collections">Collections</a></li>
+    <a href="/#blog" data-page-id="blog">Blog</a></li>
+    <a href="/#contact" data-page-id="about">Contact</a></li>
+  </nav>
 </header>
 
-<script>
-  var nav = responsiveNav("#nav", {
-    insert: "before"
-  });
-
-  $("#nav ul li a").click(function(){ nav.toggle();});
-
-</script>
-
-
-    <div class="animated fadeIn">
-      <div class="post">
+      <div class="site-content animated fadeIn">
+        <div class="post">
 
   <header class="post-header">
     <h1 class="post-title">Why I Don't Machine Gun</h1>
@@ -102,18 +89,6 @@
 
   <div class="page-navigation">
     
-    <a class="prev" href="/2013/10/28/nine-months-of-kata.html">
-      <span class="arrow"><i class="fa fa-arrow-left"></i></span>
-      <div>
-        <p class="subtitle">Previous post</p>
-        <h3>Nine Months With The Kata Bag</h3>
-        <p></p>
-        <p class="date">October 28 2013</p>
-        <span class="post-preview-image" style="background-image: url('/images/')"></span>
-      </div>
-    </a>
-    
-    
     <a class="next" href="/2014/01/01/hello-2014.html">
       <span class="arrow"><i class="fa fa-arrow-right"></i></span>
       <div>
@@ -125,12 +100,33 @@
       </div>
     </a>
     
+    
+    <a class="prev" href="/2013/10/28/nine-months-of-kata.html">
+      <span class="arrow"><i class="fa fa-arrow-left"></i></span>
+      <div>
+        <p class="subtitle">Previous post</p>
+        <h3>Nine Months With The Kata Bag</h3>
+        <p></p>
+        <p class="date">October 28 2013</p>
+        <span class="post-preview-image" style="background-image: url('/images/')"></span>
+      </div>
+    </a>
+    
   </div>
 
 </div>
 
+      </div>
     </div>
 
+    <script>
+      $(document).ready(function(){
+        $("#sticker").sticky({
+          topSpacing:0,
+          responsiveWidth: '600px'
+        });
+      });
+    </script>
 
   </body>
 </html>

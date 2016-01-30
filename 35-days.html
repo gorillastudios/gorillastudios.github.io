@@ -1,0 +1,20 @@
+---
+layout: default
+title: 35 Days of 35mm
+permalink: /35-days/
+---
+<div class="module__portfolio">
+  <div class="container">
+    <h2 class="module-label">35 days of 35mm</h2>
+    <div class="content">
+      <p>In 2013 I did a daily photo challenge called Photo365 - one photo per day for an entire year. It was a fun experience but a bit difficult with the demands of every day life, especially since I wanted it to be with my SLR, not my iPhone. In 2014 I wanted a more focused practice so I did a Photo52 - one photo per week for the year. I preferred that because I could take a little more time on each one and didn't feel rushed, yet I was constantly looking for subjects like I was during the 365. Last year I chose not to pick up an exercise because I was caring for a newborn and wanted to spend as much time as I could with her. In 2016 a few co-workers have started a #100photos100days challenge. I like the idea of getting back into practice, so I am going to ease into it with my own 35 Days of 35mm. I will shoot with my 16-35mm all the way up at 35mm, ideally trying a street photography style, inspired by Vivian Maeir. After the 35 days I will probably choose another exercise with limitations or specific subject matter. For now, here's 35 Days of 35mm.</p>
+    </div>
+  </div>
+</div>
+<section class="portfolio">
+{% for photo in site.data.special %}
+<img src="/images/35/{{ photo.image_path }}">
+{% endfor %}
+</section>
+</div>
+

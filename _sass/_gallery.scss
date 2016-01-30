@@ -12,11 +12,12 @@
 
 @media screen and (min-width: 30em) {
   .gallery {
-    padding: 10px;
+    figure {
+      margin-bottom: 0;
+    }
     -webkit-column-count: 2;
     column-count: 2;
-    -webkit-column-gap: 10px;
-    column-gap: 5px;
+    -webkit-column-gap: 0px;
   }
 }
 
@@ -27,17 +28,11 @@
   }
 }
 
-@media screen and (min-width: 70em) {
-  .gallery {
-    -webkit-column-count: 4;
-    column-count: 4;
-  }
-}
-
 
 
 .portfolio {
-  .item {
+  padding: 2em 0;
+  figure {
     margin: 0 auto 1em auto;
     max-width: $site-width;
     img {
@@ -45,7 +40,7 @@
       max-width: 100%;
       margin: 0 auto;
     }
-    p {
+    figcaption {
       color: #999;
       font-size: 0.8em;
       line-height: 1em;
@@ -60,21 +55,16 @@
 
 
 @media screen and (min-width: 600px) {
-  .portfolio .item {
+  .portfolio {
+    padding: 0;
+  }
+  .portfolio figure {
     margin-bottom: 6em;
-    img {
-      max-width: 100%;
-    }
     &.vertical {
       display: block;
       margin: 0 auto 6em auto;
       width: 45%;
       max-width: 600px;
-    }
-    p span {
-      display: inline;
-      float: right;
-      padding-top: 0;
     }
   }
 }

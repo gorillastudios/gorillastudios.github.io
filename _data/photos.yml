@@ -359,6 +359,7 @@
   position: lll
   exposure: 30s, f/6.3, ISO50
   description: One World Trade Center standing tall at sunset
+  date: December 15th, 2015
   tags: new-york, manhattan, architecture, black-and-white, cityscape, skyscraper, long-exposure
 
 - title: The London Eye
@@ -405,6 +406,7 @@
   position: ggg
   exposure: f/8, ISO50, 1/25th
   description: A commuter stands still for a moment at Grand Central Station in Manhattan
+  date: June 20th, 2014
   tags: new-york, manhattan, black-and-white
 
 - title: Juvenile Bald Eagle in flight
@@ -641,6 +643,7 @@
   portfolio: urban
   position: ccc
   exposure: 48s, f/8, ISO50
+  date: December 15th, 2015
   tags: new-york, manhattan, long-exposure, dusk, cityscape
 
 - title: The Brooklyn Bridge
@@ -683,6 +686,7 @@
   position: ddd
   exposure: 1/200th, f/8, ISO100
   description: Looking up from 168 E. 58th Street
+  date: June 22nd, 2014
   tags: new-york, manhattan, architecture, black-and-white, abstract
 
 - title: The Flatiron Building
@@ -691,6 +695,7 @@
   portfolio: urban
   position: eee
   exposure: 44s, f/8, ISO50
+  date: June 21st, 2014
   description: The iconic Flatiron Building at 5th Ave &amp; 23rd St.
 
 - title: Rainy Day Man
@@ -699,13 +704,14 @@
   exposure: 1/200th, f/8, ISO100
   tags: black-and-white, sculpture
 
-- title: City of broad shoulders
+- title: <i>City of broad shoulders</i>
   image_path: black-white/sears-abstract.jpg
   thumbnail: /images/thumbnails/sears-abstract.jpg
   portfolio: urban
   position: aaa
   description: The Sears Tower stands tall over Jackson &amp; Franklin
   exposure: 1/200th, f/8, ISO100
+  date: July 16th, 2014
   tags: black-and-white, chicago, sears-tower, abstract
 
 - title: Sunset from Aon Center
@@ -866,6 +872,7 @@
   thumbnail: /images/thumbnails/watch-hill-3.jpg
   exposure: 1/125th, f/8, ISO4000
   description: A starry night over the sand dunes at Watch Hill, RI
+  date: November 11th, 2014
   tags: new-england, astronomy, long-exposure, landscape
 
 - title: Watch Hill Yacht Club
@@ -1116,6 +1123,7 @@
   position: iii
   exposure: 1/125th, f/8, ISO4000
   description: An afternoon in Midtown, Manhattan
+  date: June 21st, 2014
   tags: cityscape, black-and-white, new-york, manhattan, street
 
 - title: Fireworks over Navy Pier
@@ -1138,6 +1146,7 @@
   position: fff
   exposure: f/16, ISO100, 90s
   description: The Brooklyn Bridge spanning over the East River, taken from Brooklyn Bridge Park
+  date: June 19th, 2014
   tags: new-york, manhattan, cityscape, skyscraper, long-exposure
 
 - title: Train signal
@@ -1166,6 +1175,7 @@
   image_path: london/the-shard.jpg
   thumbnail: /images/thumbnails/the-shard.jpg
   exposure: 30s, f/9, ISO50
+  date: April 28th, 2015
   tags: london, panorama, cityscape, long-exposure
 
 - title: The London Eye &amp; Thames river panorama
@@ -1217,6 +1227,7 @@
   thumbnail: /images/thumbnails/0K6A3373.jpg
   exposure: 5s, f/22, ISO50
   description: A fall sunset from Masons Island, Mystic CT
+  date: November 11th, 2014
   tags: new-england, sunset, long-exposure, landscape
 
 - title: Sunset on Masons Island
@@ -1640,6 +1651,7 @@
   position: jjj
   description: Cooling off in the reflecting pool at Millenium park on a hot summer evening
   exposure: 1/640th, f/3.5, ISO2000
+  date: July 24th, 2014
   tags: chicago, urban
 
 - title: <i>Good Morning Mystic</i>
@@ -2558,11 +2570,11 @@
   tags: long-exposure, fireworks, st-charles
 
 - title: Untitled snowscape
-  date: March 5th, 2013
-  image_path: /catalog/CRW_7615.jpg
+  image_path: catalog/CRW_7615.jpg
   portfolio: landscape
   position: fff
   exposure: 1/180th, f/8, ISO100
+  date: March 2nd, 2013
   tags: snowscape, landscape, rural
 
 - title: Leroy Oaks
@@ -2585,37 +2597,42 @@
   tags: rural
 
 - title: Low Point, IL
-  date: October 23rd, 2015
   portfolio: landscape
   position: eee
   image_path: /catalog/0K6A0111.jpg
   exposure: 1/160th, f/8, ISO50
+  date: October 23rd, 2015
   tags: rural
 
 - title: Leroy Oaks
   portfolio: landscape
   position: iii
   image_path: /catalog/CRW_8477.jpg
+  date: March 5th, 2015
   exposure: 1/120th, f/8, ISO100
 
 - title: Leo Carillo Beach
   image_path: /catalog/0K6A0772.jpg
   portfolio: landscape
   position: hhh
+  date: November 5th, 2015
   exposure: 30s, f/8, ISO50
 
 - title: Leo Carillo Beach
   image_path: /catalog/0K6A0770.jpg
+  date: November 5th, 2015
   exposure: 30s, f/8, ISO50
 
 - title: Leo Carillo Beach
   image_path: /catalog/0K6A0660.jpg
   portfolio: landscape
   position: aaa
+  date: November 5th, 2015
   exposure: 1/20th, f/16, ISO100
 
 - title: Leo Carillo Beach
   image_path: /catalog/0K6A0789.jpg
   portfolio: landscape
   position: jjj
+  date: November 5th, 2015
   exposure: 30s, f/4, ISO100

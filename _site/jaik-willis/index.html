@@ -21,17 +21,16 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/vendor/animate.css">
-    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
 
     <script src="//use.typekit.net/zrp7zuy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="/js/jquery-1.11.1.min.js"></script>
-    <script src="/js/responsive-nav.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/jquery.easing.1.3.js"></script>
     <script src="/js/jquery.easing.compatibility.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
     <script src="/js/twitterFetcher_min.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/jaik-willis/">
@@ -51,31 +50,19 @@
 
   <body >
 
-    <header class="site-header">
-  <div>
+    <div class="wrap">
+      <header class="site-header" id="sticker">
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <div id="nav">
-    <ul>
-      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
-      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
-      <li><a href="/#contact" data-page-id="about">Contact</a></li>
-    </ul>
-  </div>
-  <div>
+  <nav>
+    <a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+    <a href="/#collections" data-page-id="collections">Collections</a></li>
+    <a href="/#blog" data-page-id="blog">Blog</a></li>
+    <a href="/#contact" data-page-id="about">Contact</a></li>
+  </nav>
 </header>
 
-<script>
-  var nav = responsiveNav("#nav", {
-    insert: "before"
-  });
-
-  $("#nav ul li a").click(function(){ nav.toggle();});
-
-</script>
-
-
-    <div class="animated fadeIn">
-      <section class="gallery zoomable">
+      <div class="site-content animated fadeIn">
+        <section class="gallery zoomable">
   
     
   
@@ -915,8 +902,17 @@
 </script>
 
 
+      </div>
     </div>
 
+    <script>
+      $(document).ready(function(){
+        $("#sticker").sticky({
+          topSpacing:0,
+          responsiveWidth: '600px'
+        });
+      });
+    </script>
 
   </body>
 </html>

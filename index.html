@@ -2,42 +2,52 @@
 layout: default
 title: Home
 ---
-<div id="marquee">
-</div>
+<section class="module__hero">
+  <div class="container">
+    <img src="/images/portfolio/archways.jpg" />
+  </div>
+</section>
 
-
-<section class="module about">
-  <h2>Fine art photography</h2>
-  <div>
+<section class="module__about">
+  <div class="container">
+  <h2 class="module-label">About</h2>
+  <div class="content">
     <p>Founded in 2003, Gorilla-Studios is a showcase for my photography portfolio. I have been lucky enough to shoot in Chicago, New York, Los Angeles, London and beyond. While primarily focusing on landscapes and architecture, I also specialize in live music, portraits, and nature photography as well. I am available for commission work so please contact me to discuss your project. You will find a selection of <a href="/#portfolios">my work in my portfolios</a> with additional or specific content available upon request.</p>
   </div>
 </section>
 
 
-<section class="module portfolios anchor" id="portfolios">
-  <h2>Portfolios</h2>
-  <div>
-    {% include /content/index-portfolios.html %}
+<section class="module__portfolios anchor" id="portfolios">
+  <div class="container">
+    <h2 class="module-label">Portfolios</h2>
+    <div class="content">
+      {% include /content/index-portfolios.html %}
+    </div>
   </div>
 </section>
 
-<section class="module" id="galleries">
-  <h2>Collections</h2>
-  <div>
-    {% include /content/index-tagged-galleries.html %}
+<section class="module__collections" id="collections">
+  <div class="container">
+    <h2 class="module-label">Collections</h2>
+    <div class="content">
+      {% include /content/index-tagged-galleries.html %}
+    </div>
   </div>
 </section>
 
-<section class="module blog anchor" id="blog">
-  <h2>News &amp; Blog</h2>
-  <div>
-    {% include /content/index-news-blog.html %}
+<section class="module__blog anchor" id="blog">
+  <div class="container">
+    <h2 class="module-label">News &amp; Blog</h2>
+    <div class="content">
+      {% include /content/index-news-blog.html %}
+    </div>
   </div>
 </section>
 
-<section class="module contact anchor" id="contact">
-  <h2>Contact</h2>
-  <div>
+<section class="module__contact anchor" id="contact">
+  <div class="container">
+  <h2 class="module-label">Contact</h2>
+  <div class="content">
     <form class="contact" action="//formspree.io/chris@gorilla-studios.com"
       method="POST">
       <input type="text" name="name" placeholder="Name">
@@ -53,12 +63,6 @@ title: Home
 
 
 <script>
-  $(window).scroll(function() {
-    $("#marquee").css({
-      'opacity' : 1-(($(this).scrollTop())/400)
-    });
-  });
-
   {% include /scroll.js %}
 
 

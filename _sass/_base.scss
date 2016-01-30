@@ -16,17 +16,6 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
-  height: 100%;
-}
-
-html {
-  height: 100%;
-}
-
-@media screen and (min-width: 600px) {
-  body {
-    padding-top: 4.5%;
-  }
 }
 
 
@@ -192,40 +181,7 @@ blockquote {
   }
 }
 
-// ----------------------------------------- Marquee
-#marquee {
-  display: block;
-  background: #f2f2f2;
-  //background-image: url('/images/posts/lunar-progression-tall.jpg');
-  background-image: url('/images/catalog/0K6A7702.jpg'); // New York
-  //background-image: url('/images/portfolio/leroy-oaks.jpg');
-  background-size: cover;
-  background-position: 50%;
-  height: 400px;
-}
-
-@media screen and (min-width: 600px) {
-  #marquee {
-    padding-top: 40%;
-  }
-}
-
-// ----------------------------------------- About
-.headshot {
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-  width: 40%;
-}
-.bio {
-  margin-bottom: 2em;
-}
-@media screen and (min-width: 40em) {
-  .bio {
-    padding-right: 4em;
-  }
-}
-
+// ----------------------------------------- Contact
 .contact {
   input,
   textarea {
@@ -236,6 +192,8 @@ blockquote {
     padding: 15px;
     margin-bottom: 20px;
     width: 100%;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
   }
   input[type="submit"] {
     border-bottom: 2px solid darken($green, 5%);
@@ -244,6 +202,8 @@ blockquote {
     font-size: 1em;
     padding: 10px;
     transition: all 0.25s ease-in;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
     &:hover {
       background: darken($green, 5%);
       cursor: pointer;

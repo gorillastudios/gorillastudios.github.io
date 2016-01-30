@@ -21,17 +21,16 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/vendor/animate.css">
-    <link rel="stylesheet" href="/css/vendor/responsive-nav.css">
     <link rel="stylesheet" href="/css/vendor/magnific-popup.css">
 
     <script src="//use.typekit.net/zrp7zuy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="/js/jquery-1.11.1.min.js"></script>
-    <script src="/js/responsive-nav.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/jquery.easing.1.3.js"></script>
     <script src="/js/jquery.easing.compatibility.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
     <script src="/js/twitterFetcher_min.js"></script>
 
     <link rel="canonical" href="http://gorilla-studios.com/nature/">
@@ -51,111 +50,108 @@
 
   <body >
 
-    <header class="site-header">
-  <div>
+    <div class="wrap">
+      <header class="site-header" id="sticker">
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <div id="nav">
-    <ul>
-      <li><a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
-      <li><a href="/#blog" data-page-id="blog">Blog</a></li>
-      <li><a href="/#contact" data-page-id="about">Contact</a></li>
-    </ul>
-  </div>
-  <div>
+  <nav>
+    <a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
+    <a href="/#collections" data-page-id="collections">Collections</a></li>
+    <a href="/#blog" data-page-id="blog">Blog</a></li>
+    <a href="/#contact" data-page-id="about">Contact</a></li>
+  </nav>
 </header>
 
-<script>
-  var nav = responsiveNav("#nav", {
-    insert: "before"
-  });
-
-  $("#nav ul li a").click(function(){ nav.toggle();});
-
-</script>
-
-
-    <div class="animated fadeIn">
-      <div class="portfolio">
+      <div class="site-content animated fadeIn">
+        <div class="portfolio">
   
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/nature/somber-sunrise.jpg">
-  <p><i>Somber sunrise</i><span>f/5.6, ISO100, 1/2000th</p>
-</div>
+  <figcaption><i>Somber sunrise</i></figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/p52/06.jpg">
-  <p>Juvenile Bald Eagle in flight<span>f/5.6, ISO50, 1/250th</p>
-</div>
+  <figcaption>Juvenile Bald Eagle in flight</figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images//portfolio/fly-me-to-the-moon.jpg">
-  <p><i>Fly me to the moon</i><span>1/250th, f/22, ISO100</p>
-</div>
+  <figcaption><i>Fly me to the moon</i></figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/nature/dandelion.jpg">
-  <p>Dandelion head<span>f/2.8, ISO100, 1/125th</p>
-</div>
+  <figcaption>Dandelion head</figcaption>
+</figure>
 
   
-    <div class="item vertical">
+    <figure class="vertical">
   <img src="/images/portfolio/heron-portrait.jpg">
-  <p>Great Blue Heron portrait<span></p>
-</div>
+  <figcaption>Great Blue Heron portrait</figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/catalog/IMG_3495.jpg">
-  <p>Ornamental Grass<span>1/400th, f/5.6, ISO100</p>
-</div>
+  <figcaption>Ornamental Grass</figcaption>
+</figure>
 
   
-    <div class="item vertical">
+    <figure class="vertical">
   <img src="/images/catalog/CRW_0925.jpg">
-  <p>Egret<span>1/500th, f/5.6, ISO100</p>
-</div>
+  <figcaption>Egret</figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/catalog/IMG_7830.jpg">
-  <p>Juvenile Bald Eagles<span>1/2000th, f/6.3, ISO2500</p>
-</div>
+  <figcaption>Juvenile Bald Eagles</figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/catalog/0K6A3456.jpg">
-  <p>Purple Habiscus Flower<span>1/100th, f/11, ISO400</p>
-</div>
+  <figcaption>Purple Habiscus Flower</figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/catalog/CRW_0581.jpg">
-  <p>Egret<span>1/750th, f/5.6, ISO100</p>
-</div>
+  <figcaption>Egret</figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/catalog/CRW_0509.jpg">
-  <p>Great Blue Heron<span>1/750th, f/5.6, ISO100</p>
-</div>
+  <figcaption>Great Blue Heron</figcaption>
+</figure>
 
   
-    <div class="item ">
+    <figure class="">
   <img src="/images/posts/lunar-progression-tall.jpg">
-  <p>Lunar Eclipse<span>1/125th, f/22, ISO4000</p>
-</div>
+  <figcaption>Lunar Eclipse</figcaption>
+</figure>
 
   
 </div>
 
 
+      </div>
     </div>
 
+    <script>
+      $(document).ready(function(){
+        $("#sticker").sticky({
+          topSpacing:0,
+          responsiveWidth: '600px'
+        });
+      });
+    </script>
 
   </body>
 </html>
