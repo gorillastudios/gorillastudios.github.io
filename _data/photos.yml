@@ -1413,7 +1413,7 @@
   image_path: catalog/CRW_0509.jpg
   thumbnail: /images/thumbnails/CRW_0509.jpg
   portfolio: nature
-  position: kkk
+  position: ccc
   exposure: 1/750th, f/5.6, ISO100
   description: A Great Blue Heron has speared a fish on top of the Geneva Fox River Dam
   tags: nature, bird, heron, wildlife
@@ -1702,6 +1702,8 @@
 
 - title: <i>JJ</i>
   image_path: catalog/0K6A3525.jpg
+  portfolio: street
+  position: aaa
   thumbnail: /images/thumbnails/0K6A3525.jpg
   exposure: 1/500th, f/7.1, ISO200
   tags: black-and-white
@@ -2539,8 +2541,6 @@
   date: March 18th, 2011
   image_path: /portfolio/fly-me-to-the-moon.jpg
   exposure: 1/250th, f/22, ISO100
-  portfolio: nature
-  position: ccc
   tags: nature
 
 - title: Lunar Eclipse
@@ -2636,3 +2636,42 @@
   position: jjj
   date: November 5th, 2015
   exposure: 30s, f/4, ISO100
+
+- title: Shriner
+  image_path: /catalog/CRW_3355.jpg
+  orientation: vertical
+  portfolio: street
+  position: bbb
+  date: June 2nd, 2007
+  exposure: 1/250th, f/5.6, ISO100
+
+- title: Keslinger Road Farm
+  image_path: /catalog/CRW_7869.jpg
+  thumbnail: /images/thumbnails/CRW_7869.jpg
+  date: January 21st, 2006
+  exposure: 1/4000th, f/4, ISO100
+  tags: rural, snowscape
+
+- title: Burlington Arcade
+  image_path: /catalog/0K6A8568.jpg
+  thumbnail: /images/thumbnails/0K6A8568.jpg
+  orientation: vertical
+  date: April 27th, 2015
+  exposure: 1/125th, f/6.3, ISO126
+  tags: london, street
+
+- title: Park Here
+  image_path: /catalog/CRW_7414.jpg
+  thumbnail: /images/thumbnails/CRW_7414.jpg
+  orientation: vertical
+  date: November 11th, 2005
+  exposure: 1/750th, f/4, ISO400
+  tags: chicago
+
+- title: Drummer
+  image_path: /catalog/CRW_3361.jpg
+  orientation: vertical
+  portfolio: street
+  position: ccc
+  date: June 2nd, 2007
+  exposure: 1/250th, f/5.6, ISO100

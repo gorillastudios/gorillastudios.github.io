@@ -78,6 +78,10 @@
 
 @media screen and (min-width: 600px) {
   .post {
+    .post-title {
+      line-height: 0.75em;
+      margin-bottom: 0.25em;
+    }
     p {
       font-size: 120%;
     }
@@ -112,8 +116,8 @@
   display: block;
   margin-bottom: 20px;
   padding: 10px;
-  span.arrow {
-    display: none;
+  &.next {
+    text-align: right;
   }
   div {
     h3,
@@ -124,8 +128,8 @@
       margin: 0;
     }
     p.subtitle {
-      border-bottom: 1px solid;
-      color: #ccc;
+      border-bottom: 1px solid #ccc;
+      color: #555;
       font-size: 0.7em;
       margin-bottom: 5px;
       text-transform: uppercase;
@@ -139,6 +143,11 @@
   }
 }
 
+@media screen and (min-width: 800px) {
+  .page-navigation a {
+    @include span-columns(6);
+  }
+}
 
 
 
@@ -166,6 +175,9 @@
     }
     &:hover {
       background: #f9f9f9;
+    }
+    &.next {
+
     }
   }
 }

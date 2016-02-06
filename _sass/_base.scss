@@ -239,10 +239,9 @@ blockquote {
     overflow: hidden;
     padding: 8em 0;
     img {
-      float: left;
-      width: 60%;
+      @include span-columns(7);
       &.vertical {
-        padding: 0 15%;
+        padding: 0 10%;
       }
     }
     p {
@@ -250,9 +249,10 @@ blockquote {
       margin: 0 0 0.5em 0;
     }
     .pricing {
-      float: left;
-      padding-left: 2em;
-      width: 40%;
+      @include span-columns(5);
+    }
+    &:first-of-type {
+      padding-top: 0;
     }
   }
 }

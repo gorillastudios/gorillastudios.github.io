@@ -14,7 +14,7 @@ body {
   -webkit-text-size-adjust: 100%;
   background-color: white;
   color: #262626;
-  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
@@ -133,7 +133,7 @@ blockquote {
 .contact input,
 .contact textarea {
   border: 1px solid #DDDDDD;
-  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   padding: 15px;
@@ -175,16 +175,25 @@ blockquote {
     padding: 8em 0; }
     .store-item img {
       float: left;
-      width: 60%; }
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      .store-item img:last-child {
+        margin-right: 0; }
       .store-item img.vertical {
-        padding: 0 15%; }
+        padding: 0 10%; }
     .store-item p {
       font-size: 1.5em;
       margin: 0 0 0.5em 0; }
     .store-item .pricing {
       float: left;
-      padding-left: 2em;
-      width: 40%; } }
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .store-item .pricing:last-child {
+        margin-right: 0; }
+    .store-item:first-of-type {
+      padding-top: 0; } }
 #thank-you {
   background: url("/images/black-white/trump-abstract.jpg");
   background-size: cover;
@@ -333,7 +342,7 @@ blockquote {
   #index-blog ul li a h3, #index-blog ul li a p {
     margin: 0; }
   #index-blog ul li a p {
-    color: #999;
+    color: #444;
     font-size: 0.9em; }
 
 @media screen and (min-width: 600px) {
@@ -351,7 +360,7 @@ blockquote {
   margin: 0; }
 .post .post-meta {
   color: #990000;
-  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   margin: 0; }
@@ -399,6 +408,9 @@ blockquote {
     max-width: 100%; }
 
 @media screen and (min-width: 600px) {
+  .post .post-title {
+    line-height: 0.75em;
+    margin-bottom: 0.25em; }
   .post p {
     font-size: 120%; } }
 @media screen and (min-width: 40em) {
@@ -420,8 +432,8 @@ blockquote {
   display: block;
   margin-bottom: 20px;
   padding: 10px; }
-  .page-navigation a span.arrow {
-    display: none; }
+  .page-navigation a.next {
+    text-align: right; }
   .page-navigation a div h3,
   .page-navigation a div p {
     color: black;
@@ -429,8 +441,8 @@ blockquote {
     line-height: 1.25em;
     margin: 0; }
   .page-navigation a div p.subtitle {
-    border-bottom: 1px solid;
-    color: #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #555;
     font-size: 0.7em;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -440,6 +452,14 @@ blockquote {
     font-size: 0.75em;
     margin-top: 4px; }
 
+@media screen and (min-width: 800px) {
+  .page-navigation a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .page-navigation a:last-child {
+      margin-right: 0; } }
 .blog-archive-list {
   -webkit-column-count: 2;
   column-count: 2;
@@ -531,7 +551,7 @@ blockquote {
   .site-header nav {
     text-align: center; }
     .site-header nav a {
-      color: #777;
+      color: #555;
       display: inline-block;
       margin: 5px;
       padding: 5px; }
