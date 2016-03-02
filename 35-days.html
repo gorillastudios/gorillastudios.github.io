@@ -13,7 +13,7 @@ permalink: /35-days/
 </div>
 <section class="portfolio">
 {% for photo in site.data.special %}
-  <figure>
+  <figure class="{{ photo.orientation }}">
     <img src="/images/35/{{ photo.image_path }}">
   </figure>
 {% endfor %}

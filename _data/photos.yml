@@ -7,7 +7,7 @@
   camera: 5DMkIII
   description: One WTC stands tall overlooking the Brooklyn Bridge and the East River. Taken from Brooklyn Bridge Park, Brooklyn, NY
   date: June 19th, 2014
-  tags: new-york, architecture, cityscape, manhattan, brooklyn-bridge, long-exposure
+  tags: new-york, cityscape, manhattan, brooklyn-bridge, long-exposure
 
 - title: <i>Archways</i>
   image_path: portfolio/archways.jpg
@@ -56,13 +56,13 @@
   position: hhh
   exposure: f/8, ISO50, 30s
   description: A couple temporarily finds shelter beneath Cloud Gate in Millenium Park during a brutal Chicago snowstorm
-  tags: chicago, winter, architecture, the-bean
+  tags: chicago, winter, the-bean
 
 - title: The London Eye
   image_path: portfolio/london-eye.jpg
   thumbnail: /images/thumbnails/london-eye.jpg
   exposure: f/8, ISO50, 30s
-  tags: london, england, architecture, london-eye, cityscape, sunset
+  tags: london, england, london-eye, cityscape, sunset
 
 - title: The privateer <i>Lynx</i> rounding the Chicago Harbor Light
   image_path: portfolio/rainy-sails.jpg
@@ -73,6 +73,15 @@
   description: Taken during the Parade of Sails 2013, the privateer <i>Lynx</i> rounds the Chicago Harbor Light during a sudden downpour. Ahead of her to port is the <i>Madeline</i>, and dissapearing behind the lighthouse is <i>Friends Good Will</i>
   date: August 7th, 2013
   tags: nautical, chicago, lake-michigan, lighthouse, rain
+
+- title: Navy Pier Stormfront
+  image_path: /catalog/IMG_0858.jpg
+  thumbnail: /images/thumbnails/IMG_0858.jpg
+  orientation: vertical
+  exposure: f/8, ISO400, 1/125th
+  description: A stormfront rolls over Chicago during the Parade of Sails, August 2013
+  date: August 7th, 2013
+  tags: chicago, lake-michigan, rain, navy-pier
 
 - title: <i>Reach for the sky</i>
   image_path: portfolio/sears-reach2.jpg
@@ -182,7 +191,7 @@
   image_path: chicago/chicago-skyline.jpg
   thumbnail: /images/thumbnails/chicago-skyline.jpg
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, sears-tower, cityscape, lake-michigan, trump-tower
+  tags: chicago, sears-tower, cityscape, lake-michigan, trump-tower
 
 - title: Elizabeth Tower
   orientation: vertical
@@ -196,7 +205,7 @@
 - title: The National Gallery
   image_path: london/national-gallery.jpg
   thumbnail: /images/thumbnails/national-gallery.jpg
-  tags: london, architecture, panorama, dusk, trafalgar-square
+  tags: london, panorama, dusk, trafalgar-square
 
 - title: The Mystic Seaport
   image_path: catalog/seaport-panorama.jpg
@@ -228,7 +237,7 @@
   exposure: f/8, ISO50, 60s
   description: The London Eye overlooks the Thames River seen from Queen Elizabeth Bridge. A long exposure turns the passing boats into surreal light streaks across the smooth water
   date: April 26th, 2015
-  tags: london, architecture, river-thames, long-exposure, dusk, london-eye
+  tags: london, river-thames, long-exposure, dusk, london-eye
 
 - title: Whitehall Street
   orientation: vertical
@@ -768,6 +777,8 @@
 - title: Mystic River
   image_path: new-england/mystic-river.jpg
   thumbnail: /images/thumbnails/mystic-river.jpg
+  portfolio: landscape
+  position: eee
   exposure: 1/150th, f/8, ISO100
   description: A fall afternoon in New England, taken on the Mystic River, Mystic CT
   tags: new-england, fall
@@ -2597,8 +2608,6 @@
   tags: rural
 
 - title: Low Point, IL
-  portfolio: landscape
-  position: eee
   image_path: /catalog/0K6A0111.jpg
   exposure: 1/160th, f/8, ISO50
   date: October 23rd, 2015
@@ -2675,3 +2684,17 @@
   position: ccc
   date: June 2nd, 2007
   exposure: 1/250th, f/5.6, ISO100
+
+- title: Agony &amp; Outrage
+  image_path: /posts/ferguson/14.jpg
+  portfolio: street
+  position: ddd
+  date: August 15th, 2014
+  exposure: 1/100th, f/9, ISO3200
+
+- title: Unity
+  image_path: /posts/ferguson/9.jpg
+  portfolio: street
+  position: eee
+  date: August 15th, 2014
+  exposure: 1/100th, f/9, ISO3200
