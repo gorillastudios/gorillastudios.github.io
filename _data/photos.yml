@@ -74,6 +74,14 @@
   date: August 7th, 2013
   tags: nautical, chicago, lake-michigan, lighthouse, rain
 
+- title: Sears Tower
+  image_path: /catalog/0K6A0846.jpg
+  thumbnail: /images/thumbnails/0K6A0846.jpg
+  exposure: f/8, ISO100, 1/200th
+  description: The Sears Tower on a sunny spring afternoon
+  date: March 16th, 2016
+  tags: chicago, sears-tower, architecture, black-and-white
+
 - title: Navy Pier Stormfront
   image_path: /catalog/IMG_0858.jpg
   thumbnail: /images/thumbnails/IMG_0858.jpg
@@ -122,6 +130,12 @@
   thumbnail: /images/thumbnails/sunrays2.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, cityscape, sunset, sears-tower
+
+- title: Sears Tower
+  image_path: catalog/0K6A0833.jpg
+  thumbnail: /images/thumbnails/0K6A0833.jpg
+  exposure: f/8, ISO160, 1/200th
+  tags: chicago, architecture, sears-tower, black-and-white
 
 - title: Grant Park
   image_path: chicago/grant-park.jpg
