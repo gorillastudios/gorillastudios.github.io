@@ -17,7 +17,7 @@
   exposure: f/8, ISO50, 30s
   description: An experiment with light painting in Mary Bartelme Park on the near west side of Chicago
   date: July 18th, 2014
-  tags: chicago, sears-tower, architecture, sculpture, long-exposure, dusk
+  tags: chicago, sears-tower, sculpture, long-exposure, dusk
 
 - title: Masons Island
   image_path: portfolio/masons-dock.jpg
@@ -47,7 +47,7 @@
   exposure: f/8, ISO50, 30s
   description: A fresh layer of snow covers the Pritzker Pavilion field in Millenium Park, Chicago IL
   date: January 29th, 2014
-  tags: chicago, cityscape, winter, architecture
+  tags: chicago, cityscape, winter
 
 - title: Cloud Gate Snowstorm
   image_path: portfolio/snowy-bean.jpg
@@ -82,15 +82,6 @@
   date: March 16th, 2016
   tags: chicago, sears-tower, architecture, black-and-white
 
-- title: Navy Pier Stormfront
-  image_path: /catalog/IMG_0858.jpg
-  thumbnail: /images/thumbnails/IMG_0858.jpg
-  orientation: vertical
-  exposure: f/8, ISO400, 1/125th
-  description: A stormfront rolls over Chicago during the Parade of Sails, August 2013
-  date: August 7th, 2013
-  tags: chicago, lake-michigan, rain, navy-pier
-
 - title: <i>Reach for the sky</i>
   image_path: portfolio/sears-reach2.jpg
   thumbnail: /images/thumbnails/sears-reach2.jpg
@@ -117,7 +108,7 @@
   position: bbb
   description: The Wrigley Building and Trump Tower taken on a summers evening from Michigan Ave
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, wrigley-building, trump-tower
+  tags: chicago, cityscape, wrigley-building, trump-tower
 
 - title: Frozen Chicago
   image_path: catalog/IMG_7485.jpg
@@ -129,19 +120,13 @@
   image_path: chicago/sunrays2.jpg
   thumbnail: /images/thumbnails/sunrays2.jpg
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, sunset, sears-tower
+  tags: chicago, cityscape, sunset, sears-tower
 
 - title: Sears Tower
   image_path: catalog/0K6A0833.jpg
   thumbnail: /images/thumbnails/0K6A0833.jpg
   exposure: f/8, ISO160, 1/200th
   tags: chicago, architecture, sears-tower, black-and-white
-
-- title: Grant Park
-  image_path: chicago/grant-park.jpg
-  thumbnail: /images/thumbnails/grant-park.jpg
-  exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, sunset, trump-tower, aon-center, grant-park, skyscraper
 
 - title: The Adler Planetarium at sunrise
   image_path: chicago/sunset-adler.jpg
@@ -160,27 +145,27 @@
   image_path: chicago/over-the-l.jpg
   thumbnail: /images/thumbnails/over-the-l.jpg
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, the-l, trump-tower
+  tags: chicago, cityscape, the-l, trump-tower
 
 - title: The John Hancock building at dusk
   image_path: chicago/hancock-lsd.jpg
   thumbnail: /images/thumbnails/hancock-lsd.jpg
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, hancock-building, long-exposure, dusk
+  tags: chicago, cityscape, hancock-building, long-exposure, dusk
 
 - title: Trump Tower and the Chicago River
   orientation: vertical
   image_path: chicago/trump2.jpg
   thumbnail: /images/thumbnails/trump2.jpg
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, trump-tower, winter, chicago-river
+  tags: chicago, cityscape, trump-tower, winter, chicago-river
 
 - title: Chicago
   image_path: chicago/inky-lake2.jpg
   thumbnail: /images/thumbnails/inky-lake2.jpg
   exposure: f/8, ISO50, 30s
   description: A long exposure of the Chicago cityscape towering over Lake Michigan
-  tags: chicago, architecture, cityscape, hancock-building, lake-michigan, black-and-white, long-exposure
+  tags: chicago, cityscape, hancock-building, lake-michigan, black-and-white, long-exposure
 
 - title: Sears Tower skyboxes
   image_path: portfolio/blue-sky-walk.jpg
@@ -192,7 +177,7 @@
   image_path: chicago/winter-bean.jpg
   thumbnail: /images/thumbnails/winter-bean.jpg
   exposure: f/8, ISO50, 30s
-  tags: chicago, architecture, cityscape, cloud-gate, the-bean, winter
+  tags: chicago, cityscape, cloud-gate, the-bean, winter
 
 - title: A stormfront rolls in over the Sears Tower
   orientation: vertical
@@ -214,7 +199,7 @@
   portfolio: london
   position: iii
   description: The sun peeks out from behind Elizabeth Tower
-  tags: london, architecture, elizabeth-tower, black-and-white
+  tags: london, elizabeth-tower, black-and-white
 
 - title: The National Gallery
   image_path: london/national-gallery.jpg
@@ -230,13 +215,13 @@
 - title: Sunset at Tower Bridge
   image_path: london/tower-bridge-sunset.jpg
   thumbnail: /images/thumbnails/tower-bridge-sunset.jpg
-  tags: london, architecture, sunset, tower-bridge, river-thames
+  tags: london, sunset, tower-bridge, river-thames
 
 - title: Shad Thames
   orientation: vertical
   image_path: london/shad-thames.jpg
   thumbnail: /images/thumbnails/shad-thames.jpg
-  tags: london, architecture, black-and-white
+  tags: london, black-and-white
 
 - title: Her Majestys Household Cavalry
   image_path: london/cavalry.jpg
@@ -264,14 +249,14 @@
   image_path: london/st-pauls.jpg
   thumbnail: /images/thumbnails/st-pauls.jpg
   exposure: f/8, ISO50, 60s
-  tags: london, architecture, black-and-white
+  tags: london, black-and-white
 
 - title: Bishops Gate Road
   orientation: vertical
   image_path: london/shoreditch-high-street.jpg
   thumbnail: /images/thumbnails/shoreditch-high-street.jpg
   exposure: f/8, ISO50, 60s
-  tags: london, architecture, cityscape, black-and-white
+  tags: london, cityscape, black-and-white
 
 - title: Tower Bridge
   image_path: london/tower-pano-second.jpg
@@ -287,7 +272,7 @@
   image_path: london/liverpool-station.jpg
   thumbnail: /images/thumbnails/liverpool-station.jpg
   exposure: f/8, ISO50, 60s
-  tags: london, architecture, black-and-white, panorama
+  tags: london, black-and-white, panorama
 
 - title: The Bridge Lounge
   image_path: london/bridge-lounge.jpg
@@ -349,7 +334,7 @@
   position: ggg
   exposure: f/8, ISO50, 60s
   description: The Shard seen from Tooley Street
-  tags: london, architecture, long-exposure, cityscape, dusk
+  tags: london, long-exposure, cityscape, dusk
 
 - title: Trump Tower
   image_path: black-white/trump-abstract.jpg
@@ -383,7 +368,7 @@
   exposure: 30s, f/6.3, ISO50
   description: One World Trade Center standing tall at sunset
   date: December 15th, 2015
-  tags: new-york, manhattan, architecture, black-and-white, cityscape, skyscraper, long-exposure
+  tags: new-york, manhattan, black-and-white, cityscape, skyscraper, long-exposure
 
 - title: The London Eye
   image_path: union/7.jpg
@@ -629,12 +614,6 @@
   exposure: 1/30th, f/8, ISO160
   tags: chicago, black-and-white, architecture
 
-- title: Millenium Park busts
-  image_path: p52/30.jpg
-  thumbnail: /images/thumbnails/30.jpg
-  exposure: 3.2s, f/8, ISO50
-  tags: chicago, black-and-white, sculpture
-
 - title: Sedona panorama
   image_path: p52/49.jpg
   thumbnail: /images/thumbnails/49.jpg
@@ -658,7 +637,7 @@
   image_path: catalog/0K6A7901.jpg
   thumbnail: /images/thumbnails/0K6A7901.jpg
   exposure: 30s, f/6.3, ISO50
-  tags: new-york, manhattan, long-exposure, dusk, cityscape, wtc, architecture
+  tags: new-york, manhattan, long-exposure, dusk, cityscape, wtc
 
 - title: Manhattan Skyline
   image_path: catalog/0K6A7702.jpg
@@ -684,7 +663,7 @@
   thumbnail: /images/thumbnails/chrysler2.jpg
   exposure: 1/200th, f/8, ISO100
   description: The iconic Chrysler Building
-  tags: new-york, manhattan, architecture, skyscraper, black-and-white
+  tags: new-york, manhattan, skyscraper, black-and-white
 
 - title: 168 E. 58th
   orientation: vertical
@@ -1648,13 +1627,6 @@
   thumbnail: /images/thumbnails/CRW_8654.jpg
   exposure: 1/750th, f/4.5, ISO100
   tags: chicago, urban, architecture
-
-- title: The Sears Tower
-  orientation: vertical
-  image_path: catalog/IMG_4127.jpg
-  thumbnail: /images/thumbnails/IMG_4127.jpg
-  exposure: 1/60th, f/5.6, ISO640
-  tags: chicago, architecture, sears-tower
 
 - title: Old barn
   image_path: catalog/IMG_2711.jpg
