@@ -13,7 +13,7 @@
   image_path: portfolio/archways.jpg
   thumbnail: /images/thumbnails/archways.jpg
   portfolio: urban
-  position: mmm
+  position: kkk
   exposure: f/8, ISO50, 30s
   description: An experiment with light painting in Mary Bartelme Park on the near west side of Chicago
   date: July 18th, 2014
@@ -133,6 +133,12 @@
   thumbnail: /images/thumbnails/sunset-adler.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, sunrise, lake-michigan, adler-planetarium
+
+- title: A moment at the Bean
+  image_path: catalog/CRW_7168.jpg
+  thumbnail: /images/thumbnails/CRW_7168.jpg
+  exposure: f/5.6, ISO400, 1/750th
+  tags: chicago, street
 
 - title: Tokyo Tower
   orientation: vertical
@@ -344,12 +350,6 @@
   exposure: f/8, ISO50, 60s
   tags: chicago, trump-tower, architecture, black-and-white, skyscraper, abstract
 
-- title: Grant Park
-  image_path: chicago/sears-from-grant.jpg
-  thumbnail: /images/thumbnails/sears-from-grant.jpg
-  exposure: f/8, ISO50, 60s
-  tags: chicago, cityscape, sears-tower
-
 - title: Aqua building, Chicago
   image_path: chicago/waves.jpg
   thumbnail: /images/thumbnails/waves.jpg
@@ -364,7 +364,7 @@
   thumbnail: /images/thumbnails/one-wtc-bw-pano.jpg
   orientation: vertical
   portfolio: urban
-  position: lll
+  position: jjj
   exposure: 30s, f/6.3, ISO50
   description: One World Trade Center standing tall at sunset
   date: December 15th, 2015
@@ -411,7 +411,7 @@
   image_path: portfolio/grand-central-standing.jpg
   thumbnail: /images/thumbnails/grand-central-standing.jpg
   portfolio: urban
-  position: ggg
+  position: fff
   exposure: f/8, ISO50, 1/25th
   description: A commuter stands still for a moment at Grand Central Station in Manhattan
   date: June 20th, 2014
@@ -643,7 +643,7 @@
   image_path: catalog/0K6A7702.jpg
   thumbnail: /images/thumbnails/0K6A7702.jpg
   portfolio: urban
-  position: ccc
+  position: bbb
   exposure: 48s, f/8, ISO50
   date: December 15th, 2015
   tags: new-york, manhattan, long-exposure, dusk, cityscape
@@ -681,11 +681,19 @@
   description: Trump Tower Chicago
   tags: chicago, architecture, black-and-white, abstract
 
+- title: Untitled
+  image_path: catalog/0K6A8408.jpg
+  thumbnail: /images/thumbnails/0K6A8408.jpg
+  portfolio: urban
+  position: ccc
+  exposure: 1/250th, f/5, ISO1000
+  description: More London Riverside
+  date: April 26th, 2015
+  tags: london, architecture, black-and-white, abstract
+
 - title: Wrapped in Glass &amp; Steel
   image_path: union/3.jpg
   thumbnail: /images/thumbnails/union/3.jpg
-  portfolio: urban
-  position: ddd
   exposure: 1/200th, f/8, ISO100
   description: Looking up from 168 E. 58th Street
   date: June 22nd, 2014
@@ -695,7 +703,7 @@
   orientation: vertical
   image_path: catalog/0K6A7925.jpg
   portfolio: urban
-  position: eee
+  position: ddd
   exposure: 44s, f/8, ISO50
   date: June 21st, 2014
   description: The iconic Flatiron Building at 5th Ave &amp; 23rd St.
@@ -1123,8 +1131,6 @@
 - title: Midtown
   image_path: posts/midtown.jpg
   thumbnail: /images/thumbnails/midtown.jpg
-  portfolio: urban
-  position: iii
   exposure: 1/125th, f/8, ISO4000
   description: An afternoon in Midtown, Manhattan
   date: June 21st, 2014
@@ -1147,7 +1153,7 @@
   image_path: catalog/0K6A7506.jpg
   thumbnail: /images/thumbnails/0K6A7506.jpg
   portfolio: urban
-  position: fff
+  position: eee
   exposure: f/16, ISO100, 90s
   description: The Brooklyn Bridge spanning over the East River, taken from Brooklyn Bridge Park
   date: June 19th, 2014
@@ -1196,6 +1202,15 @@
   description: Cloud Gate on a fall afternoon from the top of Aon Center
   exposure: 1/250th, f/5.6, ISO100
   tags: chicago, the-bean
+
+- title: The Ledge
+  image_path: catalog/0K6A0939.jpg
+  thumbnail: /images/thumbnails/0K6A0939.jpg
+  portfolio: urban
+  position: hhh
+  exposure: 1/500th, f/4, ISO125
+  description: The Sears Tower 'Ledge' skyboxes jut out over Wacker Drive
+  tags: chicago, sears-tower, architecture, black-and-white
 
 - title: Good morning Chicago
   image_path: catalog/IMG_4979.jpg
@@ -1645,7 +1660,7 @@
   image_path: catalog/0K6A9531.jpg
   thumbnail: /images/thumbnails/0K6A9531.jpg
   portfolio: urban
-  position: jjj
+  position: iii
   description: Cooling off in the reflecting pool at Millenium park on a hot summer evening
   exposure: 1/640th, f/3.5, ISO2000
   date: July 24th, 2014
