@@ -58,11 +58,27 @@
   description: A couple temporarily finds shelter beneath Cloud Gate in Millenium Park during a brutal Chicago snowstorm
   tags: chicago, winter, the-bean
 
-- title: The London Eye
-  image_path: portfolio/london-eye.jpg
-  thumbnail: /images/thumbnails/london-eye.jpg
-  exposure: f/8, ISO50, 30s
-  tags: london, england, london-eye, cityscape, sunset
+- title: More London Riverside
+  image_path: catalog/0K6A1420.jpg
+  thumbnail: /images/thumbnails/0K6A1420.jpg
+  exposure: f/8, ISO50, 32s
+  tags: london, england, architecture, black-and-white
+
+- title: National Gallery fountain
+  image_path: london/gallery-fountain.jpg
+  thumbnail: /images/thumbnails/gallery-fountain.jpg
+  portfolio: london
+  position: ccc
+  exposure: f/8, ISO50, 60s
+  description: One of the two fountains in front of the National Gallery in London
+  tags: london, trafalgar-square, long-exposure, dusk
+
+- title: St. Pauls Cathedral and Jubilee Bridge
+  image_path: catalog/0K6A1402.jpg
+  thumbnail: /images/thumbnails/0K6A1402.jpg
+  exposure: f/8, 25s, ISOb100
+  description: St. Pauls Cathedral after dark as seen from Jubilee Bridge
+  tags: london
 
 - title: The privateer <i>Lynx</i> rounding the Chicago Harbor Light
   image_path: portfolio/rainy-sails.jpg
@@ -82,8 +98,16 @@
   date: March 16th, 2016
   tags: chicago, sears-tower, architecture, black-and-white
 
+- title: Chicago skyline
+  image_path: /catalog/0K6A1328.jpg
+  thumbnail: /images/thumbnails/0K6A1328.jpg
+  exposure: f/8, ISO500, 1/320th
+  description: The Chicago skyline after taking off from OHare
+  date: March 28th, 2016
+  tags: chicago, sears-tower, cityscape
+
 - title: <i>Reach for the sky</i>
-  image_path: portfolio/sears-reach2.jpg
+  image_path: portfolio/sears-reach2.jpg, cityscape
   thumbnail: /images/thumbnails/sears-reach2.jpg
   portfolio: primary
   position: hhh
@@ -252,10 +276,17 @@
   tags: london, long-exposure, dusk
 
 - title: St. Pauls Cathedral and Millenium Bridge
-  image_path: london/st-pauls.jpg
-  thumbnail: /images/thumbnails/st-pauls.jpg
-  exposure: f/8, ISO50, 60s
-  tags: london, black-and-white
+  image_path: catalog/0K6A1416.jpg
+  thumbnail: /images/thumbnails/0K6A1416.jpg
+  exposure: f/8, ISO50, 90s
+  tags: london
+
+- title: Elizabeth Tower at sunset
+  orientation: vertical
+  image_path: catalog/0K6A1546.jpg
+  thumbnail: /images/thumbnails/0K6A1546.jpg
+  exposure: f/2.8, ISO1250, 1/250th
+  tags: london, cityscape, black-and-white
 
 - title: Bishops Gate Road
   orientation: vertical
@@ -273,12 +304,11 @@
   description: A 9 shot 180&deg; panorama of Tower Bridge and Potters Fields Park
   tags: london, cityscape, tower-bridge, river-thames, panorama
 
-- title: Liverpool Street Station
-  orientation: vertical
-  image_path: london/liverpool-station.jpg
-  thumbnail: /images/thumbnails/liverpool-station.jpg
-  exposure: f/8, ISO50, 60s
-  tags: london, black-and-white, panorama
+- title: The London Eye
+  image_path: catalog/0K6A1442.jpg
+  thumbnail: /images/thumbnails/0K6A1442.jpg
+  exposure: f/6.3, ISO250, 1/200th
+  tags: london, black-and-white
 
 - title: The Bridge Lounge
   image_path: london/bridge-lounge.jpg
@@ -313,15 +343,6 @@
   exposure: f/8, ISO50, 60s
   description: The lions of Trafalgar Square stand guard
   tags: london, trafalgar-square, long-exposure, elizabeth-tower
-
-- title: National Gallery fountain
-  image_path: london/gallery-fountain.jpg
-  thumbnail: /images/thumbnails/gallery-fountain.jpg
-  portfolio: london
-  position: ccc
-  exposure: f/8, ISO50, 60s
-  description: One of the two fountains in front of the National Gallery in London
-  tags: london, trafalgar-square, long-exposure, dusk
 
 - title: Cavalry Guard
   orientation: vertical
@@ -680,16 +701,6 @@
   exposure: 1/200th, f/8, ISO100
   description: Trump Tower Chicago
   tags: chicago, architecture, black-and-white, abstract
-
-- title: Untitled
-  image_path: catalog/0K6A8408.jpg
-  thumbnail: /images/thumbnails/0K6A8408.jpg
-  portfolio: urban
-  position: ccc
-  exposure: 1/250th, f/5, ISO1000
-  description: More London Riverside
-  date: April 26th, 2015
-  tags: london, architecture, black-and-white, abstract
 
 - title: Wrapped in Glass &amp; Steel
   image_path: union/3.jpg
@@ -1186,12 +1197,6 @@
   thumbnail: /images/thumbnails/the-shard.jpg
   exposure: 30s, f/9, ISO50
   date: April 28th, 2015
-  tags: london, panorama, cityscape, long-exposure
-
-- title: The London Eye &amp; Thames river panorama
-  image_path: london/london-eye-panorama.jpg
-  thumbnail: /images/thumbnails/london-eye-panorama.jpg
-  exposure: 60s, f/14, ISO50
   tags: london, panorama, cityscape, long-exposure
 
 - title: Cloud Gate
@@ -2662,12 +2667,19 @@
   exposure: 1/4000th, f/4, ISO100
   tags: rural, snowscape
 
+- title: City Hall and Tower Bridge
+  image_path: /catalog/0K6A1426.jpg
+  thumbnail: /images/thumbnails/0K6A1426.jpg
+  date: March 30th, 2016
+  exposure: 30s, f/9, ISO50
+  tags: london
+
 - title: Burlington Arcade
   image_path: /catalog/0K6A8568.jpg
   thumbnail: /images/thumbnails/0K6A8568.jpg
   orientation: vertical
   date: April 27th, 2015
-  exposure: 1/125th, f/6.3, ISO126
+  exposure: 1/125th, f/6.3, ISO125
   tags: london, street
 
 - title: Park Here
