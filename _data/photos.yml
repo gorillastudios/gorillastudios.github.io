@@ -107,7 +107,7 @@
   tags: chicago, sears-tower, cityscape
 
 - title: <i>Reach for the sky</i>
-  image_path: portfolio/sears-reach2.jpg, cityscape
+  image_path: portfolio/sears-reach2.jpg
   thumbnail: /images/thumbnails/sears-reach2.jpg
   portfolio: primary
   position: hhh
@@ -286,7 +286,7 @@
   image_path: catalog/0K6A1546.jpg
   thumbnail: /images/thumbnails/0K6A1546.jpg
   exposure: f/2.8, ISO1250, 1/250th
-  tags: london, cityscape, black-and-white
+  tags: london, cityscape
 
 - title: Bishops Gate Road
   orientation: vertical
