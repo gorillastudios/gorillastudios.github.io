@@ -1,13 +1,48 @@
 ---
 layout: default
-title: Music
+title: Home
 permalink: /music/
 ---
-<div class="portfolio">
-  {% assign sorted_photos = (site.data.photos | where: "portfolio", "music" | sort: "position") %}
+<div id="grid-gallery" class="grid-gallery">
+  <section class="grid-wrap">
+    <ul class="grid">
+      <li class="grid-sizer"></li><!-- for Masonry column width -->
 
-  {% for photo in sorted_photos %}
-    {% include portfolio_template.html %}
-  {% endfor %}
-</div>
+      <li class="large"><img src="/images/thumbnails/0K6A4381.jpg" alt="The Krank Daddies"/></li>
+      <li><img src="/images/thumbnails/0K6A4862.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/0K6A4915.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/bass2.jpg" alt="Cadillac Cassanovas"/></li>
+      <li class="large"><img src="/images/thumbnails/0K6A4022.jpg" alt="The Voodoo Fix"/></li>
+      <li><img src="/images/thumbnails/bret-michaels.jpg" alt="The Bret Michaels Band"/></li>
+      <li><img src="/images/thumbnails/0K6A4393.jpg" alt="The Krank Daddies"/></li>
+      <li><img src="/images/thumbnails/carl.jpg" alt="Cadillac Cassanovas"/></li>
+      <li><img src="/images/thumbnails/IMG_1302.jpg" alt="Cadillac Cassanovas"/></li>
+      <li class="large"><img src="/images/thumbnails/0K6A4708.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/0K6A4923.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/0K6A3983.jpg" alt="The Kank Daddies"/></li>
+    </ul>
+  </section><!-- // grid-wrap -->
+
+
+  <section class="slideshow">
+    <ul>
+      <li><img src="/images/catalog/CRW_7615.jpg"><p>Untitled Snowscape<span>1/2000th, f/4.5, ISO100, 50mm</span></p></li>
+      <li><img src="/images/catalog/0K6A7702.jpg"><p>Manhattan sunrise<span>48s, f/8, ISO50, 22mm</span></p></li>
+    </ul>
+    <nav>
+      <span class="icon nav-prev"></span>
+      <span class="icon nav-next"></span>
+      <span class="icon nav-close"></span>
+    </nav>
+    <div class="info-keys icon">Navigate with arrow keys</div>
+  </section><!-- // slideshow -->
+</div><!-- // grid-gallery -->
+
+
+
+
+<script>
+  new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
+
 

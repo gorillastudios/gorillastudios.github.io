@@ -26,10 +26,19 @@
     <script src="//use.typekit.net/zrp7zuy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    <script src="/js/jquery-1.11.1.min.js"></script>
+    <!-- <script src="/js/jquery-1.11.1.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/jquery.sticky.js"></script>
     <script src="/js/twitterFetcher_min.js"></script>
+
+    <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpGridGallery.js"></script>
+
 
     <link rel="canonical" href="http://gorilla-studios.com/">
 
@@ -49,184 +58,84 @@
   <body >
 
     <div class="wrap">
-      <header class="site-header" id="sticker">
+      <header class="site-header">
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
   <nav>
-    <a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
-    <a href="/#collections" data-page-id="collections">Collections</a></li>
-    <a href="/#blog" data-page-id="blog">Blog</a></li>
-    <a href="/#contact" data-page-id="about">Contact</a></li>
+    <a href="/" data-page-id="home">portfolio</a></li>
+    <a href="/music" data-page-id="music">music</a></li>
+    <a href="/blog" data-page-id="blog">blog</a></li>
+    <a href="/contact" data-page-id="contact">contact</a></li>
   </nav>
 </header>
 
       <div class="site-content animated fadeIn">
-        <section class="module__hero">
-  <div class="container">
-    <img src="/images/catalog/0K6A0846.jpg" />
-  </div>
-</section>
+        <div id="grid-gallery" class="grid-gallery">
+  <section class="grid-wrap">
+    <ul class="grid">
+      <li class="grid-sizer"></li><!-- for Masonry column width -->
 
-<section class="module__about">
-  <div class="container">
-  <h2 class="module-label">About</h2>
-  <div class="content">
-    <p>Founded in 2003, Gorilla-Studios is a showcase for my photography portfolio. I have been lucky enough to shoot in Chicago, New York, Los Angeles, London and beyond. While primarily focusing on landscapes and architecture, I also specialize in live music, portraits, and nature photography as well. I am available for commission work so please contact me to discuss your project. You will find a selection of <a href="/#portfolios">my work in my portfolios</a> with additional or specific content available upon request.</p>
-  </div>
-</section>
-
-
-<section class="module__portfolios anchor" id="portfolios">
-  <div class="container">
-    <h2 class="module-label">Portfolios</h2>
-    <div class="content">
-      <div class="portfolio-link">
-  <a href="/urban/"><div class="link" style="background-image: url('/images/previews/urban-circle.jpg')"></div></a>
-  <p>Urban</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/landscapes/"><div class="link" style="background-image: url('/images/previews/landscapes-circle.jpg')"></div></a>
-  <p>Landscapes</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/portraits/"><div class="link" style="background-image: url('/images/previews/portraits.jpg')"></div></a>
-  <p>Portraits</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/music/"><div class="link" style="background-image: url('/images/previews/music.jpg')"></div></a>
-  <p>Music</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/nature/"><div class="link" style="background-image: url('/images/previews/nature.jpg')"></div></a>
-  <p>Nature</p>
-</div>
+      <li class="large"><img src="/images/gallery/CRW_7615.jpg" alt="Leroy Oaks"/></li>
+      <li><img src="/images/gallery/0K6A7702.jpg" alt="Manhattan Sunrise"/></li>
+      <li><img src="/images/gallery/0K6A0772t.jpg" alt="Leo Carillo Beach"/></li>
+      <li><img src="/images/gallery/heron-portraitt.jpg" alt="Great Blue Heron"/></li>
+      <li><img src="/images/thumbnails/0K6A7506.jpg" alt="More Riverside London"/></li>
+      <li class="large"><img src="/images/thumbnails/0K6A0939.jpg" alt="The Sears Tower"/></li>
+      <li><img src="/images/thumbnails/wrigley-clock.jpg" alt="More Riverside London"/></li>
+      <li><img src="/images/gallery/0K6A7925t.jpg" alt="The Flatiron Building"/></li>
+      <li><img src="/images/thumbnails/dance.jpg" alt="The Flatiron Building"/></li>
+      <li><img src="/images/thumbnails/pritzker.jpg" alt="Pritzker Pavilion"/></li>
+      <li><img src="/images/thumbnails/leroy-oaks.jpg" alt="Leroy Oaks"/></li>
+      <li class="large"><img src="/images/gallery/0K6A0789t.jpg" alt="Leo Carillo Beach"/></li>
+      <li><img src="/images/thumbnails/shard-streaks.jpg" alt="Elizabeth Tower"/></li>
+      <li><img src="/images/thumbnails/0K6A1420.jpg" alt="More Riverside London"/></li>
+      <li><img src="/images/thumbnails/latimer.jpg" alt="Latimer Reef Light"/></li>
+      <li class="large"><img src="/images/thumbnails/archways.jpg" alt="More Riverside London"/></li>
+      <li><img src="/images/gallery/masons-dock.jpg" alt="Mason's Island Sunset"/></li>
+      <li><img src="/images/thumbnails/trump-abstract.jpg" alt="Trump Tower"/></li>
+      <li><img src="/images/thumbnails/sears-abstract.jpg" alt="More Riverside London"/></li>
+    </ul>
+  </section><!-- // grid-wrap -->
 
 
-    </div>
-  </div>
-</section>
-
-<section class="module__collections" id="collections">
-  <div class="container">
-    <h2 class="module-label">Collections</h2>
-    <div class="content">
-      <div class="portfolio-link">
-  <a href="/chicago/"><div class="link" style="background-image: url('/images/previews/chicago.jpg')"></div></a>
-  <p>Chicago</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/new-york/"><div class="link" style="background-image: url('/images/previews/new-york.jpg')"></div></a>
-  <p>New York</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/london/"><div class="link" style="background-image: url('/images/previews/london.jpg')"></div></a>
-  <p>London</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/black-and-white/"><div class="link" style="background-image: url('/images/previews/black-white.jpg')"></div></a>
-  <p>Black &amp; White</p>
-</div>
-
-<div class="portfolio-link">
-  <a href="/architecture/"><div class="link" style="background-image: url('/images/previews/architecture.jpg')"></div></a>
-  <p>Architecture</p>
-</div>
-
-
-    </div>
-  </div>
-</section>
-
-<section class="module__blog anchor" id="blog">
-  <div class="container">
-    <h2 class="module-label">News &amp; Blog</h2>
-    <div class="content">
-      <section id="index-news">
-  <div id="tw-widget1"></div>
-</section>
-<section id="index-blog">
-  <ul>
-    
-    <li><a href="/blog/2016/04/01/london.html">
-      <h3>London Travelogue</h3>
-      <p>A travelogue from my quick stop over in London</p>
-    </a></li>
-    
-    <li><a href="/blog/2016/01/20/slider-project-1.html">
-      <h3>Building a custom time-lapse slider</h3>
-      <p>Documenting my project of building a custom made time-lapse slider</p>
-    </a></li>
-    
-    <li><a href="/blog/2016/01/15/best-of-2015.html">
-      <h3>My top 10 images of 2015</h3>
-      <p>A 10 shot collection of my best work in 2015</p>
-    </a></li>
-    
-    <li><a href="/blog/2015/11/08/leo-carillo.html">
-      <h3>Leo Carillo Beach</h3>
-      <p>California sunset from Leo Carillo Beach</p>
-    </a></li>
-    
-    <li><a href="/blog-archive">
-      <h3>Older posts</h3>
-    </a></li>
-  </ul>
-</section>
-
-    </div>
-  </div>
-</section>
-
-<section class="module__contact anchor" id="contact">
-  <div class="container">
-  <h2 class="module-label">Contact</h2>
-  <div class="content">
-    <form class="contact" action="//formspree.io/chris@gorilla-studios.com"
-      method="POST">
-      <input type="text" name="name" placeholder="Name">
-      <input type="email" name="_replyto" placeholder="Email">
-      <textarea rows="4" name="body" placeholder="Message"></textarea>
-      <input type="submit" value="Send">
-      <input type="hidden" name="_next" value="//gorilla-studios.com" />
-    </form>
-  </div>
-</section>
+  <section class="slideshow">
+    <ul>
+      <li><img src="/images/catalog/CRW_7615.jpg"><p>Untitled Snowscape<span>1/2000th, f/4.5, ISO100, 50mm</span></p></li>
+      <li><img src="/images/catalog/0K6A7702.jpg"><p>Manhattan sunrise<span>48s, f/8, ISO50, 22mm</span></p></li>
+      <li><img src="/images/catalog/0K6A0772.jpg"><p>Leo Carillo Beach<span>10s, f/5.6, ISO50, 17mm</span></p></li>
+      <li class="vertical"><img src="/images/nature/heron-portrait.jpg"><p>Great Blue Heron</p></li>
+      <li><img src="/images/catalog/0K6A7506.jpg"><p>Manhattan<span>90s, f/16, ISO100, 35mm</span></p></li>
+      <li><img src="/images/catalog/0K6A0939.jpg"><p><i>A walk in the sky</i><span>1/500th, f/4, ISO125, 200mm</span></p></li>
+      <li><img src="/images/chicago/wrigley-clock.jpg"><p>The Wrigley building</p></li>
+      <li class="vertical"><img src="/images/catalog/0K6A7925.jpg"><p>The Flatiron Building<span></span></p></li>
+      <li><img src="/images/portfolio/dance.jpg"><p><i>Dance</i></span></span></p></li>
+      <li><img src="/images/portfolio/pritzker.jpg"><p>Pritzker Pavilion<span>30s, f/8, ISO50, 19mm</span></p></li>
+      <li><img src="/images/portfolio/leroy-oaks.jpg"><p>Leroy Oaks<span></span></p></li>
+      <li><img src="/images/catalog/0K6A0789.jpg"><p>Leo Carillo Beach<span>30s, f/4, ISO50, 19mm</span></p></li>
+      <li><img src="/images/london/shard-streaks.jpg"><p>The Shard<span>30s, f/8, ISO50, 19mm</span></p></li>
+      <li><img src="/images/catalog/0K6A1420.jpg"><p>More Riverside London<span>32s, f/8, ISO50, 16mm</span></p></li>
+      <li><img src="/images/new-england/latimer.jpg"><p>Latimer Reef Light<span>1/200th, f/5.6, ISO100, 200mm</span></p></li>
+      <li><img src="/images/portfolio/archways.jpg"><p><i>Archways</i><span>30s, f/8, ISO50, 19mm</span></p></li>
+      <li><img src="/images/portfolio/masons-dock.jpg"><p>Masons Island sunset<span>3.2s, f/22, ISO50, 19mm</span></p></li>
+      <li><img src="/images/black-white/trump-abstract.jpg"><p>Trump Tower<span>1/500th, f/9, ISO100, 125mm</span></p></li>
+      <li><img src="/images/black-white/sears-abstract.jpg"><p><i>City of Broad Shoulders</i><span>1/250th, f/5.6, ISO100, 50mm</span></p></li>
+    </ul>
+    <nav>
+      <span class="icon nav-prev"></span>
+      <span class="icon nav-next"></span>
+      <span class="icon nav-close"></span>
+    </nav>
+    <div class="info-keys icon">Navigate with arrow keys</div>
+  </section><!-- // slideshow -->
+</div><!-- // grid-gallery -->
 
 
 
 
 <script>
-    $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 500);
-          return false;
-        }
-      }
-    });
-  });
-
-
-
-  var config1 = {
-    "id": '651138185683169280',
-    "domId": 'tw-widget1',
-    "maxTweets": 2,
-    "enableLinks": true
-  };
-  twitterFetcher.fetch(config1);
+  new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
 </script>
+
+
 
       </div>
     </div>

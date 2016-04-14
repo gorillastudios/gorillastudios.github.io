@@ -1,5 +1,7 @@
 // --------------------------------------- Individual Posts
 .post {
+  @include outer-container(1200px);
+  padding: 10px;
   img { max-width: 100%; }
   .post-title {
     font-size: 1.777em;
@@ -14,7 +16,7 @@
   }
   .post-header, h2, h3, h4, h5, p, ul {
     margin: 0 auto 1.5em auto;
-    max-width: 900px;
+    max-width: 800px;
   }
   h4 {
     font-size: 1.5em;
@@ -78,6 +80,8 @@
 
 @media screen and (min-width: 600px) {
   .post {
+    padding: 2em 0;
+    margin-bottom: 2em;
     .post-title {
       line-height: 0.75em;
       margin-bottom: 0.25em;

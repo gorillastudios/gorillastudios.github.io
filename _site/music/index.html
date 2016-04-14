@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Music</title>
+    <title>Home</title>
     <meta name="description" content="Focusing on stunning landscape and high-energy music photography, Gorilla-Studios has been the online home of my portfolio since 2003. I specialize in landscapes, cityscapes and architecture, nature, candid portraiture, headshots, band promos and concert photography.
 ">
 
@@ -26,10 +26,19 @@
     <script src="//use.typekit.net/zrp7zuy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    <script src="/js/jquery-1.11.1.min.js"></script>
+    <!-- <script src="/js/jquery-1.11.1.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/jquery.sticky.js"></script>
     <script src="/js/twitterFetcher_min.js"></script>
+
+    <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpGridGallery.js"></script>
+
 
     <link rel="canonical" href="http://gorilla-studios.com/music/">
 
@@ -49,112 +58,59 @@
   <body >
 
     <div class="wrap">
-      <header class="site-header" id="sticker">
+      <header class="site-header">
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
   <nav>
-    <a href="/#portfolios" data-page-id="portfolios">Portfolios</a></li>
-    <a href="/#collections" data-page-id="collections">Collections</a></li>
-    <a href="/#blog" data-page-id="blog">Blog</a></li>
-    <a href="/#contact" data-page-id="about">Contact</a></li>
+    <a href="/" data-page-id="home">portfolio</a></li>
+    <a href="/music" data-page-id="music">music</a></li>
+    <a href="/blog" data-page-id="blog">blog</a></li>
+    <a href="/contact" data-page-id="contact">contact</a></li>
   </nav>
 </header>
 
       <div class="site-content animated fadeIn">
-        <div class="portfolio">
-  
+        <div id="grid-gallery" class="grid-gallery">
+  <section class="grid-wrap">
+    <ul class="grid">
+      <li class="grid-sizer"></li><!-- for Masonry column width -->
 
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A4708.jpg">
-  <figcaption>Reverend Horton Heat</figcaption>
-</figure>
+      <li class="large"><img src="/images/thumbnails/0K6A4381.jpg" alt="The Krank Daddies"/></li>
+      <li><img src="/images/thumbnails/0K6A4862.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/0K6A4915.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/bass2.jpg" alt="Cadillac Cassanovas"/></li>
+      <li class="large"><img src="/images/thumbnails/0K6A4022.jpg" alt="The Voodoo Fix"/></li>
+      <li><img src="/images/thumbnails/bret-michaels.jpg" alt="The Bret Michaels Band"/></li>
+      <li><img src="/images/thumbnails/0K6A4393.jpg" alt="The Krank Daddies"/></li>
+      <li><img src="/images/thumbnails/carl.jpg" alt="Cadillac Cassanovas"/></li>
+      <li><img src="/images/thumbnails/IMG_1302.jpg" alt="Cadillac Cassanovas"/></li>
+      <li class="large"><img src="/images/thumbnails/0K6A4708.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/0K6A4923.jpg" alt="Reverend Horton Heat"/></li>
+      <li><img src="/images/thumbnails/0K6A3983.jpg" alt="The Kank Daddies"/></li>
+    </ul>
+  </section><!-- // grid-wrap -->
 
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A4160.jpg">
-  <figcaption>The Voodoo Fix</figcaption>
-</figure>
 
-  
-    <figure class="vertical">
-  <img src="/images/bfbc/0K6A4393.jpg">
-  <figcaption>The Krank Daddies</figcaption>
-</figure>
+  <section class="slideshow">
+    <ul>
+      <li><img src="/images/catalog/CRW_7615.jpg"><p>Untitled Snowscape<span>1/2000th, f/4.5, ISO100, 50mm</span></p></li>
+      <li><img src="/images/catalog/0K6A7702.jpg"><p>Manhattan sunrise<span>48s, f/8, ISO50, 22mm</span></p></li>
+    </ul>
+    <nav>
+      <span class="icon nav-prev"></span>
+      <span class="icon nav-next"></span>
+      <span class="icon nav-close"></span>
+    </nav>
+    <div class="info-keys icon">Navigate with arrow keys</div>
+  </section><!-- // slideshow -->
+</div><!-- // grid-gallery -->
 
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A4261.jpg">
-  <figcaption>The Krank Daddies</figcaption>
-</figure>
 
-  
-    <figure class="vertical">
-  <img src="/images/bfbc/0K6A4022.jpg">
-  <figcaption>The Voodoo Fix</figcaption>
-</figure>
 
-  
-    <figure class="vertical">
-  <img src="/images/bfbc/0K6A4923.jpg">
-  <figcaption>Reverend Horton Heat</figcaption>
-</figure>
 
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A3865.jpg">
-  <figcaption>Bigfoot Bandcamp</figcaption>
-</figure>
+<script>
+  new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
 
-  
-    <figure class="vertical">
-  <img src="/images/music/standing-bass2.jpg">
-  <figcaption>Cadillac Cassanovas</figcaption>
-</figure>
-
-  
-    <figure class="">
-  <img src="/images/bm/4.jpg">
-  <figcaption>Bret Michaels</figcaption>
-</figure>
-
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A3983.jpg">
-  <figcaption>The Krank Daddies</figcaption>
-</figure>
-
-  
-    <figure class="vertical">
-  <img src="/images/music/carl.jpg">
-  <figcaption>Cadillac Cassanovas</figcaption>
-</figure>
-
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A4302.jpg">
-  <figcaption>The Krank Daddies</figcaption>
-</figure>
-
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A4915.jpg">
-  <figcaption>Reverend Horton Heat</figcaption>
-</figure>
-
-  
-    <figure class="vertical">
-  <img src="/images/bfbc/0K6A3910.jpg">
-  <figcaption>Bigfoot Bandcamp</figcaption>
-</figure>
-
-  
-    <figure class="">
-  <img src="/images/bfbc/0K6A4771.jpg">
-  <figcaption>Reverend Horton Heat</figcaption>
-</figure>
-
-  
-</div>
 
 
       </div>

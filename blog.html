@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<section class="block-list">
+{% for post in site.posts limit: 10 %}
+<a class="blog-link hvr-underline-from-center" href="{{ post.url }}">
+  <!-- <img src="/images/{{ post.hero }}"> -->
+  <img src="/images/previews/{{ post.hero }}">
+  <h4 class="blog-post-title">{{ post.title }} <span>{{ post.date | date: '%b %d %Y' }}</span></h4>
+  <p>{{ post.intro }}</p>
+</a>
+{% endfor %}
+</section>
+

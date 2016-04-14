@@ -1,40 +1,12 @@
-.wrap {
-  margin: 0 auto;
-  max-width: $site-width;
-  overflow: hidden;
-  padding: 0 10px;
-  @include outer-container;
-}
-
-@media screen and (min-width: 800px) {
-  .wrap {
-    .site-content {
-      @include span-columns(9);
-      padding: 4em 0;
-    }
-  }
-}
-
-
-
-
 [class*="module__"] {
-  border-top: 1px solid $grey-light;
-  max-width: $site-width;
-  margin: 0 auto;
-  .container {
-    @include outer-container;
-    .module-label {
-      padding: 1.5em 0;
-      text-align: center;
-    }
-  }
+  @include outer-container(1200px);
+  padding: 10px;
 }
 
 @media screen and (min-width: 800px) {
   [class*="module__"] {
-    padding: 2em 0 4em 0;
-    .module-label {
+    padding: 4em 0;
+    .title {
       @include span-columns(3);
       margin-top: 0;
       padding: 0 !important;
@@ -42,6 +14,7 @@
     }
     .content {
       @include span-columns(9);
+      border: 1px solid red;
       p {
         margin-top: 0;
       }

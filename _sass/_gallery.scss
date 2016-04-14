@@ -1,67 +1,285 @@
-.gallery {
-  overflow: hidden;
-  figure {
-    display: inline-block;
-    margin-bottom: 10px;
+.grid-gallery {
+  padding: 2px;
+}
+
+.grid {
+  li {
+    cursor: pointer;
+    float: left;
     width: 100%;
     img {
+      padding: 2px;
       width: 100%;
     }
   }
 }
 
-@media screen and (min-width: 30em) {
-  .gallery {
-    -webkit-column-count: 2;
-    column-count: 2;
-    -webkit-column-gap: 10px;
+@media screen and (min-width: 600px) {
+  .grid li {
+    position: relative;
+    width: 50%;
   }
 }
 
-@media screen and (min-width: 50em) {
-  .gallery {
-    -webkit-column-count: 3;
-    column-count: 3;
+@media screen and (min-width: 1000px) {
+  .grid li {
+    width: 33.3333%;
+    &.large {
+      width: 66.666%;
+    }
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .grid li {
+    width: 25%;
+    &.large {
+      width: 50%;
+    }
+  }
+}
 
+@media screen and (min-width: 1600px) {
+  .grid li {
+    width: 20%;
+    &.large {
+      width: 40%;
+    }
+  }
+}
 
-.portfolio {
-  padding: 2em 0;
-  figure {
-    margin: 0 auto 1em auto;
-    max-width: $site-width;
+/* ------------------------------------------------ Slideshow style */
+.slideshow {
+  position: fixed;
+  background: rgba(255,255,255,0.97);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.slideshow-open .slideshow {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.slideshow ul {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translate3d(0,0,150px);
+  transform: translate3d(0,0,150px);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+.slideshow ul.animatable li {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+.slideshow-open .slideshow ul {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.slideshow li {
+  left: 15%;
+  position: absolute;
+  top: 8%;
+  visibility: hidden;
+  width: 70%;
+  &.vertical {
     img {
       display: block;
-      max-width: 100%;
       margin: 0 auto;
+      max-height: 750px;
     }
-    figcaption {
-      color: #999;
-      font-size: 0.8em;
-      line-height: 1em;
-      margin: 10px 10px 4em 10px;
-      span {
-        display: block;
-        padding-top: 8px;
-      }
+    p {
+      margin: 0 auto;
+      max-width: 500px;
+    }
+  }
+  p {
+    color: #444;
+    font-size: 0.8em;
+    margin-top: 2px;
+    span {
+      float: right;
     }
   }
 }
 
+.slideshow li.show {
+  visibility: visible;
+}
 
-@media screen and (min-width: 600px) {
-  .portfolio {
-    padding: 0;
+.slideshow li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255,255,255,0.9);
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.slideshow li.current:after {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+  transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+
+// ---------------------------------------------- Navigation
+.slideshow nav span {
+  position: fixed;
+  z-index: 1000;
+  color: #59656c;
+  text-align: center;
+  padding: 3%;
+  cursor: pointer;
+}
+
+.slideshow nav span.nav-prev,
+.slideshow nav span.nav-next {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.slideshow nav span.nav-next {
+  right: 0;
+}
+
+.slideshow nav span.nav-close {
+  top: 0;
+  right: 0;
+  color: #31373a;
+}
+
+
+span.nav-prev:before,
+span.nav-next:before,
+span.nav-close:before {
+  transition: all 0.25s ease-in;
+  opacity: 0.5;
+}
+
+span.nav-prev:before {
+  background: url("/images/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  content: "";
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+span.nav-next:before  {
+  background: url("/images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  content: "";
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+span.nav-close:before {
+  background: url("/images/close.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  content: "";
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+span.nav-close:hover,
+span.nav-next:hover,
+span.nav-prev:hover {
+  &:before {
+    opacity: 1;
   }
-  .portfolio figure {
-    margin-bottom: 6em;
-    &.vertical {
-      display: block;
-      margin: 0 auto 6em auto;
-      width: 45%;
-      max-width: 600px;
+}
+
+/* Info on arrow key navigation */
+.info-keys {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  font-size: 8px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.info-keys:before,
+.info-keys:after {
+  position: absolute;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 14px;
+  font-size: 12px;
+}
+
+.info-keys:before {
+  left: 10px;
+  content: "\e603";
+}
+
+.info-keys:after {
+  right: 10px;
+  content: "\e604";
+}
+
+@media screen and (max-width: 60em) {
+  /* responsive columns; see "Element sizing" on http://masonry.desandro.com/options.html */
+  .slideshow li {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    &.current {
+      padding-top: 40px;
+      z-index: 1000;
     }
+  }
+
+  .slideshow li figure img {
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .slideshow nav span,
+  .slideshow nav span.nav-close {
+    font-size: 1.8em;
+    padding: 0.3em;
+  }
+
+  .info-keys {
+    display: none;
   }
 }

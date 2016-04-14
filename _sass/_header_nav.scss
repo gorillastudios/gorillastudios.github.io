@@ -1,57 +1,49 @@
 .site-header {
-  overflow: hidden;
-  a {
-    border: none;
-  }
+  @include outer-container(1200px);
+  padding: 10px;
+  transition: all 0.25s ease-in;
   .site-title {
+    border: none;
     display: block;
-    margin: 10px auto;
-    width: 75%;
-    max-width: 250px;
+    img {
+      display: block;
+      padding: 20px;
+      max-width: 100%;
+    }
   }
   nav {
     text-align: center;
     a {
-      color: #555;
+      border: none;
       display: inline-block;
-      margin: 5px;
       padding: 5px;
     }
   }
 }
 
-
-
-
-@media screen and (min-width: 800px) {
-  #sticker-sticky-wrapper {
-    @include span-columns(3);
-  }
+@media screen and (min-width: 600px) {
   .site-header {
-    padding-top: 4em;
-    text-align: left;
+    overflow: hidden;
     .site-title {
-      margin: 0 0 1em 0;
+      display: inline-block;
+      float: left;
+      max-width: 300px;
+      img {
+        padding: 20px 20px 20px 0;
+      }
     }
     nav {
-      text-align: left;
+      display: inline-block;
+      float: right;
       a {
-        display: block;
-        margin: 0;
-        padding-left: 0;
-        &:hover {
-          color: black;
-        }
+        padding: 30px 25px;
       }
     }
   }
 }
 
-
-// Sets the site header to relative position so it doesn't stick on mobile
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1000px) {
   .site-header {
-    position: inherit !important;
-    padding-bottom: 1em;
+    padding: 2em 10px;
   }
 }
