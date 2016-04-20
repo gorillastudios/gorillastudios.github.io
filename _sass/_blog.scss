@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 600px) {
   .post {
-    padding: 2em 0;
+    padding: 2em 10px;
     margin-bottom: 2em;
     .post-title {
       line-height: 0.75em;
@@ -108,6 +108,47 @@
   }
 }
 }
+
+.blog-archive-list {
+  -webkit-column-count: 2;
+  column-count: 2;
+  margin-bottom: 4em;
+  a {
+    border-bottom: 1px dotted $hairline;
+    color: $charcoal;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    span {
+      color: $grey;
+      display: block;
+      font-size: 1em;
+      line-height: 1.25em;
+      margin-bottom: 5px;
+    }
+    .date {
+      color: $red;
+    }
+    &:hover {
+      background: #f9f9f9;
+    }
+    &.next {
+
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .blog-archive-list {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    a {
+      padding: 10px;
+    }
+  }
+}
+
 
 
 // --------------------------------------- Pagination Lists
@@ -149,50 +190,10 @@
 
 @media screen and (min-width: 800px) {
   .page-navigation a {
-    @include span-columns(6);
-  }
-}
-
-
-
-.blog-archive-list {
-  -webkit-column-count: 2;
-  column-count: 2;
-  margin-bottom: 4em;
-  a {
-    border-bottom: 1px dotted $hairline;
-    color: $charcoal;
-    display: inline-block;
-    width: 100%;
-    padding: 10px 0;
-    span {
-      color: #999;
-      display: block;
-      font-family: $serif-font;
-      font-style: italic;
-      font-size: 1em;
-      line-height: 1.25em;
-      margin-bottom: 5px;
-    }
-    .date {
-      color: $red;
-    }
-    &:hover {
-      background: #f9f9f9;
-    }
+    @include span-columns(4);
     &.next {
-
+      @include shift(4);
     }
   }
 }
 
-@media screen and (min-width: 700px) {
-  .blog-archive-list {
-    -webkit-column-count: 3;
-    -webkit-column-gap: 40px;
-    column-gap: 40px;
-    a {
-      padding: 10px;
-    }
-  }
-}

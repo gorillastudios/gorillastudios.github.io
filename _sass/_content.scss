@@ -6,13 +6,40 @@
     display: block;
     margin-bottom: 1em;
     text-align: center;
+    section {
+      padding: 0 20px;
+    }
     img {
       width: 100%;
     }
   }
 }
 
-@media screen and (min-width: 600px) {
+
+.blog-post-date {
+  color: $red;
+  font-size: $font--small;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.blog-post-title {
+  border-bottom: 1px solid #f2f2f2;
+  font-family: $serif-font;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 1.05em;
+  min-height: 3.5em;
+  padding: 0.25em 0;
+}
+.blog-post-preview {
+  color: $charcoal;
+  line-height: 1.2em;
+  min-height: 2.5em;
+  margin: 2em 0;
+}
+
+@media screen and (min-width: 700px) {
   .block-list a {
     @include span-columns(3);
     @include omega(4n);
@@ -20,3 +47,56 @@
   }
 }
 
+
+
+
+.module__contact {
+  p {
+    line-height: 2em;
+  }
+  span {
+    display: none;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background: #f9f9f9;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid $hairline;
+    font-size: 1rem;
+    font-family: $base-font-family;
+    font-weight: 300;
+    line-height: 2em;
+    padding: 8px 12px;
+    width: 100%;
+  }
+  textarea {
+    display: block;
+    min-height: 8em;
+    margin-bottom: 2em;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: $small) {
+  .module__contact {
+    p {
+      font-size: 1.5em;
+      line-height: 3em;
+    }
+    span {
+      display: inline-block;
+    }
+    input[type="text"],
+    input[type="email"] {
+      font-size: 1.25rem;
+      width: auto;
+    }
+    textarea {
+      width: 80%;
+    }
+  }
+}

@@ -240,17 +240,17 @@ span.nav-prev:hover {
   border: 1px solid #fff;
   text-align: center;
   line-height: 14px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .info-keys:before {
   left: 10px;
-  content: "\e603";
+  content: "\2190";
 }
 
 .info-keys:after {
   right: 10px;
-  content: "\e604";
+  content: "\2192";
 }
 
 @media screen and (max-width: 60em) {

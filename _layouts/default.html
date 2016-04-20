@@ -1,25 +1,10 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body {% if page.id %} data-current-page="{{ page.id }}"{% endif %}>
-
-    <div class="wrap">
-      {% include header.html %}
-      <div class="site-content animated fadeIn">
-        {{ content }}
-      </div>
+    {% include header.html %}
+    <div class="site-content animated fadeIn">
+      {{ content }}
     </div>
-
-    <script>
-      $(document).ready(function(){
-        $("#sticker").sticky({
-          topSpacing:0,
-          responsiveWidth: '600px'
-        });
-      });
-    </script>
-
   </body>
 </html>

@@ -9,12 +9,11 @@
     .title {
       @include span-columns(3);
       margin-top: 0;
-      padding: 0 !important;
-      text-align: left !important;
+      padding: 0;
+      text-align: left;
     }
     .content {
       @include span-columns(9);
-      border: 1px solid red;
       p {
         margin-top: 0;
       }

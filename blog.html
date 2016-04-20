@@ -4,13 +4,23 @@ title: Blog
 permalink: /blog/
 ---
 <section class="block-list">
-{% for post in site.posts limit: 10 %}
+{% for post in site.posts limit: 7 %}
 <a class="blog-link hvr-underline-from-center" href="{{ post.url }}">
-  <!-- <img src="/images/{{ post.hero }}"> -->
   <img src="/images/previews/{{ post.hero }}">
-  <h4 class="blog-post-title">{{ post.title }} <span>{{ post.date | date: '%b %d %Y' }}</span></h4>
-  <p>{{ post.intro }}</p>
+  <section>
+    <h3 class="blog-post-date">{{ post.date | date: '%b %d %Y' }}</span></h3>
+    <h2 class="blog-post-title">{{ post.title }}</h2>
+    <p class="blog-post-preview">{{ post.intro }}</p>
+  </section>
 </a>
 {% endfor %}
+<a href="/blog-archive">
+  <img src="/images/previews/old-posts.jpg">
+  <section>
+    <h3 class="blog-post-date">Archive</h3>
+    <h2 class="blog-post-title">Older Posts</h2>
+    <p>Find older posts on the archive page.</p>
+  </section>
+</a>
 </section>
 

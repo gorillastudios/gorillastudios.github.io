@@ -4,8 +4,7 @@ title: Blog Archive
 permalink: /blog-archive/
 ---
 <div class="module__normal">
-  <div class="container">
-  <h2 class="module-label">{{ page.title }}</h2>
+  <h3 class="title">{{ page.title }}</h3>
   <div class="blog-archive-list content">
     {% for post in site.posts %}
     <a href="{{ post.url }}">{{ post.title }} <span class="description">{{ post.intro }}</span><span class="date">{{ post.date | date: "%B %-d %Y" }}</span></a>

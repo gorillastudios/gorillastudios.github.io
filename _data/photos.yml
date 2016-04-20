@@ -240,7 +240,7 @@
   image_path: catalog/seaport-panorama.jpg
   thumbnail: /images/thumbnails/seaport-panorama.jpg
   exposure: f/8, ISO100, 1/200th
-  tags: panorama, fall, new-england
+  tags: panorama, fall
 
 - title: Sunset at Tower Bridge
   image_path: london/tower-bridge-sunset.jpg
@@ -2364,12 +2364,14 @@
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A3832.jpg
   thumbnail: /images/thumbnails/0K6A3832.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4649.jpg
   thumbnail: /images/thumbnails/0K6A4649.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -2382,6 +2384,7 @@
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4704.jpg
   thumbnail: /images/thumbnails/0K6A4704.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -2397,6 +2400,7 @@
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4711.jpg
   thumbnail: /images/thumbnails/0K6A4711.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -2447,6 +2451,7 @@
 - title: Reverend Horton Heat <i>Zombie, DUMB!</i>
   image_path: bfbc/0K6A4820.jpg
   thumbnail: /images/thumbnails/0K6A4820.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
@@ -2490,6 +2495,7 @@
 - title: Reverend Horton Heat
   image_path: bfbc/0K6A4888.jpg
   thumbnail: /images/thumbnails/0K6A4888.jpg
+  orientation: vertical
   exposure: 1/500th, f/7.1, ISO200
   tags: bfbc, rhh
 
