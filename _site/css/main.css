@@ -197,7 +197,7 @@ blockquote {
 
 .blog-post-title {
   border-bottom: 1px solid #f2f2f2;
-  font-family: "Baskerville", serif;
+  font-family: "Baskerville", "baskerville-urw", serif;
   font-size: 2em;
   font-weight: normal;
   line-height: 1.05em;
