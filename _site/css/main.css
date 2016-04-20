@@ -246,6 +246,8 @@ blockquote {
   min-height: 8em;
   margin-bottom: 2em;
   width: 100%; }
+.module__contact input[type="submit"] {
+  -webkit-appearance: none; }
 
 @media screen and (min-width: 600px) {
   .module__contact p {
