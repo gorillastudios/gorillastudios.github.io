@@ -149,7 +149,7 @@ blockquote {
 
 @media screen and (min-width: 800px) {
   [class*="module__"] {
-    padding: 4em 0; }
+    padding: 4em 10px; }
     [class*="module__"] .title {
       float: left;
       display: block;
@@ -223,6 +223,12 @@ blockquote {
       margin-right: 0; }
     .block-list a:nth-child(4n+1) {
       clear: left; } }
+.module__about p {
+  font-size: 1.25em; }
+
+@media screen and (min-width: 600px) {
+  .module__about p {
+    width: 80%; } }
 .module__contact p {
   line-height: 2em; }
 .module__contact span {

@@ -48,6 +48,17 @@
 }
 
 
+.module__about {
+  p {
+    font-size: $font--large;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .module__about p {
+    width: 80%;
+  }
+}
 
 
 .module__contact {
