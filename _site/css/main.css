@@ -643,6 +643,35 @@ span.nav-prev:hover:before {
 
   .info-keys {
     display: none; } }
+.legacy-gallery {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px; }
+  .legacy-gallery::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .legacy-gallery figure {
+    margin-bottom: 4em; }
+    .legacy-gallery figure.vertical {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      .legacy-gallery figure.vertical:last-child {
+        margin-right: 0; }
+
+@media screen and (min-width: 600px) {
+  .legacy-gallery figure.vertical {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%; }
+    .legacy-gallery figure.vertical:last-child {
+      margin-right: 0; } }
 .site-header {
   max-width: 1200px;
   margin-left: auto;

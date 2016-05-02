@@ -283,3 +283,27 @@ span.nav-prev:hover {
     display: none;
   }
 }
+
+
+
+// ---------------------------------------------- Legacy Gallery
+.legacy-gallery {
+  @include outer-container(1200px);
+  padding: 0 10px;
+  figure {
+    margin-bottom: 4em;
+    &.vertical {
+      @include span-columns(8);
+      @include shift(2);
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .legacy-gallery {
+    figure.vertical {
+      @include span-columns(6);
+      @include shift(3);
+    }
+  }
+}
