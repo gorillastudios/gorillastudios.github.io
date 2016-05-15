@@ -1,17 +1,20 @@
 .site-header {
-  @include outer-container(1200px);
+  @include outer-container;
   padding: 10px;
   transition: all 0.25s ease-in;
   .site-title {
     border: none;
-    display: block;
+    @include span-columns(8);
+    @include shift(2);
+    padding: 20px 0;
     img {
       display: block;
-      padding: 20px;
-      max-width: 100%;
+      margin: 0 auto;
+      max-width: 200px;
     }
   }
   nav {
+    @include span-columns(12);
     text-align: center;
     a {
       border: none;
@@ -21,20 +24,23 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .site-header {
     overflow: hidden;
+    padding: 20px;
     .site-title {
-      display: inline-block;
-      float: left;
-      max-width: 300px;
+      @include span-columns(4);
+      @include shift(0);
+      padding: 0;
       img {
-        padding: 20px 20px 20px 0;
+        margin: 0;
+        padding-top: 25px;
+        max-width: 200px;
       }
     }
     nav {
-      display: inline-block;
-      float: right;
+      @include span-columns(8);
+      text-align: right;
       a {
         padding: 30px 25px;
       }
@@ -44,6 +50,6 @@
 
 @media screen and (min-width: 1000px) {
   .site-header {
-    padding: 2em 10px;
+    padding: 2em 20px;
   }
 }

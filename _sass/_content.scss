@@ -48,26 +48,7 @@
 }
 
 
-.module__about {
-  p {
-    font-size: $font--large;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .module__about p {
-    width: 80%;
-  }
-}
-
-
 .module__contact {
-  p {
-    line-height: 2em;
-  }
-  span {
-    display: none;
-  }
   input[type="text"],
   input[type="email"],
   textarea {
@@ -80,6 +61,7 @@
     font-family: $base-font-family;
     font-weight: 300;
     line-height: 2em;
+    margin-bottom: 1em;
     padding: 8px 12px;
     width: 100%;
   }
@@ -87,7 +69,6 @@
     display: block;
     min-height: 8em;
     margin-bottom: 2em;
-    width: 100%;
   }
   input[type="submit"] {
     -webkit-appearance: none;
@@ -97,20 +78,9 @@
 
 @media screen and (min-width: $small) {
   .module__contact {
-    p {
-      font-size: 1.5em;
-      line-height: 3em;
-    }
-    span {
-      display: inline-block;
-    }
     input[type="text"],
     input[type="email"] {
-      font-size: 1.25rem;
-      width: auto;
-    }
-    textarea {
-      width: 80%;
+      width: 50%;
     }
   }
 }

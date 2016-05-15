@@ -1,6 +1,6 @@
 // --------------------------------------- Individual Posts
 .post {
-  @include outer-container(1200px);
+  @include outer-container(1000px);
   padding: 10px;
   img { max-width: 100%; }
   .post-title {
@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 600px) {
   .post {
-    padding: 2em 10px;
+    padding: 2em 20px;
     margin-bottom: 2em;
     .post-title {
       line-height: 0.75em;
