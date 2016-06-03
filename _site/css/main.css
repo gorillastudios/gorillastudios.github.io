@@ -171,6 +171,21 @@ blockquote {
       [class*="module__"] .content h4, [class*="module__"] .content p {
         font-size: 110%;
         margin-top: 0; } }
+@media screen and (min-width: 600px) {
+  .module__about .content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .module__about .content:last-child {
+      margin-right: 0; }
+  .module__about .headshot {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .module__about .headshot:last-child {
+      margin-right: 0; } }
 .block-list {
   max-width: em(1088);
   margin-left: auto;

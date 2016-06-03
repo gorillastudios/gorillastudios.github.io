@@ -22,3 +22,15 @@
     }
   }
 }
+
+
+@media screen and (min-width: 600px) {
+  .module__about {
+    .content {
+      @include span-columns(6);
+    }
+    .headshot {
+      @include span-columns(3);
+    }
+  }
+}
