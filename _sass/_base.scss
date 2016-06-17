@@ -58,18 +58,6 @@ figcaption {
   font-size: $small-font-size;
 }
 
-// ---------------------------------------- Anchors
-@media screen and (min-width: 600px) {
-  .anchor:before {
-    content:"";
-    display:block;
-    height: 120px; /* fixed header height*/
-    margin: -120px 0 0; /* negative fixed header height */
-  }
-}
-
-
-
 // ---------------------------------------- Lists
 .list__plain {
   list-style: none;
@@ -160,7 +148,6 @@ blockquote {
 }
 
 // ----------------------------------------- Thank you
-
 #thank-you {
   background: url("/images/black-white/trump-abstract.jpg");
   background-size: cover;
@@ -175,6 +162,7 @@ blockquote {
     padding: 15% 5%;
   }
 }
+
 // ----------------------------------------- 404
 #error-page {
   background: #f2f2f2;

@@ -73,11 +73,7 @@
   input[type="submit"] {
     -webkit-appearance: none;
   }
-}
-
-
-@media screen and (min-width: $small) {
-  .module__contact {
+  @media screen and (min-width: $small) {
     input[type="text"],
     input[type="email"] {
       width: 50%;
