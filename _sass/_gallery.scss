@@ -43,6 +43,7 @@
   }
 }
 
+
 /* ------------------------------------------------ Slideshow style */
 .slideshow {
   position: fixed;
@@ -114,10 +115,9 @@
       float: right;
     }
   }
-}
-
-.slideshow li.show {
-  visibility: visible;
+  &.show {
+    visibility: visible;
+  }
 }
 
 .slideshow li:after {

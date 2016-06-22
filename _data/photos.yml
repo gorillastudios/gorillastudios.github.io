@@ -211,8 +211,8 @@
 
 - title: A stormfront rolls in over the Sears Tower
   orientation: vertical
-  image_path: chicago/sears-storm2.jpg
-  thumbnail: /images/thumbnails/sears-storm2.jpg
+  image_path: chicago/sears-storm.jpg
+  thumbnail: /images/thumbnails/sears-storm.jpg
   exposure: f/8, ISO50, 30s
   tags: chicago, architecture, sears-tower, black-and-white
 
@@ -399,7 +399,7 @@
 
 - title: Citatel Center
   image_path: union/31.jpg
-  thumbnail: /images/thumbnails/union/31.jpg
+  thumbnail: /images/thumbnails/31.jpg
   portfolio: black-white
   position: hhh
   exposure: f/8, ISO50, 60s
@@ -408,7 +408,7 @@
 
 - title: <i>Glass &amp; Steel</i>
   image_path: union/28.jpg
-  thumbnail: /images/thumbnails/union/28.jpg
+  thumbnail: /images/thumbnails/28.jpg
   portfolio: black-white
   position: eee
   exposure: f/8, ISO50, 60s
@@ -649,7 +649,7 @@
 
 - title: Chicago from above
   image_path: posts/takeoff.jpg
-  thumbnail: /images/thumbnails/takeoff-chicago.jpg
+  thumbnail: /images/thumbnails/takeoff.jpg
   exposure: 1/250th, f/8, ISO100
   tags: chicago, cityscape, sears-tower
 
@@ -695,7 +695,7 @@
 
 - title: Trump Tower
   image_path: union/30.jpg
-  thumbnail: /images/thumbnails/trump-30.jpg
+  thumbnail: /images/thumbnails/union/30.jpg
   portfolio: black-white
   position: ggg
   exposure: 1/200th, f/8, ISO100
@@ -810,14 +810,14 @@
 
 - title: Art Institute staircase
   image_path: chicago/art-institute-stairs.jpg
-  thumbnail: /images/thumbnails/artinst/1.jpg
+  thumbnail: /images/thumbnails/art-institute-stairs.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago
 
 - title: Art Institute
   orientation: vertical
   image_path: chicago/art-institute.jpg
-  thumbnail: /images/thumbnails/artinst/4.jpg
+  thumbnail: /images/thumbnails/art-institute.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: chicago
 
@@ -1115,6 +1115,7 @@
   tags: music
 
 - title: <i>Bendy Chicago</i>
+  orientation: vertical
   image_path: chicago/bendy-chicago.jpg
   thumbnail: /images/thumbnails/bendy-chicago.jpg
   exposure: 1/125th, f/8, ISO4000
@@ -1135,7 +1136,7 @@
 
 - title: Fireworks
   image_path: posts/fireworks-west.jpg
-  thumbnail: /images/thumbnails/bahamas-waves.jpg
+  thumbnail: /images/thumbnails/fireworks-west.jpg
   exposure: 1/125th, f/8, ISO4000
   tags: long-exposure, chicago, cityscape
 
@@ -2689,7 +2690,7 @@
   tags: london, street
 
 - title: Park Here
-  image_path: /catalog/CRW_7414.jpg
+  image_path: catalog/CRW_7414.jpg
   thumbnail: /images/thumbnails/CRW_7414.jpg
   orientation: vertical
   date: November 11th, 2005

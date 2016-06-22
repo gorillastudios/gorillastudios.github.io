@@ -2612,9 +2612,8 @@ blockquote {
     margin-top: 2px; }
     .slideshow li p span {
       float: right; }
-
-.slideshow li.show {
-  visibility: visible; }
+  .slideshow li.show {
+    visibility: visible; }
 
 .slideshow li:after {
   content: '';
