@@ -3,38 +3,15 @@ layout: default
 title: Reverend Horton Heat
 permalink: /rev-horton-heat/
 ---
-<div id="grid-gallery" class="grid-gallery">
-  <section class="grid-wrap">
-    <ul class="grid">
-      <li class="grid-sizer"></li><!-- for Masonry column width -->
-      {% for photo in site.data.photos %}
-        {% if photo.tags contains 'rhh' %}
-          <li><img src="{{ photo.thumbnail }}" alt="Leroy Oaks"/></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
+<ul class="grid" id="lightgallery">
+  <li></li>
+  {% for photo in site.data.photos %}
+  {% if photo.tags contains 'rhh' %}
+    <li>
+      <a href="/images/{{ photo.image_path }}">
+        <img src="{{ photo.thumbnail }}" alt="{{ photo.description }}" /></a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
 
-  <section class="slideshow">
-    <ul>
-      {% for photo in site.data.photos %}
-        {% if photo.tags contains 'rhh' %}
-          <li class="{{ photo.orientation }}"><img src="/images/{{ photo.image_path }}" alt="" ></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-    <nav>
-      <span class="icon nav-prev"></span>
-      <span class="icon nav-next"></span>
-      <span class="icon nav-close"></span>
-    </nav>
-    <div class="info-keys icon">Navigate with arrow keys</div>
-  </section><!-- // slideshow -->
-</div><!-- // grid-gallery -->
-
-
-
-
-<script>
-  new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-</script>
+{% include gallery_script.html %}

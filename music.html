@@ -3,66 +3,13 @@ layout: default
 title: Home
 permalink: /music/
 ---
-<div id="grid-gallery" class="grid-gallery">
-  <section class="grid-wrap">
-    <ul class="grid">
-      <li class="grid-sizer"></li><!-- for Masonry column width -->
+<ul class="grid" id="lightgallery">
+  <li></li>
+  {% for photo in site.data.music_gallery %}
+  <li class="{{ photo.size }}">
+  <a href="{{ photo.image }}">
+    <img src="/images/thumbnails/{{ photo.thumbnail }}" alt="{{ photo.title }}" /></a></li>
+  {% endfor %}
+</ul>
 
-      <li class="large"><img src="/images/thumbnails/0K6A4381.jpg" alt="The Krank Daddies"/></li>
-      <li><img src="/images/thumbnails/0K6A4862.jpg" alt="Reverend Horton Heat"/></li>
-      <li><img src="/images/thumbnails/0K6A4915.jpg" alt="Reverend Horton Heat"/></li>
-      <li><img src="/images/thumbnails/bass2.jpg" alt="Cadillac Cassanovas"/></li>
-      <li><img src="/images/thumbnails/0K6A4022.jpg" alt="The Voodoo Fix"/></li>
-      <li><img src="/images/thumbnails/bret-michaels.jpg" alt="The Bret Michaels Band"/></li>
-      <li><img src="/images/thumbnails/0K6A4393.jpg" alt="The Krank Daddies"/></li>
-      <li><img src="/images/thumbnails/carl.jpg" alt="Cadillac Cassanovas"/></li>
-      <li><img src="/images/thumbnails/bm/6.jpg" alt="The Bret Michaels Band"/></li>
-      <li><img src="/images/thumbnails/IMG_1302.jpg" alt="Cadillac Cassanovas"/></li>
-      <li class="large"><img src="/images/thumbnails/0K6A4708.jpg" alt="Reverend Horton Heat"/></li>
-      <li><img src="/images/thumbnails/0K6A4923.jpg" alt="Reverend Horton Heat"/></li>
-      <li><img src="/images/thumbnails/bm/8.jpg" alt="The Bret Michaels Band"/></li>
-      <li><img src="/images/thumbnails/0K6A3983.jpg" alt="The Kank Daddies"/></li>
-      <li><img src="/images/thumbnails/0K6A4855.jpg" alt="Reverend Horton Heat"/></li>
-      <li><img src="/images/thumbnails/0K6A4160.jpg" alt="The Voodoo Fix"/></li>
-      <li><img src="/images/thumbnails/0K6A4363.jpg" alt="The Krank Daddies"/></li>
-    </ul>
-  </section><!-- // grid-wrap -->
-
-
-  <section class="slideshow">
-    <ul>
-      <li><img src="/images/bfbc/0K6A4381.jpg"><p>The Krank Daddies</p></li>
-      <li><img src="/images/bfbc/0K6A4862.jpg"><p>Reverend Horton Heat</p></li>
-      <li><img src="/images/music/0K6A4915.jpg"><p>Reverend Horton Heat</p></li>
-      <li><img src="/images/music/bass2.jpg"><p>The Cadillac Cassanovas</p></li>
-      <li class="vertical"><img src="/images/music/0K6A4022.jpg"><p>The Voodoo Fix</p></li>
-      <li><img src="/images/music/bret-michaels.jpg"><p>Bret Michaels</p></li>
-      <li class="vertical"><img src="/images/music/0K6A4393.jpg"><p>The Krank Daddies</p></li>
-      <li class="vertical"><img src="/images/music/carl.jpg"><p>The Cadillac Cassanovas</p></li>
-      <li><img src="/images/bm/6.jpg"><p>The Bret Michaels Band</p></li>
-      <li class="vertical"><img src="/images/catalog/IMG_1302.jpg"><p>The Cadillac Cassanovas</p></li>
-      <li><img src="/images/music/0K6A4708.jpg"><p>Reverend Horton Heat</p></li>
-      <li class="vertical"><img src="/images/music/0K6A4923.jpg"><p>Reverend Horton Heat</p></li>
-      <li><img src="/images/bm/8.jpg"><p>Bret Michaels</p></li>
-      <li><img src="/images/bfbc/0K6A3983.jpg"><p>The Krank Daddies</p></li>
-      <li><img src="/images/music/0K6A4855.jpg"><p>Reverend Horton Heat</p></li>
-      <li><img src="/images/bfbc/0K6A4160.jpg"><p>The Voodoo Fix</p></li>
-      <li><img src="/images/bfbc/0K6A4363.jpg"><p>The Krank Daddies</p></li>
-    </ul>
-    <nav>
-      <span class="icon nav-prev"></span>
-      <span class="icon nav-next"></span>
-      <span class="icon nav-close"></span>
-    </nav>
-    <div class="info-keys icon">Navigate with arrow keys</div>
-  </section><!-- // slideshow -->
-</div><!-- // grid-gallery -->
-
-
-
-
-<script>
-  new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-</script>
-
-
+{% include gallery_script.html %}

@@ -24,6 +24,7 @@
   thumbnail: /images/thumbnails/masons-dock.jpg
   portfolio: landscape
   position: ccc
+  size: large
   exposure: f/8, ISO50, 30s
   description: A small rowboat is tied up during a serene sunset on Masons Island in Mystic, Connecticut.
   date: November 11th, 2014
@@ -1257,6 +1258,7 @@
 
 - title: Sunset on Masons Island
   image_path: catalog/0K6A3243.jpg
+  size: large
   thumbnail: /images/thumbnails/0K6A3243.jpg
   exposure: 5s, f/22, ISO50
   tags: new-england, sunset, bird, nature

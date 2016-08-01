@@ -29,9 +29,7 @@
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
-    <script src="/js/classie.js"></script>
-    <script src="/js/cbpGridGallery.js"></script>
-
+    <script src="/js/lightgallery.js"></script>
 
 
     <script>
@@ -58,86 +56,122 @@
 </header>
 
     <div class="site-content animated fadeIn">
-      <div id="grid-gallery" class="grid-gallery">
-  <section class="grid-wrap">
-    <ul class="grid">
-      <li class="grid-sizer"></li><!-- for Masonry column width -->
-
-      <li class="large"><img src="/images/thumbnails/0K6A3261.jpg" alt="Haystack Rock, Canon Beach OR"/></li>
-      <li><img src="/images/thumbnails/0K6A2822t.jpg" alt="Steel Giants" /></li>
-      <li><img src="/images/thumbnails/0K6A7702.jpg" alt="Manhattan Sunrise"/></li>
-      <li><img src="/images/thumbnails/0K6A0772.jpg" alt="Leo Carillo Beach"/></li>
-      <li><img src="/images/thumbnails/0K6A3635.jpg" alt="Multnomah Falls"/></li>
-      <li><img src="/images/thumbnails/0K6A7506.jpg" alt="Manhattan"/></li>
-      <li class="large"><img src="/images/thumbnails/CRW_7615.jpg" alt="Leroy Oaks"/></li>
-      <li><img src="/images/thumbnails/0K6A7901.jpg" alt="Freedom Tower"/></li>
-      <li><img src="/images/thumbnails/wrigley-clock.jpg" alt="The Wrigley Building"/></li>
-      <li><img src="/images/thumbnails/0K6A7925.jpg" alt="The Flatiron Building"/></li>
-      <li><img src="/images/thumbnails/dance.jpg" alt="Dance - The Bean"/></li>
-      <li><img src="/images/thumbnails/pritzker.jpg" alt="Pritzker Pavilion"/></li>
-      <li><img src="/images/thumbnails/leroy-oaks.jpg" alt="Leroy Oaks"/></li>
-      <li><img src="/images/thumbnails/inky-lake2.jpg" alt="Chicago"/></li>
-      <li class="grid-sizer"></li><!-- for Masonry column width -->
-      <li class="large"><img src="/images/thumbnails/0K6A0939.jpg" alt="A Walk in the sky - The Sears Tower"/></li>
-      <li><img src="/images/thumbnails/0K6A0789.jpg" alt="Leo Carillo Beach"/></li>
-      <li><img src="/images/thumbnails/tokyo-tower.jpg" alt="Tokyo Tower"/></li>
-      <li><img src="/images/thumbnails/shard-streaks.jpg" alt="The Shard, London"/></li>
-      <li class="large"><img src="/images/thumbnails/archways.jpg" alt="Archways"/></li>
-      <li><img src="/images/thumbnails/masons-dock.jpg" alt="Mason's Island Sunset"/></li>
-      <li><img src="/images/thumbnails/trump-abstract.jpg" alt="Trump Tower"/></li>
-      <li><img src="/images/thumbnails/london-eye-2015.jpg" alt="The London Eye"/></li>
-      <li><img src="/images/thumbnails/sears-abstract.jpg" alt="City of Broad Shoulders - The Sears Tower"/></li>
-    </ul>
-  </section>
-
-  <section class="slideshow">
-    <ul>
-      <li><img src="/images/catalog/0K6A3261.jpg"><p>Haystack Rock, Cannon Beach<span>2s, f/22, ISO50, 16mm</span></p></li>
-      <li class="vertical"><img src="/images/union-2016/0K6A2822.jpg" /><p>Steel Giants<span>1/250th, f/5, ISO100</span></li>
-      <li><img src="/images/catalog/0K6A7702.jpg"><p>Manhattan sunrise<span>48s, f/8, ISO50, 22mm</span></p></li>
-      <li><img src="/images/catalog/0K6A0772.jpg"><p>Leo Carillo Beach<span>10s, f/5.6, ISO50, 17mm</span></p></li>
-      <li class="vertical"><img src="/images/catalog/0K6A3635.jpg"><p>Multnomah Falls, Oregon<span>1.6s, f/22, ISO50</span></p></li>
-      <li><img src="/images/catalog/0K6A7506.jpg"><p>Manhattan<span>90s, f/16, ISO100, 35mm</span></p></li>
-      <li><img src="/images/catalog/CRW_7615.jpg"><p>Untitled Snowscape<span>1/2000th, f/4.5, ISO100, 50mm</span></p></li>
-      <li class="vertical"><img src="/images/catalog/0K6A7901.jpg"><p>One WTC<span>30s, f/6.3, ISO50, 16mm</span></p></li>
-      <li><img src="/images/chicago/wrigley-clock.jpg"><p>The Wrigley building</p></li>
-      <li class="vertical"><img src="/images/catalog/0K6A7925.jpg"><p>The Flatiron Building<span></span></p></li>
-      <li><img src="/images/portfolio/dance.jpg"><p><i>Dance</i></span></span></p></li>
-      <li><img src="/images/portfolio/pritzker.jpg"><p>Pritzker Pavilion<span>30s, f/8, ISO50, 19mm</span></p></li>
-      <li><img src="/images/portfolio/leroy-oaks.jpg"><p>Leroy Oaks<span></span></p></li>
-      <li><img src="/images/chicago/inky-lake2.jpg"><p>Chicago Skyline<span>30s, f/8, ISO100, 19mm</span></p></li>
-      <li><img src="/images/catalog/0K6A0939.jpg"><p><i>A walk in the sky</i><span>1/500th, f/4, ISO125, 200mm</span></p></li>
-      <li><img src="/images/catalog/0K6A0789.jpg"><p>Leo Carillo Beach<span>30s, f/4, ISO50, 19mm</span></p></li>
-      <li class="vertical"><img src="/images/catalog/tokyo-tower.jpg"><p>Tokyo Tower, Japan<span>1/250th, f/6.3, ISO200, 19mm</span></p></li>
-      <li><img src="/images/london/shard-streaks.jpg"><p>The Shard<span>30s, f/8, ISO50, 19mm</span></p></li>
-      <li><img src="/images/portfolio/archways.jpg"><p><i>Archways</i><span>30s, f/8, ISO50, 19mm</span></p></li>
-      <li><img src="/images/portfolio/masons-dock.jpg"><p>Masons Island sunset<span>3.2s, f/22, ISO50, 19mm</span></p></li>
-      <li><img src="/images/black-white/trump-abstract.jpg"><p>Trump Tower<span>1/500th, f/9, ISO100, 125mm</span></p></li>
-      <li><img src="/images/portfolio/london-eye-2015.jpg"><p>The London Eye<span>60s, f/8, ISO50, 19mm</span></p></li>
-      <li><img src="/images/black-white/sears-abstract.jpg"><p><i>City of Broad Shoulders</i><span>1/250th, f/5.6, ISO100, 50mm</span></p></li>
-    </ul>
-    <nav>
-      <span class="icon nav-prev"></span>
-      <span class="icon nav-next"></span>
-      <span class="icon nav-close"></span>
-    </nav>
-    <div class="info-keys icon">Navigate with arrow keys</div>
-  </section>
-</div>
-
+      <ul class="grid" id="lightgallery">
+  <li></li>
+  
+  <li class="large">
+  <a href="/images/catalog/0K6A3261.jpg">
+    <img src="/images/thumbnails/0K6A3261.jpg" alt="Canon Beach <span></span> 30s, f/8, ISO50, 16mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/union-2016/0K6A2822.jpg">
+    <img src="/images/thumbnails/0K6A2822t.jpg" alt="Steel Giants <span></span> 1/200th, f/5, ISO100, 16mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/0K6A7702.jpg">
+    <img src="/images/thumbnails/0K6A7702.jpg" alt="Manhattan Sunrise <span></span> 48s, f/8, ISO50, 22mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/0K6A0772.jpg">
+    <img src="/images/thumbnails/0K6A0772.jpg" alt="Leo Carillo Beach <span></span> 48s, f/8, ISO50, 22mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/0K6A3635.jpg">
+    <img src="/images/thumbnails/0K6A3635.jpg" alt="Multnomah Falls <span></span> 1.6s, f/22, ISO50, 18mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/0K6A7506.jpg">
+    <img src="/images/thumbnails/0K6A7506.jpg" alt="Manhattan <span></span> 90s, f/16, ISO100, 35mm" /></a></li>
+  
+  <li class="large">
+  <a href="/images/catalog/CRW_7615.jpg">
+    <img src="/images/thumbnails/CRW_7615.jpg" alt="Leroy Oaks <span></span> 1/2000th, f/4.5, ISO100, 50mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/0K6A7901.jpg">
+    <img src="/images/thumbnails/0K6A7901.jpg" alt="Freedom Tower <span></span> 30s, f/6.3, ISO50, 16mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/chicago/wrigley-clock.jpg">
+    <img src="/images/thumbnails/wrigley-clock.jpg" alt="Wrigley Tower Clock <span></span> 1/200th, f/5.6, ISO100, 200mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/0K6A7925.jpg">
+    <img src="/images/thumbnails/0K6A7925.jpg" alt="The Flatiron Building <span></span> 44s, f/8, ISO50, 24mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/portfolio/dance.jpg">
+    <img src="/images/thumbnails/dance.jpg" alt="<i>Dance</i> <span></span> 1/4th, f/22, ISO100, 21mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/portfolio/pritzker.jpg">
+    <img src="/images/thumbnails/pritzker.jpg" alt="Pritzker Pavilion <span></span> 30s, f/8, ISO50, 19mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/portfolio/leroy-oaks.jpg">
+    <img src="/images/thumbnails/leroy-oaks.jpg" alt="Leroy Oaks <span></span> 1/125th, f/9.5, ISO100, 19mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/chicago/inky-lake2.jpg">
+    <img src="/images/thumbnails/inky-lake2.jpg" alt="Chicago Skyline <span></span> 30s, f/8, ISO100, 19mm" /></a></li>
+  
+  <li class="large">
+  <a href="/images/catalog/0K6A0939.jpg">
+    <img src="/images/thumbnails/0K6A0939.jpg" alt="A Walk in the Sky <span></span> 1/500th, f/4, ISO125, 200mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/0K6A0789.jpg">
+    <img src="/images/thumbnails/0K6A0789.jpg" alt="Leo Carillo Beach <span></span> 30s, f/4. ISO50, 19mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/catalog/tokyo-tower.jpg">
+    <img src="/images/thumbnails/tokyo-tower.jpg" alt="Tokyo Tower <span></span> 1/250th, f/6.3, ISO200, 19mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/london/shard-streaks.jpg">
+    <img src="/images/thumbnails/shard-streaks.jpg" alt="The Shard <span></span> 30s, f/8, ISO50, 19mm" /></a></li>
+  
+  <li class="large">
+  <a href="/images/portfolio/archways.jpg">
+    <img src="/images/thumbnails/archways.jpg" alt="<i>Archways</i> <span></span> 30s, f/8, ISO50, 19mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/portfolio/masons-dock.jpg">
+    <img src="/images/thumbnails/masons-dock.jpg" alt="Mason's Island Sunset <span></span> 3.2s, f/22, ISO50, 19mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/black-white/trump-abstract.jpg">
+    <img src="/images/thumbnails/trump-abstract.jpg" alt="Trump Tower <span></span> 1/500th, f/9, ISO100, 125mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/portfolio/london-eye-2015.jpg">
+    <img src="/images/thumbnails/london-eye-2015.jpg" alt="The London Eye <span></span> 60s, f/8, ISO50, 19mm" /></a></li>
+  
+  <li class="4">
+  <a href="/images/black-white/sears-abstract.jpg">
+    <img src="/images/thumbnails/sears-abstract.jpg" alt="<i>City of Broad Shoulders</i> <span></span> 1/250th, f/5.6, ISO100, 50mm" /></a></li>
+  
+</ul>
 
 <script>
-  new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-  new CBPGridGallery( document.getElementById( 'grid-gallery-2' ) );
-</script>
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: 'li',
+      columnWidth: 0,
+      gutter: 0
+    });
+  });
 
+
+  $('#lightgallery').lightGallery({
+    selector: 'a',
+    download: false
+  });
+</script>
 
 
     </div>
   </body>
-
-  <script>
-    new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-  </script>
-
 </html>
+
+
