@@ -143,6 +143,22 @@ Here are some of my photographs presented without comment.</p>
 </div>
 
     </div>
+  <script>
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: 'li',
+      columnWidth: 0,
+      gutter: 0
+    });
+  });
+
+
+  $('#lightgallery').lightGallery({
+    selector: 'a',
+    download: false
+  });
+</script>
+
   </body>
 </html>
 

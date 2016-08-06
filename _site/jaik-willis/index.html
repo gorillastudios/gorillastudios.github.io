@@ -560,63 +560,83 @@
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3794.jpg">
-        <img src="/images/thumbnails/0K6A3794.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3794.jpg">
+      <img src="/images/thumbnails/0K6A3794.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3795.jpg">
-        <img src="/images/thumbnails/0K6A3795.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3795.jpg">
+      <img src="/images/thumbnails/0K6A3795.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3814.jpg">
-        <img src="/images/thumbnails/0K6A3814.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3814.jpg">
+      <img src="/images/thumbnails/0K6A3814.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3816.jpg">
-        <img src="/images/thumbnails/0K6A3816.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3816.jpg">
+      <img src="/images/thumbnails/0K6A3816.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3824.jpg">
-        <img src="/images/thumbnails/0K6A3824.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3824.jpg">
+      <img src="/images/thumbnails/0K6A3824.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A4131.jpg">
-        <img src="/images/thumbnails/0K6A4131.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A4131.jpg">
+      <img src="/images/thumbnails/0K6A4131.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3833.jpg">
-        <img src="/images/thumbnails/0K6A3833.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3833.jpg">
+      <img src="/images/thumbnails/0K6A3833.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3837.jpg">
-        <img src="/images/thumbnails/0K6A3837.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3837.jpg">
+      <img src="/images/thumbnails/0K6A3837.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3839.jpg">
-        <img src="/images/thumbnails/0K6A3839.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3839.jpg">
+      <img src="/images/thumbnails/0K6A3839.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3851.jpg">
-        <img src="/images/thumbnails/0K6A3851.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3851.jpg">
+      <img src="/images/thumbnails/0K6A3851.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -905,6 +925,22 @@
 
 
     </div>
+  <script>
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: 'li',
+      columnWidth: 0,
+      gutter: 0
+    });
+  });
+
+
+  $('#lightgallery').lightGallery({
+    selector: 'a',
+    download: false
+  });
+</script>
+
   </body>
 </html>
 

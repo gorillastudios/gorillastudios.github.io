@@ -7,9 +7,11 @@ permalink: /bigfoot/
   <li></li>
   {% for photo in site.data.photos %}
   {% if photo.tags contains 'bfbc' %}
-    <li>
-      <a href="/images/{{ photo.image_path }}">
-        <img src="{{ photo.thumbnail }}" alt="{{ photo.description }}" /></a></li>
+  <li>
+    <a href="/images/{{ photo.image_path }}">
+      <img src="{{ photo.thumbnail }}" alt="{{ photo.description }}" />
+    </a>
+  </li>
   {% endif %}
   {% endfor %}
 </ul>

@@ -310,9 +310,11 @@
   
   
   
-    <li>
-      <a href="/images/bm/4.jpg">
-        <img src="/images/thumbnails/bm/4.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/4.jpg">
+      <img src="/images/thumbnails/bm/4.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -328,9 +330,11 @@
   
   
   
-    <li>
-      <a href="/images/bm/7.jpg">
-        <img src="/images/thumbnails/bm/7.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/7.jpg">
+      <img src="/images/thumbnails/bm/7.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -346,83 +350,109 @@
   
   
   
-    <li>
-      <a href="/images/bm/1.jpg">
-        <img src="/images/thumbnails/bm/1.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/1.jpg">
+      <img src="/images/thumbnails/bm/1.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/10.jpg">
-        <img src="/images/thumbnails/bm/10.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/10.jpg">
+      <img src="/images/thumbnails/bm/10.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/2.jpg">
-        <img src="/images/thumbnails/bm/2.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/2.jpg">
+      <img src="/images/thumbnails/bm/2.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/12.jpg">
-        <img src="/images/thumbnails/bm/12.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/12.jpg">
+      <img src="/images/thumbnails/bm/12.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/8.jpg">
-        <img src="/images/thumbnails/bm/8.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/8.jpg">
+      <img src="/images/thumbnails/bm/8.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/14.jpg">
-        <img src="/images/thumbnails/bm/14.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/14.jpg">
+      <img src="/images/thumbnails/bm/14.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/6.jpg">
-        <img src="/images/thumbnails/bm/6.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/6.jpg">
+      <img src="/images/thumbnails/bm/6.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/3.jpg">
-        <img src="/images/thumbnails/bm/3.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/3.jpg">
+      <img src="/images/thumbnails/bm/3.jpg" alt="" />
+    </a>
+  </li>
   
   
   
   
   
-    <li>
-      <a href="/images/bm/13.jpg">
-        <img src="/images/thumbnails/bm/13.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/13.jpg">
+      <img src="/images/thumbnails/bm/13.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/5.jpg">
-        <img src="/images/thumbnails/bm/5.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/5.jpg">
+      <img src="/images/thumbnails/bm/5.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/9.jpg">
-        <img src="/images/thumbnails/bm/9.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/9.jpg">
+      <img src="/images/thumbnails/bm/9.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bm/11.jpg">
-        <img src="/images/thumbnails/bm/11.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bm/11.jpg">
+      <img src="/images/thumbnails/bm/11.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/music/bret-michaels.jpg">
-        <img src="/images/thumbnails/bret-michaels.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/music/bret-michaels.jpg">
+      <img src="/images/thumbnails/bret-michaels.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -925,6 +955,22 @@
 
 
     </div>
+  <script>
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: 'li',
+      columnWidth: 0,
+      gutter: 0
+    });
+  });
+
+
+  $('#lightgallery').lightGallery({
+    selector: 'a',
+    download: false
+  });
+</script>
+
   </body>
 </html>
 

@@ -6,8 +6,10 @@ title: Home
   <li></li>
   {% for photo in site.data.index_gallery %}
   <li class="{{ photo.size }}">
-  <a href="{{ photo.image }}">
-    <img src="/images/thumbnails/{{ photo.thumbnail }}" alt="{{ photo.title }} <span></span> {{ photo.meta }}" /></a></li>
+    <a href="{{ photo.image }}">
+      <img src="/images/thumbnails/{{ photo.thumbnail }}" alt="{{ photo.title }} <span></span> {{ photo.meta }}" />
+    </a>
+  </li>
   {% endfor %}
 </ul>
 

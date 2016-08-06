@@ -118,6 +118,22 @@ pieces for my portfolio. Check out the rest of the shots <a href='/bret-michaels
 </div>
 
     </div>
+  <script>
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: 'li',
+      columnWidth: 0,
+      gutter: 0
+    });
+  });
+
+
+  $('#lightgallery').lightGallery({
+    selector: 'a',
+    download: false
+  });
+</script>
+
   </body>
 </html>
 

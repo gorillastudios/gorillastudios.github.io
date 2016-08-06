@@ -548,9 +548,11 @@
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3865.jpg">
-        <img src="/images/thumbnails/0K6A3865.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3865.jpg">
+      <img src="/images/thumbnails/0K6A3865.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -586,81 +588,107 @@
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3857.jpg">
-        <img src="/images/thumbnails/0K6A3857.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3857.jpg">
+      <img src="/images/thumbnails/0K6A3857.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3861.jpg">
-        <img src="/images/thumbnails/0K6A3861.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3861.jpg">
+      <img src="/images/thumbnails/0K6A3861.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3873.jpg">
-        <img src="/images/thumbnails/0K6A3873.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3873.jpg">
+      <img src="/images/thumbnails/0K6A3873.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3878.jpg">
-        <img src="/images/thumbnails/0K6A3878.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3878.jpg">
+      <img src="/images/thumbnails/0K6A3878.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3886.jpg">
-        <img src="/images/thumbnails/0K6A3886.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3886.jpg">
+      <img src="/images/thumbnails/0K6A3886.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3907.jpg">
-        <img src="/images/thumbnails/0K6A3907.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3907.jpg">
+      <img src="/images/thumbnails/0K6A3907.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3887.jpg">
-        <img src="/images/thumbnails/0K6A3887.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3887.jpg">
+      <img src="/images/thumbnails/0K6A3887.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3912.jpg">
-        <img src="/images/thumbnails/0K6A3912.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3912.jpg">
+      <img src="/images/thumbnails/0K6A3912.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3921.jpg">
-        <img src="/images/thumbnails/0K6A3921.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3921.jpg">
+      <img src="/images/thumbnails/0K6A3921.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3904.jpg">
-        <img src="/images/thumbnails/0K6A3904.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3904.jpg">
+      <img src="/images/thumbnails/0K6A3904.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3928.jpg">
-        <img src="/images/thumbnails/0K6A3928.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3928.jpg">
+      <img src="/images/thumbnails/0K6A3928.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3940.jpg">
-        <img src="/images/thumbnails/0K6A3940.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3940.jpg">
+      <img src="/images/thumbnails/0K6A3940.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/bfbc/0K6A3958.jpg">
-        <img src="/images/thumbnails/0K6A3958.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/bfbc/0K6A3958.jpg">
+      <img src="/images/thumbnails/0K6A3958.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -921,6 +949,22 @@
 
 
     </div>
+  <script>
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: 'li',
+      columnWidth: 0,
+      gutter: 0
+    });
+  });
+
+
+  $('#lightgallery').lightGallery({
+    selector: 'a',
+    download: false
+  });
+</script>
+
   </body>
 </html>
 

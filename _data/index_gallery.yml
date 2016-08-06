@@ -9,14 +9,24 @@
   thumbnail: 0K6A2822t.jpg
   meta: 1/200th, f/5, ISO100, 16mm
 
-- title: Manhattan Sunrise
-  image: /images/catalog/0K6A7702.jpg
-  thumbnail: 0K6A7702.jpg
-  meta: 48s, f/8, ISO50, 22mm
+- title: Great Blue Heron portrait
+  image: /images/portfolio/heron-portrait.jpg
+  thumbnail: heron-portrait.jpg
+  meta: f/5.6, ISO100, 1/250th, 200mm
 
 - title: Leo Carillo Beach
   image: /images/catalog/0K6A0772.jpg
   thumbnail: 0K6A0772.jpg
+  meta: 48s, f/8, ISO50, 22mm
+
+- title: Adams &amp; Wabash L Platform
+  image: /images/chicago/over-the-l.jpg
+  thumbnail: over-the-l.jpg
+  meta: f/8, ISO50, 30s
+
+- title: Manhattan Sunrise
+  image: /images/catalog/0K6A7702.jpg
+  thumbnail: 0K6A7702.jpg
   meta: 48s, f/8, ISO50, 22mm
 
 - title: Multnomah Falls
@@ -29,7 +39,7 @@
   thumbnail: 0K6A7506.jpg
   meta: 90s, f/16, ISO100, 35mm
 
-- title: Leroy Oaks
+- title: Untitled Snowscape
   size: large
   image: /images/catalog/CRW_7615.jpg
   thumbnail: CRW_7615.jpg
@@ -69,6 +79,11 @@
   image: /images/chicago/inky-lake2.jpg
   thumbnail: inky-lake2.jpg
   meta: 30s, f/8, ISO100, 19mm
+
+- title: Somber Sunrise
+  image: /images/nature/somber-sunrise.jpg
+  thumbnail: somber-sunrise.jpg
+  meta: 1/4000th, f/22, ISO100, 200mm
 
 - title: A Walk in the Sky
   size: large

@@ -312,9 +312,11 @@
   
   
   
-    <li>
-      <a href="/images/music/carl.jpg">
-        <img src="/images/thumbnails/carl.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/music/carl.jpg">
+      <img src="/images/thumbnails/carl.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -324,9 +326,11 @@
   
   
   
-    <li>
-      <a href="/images/music/standing-bass2.jpg">
-        <img src="/images/thumbnails/standing-bass2.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/music/standing-bass2.jpg">
+      <img src="/images/thumbnails/standing-bass2.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -338,21 +342,27 @@
   
   
   
-    <li>
-      <a href="/images/catalog/IMG_1302.jpg">
-        <img src="/images/thumbnails/IMG_1302.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/IMG_1302.jpg">
+      <img src="/images/thumbnails/IMG_1302.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/catalog/EI2C1728.jpg">
-        <img src="/images/thumbnails/EI2C1728.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/EI2C1728.jpg">
+      <img src="/images/thumbnails/EI2C1728.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/music/bass2.jpg">
-        <img src="/images/thumbnails/bass2.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/music/bass2.jpg">
+      <img src="/images/thumbnails/bass2.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -386,9 +396,11 @@
   
   
   
-    <li>
-      <a href="/images/music/crowd.jpg">
-        <img src="/images/thumbnails/crowd.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/music/crowd.jpg">
+      <img src="/images/thumbnails/crowd.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -444,41 +456,53 @@
   
   
   
-    <li>
-      <a href="/images/catalog/IMG_1065.jpg">
-        <img src="/images/thumbnails/IMG_1065.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/IMG_1065.jpg">
+      <img src="/images/thumbnails/IMG_1065.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/catalog/IMG_1242.jpg">
-        <img src="/images/thumbnails/IMG_1242.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/IMG_1242.jpg">
+      <img src="/images/thumbnails/IMG_1242.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/catalog/IMG_1270.jpg">
-        <img src="/images/thumbnails/IMG_1270.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/IMG_1270.jpg">
+      <img src="/images/thumbnails/IMG_1270.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/catalog/EI2C1732.jpg">
-        <img src="/images/thumbnails/EI2C1732.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/EI2C1732.jpg">
+      <img src="/images/thumbnails/EI2C1732.jpg" alt="" />
+    </a>
+  </li>
   
   
   
   
   
-    <li>
-      <a href="/images/catalog/IMG_1200.jpg">
-        <img src="/images/thumbnails/IMG_1200.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/IMG_1200.jpg">
+      <img src="/images/thumbnails/IMG_1200.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/catalog/EI2C1737.jpg">
-        <img src="/images/thumbnails/EI2C1737.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/EI2C1737.jpg">
+      <img src="/images/thumbnails/EI2C1737.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -492,9 +516,11 @@
   
   
   
-    <li>
-      <a href="/images/catalog/IMG_1232.jpg">
-        <img src="/images/thumbnails/IMG_1232.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/IMG_1232.jpg">
+      <img src="/images/thumbnails/IMG_1232.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -538,15 +564,19 @@
   
   
   
-    <li>
-      <a href="/images/catalog/EI2C1714.jpg">
-        <img src="/images/thumbnails/EI2C1714.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/EI2C1714.jpg">
+      <img src="/images/thumbnails/EI2C1714.jpg" alt="" />
+    </a>
+  </li>
   
   
   
-    <li>
-      <a href="/images/catalog/EI2C1769.jpg">
-        <img src="/images/thumbnails/EI2C1769.jpg" alt="" /></a></li>
+  <li>
+    <a href="/images/catalog/EI2C1769.jpg">
+      <img src="/images/thumbnails/EI2C1769.jpg" alt="" />
+    </a>
+  </li>
   
   
   
@@ -925,6 +955,22 @@
 
 
     </div>
+  <script>
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: 'li',
+      columnWidth: 0,
+      gutter: 0
+    });
+  });
+
+
+  $('#lightgallery').lightGallery({
+    selector: 'a',
+    download: false
+  });
+</script>
+
   </body>
 </html>
 
