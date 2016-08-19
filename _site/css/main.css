@@ -2937,6 +2937,9 @@ img {
 img.circular {
   border-radius: 50%; }
 
+@media screen and (min-width: 600px) {
+  iframe {
+    min-height: 500px !important; } }
 ul {
   list-style: none;
   padding: 0;
@@ -3213,15 +3216,6 @@ blockquote {
     border-left: 2px solid #DDDDDD;
     padding: 0 2em; }
 
-.module-half-half {
-  margin-bottom: 1.5em;
-  overflow: hidden; }
-  .module-half-half h2, .module-half-half h3, .module-half-half h4, .module-half-half h5, .module-half-half p {
-    padding: 0 10px; }
-  .module-half-half section img {
-    margin-bottom: 10px;
-    max-width: 100%; }
-
 @media screen and (min-width: 600px) {
   .post {
     padding: 2em 20px;
@@ -3231,6 +3225,15 @@ blockquote {
       margin-bottom: 0.25em; }
     .post p {
       font-size: 120%; } }
+.module-half-half {
+  margin-bottom: 1.5em;
+  overflow: hidden; }
+  .module-half-half h2, .module-half-half h3, .module-half-half h4, .module-half-half h5, .module-half-half p {
+    padding: 0 10px; }
+  .module-half-half section img {
+    margin-bottom: 10px;
+    max-width: 100%; }
+
 @media screen and (min-width: 40em) {
   .module-half-half {
     margin: 0 auto 1.5em auto;
@@ -3242,6 +3245,11 @@ blockquote {
       padding-right: 5px; }
     .module-half-half section.right {
       padding-left: 5px; } }
+.shot-sheet {
+  font-size: 0.875em; }
+  .shot-sheet span {
+    font-weight: bold; }
+
 .blog-archive-list {
   -webkit-column-count: 2;
   column-count: 2;

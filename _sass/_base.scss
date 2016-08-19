@@ -37,6 +37,13 @@ img.circular {
   border-radius: 50%;
 }
 
+
+@media screen and (min-width: 600px) {
+  iframe {
+    min-height: 500px !important;
+  }
+}
+
 ul {
   list-style: none;
   padding: 0;

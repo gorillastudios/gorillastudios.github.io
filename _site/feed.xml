@@ -8,6 +8,62 @@
     <atom:link href="http://gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Star Trails Test Run</title>
+      <description>&lt;p&gt;Last week a number of people started messaging me on the 11th asking if I was going to go out that night and shoot the Perseid Meteor Shower which was forecasted to have the most activity in recent history. I hadn&#39;t planned on it but after humming and hawing for a minute I decided to get my gear together and head out - only to find a large storm front rolling in and the sky completely covered by clouds. Extremely disappointed I decided to try shooting a star trail as soon as it cleared up again. Despite it being a full moon a week later, I went back out. Let&#39;s take a look at my first attempt.&lt;/p&gt;
+&lt;p&gt;Most star trail photos aren&#39;t actually one photograph - they are a series of exposures stacked on top of each other and blended together. Before learning more about it I thought you would need specialized software or a lot of technical know-how to accomplish it, but as it turns out the process is dead simple and only requires Photoshop (there are specialty programs available as well). The benefit of it being a series of continuous exposures is that you are also treated with a nice time-lapse if you shoot for long enough.&lt;/p&gt;
+&lt;p&gt;My goal was to wind up with both a good still photograph and a short time-lapse video. Shooting with my Canon 5DMkIII + 16-35mm f/4 IS II, each exposure would be 30 seconds at f/4, ISO500 - anything longer and the stars start to blur in each frame (typically its about 20-25s, but at 16mm you have a little flexibility). Shooting for 90 minutes I would get about 7.5 seconds of video (180 exposures / 24fps = 7.5s). That would be enough for a test run to work out any bugs or something I overlooked. Ideally I was hoping to have the north star Polaris in frame so all of the stars would circle around it. In order to track it I downloaded a free iOS app called &lt;a href=&quot;https://itunes.apple.com/us/app/skyview-free-explore-universe/id413936865?mt=8&quot; target=&quot;blank&quot;&gt;Skyview Free&lt;/a&gt; which I cannot recommend enough.&lt;/p&gt;
+&lt;p&gt;Looking at the &lt;a href=&quot;http://www.lightpollutionmap.info&quot; target=&quot;blank&quot;&gt;Light Pollution Map&lt;/a&gt; I could see that I was going to have to head out into the farmlands to get dark enough skies to overcome the full moon. I chose a remote one-lane gravel road between two farms with zero traffic to set up camp. Since the corn was about 7ft high I popped the tripod on the top of my car and dialed in the exposure settings. Once everything was setup I took one exposure with the lens cap on so in post I could identify any hot pixels on the sensor, then grabbed a book and let the camera do its work.&lt;/p&gt;
+&lt;p&gt;A half hour later clouds started rolling in which meant my still frame was going to be much less dramatic than I had hoped for, but with some thunder claps in the other direction I was hoping to get something in the time-lapse, so I let it go for the full 90 minutes. Afterwards I packed up my gear and headed home.&lt;/p&gt;
+&lt;div class=&quot;shot-sheet&quot;&gt;
+  &lt;p&gt;
+  &lt;span&gt;Exposure settings&lt;/span&gt;&lt;br&gt;
+  &lt;span&gt;Canon EOS 5D MkIII&lt;/span&gt;&lt;br&gt;
+  &lt;span&gt;Canon 16-35 f/4 IS II&lt;/span&gt; - IS Off, Manual Focus&lt;br&gt;
+  &lt;span&gt;Shutter speed&lt;/span&gt; 30s - Anything longer and stars start streaking&lt;br&gt;
+  &lt;span&gt;Aperture&lt;/span&gt; f/4&lt;br&gt;
+  &lt;span&gt;ISO&lt;/span&gt; 500 - Due to the full moon this was low, typically its around 2000 or so&lt;br&gt;
+  &lt;span&gt;White Balance&lt;/span&gt; 3000K - If you set it to auto it may shift, then you have to fix it in post.&lt;br&gt;
+  &lt;span&gt;Long Exposure Noise Reduction&lt;/span&gt; Off&lt;br&gt;
+  &lt;span&gt;Image Preview&lt;/span&gt; Off&lt;br&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/image-settings.jpg&quot;&gt;
+  &lt;figcaption&gt;Importing your images and matching the settings (Bridge or Lightroom work just fine)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I opened up my first frame and made the final tweaks, then exported the settings to the entire batch* (more on this below). Once I had them all exported with the correct settings I opened up Photoshop and clicked &lt;strong&gt;File &amp;gt; Scripts &amp;gt; Load Files into Stack&lt;/strong&gt;. I found my source images, double checked that they were in the right order, and clicked OK.&lt;/p&gt;
+&lt;p&gt;It should be noted that for the stack I only selected the first 40 or so images to keep the clouds in the bottom left side of the frame before they overtook everything.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/photoshop-stacks.jpg&quot;&gt;
+  &lt;figcaption&gt;Importing your images&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This opens every file as its own layer in a single Photoshop document. Once opened, I selected all the layers and changed the &lt;strong&gt;blend mode to Lighten&lt;/strong&gt;. &lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/layers-to-lighten.jpg&quot;&gt;
+  &lt;figcaption&gt;Change the blend mode to lighten&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;While I was delighted to see the stars streaking nicely, to my horror there was a very obvious checkerboard effect over the entirety of the image. It wasn&#39;t on any single image, but as soon as I had two layers visible it appeared.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/checkerboard.jpg&quot;&gt;
+  &lt;figcaption&gt;Checkerboard bug&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;* After some investigation online the effect appears from me applying a crop and slight rotation to each layer during the export process. Each frames adjustment is not pixel perfect which is enough to cause this strange phenomenon. To avoid this do NOT crop or rotate any of the source images before stacking them. Once your image is set and merged down to one layer then you can rotate and crop as needed. Lesson learned.&lt;/p&gt;
+&lt;p&gt;As I mentioned previously my first and last exposures are with the lens cap on. This is to pickup any &#39;hot pixels&#39; on the sensor - sometimes individual pixels don&#39;t record light correctly and show up as colored spots on the exposure. These would be the same in each frame, so the lens cap shot is my baseline to remove any should they pop up. Thankfully I didn&#39;t have any issues, but it is good practice.&lt;/p&gt;
+&lt;p&gt;Overall I like how the final image turned out. I wish I would have included Polaris in the frame, but that just wasn&#39;t possible from my vantage point. Like David duChemin has said, this was merely a &#39;sketch&#39; of a final image I want to produce at some point. I learned a lot and can&#39;t wait for the next new moon in a week or so.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/star-trails-1.jpg&quot;&gt;
+  &lt;figcaption&gt;Star trails test&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Once I wrapped up work on my still frame I grabbed the entire batch of images and went to turn them into a time-lapse video. Now I have done some in the past, and I swear you could do it right in Quicktime, but I wound up using a free Mac utility called &lt;a href=&quot;http://www.panolapse360.com&quot; target=&quot;blank&quot;&gt;Panolapse&lt;/a&gt; The interface is a bit utilitarian but it got the job done. Take a look at the final product.&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/Uynzz4wZ1VE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;As you can see the clouds came and covered the entire sky, the flickering on the ground is from when they sporadically covered the moon. I learned a lot and will be much more confident when I go out during the next new moon to capture something really special. Stay tuned and happy star-gazing!&lt;/p&gt;
+</description>
+      <pubDate>Thu, 18 Aug 2016 00:00:00 -0500</pubDate>
+      <link>http://gorilla-studios.com//post/2016/08/18/star-trails.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//post/2016/08/18/star-trails.html</guid>
+    </item>
+    
+    <item>
       <title>Arca-Swiss Tripod Mount + L Bracket</title>
       <description>&lt;p&gt;During my recent trip to Portland the quick release plate on my Manfrotto ball head malfunctioned - the pin that holds the release lever open and ready for the camera to mount seized shut, meaning the latch doesn&#39;t stay open. Im pretty sure the combination of salty air and a small amount of sea water are the culprit. After a few days of hitting it with WD-40 then PB Blaster I had no luck getting the pin to move again.&lt;/p&gt;
 &lt;figure class=&quot;vertical&quot;&gt;
@@ -485,22 +541,6 @@
       <pubDate>Mon, 10 Aug 2015 00:00:00 -0500</pubDate>
       <link>http://gorilla-studios.com//blog/2015/08/10/bigfoot.html</link>
       <guid isPermaLink="true">http://gorilla-studios.com//blog/2015/08/10/bigfoot.html</guid>
-    </item>
-    
-    <item>
-      <title>Morning on the L</title>
-      <description>&lt;figure&gt;
-  &lt;img src=&quot;/images/mobile/IMG_2705.jpg&quot;&gt;
-&lt;/figure&gt;
-&lt;p&gt;This weekend I was in the city and had to take the Orange line of the L down to the South Loop and because I didn&#39;t plan on doing any shooting, my 5D was packed in my camera bag at home. While waiting at the something station in the Loop I noticed the morning light streaming down onto the tracks from between two buildings creating a nice contrast between the shade and sunlight. With a train coming down the tracks at me I got my iPhone 4 out and snapped this photo. Im always nervous shooting with the iPhone because of the shutter lag from when I hit the button but I timed it perfectly so the lead car was in the morning sun. I was frustrated that I didn&#39;t have my DSLR on me but they say the best camera is the one you have with you so I should be happy that at the very least I have a camera in my pocket at all times.&lt;/p&gt;
-&lt;p&gt;Seeing the result of this shot converted into black &amp;amp; white in Instagram left me pleasantly surprised, I like the level of contrast and sharpness. I still violently disagree with people who claim a smartphone can replace an SLR, but I believe they are good for casual shooting. Since it was about 8am on a Saturday the L was almost empty, so I headed back to the rear car to test out Instagram&#39;s Hyperlapse app. I had tried it once, but it was sitting at my desk or somewhere boring so I wasn&#39;t impressed - I wanted real world results.&lt;/p&gt;
-&lt;p&gt;Holding the phone steady on the back door of the train I shot a time lapse of the Orange line leaving the Loop heading southbound, letting the camera roll for 2 or 3 minutes. Hyperlapse compresses it down so the final shot was only about 30 seconds at 10x speed.&lt;/p&gt;
-&lt;iframe height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Qbcdf5676Uk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;I was disappointed when I remembered that Instagram limits video to 15 seconds, the entire clip is pretty cool. I&#39;m not sure if the lag in the beginning is due to the limited processing capabilities of the iPhone 4 or something along those lines, I was just irritated it wasn&#39;t as smooth as I had hoped. I was impressed enough to want to take some more time lapses in the future, so we&#39;ll see if its the phone or something I did.&lt;/p&gt;
-</description>
-      <pubDate>Sat, 27 Jun 2015 00:00:00 -0500</pubDate>
-      <link>http://gorilla-studios.com//photo/2015/06/27/morning-L.html</link>
-      <guid isPermaLink="true">http://gorilla-studios.com//photo/2015/06/27/morning-L.html</guid>
     </item>
     
   </channel>
