@@ -25,7 +25,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+    <!-- <script src="/js/jquery-1.8.2.js"></script> -->
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
@@ -46,14 +46,50 @@
 
   <body >
     <header class="site-header">
+  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <nav>
-    <a href="/" data-page-id="home">portfolio</a></li>
-    <a href="/music" data-page-id="music">music</a></li>
-    <a href="/blog" data-page-id="blog">blog</a></li>
-    <a href="/about" data-page-id="about">about</a></li>
-  </nav>
 </header>
+
+<div class="menu">
+  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
+  <div class="main-menu">
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    <p>Portfolios</p>
+    <a class="portfolio-link" href="/music">Music</a>
+    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
+    <a class="portfolio-link" href="/astronomy">Astronomy</a>
+    <a class="portfolio-link" href="/chicago">Chicago</a>
+    <a class="portfolio-link" href="/nature">Nature</a>
+    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
+    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
+    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
+  </div>
+  <div class="sub-menu">
+  </div>
+</div>
+
+
+<script>
+  $('#menu-toggle').click(function()
+  {
+    if ($('.menu').hasClass('opened')) {
+      $('.menu').removeClass('opened').addClass('closed');
+      return false;
+    }
+    if ($('.menu').hasClass('closed')) {
+      $('.menu').removeClass('closed').addClass('opened');
+      return false;
+    }
+    else ($('.menu').addClass('opened'))
+  });
+
+  $('#menu-close').click(function() {
+    $('.menu').removeClass('opened').addClass('closed');
+  });
+</script>
+
 
     <div class="site-content animated fadeIn">
       <ul class="grid" id="lightgallery">
@@ -741,7 +777,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3832.jpg">
+    <a href="/images/bfbc/0K6A3832.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3832.jpg" alt="" />
     </a>
   </li>
@@ -749,7 +785,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4649.jpg">
+    <a href="/images/bfbc/0K6A4649.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4649.jpg" alt="" />
     </a>
   </li>
@@ -757,7 +793,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4686.jpg">
+    <a href="/images/bfbc/0K6A4686.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4686.jpg" alt="" />
     </a>
   </li>
@@ -765,7 +801,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4704.jpg">
+    <a href="/images/bfbc/0K6A4704.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4704.jpg" alt="" />
     </a>
   </li>
@@ -773,7 +809,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4708.jpg">
+    <a href="/images/bfbc/0K6A4708.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4708.jpg" alt="The Reverend Horton Heat performs at the Bigfoot Bandcamp Festival, August 8th, 2015" />
     </a>
   </li>
@@ -781,7 +817,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4711.jpg">
+    <a href="/images/bfbc/0K6A4711.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4711.jpg" alt="" />
     </a>
   </li>
@@ -789,7 +825,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4727.jpg">
+    <a href="/images/bfbc/0K6A4727.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4727.jpg" alt="" />
     </a>
   </li>
@@ -797,7 +833,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4734.jpg">
+    <a href="/images/bfbc/0K6A4734.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4734.jpg" alt="" />
     </a>
   </li>
@@ -805,7 +841,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4737.jpg">
+    <a href="/images/bfbc/0K6A4737.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4737.jpg" alt="" />
     </a>
   </li>
@@ -813,7 +849,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4754.jpg">
+    <a href="/images/bfbc/0K6A4754.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4754.jpg" alt="" />
     </a>
   </li>
@@ -821,7 +857,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4771.jpg">
+    <a href="/images/bfbc/0K6A4771.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4771.jpg" alt="" />
     </a>
   </li>
@@ -829,7 +865,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4780.jpg">
+    <a href="/images/bfbc/0K6A4780.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4780.jpg" alt="" />
     </a>
   </li>
@@ -837,7 +873,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4797.jpg">
+    <a href="/images/bfbc/0K6A4797.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4797.jpg" alt="" />
     </a>
   </li>
@@ -845,7 +881,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4820.jpg">
+    <a href="/images/bfbc/0K6A4820.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4820.jpg" alt="" />
     </a>
   </li>
@@ -853,7 +889,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4824.jpg">
+    <a href="/images/bfbc/0K6A4824.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4824.jpg" alt="" />
     </a>
   </li>
@@ -861,7 +897,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4853.jpg">
+    <a href="/images/bfbc/0K6A4853.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4853.jpg" alt="" />
     </a>
   </li>
@@ -869,7 +905,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4855.jpg">
+    <a href="/images/bfbc/0K6A4855.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4855.jpg" alt="" />
     </a>
   </li>
@@ -877,7 +913,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4862.jpg">
+    <a href="/images/bfbc/0K6A4862.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4862.jpg" alt="" />
     </a>
   </li>
@@ -885,7 +921,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4872.jpg">
+    <a href="/images/bfbc/0K6A4872.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4872.jpg" alt="" />
     </a>
   </li>
@@ -893,7 +929,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4883.jpg">
+    <a href="/images/bfbc/0K6A4883.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4883.jpg" alt="" />
     </a>
   </li>
@@ -901,7 +937,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4888.jpg">
+    <a href="/images/bfbc/0K6A4888.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4888.jpg" alt="" />
     </a>
   </li>
@@ -909,7 +945,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4896.jpg">
+    <a href="/images/bfbc/0K6A4896.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4896.jpg" alt="" />
     </a>
   </li>
@@ -917,7 +953,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4903.jpg">
+    <a href="/images/bfbc/0K6A4903.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4903.jpg" alt="" />
     </a>
   </li>
@@ -925,7 +961,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4915.jpg">
+    <a href="/images/bfbc/0K6A4915.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4915.jpg" alt="" />
     </a>
   </li>
@@ -933,7 +969,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4923.jpg">
+    <a href="/images/bfbc/0K6A4923.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4923.jpg" alt="Jimbo of the Reverent Horton Heat throws up the horns" />
     </a>
   </li>
@@ -941,7 +977,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4934.jpg">
+    <a href="/images/bfbc/0K6A4934.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4934.jpg" alt="" />
     </a>
   </li>
@@ -949,7 +985,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4932.jpg">
+    <a href="/images/bfbc/0K6A4932.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4932.jpg" alt="" />
     </a>
   </li>
@@ -957,7 +993,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4963.jpg">
+    <a href="/images/bfbc/0K6A4963.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4963.jpg" alt="" />
     </a>
   </li>
@@ -965,7 +1001,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4974.jpg">
+    <a href="/images/bfbc/0K6A4974.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4974.jpg" alt="" />
     </a>
   </li>
@@ -1032,7 +1068,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>
@@ -1050,7 +1086,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>

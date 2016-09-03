@@ -1,55 +1,114 @@
 .site-header {
   @include outer-container;
-  padding: 10px;
+  padding: 20px;
   transition: all 0.25s ease-in;
   .site-title {
     border: none;
-    @include span-columns(8);
-    @include shift(2);
-    padding: 20px 0;
+    @include span-columns(6);
+    padding-top: 5px;
     img {
       display: block;
       margin: 0 auto;
       max-width: 200px;
     }
   }
-  nav {
-    @include span-columns(12);
-    text-align: center;
-    a {
-      border: none;
-      display: inline-block;
-      padding: 5px;
+  #menu-toggle {
+    @include  span-columns(4);
+    border: none;
+    padding: 10px 0;
+    img {
+      margin: -1px 8px 0 0;
+      width: 18px;
+    }
+    &:hover {
+      cursor: pointer;
     }
   }
-}
-
-@media screen and (min-width: 650px) {
-  .site-header {
-    overflow: hidden;
-    padding: 20px;
+  @include media-query(650px) {
     .site-title {
-      @include span-columns(4);
-      @include shift(0);
-      padding: 0;
+      @include span-columns(2);
+      @include shift(3);
+      padding: 5px 0 0 0;
       img {
         margin: 0;
-        padding-top: 25px;
         max-width: 200px;
       }
     }
-    nav {
-      @include span-columns(8);
-      text-align: right;
-      a {
-        padding: 30px 25px;
-      }
+    #menu-toggle {
+      @include span-columns(2);
+      transition: all 0.35s ease-in;
     }
+  }
+  @include media-query(1000px) {
+    padding: 2em 20px;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .site-header {
-    padding: 2em 20px;
+
+
+// --------------------------------------- Slide Out Drawer
+.menu {
+  background: white;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  padding: 40px 20px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-100%);
+  transition: all 0.35s ease-in;
+  z-index: 10;
+  box-shadow: -3px 0px 8px 2px #808080;
+  &.opened {
+    animation: menuIn 0.35s forwards;
+  }
+  &.closed {
+    animation: menuOut 0.35s forwards;
+  }
+  a {
+    border-bottom: 1px solid $hairline;
+    display: block;
+    padding: 8px 3em 8px 10px;
+    transition: all 0.15s ease-in;
+    &.portfolio-link {
+      font-size: 0.9rem;
+      padding: 8px 3em 8px 15px;
+    }
+    &.social {
+      border: none;
+      display: inline-block;
+      padding: 1em 1em 0.5em 1em;
+      img {
+        height: 25px;
+        width: 25px;
+      }
+    }
+    &:hover {
+      box-shadow: inset 0px -3px 0px 0px $green;
+    }
+  }
+  p {
+    padding: 8px 3em 8px 10px;
+    border-bottom: 1px solid darken($hairline, 20%);
+    margin: 0;
+  }
+  .main-menu {
+    float: left;
+  }
+  #menu-close {
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    img {
+      width: 20px;
+    }
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  @include media-query($medium) {
+    padding: 4em;
   }
 }

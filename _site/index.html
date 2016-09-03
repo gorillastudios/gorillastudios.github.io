@@ -25,7 +25,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+    <!-- <script src="/js/jquery-1.8.2.js"></script> -->
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
@@ -46,175 +46,235 @@
 
   <body >
     <header class="site-header">
+  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <nav>
-    <a href="/" data-page-id="home">portfolio</a></li>
-    <a href="/music" data-page-id="music">music</a></li>
-    <a href="/blog" data-page-id="blog">blog</a></li>
-    <a href="/about" data-page-id="about">about</a></li>
-  </nav>
 </header>
+
+<div class="menu">
+  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
+  <div class="main-menu">
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    <p>Portfolios</p>
+    <a class="portfolio-link" href="/music">Music</a>
+    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
+    <a class="portfolio-link" href="/astronomy">Astronomy</a>
+    <a class="portfolio-link" href="/chicago">Chicago</a>
+    <a class="portfolio-link" href="/nature">Nature</a>
+    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
+    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
+    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
+  </div>
+  <div class="sub-menu">
+  </div>
+</div>
+
+
+<script>
+  $('#menu-toggle').click(function()
+  {
+    if ($('.menu').hasClass('opened')) {
+      $('.menu').removeClass('opened').addClass('closed');
+      return false;
+    }
+    if ($('.menu').hasClass('closed')) {
+      $('.menu').removeClass('closed').addClass('opened');
+      return false;
+    }
+    else ($('.menu').addClass('opened'))
+  });
+
+  $('#menu-close').click(function() {
+    $('.menu').removeClass('opened').addClass('closed');
+  });
+</script>
+
 
     <div class="site-content animated fadeIn">
       <ul class="grid" id="lightgallery">
   <li></li>
-  
+
   <li class="large">
-    <a href="/images/catalog/0K6A3261.jpg">
-      <img src="/images/thumbnails/0K6A3261.jpg" alt="Canon Beach <span></span> 30s, f/8, ISO50, 16mm" />
+    <a href="/images/catalog/0K6A3261.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A3261.jpg"
+      alt="Canon Beach<span></span> 30s, f/8, ISO50, 16mm">
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/union-2016/0K6A2822.jpg">
-      <img src="/images/thumbnails/0K6A2822t.jpg" alt="Steel Giants <span></span> 1/200th, f/5, ISO100, 16mm" />
+  <li>
+    <a href="/images/union-2016/0K6A2822.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A2822t.jpg"
+      alt="Steel Giants<span></span> 1/200th, f/5, ISO100, 16mm">
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/portfolio/heron-portrait.jpg">
-      <img src="/images/thumbnails/heron-portrait.jpg" alt="Great Blue Heron portrait <span></span> f/5.6, ISO100, 1/250th, 200mm" />
+
+  <li>
+    <a href="/images/catalog/star-trails-2s.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/star-trails-2s.jpg"
+      alt="Star Trails 2<span></span> 30s, f/4, ISO1000, 16mm">
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/0K6A0772.jpg">
-      <img src="/images/thumbnails/0K6A0772.jpg" alt="Leo Carillo Beach <span></span> 48s, f/8, ISO50, 22mm" />
+
+  <li>
+    <a href="/images/catalog/0K6A0772.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A0772.jpg"
+      alt="Leo Carillo Beach<span></span> 48s, f/8, ISO50, 22mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/chicago/over-the-l.jpg">
-      <img src="/images/thumbnails/over-the-l.jpg" alt="Adams &amp; Wabash L Platform <span></span> f/8, ISO50, 30s" />
+  <li>
+    <a href="/images/chicago/over-the-l.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/over-the-l.jpg"
+      alt="Adams &amp; Wabash L Platform<span></span> 30s, f/8, ISO50, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/0K6A7702.jpg">
-      <img src="/images/thumbnails/0K6A7702.jpg" alt="Manhattan Sunrise <span></span> 48s, f/8, ISO50, 22mm" />
+
+  <li>
+    <a href="/images/catalog/0K6A7702.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A7702.jpg"
+      alt="Manhattan Sunrise<span></span> 48s, f/8, ISO50, 22mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/0K6A3635.jpg">
-      <img src="/images/thumbnails/0K6A3635.jpg" alt="Multnomah Falls <span></span> 1.6s, f/22, ISO50, 18mm" />
+
+  <li>
+    <a href="/images/catalog/0K6A3635.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A3635.jpg"
+      alt="Multnomah Falls<span></span> 1.6s, f/22, ISO50, 18mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/0K6A7506.jpg">
-      <img src="/images/thumbnails/0K6A7506.jpg" alt="Manhattan <span></span> 90s, f/16, ISO100, 35mm" />
+
+  <li>
+    <a href="/images/catalog/0K6A7506.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A7506.jpg"
+      alt="Manhattan<span></span> 90s, f/16, ISO100, 35mm" >
     </a>
   </li>
-  
+
+  <li>
+    <a href="/images/catalog/CRW_7615.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/CRW_7615.jpg"
+      alt="Untitled Snowscape<span></span> 1/2000th, f/4.5, ISO100, 50mm" >
+    </a>
+  </li>
+
+  <li>
+    <a href="/images/catalog/0K6A7901.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A7901.jpg"
+      alt="Freedom Tower<span></span>30s, f/6.3, ISO50, 16mm" >
+    </a>
+  </li>
+
+  <li>
+    <a href="/images/chicago/wrigley-clock.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/wrigley-clock.jpg"
+      alt="Wrigley Tower Clock<span></span> 1/200th, f/5.6, ISO100, 200mm" >
+    </a>
+  </li>
+
+  <li>
+    <a href="/images/catalog/0K6A7925.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A7925.jpg"
+      alt="The Flatiron Building<span></span> 44s, f/8, ISO50, 24mm" >
+    </a>
+  </li>
+
+  <li>
+    <a href="/images/portfolio/dance.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/dance.jpg"
+      alt="<i>Dance</i><span></span>1/4th, f/22, ISO100, 21mm" >
+    </a>
+  </li>
+
+  <li>
+    <a href="/images/portfolio/pritzker.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/pritzker.jpg"
+      alt="Pritzker Pavilion<span></span> 30s, f/8, ISO50, 19mm" >
+    </a>
+  </li>
+
   <li class="large">
-    <a href="/images/catalog/CRW_7615.jpg">
-      <img src="/images/thumbnails/CRW_7615.jpg" alt="Untitled Snowscape <span></span> 1/2000th, f/4.5, ISO100, 50mm" />
+    <a href="/images/portfolio/leroy-oaks.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/leroy-oaks.jpg"
+      alt="Leroy Oaks<span></span> 1/125th, f/9.5, ISO100, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/0K6A7901.jpg">
-      <img src="/images/thumbnails/0K6A7901.jpg" alt="Freedom Tower <span></span> 30s, f/6.3, ISO50, 16mm" />
+
+  <li>
+    <a href="/images/catalog/IMG_2170.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/IMG_2170.jpg"
+      alt="Chicago Skyline<span></span> 30s, f/8, ISO100, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/chicago/wrigley-clock.jpg">
-      <img src="/images/thumbnails/wrigley-clock.jpg" alt="Wrigley Tower Clock <span></span> 1/200th, f/5.6, ISO100, 200mm" />
+
+  <li>
+    <a href="/images/nature/CRW_9185.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/CRW_9185.jpg"
+      alt="Somber Sunrise<span></span> 1/4000th, f/22, ISO100, 200mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/0K6A7925.jpg">
-      <img src="/images/thumbnails/0K6A7925.jpg" alt="The Flatiron Building <span></span> 44s, f/8, ISO50, 24mm" />
-    </a>
-  </li>
-  
-  <li class="4">
-    <a href="/images/portfolio/dance.jpg">
-      <img src="/images/thumbnails/dance.jpg" alt="<i>Dance</i> <span></span> 1/4th, f/22, ISO100, 21mm" />
-    </a>
-  </li>
-  
-  <li class="4">
-    <a href="/images/portfolio/pritzker.jpg">
-      <img src="/images/thumbnails/pritzker.jpg" alt="Pritzker Pavilion <span></span> 30s, f/8, ISO50, 19mm" />
-    </a>
-  </li>
-  
-  <li class="4">
-    <a href="/images/portfolio/leroy-oaks.jpg">
-      <img src="/images/thumbnails/leroy-oaks.jpg" alt="Leroy Oaks <span></span> 1/125th, f/9.5, ISO100, 19mm" />
-    </a>
-  </li>
-  
-  <li class="4">
-    <a href="/images/chicago/inky-lake2.jpg">
-      <img src="/images/thumbnails/inky-lake2.jpg" alt="Chicago Skyline <span></span> 30s, f/8, ISO100, 19mm" />
-    </a>
-  </li>
-  
-  <li class="4">
-    <a href="/images/nature/somber-sunrise.jpg">
-      <img src="/images/thumbnails/somber-sunrise.jpg" alt="Somber Sunrise <span></span> 1/4000th, f/22, ISO100, 200mm" />
-    </a>
-  </li>
-  
+
   <li class="large">
-    <a href="/images/catalog/0K6A0939.jpg">
-      <img src="/images/thumbnails/0K6A0939.jpg" alt="A Walk in the Sky <span></span> 1/500th, f/4, ISO125, 200mm" />
+    <a href="/images/catalog/0K6A0939.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A0939.jpg"
+      alt="A Walk in the Sky<span></span> 1/500th, f/4, ISO125, 200mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/0K6A0789.jpg">
-      <img src="/images/thumbnails/0K6A0789.jpg" alt="Leo Carillo Beach <span></span> 30s, f/4. ISO50, 19mm" />
+
+  <li>
+    <a href="/images/catalog/0K6A0789.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A0789.jpg"
+      alt="Leo Carillo Beach<span></span> 30s, f/4, ISO50, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/catalog/tokyo-tower.jpg">
-      <img src="/images/thumbnails/tokyo-tower.jpg" alt="Tokyo Tower <span></span> 1/250th, f/6.3, ISO200, 19mm" />
+
+  <li>
+    <a href="/images/catalog/tokyo-tower.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/tokyo-tower.jpg"
+      alt="Tokyo Tower<span></span> 1/250th, f/6.3, ISO200, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/london/shard-streaks.jpg">
-      <img src="/images/thumbnails/shard-streaks.jpg" alt="The Shard <span></span> 30s, f/8, ISO50, 19mm" />
+
+  <li>
+    <a href="/images/london/shard-streaks.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/shard-streaks.jpg"
+      alt="The Shard<span></span> 30s, f/8, ISO50, 19mm" >
     </a>
   </li>
-  
+
   <li class="large">
-    <a href="/images/portfolio/archways.jpg">
-      <img src="/images/thumbnails/archways.jpg" alt="<i>Archways</i> <span></span> 30s, f/8, ISO50, 19mm" />
+    <a href="/images/portfolio/archways.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/archways.jpg"
+      alt="<i>Archways</i><span></span> 30s, f/8, ISO50, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/portfolio/masons-dock.jpg">
-      <img src="/images/thumbnails/masons-dock.jpg" alt="Mason's Island Sunset <span></span> 3.2s, f/22, ISO50, 19mm" />
+
+  <li>
+    <a href="/images/portfolio/masons-dock.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/masons-dock.jpg"
+      alt="Mason's Island Sunset<span></span> 3.2s, f/22, ISO50, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/black-white/trump-abstract.jpg">
-      <img src="/images/thumbnails/trump-abstract.jpg" alt="Trump Tower <span></span> 1/500th, f/9, ISO100, 125mm" />
+
+  <li>
+    <a href="/images/black-white/trump-abstract.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/trump-abstract.jpg"
+      alt="Trump Tower<span></span> 1/500th, f/9, ISO100, 125mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/portfolio/london-eye-2015.jpg">
-      <img src="/images/thumbnails/london-eye-2015.jpg" alt="The London Eye <span></span> 60s, f/8, ISO50, 19mm" />
+
+  <li>
+    <a href="/images/portfolio/london-eye-2015.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/london-eye-2015.jpg"
+      alt="The London Eye<span></span> 60s, f/8, ISO50, 19mm" >
     </a>
   </li>
-  
-  <li class="4">
-    <a href="/images/black-white/sears-abstract.jpg">
-      <img src="/images/thumbnails/sears-abstract.jpg" alt="<i>City of Broad Shoulders</i> <span></span> 1/250th, f/5.6, ISO100, 50mm" />
+
+  <li>
+    <a href="/images/black-white/sears-abstract.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/sears-abstract.jpg"
+      alt="<i>City of Broad Shoulders</i><span></span> 1/250th, f/5.6, ISO100, 50mm" >
     </a>
   </li>
-  
+
 </ul>
 
 <script>
@@ -228,7 +288,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>
@@ -246,7 +306,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>

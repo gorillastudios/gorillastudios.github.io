@@ -34,3 +34,17 @@
     }
   }
 }
+
+.triptych {
+  @include outer-container;
+  padding: 10px;
+  img {
+    margin-bottom: 4em;
+  }
+  @include media-query($medium) {
+    padding: 0;
+    img {
+      @include span-columns(4);
+    }
+  }
+}

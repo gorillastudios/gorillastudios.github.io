@@ -25,7 +25,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+    <!-- <script src="/js/jquery-1.8.2.js"></script> -->
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
@@ -46,14 +46,50 @@
 
   <body >
     <header class="site-header">
+  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <nav>
-    <a href="/" data-page-id="home">portfolio</a></li>
-    <a href="/music" data-page-id="music">music</a></li>
-    <a href="/blog" data-page-id="blog">blog</a></li>
-    <a href="/about" data-page-id="about">about</a></li>
-  </nav>
 </header>
+
+<div class="menu">
+  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
+  <div class="main-menu">
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    <p>Portfolios</p>
+    <a class="portfolio-link" href="/music">Music</a>
+    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
+    <a class="portfolio-link" href="/astronomy">Astronomy</a>
+    <a class="portfolio-link" href="/chicago">Chicago</a>
+    <a class="portfolio-link" href="/nature">Nature</a>
+    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
+    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
+    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
+  </div>
+  <div class="sub-menu">
+  </div>
+</div>
+
+
+<script>
+  $('#menu-toggle').click(function()
+  {
+    if ($('.menu').hasClass('opened')) {
+      $('.menu').removeClass('opened').addClass('closed');
+      return false;
+    }
+    if ($('.menu').hasClass('closed')) {
+      $('.menu').removeClass('closed').addClass('opened');
+      return false;
+    }
+    else ($('.menu').addClass('opened'))
+  });
+
+  $('#menu-close').click(function() {
+    $('.menu').removeClass('opened').addClass('closed');
+  });
+</script>
+
 
     <div class="site-content animated fadeIn">
       <ul class="grid" id="lightgallery">
@@ -551,7 +587,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3983.jpg">
+    <a href="/images/bfbc/0K6A3983.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3983.jpg" alt="" />
     </a>
   </li>
@@ -685,7 +721,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4261.jpg">
+    <a href="/images/bfbc/0K6A4261.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4261.jpg" alt="Chops McClintok of The Krank Daddies Gibson Les Paul" />
     </a>
   </li>
@@ -693,7 +729,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4279.jpg">
+    <a href="/images/bfbc/0K6A4279.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4279.jpg" alt="" />
     </a>
   </li>
@@ -701,7 +737,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4282.jpg">
+    <a href="/images/bfbc/0K6A4282.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4282.jpg" alt="" />
     </a>
   </li>
@@ -709,7 +745,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4293.jpg">
+    <a href="/images/bfbc/0K6A4293.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4293.jpg" alt="" />
     </a>
   </li>
@@ -717,7 +753,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4298.jpg">
+    <a href="/images/bfbc/0K6A4298.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4298.jpg" alt="" />
     </a>
   </li>
@@ -725,7 +761,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4357.jpg">
+    <a href="/images/bfbc/0K6A4357.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4357.jpg" alt="" />
     </a>
   </li>
@@ -733,7 +769,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4302.jpg">
+    <a href="/images/bfbc/0K6A4302.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4302.jpg" alt="" />
     </a>
   </li>
@@ -741,7 +777,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4306.jpg">
+    <a href="/images/bfbc/0K6A4306.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4306.jpg" alt="" />
     </a>
   </li>
@@ -749,7 +785,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4311.jpg">
+    <a href="/images/bfbc/0K6A4311.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4311.jpg" alt="" />
     </a>
   </li>
@@ -757,7 +793,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4326.jpg">
+    <a href="/images/bfbc/0K6A4326.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4326.jpg" alt="" />
     </a>
   </li>
@@ -765,7 +801,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4350.jpg">
+    <a href="/images/bfbc/0K6A4350.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4350.jpg" alt="" />
     </a>
   </li>
@@ -773,7 +809,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4362.jpg">
+    <a href="/images/bfbc/0K6A4362.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4362.jpg" alt="" />
     </a>
   </li>
@@ -781,7 +817,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4363.jpg">
+    <a href="/images/bfbc/0K6A4363.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4363.jpg" alt="" />
     </a>
   </li>
@@ -789,7 +825,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4393.jpg">
+    <a href="/images/bfbc/0K6A4393.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4393.jpg" alt="Chops McClintok of The Krank Daddies takes a quick drink during their set" />
     </a>
   </li>
@@ -797,7 +833,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4287.jpg">
+    <a href="/images/bfbc/0K6A4287.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4287.jpg" alt="" />
     </a>
   </li>
@@ -805,7 +841,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4322.jpg">
+    <a href="/images/bfbc/0K6A4322.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4322.jpg" alt="" />
     </a>
   </li>
@@ -813,7 +849,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4407.jpg">
+    <a href="/images/bfbc/0K6A4407.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4407.jpg" alt="" />
     </a>
   </li>
@@ -821,7 +857,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4428.jpg">
+    <a href="/images/bfbc/0K6A4428.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4428.jpg" alt="" />
     </a>
   </li>
@@ -829,7 +865,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4443.jpg">
+    <a href="/images/bfbc/0K6A4443.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4443.jpg" alt="" />
     </a>
   </li>
@@ -837,7 +873,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4454.jpg">
+    <a href="/images/bfbc/0K6A4454.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4454.jpg" alt="" />
     </a>
   </li>
@@ -845,7 +881,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4381.jpg">
+    <a href="/images/bfbc/0K6A4381.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4381.jpg" alt="" />
     </a>
   </li>
@@ -853,7 +889,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4479.jpg">
+    <a href="/images/bfbc/0K6A4479.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4479.jpg" alt="" />
     </a>
   </li>
@@ -861,7 +897,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4482.jpg">
+    <a href="/images/bfbc/0K6A4482.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4482.jpg" alt="" />
     </a>
   </li>
@@ -869,7 +905,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4422.jpg">
+    <a href="/images/bfbc/0K6A4422.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4422.jpg" alt="" />
     </a>
   </li>
@@ -877,7 +913,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4500.jpg">
+    <a href="/images/bfbc/0K6A4500.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4500.jpg" alt="" />
     </a>
   </li>
@@ -885,7 +921,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4513.jpg">
+    <a href="/images/bfbc/0K6A4513.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4513.jpg" alt="" />
     </a>
   </li>
@@ -893,7 +929,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4506.jpg">
+    <a href="/images/bfbc/0K6A4506.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4506.jpg" alt="" />
     </a>
   </li>
@@ -901,7 +937,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4537.jpg">
+    <a href="/images/bfbc/0K6A4537.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4537.jpg" alt="" />
     </a>
   </li>
@@ -909,7 +945,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4551.jpg">
+    <a href="/images/bfbc/0K6A4551.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4551.jpg" alt="" />
     </a>
   </li>
@@ -1038,7 +1074,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>
@@ -1056,7 +1092,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>

@@ -25,7 +25,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+    <!-- <script src="/js/jquery-1.8.2.js"></script> -->
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
@@ -46,14 +46,50 @@
 
   <body >
     <header class="site-header">
+  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <nav>
-    <a href="/" data-page-id="home">portfolio</a></li>
-    <a href="/music" data-page-id="music">music</a></li>
-    <a href="/blog" data-page-id="blog">blog</a></li>
-    <a href="/about" data-page-id="about">about</a></li>
-  </nav>
 </header>
+
+<div class="menu">
+  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
+  <div class="main-menu">
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    <p>Portfolios</p>
+    <a class="portfolio-link" href="/music">Music</a>
+    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
+    <a class="portfolio-link" href="/astronomy">Astronomy</a>
+    <a class="portfolio-link" href="/chicago">Chicago</a>
+    <a class="portfolio-link" href="/nature">Nature</a>
+    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
+    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
+    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
+  </div>
+  <div class="sub-menu">
+  </div>
+</div>
+
+
+<script>
+  $('#menu-toggle').click(function()
+  {
+    if ($('.menu').hasClass('opened')) {
+      $('.menu').removeClass('opened').addClass('closed');
+      return false;
+    }
+    if ($('.menu').hasClass('closed')) {
+      $('.menu').removeClass('closed').addClass('opened');
+      return false;
+    }
+    else ($('.menu').addClass('opened'))
+  });
+
+  $('#menu-close').click(function() {
+    $('.menu').removeClass('opened').addClass('closed');
+  });
+</script>
+
 
     <div class="site-content animated fadeIn">
       <ul class="grid" id="lightgallery">
@@ -549,7 +585,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3865.jpg">
+    <a href="/images/bfbc/0K6A3865.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3865.jpg" alt="" />
     </a>
   </li>
@@ -589,7 +625,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3857.jpg">
+    <a href="/images/bfbc/0K6A3857.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3857.jpg" alt="" />
     </a>
   </li>
@@ -597,7 +633,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3861.jpg">
+    <a href="/images/bfbc/0K6A3861.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3861.jpg" alt="" />
     </a>
   </li>
@@ -605,7 +641,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3873.jpg">
+    <a href="/images/bfbc/0K6A3873.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3873.jpg" alt="" />
     </a>
   </li>
@@ -613,7 +649,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3878.jpg">
+    <a href="/images/bfbc/0K6A3878.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3878.jpg" alt="" />
     </a>
   </li>
@@ -621,7 +657,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3886.jpg">
+    <a href="/images/bfbc/0K6A3886.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3886.jpg" alt="" />
     </a>
   </li>
@@ -629,7 +665,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3907.jpg">
+    <a href="/images/bfbc/0K6A3907.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3907.jpg" alt="" />
     </a>
   </li>
@@ -637,7 +673,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3887.jpg">
+    <a href="/images/bfbc/0K6A3887.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3887.jpg" alt="" />
     </a>
   </li>
@@ -645,7 +681,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3912.jpg">
+    <a href="/images/bfbc/0K6A3912.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3912.jpg" alt="" />
     </a>
   </li>
@@ -653,7 +689,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3921.jpg">
+    <a href="/images/bfbc/0K6A3921.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3921.jpg" alt="" />
     </a>
   </li>
@@ -661,7 +697,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3904.jpg">
+    <a href="/images/bfbc/0K6A3904.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3904.jpg" alt="" />
     </a>
   </li>
@@ -669,7 +705,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3928.jpg">
+    <a href="/images/bfbc/0K6A3928.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3928.jpg" alt="" />
     </a>
   </li>
@@ -677,7 +713,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3940.jpg">
+    <a href="/images/bfbc/0K6A3940.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3940.jpg" alt="" />
     </a>
   </li>
@@ -685,7 +721,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3958.jpg">
+    <a href="/images/bfbc/0K6A3958.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3958.jpg" alt="" />
     </a>
   </li>
@@ -942,7 +978,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>
@@ -960,7 +996,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>

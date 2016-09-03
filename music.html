@@ -7,7 +7,7 @@ permalink: /music/
   <li></li>
   {% for photo in site.data.music_gallery %}
   <li class="{{ photo.size }}">
-    <a href="{{ photo.image }}">
+    <a href="{{ photo.image }}" class="portfolio-image">
       <img src="/images/thumbnails/{{ photo.thumbnail }}" alt="{{ photo.title }}" />
     </a>
   </li>

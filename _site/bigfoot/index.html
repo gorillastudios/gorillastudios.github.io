@@ -25,7 +25,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+    <!-- <script src="/js/jquery-1.8.2.js"></script> -->
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
@@ -46,14 +46,50 @@
 
   <body >
     <header class="site-header">
+  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <nav>
-    <a href="/" data-page-id="home">portfolio</a></li>
-    <a href="/music" data-page-id="music">music</a></li>
-    <a href="/blog" data-page-id="blog">blog</a></li>
-    <a href="/about" data-page-id="about">about</a></li>
-  </nav>
 </header>
+
+<div class="menu">
+  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
+  <div class="main-menu">
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    <p>Portfolios</p>
+    <a class="portfolio-link" href="/music">Music</a>
+    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
+    <a class="portfolio-link" href="/astronomy">Astronomy</a>
+    <a class="portfolio-link" href="/chicago">Chicago</a>
+    <a class="portfolio-link" href="/nature">Nature</a>
+    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
+    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
+    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
+  </div>
+  <div class="sub-menu">
+  </div>
+</div>
+
+
+<script>
+  $('#menu-toggle').click(function()
+  {
+    if ($('.menu').hasClass('opened')) {
+      $('.menu').removeClass('opened').addClass('closed');
+      return false;
+    }
+    if ($('.menu').hasClass('closed')) {
+      $('.menu').removeClass('closed').addClass('opened');
+      return false;
+    }
+    else ($('.menu').addClass('opened'))
+  });
+
+  $('#menu-close').click(function() {
+    $('.menu').removeClass('opened').addClass('closed');
+  });
+</script>
+
 
     <div class="site-content animated fadeIn">
       <ul class="grid" id="lightgallery">
@@ -545,7 +581,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3771.jpg">
+    <a href="/images/bfbc/0K6A3771.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3771.jpg" alt="" />
     </a>
   </li>
@@ -553,7 +589,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3790.jpg">
+    <a href="/images/bfbc/0K6A3790.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3790.jpg" alt="" />
     </a>
   </li>
@@ -561,7 +597,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3865.jpg">
+    <a href="/images/bfbc/0K6A3865.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3865.jpg" alt="" />
     </a>
   </li>
@@ -569,7 +605,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3983.jpg">
+    <a href="/images/bfbc/0K6A3983.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3983.jpg" alt="" />
     </a>
   </li>
@@ -577,7 +613,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3910.jpg">
+    <a href="/images/bfbc/0K6A3910.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3910.jpg" alt="" />
     </a>
   </li>
@@ -585,7 +621,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3829.jpg">
+    <a href="/images/bfbc/0K6A3829.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3829.jpg" alt="" />
     </a>
   </li>
@@ -593,7 +629,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4143.jpg">
+    <a href="/images/bfbc/0K6A4143.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4143.jpg" alt="" />
     </a>
   </li>
@@ -601,7 +637,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4620.jpg">
+    <a href="/images/bfbc/0K6A4620.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4620.jpg" alt="" />
     </a>
   </li>
@@ -609,7 +645,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3794.jpg">
+    <a href="/images/bfbc/0K6A3794.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3794.jpg" alt="" />
     </a>
   </li>
@@ -617,7 +653,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3795.jpg">
+    <a href="/images/bfbc/0K6A3795.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3795.jpg" alt="" />
     </a>
   </li>
@@ -625,7 +661,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3814.jpg">
+    <a href="/images/bfbc/0K6A3814.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3814.jpg" alt="" />
     </a>
   </li>
@@ -633,7 +669,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3816.jpg">
+    <a href="/images/bfbc/0K6A3816.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3816.jpg" alt="" />
     </a>
   </li>
@@ -641,7 +677,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3824.jpg">
+    <a href="/images/bfbc/0K6A3824.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3824.jpg" alt="" />
     </a>
   </li>
@@ -649,7 +685,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4131.jpg">
+    <a href="/images/bfbc/0K6A4131.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4131.jpg" alt="" />
     </a>
   </li>
@@ -657,7 +693,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3833.jpg">
+    <a href="/images/bfbc/0K6A3833.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3833.jpg" alt="" />
     </a>
   </li>
@@ -665,7 +701,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3837.jpg">
+    <a href="/images/bfbc/0K6A3837.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3837.jpg" alt="" />
     </a>
   </li>
@@ -673,7 +709,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3839.jpg">
+    <a href="/images/bfbc/0K6A3839.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3839.jpg" alt="" />
     </a>
   </li>
@@ -681,7 +717,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3851.jpg">
+    <a href="/images/bfbc/0K6A3851.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3851.jpg" alt="" />
     </a>
   </li>
@@ -689,7 +725,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3978.jpg">
+    <a href="/images/bfbc/0K6A3978.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3978.jpg" alt="" />
     </a>
   </li>
@@ -697,7 +733,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3857.jpg">
+    <a href="/images/bfbc/0K6A3857.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3857.jpg" alt="" />
     </a>
   </li>
@@ -705,7 +741,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3861.jpg">
+    <a href="/images/bfbc/0K6A3861.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3861.jpg" alt="" />
     </a>
   </li>
@@ -713,7 +749,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3873.jpg">
+    <a href="/images/bfbc/0K6A3873.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3873.jpg" alt="" />
     </a>
   </li>
@@ -721,7 +757,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3878.jpg">
+    <a href="/images/bfbc/0K6A3878.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3878.jpg" alt="" />
     </a>
   </li>
@@ -729,7 +765,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3886.jpg">
+    <a href="/images/bfbc/0K6A3886.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3886.jpg" alt="" />
     </a>
   </li>
@@ -737,7 +773,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3907.jpg">
+    <a href="/images/bfbc/0K6A3907.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3907.jpg" alt="" />
     </a>
   </li>
@@ -745,7 +781,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3887.jpg">
+    <a href="/images/bfbc/0K6A3887.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3887.jpg" alt="" />
     </a>
   </li>
@@ -753,7 +789,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3912.jpg">
+    <a href="/images/bfbc/0K6A3912.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3912.jpg" alt="" />
     </a>
   </li>
@@ -761,7 +797,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3921.jpg">
+    <a href="/images/bfbc/0K6A3921.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3921.jpg" alt="" />
     </a>
   </li>
@@ -769,7 +805,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3904.jpg">
+    <a href="/images/bfbc/0K6A3904.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3904.jpg" alt="" />
     </a>
   </li>
@@ -777,7 +813,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3928.jpg">
+    <a href="/images/bfbc/0K6A3928.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3928.jpg" alt="" />
     </a>
   </li>
@@ -785,7 +821,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3940.jpg">
+    <a href="/images/bfbc/0K6A3940.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3940.jpg" alt="" />
     </a>
   </li>
@@ -793,7 +829,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3958.jpg">
+    <a href="/images/bfbc/0K6A3958.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3958.jpg" alt="" />
     </a>
   </li>
@@ -801,7 +837,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3920.jpg">
+    <a href="/images/bfbc/0K6A3920.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3920.jpg" alt="" />
     </a>
   </li>
@@ -809,7 +845,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4184.jpg">
+    <a href="/images/bfbc/0K6A4184.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4184.jpg" alt="" />
     </a>
   </li>
@@ -817,7 +853,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3959.jpg">
+    <a href="/images/bfbc/0K6A3959.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3959.jpg" alt="" />
     </a>
   </li>
@@ -825,7 +861,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3991.jpg">
+    <a href="/images/bfbc/0K6A3991.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3991.jpg" alt="" />
     </a>
   </li>
@@ -833,7 +869,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4020.jpg">
+    <a href="/images/bfbc/0K6A4020.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4020.jpg" alt="" />
     </a>
   </li>
@@ -841,7 +877,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4022.jpg">
+    <a href="/images/bfbc/0K6A4022.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4022.jpg" alt="" />
     </a>
   </li>
@@ -849,7 +885,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4025.jpg">
+    <a href="/images/bfbc/0K6A4025.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4025.jpg" alt="" />
     </a>
   </li>
@@ -857,7 +893,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4027.jpg">
+    <a href="/images/bfbc/0K6A4027.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4027.jpg" alt="" />
     </a>
   </li>
@@ -865,7 +901,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4043.jpg">
+    <a href="/images/bfbc/0K6A4043.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4043.jpg" alt="" />
     </a>
   </li>
@@ -873,7 +909,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4045.jpg">
+    <a href="/images/bfbc/0K6A4045.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4045.jpg" alt="" />
     </a>
   </li>
@@ -881,7 +917,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4048.jpg">
+    <a href="/images/bfbc/0K6A4048.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4048.jpg" alt="" />
     </a>
   </li>
@@ -889,7 +925,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4094.jpg">
+    <a href="/images/bfbc/0K6A4094.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4094.jpg" alt="" />
     </a>
   </li>
@@ -897,7 +933,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4057.jpg">
+    <a href="/images/bfbc/0K6A4057.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4057.jpg" alt="" />
     </a>
   </li>
@@ -905,7 +941,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3987.jpg">
+    <a href="/images/bfbc/0K6A3987.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3987.jpg" alt="" />
     </a>
   </li>
@@ -913,7 +949,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4059.jpg">
+    <a href="/images/bfbc/0K6A4059.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4059.jpg" alt="" />
     </a>
   </li>
@@ -921,7 +957,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4060.jpg">
+    <a href="/images/bfbc/0K6A4060.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4060.jpg" alt="" />
     </a>
   </li>
@@ -929,7 +965,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4108.jpg">
+    <a href="/images/bfbc/0K6A4108.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4108.jpg" alt="" />
     </a>
   </li>
@@ -937,7 +973,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4013.jpg">
+    <a href="/images/bfbc/0K6A4013.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4013.jpg" alt="" />
     </a>
   </li>
@@ -945,7 +981,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4116.jpg">
+    <a href="/images/bfbc/0K6A4116.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4116.jpg" alt="" />
     </a>
   </li>
@@ -953,7 +989,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4177.jpg">
+    <a href="/images/bfbc/0K6A4177.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4177.jpg" alt="" />
     </a>
   </li>
@@ -961,7 +997,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4120.jpg">
+    <a href="/images/bfbc/0K6A4120.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4120.jpg" alt="" />
     </a>
   </li>
@@ -969,7 +1005,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4160.jpg">
+    <a href="/images/bfbc/0K6A4160.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4160.jpg" alt="The Voodoo Fix" />
     </a>
   </li>
@@ -977,7 +1013,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4170.jpg">
+    <a href="/images/bfbc/0K6A4170.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4170.jpg" alt="" />
     </a>
   </li>
@@ -985,7 +1021,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4085.jpg">
+    <a href="/images/bfbc/0K6A4085.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4085.jpg" alt="" />
     </a>
   </li>
@@ -993,7 +1029,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4186.jpg">
+    <a href="/images/bfbc/0K6A4186.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4186.jpg" alt="" />
     </a>
   </li>
@@ -1001,7 +1037,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4191.jpg">
+    <a href="/images/bfbc/0K6A4191.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4191.jpg" alt="" />
     </a>
   </li>
@@ -1009,7 +1045,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4192.jpg">
+    <a href="/images/bfbc/0K6A4192.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4192.jpg" alt="" />
     </a>
   </li>
@@ -1017,7 +1053,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4207.jpg">
+    <a href="/images/bfbc/0K6A4207.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4207.jpg" alt="" />
     </a>
   </li>
@@ -1025,7 +1061,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4223.jpg">
+    <a href="/images/bfbc/0K6A4223.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4223.jpg" alt="" />
     </a>
   </li>
@@ -1033,7 +1069,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4252.jpg">
+    <a href="/images/bfbc/0K6A4252.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4252.jpg" alt="" />
     </a>
   </li>
@@ -1041,7 +1077,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4182.jpg">
+    <a href="/images/bfbc/0K6A4182.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4182.jpg" alt="" />
     </a>
   </li>
@@ -1049,7 +1085,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4248.jpg">
+    <a href="/images/bfbc/0K6A4248.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4248.jpg" alt="" />
     </a>
   </li>
@@ -1057,7 +1093,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3937.jpg">
+    <a href="/images/bfbc/0K6A3937.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3937.jpg" alt="" />
     </a>
   </li>
@@ -1065,7 +1101,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3941.jpg">
+    <a href="/images/bfbc/0K6A3941.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3941.jpg" alt="" />
     </a>
   </li>
@@ -1073,7 +1109,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4560.jpg">
+    <a href="/images/bfbc/0K6A4560.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4560.jpg" alt="" />
     </a>
   </li>
@@ -1081,7 +1117,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4261.jpg">
+    <a href="/images/bfbc/0K6A4261.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4261.jpg" alt="Chops McClintok of The Krank Daddies Gibson Les Paul" />
     </a>
   </li>
@@ -1089,7 +1125,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4279.jpg">
+    <a href="/images/bfbc/0K6A4279.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4279.jpg" alt="" />
     </a>
   </li>
@@ -1097,7 +1133,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4282.jpg">
+    <a href="/images/bfbc/0K6A4282.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4282.jpg" alt="" />
     </a>
   </li>
@@ -1105,7 +1141,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4293.jpg">
+    <a href="/images/bfbc/0K6A4293.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4293.jpg" alt="" />
     </a>
   </li>
@@ -1113,7 +1149,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4298.jpg">
+    <a href="/images/bfbc/0K6A4298.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4298.jpg" alt="" />
     </a>
   </li>
@@ -1121,7 +1157,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4357.jpg">
+    <a href="/images/bfbc/0K6A4357.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4357.jpg" alt="" />
     </a>
   </li>
@@ -1129,7 +1165,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4302.jpg">
+    <a href="/images/bfbc/0K6A4302.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4302.jpg" alt="" />
     </a>
   </li>
@@ -1137,7 +1173,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4306.jpg">
+    <a href="/images/bfbc/0K6A4306.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4306.jpg" alt="" />
     </a>
   </li>
@@ -1145,7 +1181,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4311.jpg">
+    <a href="/images/bfbc/0K6A4311.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4311.jpg" alt="" />
     </a>
   </li>
@@ -1153,7 +1189,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4326.jpg">
+    <a href="/images/bfbc/0K6A4326.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4326.jpg" alt="" />
     </a>
   </li>
@@ -1161,7 +1197,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4350.jpg">
+    <a href="/images/bfbc/0K6A4350.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4350.jpg" alt="" />
     </a>
   </li>
@@ -1169,7 +1205,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4362.jpg">
+    <a href="/images/bfbc/0K6A4362.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4362.jpg" alt="" />
     </a>
   </li>
@@ -1177,7 +1213,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4363.jpg">
+    <a href="/images/bfbc/0K6A4363.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4363.jpg" alt="" />
     </a>
   </li>
@@ -1185,7 +1221,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4393.jpg">
+    <a href="/images/bfbc/0K6A4393.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4393.jpg" alt="Chops McClintok of The Krank Daddies takes a quick drink during their set" />
     </a>
   </li>
@@ -1193,7 +1229,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4287.jpg">
+    <a href="/images/bfbc/0K6A4287.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4287.jpg" alt="" />
     </a>
   </li>
@@ -1201,7 +1237,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4322.jpg">
+    <a href="/images/bfbc/0K6A4322.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4322.jpg" alt="" />
     </a>
   </li>
@@ -1209,7 +1245,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4407.jpg">
+    <a href="/images/bfbc/0K6A4407.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4407.jpg" alt="" />
     </a>
   </li>
@@ -1217,7 +1253,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4428.jpg">
+    <a href="/images/bfbc/0K6A4428.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4428.jpg" alt="" />
     </a>
   </li>
@@ -1225,7 +1261,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4443.jpg">
+    <a href="/images/bfbc/0K6A4443.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4443.jpg" alt="" />
     </a>
   </li>
@@ -1233,7 +1269,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4454.jpg">
+    <a href="/images/bfbc/0K6A4454.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4454.jpg" alt="" />
     </a>
   </li>
@@ -1241,7 +1277,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4381.jpg">
+    <a href="/images/bfbc/0K6A4381.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4381.jpg" alt="" />
     </a>
   </li>
@@ -1249,7 +1285,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4479.jpg">
+    <a href="/images/bfbc/0K6A4479.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4479.jpg" alt="" />
     </a>
   </li>
@@ -1257,7 +1293,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4482.jpg">
+    <a href="/images/bfbc/0K6A4482.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4482.jpg" alt="" />
     </a>
   </li>
@@ -1265,7 +1301,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4422.jpg">
+    <a href="/images/bfbc/0K6A4422.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4422.jpg" alt="" />
     </a>
   </li>
@@ -1273,7 +1309,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4500.jpg">
+    <a href="/images/bfbc/0K6A4500.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4500.jpg" alt="" />
     </a>
   </li>
@@ -1281,7 +1317,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4513.jpg">
+    <a href="/images/bfbc/0K6A4513.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4513.jpg" alt="" />
     </a>
   </li>
@@ -1289,7 +1325,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4506.jpg">
+    <a href="/images/bfbc/0K6A4506.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4506.jpg" alt="" />
     </a>
   </li>
@@ -1297,7 +1333,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4537.jpg">
+    <a href="/images/bfbc/0K6A4537.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4537.jpg" alt="" />
     </a>
   </li>
@@ -1305,7 +1341,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4551.jpg">
+    <a href="/images/bfbc/0K6A4551.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4551.jpg" alt="" />
     </a>
   </li>
@@ -1313,7 +1349,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4579.jpg">
+    <a href="/images/bfbc/0K6A4579.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4579.jpg" alt="" />
     </a>
   </li>
@@ -1321,7 +1357,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4602.jpg">
+    <a href="/images/bfbc/0K6A4602.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4602.jpg" alt="" />
     </a>
   </li>
@@ -1329,7 +1365,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A3832.jpg">
+    <a href="/images/bfbc/0K6A3832.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3832.jpg" alt="" />
     </a>
   </li>
@@ -1337,7 +1373,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4649.jpg">
+    <a href="/images/bfbc/0K6A4649.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4649.jpg" alt="" />
     </a>
   </li>
@@ -1345,7 +1381,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4686.jpg">
+    <a href="/images/bfbc/0K6A4686.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4686.jpg" alt="" />
     </a>
   </li>
@@ -1353,7 +1389,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4704.jpg">
+    <a href="/images/bfbc/0K6A4704.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4704.jpg" alt="" />
     </a>
   </li>
@@ -1361,7 +1397,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4708.jpg">
+    <a href="/images/bfbc/0K6A4708.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4708.jpg" alt="The Reverend Horton Heat performs at the Bigfoot Bandcamp Festival, August 8th, 2015" />
     </a>
   </li>
@@ -1369,7 +1405,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4711.jpg">
+    <a href="/images/bfbc/0K6A4711.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4711.jpg" alt="" />
     </a>
   </li>
@@ -1377,7 +1413,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4727.jpg">
+    <a href="/images/bfbc/0K6A4727.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4727.jpg" alt="" />
     </a>
   </li>
@@ -1385,7 +1421,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4734.jpg">
+    <a href="/images/bfbc/0K6A4734.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4734.jpg" alt="" />
     </a>
   </li>
@@ -1393,7 +1429,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4737.jpg">
+    <a href="/images/bfbc/0K6A4737.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4737.jpg" alt="" />
     </a>
   </li>
@@ -1401,7 +1437,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4754.jpg">
+    <a href="/images/bfbc/0K6A4754.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4754.jpg" alt="" />
     </a>
   </li>
@@ -1409,7 +1445,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4771.jpg">
+    <a href="/images/bfbc/0K6A4771.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4771.jpg" alt="" />
     </a>
   </li>
@@ -1417,7 +1453,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4780.jpg">
+    <a href="/images/bfbc/0K6A4780.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4780.jpg" alt="" />
     </a>
   </li>
@@ -1425,7 +1461,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4797.jpg">
+    <a href="/images/bfbc/0K6A4797.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4797.jpg" alt="" />
     </a>
   </li>
@@ -1433,7 +1469,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4820.jpg">
+    <a href="/images/bfbc/0K6A4820.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4820.jpg" alt="" />
     </a>
   </li>
@@ -1441,7 +1477,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4824.jpg">
+    <a href="/images/bfbc/0K6A4824.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4824.jpg" alt="" />
     </a>
   </li>
@@ -1449,7 +1485,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4853.jpg">
+    <a href="/images/bfbc/0K6A4853.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4853.jpg" alt="" />
     </a>
   </li>
@@ -1457,7 +1493,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4855.jpg">
+    <a href="/images/bfbc/0K6A4855.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4855.jpg" alt="" />
     </a>
   </li>
@@ -1465,7 +1501,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4862.jpg">
+    <a href="/images/bfbc/0K6A4862.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4862.jpg" alt="" />
     </a>
   </li>
@@ -1473,7 +1509,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4872.jpg">
+    <a href="/images/bfbc/0K6A4872.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4872.jpg" alt="" />
     </a>
   </li>
@@ -1481,7 +1517,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4883.jpg">
+    <a href="/images/bfbc/0K6A4883.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4883.jpg" alt="" />
     </a>
   </li>
@@ -1489,7 +1525,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4888.jpg">
+    <a href="/images/bfbc/0K6A4888.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4888.jpg" alt="" />
     </a>
   </li>
@@ -1497,7 +1533,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4896.jpg">
+    <a href="/images/bfbc/0K6A4896.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4896.jpg" alt="" />
     </a>
   </li>
@@ -1505,7 +1541,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4903.jpg">
+    <a href="/images/bfbc/0K6A4903.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4903.jpg" alt="" />
     </a>
   </li>
@@ -1513,7 +1549,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4915.jpg">
+    <a href="/images/bfbc/0K6A4915.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4915.jpg" alt="" />
     </a>
   </li>
@@ -1521,7 +1557,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4923.jpg">
+    <a href="/images/bfbc/0K6A4923.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4923.jpg" alt="Jimbo of the Reverent Horton Heat throws up the horns" />
     </a>
   </li>
@@ -1529,7 +1565,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4934.jpg">
+    <a href="/images/bfbc/0K6A4934.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4934.jpg" alt="" />
     </a>
   </li>
@@ -1537,7 +1573,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4932.jpg">
+    <a href="/images/bfbc/0K6A4932.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4932.jpg" alt="" />
     </a>
   </li>
@@ -1545,7 +1581,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4963.jpg">
+    <a href="/images/bfbc/0K6A4963.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4963.jpg" alt="" />
     </a>
   </li>
@@ -1553,7 +1589,7 @@
   
   
   <li>
-    <a href="/images/bfbc/0K6A4974.jpg">
+    <a href="/images/bfbc/0K6A4974.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A4974.jpg" alt="" />
     </a>
   </li>
@@ -1620,7 +1656,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>
@@ -1638,7 +1674,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>

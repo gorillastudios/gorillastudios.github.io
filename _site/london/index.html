@@ -25,7 +25,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+    <!-- <script src="/js/jquery-1.8.2.js"></script> -->
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
@@ -46,14 +46,50 @@
 
   <body >
     <header class="site-header">
+  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
   <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-  <nav>
-    <a href="/" data-page-id="home">portfolio</a></li>
-    <a href="/music" data-page-id="music">music</a></li>
-    <a href="/blog" data-page-id="blog">blog</a></li>
-    <a href="/about" data-page-id="about">about</a></li>
-  </nav>
 </header>
+
+<div class="menu">
+  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
+  <div class="main-menu">
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    <p>Portfolios</p>
+    <a class="portfolio-link" href="/music">Music</a>
+    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
+    <a class="portfolio-link" href="/astronomy">Astronomy</a>
+    <a class="portfolio-link" href="/chicago">Chicago</a>
+    <a class="portfolio-link" href="/nature">Nature</a>
+    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
+    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
+    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
+  </div>
+  <div class="sub-menu">
+  </div>
+</div>
+
+
+<script>
+  $('#menu-toggle').click(function()
+  {
+    if ($('.menu').hasClass('opened')) {
+      $('.menu').removeClass('opened').addClass('closed');
+      return false;
+    }
+    if ($('.menu').hasClass('closed')) {
+      $('.menu').removeClass('closed').addClass('opened');
+      return false;
+    }
+    else ($('.menu').addClass('opened'))
+  });
+
+  $('#menu-close').click(function() {
+    $('.menu').removeClass('opened').addClass('closed');
+  });
+</script>
+
 
     <div class="site-content animated fadeIn">
       <ul class="grid" id="lightgallery">
@@ -73,7 +109,7 @@
   
   
   <li>
-    <a href="/images/catalog/0K6A1420.jpg">
+    <a href="/images/catalog/0K6A1420.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A1420.jpg" alt="" />
     </a>
   </li>
@@ -81,7 +117,7 @@
   
   
   <li>
-    <a href="/images/london/gallery-fountain.jpg">
+    <a href="/images/london/gallery-fountain.jpg" class="portfolio-image">
       <img src="/images/thumbnails/gallery-fountain.jpg" alt="One of the two fountains in front of the National Gallery in London" />
     </a>
   </li>
@@ -89,7 +125,7 @@
   
   
   <li>
-    <a href="/images/catalog/0K6A1402.jpg">
+    <a href="/images/catalog/0K6A1402.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A1402.jpg" alt="St. Pauls Cathedral after dark as seen from Jubilee Bridge" />
     </a>
   </li>
@@ -137,7 +173,7 @@
   
   
   <li>
-    <a href="/images/london/elizabeth-tower-bw-vertical.jpg">
+    <a href="/images/london/elizabeth-tower-bw-vertical.jpg" class="portfolio-image">
       <img src="/images/thumbnails/elizabeth-tower-bw-vertical.jpg" alt="The sun peeks out from behind Elizabeth Tower" />
     </a>
   </li>
@@ -145,7 +181,7 @@
   
   
   <li>
-    <a href="/images/london/national-gallery.jpg">
+    <a href="/images/london/national-gallery.jpg" class="portfolio-image">
       <img src="/images/thumbnails/national-gallery.jpg" alt="" />
     </a>
   </li>
@@ -155,7 +191,7 @@
   
   
   <li>
-    <a href="/images/london/tower-bridge-sunset.jpg">
+    <a href="/images/london/tower-bridge-sunset.jpg" class="portfolio-image">
       <img src="/images/thumbnails/tower-bridge-sunset.jpg" alt="" />
     </a>
   </li>
@@ -163,7 +199,7 @@
   
   
   <li>
-    <a href="/images/london/shad-thames.jpg">
+    <a href="/images/london/shad-thames.jpg" class="portfolio-image">
       <img src="/images/thumbnails/shad-thames.jpg" alt="" />
     </a>
   </li>
@@ -171,7 +207,7 @@
   
   
   <li>
-    <a href="/images/london/cavalry.jpg">
+    <a href="/images/london/cavalry.jpg" class="portfolio-image">
       <img src="/images/thumbnails/cavalry.jpg" alt="" />
     </a>
   </li>
@@ -179,7 +215,7 @@
   
   
   <li>
-    <a href="/images/london/london-eye-2015.jpg">
+    <a href="/images/london/london-eye-2015.jpg" class="portfolio-image">
       <img src="/images/thumbnails/london-eye-2015.jpg" alt="The London Eye overlooks the Thames River seen from Queen Elizabeth Bridge. A long exposure turns the passing boats into surreal light streaks across the smooth water" />
     </a>
   </li>
@@ -187,7 +223,7 @@
   
   
   <li>
-    <a href="/images/london/whitehall-street.jpg">
+    <a href="/images/london/whitehall-street.jpg" class="portfolio-image">
       <img src="/images/thumbnails/whitehall-street.jpg" alt="" />
     </a>
   </li>
@@ -195,7 +231,7 @@
   
   
   <li>
-    <a href="/images/catalog/0K6A1416.jpg">
+    <a href="/images/catalog/0K6A1416.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A1416.jpg" alt="" />
     </a>
   </li>
@@ -203,7 +239,7 @@
   
   
   <li>
-    <a href="/images/catalog/0K6A1546.jpg">
+    <a href="/images/catalog/0K6A1546.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A1546.jpg" alt="" />
     </a>
   </li>
@@ -211,7 +247,7 @@
   
   
   <li>
-    <a href="/images/london/shoreditch-high-street.jpg">
+    <a href="/images/london/shoreditch-high-street.jpg" class="portfolio-image">
       <img src="/images/thumbnails/shoreditch-high-street.jpg" alt="" />
     </a>
   </li>
@@ -219,7 +255,7 @@
   
   
   <li>
-    <a href="/images/london/tower-pano-second.jpg">
+    <a href="/images/london/tower-pano-second.jpg" class="portfolio-image">
       <img src="/images/thumbnails/tower-pano-second.jpg" alt="A 9 shot 180&deg; panorama of Tower Bridge and Potters Fields Park" />
     </a>
   </li>
@@ -227,7 +263,7 @@
   
   
   <li>
-    <a href="/images/catalog/0K6A1442.jpg">
+    <a href="/images/catalog/0K6A1442.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A1442.jpg" alt="" />
     </a>
   </li>
@@ -235,7 +271,7 @@
   
   
   <li>
-    <a href="/images/london/bridge-lounge.jpg">
+    <a href="/images/london/bridge-lounge.jpg" class="portfolio-image">
       <img src="/images/thumbnails/bridge-lounge.jpg" alt="The Bridge Lounge on Tooley Street, Southwark London" />
     </a>
   </li>
@@ -243,7 +279,7 @@
   
   
   <li>
-    <a href="/images/london/trafalgar-square.jpg">
+    <a href="/images/london/trafalgar-square.jpg" class="portfolio-image">
       <img src="/images/thumbnails/trafalgar-square.jpg" alt="A 12 shot panorama of Trafalgar Square taken from the steps of the National Gallery" />
     </a>
   </li>
@@ -251,7 +287,7 @@
   
   
   <li>
-    <a href="/images/london/elizabeth-tower.jpg">
+    <a href="/images/london/elizabeth-tower.jpg" class="portfolio-image">
       <img src="/images/thumbnails/elizabeth-tower.jpg" alt="" />
     </a>
   </li>
@@ -259,7 +295,7 @@
   
   
   <li>
-    <a href="/images/london/lions-tower.jpg">
+    <a href="/images/london/lions-tower.jpg" class="portfolio-image">
       <img src="/images/thumbnails/lions-tower.jpg" alt="The lions of Trafalgar Square stand guard" />
     </a>
   </li>
@@ -267,7 +303,7 @@
   
   
   <li>
-    <a href="/images/london/cavalry-guard.jpg">
+    <a href="/images/london/cavalry-guard.jpg" class="portfolio-image">
       <img src="/images/thumbnails/cavalry-guard.jpg" alt="Her Majestys Household Cavalry Life Guard" />
     </a>
   </li>
@@ -275,7 +311,7 @@
   
   
   <li>
-    <a href="/images/london/shard-streaks.jpg">
+    <a href="/images/london/shard-streaks.jpg" class="portfolio-image">
       <img src="/images/thumbnails/shard-streaks.jpg" alt="The Shard seen from Tooley Street" />
     </a>
   </li>
@@ -289,7 +325,7 @@
   
   
   <li>
-    <a href="/images/union/7.jpg">
+    <a href="/images/union/7.jpg" class="portfolio-image">
       <img src="/images/thumbnails/union/7.jpg" alt="" />
     </a>
   </li>
@@ -521,7 +557,7 @@
   
   
   <li>
-    <a href="/images/london/leadenhall-market.jpg">
+    <a href="/images/london/leadenhall-market.jpg" class="portfolio-image">
       <img src="/images/thumbnails/leadenhall-market.jpg" alt="The iconic Leadenhall Market off of Bishopsgate Road, London" />
     </a>
   </li>
@@ -529,7 +565,7 @@
   
   
   <li>
-    <a href="/images/london/liverpool-station-2.jpg">
+    <a href="/images/london/liverpool-station-2.jpg" class="portfolio-image">
       <img src="/images/thumbnails/liverpool-station-2.jpg" alt="" />
     </a>
   </li>
@@ -537,7 +573,7 @@
   
   
   <li>
-    <a href="/images/london/the-shard.jpg">
+    <a href="/images/london/the-shard.jpg" class="portfolio-image">
       <img src="/images/thumbnails/the-shard.jpg" alt="" />
     </a>
   </li>
@@ -985,7 +1021,7 @@
   
   
   <li>
-    <a href="/images//catalog/0K6A1426.jpg">
+    <a href="/images//catalog/0K6A1426.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A1426.jpg" alt="" />
     </a>
   </li>
@@ -993,7 +1029,7 @@
   
   
   <li>
-    <a href="/images//catalog/0K6A8568.jpg">
+    <a href="/images//catalog/0K6A8568.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A8568.jpg" alt="" />
     </a>
   </li>
@@ -1020,7 +1056,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>
@@ -1038,7 +1074,7 @@
 
 
   $('#lightgallery').lightGallery({
-    selector: 'a',
+    selector: 'a.portfolio-image',
     download: false
   });
 </script>

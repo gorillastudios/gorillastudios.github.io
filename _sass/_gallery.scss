@@ -7,36 +7,37 @@
       width: 100%;
     }
   }
-}
-
-@media screen and (min-width: 600px) {
-  .grid li {
-    position: relative;
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .grid li {
-    width: 33.3333%;
-    &.large {
-      width: 66.666%;
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .grid li {
-    width: 25%;
-    &.large {
+  @include media-query(600px) {
+    li {
+      position: relative;
       width: 50%;
     }
   }
+  @include media-query(1000px) {
+    li {
+      width: 33.3333%;
+      &.large {
+        width: 66.666%;
+      }
+    }
+  }
+  @include media-query(1200px) {
+    li {
+      width: 25%;
+      &.large {
+        width: 50%;
+      }
+    }
+  }
 }
 
+
+// ------------------- Zoomed Image Meta Info
 .lg-sub-html {
   font-size: .85em;
 }
+
+// ------------------- Zoomed Image Camera Icon
 .lg-sub-html span:before {
   content: '\f030';
   font-family: "FontAwesome";
@@ -56,10 +57,7 @@
       @include shift(2);
     }
   }
-}
-
-@media screen and (min-width: 600px) {
-  .legacy-gallery {
+  @include media-query($medium) {
     figure.vertical {
       @include span-columns(6);
       @include shift(3);

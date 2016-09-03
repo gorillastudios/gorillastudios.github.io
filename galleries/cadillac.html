@@ -8,7 +8,7 @@ permalink: /cadillac-cassanovas/
   {% for photo in site.data.photos %}
   {% if photo.tags contains 'cadillac' %}
   <li>
-    <a href="/images/{{ photo.image_path }}">
+    <a href="/images/{{ photo.image_path }}" class="portfolio-image">
       <img src="{{ photo.thumbnail }}" alt="{{ photo.description }}" />
     </a>
   </li>
