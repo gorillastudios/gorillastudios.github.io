@@ -81,42 +81,6 @@
 }
 
 
-// --------------------------------------- Post Specific
-.module-half-half {
-  margin-bottom: 1.5em;
-  overflow: hidden;
-  h2, h3, h4, h5, p {
-    padding: 0 10px;
-  }
-  section img {
-    margin-bottom: 10px;
-    max-width: 100%;
-  }
-}
-@media screen and (min-width: 40em) {
-  .module-half-half {
-    margin: 0 auto 1.5em auto;
-    max-width: 900px;
-    section {
-      float: left;
-      width: 50%;
-    }
-    section.left {
-      padding-right: 5px;
-    }
-    section.right {
-      padding-left: 5px;
-    }
-  }
-}
-
-.shot-sheet {
-  font-size: $font--small;
-  span {
-    font-weight: bold;
-  }
-}
-
 // --------------------------------------- Archive List
 .blog-archive-list {
   -webkit-column-count: 2;
@@ -145,10 +109,7 @@
 
     }
   }
-}
-
-@media screen and (min-width: 700px) {
-  .blog-archive-list {
+  @include media-query(800px) {
     -webkit-column-count: 3;
     -webkit-column-gap: 40px;
     column-gap: 40px;
@@ -157,7 +118,6 @@
     }
   }
 }
-
 
 
 // --------------------------------------- Pagination Lists

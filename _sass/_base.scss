@@ -103,9 +103,6 @@ img {
   max-height: 100%;
   vertical-align: middle;
 }
-img.circular {
-  border-radius: 50%;
-}
 
 
 @media screen and (min-width: 600px) {
@@ -204,12 +201,7 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
-}
-
-
-
-@include media-query($small) {
-  blockquote {
+  @include media-query($small) {
     margin-left: 40px;
   }
 }

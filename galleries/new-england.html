@@ -4,17 +4,24 @@ title: New England
 permalink: /new-england/
 ---
 
-<ul class="grid" id="lightgallery">
-  <li></li>
-  {% for photo in site.data.photos %}
-  {% if photo.tags contains 'new-england' %}
-  <li class="{{ photo.size }}" >
-    <a href="/images/{{ photo.image_path }}" class="portfolio-image">
-      <img src="{{ photo.thumbnail }}" alt="{{ photo.description }}" />
-    </a>
-  </li>
-  {% endif %}
-  {% endfor %}
-</ul>
 
-{% include gallery_script.html %}
+<div class="legacy-gallery">
+  <figure>
+    <img src="/images/catalog/0K6A8254.jpg">
+  </figure>
+  <figure>
+    <img src="/images/catalog/0K6A2991.jpg">
+  </figure>
+  <figure>
+    <img src="/images/catalog/0K6A3135.jpg">
+  </figure>
+  <figure>
+    <img src="/images/catalog/latimer.jpg">
+  </figure>
+  <figure>
+    <img src="/images/catalog/0K6A3161.jpg">
+  </figure>
+  <figure>
+    <img src="/images/catalog/watch-hill-3.jpg">
+  </figure>
+</div>

@@ -2934,9 +2934,6 @@ img {
   max-height: 100%;
   vertical-align: middle; }
 
-img.circular {
-  border-radius: 50%; }
-
 @media screen and (min-width: 600px) {
   iframe {
     min-height: 500px !important; } }
@@ -3005,10 +3002,10 @@ blockquote {
   margin-left: 10px; }
   blockquote > :last-child {
     margin-bottom: 0; }
+  @media screen and (min-width: 600px) {
+    blockquote {
+      margin-left: 40px; } }
 
-@media screen and (min-width: 600px) {
-  blockquote {
-    margin-left: 40px; } }
 #thank-you {
   background: url("/images/black-white/trump-abstract.jpg");
   background-size: cover;
@@ -3261,31 +3258,6 @@ blockquote {
       margin-bottom: 0.25em; }
     .post p {
       font-size: 120%; } }
-.module-half-half {
-  margin-bottom: 1.5em;
-  overflow: hidden; }
-  .module-half-half h2, .module-half-half h3, .module-half-half h4, .module-half-half h5, .module-half-half p {
-    padding: 0 10px; }
-  .module-half-half section img {
-    margin-bottom: 10px;
-    max-width: 100%; }
-
-@media screen and (min-width: 40em) {
-  .module-half-half {
-    margin: 0 auto 1.5em auto;
-    max-width: 900px; }
-    .module-half-half section {
-      float: left;
-      width: 50%; }
-    .module-half-half section.left {
-      padding-right: 5px; }
-    .module-half-half section.right {
-      padding-left: 5px; } }
-.shot-sheet {
-  font-size: 0.875em; }
-  .shot-sheet span {
-    font-weight: bold; }
-
 .blog-archive-list {
   -webkit-column-count: 2;
   column-count: 2;
@@ -3306,14 +3278,14 @@ blockquote {
       color: #990000; }
     .blog-archive-list a:hover {
       background: #f9f9f9; }
+  @media screen and (min-width: 800px) {
+    .blog-archive-list {
+      -webkit-column-count: 3;
+      -webkit-column-gap: 40px;
+      column-gap: 40px; }
+      .blog-archive-list a {
+        padding: 10px; } }
 
-@media screen and (min-width: 700px) {
-  .blog-archive-list {
-    -webkit-column-count: 3;
-    -webkit-column-gap: 40px;
-    column-gap: 40px; }
-    .blog-archive-list a {
-      padding: 10px; } }
 .page-navigation {
   margin-top: 4em; }
 
