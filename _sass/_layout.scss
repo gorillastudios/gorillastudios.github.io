@@ -3,7 +3,7 @@
   padding: 10px;
 }
 
-@media screen and (min-width: 600px) {
+@include media-query($small) {
   [class*="module__"] {
     border-top: 1px solid $hairline;
     padding: 2em 20px 4em 20px;
@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (min-width: 600px) {
+@include media-query($small) {
   .module__about {
     .content {
       @include span-columns(6);

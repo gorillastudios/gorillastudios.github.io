@@ -41,7 +41,7 @@
   margin: 2em 0;
 }
 
-@media screen and (min-width: 700px) {
+@include media-query(700px) {
   .block-list a {
     @include span-columns(3);
     @include omega(4n);
@@ -75,7 +75,7 @@
   input[type="submit"] {
     -webkit-appearance: none;
   }
-  @media screen and (min-width: $small) {
+  @include media-query($small) {
     input[type="text"],
     input[type="email"] {
       width: 50%;

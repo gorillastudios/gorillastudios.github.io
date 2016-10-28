@@ -2934,7 +2934,7 @@ img {
   max-height: 100%;
   vertical-align: middle; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   iframe {
     min-height: 500px !important; } }
 ul {
