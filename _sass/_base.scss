@@ -44,6 +44,12 @@ $spacing-unit:     30px;
 $font--small: 0.875em;
 $font--large: 1.25em;
 
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
 
 // ------------------------------------------- Breakpoints
 $small: 600px;
@@ -89,13 +95,6 @@ body {
 }
 
 
-// ---------------------------------------- Vertical rhythm
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
 
 // ---------------------------------------- Images
 img {
@@ -109,12 +108,6 @@ img {
   iframe {
     min-height: 500px !important;
   }
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 
@@ -133,6 +126,13 @@ figcaption {
 }
 
 // ---------------------------------------- Lists
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .list__plain {
   list-style: none;
   margin: 0;
