@@ -29,7 +29,6 @@
     <script src="/js/jquery-1.8.2.js"></script>
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/js/masonry.pkgd.min.js"></script>
     <script src="/js/lightgallery.js"></script>
 
 
@@ -46,54 +45,53 @@
 </head>
 
   <body >
-    <header class="site-header">
-  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
-  <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+    <header class="header__site-wide">
+  <div class="header__branding-and-toggle">
+    <a class="header__logo-anchor" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+    <a class="header__menu-toggle" id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu"></a></a>
+  </div>
+  <nav class="header__navigation">
+    <section class="nav__top-menu">
+      <a href="/">Home</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="#" class="nav__dropdown-toggle">Portfolios</a>
+    </section>
+    <section class="nav__submenu initial closed">
+      <a class="portfolio-link" id="nav__music" href="/music">Music</a>
+      <a class="portfolio-link" id="nav__black-white" href="/black-and-white">Black &amp; White</a>
+      <a class="portfolio-link" id="nav__astronomy" href="/astronomy">Astronomy</a>
+      <a class="portfolio-link" id="nav__chicago" href="/chicago">Chicago</a>
+      <a class="portfolio-link" id="nav__nature" href="/nature">Nature</a>
+    </section>
+  </nav>
 </header>
-
-<div class="menu">
-  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
-  <div class="main-menu">
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/about">About</a>
-    <p>Portfolios</p>
-    <a class="portfolio-link" href="/music">Music</a>
-    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
-    <a class="portfolio-link" href="/astronomy">Astronomy</a>
-    <a class="portfolio-link" href="/chicago">Chicago</a>
-    <a class="portfolio-link" href="/nature">Nature</a>
-    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
-    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
-    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
-  </div>
-  <div class="sub-menu">
-  </div>
-</div>
-
 
 <script>
   $('#menu-toggle').click(function()
   {
-    if ($('.menu').hasClass('opened')) {
-      $('.menu').removeClass('opened').addClass('closed');
+    if ($('.header__navigation').hasClass('opened')) {
+      $('.header__navigation').removeClass('opened').addClass('closed');
       return false;
     }
-    if ($('.menu').hasClass('closed')) {
-      $('.menu').removeClass('closed').addClass('opened');
+    if ($('.header__navigation').hasClass('closed')) {
+      $('.header__navigation').removeClass('closed').addClass('opened');
       return false;
     }
-    else ($('.menu').addClass('opened'))
+    else ($('.header__navigation').addClass('opened'))
   });
 
   $('#menu-close').click(function() {
     $('.menu').removeClass('opened').addClass('closed');
   });
+
+  $('.nav__dropdown-toggle').click(function() {
+    $('.nav__submenu').removeClass('initial').addClass('touched').toggleClass('open closed');
+  });
 </script>
 
-
     <div class="site-content animated fadeIn">
-      <ul class="grid" id="lightgallery">
+      <ul class="new-grid" id="lightgallery">
   <li></li>
 
   <li class="large">
@@ -110,18 +108,19 @@
   </li>
 
   <li>
+    <a href="/images/catalog/0K6A0772.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A0772.jpg"
+      alt="Leo Carillo Beach<span></span> 48s, f/8, ISO50, 22mm" >
+    </a>
+  </li>
+
+  <li>
     <a href="/images/catalog/heron-portrait.jpg" class="portfolio-image">
       <img src="/images/thumbnails/heron-portrait.jpg"
       alt="Heron Portrait<span></span> 1/250th, f/5.6, ISO200, 200mm">
     </a>
   </li>
 
-  <li>
-    <a href="/images/catalog/0K6A0772.jpg" class="portfolio-image">
-      <img src="/images/thumbnails/0K6A0772.jpg"
-      alt="Leo Carillo Beach<span></span> 48s, f/8, ISO50, 22mm" >
-    </a>
-  </li>
   <li>
     <a href="/images/catalog/over-the-l.jpg" class="portfolio-image">
       <img src="/images/thumbnails/over-the-l.jpg"
@@ -133,6 +132,13 @@
     <a href="/images/catalog/0K6A7702.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A7702.jpg"
       alt="Manhattan Sunrise<span></span> 48s, f/8, ISO50, 22mm" >
+    </a>
+  </li>
+
+  <li>
+    <a href="/images/catalog/0K6A3203.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A3203.jpg"
+      alt="Latimer Reef Light<span></span> 1/60th, f/8, ISO50, 250mm" >
     </a>
   </li>
 
@@ -192,6 +198,13 @@
     </a>
   </li>
 
+  <li>
+    <a href="/images/catalog/EI2C4807.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/EI2C4807.jpg"
+      alt="<i>Set Sail</i><span></span>1/250th, f/8, ISO50, 16mm" >
+    </a>
+  </li>
+
   <li class="large">
     <a href="/images/catalog/0K6A3261.jpg" class="portfolio-image">
       <img src="/images/thumbnails/0K6A3261.jpg"
@@ -228,18 +241,19 @@
   </li>
 
   <li>
+    <a href="/images/catalog/shard-streaks.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/shard-streaks.jpg"
+      alt="The Shard<span></span> 30s, f/8, ISO50, 19mm" >
+    </a>
+  </li>
+
+  <li>
     <a href="/images/catalog/tokyo-tower.jpg" class="portfolio-image">
       <img src="/images/thumbnails/tokyo-tower.jpg"
       alt="Tokyo Tower<span></span> 1/250th, f/6.3, ISO200, 19mm" >
     </a>
   </li>
 
-  <li>
-    <a href="/images/catalog/shard-streaks.jpg" class="portfolio-image">
-      <img src="/images/thumbnails/shard-streaks.jpg"
-      alt="The Shard<span></span> 30s, f/8, ISO50, 19mm" >
-    </a>
-  </li>
 
   <li class="large">
     <a href="/images/catalog/archways.jpg" class="portfolio-image">
@@ -270,6 +284,13 @@
   </li>
 
   <li>
+    <a href="/images/catalog/0K6A8254.jpg" class="portfolio-image">
+      <img src="/images/thumbnails/0K6A8254.jpg"
+      alt="Sailboats on Lake Michigan<span></span> 1/500th, f/5.6, ISO100, 200mm" >
+    </a>
+  </li>
+
+  <li>
     <a href="/images/catalog/sears-abstract.jpg" class="portfolio-image">
       <img src="/images/thumbnails/sears-abstract.jpg"
       alt="<i>City of Broad Shoulders</i><span></span> 1/250th, f/5.6, ISO100, 50mm" >
@@ -278,34 +299,8 @@
 
 </ul>
 
-<script>
-  var $grid = $('.grid').imagesLoaded( function() {
-    $grid.masonry({
-      itemSelector: 'li',
-      columnWidth: 0,
-      gutter: 0
-    });
-  });
-
-
-  $('#lightgallery').lightGallery({
-    selector: 'a.portfolio-image',
-    download: false
-  });
-</script>
-
-
     </div>
   <script>
-  var $grid = $('.grid').imagesLoaded( function() {
-    $grid.masonry({
-      itemSelector: 'li',
-      columnWidth: 0,
-      gutter: 0
-    });
-  });
-
-
   $('#lightgallery').lightGallery({
     selector: 'a.portfolio-image',
     download: false

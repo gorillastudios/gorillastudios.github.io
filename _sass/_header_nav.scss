@@ -1,114 +1,191 @@
-.site-header {
-  @include outer-container;
+.header__site-wide {
+  @include outer-container(9999px);
   padding: 20px;
-  transition: all 0.25s ease-in;
-  .site-title {
-    border: none;
-    @include span-columns(6);
-    padding-top: 5px;
-    img {
-      display: block;
-      margin: 0 auto;
-      max-width: 200px;
+  a:hover {
+    cursor: pointer;
+  }
+  @include media-query($small) {
+    padding: 2em;
+  }
+}
+
+// ----------------------------- Logo & Menu Toggle
+.header__branding-and-toggle {
+  overflow: hidden;
+  margin-bottom: 5px;
+  @include media-query($small) {
+    @include span-columns(4);
+  }
+  @include media-query($large) {
+    @include span-columns(3);
+  }
+}
+
+.header__logo-anchor {
+  @include span-columns(10);
+  border: none;
+  img {
+    display: block;
+    max-width: 250px;
+    width: 100%;
+  }
+  @include media-query($small) {
+    @include span-columns(12);
+  }
+}
+
+.header__menu-toggle {
+  border: none;
+  opacity: 0.7;
+  img {
+    float: right;
+    margin-top: 5px;
+    max-width: 30px;
+  }
+  @include span-columns(2);
+  @include media-query($small) {
+    display: none;
+  }
+}
+
+.nav__dropdown-toggle {
+  font-weight: bold;
+  @include media-query($small) {
+    font-weight: 300;
+    &:after {
+      content: "\f107";
+      font-family: "FontAwesome";
+      margin-left: 4px;
     }
   }
-  #menu-toggle {
-    @include  span-columns(4);
-    border: none;
-    padding: 10px 0;
-    img {
-      margin: -1px 8px 0 0;
-      width: 18px;
-    }
-    &:hover {
-      cursor: pointer;
-    }
+}
+
+// ----------------------------- Navigation
+.header__navigation {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in;
+  width: 100%;
+  a {
+    border-bottom: 1px solid $hairline;
+    display: block;
+    padding: 0.5em;
   }
-  @include media-query(650px) {
-    .site-title {
-      @include span-columns(2);
-      @include shift(3);
-      padding: 5px 0 0 0;
-      img {
-        margin: 0;
-        max-width: 200px;
+  &.opened {
+    max-height: 999px;
+  }
+
+  @include media-query($small) {
+    @include span-columns(7);
+    max-height: 900px;
+    a {
+      border: none;
+      display: inline-block;
+      padding: 0.75em;
+      margin-right: 2px;
+    }
+    section.nav__top-menu {
+      float: left;
+      margin: 0;
+      a:hover {
+        box-shadow: inset 0px -3px 0px 0px $green;
       }
     }
-    #menu-toggle {
-      @include span-columns(2);
-      transition: all 0.35s ease-in;
+    section.nav__submenu {
+      background: rgba(255,255,255,0.98);
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      a {
+        display: block;
+        font-size: 1.5em;
+        font-weight: bold;
+        float: left;
+        margin: 0;
+        opacity: 0.8;
+        padding: 5em 0 2em 0;
+        text-align: center;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+        width: 33.333%;
+        &:hover {
+          opacity: 1;
+          box-shadow: inset 0px 0px 0px 8px white;
+        }
+      }
+      &.initial {
+        top: -30%;
+        opacity: 0.8;
+      }
+      &.open {
+        animation: submenu 0.4s forwards;
+      }
+      &.touched.closed {
+        animation: submenu__close 1s forwards;
+      }
     }
   }
-  @include media-query(1000px) {
-    padding: 2em 20px;
+  @include media-query($large) {
+    @include span-columns(9);
+    section.nav__submenu a {
+      width: 20%;
+    }
   }
 }
 
 
+@include media-query($small) {
+  #nav__music {
+    background: url("/images/thumbnails/0K6A4915.jpg");
+    background-size: cover;
+    color: white;
+  }
+  #nav__black-white {
+    background: url("/images/thumbnails/0K6A8852.jpg");
+    background-size: cover;
+    color: white;
+  }
+  #nav__astronomy {
+    background: url("/images/thumbnails/star-trails-3.jpg");
+    background-size: cover;
+    color: white;
+  }
+  #nav__chicago {
+    background: url("/images/thumbnails/CRW_5929.jpg");
+    background-size: cover;
+    color: white;
+  }
+  #nav__nature {
+    background: url("/images/thumbnails/CRW_0509.jpg");
+    background-size: cover;
+    color: white;
+  }
+}
 
-// --------------------------------------- Slide Out Drawer
-.menu {
-  background: white;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  padding: 40px 20px;
-  position: absolute;
-  top: 0;
-  transform: translateX(-100%);
-  transition: all 0.35s ease-in;
-  z-index: 10;
-  box-shadow: -3px 0px 8px 2px #808080;
-  &.opened {
-    animation: menuIn 0.35s forwards;
+
+@keyframes submenu {
+  0% {
+    opacity: 0;
+    top: -30%;
   }
-  &.closed {
-    animation: menuOut 0.35s forwards;
+  50% {
+    opacity: 0;
+    top: 0;
   }
-  a {
-    border-bottom: 1px solid $hairline;
-    display: block;
-    padding: 8px 3em 8px 10px;
-    transition: all 0.15s ease-in;
-    &.portfolio-link {
-      font-size: 0.9rem;
-      padding: 8px 3em 8px 15px;
-    }
-    &.social {
-      border: none;
-      display: inline-block;
-      padding: 1em 1em 0.5em 1em;
-      img {
-        height: 25px;
-        width: 25px;
-      }
-    }
-    &:hover {
-      box-shadow: inset 0px -3px 0px 0px $green;
-    }
+  100% {
+    opacity: 1;
+    top: 105px;
   }
-  p {
-    padding: 8px 3em 8px 10px;
-    border-bottom: 1px solid darken($hairline, 20%);
-    margin: 0;
+}
+
+@keyframes submenu__close {
+  0% {
+    top: 105px;
+    opacity: 1;
   }
-  .main-menu {
-    float: left;
-  }
-  #menu-close {
-    border: none;
-    padding: 0;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    img {
-      width: 20px;
-    }
-    &:hover {
-      box-shadow: none;
-    }
-  }
-  @include media-query($medium) {
-    padding: 4em;
+  100% {
+    opacity: 0;
+    top: -30%;
   }
 }

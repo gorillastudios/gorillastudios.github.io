@@ -41,7 +41,7 @@
   img {
     margin-bottom: 4em;
   }
-  @include media-query($medium) {
+  @include media-query($small) {
     padding: 0;
     img {
       @include span-columns(4);

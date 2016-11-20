@@ -28,6 +28,7 @@ $green: #69A55B;
 $grey:  #828282;
 $grey-light: lighten($grey, 40%);
 $grey-dark:  darken($grey, 25%);
+$off-white: #eeeeee;
 
 
 $site-width: 1200px;
@@ -55,6 +56,7 @@ ul, ol, dl, figure,
 $small: 600px;
 $medium: 800px;
 $large: 1000px;
+$xlarge: 1200px;
 
 
 @mixin media-query($size) {

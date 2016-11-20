@@ -29,7 +29,6 @@
     <script src="/js/jquery-1.8.2.js"></script>
     <script src="/js/modernizr.custom.js"></script>
     <script src="/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/js/masonry.pkgd.min.js"></script>
     <script src="/js/lightgallery.js"></script>
 
 
@@ -46,51 +45,50 @@
 </head>
 
   <body  data-current-page="/tutorial/2015/02/07/selective-sharpening">
-    <header class="site-header">
-  <a id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu">Menu</a></li>
-  <a class="site-title" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+    <header class="header__site-wide">
+  <div class="header__branding-and-toggle">
+    <a class="header__logo-anchor" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+    <a class="header__menu-toggle" id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu"></a></a>
+  </div>
+  <nav class="header__navigation">
+    <section class="nav__top-menu">
+      <a href="/">Home</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="#" class="nav__dropdown-toggle">Portfolios</a>
+    </section>
+    <section class="nav__submenu initial closed">
+      <a class="portfolio-link" id="nav__music" href="/music">Music</a>
+      <a class="portfolio-link" id="nav__black-white" href="/black-and-white">Black &amp; White</a>
+      <a class="portfolio-link" id="nav__astronomy" href="/astronomy">Astronomy</a>
+      <a class="portfolio-link" id="nav__chicago" href="/chicago">Chicago</a>
+      <a class="portfolio-link" id="nav__nature" href="/nature">Nature</a>
+    </section>
+  </nav>
 </header>
-
-<div class="menu">
-  <a href="#" id="menu-close"><img src="/images/close.svg"></a>
-  <div class="main-menu">
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/about">About</a>
-    <p>Portfolios</p>
-    <a class="portfolio-link" href="/music">Music</a>
-    <a class="portfolio-link" href="/black-and-white">Black &amp; White</a>
-    <a class="portfolio-link" href="/astronomy">Astronomy</a>
-    <a class="portfolio-link" href="/chicago">Chicago</a>
-    <a class="portfolio-link" href="/nature">Nature</a>
-    <a class="social" href="http://twitter.com/gorilla_studios" target="blank"><img src="/images/twitter.svg"></a>
-    <a class="social" href="http://www.instagram.com/gorillastudios/" target="blank"><img src="/images/instagram.png"></a>
-    <a class="social" href="https://500px.com/gorilla-studios" target="blank"><img src="/images/500px.png"></a>
-  </div>
-  <div class="sub-menu">
-  </div>
-</div>
-
 
 <script>
   $('#menu-toggle').click(function()
   {
-    if ($('.menu').hasClass('opened')) {
-      $('.menu').removeClass('opened').addClass('closed');
+    if ($('.header__navigation').hasClass('opened')) {
+      $('.header__navigation').removeClass('opened').addClass('closed');
       return false;
     }
-    if ($('.menu').hasClass('closed')) {
-      $('.menu').removeClass('closed').addClass('opened');
+    if ($('.header__navigation').hasClass('closed')) {
+      $('.header__navigation').removeClass('closed').addClass('opened');
       return false;
     }
-    else ($('.menu').addClass('opened'))
+    else ($('.header__navigation').addClass('opened'))
   });
 
   $('#menu-close').click(function() {
     $('.menu').removeClass('opened').addClass('closed');
   });
-</script>
 
+  $('.nav__dropdown-toggle').click(function() {
+    $('.nav__submenu').removeClass('initial').addClass('touched').toggleClass('open closed');
+  });
+</script>
 
     <div class="site-content animated fadeIn">
       <div class="post">
@@ -161,15 +159,6 @@
 
     </div>
   <script>
-  var $grid = $('.grid').imagesLoaded( function() {
-    $grid.masonry({
-      itemSelector: 'li',
-      columnWidth: 0,
-      gutter: 0
-    });
-  });
-
-
   $('#lightgallery').lightGallery({
     selector: 'a.portfolio-image',
     download: false
