@@ -10,7 +10,7 @@
 }
 
 // ----------------------------- Logo & Menu Toggle
-.header__branding-and-toggle {
+.header__logo-and-toggle {
   overflow: hidden;
   margin-bottom: 5px;
   @include media-query($small) {
@@ -116,7 +116,7 @@
       }
       &.initial {
         top: -30%;
-        opacity: 0.8;
+        opacity: 0;
       }
       &.open {
         animation: submenu 0.4s forwards;
@@ -129,11 +129,22 @@
   @include media-query($large) {
     @include span-columns(9);
     section.nav__submenu a {
+      border: solid $nav-background;
+      border-width: 30px 15px 30px 15px;
       width: 20%;
+      &:first-of-type {
+        border-left: 30px solid $nav-background;
+      }
+    }
+    #nav__nature {
+      border-right: 30px solid $nav-background;
     }
   }
 }
 
+#dropdown-close {
+  display: none;
+}
 
 @include media-query($small) {
   #nav__music {
@@ -161,31 +172,23 @@
     background-size: cover;
     color: white;
   }
-}
-
-
-@keyframes submenu {
-  0% {
-    opacity: 0;
-    top: -30%;
-  }
-  50% {
-    opacity: 0;
-    top: 0;
-  }
-  100% {
-    opacity: 1;
-    top: 105px;
-  }
-}
-
-@keyframes submenu__close {
-  0% {
-    top: 105px;
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    top: -30%;
+  #dropdown-close {
+    border: none;
+    display: block;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    text-shadow: none;
+    top: -20px;
+    width: 60px;
+    img {
+      width: 25px;
+    }
+    &:hover {
+      transform: rotate(180deg);
+      box-shadow: none;
+    }
   }
 }
+

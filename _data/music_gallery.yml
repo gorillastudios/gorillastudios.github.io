@@ -29,6 +29,11 @@
   thumbnail: bret-michaels.jpg
   meta:
 
+- title: The Bret Michaels Band
+  image: /images/bfbc/0K6A4252.jpg
+  thumbnail: 0K6A4252.jpg
+  meta:
+
 - title: The Krank Daddies
   image: /images/bfbc/0K6A4393.jpg
   thumbnail: 0K6A4393.jpg
@@ -70,6 +75,11 @@
   thumbnail: 0K6A3983.jpg
   meta:
 
+- title: The Krank Daddies
+  image: /images/bfbc/0K6A4422.jpg
+  thumbnail: 0K6A4422.jpg
+  meta:
+
 - title: Reverend Horton Heat
   image: /images/music/0K6A4855.jpg
   thumbnail: 0K6A4855.jpg
@@ -78,6 +88,11 @@
 - title: The Voodoo Fix
   image: /images/bfbc/0K6A4160.jpg
   thumbnail: 0K6A4160.jpg
+  meta:
+
+- title: The Cadillac Cassanovas
+  image: /images/music/standing-bass2.jpg
+  thumbnail: standing-bass2.jpg
   meta:
 
 - title: The Krank Daddies
