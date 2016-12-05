@@ -1,4 +1,41 @@
-//--------------------------------------- Blog Post Index Page
+//--------------------------------------- Index /
+#index-spacer {
+  display: none;
+    opacity: 1;
+  @include media-query($small) {
+    animation: fadeOut 2s forwards;
+    background: white;
+    display: block;
+    padding-top: 100%;
+  }
+  @include media-query($medium) {
+    padding-top: 75%;
+  }
+}
+
+.flag {
+  display: none;
+  @include media-query($small) {
+    animation: bounce 4s forwards;
+    animation-delay: 2s;
+    border: none;
+    bottom: 20px;
+    display: block;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    &:before {
+      content: "\f107";
+      font-family: "FontAwesome";
+      font-size: 3.5em;
+    }
+  }
+}
+
+
+//--------------------------------------- Blog /blog
 .block-list {
   @include outer-container;
   padding: 20px;
@@ -51,7 +88,7 @@
 }
 
 
-//--------------------------------------- Contact Form
+//--------------------------------------- /about
 .module__contact {
   input[type="text"],
   input[type="email"],

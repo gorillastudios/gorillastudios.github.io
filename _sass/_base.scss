@@ -98,6 +98,14 @@ body {
   position: relative;
 }
 
+.marquee {
+  @include media-query($small) {
+    background-image: url('/images/catalog/0K6A1986.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+}
 
 
 // ---------------------------------------- Images

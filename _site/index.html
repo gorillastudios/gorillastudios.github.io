@@ -44,7 +44,7 @@
     </script>
 </head>
 
-  <body >
+  <body class="marquee" >
     <header class="header__site-wide">
   <div class="header__logo-and-toggle">
     <a class="header__logo-anchor" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
@@ -90,8 +90,10 @@
   });
 </script>
 
+    <div id="index-spacer"></div>
     <div class="site-content animated fadeIn">
-      <ul class="new-grid" id="lightgallery">
+      <a href="#lightgallery" class="flag"></a>
+<ul class="new-grid index-gallery" id="lightgallery">
   <li></li>
 
   <li>
@@ -304,6 +306,25 @@
   </li>
 
 </ul>
+
+
+
+<script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+  });
+});
+</script>
 
     </div>
   <script>

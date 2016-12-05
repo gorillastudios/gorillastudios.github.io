@@ -2929,6 +2929,13 @@ body {
   margin: 0;
   position: relative; }
 
+@media screen and (min-width: 600px) {
+  .marquee {
+    background-image: url("/images/catalog/0K6A1986.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%; } }
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -3050,6 +3057,18 @@ blockquote {
     box-shadow: none;
     opacity: 0;
     top: -30%; } }
+@keyframes fadeOut {
+  to {
+    opacity: 0; } }
+@keyframes bounce {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-5%);
+    opacity: 0.5; }
+  100% {
+    transform: translateY(0);
+    opacity: 0.1; } }
 [class*="module__"] {
   max-width: 1200px;
   margin-left: auto;
@@ -3120,6 +3139,38 @@ blockquote {
         width: 31.76157%; }
         .triptych img:last-child {
           margin-right: 0; } }
+
+#index-spacer {
+  display: none;
+  opacity: 1; }
+  @media screen and (min-width: 600px) {
+    #index-spacer {
+      animation: fadeOut 2s forwards;
+      background: white;
+      display: block;
+      padding-top: 100%; } }
+  @media screen and (min-width: 800px) {
+    #index-spacer {
+      padding-top: 75%; } }
+
+.flag {
+  display: none; }
+  @media screen and (min-width: 600px) {
+    .flag {
+      animation: bounce 4s forwards;
+      animation-delay: 2s;
+      border: none;
+      bottom: 20px;
+      display: block;
+      left: 0;
+      opacity: 0;
+      position: fixed;
+      right: 0;
+      text-align: center; }
+      .flag:before {
+        content: "\f107";
+        font-family: "FontAwesome";
+        font-size: 3.5em; } }
 
 .block-list {
   max-width: em(1088);
@@ -3340,10 +3391,12 @@ blockquote {
         margin-left: 34.11922%; } }
 
 .new-grid {
+  background: white;
   -webkit-columns: 1;
   -moz-columns: 1;
   columns: 1;
-  column-gap: 0; }
+  column-gap: 0;
+  position: relative; }
   .new-grid a {
     break-inside: avoid-column;
     border: none;
@@ -3357,16 +3410,24 @@ blockquote {
   @media screen and (min-width: 600px) {
     .new-grid {
       -webkit-columns: 2;
+      -moz-columns: 2;
+      columns: 2;
       padding: 1em; } }
   @media screen and (min-width: 800px) {
     .new-grid {
-      -webkit-columns: 3; } }
+      -webkit-columns: 3;
+      -moz-columns: 3;
+      columns: 3; } }
   @media screen and (min-width: 1000px) {
     .new-grid {
-      -webkit-columns: 3; } }
+      -webkit-columns: 4;
+      -moz-columns: 4;
+      columns: 4; } }
   @media screen and (min-width: 1200px) {
     .new-grid {
-      -webkit-columns: 4; } }
+      -webkit-columns: 4;
+      -moz-columns: 4;
+      columns: 4; } }
 
 .lg-sub-html {
   font-size: .85em; }
