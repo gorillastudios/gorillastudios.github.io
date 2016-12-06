@@ -99,7 +99,7 @@ body {
 }
 
 .marquee {
-  @include media-query($small) {
+  @include media-query($medium) {
     background-image: url('/images/catalog/0K6A1986.jpg');
     background-attachment: fixed;
     background-size: cover;

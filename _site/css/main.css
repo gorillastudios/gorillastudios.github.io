@@ -2929,7 +2929,7 @@ body {
   margin: 0;
   position: relative; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .marquee {
     background-image: url("/images/catalog/0K6A1986.jpg");
     background-attachment: fixed;
@@ -3143,19 +3143,19 @@ blockquote {
 #index-spacer {
   display: none;
   opacity: 1; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 800px) {
     #index-spacer {
       animation: fadeOut 2s forwards;
       background: white;
       display: block;
       padding-top: 100%; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1000px) {
     #index-spacer {
       padding-top: 75%; } }
 
 .flag {
   display: none; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 800px) {
     .flag {
       animation: bounce 4s forwards;
       animation-delay: 2s;

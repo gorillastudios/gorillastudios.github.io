@@ -2,20 +2,20 @@
 #index-spacer {
   display: none;
     opacity: 1;
-  @include media-query($small) {
+  @include media-query($medium) {
     animation: fadeOut 2s forwards;
     background: white;
     display: block;
     padding-top: 100%;
   }
-  @include media-query($medium) {
+  @include media-query($large) {
     padding-top: 75%;
   }
 }
 
 .flag {
   display: none;
-  @include media-query($small) {
+  @include media-query($medium) {
     animation: bounce 4s forwards;
     animation-delay: 2s;
     border: none;
