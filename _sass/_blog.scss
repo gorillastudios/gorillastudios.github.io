@@ -1,10 +1,12 @@
+$post-constraint: 800px;
+
 // --------------------------------------- Individual Posts
 .post {
-  @include outer-container(1000px);
+  @include outer-container(1200px);
   padding: 10px;
   h2, h3, h4, h5, p, ul {
-    margin: 0 auto 1.5em auto;
-    max-width: 800px;
+    margin: 0 auto 2em auto;
+    max-width: $post-constraint;
   }
   .quote p {
     border-left: 2px solid $hairline;
@@ -13,8 +15,6 @@
   @include media-query($small) {
     padding: 2em 20px;
     margin-bottom: 3em;
-    h2, h3, h4, h5, p, ul {
-    }
     p {
       font-size: 120%;
     }
@@ -28,7 +28,7 @@
   font-size: 1.777em;
   line-height: 1em;
   margin: 0 auto 0.5em auto;
-  max-width: 800px;
+  max-width: $post-constraint;
   @include media-query($small) {
     line-height: 1.75em;
     font-size: 2.5em;
@@ -36,15 +36,15 @@
 }
 
 .post__meta-information {
-  display: block;
   color: $red;
+  display: block;
   font-family: $base-font-family;
   font-size: 0.6em;
   font-weight: 300;
-  float: right;
   margin-bottom: 0 !important;
   @include media-query($small) {
     display: inline-block;
+    float: right;
     font-size: 0.5em;
     margin-left: 1em;
     vertical-align: middle;
@@ -53,7 +53,7 @@
 
 // --------------------------------------- Figures & iFrames
 .post figure {
-  margin: 0 auto 1.5em auto;
+  margin: 0 auto 2em auto;
   figcaption span {
     float: right;
   }
@@ -129,12 +129,44 @@
   }
 }
 
+// --------------------------------------- Social Network Sharing
+.post__share-panel {
+  border-bottom: 1px solid $hairline;
+  border-top: 1px solid $hairline;
+  margin: 2em auto;
+  max-width: $post-constraint;
+  p {
+    margin: 0;
+    text-align: center;
+  }
+  a {
+    border: none;
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.25em;
+    vertical-align: middle;
+    &.facebook {
+      color: $facebook-blue;
+    }
+    &.twitter {
+      color: $twitter-blue;
+    }
+    &.google {
+      color: $google-red;
+    }
+  }
+  @include media-query($small) {
+    margin: 6em auto 3em auto;
+  }
+}
 
 // --------------------------------------- Pagination Lists
 
 .page-navigation {
-  margin-top: 4em;
+  @include outer-container;
+  max-width: $post-constraint;
 }
+
 .page-navigation a {
   border: 1px solid $hairline;
   display: block;

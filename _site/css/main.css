@@ -3254,7 +3254,7 @@ blockquote {
     width: 50%; } }
 
 .post {
-  max-width: 1000px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px; }
@@ -3263,7 +3263,7 @@ blockquote {
     content: "";
     display: table; }
   .post h2, .post h3, .post h4, .post h5, .post p, .post ul {
-    margin: 0 auto 1.5em auto;
+    margin: 0 auto 2em auto;
     max-width: 800px; }
   .post .quote p {
     border-left: 2px solid #DDDDDD;
@@ -3288,22 +3288,22 @@ blockquote {
       font-size: 2.5em; } }
 
 .post__meta-information {
-  display: block;
   color: #990000;
+  display: block;
   font-family: "Proxima Nova", "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 0.6em;
   font-weight: 300;
-  float: right;
   margin-bottom: 0 !important; }
   @media screen and (min-width: 600px) {
     .post__meta-information {
       display: inline-block;
+      float: right;
       font-size: 0.5em;
       margin-left: 1em;
       vertical-align: middle; } }
 
 .post figure {
-  margin: 0 auto 1.5em auto; }
+  margin: 0 auto 2em auto; }
   .post figure figcaption span {
     float: right; }
   .post figure.vertical img,
@@ -3352,8 +3352,39 @@ blockquote {
       .blog-archive-list a {
         padding: 10px; } }
 
+.post__share-panel {
+  border-bottom: 1px solid #DDDDDD;
+  border-top: 1px solid #DDDDDD;
+  margin: 2em auto;
+  max-width: 800px; }
+  .post__share-panel p {
+    margin: 0;
+    text-align: center; }
+  .post__share-panel a {
+    border: none;
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.25em;
+    vertical-align: middle; }
+    .post__share-panel a.facebook {
+      color: #425697; }
+    .post__share-panel a.twitter {
+      color: #0084b4; }
+    .post__share-panel a.google {
+      color: #D43E3C; }
+  @media screen and (min-width: 600px) {
+    .post__share-panel {
+      margin: 6em auto 3em auto; } }
+
 .page-navigation {
-  margin-top: 4em; }
+  max-width: em(1088);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; }
+  .page-navigation::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .page-navigation a {
   border: 1px solid #DDDDDD;
