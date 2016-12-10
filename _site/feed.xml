@@ -8,6 +8,37 @@
     <atom:link href="http://gorilla-studios.com/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>My Lightroom workflow</title>
+      <description>&lt;p&gt;I finally made the jump this fall and switched my photography workflow to Lightroom 5 full-time. Since at least 2003 I was using Bridge + Photoshop which I knew was not the most efficient way to do it, but it was comfortable and I was fast with it. When I first checked out Lightroom a few years ago I couldn&#39;t quite figure out the way to edit my most recent photos on the go while keeping the bulk of my library at home on my archive drives. After some more thinking, and some inspiration from Martin Bailey, I resolved all my issues and took the plunge.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/lightroom-flow.jpg&quot;&gt;
+  &lt;figcaption&gt;Adobe Lightroom 5&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;My photo catalog is quickly racing towards 2TB and while it&#39;s certainly not as large as some professionals, it&#39;s still big enough to cause headaches. I can&#39;t fit my catalog on my laptop, and smart previews just weren&#39;t going to cut it. After a little reading and testing I setup a workflow where I could have my cake and eat it too. There is a folder on my laptop called &#39;To Vault&#39; (The Vault is the name of my archive drive). I import all new photos into that folder, using a simple &lt;code&gt;YYYY-MM-DD - Subject&lt;/code&gt; folder structure, then open Lightroom and synchronize the folder which imports them into the catalog. Once I am finished editing the photos locally, I then use the Lightroom interface to physically move the source files to The Vault, which is duplicated to another off-site hard drive monthly.&lt;/p&gt;
+&lt;p&gt;I decided to use Lightroom because I was sick of dealing with maintaining both the source catalog alongside a &#39;final edits&#39; collection which took up even more space. Lightroom is non-destructive meaning it saves all your &#39;edits&#39; in simple xml data files which it then applies to the RAW files when you open them in develop mode, that way the source RAW file isn&#39;t touched and the edits are only a few kb of data.&lt;/p&gt;
+&lt;h3&gt;Organization&lt;/h3&gt;
+&lt;p&gt;My rating system, while completely arbitrary, has served me well. Three stars is my baseline for anything that has the potential to be added to my portfolio, four stars for gallery images, and five stars are for my master portfolio - a set of 18-20 photos that showcase my best work. One and two stars are for family photos and client shoots which stay private excepting for their respective subjects. Using this structure allows me to setup smart galleries where I can quickly find my best work from a given time frame, or other constraint.&lt;/p&gt;
+&lt;p&gt;I have a number of smart collections to keep things organized. A catch folder of anything rated higher than 1 in the last 30 days lets me review and edit my &#39;approved&#39; shots over the last month, meaning my last few photo shoots. I also have smart collections for anything rated 3+ for each calendar year which allows me to review and curate a set of best photos from each year. Additionally I like to go back and see if I missed anything, so I use a &#39;Review&#39; collection - setting it as the target collection I can go back and look over photos, tapping &#39;B&#39; to add them quickly so I can take a closer look later.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/2016-3plus.jpg&quot;&gt;
+  &lt;figcaption&gt;All photos from 2016 rated 3+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;Editing&lt;/h3&gt;
+&lt;p&gt;Editing photos is much faster than using Photoshop. All the adjustments needed are right at your fingertips and are  specifically designed for photo editing. For most photos all I usually do is set a lens correction, and make some minor tweaks such as exposure adjustments or spot removal. If I have to do any deep cloning or healing I will sometimes export to Photoshop, but that is only because I am still learning how cloning and healing work in Lightroom. A wonderful feature that I use every time is Before &amp;amp; After review pane. You can view both the original and edited views a few different ways to see how much you have changed - definitely not possible in Photoshop.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/lightroom-comparison.jpg&quot;&gt;
+  &lt;figcaption&gt;Developing and comparing to the original&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Once I am done editing a photo I can simply go back to grid view. I don&#39;t worry about exporting or saving an edited version unless I need to post on social media or deliver to a client. This keeps me from filling up drive after drive with the original RAW files AND edited versions of each. On export I can embed copyright information and watermarks, as well as constrain the image size by the long edge (very handy).&lt;/p&gt;
+&lt;h3&gt;Overall impressions&lt;/h3&gt;
+&lt;p&gt;I am sincerely impressed with Lightroom and wish I had made the jump sooner. I know I could upgrade to Creative Cloud for a monthly fee, but I don&#39;t like the idea of not being able to use it once I stop paying. Lightroom 5 has all the features I need for my workflow, and while there are a few neat tools in Creative Cloud, there is nothing that makes me want to upgrade any time soon. If you have any questions about how I import, organize, edit, or export my work feel free to &lt;a href=&quot;/about&quot;&gt;contact me&lt;/a&gt;, I&#39;d love to chat.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 -0600</pubDate>
+      <link>http://gorilla-studios.com//post/2016/12/10/lightroom.html</link>
+      <guid isPermaLink="true">http://gorilla-studios.com//post/2016/12/10/lightroom.html</guid>
+    </item>
+    
+    <item>
       <title>Leroy Oakes Forest Preserve</title>
       <description>&lt;p&gt;Northern Illinois got it&#39;s first snow of the season when a few inches came down just before lunch yesterday. I hadn&#39;t taken the camera out for a while so I decided to head over to Leroy Oakes Forest Preserve here in St. Charles to see if I could capture some of the magic. It&#39;s a wonderful park just west of the city and while it&#39;s a hot spot for portrait photographers, I discovered years ago that when it&#39;s blanketed in snow there are some perfect spots for minimalist landscapes.&lt;/p&gt;
 &lt;p&gt;I pulled in and sure enough there were a few families brave enough to be doing portrait sessions in the blustery snow. Just past the two barns where most of the portraits are taken is a small one room schoolhouse, Sholes School. Local grade-schoolers get to spend the day there in period costume learning about what it was like living here in Illinois back in the 1800&#39;s - which I myself was lucky enough to do back in second grade.&lt;/p&gt;
@@ -461,26 +492,6 @@
       <pubDate>Sun, 08 Nov 2015 00:00:00 -0600</pubDate>
       <link>http://gorilla-studios.com//blog/2015/11/08/leo-carillo.html</link>
       <guid isPermaLink="true">http://gorilla-studios.com//blog/2015/11/08/leo-carillo.html</guid>
-    </item>
-    
-    <item>
-      <title>A starry night in DeKalb</title>
-      <description>&lt;p&gt;A few months ago I was heading back from downstate IL when my GPS took me a different route than I was used to, and on the way I stumbled across this old weather-stripped barn on one of the backroads in DeKalb, IL. The county is full of them so I am always on the lookout for any that have a lot of character that stood on their own and this one fit the bill nicely. I made a note of it&#39;s location and thought about how I wanted to photograph it at some point. I&#39;ve done quite a few rural photos of barns, especially when I was getting started, however they were all during the day, and due to my inexperience, mostly in the worst light imagineable. I had always wanted to shoot a starscape through the roof of an old barn at another location, but I thought this might be a better opportunity.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/google-maps-dekalb.jpg&quot;&gt;
-  &lt;figcaption&gt;Scouting the location beforehand in Google Maps&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Learning from the dissapointment of being in Sedona during a full moon I checked the calendar to see when the next new moon was so it would be as dark as possible, the only variable would be clouds. I checked the weather in the afternoon and everything looked great, so at about 12:30am I packed up my gear and drove out to the farm. As I pulled up I found there was a street light about 20 yards behind the spot I would be shooting from and I realized that this would actually light the barn nicely. I was worried beforehand that it would be a silouhette shot without some kind of fill flash on the barn but after the first exposure I found that it was lit absolutely perfectly.&lt;/p&gt;
-&lt;p&gt;One challenge I always have with landscapes at night is composition - it&#39;s much too dark for a live-preview, and if I wan&#39;t to shoot from close to the ground its really uncomfortable getting down and looking through the viewfinder. Thankfully at 19mm I can just eyeball it and after about 2 or 3 exposures I get locked into the composition I had in mind. I dialed in to a 20 second exposure to ensure the stars didn&#39;t streak but it allows enough time at ISO2000 to get a balanced exposure.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/catalog/0K6A6846.jpg&quot;&gt;
-  &lt;figcaption&gt;A starry night in DeKalb IL&lt;span&gt;20s, f/6.3, ISO2000&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;The light from the street was absolutely perfect, but it did throw off the color temperature a bit which is easy enough to fix in post. The night sky has a very dreamy feeling to it which I love, creating a very meditative photograph. I think I am going to head back in a few weeks during the next new moon to take it to the next level and make my first attempt at star-trails.&lt;/p&gt;
-</description>
-      <pubDate>Wed, 14 Oct 2015 00:00:00 -0500</pubDate>
-      <link>http://gorilla-studios.com//blog/2015/10/14/starry-night.html</link>
-      <guid isPermaLink="true">http://gorilla-studios.com//blog/2015/10/14/starry-night.html</guid>
     </item>
     
   </channel>
