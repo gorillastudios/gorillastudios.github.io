@@ -46,7 +46,12 @@
 
 - title: The Bret Michaels Band
   image: /images/bm/6.jpg
-  thumbnail: /bm/6.jpg
+  thumbnail: bm/6.jpg
+  meta:
+
+- title: Evening Glow
+  image: /images/evening/0K6A9136.jpg
+  thumbnail: 0K6A9136.jpg
   meta:
 
 - title: Cadillac Cassanovas
