@@ -187,6 +187,7 @@
     }
     &:hover {
       transform: rotate(180deg);
+      transform-origin: 50% 48.5%;
       box-shadow: none;
     }
   }

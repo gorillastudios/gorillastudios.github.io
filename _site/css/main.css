@@ -2931,7 +2931,7 @@ body {
 
 @media screen and (min-width: 800px) {
   .marquee {
-    background-image: url("/images/catalog/0K6A1986.jpg");
+    background-image: url("/images/catalog/0K6A1975.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%; } }
@@ -3706,6 +3706,7 @@ blockquote {
       width: 25px; }
     #dropdown-close:hover {
       transform: rotate(180deg);
+      transform-origin: 50% 48.5%;
       box-shadow: none; } }
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
