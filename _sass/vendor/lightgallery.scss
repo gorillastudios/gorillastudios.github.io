@@ -19,9 +19,9 @@
 }
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
-  background-color: rgba(255,255,255,0.25);
+  background-color: rgba(0,0,0,0.25);
   border-radius: 2px;
-  color: #999;
+  color: rgba(255,255,255,0.25);
   cursor: pointer;
   display: block;
   font-size: 22px;
@@ -36,7 +36,7 @@
   opacity: 0.5;
 }
 .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover {
-  color: #000;
+  color: #fff;
 }
 .lg-actions .lg-next {
   right: 20px;
@@ -152,16 +152,16 @@
   position: relative;
 }
 
-.lg-toolbar {
+.lg-toolbar { // ---------------------------------- Top Toolbar
   z-index: 1082;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: rgba(255,255,255,0.25);
+  background-color: rgba(0,0,0,0.25);
 }
 .lg-toolbar .lg-icon {
-  color: #999;
+  color: rgba(255,255,255,0.25);
   cursor: pointer;
   float: right;
   font-size: 24px;
@@ -177,7 +177,7 @@
   transition: color 0.2s linear;
 }
 .lg-toolbar .lg-icon:hover {
-  color: #000;
+  color: #fff;
 }
 .lg-toolbar .lg-close:after {
   content: "\e070";
@@ -186,10 +186,10 @@
   content: "\e0f2";
 }
 
-.lg-sub-html {
-  background-color: rgba(255,255,255,0.5);
+.lg-sub-html { // --------------------------------------- Bottom bar
+  background-color: rgba(0,0,0,0.25);
   bottom: 0;
-  color: #2b2b2b;
+  color: rgba(255,255,255,0.75);
   font-size: 16px;
   left: 0;
   padding: 10px 40px;
@@ -715,7 +715,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 .lg-outer .lg-img-wrap {
   position: absolute;
-  padding: 0 5px;
+  //padding: 0 5px;
+  padding: 0;
   left: 0;
   right: 0;
   top: 0;
@@ -758,7 +759,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   right: 0;
   bottom: 0;
   z-index: 1040;
-  background-color: rgba(255,255,255,0.98);
+  background-color: rgba(0,0,0,0.98); // Background
   opacity: 0;
   -webkit-transition: opacity 0.15s ease 0s;
   -o-transition: opacity 0.15s ease 0s;

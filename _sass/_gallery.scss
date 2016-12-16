@@ -9,7 +9,7 @@
     break-inside: avoid-column;
     border: none;
     display: block;
-    padding: 1em;
+    padding: 0.5em;
     img {
       transition: all 0.25s ease-in;
       width: 100%;
@@ -22,7 +22,7 @@
     -webkit-columns: 2;
     -moz-columns: 2;
     columns: 2;
-    padding: 1em;
+    padding: 0.5em;
   }
   @include media-query($medium) {
     -webkit-columns: 3;
