@@ -3014,17 +3014,7 @@ blockquote {
       margin-left: 40px; } }
 
 #thank-you {
-  background: url("/images/black-white/trump-abstract.jpg");
-  background-size: cover;
-  background-position: 50%;
-  overflow: hidden; }
-  #thank-you .filmstrip {
-    background: rgba(0, 0, 0, 0.65);
-    color: white;
-    font-size: 1.4em;
-    text-align: center;
-    text-shadow: 0px 1px 1px black;
-    padding: 15% 5%; }
+  padding-top: 4em; }
 
 #error-page {
   background: #f2f2f2;
