@@ -1,8 +1,8 @@
-$post-constraint: 800px;
+$post-constraint: 750px;
 
 // --------------------------------------- Individual Posts
 .post {
-  @include outer-container(1200px);
+  @include outer-container(1000px);
   padding: 10px;
   h2, h3, h4, h5, p, ul {
     margin: 0 auto 2em auto;
@@ -30,8 +30,7 @@ $post-constraint: 800px;
   margin: 0 auto 0.5em auto;
   max-width: $post-constraint;
   @include media-query($small) {
-    line-height: 1.75em;
-    font-size: 2.5em;
+    font-size: 2.25em;
   }
 }
 
@@ -39,15 +38,10 @@ $post-constraint: 800px;
   color: $red;
   display: block;
   font-family: $base-font-family;
-  font-size: 0.6em;
+  font-size: 0.5em;
   font-weight: 300;
   margin-bottom: 0 !important;
   @include media-query($small) {
-    display: inline-block;
-    float: right;
-    font-size: 0.5em;
-    margin-left: 1em;
-    vertical-align: middle;
   }
 }
 
@@ -93,11 +87,9 @@ $post-constraint: 800px;
 
 // --------------------------------------- Archive List
 .blog-archive-list {
-  -webkit-column-count: 2;
-  column-count: 2;
-  margin-bottom: 4em;
   a {
-    border-bottom: 1px dotted $hairline;
+    //border-bottom: 1px dotted $hairline;
+    border: 1px solid red;
     color: $charcoal;
     display: inline-block;
     width: 100%;

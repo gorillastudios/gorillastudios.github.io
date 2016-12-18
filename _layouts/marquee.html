@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="marquee" {% if page.id %} data-current-page="{{ page.id }}"{% endif %}>
+  <body {% if page.id %} data-current-page="{{ page.id }}"{% endif %}>
     {% include header.html %}
-    <div id="index-spacer"></div>
-    <div class="site-content animated fadeIn">
-      {{ content }}
+    <div class="site__content-wrap">
+      {% include sidebar.html %}
+      <div id="marquee"></div>
+      <div class="site__content animated fadeIn">
+        {{ content }}
+      </div>
     </div>
   {% include gallery_script.html %}
   </body>

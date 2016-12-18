@@ -9,7 +9,7 @@
     break-inside: avoid-column;
     border: none;
     display: block;
-    padding: 0.5em;
+    padding: 5px;
     img {
       transition: all 0.25s ease-in;
       width: 100%;
@@ -22,22 +22,12 @@
     -webkit-columns: 2;
     -moz-columns: 2;
     columns: 2;
-    padding: 0.5em;
+    padding-right: 5px;
   }
   @include media-query($medium) {
     -webkit-columns: 3;
     -moz-columns: 3;
     columns: 3;
-  }
-  @include media-query($large) {
-    -webkit-columns: 4;
-    -moz-columns: 4;
-    columns: 4;
-  }
-  @include media-query($xlarge) {
-    -webkit-columns: 4;
-    -moz-columns: 4;
-    columns: 4;
   }
 }
 
@@ -58,7 +48,7 @@
 // ---------------------------------------------- Legacy Gallery
 .legacy-gallery {
   display: block;
-  @include outer-container(1200px);
+  @include outer-container(1000px);
   padding: 0 10px;
   figure {
     margin: 0 auto 4em auto;
@@ -72,7 +62,7 @@
     }
   }
   @include media-query($medium) {
-    padding-top: 4em;
+    padding: 5px 30px 20px 0;
     figure.vertical {
       @include span-columns(6);
       @include shift(3);

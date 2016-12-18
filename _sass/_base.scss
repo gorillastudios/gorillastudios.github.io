@@ -100,17 +100,14 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
-}
-
-.marquee {
-  @include media-query($medium) {
-    background-image: url('/images/catalog/0K6A1975.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
+  @include media-query($small) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
   }
 }
-
 
 // ---------------------------------------- Images
 img {

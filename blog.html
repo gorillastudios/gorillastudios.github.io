@@ -2,11 +2,16 @@
 layout: default
 title: Blog
 permalink: /blog/
+id: blog
 ---
 <section class="block-list">
-{% for post in site.posts limit: 7 %}
+{% for post in site.posts %}
 <a class="blog-link hvr-underline-from-center" href="{{ post.url }}">
-  <img src="/images/previews/{{ post.hero }}">
+  {% if post.hero %}
+    <img src="/images/previews/{{ post.hero }}">
+  {% else %}
+    <img src="/images/previews/slug.jpg">
+  {% endif %}
   <section>
     <h3 class="blog-post-date">{{ post.date | date: '%b %d %Y' }}</span></h3>
     <h2 class="blog-post-title">{{ post.title }}</h2>
@@ -14,13 +19,5 @@ permalink: /blog/
   </section>
 </a>
 {% endfor %}
-<a href="/blog-archive">
-  <img src="/images/previews/old-posts.jpg">
-  <section>
-    <h3 class="blog-post-date">Archive</h3>
-    <h2 class="blog-post-title">Older Posts</h2>
-    <p>Find older posts on the archive page</p>
-  </section>
-</a>
 </section>
 

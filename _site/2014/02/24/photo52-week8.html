@@ -46,52 +46,34 @@
 
   <body  data-current-page="/2014/02/24/photo52-week8">
     <header class="header__site-wide">
-  <div class="header__logo-and-toggle">
-    <a class="header__logo-anchor" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
-    <a class="header__menu-toggle" id="menu-toggle"><img src="/images/menu.svg" alt="Main Menu"></a></a>
-  </div>
-  <nav class="header__navigation">
-    <section class="nav__top-menu">
-      <a href="/">Home</a>
-      <a href="/blog">Blog</a>
-      <a href="/about">About</a>
-      <a href="#" class="nav__dropdown-toggle">Portfolios</a>
-    </section>
-    <section class="nav__submenu initial closed">
-      <a class="portfolio-link" id="nav__music" href="/music" alt="Music Photography">Music</a>
-      <a class="portfolio-link" id="nav__black-white" href="/black-and-white" alt="Black and White photography">Black &amp; White</a>
-      <a class="portfolio-link" id="nav__astronomy" href="/astronomy" alt="Astrophotography">Astronomy</a>
-      <a class="portfolio-link" id="nav__chicago" href="/chicago" alt="Chicago photography">Chicago</a>
-      <a class="portfolio-link" id="nav__nature" href="/nature" alt="Nature photography">Nature</a>
-      <a id="dropdown-close" href="#"><img src="/images/close.svg" alt="Close this dropdown menu"></a>
-    </section>
-  </nav>
+  <a class="header__logo-anchor" href="/"><img src="/images/gs5.svg" alt="Gorilla-Studios Photography" /></a>
+  <a href="#" id="menu-toggle"></a>
 </header>
 
 <script>
-  $('#menu-toggle').click(function(){
-    if ($('.header__navigation').hasClass('opened')) {
-      $('.header__navigation').removeClass('opened').addClass('closed');
-      return false;
-    }
-    if ($('.header__navigation').hasClass('closed')) {
-      $('.header__navigation').removeClass('closed').addClass('opened');
-      return false;
-    }
-    else ($('.header__navigation').addClass('opened'))
-  });
-
-  $('#dropdown-close').click(function() {
-    $('.nav__submenu').toggleClass('open closed');
-  });
-
-  $('.nav__dropdown-toggle').click(function() {
-    $('.nav__submenu').removeClass('initial').addClass('touched').toggleClass('open closed');
+  $("#menu-toggle").click(function() {
+    $(".sidebar__navigation").toggleClass("open");
   });
 </script>
 
-    <div class="site-content animated fadeIn">
-      <div class="post">
+
+    <div class="site__content-wrap">
+      <div class="site__sidebar">
+  <nav class="sidebar__navigation">
+    <a  href="/about">About</a>
+    <a  href="/blog">Blog</a>
+    <h5>Portfolios</h5>
+    <a  href="/portfolio">Main</a>
+    <a  href="/music">Music</a>
+    <a  href="/architecture">Architecture</a>
+    <a  href="/astronomy">Astronomy</a>
+    <a  href="/chicago">Chicago</a>
+    <a  href="/nature">Nature</a>
+  </nav>
+</div>
+
+      <div class="site__content animated fadeIn">
+        <div class="post">
   <header>
     <h1 class="post__title">Week 8 - Chicago By Train
       <span class="post__meta-information">Feb 24, 2014</span></h1>
@@ -139,6 +121,7 @@
   </div>
 </div>
 
+      </div>
     </div>
   <script>
   $('#lightgallery').lightGallery({

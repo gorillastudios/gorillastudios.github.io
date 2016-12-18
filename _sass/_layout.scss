@@ -1,3 +1,40 @@
+.site__content-wrap {
+  position: relative;
+  @include media-query($small) {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.site__sidebar {
+  @include media-query($small) {
+    bottom: 0;
+    left: 0;
+    padding-top: 5em;
+    position: absolute;
+    right: 80%;
+    top: 0;
+  }
+}
+
+.site__content {
+  min-height: 700px;
+  @include media-query($small) {
+    bottom: 0;
+    left: 20%;
+    overflow-y: scroll;
+    padding-top: 5em;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+
 [class*="module__"] {
   @include outer-container(1200px);
   padding: 10px;
@@ -42,7 +79,6 @@
     margin-bottom: 4em;
   }
   @include media-query($small) {
-    padding: 0;
     img {
       @include span-columns(4);
     }

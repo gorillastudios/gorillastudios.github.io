@@ -4,9 +4,18 @@
   thumbnail: 0K6A4381.jpg
   meta:
 
+- title: Evening Glow
+  image: /images/evening/0K6A9010.jpg
+  thumbnail: 0K6A9010.jpg
+
 - title: Reverend Horton Heat
   image: /images/bfbc/0K6A4862.jpg
   thumbnail: 0K6A4862.jpg
+  meta:
+
+- title: Amplifiers
+  image: /images/bfbc/0K6A3910.jpg
+  thumbnail: 0K6A3910.jpg
   meta:
 
 - title: Reverend Horton Heat
@@ -34,11 +43,6 @@
   thumbnail: 0K6A4252.jpg
   meta:
 
-- title: The Krank Daddies
-  image: /images/bfbc/0K6A4393.jpg
-  thumbnail: 0K6A4393.jpg
-  meta:
-
 - title: Cadillac Cassanovas
   image: /images/music/carl.jpg
   thumbnail: carl.jpg
@@ -47,6 +51,11 @@
 - title: The Bret Michaels Band
   image: /images/bm/6.jpg
   thumbnail: bm/6.jpg
+  meta:
+
+- title: The Krank Daddies
+  image: /images/bfbc/0K6A4393.jpg
+  thumbnail: 0K6A4393.jpg
   meta:
 
 - title: Evening Glow
@@ -100,7 +109,22 @@
   thumbnail: standing-bass2.jpg
   meta:
 
+- title: The Voodoo Fix
+  image: /images/bfbc/0K6A4013.jpg
+  thumbnail: 0K6A4013.jpg
+  meta:
+
 - title: The Krank Daddies
   image: /images/bfbc/0K6A4363.jpg
   thumbnail: 0K6A4363.jpg
+  meta:
+
+- title: The Krank Daddies
+  image: /images/bfbc/0K6A4302.jpg
+  thumbnail: 0K6A4302.jpg
+  meta:
+
+- title: Reverend Horton Heat
+  image: /images/bfbc/0K6A4853.jpg
+  thumbnail: 0K6A4853.jpg
   meta:
