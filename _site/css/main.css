@@ -3013,19 +3013,9 @@ blockquote {
     blockquote {
       margin-left: 40px; } }
 
-#thank-you {
-  padding-top: 4em; }
-
-#error-page {
-  background: #f2f2f2;
-  border-top: 1px solid #DDDDDD;
-  border-bottom: 1px solid #DDDDDD;
-  color: #aaa;
-  font-size: 1.5em;
-  height: 80%;
-  padding: 10% 20%;
-  text-align: center;
-  text-shadow: 0px 1px 1px white; }
+.one-line-page {
+  padding-top: 4em;
+  text-align: center; }
 
 @keyframes slowFadeIn {
   to {
@@ -3063,10 +3053,9 @@ blockquote {
       bottom: 0;
       left: 20%;
       overflow-y: scroll;
-      padding-top: 5em;
       position: absolute;
       right: 0;
-      top: 0; } }
+      top: 5em; } }
 
 [class*="module__"] {
   max-width: 1200px;
@@ -3285,22 +3274,23 @@ blockquote {
   font-weight: 300;
   margin-bottom: 0 !important; }
 
-.post figure {
+.post article figure {
   margin: 0 auto 2em auto; }
-  .post figure figcaption span {
+  .post article figure img {
+    margin: 0 auto; }
+  .post article figure figcaption span {
     float: right; }
-  .post figure.vertical img,
-  .post figure.vertical figcaption {
-    margin: 0 auto;
+  .post article figure.vertical img,
+  .post article figure.vertical figcaption {
     max-width: 60%; }
-  .post figure.half-and-half {
+  .post article figure.half-and-half {
     overflow: hidden; }
-    .post figure.half-and-half img {
+    .post article figure.half-and-half img {
       float: left;
       width: 49%; }
-    .post figure.half-and-half img:first-of-type {
+    .post article figure.half-and-half img:first-of-type {
       margin: 0 1% 0 0; }
-    .post figure.half-and-half img:last-of-type {
+    .post article figure.half-and-half img:last-of-type {
       margin: 0 0 0 1%; }
 
 .post iframe {
@@ -3405,6 +3395,8 @@ blockquote {
   -webkit-columns: 1;
   -moz-columns: 1;
   columns: 1;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
   column-gap: 0;
   position: relative; }
   .new-grid a {
@@ -3422,12 +3414,17 @@ blockquote {
       -webkit-columns: 2;
       -moz-columns: 2;
       columns: 2;
-      padding-right: 5px; } }
+      padding: 5px; } }
   @media screen and (min-width: 800px) {
     .new-grid {
       -webkit-columns: 3;
       -moz-columns: 3;
       columns: 3; } }
+  @media screen and (min-width: 1600px) {
+    .new-grid {
+      -webkit-columns: 4;
+      -moz-columns: 4;
+      columns: 4; } }
 
 .lg-sub-html {
   font-size: .85em; }
@@ -3532,6 +3529,7 @@ blockquote {
       left: 0;
       position: relative; }
       .sidebar__navigation h5, .sidebar__navigation a {
+        font-size: 0.9em;
         border: none;
         color: #999;
         padding: 5px 5px 5px 20px; }

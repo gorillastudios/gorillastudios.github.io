@@ -62,7 +62,7 @@ ul, ol, dl, figure,
 $small: 600px;
 $medium: 800px;
 $large: 1000px;
-$xlarge: 1200px;
+$xlarge: 1600px;
 
 
 @mixin media-query($size) {
@@ -230,19 +230,8 @@ blockquote {
 }
 
 // ----------------------------------------- Thank you
-#thank-you {
-  padding-top: 4em;
-}
-
 // ----------------------------------------- 404
-#error-page {
-  background: #f2f2f2;
-  border-top: 1px solid $hairline;
-  border-bottom: 1px solid $hairline;
-  color: #aaa;
-  font-size: 1.5em;
-  height: 80%;
-  padding: 10% 20%;
+.one-line-page {
+  padding-top: 4em;
   text-align: center;
-  text-shadow: 0px 1px 1px white;
 }

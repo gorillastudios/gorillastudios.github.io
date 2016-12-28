@@ -5,6 +5,9 @@
     {% include header.html %}
     <div class="site__content-wrap">
       {% include sidebar.html %}
+      {% if page.flag == "marquee" %}
+        <div id="marquee"></div>
+      {% endif %}
       <div class="site__content animated fadeIn">
         {{ content }}
       </div>

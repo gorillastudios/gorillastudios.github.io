@@ -3,6 +3,8 @@
   -webkit-columns: 1;
   -moz-columns: 1;
   columns: 1;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
   column-gap: 0;
   position: relative;
   a {
@@ -22,12 +24,17 @@
     -webkit-columns: 2;
     -moz-columns: 2;
     columns: 2;
-    padding-right: 5px;
+    padding: 5px;
   }
   @include media-query($medium) {
     -webkit-columns: 3;
     -moz-columns: 3;
     columns: 3;
+  }
+  @include media-query($xlarge) {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
   }
 }
 

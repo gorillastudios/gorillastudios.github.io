@@ -46,15 +46,17 @@ $post-constraint: 750px;
 }
 
 // --------------------------------------- Figures & iFrames
-.post figure {
+.post article figure {
   margin: 0 auto 2em auto;
+  img {
+    margin: 0 auto;
+  }
   figcaption span {
     float: right;
   }
   &.vertical {
     img,
     figcaption {
-      margin: 0 auto;
       max-width: 60%;
     }
   }
