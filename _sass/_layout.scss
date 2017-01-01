@@ -22,7 +22,7 @@
 }
 
 .site__content {
-  min-height: 700px;
+  min-height: 1400px;
   @include media-query($small) {
     bottom: 0;
     left: 20%;
@@ -30,6 +30,7 @@
     position: absolute;
     right: 0;
     top: 5em;
+    min-height: 0;
   }
 }
 

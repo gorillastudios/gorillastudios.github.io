@@ -3047,7 +3047,7 @@ blockquote {
     top: 0; } }
 
 .site__content {
-  min-height: 700px; }
+  min-height: 1400px; }
   @media screen and (min-width: 600px) {
     .site__content {
       bottom: 0;
@@ -3055,7 +3055,8 @@ blockquote {
       overflow-y: scroll;
       position: absolute;
       right: 0;
-      top: 5em; } }
+      top: 5em;
+      min-height: 0; } }
 
 [class*="module__"] {
   max-width: 1200px;
