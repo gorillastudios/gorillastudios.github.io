@@ -501,12 +501,6 @@
   exposure: 15s, f/13, ISO100
   tags: chicago, black-and-white, sculpture, long-exposure
 
-- title: The Wrigley Building
-  image_path: p52/04.jpg
-  thumbnail: /images/thumbnails/04.jpg
-  exposure: 13s, f/10, ISO50
-  tags: chicago, cityscape, dusk
-
 - title: Chicago sunset
   image_path: catalog/IMG_6155.jpg
   thumbnail: /images/thumbnails/IMG_6155.jpg
