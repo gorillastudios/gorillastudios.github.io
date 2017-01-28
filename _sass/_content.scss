@@ -1,7 +1,7 @@
 //--------------------------------------- Index
 #marquee {
   animation: slowFadeIn 3s forwards;
-  background-image: url('/images/catalog/0K6A1986.jpg');
+  background-image: url('/images/catalog/0K6A2868.jpg');
   background-position: 40%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
   top: 0;
   z-index: -5;
   @include media-query($small) {
-    background-image: url('/images/catalog/0K6A1975.jpg');
+    //background-image: url('/images/catalog/0K6A2868.jpg');
   }
 }
 

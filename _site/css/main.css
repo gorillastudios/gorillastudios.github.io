@@ -3047,7 +3047,7 @@ blockquote {
     top: 0; } }
 
 .site__content {
-  min-height: 1400px; }
+  min-height: 736px; }
   @media screen and (min-width: 600px) {
     .site__content {
       bottom: 0;
@@ -3129,7 +3129,7 @@ blockquote {
 
 #marquee {
   animation: slowFadeIn 3s forwards;
-  background-image: url("/images/catalog/0K6A1986.jpg");
+  background-image: url("/images/catalog/0K6A2868.jpg");
   background-position: 40%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3140,9 +3140,6 @@ blockquote {
   right: 0;
   top: 0;
   z-index: -5; }
-  @media screen and (min-width: 600px) {
-    #marquee {
-      background-image: url("/images/catalog/0K6A1975.jpg"); } }
 
 .block-list a {
   border-bottom: 1px solid #DDDDDD;

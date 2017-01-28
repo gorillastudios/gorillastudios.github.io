@@ -453,7 +453,7 @@
   image_path: catalog/0K6A0017.jpg
   thumbnail: /images/thumbnails/0K6A0017.jpg
   exposure: 1/250th, f/9, ISO125
-  tags: black-and-white, architecture, chicago, abstract
+  tags: black-and-white, architecture, abstract
 
 - title: Trump Tower, Chicago
   image_path: catalog/0K6A0047.jpg
@@ -2396,3 +2396,10 @@
   image_path: /posts/ferguson/9.jpg
   date: August 15th, 2014
   exposure: 1/100th, f/9, ISO3200
+
+- title: Sears Tower
+  image_path: /catalog/0K6A2842.jpg
+  thumbnail: /images/thumbnails/0K6A2842.jpg
+  date: January 25th, 2017
+  exposure: 1/125th, f/8, ISO500, 35mm
+  tags: chicago, sears-tower
