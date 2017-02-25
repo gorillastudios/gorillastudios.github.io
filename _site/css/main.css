@@ -3050,6 +3050,7 @@ blockquote {
   min-height: 736px; }
   @media screen and (min-width: 600px) {
     .site__content {
+      padding-right: 20px;
       bottom: 0;
       left: 20%;
       overflow-y: scroll;
@@ -3092,6 +3093,16 @@ blockquote {
       [class*="module__"] .content h4, [class*="module__"] .content p {
         font-size: 110%;
         margin-top: 0; } }
+@media screen and (min-width: 600px) {
+  .module__related-posts {
+    border: 1px solid red;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%; }
+    .module__related-posts:last-child {
+      margin-right: 0; } }
 @media screen and (min-width: 600px) {
   .module__about .content {
     float: left;
@@ -3459,7 +3470,7 @@ blockquote {
         margin-right: 0; }
   @media screen and (min-width: 800px) {
     .legacy-gallery {
-      padding: 5px 30px 20px 0; }
+      padding: 5px 0 20px 0; }
       .legacy-gallery figure.vertical {
         float: left;
         display: block;

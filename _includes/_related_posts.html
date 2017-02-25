@@ -1,0 +1,22 @@
+<div class="module__normal">
+  <h3 class="title">Related Posts</h3>
+  <div class="content">
+    <section class="block-list">
+      {% for post in site.tags[include.related-tag] %}
+      <a class="blog-link hvr-underline-from-center" href="{{ post.url }}">
+        {% if post.hero %}
+        <img src="/images/previews/{{ post.hero }}">
+        {% else %}
+        <img src="/images/previews/slug.jpg">
+        {% endif %}
+        <section>
+          <h3 class="blog-post-date">{{ post.date | date: '%b %d %Y' }}</span></h3>
+          <h2 class="blog-post-title">{{ post.title }}</h2>
+          <p class="blog-post-preview">{{ post.intro }}</p>
+        </section>
+      </a>
+      {% endfor %}
+    </section>
+  </div>
+</div>
+

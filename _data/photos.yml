@@ -583,9 +583,11 @@
 - title: The Flatiron Building
   orientation: vertical
   image_path: catalog/0K6A7925.jpg
+  thumbnail: /images/thumbnails/0K6A7925.jpg
   exposure: 44s, f/8, ISO50
   date: June 21st, 2014
   description: The iconic Flatiron Building at 5th Ave &amp; 23rd St.
+  tags: new-york
 
 - title: Rainy Day Man
   image_path: black-white/rainy-day-man.jpg
@@ -600,13 +602,6 @@
   exposure: 1/200th, f/8, ISO100
   date: July 16th, 2014
   tags: black-and-white, chicago, sears-tower, abstract
-
-- title: Flatiron Building
-  orientation: vertical
-  image_path: posts/flatiron.jpg
-  thumbnail: /images/thumbnails/flatiron.jpg
-  exposure: 1/200th, f/8, ISO100
-  tags: new-york, manhattan, cityscape, black-and-white, long-exposure
 
 - title: One WTC &amp; The Brooklyn Bridge
   orientation: vertical

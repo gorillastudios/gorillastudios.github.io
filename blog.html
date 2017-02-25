@@ -5,19 +5,19 @@ permalink: /blog/
 id: blog
 ---
 <section class="block-list">
-{% for post in site.posts %}
-<a class="blog-link hvr-underline-from-center" href="{{ post.url }}">
-  {% if post.hero %}
+  {% for post in site.posts %}
+  <a class="blog-link hvr-underline-from-center" href="{{ post.url }}">
+    {% if post.hero %}
     <img src="/images/previews/{{ post.hero }}">
-  {% else %}
+    {% else %}
     <img src="/images/previews/slug.jpg">
-  {% endif %}
-  <section>
-    <h3 class="blog-post-date">{{ post.date | date: '%b %d %Y' }}</span></h3>
-    <h2 class="blog-post-title">{{ post.title }}</h2>
-    <p class="blog-post-preview">{{ post.intro }}</p>
-  </section>
-</a>
-{% endfor %}
+    {% endif %}
+    <section>
+      <h3 class="blog-post-date">{{ post.date | date: '%b %d %Y' }}</span></h3>
+      <h2 class="blog-post-title">{{ post.title }}</h2>
+      <p class="blog-post-preview">{{ post.intro }}</p>
+    </section>
+  </a>
+  {% endfor %}
 </section>
 
