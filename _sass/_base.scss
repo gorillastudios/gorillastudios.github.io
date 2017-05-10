@@ -1,237 +1,101 @@
+// ------------------------------------------ GLOBALS
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@charset "utf-8";
 
-// ---------------------------------------- Colors
-$black-absolute: #000000;
-$black: #262626;
-$blue-navy: #3F576E;
-$red: #990000;
-$white: #FFF;
-
-$charcoal: #2b2b2b;
-
-$nav-background: rgba(255,255,255,0.98);
-
-$link-color: $charcoal;
-$link-hover: darken($link-color, 25%);
-
-$hairline:         #DDDDDD;
-$text-color:       $black;
-$background-color: #fdfdfd;
-$brand-color:      $blue-navy;
-
-$facebook-blue: #425697;
-$twitter-blue: #0084b4;
-$google-red: #D43E3C;
-
-
-$green: #69A55B;
-$grey:  #828282;
-$grey-light: lighten($grey, 40%);
-$grey-dark:  darken($grey, 25%);
-$off-white: #eeeeee;
-
-
-$site-width: 1200px;
-
-// ---------------------------------------- Font & Vertical Rythm
-$base-font-family: 'Proxima Nova', "proxima-nova", Helvetica, Arial, sans-serif;
-$serif-font: "Baskerville", "baskerville-urw", serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$font--small: 0.875em;
-$font--large: 1.25em;
-
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
-}
-
-// ------------------------------------------- Breakpoints
-$small: 600px;
-$medium: 800px;
-$large: 1000px;
-$xlarge: 1600px;
-
-
-@mixin media-query($size) {
-  @media screen and (min-width: $size) {
-    @content;
-  }
-}
-
-@mixin prefix-property($property, $value) {
-  -webkit-#{$property}: $value;
-  -moz-#{$property}: $value;
-  -ms-#{$property}: $value;
-  -o-#{$property}: $value;
-  #{$property}: $value;
-}
-
-@mixin transition($arguments) {
-  @include prefix-property(transition, unquote($arguments));
-}
-
-@mixin transform($arguments) {
-  @include prefix-property(transform, unquote($arguments));
-}
-
-
-// ---------------------------------------- Globals
+html,
 body {
-  -webkit-text-size-adjust: 100%;
-  background-color: white;
-  color: $text-color;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-family: $sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+// ------------------------------------------
+p {
   font-weight: 300;
-  line-height: $base-line-height;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  @include media-query($small) {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-  }
+  line-height: 1.5em;
 }
 
-// ---------------------------------------- Images
+.quote p {
+  border-left: 1px solid $gray;
+  font-size: .9em;
+  padding-left: 1em !important;
+}
+
+// ------------------------------------------ BASIC IMAGES
 img {
+  display: block;
   max-width: 100%;
-  max-height: 100%;
-  vertical-align: middle;
+  width: 100%;
 }
 
-
-@include media-query($medium) {
-  iframe {
-    min-height: 500px !important;
-  }
+img.headshot {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 2em auto;
+  max-width: 150px;
 }
 
-
-// ---------------------------------------- Figures
-figure {
-  margin: 0;
-  & > img {
-    display: block;
-    margin-bottom: 5px;
-  }
-}
-
-figcaption {
-  color: $grey;
-  font-size: $small-font-size;
-}
-
-// ---------------------------------------- Lists
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.list__plain {
-  list-style: none;
-  margin: 0;
-}
-
-// ----------------------------------------  Headings
-h1, h2, h3, h4, h5, h6 {
-  color: $charcoal;
-  font-weight: 600;
-}
-
-
-.centered {
-  text-align: center;
-}
-
-// ---------------------------------------- Code
-code {
-  background: #ECF2FF;
-  padding: 4px 2px;
-}
-
-// -----------------------------------------  Links
+// ------------------------------------------ LINKS
 a {
-  border-bottom: 1px solid;
-  color: $link-color;
+  color: $charcoal;
+  transition: all 0.25s ease-in;
   text-decoration: none;
-  transition: all 0.25s ease-in-out;
-
-  &:hover {
-    color: $link-hover;
-    border: none;
-  }
-}
-
-// ----------------------------------------- Buttons
-[class*="button__"] {
-  background: $green;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 2px solid darken($green, 5%);
-  color: white;
-  display: inline-block;
-  font-family: $base-font-family;
-  font-size: 1em;
-  padding: 0.75em 2em;
-  &:hover {
-    color: white;
-    background: darken($green, 5%);
-    border-bottom: 2px solid darken($green, 10%);
-  }
 }
 
 
-// -----------------------------------------  Blockquote
-blockquote {
-  color: $grey;
-  border-left: 4px solid $grey-light;
-  padding-left: 10px;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
-  margin-left: 10px;
-
-  > :last-child {
+// ------------------------------------------ BLANK PAGE SPACER
+.blank-page-spacer {
+  min-height: 30vh;
+}
+// ------------------------------------------ GALLERY IMAGES
+figure {
+  margin: 0 0 3em 0;
+  figcaption {
+    display: none; // TEMPORARY
+    color: $gray;
+    font-size: 0.8em;
+    font-weight: 300;
+    padding: 5px;
+  }
+  &:last-of-type {
     margin-bottom: 0;
   }
-  @include media-query($small) {
-    margin-left: 40px;
+  &.vertical {
+    img,
+    figcaption {
+      margin: 0 auto;
+      max-width: 600px;
+      width: 80%;
+    }
+  }
+  @include media($break__small) {
+    margin: 0 0 6em 0;
   }
 }
 
-
-// ----------------------------------------- Clearfix
-%clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
+figure.half-and-half {
+  @include outer-container;
+  img {
+    @include span-columns(6);
   }
 }
 
-// ----------------------------------------- Thank you
-// ----------------------------------------- 404
-.one-line-page {
-  padding-top: 4em;
-  text-align: center;
+figure.triptych {
+  @include outer-container;
+  img {
+    @include span-columns(4);
+  }
 }
+
+iframe {
+  min-height: 50vh;
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+
+

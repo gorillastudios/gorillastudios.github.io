@@ -1,94 +1,23 @@
-.site__content-wrap {
-  position: relative;
-  @include media-query($small) {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-  }
-}
-
-.site__sidebar {
-  @include media-query($small) {
-    bottom: 0;
-    left: 0;
-    padding-top: 5em;
-    position: absolute;
-    right: 80%;
-    top: 0;
-  }
-}
-
-.site__content {
-  min-height: 736px;
-  @include media-query($small) {
-    padding-right: 20px;
-    bottom: 0;
-    left: 20%;
-    overflow-y: scroll;
-    position: absolute;
-    right: 0;
-    top: 5em;
-    min-height: 0;
-  }
+.page-content {
+  overflow: hidden;
 }
 
 
 [class*="module__"] {
-  @include outer-container(1200px);
-  padding: 10px;
-}
-
-@include media-query($small) {
-  [class*="module__"] {
-    border-top: 1px solid $hairline;
-    padding: 2em 20px 4em 20px;
-    .title {
-      @include span-columns(3);
-      margin-top: 0;
-      padding: 0;
-      text-align: left;
-    }
-    .content {
-      @include span-columns(7);
-      h4, p {
-        font-size: 110%;
-        margin-top: 0;
-      }
-    }
+  border-top: 1px solid $hairline;
+  padding: 20px;
+  &.borderless {
+    border: none;
   }
-}
-
-@include media-query($small) {
-  .module__related-posts {
-    border: 1px solid red;
-    @include span-columns(8);
-    @include shift(2);
-  }
-}
-
-@include media-query($small) {
-  .module__about {
-    .content {
-      @include span-columns(6);
-    }
-    .headshot {
-      @include span-columns(3);
-    }
-  }
-}
-
-.triptych {
   @include outer-container;
-  padding: 10px;
-  img {
-    margin-bottom: 4em;
+  @include media($break__small) {
+    padding: 4em 20px;
   }
-  @include media-query($small) {
-    img {
-      @include span-columns(4);
-    }
-  }
+}
+
+
+.module__single .content {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
 }

@@ -1,15 +1,12 @@
 ---
 layout: default
-title: Thank You
 permalink: /thank-you/
-flag: marquee
+title: Thank You
 ---
-<div class="one-line-page">
-  <p>Thank you for your submission, I'll get back to you as soon as possible</p>
-</div>
 
-<script>
-  setTimeout(function(){
-    window.location="/";
-  }, 4000);
-</script>
+{% include page_intro.html
+  title = "Thank You"
+  quote = "Thanks for sending a message, I'll respond as soon as I can"
+%}
+
+<div class="blank-page-spacer"></div>

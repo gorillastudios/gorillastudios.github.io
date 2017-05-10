@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body {% if page.id %} data-current-page="{{ page.id }}"{% endif %}>
+  <body>
     {% include header.html %}
-    <div class="site__content-wrap">
-      {% include sidebar.html %}
-      {% if page.flag == "marquee" %}
-        <div id="marquee"></div>
-      {% endif %}
-      <div class="site__content animated fadeIn">
-        {{ content }}
-      </div>
+    <div class="page-content fade-in">
+      {{ content }}
     </div>
-  {% include gallery_script.html %}
+    {% include footer.html %}
   </body>
 </html>
-
-

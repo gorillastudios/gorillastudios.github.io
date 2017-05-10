@@ -1,9 +1,11 @@
 ---
 layout: default
-title: 404
 permalink: /404.html
-flag: marquee
 ---
-<div class="one-line-page">
-  <p>Looks like winter has come to the page you are searching for.</p>
-</div>
+
+{% include page_intro.html
+  title = "Something went wrong"
+  quote = "The page you're looking for can't be found."
+%}
+
+<div class="blank-page-spacer"></div>

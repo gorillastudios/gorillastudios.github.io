@@ -1,5 +1,36 @@
 ---
 layout: default
-title: Home
-flag: marquee
 ---
+<a href="/portfolio" class="hero-link__large dark" id="marquee">
+  <span>Portfolio</span>
+</a>
+
+<a href="/architecture" class="hero-link__large left dark" id="architecture">
+  <span>Architecture</span>
+</a>
+
+{% for post in site.posts limit: 1 %}
+<a href="{{ post.url}}" class="hero-link__small dark" id="index-featured-post" style="background: url('{{post.index-hero}}')">
+  <span>{{ post.title }}</span>
+</a>
+{% endfor %}
+
+<a href="/music" class="hero-link__medium" id="music">
+  <span>Music</span>
+</a>
+
+<a href="/chicago" class="hero-link__medium" id="chicago">
+  <span>Chicago</span>
+</a>
+
+<a href="/nature" class="hero-link__small" id="nature">
+  <span>Nature</span>
+</a>
+
+<a href="/london" class="hero-link__small left" id="london">
+  <span>London</span>
+</a>
+
+<a href="/new-york" class="hero-link__medium" id="new-york">
+  <span>New York</span>
+</a>

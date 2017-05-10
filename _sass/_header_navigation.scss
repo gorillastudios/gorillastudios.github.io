@@ -1,0 +1,127 @@
+header.site-header {
+  @include outer-container;
+  background: white;
+  position: relative;
+  z-index: 10;
+  .site__anchor {
+    @include span-columns(5, block-collapse);
+  }
+  nav {
+    @include span-columns(7, block-collapse);
+    text-align: right;
+  }
+  @include media($break__small) {
+    padding: 0 10px;
+  }
+}
+
+// ----------------------------------------- Site Anchor
+.site__anchor {
+  padding: 10px 5px;
+  img {
+    max-width: 200px;
+  }
+  @include media($break__small) {
+    padding: 20px 0;
+  }
+}
+
+// ----------------------------------------- Top level links
+.site__navigation--link {
+  color: $gray;
+  font-size: 0.9em;
+  font-weight: 300;
+  display: inline-block;
+  padding: 12px 5px;
+  text-decoration: none;
+  &.active {
+    background: $off-white;
+    color: $charcoal;
+    box-shadow: 0 1px 0 0 $charcoal;
+  }
+  @include media($break__small) {
+    font-size: 1em;
+    padding: 1.75em .75em;
+    &:hover {
+      color: $charcoal;
+      box-shadow: 0 2px 0 0 $charcoal;
+    }
+  }
+}
+
+// ----------------------------------------- Dropdown Menu
+
+.navigation__dropdown {
+  background: rgba(0,0,0,.95);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  padding-top: 2em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  &.open {
+    bottom: 0;
+    opacity: 1;
+    top: 0;
+    transition: opacity .25s cubic-bezier(.43,0,.62,1);
+    z-index: 20;
+  }
+  @include media($break__small) {
+    font-size: 1.5em;
+  }
+}
+
+// ----------------------------------------- Dropdown Links
+.site__navigation--dropdown-link {
+  color: white;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    background: rgba(255,255,255,.25);
+  }
+}
+
+.site__navigation--dropdown-close {
+  color: white;
+  cursor: pointer;
+  opacity: .5;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  img {
+    width: 20px;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// ----------------------------------------- Footer
+.site__footer {
+  background: $off-white;
+  color: $gray;
+  font-size: .8em;
+  padding: 3em 20px;
+  text-align: center;
+  text-shadow: 0px 1px 0px white;
+  a {
+    color: $gray;
+    &:hover {
+      color: black;
+    }
+  }
+  p {
+    margin-bottom: 2em;
+  }
+  @include media($break__small) {
+    padding: 8em 20px;
+    p {
+      margin-bottom: 4em;
+    }
+  }
+}

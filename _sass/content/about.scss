@@ -1,0 +1,68 @@
+form {
+  .input-group {
+    margin-bottom: 5px;
+    padding-top: 1.5em;
+    position: relative;
+    label {
+      color: $charcoal;
+      font-size: .9em;
+      left: 5px;
+      position: absolute;
+      top: 32px;
+      transition: all .2s ease-in;
+    }
+    .not-empty ~ label,
+    textarea:focus ~ label,
+    input:focus ~ label {
+      color: lighten($charcoal, 40%);
+      top: 2px;
+    }
+  }
+  input,
+  textarea {
+    @include input-reset;
+    font-family: $sans-serif;
+    font-size: .9em;
+    max-width: 100%;
+    padding: 0.5em;
+    width: 100%;
+  }
+  textarea {
+    min-height: 12em;
+  }
+  .button__send {
+    background: $green;
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 0.75em 0;
+    width: 100%;
+    img {
+      display: none;
+    }
+  }
+  @include media($break__small) {
+    padding: 2em 4em 1em 4em;
+    input,
+    textarea {
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+    }
+    .button__send {
+      margin-top: 1.5em;
+      padding: 1.2em 0;
+      transition: all 0.25s ease-in;
+      img {
+        display: inline-block;
+        vertical-align: middle;
+        margin: -2px 5px 0 0;
+        width: 20px;
+      }
+      &:hover {
+        background: darken($green, 10%);
+        cursor: pointer;
+      }
+    }
+  }
+}

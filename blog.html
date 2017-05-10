@@ -1,23 +1,22 @@
 ---
 layout: default
-title: Blog
 permalink: /blog/
-id: blog
+title: Blog
 ---
-<section class="block-list">
-  {% for post in site.posts %}
-  <a class="blog-link hvr-underline-from-center" href="{{ post.url }}">
-    {% if post.hero %}
-    <img src="/images/previews/{{ post.hero }}">
-    {% else %}
-    <img src="/images/previews/slug.jpg">
-    {% endif %}
-    <section>
-      <h3 class="blog-post-date">{{ post.date | date: '%b %d %Y' }}</span></h3>
-      <h2 class="blog-post-title">{{ post.title }}</h2>
-      <p class="blog-post-preview">{{ post.intro }}</p>
-    </section>
-  </a>
-  {% endfor %}
-</section>
+{% include page_intro.html
+  title = "New Blog Posts"
+  quote = "Eventually, I think Chicago will be the most beautiful great city left in the world."
+  author = "Frank Lloyd Wright"
+%}
 
+{% for post in site.posts | limit: 5 %}
+  <a href="{{ post.url }}"  class="post__listing">
+    <p class="post__listing--date">{{ post.date | date: '%b %d %Y' }}</p>
+    <h2 class="post__listing--title">{{ post.title }}</h2>
+    <p class="post__listing--intro">{{ post.intro }}</p>
+    <p class="post__listing--preview">
+      {{ post.content | strip_html | truncatewords: 40 }}
+    </p>
+    <p class="post__listing--read-more">Read More</p>
+  </a>
+{% endfor %}

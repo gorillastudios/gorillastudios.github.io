@@ -1,16 +1,18 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+@charset "utf-8";
+
 @import
   "vendor/bourbon/bourbon",
   "vendor/neat/neat",
-  "vendor/animate",
-  "vendor/lightgallery",
+  "settings",
+  "mixins",
   "base",
-  "animations",
   "layout",
+  "header_navigation",
   "content",
-  "blog",
-  "gallery",
-  "header_nav",
-  "vendor/font-awesome"
+  "content/index",
+  "content/blog",
+  "content/about"
 ;

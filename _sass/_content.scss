@@ -1,102 +1,54 @@
-//--------------------------------------- Index
-#marquee {
-  animation: slowFadeIn 3s forwards;
-  background-image: url('/images/catalog/0K6A2868.jpg');
-  background-position: 40%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -5;
-  @include media-query($small) {
-    //background-image: url('/images/catalog/0K6A2868.jpg');
+.page__intro {
+  padding: 2em 10px 1em 10px;
+  @include media($break__small) {
+    padding: 4em 10px 4em 10px;
   }
-}
-
-
-
-//--------------------------------------- Blog /blog
-.block-list {
-  a {
-    border-bottom: 1px solid $hairline;
-    @include outer-container(800px);
+  img {
     display: block;
-    padding: 1em 0;
+    height: 20px;
+    margin: 0 auto;
+    opacity: .15;
+  }
+  @include media($break__small) {
     img {
-      @include span-columns(4);
-    }
-    section {
-      @include span-columns(8);
-    }
-  }
-  @include media-query($small) {
-  }
-  .blog-post-date {
-    color: $red;
-    font-size: 1em;
-    font-weight: 100;
-    margin: 0;
-  }
-  .blog-post-title {
-    font-size: 1.2em;
-    line-height: 1.25em;
-    margin: 0;
-  }
-  .blog-post-preview {
-    line-height: 1.1em;
-    margin: 0.5em 0;
-  }
-  @include media-query($small) {
-    .blog-post-date { font-size: 1.25em; }
-    .blog-post-title { font-size: 1.75em; }
-    .blog-post-preview { font-size: 1.1em; }
-    a {
-      padding: 1em;
-      img { @include span-columns(3); }
-      section { @include span-columns(9); }
-      &:hover {
-        background: rgba(0,0,0,0.02);
-        box-shadow: inset 0px -3px 0px 0px $green;
-      }
+      height: 30px;
     }
   }
 }
 
+.page__title {
+  font-size: 1.5em;
+  text-align: center;
+  @include media($break__small) {
+    font-size: 2.75em;
+  }
+}
 
-//--------------------------------------- /about
-.module__contact {
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    background: #f9f9f9;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    border-bottom: 1px solid $hairline;
-    font-size: 1rem;
-    font-family: $base-font-family;
-    font-weight: 300;
-    line-height: 2em;
-    margin-bottom: 1em;
-    padding: 8px 12px;
-    width: 100%;
+.page__quote {
+  font-size: .9em;
+  font-weight: 300;
+  line-height: 1.15em;
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+  @include media($break__small) {
+    font-size: 1.2em;
   }
-  textarea {
-    display: block;
-    min-height: 8em;
-    margin-bottom: 2em;
+}
+
+.page__quote--author {
+  color: $red;
+  font-size: .8em;
+  font-weight: 300;
+  margin: 0 0 3em 0;
+  text-align: center;
+  @include media($break__small) {
+    font-size: 1em;
+    margin-top: 0.25em;
   }
-  input[type="submit"] {
-    -webkit-appearance: none;
-  }
-  @include media-query($small) {
-    input[type="text"],
-    input[type="email"] {
-      width: 50%;
-    }
-  }
+}
+
+.module-title {
+  color: lighten($charcoal, 20%);
+  text-align: center;
 }

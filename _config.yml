@@ -1,17 +1,17 @@
-# Site settings
 title: Gorilla-Studios Photography
 name: Gorilla-Studios Photography
 email: chris@gorilla-studios.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Focusing on stunning landscape and high-energy music photography,
   Gorilla-Studios has been the online home of my portfolio since 2003.
   I specialize in landscapes, cityscapes and architecture, nature,
   candid portraiture, headshots, band promos and concert photography.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://gorilla-studios.com" # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
+baseurl: ""
+url: "http://gorilla-studios.com"
+
 twitter_username: gorilla_studios
 facebook_username: gorillastudiosphotography
+markdown: kramdown
+
 sass:
   sass_dir: /_sass

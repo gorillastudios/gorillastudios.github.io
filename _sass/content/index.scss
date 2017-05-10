@@ -1,0 +1,120 @@
+// ------------------------------------------ Hero Links
+[class*="hero-link__"] {
+  background-size: cover !important;
+  color: white;
+  display: block;
+  padding-top: 44.05%;
+  position: relative;
+  text-align: right;
+  &.left {
+    text-align: left;
+  }
+  &.dark {
+    color: $charcoal;
+  }
+  &:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: all 0.25s ease-in;
+  }
+  span {
+    background: rgba(255,255,255,.25);
+    display: block;
+    bottom: 0px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -0.02em;
+    line-height: 1.15em;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    transition: all 0.25s ease-in;
+  }
+  @include media($break__small) {
+    span {
+      background: none;
+      font-size: 2em;
+      opacity: .25;
+      padding: 15px;
+    }
+    &:hover {
+      span {
+        opacity: .75;
+        padding: 20px;
+      }
+      &:before {
+        background: rgba(0,0,0,.15);
+      }
+    }
+  }
+}
+
+.hero-link__small {
+  float: left;
+  width: 33.333%;
+}
+
+.hero-link__medium {
+  float: left;
+  width: 66.666%;
+}
+
+#marquee {
+  background: url('/images/catalog/0K6A1986.jpg');
+  background-position: 50%;
+}
+
+#architecture {
+  background: url('/images/catalog/0K6A0140.jpg');
+  background-position: 50%;
+}
+
+#index-featured-post {
+  background-position: 50%;
+  font-size: 1.5em;
+  span {
+    line-height: .9em;
+    &:before {
+      content: "Blog Post:";
+      display: block;
+      font-size: .8em;
+      font-weight: 300;
+    }
+  }
+  @include media($break__small) {
+    span {
+      opacity: 1;
+      line-height: 1em;
+      text-shadow: 0 0 50px white;
+    }
+  }
+}
+
+#music {
+  background: url('/images/catalog/0K6A4915.jpg');
+  background-position: 50%;
+}
+
+#chicago {
+  background: url('/images/catalog/sears-abstract.jpg');
+  background-position: 50%;
+}
+
+#nature {
+  background: url('/images/catalog/heron-portrait.jpg');
+  background-position: 50%;
+}
+
+#london {
+  background: url('/images/catalog/CRW_9451.jpg');
+  background-position: 50%;
+}
+
+#new-york {
+  background: url('/images/catalog/0K6A7702.jpg');
+  background-position: 50%;
+}
