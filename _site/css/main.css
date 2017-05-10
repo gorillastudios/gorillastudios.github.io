@@ -569,8 +569,10 @@ form .input-group {
     top: 2px; }
 form input,
 form textarea {
-  -webkit-appearance: none;
+  border-radius: 0;
   border: 1px solid #999;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: .9em;
   max-width: 100%;

@@ -19,6 +19,8 @@
 }
 
 @mixin input-reset {
-  -webkit-appearance: none;
+  border-radius: 0;
   border: 1px solid $gray;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
 }

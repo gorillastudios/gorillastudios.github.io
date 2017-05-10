@@ -9,7 +9,7 @@ title: Blog
   author = "Frank Lloyd Wright"
 %}
 
-{% for post in site.posts | limit: 5 %}
+{% for post in site.posts limit: 5 %}
   <a href="{{ post.url }}"  class="post__listing">
     <p class="post__listing--date">{{ post.date | date: '%b %d %Y' }}</p>
     <h2 class="post__listing--title">{{ post.title }}</h2>
