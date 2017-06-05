@@ -196,11 +196,10 @@ header.site-header {
   position: fixed;
   right: 0;
   top: 0;
+  transition: opacity 0.25s cubic-bezier(0.43, 0, 0.62, 1);
   z-index: -1; }
   .navigation__dropdown.open {
-    bottom: 0;
     opacity: 1;
-    top: 0;
     transition: opacity 0.25s cubic-bezier(0.43, 0, 0.62, 1);
     z-index: 20; }
   @media screen and (min-width: 600px) {
