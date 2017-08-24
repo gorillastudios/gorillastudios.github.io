@@ -1,0 +1,25 @@
+//  These are concerned with styling non-cosmetic design patterns, or 'objects'. Objects can range from something as simple as a .wrapper element, to layout systems, through to things like the OOCSS poster child – the Media Object. This layer affects less of the DOM than the last layer, has a higher specificity, and is slightly more explicit in that we are now targeting sections of the DOM with classes.
+
+.page-content {
+  overflow: hidden;
+}
+
+
+[class*="module__"] {
+  border-top: 1px solid $hairline;
+  padding: 20px;
+  &.borderless {
+    border: none;
+  }
+  @include outer-container;
+  @include media($break__small) {
+    padding: 4em 20px;
+  }
+}
+
+
+.module__single .content {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}

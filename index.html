@@ -14,7 +14,7 @@ layout: default
 </a>
 
 {% for post in site.posts limit: 1 %}
-<a href="{{ post.url}}" class="hero-link__small dark" id="index-featured-post" style="background: url('{{post.index-hero}}')">
+<a href="{{ post.url}}" class="hero-link__small" id="index-featured-post" style="background: url('{{post.index-hero}}')">
   <span>{{ post.title }}</span>
 </a>
 {% endfor %}

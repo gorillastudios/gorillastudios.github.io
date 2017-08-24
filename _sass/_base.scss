@@ -1,25 +1,3 @@
-// ------------------------------------------ GLOBALS
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-html,
-body {
-  font-family: $sans-serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-
-// ------------------------------------------
-p {
-  font-weight: 300;
-  line-height: 1.5em;
-}
-
 .quote p {
   border-left: 1px solid $gray;
   font-size: .9em;
@@ -27,12 +5,6 @@ p {
 }
 
 // ------------------------------------------ BASIC IMAGES
-img {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-}
-
 img.headshot {
   border-radius: 50%;
   display: block;
@@ -41,57 +13,4 @@ img.headshot {
 }
 
 // ------------------------------------------ LINKS
-a {
-  color: $charcoal;
-  transition: all 0.25s ease-in;
-  text-decoration: none;
-}
-
-
-// ------------------------------------------ BLANK PAGE SPACER
-.blank-page-spacer {
-  min-height: 30vh;
-}
-// ------------------------------------------ GALLERY IMAGES
-figure {
-  margin: 0 0 3em 0;
-  figcaption {
-    color: $gray;
-    font-size: 0.8em;
-    font-weight: 300;
-    padding: 5px;
-  }
-  &.vertical {
-    img,
-    figcaption {
-      margin: 0 auto;
-      max-width: 600px;
-      width: 80%;
-    }
-  }
-  @include media($break__small) {
-    margin: 0 0 6em 0;
-  }
-}
-
-figure.half-and-half {
-  @include outer-container;
-  img {
-    @include span-columns(6);
-  }
-}
-
-figure.triptych {
-  @include outer-container;
-  img {
-    @include span-columns(4);
-  }
-}
-
-iframe {
-  min-height: 50vh;
-  margin-bottom: 1.5em;
-  width: 100%;
-}
-
 

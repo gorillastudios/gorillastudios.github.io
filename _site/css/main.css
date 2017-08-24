@@ -12,6 +12,9 @@ html {
 .fade-in {
   animation: fadeIn 1s forwards; }
 
+.blank-page-spacer {
+  min-height: 30vh; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -28,29 +31,91 @@ p {
   font-weight: 300;
   line-height: 1.5em; }
 
-.quote p {
-  border-left: 1px solid #999;
-  font-size: .9em;
-  padding-left: 1em !important; }
-
 img {
   display: block;
   max-width: 100%;
   width: 100%; }
 
-img.headshot {
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 2em auto;
-  max-width: 150px; }
+iframe {
+  min-height: 50vh;
+  margin-bottom: 1.5em;
+  width: 100%; }
 
 a {
   color: #3b3b3b;
   transition: all 0.25s ease-in;
   text-decoration: none; }
 
-.blank-page-spacer {
-  min-height: 30vh; }
+.page-content {
+  overflow: hidden; }
+
+[class*="module__"] {
+  border-top: 1px solid #dddddd;
+  padding: 20px;
+  max-width: 9000px;
+  margin-left: auto;
+  margin-right: auto; }
+  [class*="module__"].borderless {
+    border: none; }
+  [class*="module__"]::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 600px) {
+    [class*="module__"] {
+      padding: 4em 20px; } }
+
+.module__single .content {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%; }
+
+.module-title {
+  color: #6e6e6e;
+  text-align: center; }
+
+.page__intro {
+  padding: 2em 10px 1em 10px; }
+  @media screen and (min-width: 600px) {
+    .page__intro {
+      padding: 4em 10px 4em 10px; } }
+  .page__intro img {
+    display: block;
+    height: 20px;
+    margin: 0 auto;
+    opacity: .15; }
+  @media screen and (min-width: 600px) {
+    .page__intro img {
+      height: 30px; } }
+
+.page__title {
+  font-size: 1.5em;
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    .page__title {
+      font-size: 2.75em; } }
+
+.page__quote {
+  font-size: .9em;
+  font-weight: 300;
+  line-height: 1.15em;
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    .page__quote {
+      font-size: 1.2em; } }
+
+.page__quote--author {
+  color: #F15254;
+  font-size: .8em;
+  font-weight: 300;
+  margin: 0 0 3em 0;
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    .page__quote--author {
+      font-size: 1em;
+      margin-top: 0.25em; } }
 
 figure {
   margin: 0 0 3em 0; }
@@ -100,34 +165,16 @@ figure.triptych {
     figure.triptych img:last-child {
       margin-right: 0; }
 
-iframe {
-  min-height: 50vh;
-  margin-bottom: 1.5em;
-  width: 100%; }
+.quote p {
+  border-left: 1px solid #999;
+  font-size: .9em;
+  padding-left: 1em !important; }
 
-.page-content {
-  overflow: hidden; }
-
-[class*="module__"] {
-  border-top: 1px solid #dddddd;
-  padding: 20px;
-  max-width: 9000px;
-  margin-left: auto;
-  margin-right: auto; }
-  [class*="module__"].borderless {
-    border: none; }
-  [class*="module__"]::after {
-    clear: both;
-    content: "";
-    display: table; }
-  @media screen and (min-width: 600px) {
-    [class*="module__"] {
-      padding: 4em 20px; } }
-
-.module__single .content {
-  margin: 0 auto;
-  max-width: 600px;
-  width: 100%; }
+img.headshot {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 2em auto;
+  max-width: 150px; }
 
 header.site-header {
   max-width: 9000px;
@@ -243,53 +290,6 @@ header.site-header {
       padding: 8em 20px; }
       .site__footer p {
         margin-bottom: 4em; } }
-
-.page__intro {
-  padding: 2em 10px 1em 10px; }
-  @media screen and (min-width: 600px) {
-    .page__intro {
-      padding: 4em 10px 4em 10px; } }
-  .page__intro img {
-    display: block;
-    height: 20px;
-    margin: 0 auto;
-    opacity: .15; }
-  @media screen and (min-width: 600px) {
-    .page__intro img {
-      height: 30px; } }
-
-.page__title {
-  font-size: 1.5em;
-  text-align: center; }
-  @media screen and (min-width: 600px) {
-    .page__title {
-      font-size: 2.75em; } }
-
-.page__quote {
-  font-size: .9em;
-  font-weight: 300;
-  line-height: 1.15em;
-  margin: 0 auto;
-  max-width: 70%;
-  text-align: center; }
-  @media screen and (min-width: 600px) {
-    .page__quote {
-      font-size: 1.2em; } }
-
-.page__quote--author {
-  color: #F15254;
-  font-size: .8em;
-  font-weight: 300;
-  margin: 0 0 3em 0;
-  text-align: center; }
-  @media screen and (min-width: 600px) {
-    .page__quote--author {
-      font-size: 1em;
-      margin-top: 0.25em; } }
-
-.module-title {
-  color: #6e6e6e;
-  text-align: center; }
 
 [class*="hero-link__"] {
   background-size: cover !important;

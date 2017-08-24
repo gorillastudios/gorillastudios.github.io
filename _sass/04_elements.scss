@@ -1,0 +1,28 @@
+// These are bare, unclassed HTML elements. What does an h1 look like without a class on it? What does an a look like without a class on it? The Elements layer binds onto bare HTML element (or 'type') selectors only. It is slightly more explicit than the previous layer in that we are now saying 'make every h1 this big', or 'make every a be a certain colour'. It is still a very low-specificity layer, but affects slightly less of the DOM, and is slightly more opinionated, hence its location in the Triangle.
+
+// NO CLASSES YET
+
+p {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+iframe {
+  min-height: 50vh;
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+
+a {
+  color: $charcoal;
+  transition: all 0.25s ease-in;
+  text-decoration: none;
+}
+
