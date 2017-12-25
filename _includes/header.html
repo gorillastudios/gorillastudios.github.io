@@ -3,7 +3,7 @@
     <img src="/images/gs5.svg" alt="Gorilla-Studios Photography" />
   </a>
   <nav class="site__navigation">
-    {% for item in site.data.navigation %}
+    {% for item in site.data.navigation.primary %}
       {% assign class = nil %}
       {% if page.url contains item.url or page.url contains item.meta %}
         {% assign class = 'active' %}
@@ -15,15 +15,9 @@
 </header>
 
 <div class="navigation__dropdown">
-  <a class="site__navigation--dropdown-link" href="/portfolio">Portfolio</a>
-  <a class="site__navigation--dropdown-link" href="/architecture">Architecture</a>
-  <a class="site__navigation--dropdown-link" href="/portraits">Portraits</a>
-  <a class="site__navigation--dropdown-link" href="/music">Music</a>
-  <a class="site__navigation--dropdown-link" href="/chicago">Chicago</a>
-  <a class="site__navigation--dropdown-link" href="/london">London</a>
-  <a class="site__navigation--dropdown-link" href="/new-york">New York</a>
-  <a class="site__navigation--dropdown-link" href="/new-england">New England</a>
-  <a class="site__navigation--dropdown-link" href="/nature">Nature</a>
+  {% for item in site.data.navigation.portfolios %}
+    <a class="site__navigation--dropdown-link" href="{{ item.url }}">{{ item.title }}</a>
+  {% endfor %}
   <a class="site__navigation--dropdown-close dropdown-toggle"><img src="/images/close.svg" alt="Close menu" /></a>
 </div>
 

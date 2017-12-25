@@ -1,5 +1,26 @@
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-  meta: /post/
+primary:
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+    meta: /post/
+
+portfolios:
+  - title: Portfolio
+    url: /portfolio
+  - title: Architecture
+    url: /architecture
+  - title: Portraits
+    url: /portraits
+  - title: Music
+    url: /music
+  - title: Chicago
+    url: /chicago
+  - title: London
+    url: /london
+  - title: New York
+    url: /new-york
+  - title: New England
+    url: /new-england
+  - title: Nature
+    url: /nature
