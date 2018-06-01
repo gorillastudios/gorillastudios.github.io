@@ -6,9 +6,58 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Jun 2018 11:38:09 -0500</pubDate>
-    <lastBuildDate>Fri, 01 Jun 2018 11:38:09 -0500</lastBuildDate>
+    <pubDate>Fri, 01 Jun 2018 17:36:17 -0500</pubDate>
+    <lastBuildDate>Fri, 01 Jun 2018 17:36:17 -0500</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Chasing a bullet</title>
+        <description>&lt;p&gt;For as long as I can remember I've always been fascinated by everything to do with space. Recently, I tore through Mike Massimino's book &lt;a href=&quot;https://www.amazon.com/Spaceman-Astronauts-Unlikely-Journey-Universe-ebook/dp/B01A4B1SK0/ref=sr_1_1?ie=UTF8&amp;qid=1527892448&amp;sr=8-1&amp;keywords=mike+massimino&quot; target=&quot;blank&quot;&gt;&lt;i&gt;Spaceman&lt;/i&gt;&lt;/a&gt; and now am reading &lt;a href=&quot;https://www.amazon.com/Interstellar-Age-Forty-Year-Voyager-Mission-ebook/dp/B00L9AXW4G/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1527892488&amp;sr=1-1&amp;keywords=interstellar+age&quot; target=&quot;blank&quot;&gt;&lt;i&gt;The Interstellar Age&lt;/i&gt;&lt;/a&gt;, which is about NASA's Voyager 1 &amp;amp; 2 missions. My daughter delights in watching Commander Chris Hadfield's videos from the International Space Station so much that we've seen every one many many times, and I've watched both series of Cosmos multiple times. Since I am a certified Space Geek, it's only natural that I try to combine that with my passion for photography.&lt;/p&gt;
+
+&lt;p&gt;One of the coolest photos I have ever seen is of the Space Shuttle docking with International Space Station while in transit past the sun, but I always wondered how on earth did they do that? Could I do that? The station itself is orbiting the earth 250 miles up moving at 17,500mph, which makes photographing it like chasing a bullet. The first hurdle was to find a tool to tell me where and when it would be. After some searching I stumbled across &lt;a href=&quot;http://www.transit-finder.com&quot; target=&quot;blank&quot;&gt;Transit Finder&lt;/a&gt; which when given lat/long and date range would tell me exactly where and when I needed to be down to the millisecond.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/iss-transit/options.jpg&quot; alt=&quot;Transit Finder results&quot; /&gt;
+  &lt;figcaption&gt;Results listing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Not surprisingly, options are limited if you don't want to travel a few hours to make an attempt. I checked the site weekly for at least a year, but most opportunities slipped by due to scheduling conflicts or just poor weather. I finally made my first attempt a month ago on May 1st at sunrise. I rolled out of bed at 4:30 and drove 45 minutes south to see if I could capture the ISS just before moonset set. To track the path of the ISS I used an iPhone app called SkyView Lite, and everything looked perfect. I was ready.&lt;/p&gt;
+
+&lt;figure class=&quot;vertical&quot;&gt;
+  &lt;img src=&quot;/images/posts/iss-transit/IMG_8517.jpg&quot; alt=&quot;SkyView Lite&quot; /&gt;
+  &lt;figcaption&gt;Looking good&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I checked my phone a few more times, and when I got about two minutes out I just sat there, staring through the camera's eye piece watching as hard as I could. Waiting. Waiting. Waiting. Nothing. Checked the app again and the ISS had blown right past - I had no idea if it was close, I never even spotted it. I was disappointed, but determined to figure out what happened. When I got home I realized that at the time the ISS was illuminated and would have appeared as a white spot reflecting sunlight, while I was looking for the distinct black silhouette. Okay, rookie mistake. I made a note and went back to checking Transit Finder every few days.&lt;/p&gt;
+
+&lt;p&gt;Finally two weeks ago I saw a favorable opportunity where I could get to the center line only having to travel about 25 minutes from home, and 12:06pm was reasonable. I plotted out three backup sites just incase of unforeseen impediments. The spot I chose was a back road off the beaten path where I could setup and hopefully not be bothered. I had the time, I had the place, now the only x-factor was the weather.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/iss-transit/gilberts.jpg&quot; alt=&quot;Plotting my spot&quot; /&gt;
+  &lt;figcaption&gt;Plotting the best spot&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That night I packed up my gear and despite some intermittent clouds, headed out. I found the location easily enough thanks to scouring Google Maps a few times a day during the past week. Checking SkyView Lite I was a bit confused - the ISS was tracking to rise in the West just a few minutes before it was due to cross the Moon in the South East. I still setup my gear but kept an eye on the station wondering if the app was wrong. I knew it travelled fast but didn't realize it would shoot horizon to horizon in a matter of minutes. By the time I got the telescope setup and tracking the Moon I checked SkyView again and saw the ISS was already directly at the zenith and headed to intersect the Moon at an alarming pace.&lt;/p&gt;
+
+&lt;p&gt;Just like my first attempt I had my eye glued to the eyepiece for a few minutes, concentrating on where the station should begin it's transit. I glanced up once or twice to see if I could catch it with my naked eye, but no luck. Finally I spotted it coming out from between the Sea of Serenity and the Sea of Tranquility, and mashed the remote cable release. I successfully got nine frames of the ISS transiting the Moon.&lt;/p&gt;
+
+&lt;figure class=&quot;vertical&quot;&gt;
+  &lt;img src=&quot;/images/catalog/iss-transit.jpg&quot; alt=&quot;ISS Lunar Transit&quot; /&gt;
+  &lt;figcaption&gt;ISS Lunar Transit&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I checked the image previews as fast as I coulld and let out a yell. I had gotten it! It's angular size was 27.46&quot; so it was much smaller than ideal, but you could still see the distinct shape cutting across the lunar surface. After importing the images and doing some minor tweaks, I stacked them in Photoshop and set the blending mode to stack each frame together, creating the final composite.&lt;/p&gt;
+
+&lt;p&gt;Looking at other opportunities in Transit Finder I realize that the stations angular size can vary from the low 20s all the way into the 60s, meaning it would appear two to three times bigger in ideal conditions. I'm going to keep trying for some better results and will probably try a solar transit at some point. Anyway, as Neil deGrasse Tyson always says, keep looking up!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jun 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2018/06/01/chasing-a-bullet.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/06/01/chasing-a-bullet.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>52 Book Challenge - Exhibitions &amp;amp; Adams</title>
@@ -531,41 +580,6 @@
         <pubDate>Sat, 31 Dec 2016 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/post/2016/12/31/best-of-2016.html</link>
         <guid isPermaLink="true">http://localhost:4000/post/2016/12/31/best-of-2016.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>My Lightroom workflow</title>
-        <description>&lt;p&gt;I finally made the jump this fall and switched my photography workflow to Lightroom 5 full-time. Since at least 2003 I was using Bridge + Photoshop which I knew was not the most efficient way to do it, but it was comfortable and I was fast with it. When I first checked out Lightroom a few years ago I couldn't quite figure out the way to edit my most recent photos on the go while keeping the bulk of my library at home on my archive drives. After some more thinking, and some inspiration from Martin Bailey, I resolved all my issues and took the plunge.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/lightroom-flow.jpg&quot;&gt;
-  &lt;figcaption&gt;Adobe Lightroom 5&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;My photo catalog is quickly racing towards 2TB and while it's certainly not as large as some professionals, it's still big enough to cause headaches. I can't fit my catalog on my laptop, and smart previews just weren't going to cut it. After a little reading and testing I setup a workflow where I could have my cake and eat it too. There is a folder on my laptop called 'To Vault' (The Vault is the name of my archive drive). I import all new photos into that folder, using a simple &lt;code&gt;YYYY-MM-DD - Subject&lt;/code&gt; folder structure, then open Lightroom and synchronize the folder which imports them into the catalog. Once I am finished editing the photos locally, I then use the Lightroom interface to physically move the source files to The Vault, which is duplicated to another off-site hard drive monthly.&lt;/p&gt;
-&lt;p&gt;I decided to use Lightroom because I was sick of dealing with maintaining both the source catalog alongside a 'final edits' collection which took up even more space. Lightroom is non-destructive meaning it saves all your 'edits' in simple xml data files which it then applies to the RAW files when you open them in develop mode, that way the source RAW file isn't touched and the edits are only a few kb of data.&lt;/p&gt;
-&lt;h3&gt;Organization&lt;/h3&gt;
-&lt;p&gt;My rating system, while completely arbitrary, has served me well. Three stars is my baseline for anything that has the potential to be added to my portfolio, four stars for gallery images, and five stars are for my master portfolio - a set of 18-20 photos that showcase my best work. One and two stars are for family photos and client shoots which stay private excepting for their respective subjects. Using this structure allows me to setup smart galleries where I can quickly find my best work from a given time frame, or other constraint.&lt;/p&gt;
-&lt;p&gt;I have a number of smart collections to keep things organized. A catch folder of anything rated higher than 1 in the last 30 days lets me review and edit my 'approved' shots over the last month, meaning my last few photo shoots. I also have smart collections for anything rated 3+ for each calendar year which allows me to review and curate a set of best photos from each year. Additionally I like to go back and see if I missed anything, so I use a 'Review' collection - setting it as the target collection I can go back and look over photos, tapping 'B' to add them quickly so I can take a closer look later.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/2016-finalists.jpg&quot;&gt;
-  &lt;figcaption&gt;All photos from 2016 rated 3+&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h3&gt;Editing&lt;/h3&gt;
-&lt;p&gt;Editing photos is much faster than using Photoshop. All the adjustments needed are right at your fingertips and are  specifically designed for photo editing. For most photos all I usually do is set a lens correction, and make some minor tweaks such as exposure adjustments or spot removal. If I have to do any deep cloning or healing I will sometimes export to Photoshop, but that is only because I am still learning how cloning and healing work in Lightroom. A wonderful feature that I use every time is Before &amp;amp; After review pane. You can view both the original and edited views a few different ways to see how much you have changed - definitely not possible in Photoshop.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/lightroom-comparison.jpg&quot;&gt;
-  &lt;figcaption&gt;Developing and comparing to the original&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Once I am done editing a photo I can simply go back to grid view. I don't worry about exporting or saving an edited version unless I need to post on social media or deliver to a client. This keeps me from filling up drive after drive with the original RAW files AND edited versions of each. On export I can embed copyright information and watermarks, as well as constrain the image size by the long edge (very handy).&lt;/p&gt;
-&lt;h3&gt;Overall impressions&lt;/h3&gt;
-&lt;p&gt;I am sincerely impressed with Lightroom and wish I had made the jump sooner. I know I could upgrade to Creative Cloud for a monthly fee, but I don't like the idea of not being able to use it once I stop paying. Lightroom 5 has all the features I need for my workflow, and while there are a few neat tools in Creative Cloud, there is nothing that makes me want to upgrade any time soon. If you have any questions about how I import, organize, edit, or export my work feel free to &lt;a href=&quot;/about&quot;&gt;contact me&lt;/a&gt;, I'd love to chat.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 Dec 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2016/12/10/lightroom.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2016/12/10/lightroom.html</guid>
         
         
         <category>post</category>
