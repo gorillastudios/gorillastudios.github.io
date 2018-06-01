@@ -326,7 +326,7 @@ header.site-header {
     [class*="hero-link__"] span {
       background: none;
       font-size: 2em;
-      opacity: .25;
+      opacity: .5;
       padding: 15px; }
     [class*="hero-link__"]:hover span {
       opacity: .75;
@@ -369,6 +369,10 @@ header.site-header {
       opacity: 1;
       line-height: 1em;
       text-shadow: 0 0 50px white; } }
+
+#astronomy {
+  background: url("/images/catalog/totality.jpg");
+  background-position: 45% 50%; }
 
 #music {
   background: url("/images/catalog/0K6A4915.jpg");

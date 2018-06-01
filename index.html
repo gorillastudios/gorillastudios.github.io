@@ -5,8 +5,12 @@ layout: default
   <span>Portfolio</span>
 </a>
 
-<a href="/architecture" class="hero-link__medium left dark" id="architecture">
+<a href="/architecture" class="hero-link__small left dark" id="architecture">
   <span>Architecture</span>
+</a>
+
+<a href="/astronomy" class="hero-link__small left" id="astronomy">
+  <span>Astronomy</span>
 </a>
 
 <a href="/portraits" class="hero-link__small" id="portraits">
@@ -14,7 +18,7 @@ layout: default
 </a>
 
 {% for post in site.posts limit: 1 %}
-<a href="{{ post.url}}" class="hero-link__small dark" id="index-featured-post" style="background: url('/images/posts/{{post.index-hero}}')">
+<a href="{{ post.url}}" class="hero-link__small" id="index-featured-post" style="background: url('/images/posts/{{post.index-hero}}')">
   <span>{{ post.title }}</span>
 </a>
 {% endfor %}
