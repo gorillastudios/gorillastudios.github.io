@@ -481,6 +481,8 @@ header.site-header {
     border: none; }
 .post-content figure {
   margin: 0 0 1.5em 0; }
+  .post-content figure figcaption span {
+    float: right; }
 @media screen and (min-width: 600px) {
   .post-content {
     font-size: 130%; }

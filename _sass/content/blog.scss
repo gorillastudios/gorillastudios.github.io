@@ -93,6 +93,9 @@
   }
   figure {
     margin: 0 0 1.5em 0;
+    figcaption span {
+      float: right;
+    }
   }
   @include media($break__small) {
     font-size: 130%;
