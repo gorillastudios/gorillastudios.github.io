@@ -360,7 +360,7 @@ header.site-header {
   #index-featured-post span {
     line-height: .9em; }
     #index-featured-post span:before {
-      content: "Blog Post:";
+      content: "Blog:";
       display: block;
       font-size: .8em;
       font-weight: 300; }
@@ -476,9 +476,11 @@ header.site-header {
   padding: 0 10px;
   max-width: 35em; }
 .post-content a {
-  border-bottom: 1px solid #3b3b3b; }
+  background: #FBF0A0;
+  box-shadow: 0 0 0 2px #FBF0A0; }
   .post-content a:hover {
-    border: none; }
+    box-shadow: none;
+    background: none; }
 .post-content figure {
   margin: 0 0 1.5em 0; }
   .post-content figure figcaption span {
