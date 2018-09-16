@@ -176,6 +176,36 @@ figure.triptych {
     figure.triptych img:last-child {
       margin-right: 0; }
 
+.c-wallpapers {
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 600px) {
+    .c-wallpapers {
+      flex-direction: row;
+      flex-wrap: wrap; } }
+
+.c-wallpaper {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 2em;
+  text-align: center; }
+  .c-wallpaper a {
+    background-color: #FBF0A0;
+    box-shadow: 0 0 0 4px #FBF0A0;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.25rem 0.5rem; }
+  @media screen and (min-width: 600px) {
+    .c-wallpaper {
+      border: none;
+      padding: 3em;
+      width: 50%; } }
+  @media screen and (min-width: 1000px) {
+    .c-wallpaper {
+      padding: 4em;
+      width: 33.333%; } }
+
 header.site-header {
   max-width: 9000px;
   margin-left: auto;

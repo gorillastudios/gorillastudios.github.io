@@ -1,0 +1,32 @@
+.c-wallpapers {
+  display: flex;
+  flex-direction: column;
+  @include media($break__small) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.c-wallpaper {
+  border-bottom: 1px solid $light-gray;
+  margin-bottom: $spacing-medium;
+  padding: 2em;
+  text-align: center;
+  a {
+    background-color: $yellow;
+    box-shadow: 0 0 0 4px $yellow;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: $spacing-medium;
+    padding: $spacing-xx-small $spacing-x-small;
+  }
+  @include media($break__small) {
+    border: none;
+    padding: 3em;
+    width: 50%;
+  }
+  @include media($break__medium) {
+    padding: 4em;
+    width: 33.333%;
+  }
+}
