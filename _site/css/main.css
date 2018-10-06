@@ -281,8 +281,11 @@ header.site-header {
       font-size: 1.5em; } }
 
 .site__navigation--dropdown-link {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   color: white;
   display: block;
+  font-size: 4vh;
+  font-weight: bold;
   padding: .5em;
   text-align: center;
   text-decoration: none; }
