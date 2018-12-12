@@ -6,9 +6,27 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Nov 2018 09:01:56 -0600</pubDate>
-    <lastBuildDate>Mon, 05 Nov 2018 09:01:56 -0600</lastBuildDate>
+    <pubDate>Wed, 12 Dec 2018 17:43:54 -0600</pubDate>
+    <lastBuildDate>Wed, 12 Dec 2018 17:43:54 -0600</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>15 Years</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/15-years.jpg&quot; alt=&quot;Gorilla-Studios is celebrating 15 years of photography&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Exactly fifteen years ago, on December 12th, 2003, I launched Gorilla-Studios Photography as my online photography portfolio. I had been shooting since the mid 1990's, but had not gotten serious about my work until August of 2003. It was then that I purchased a 6.1MP Canon EOS 10D DSLR and fell in love with photography.&lt;/p&gt;
+&lt;p&gt;I have been lucky enough to take my camera all over the world - from London, Tokyo, New York, and beyond. I've found my artistic style, seen my portfolio grow exponentially, and most importantly the quality of my work has dramatically improved as I have grown as an artist. I have two exhibitions in the coming months and can't wait to see where the future takes me.&lt;/p&gt;
+&lt;p&gt;Thank you for the support and here's to another 15!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Dec 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/post/2018/12/12/fifteen-years.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/12/12/fifteen-years.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>New England Scramble</title>
@@ -551,53 +569,6 @@
         <pubDate>Sat, 11 Mar 2017 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/post/2017/03/11/celestron-cgem.html</link>
         <guid isPermaLink="true">http://localhost:4000/post/2017/03/11/celestron-cgem.html</guid>
-        
-        <category>astrophotography</category>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>Schmidt Cassegrain Maintenance</title>
-        <description>&lt;p&gt;After impatiently waiting a month for clear skies I finally got my 'new' Celestron Ultima 11&quot; Schmidt Cassegrain out for a test run. I couldn't get tack sharp focus so I knew a collimation was in order and looking closely at the corrector plate I found some mold or mildew had built up on the inside of the glass. This was going to be a challenge but if I wanted amazing photos out of it I had to get it cleaned and properly aligned.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/test-run.jpg&quot; alt=&quot;Early morning test run&quot; /&gt;
-  &lt;figcaption&gt;Early morning test run&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Watching a few videos online and reading quite a few forum threads, I decided to use a mixture of 60% Isopropyl Alcohol and 40% distilled water, with sterile cotton to dampen, clean, and dry the plate. I gathered my supplies, thoroughly cleaned my workspace, and got down to business.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/supplies.jpg&quot; alt=&quot;Supplies for cleaning the telescope&quot; /&gt;
-  &lt;figcaption&gt;Gathering my supplies&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;I needed to mark the position of both the retaining ring and the plate itself to ensure when reassembling everything went back to exactly where it was before. The easiest way to do this was to place two pieces of tape and mark them, slice them evenly during disassembly, then line them back up when putting the plate and ring back in. This was much more important for the corrector since it could go in at any angle, at least the ring was limited to it's screw holes.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/mark-it.jpg&quot; alt=&quot;Marking the position of the retaining ring and corrector plate&quot; /&gt;
-  &lt;figcaption&gt;Marking the position of the retaining ring and corrector plate&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;I removed the retaining ring and marked the plate the same way, with one additional mark on the glass incase the tape came off. Once it was out I took a close look at the primary mirror and found it to be in great shape - I didn't want to have to touch that, so I gave it a few puffs of compressed air and then sealed the tube while I went to work cleaning the corrector.&lt;/p&gt;
-&lt;p&gt;The secondary mirror also looked perfect, so I started gently dabbing the corrector with distilled water and cotton swabs. Once it was thoroughly soaked I started dabbing with the cleaning solution, slowly spinning it as I worked my way around a few times, swapping out the cotton every so often (they are cheap, use a lot of them to avoid moving dirt around). Another round of dabbing with distilled water and I finally started dragging the swabs outward towards the edge, putting no pressure on them other than the weight of the swab itself, still slowly spinning after each swipe.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/dabbing.jpg&quot; alt=&quot;Cleaning the corrector plate&quot; /&gt;
-  &lt;figcaption&gt;Cleaning the corrector plate&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;I would pick up the assembly and closely inspect it every so often to ensure things were going smoothly. It looked a hundred times better after one pass on each side, but I did another full water/solution/water cycle on both sides of the glass again. Once that was completed it was looking amazing. A few puffs of compressed air removed any cotton debris, a quick round with the camel hair brush, and it looked perfect.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/plate-cleaning.jpg&quot; alt=&quot;Cleaning the corrector plate&quot; /&gt;
-  &lt;figcaption&gt;Cleaning the corrector plate&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Since I had the scope open and didn't want to have to do this again any time soon I took another look up close under the lights to make sure I got everything off. It still looked great, so I began reassembly. I gently slipped the plate back into the tube and lined it up with the tape marks, then tilted the scope upwards a little bit removing the chance of it falling out before I got the ring in. I removed the tape pieces and quickly did a mini cleaning where they were, even though it would be completely covered by the ring, I wanted everything as clean as it could be. Then I remounted the retainer ring and screwed it back in place, slowly working opposite screws until everything was back in place.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/before-after.jpg&quot; alt=&quot;Corrector plate, before and after&quot; /&gt;
-  &lt;figcaption&gt;The corrector plate before and after.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Honestly I was very nervous about the whole process, but being prepared with all the supplies needed, a good clean workspace with great lighting, and a written down and rehearsed plan made things go extremely well. Once everything was back in I tried to replicate the 'before' photo but the glass was so clean my iPhone couldn't focus on it. I'd say that was a job well done.&lt;/p&gt;
-&lt;p&gt;Next up is a new Celestron CGEM computerized mount to replace the simple clock driven fork mount, another good collimation, and I should be in really great shape.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 24 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2017/02/24/celestron-maintenance.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2017/02/24/celestron-maintenance.html</guid>
         
         <category>astrophotography</category>
         
