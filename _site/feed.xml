@@ -6,9 +6,43 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Dec 2018 11:33:32 -0600</pubDate>
-    <lastBuildDate>Wed, 26 Dec 2018 11:33:32 -0600</lastBuildDate>
+    <pubDate>Thu, 27 Dec 2018 14:28:49 -0600</pubDate>
+    <lastBuildDate>Thu, 27 Dec 2018 14:28:49 -0600</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Capturing the ISS again</title>
+        <description>&lt;p&gt;Back in June I was able to &lt;a href=&quot;/post/2018/06/01/chasing-a-bullet.html&quot; target=&quot;blank&quot;&gt;photograph the ISS transiting the moon&lt;/a&gt; for the first time, and while I was generally happy with it, I knew I could do better. So ever since I have been keeping an eye on &lt;a href=&quot;https://transit-finder.com/&quot; target=&quot;blank&quot;&gt;transit-finder.com&lt;/a&gt; to see when I could get another chance to try again.&lt;/p&gt;
+&lt;p&gt;Just a few days before Christmas I saw a pass would occur to the west of me by a few miles, and as luck would have it, pass almost right over my friends Doug &amp;amp; Heather's house! Fantastic! The only thing was it was going to be at 5:58am, and the day after Christmas, meaning the weather was a definite wild card.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/iss-third-attempt.jpg&quot; alt=&quot;Using the transit finder tool to plot another ISS capture&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;I woke up at 4:30am and poking my head outside saw it was pretty clear, just a slight haze around the moon. I packed everything up and jumped in the car, getting more and more concerned with the fog. Thankfully it was staying close to the ground and straight up was still pretty good.&lt;/p&gt;
+&lt;p&gt;I set everything up with a few minutes to spare and it started getting more and more hazy. Test shots in the camera still looked really good so I thought I would have a good chance. The ISS finder app on my phone indicated that it was tracking straight up and just breaking over the horizon, so I started visually scanning the sky for it. During my last attempt it was not lit by the sun so I couldn't see it until during transit. This time it was illuminated so it would look like a fast moving star. Depending on the altitude of the ISS and a few other factors the station can appear anywhere from very small to somewhat large in the sky. I was delighted to find it exactly where it should be, shining brightly and right on track to pass over the moon.&lt;/p&gt;
+&lt;figure class=&quot;vertical&quot;&gt;
+  &lt;img src=&quot;/images/posts/iss-third-just-before.jpg&quot; alt=&quot;Spotting the ISS just before transit&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;The bright speck just above the tree is the ISS, exactly where it should be, exactly on time. This time I was able to record the flyby on my iPhone since I wasn't crouched behind the scope looking through the camera. I watched it as it flew overhead, firing the remote just before transit. I got four frames just before, and another four as it passsed in front of the moon. I quickly disconnected my camera, checked out the preview, and let out a little yell.&lt;/p&gt;
+&lt;p&gt;Here is the 8 frames I captured of the station just before and during transit.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/iss-third-stack-s.jpg&quot; alt=&quot;The International Space Station lunar transit 8 stack shot&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Here is a close up of the station just before transit. It's one of the few times I have gone from what I see in my head to exactly what I see on the screen perfectly. That is always extremely satisfying.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/0K6A8260-2.jpg&quot; alt=&quot;The International Space Station just before transiting the moon&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;I've wanted to capture this exact shot for &lt;i&gt;years&lt;/i&gt;, it took a lot of patience and a few attempts but it was worth the hard work. I am still blown away by the results. You can clearly see the structure of the station and even the color of the solar arrays. For an object moving at about 17,500mph I think it's pretty clear. I got lucky with the position, capturing it just before crossing over.&lt;/p&gt;
+&lt;p&gt;I'm definitely hooked and will be trying to get even clearer shots in the future. At 51.41 arc seconds the station was fairly large, but I've seen transits listed in the 60's before. Just for reference my first successful attempt was only about 28 arc seconds. Always room for improvement!&lt;/p&gt;
+&lt;p&gt;Next up is the lunar eclipse in January, and possibly attempting an ISS solar transit. Stay tuned!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Dec 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/post/2018/12/26/iss-transit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/12/26/iss-transit.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>15 Years</title>
@@ -524,51 +558,6 @@
         <pubDate>Sat, 12 Aug 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/post/2017/08/12/solar-eclipse.html</link>
         <guid isPermaLink="true">http://localhost:4000/post/2017/08/12/solar-eclipse.html</guid>
-        
-        <category>astrophotography</category>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>New Telescope Mount</title>
-        <description>&lt;p&gt;My Celestron Ultima 11&quot; Schmidt Cassegrain telescope was originally built in 1995, and while the optical tube was in great shape, the original fork mount was getting pretty out-dated. It was difficult to assemble and almost unmanageable by one person alone. On top of that, it only had a simple clock drive for star tracking. While thats fine for basic viewing, its woefully inadequate for astrophotography. It was definitely time for an upgrade.&lt;/p&gt;
-&lt;p&gt;I chose to get a new Celestron CGEM computerized german equatorial mount. This would replace the old and heavy bolted on forks for a lightweight dovetail bar that simply clamped into the mount. I triple checked that I would be able to switch from the fork to a dovetail, made a list of everything I would need, and placed my order. Adorama shipped the order surprisingly quickly and before long I had a huge pile of boxes in my living room.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/the-pile.jpg&quot; alt=&quot;The UPS man came&quot; /&gt;
-  &lt;figcaption&gt;CGEM Mount, Tripod, Dovetail, and a PowerTank&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;The boxes look pretty bad but that was exaggerated by the sleet coming down while going from the the truck into the house. Thankfully it all was packed extremely well and made the trip without any damage.&lt;/p&gt;
-&lt;p&gt;I opened up the CGEM box first, and my immediate impression was that it's extremely substantial and well built. Pictures don't do this thing justice - I firmly believe that if left outside during a nuclear attack it would remain intact. Considering it needs to hold the OTA plus camera gear and any accessories it is a &lt;i&gt;crucial&lt;/i&gt; part of any astrophotography setup.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/unboxing.jpg&quot; alt=&quot;Celestron CGEM Computerized Mount&quot; /&gt;
-  &lt;figcaption&gt;Unboxing the CGEM&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;After getting the tripod and mount together I unpacked the new dovetail bar and got down to removing the optical tube from the original fork mount it was on. This was surprisingly easy as it is simply attached with four bolts at the base of the tube. I had to be very careful removing the original mount without scratching the coating on the optical tube - luckily it came out with only a few nicks.&lt;/p&gt;
-&lt;p&gt;Now that the tube was off the original mount I also removed the accessory bar and finder scope so I could give everything a good cleaning before assembly. Attaching the new dovetail bar provided me with the only 'gotcha' moment of the entire process. It seems new Celestron OTAs use different thread sizes for the forward and aft mounting bolts, so two of the four supplied bolts wouldn't fit. A quick trip to the hardware store and I was back in business.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/dovetail.jpg&quot; alt=&quot;CGEM Dovetail Bar&quot; /&gt;
-  &lt;figcaption&gt;The dovetail bar that bolts to the OTA&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;The original mounting bolts were long enough that without the mount they would screw down far enough to make contact with the mirror itself. Not good, so I'll need another trip to the hardware store for some shorter ones. You can see bolts sticking out of the back of the tube in the photo below.&lt;/p&gt;
-&lt;figure class=&quot;vertical&quot;&gt;
-  &lt;img src=&quot;/images/posts/entire-mount.jpg&quot; alt=&quot;Celestron CGEM Computerized Mount&quot; /&gt;
-  &lt;figcaption&gt;The CGEM Computerized Mount&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Standing at 6'6&quot; tall I am very pleased with the eyepiece height when the tripod is fully extended. While I don't plan on doing much viewing myself it is nice to have things up at my height.&lt;/p&gt;
-&lt;p&gt;I re-mounted the finder scope and balanced the entire assembly using the 17lb and 11lb counter-weights. With everything setup the new equatorial mount is smooth as silk, I am thoroughly impressed. Unlocking the clutches I could move the telescope around with one finger and no slack in any direction.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/cgem.jpg&quot; alt=&quot;Celestron CGEM Computerized Mount&quot; /&gt;
-  &lt;figcaption&gt;The CGEM Computerized Mount&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Next I have to get the telescope out in the field on a clear night for a good practice session. I have to dial in the polar alignment which will be easier than before but still essential, as well as explore using the hand controller and Go To features. I'm very excited and checking the weather daily, but it being March will have to be patient.&lt;/p&gt;
-&lt;p&gt;I plan on sharing my journey as I learn more about astrophotography, so I will be posting more frequently as it warms up - stay tuned.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 11 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2017/03/11/celestron-cgem.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2017/03/11/celestron-cgem.html</guid>
         
         <category>astrophotography</category>
         
