@@ -1,12 +1,22 @@
 // ------------------------------------------ Hero Links
+.flex-grid {
+  border: 4px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @include media($break__small) {
+    border: 8px solid white;
+  }
+}
+
 [class*="hero-link__"] {
   background-size: cover !important;
   color: white;
-  display: block;
   border: 4px solid white;
   padding-top: 44.05%;
   position: relative;
   text-align: right;
+  width: 33.333%;
   &.left {
     text-align: left;
   }
@@ -57,35 +67,25 @@
       }
     }
   }
-}
-
-.hero-link__small {
-  float: left;
-  width: 33.333%;
+  @include media($break__medium) {
+    border: 12px solid white;
+    width: 25%;
+  }
 }
 
 .hero-link__medium {
-  float: left;
   width: 66.666%;
+  @include media($break__medium) {
+    width: 50%;
+  }
 }
 
-#marquee {
-  background: url('/images/catalog/0K6A8466.jpg');
-  background-position: 50%;
+.hero-link__large {
+  width: 100%;
 }
 
-#architecture {
-  background: url('/images/catalog/0K6A0140.jpg');
-  background-position: 50%;
-}
-
-#portraits {
-  background: url('/images/portraits/0K6A8608.jpg');
-  background-position: 50%;
-}
-
+// ----------------------------------------------- FEATURED POST
 #index-featured-post {
-  background-position: 50%;
   font-size: 1.5em;
   span {
     line-height: .9em;
@@ -103,6 +103,22 @@
       text-shadow: 0 0 50px white;
     }
   }
+}
+
+// ----------------------------------------------- SPECIFIC GALLERIES
+#marquee {
+  background: url('/images/catalog/0K6A8466.jpg');
+  background-position: 50%;
+}
+
+#architecture {
+  background: url('/images/catalog/0K6A0140.jpg');
+  background-position: 50%;
+}
+
+#portraits {
+  background: url('/images/portraits/0K6A8608.jpg');
+  background-position: 50%;
 }
 
 #astronomy {

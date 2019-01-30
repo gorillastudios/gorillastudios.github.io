@@ -349,14 +349,23 @@ header.site-header {
       .site__footer p {
         margin-bottom: 4em; } }
 
+.flex-grid {
+  border: 4px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  @media screen and (min-width: 600px) {
+    .flex-grid {
+      border: 8px solid white; } }
+
 [class*="hero-link__"] {
   background-size: cover !important;
   color: white;
-  display: block;
   border: 4px solid white;
   padding-top: 44.05%;
   position: relative;
-  text-align: right; }
+  text-align: right;
+  width: 33.333%; }
   [class*="hero-link__"].left {
     text-align: left; }
   [class*="hero-link__"].dark {
@@ -397,29 +406,21 @@ header.site-header {
         padding: 20px; }
       [class*="hero-link__"]:hover:before {
         background: rgba(0, 0, 0, 0.15); } }
-
-.hero-link__small {
-  float: left;
-  width: 33.333%; }
+  @media screen and (min-width: 1000px) {
+    [class*="hero-link__"] {
+      border: 12px solid white;
+      width: 25%; } }
 
 .hero-link__medium {
-  float: left;
   width: 66.666%; }
+  @media screen and (min-width: 1000px) {
+    .hero-link__medium {
+      width: 50%; } }
 
-#marquee {
-  background: url("/images/catalog/0K6A8466.jpg");
-  background-position: 50%; }
-
-#architecture {
-  background: url("/images/catalog/0K6A0140.jpg");
-  background-position: 50%; }
-
-#portraits {
-  background: url("/images/portraits/0K6A8608.jpg");
-  background-position: 50%; }
+.hero-link__large {
+  width: 100%; }
 
 #index-featured-post {
-  background-position: 50%;
   font-size: 1.5em; }
   #index-featured-post span {
     line-height: .9em; }
@@ -433,6 +434,18 @@ header.site-header {
       opacity: 1;
       line-height: 1em;
       text-shadow: 0 0 50px white; } }
+
+#marquee {
+  background: url("/images/catalog/0K6A8466.jpg");
+  background-position: 50%; }
+
+#architecture {
+  background: url("/images/catalog/0K6A0140.jpg");
+  background-position: 50%; }
+
+#portraits {
+  background: url("/images/portraits/0K6A8608.jpg");
+  background-position: 50%; }
 
 #astronomy {
   background: url("/images/catalog/totality.jpg");
