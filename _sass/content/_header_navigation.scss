@@ -52,7 +52,7 @@ header.site-header {
 // ----------------------------------------- Dropdown Menu
 
 .navigation__dropdown {
-  background: rgba(0,0,0,.95);
+  background: rgba(255,255,255,.95);
   bottom: 0;
   left: 0;
   opacity: 0;
@@ -68,29 +68,51 @@ header.site-header {
     z-index: 20;
   }
   @include media($break__small) {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 1.5em;
+  }
+  @include media($break__medium) {
+    background: rbga(255,255,255,.8);
   }
 }
 
 // ----------------------------------------- Dropdown Links
 .site__navigation--dropdown-link {
-  border-bottom: 1px solid rgba(255,255,255,.25);
-  color: white;
+  color: $charcoal;
   display: block;
   font-size: 3.5vh;
   font-weight: bold;
   padding: .5em;
   text-align: center;
   text-decoration: none;
-  &:hover {
-    background: rgba(255,255,255,.25);
+  &:hover,
+  &:focus {
+    background: rgba(0,0,0,.75);
+    color: white;
+    outline: none;
+  }
+  @include media($break__small) {
+    background: rgba(255,255,255,.75);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    align-self: flex-start;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    padding: 4% 0;
+    width: 50%;
+  }
+  @include media($break__medium) {
+    width: 33.333%;
   }
 }
 
 .site__navigation--dropdown-close {
   color: white;
   cursor: pointer;
-  opacity: .5;
+  opacity: .75;
   padding: 20px;
   position: absolute;
   right: 0;
@@ -105,8 +127,7 @@ header.site-header {
 
 // ----------------------------------------- Footer
 .site__footer {
-  background: $off-white;
-  color: $gray;
+  color: $charcoal;
   font-size: .8em;
   padding: 3em 20px;
   text-align: center;
