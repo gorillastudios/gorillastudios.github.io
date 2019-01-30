@@ -1,15 +1,8 @@
 <footer class="site__footer">
   <p>&copy;2018 Gorilla-Studios Photography | Christopher Peak</p>
   <nav class="site__footer--navigation">
-    <a href="/portfolio">Portfolio</a> |
-    <a href="/architecture">Architecture</a> |
-    <a href="/portraits">Portraits</a> |
-    <a href="/music">Music</a> |
-    <a href="/winter">Winter</a> |
-    <a href="/chicago">Chicago</a> |
-    <a href="/london">London</a> |
-    <a href="/new-york">New York</a> |
-    <a href="/new-england">New England</a> |
-    <a href="/nature">Nature</a>
+    {% for item in site.data.navigation.portfolios %}
+      <a href="{{ item.url }}">{{ item.title }} <span>|</span>
+    {% endfor %}
   </nav>
 </footer>

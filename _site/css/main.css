@@ -322,7 +322,7 @@ header.site-header {
       display: flex;
       font-size: .9em;
       padding: 4% 2%;
-      width: 25%; } }
+      width: 33.333%; } }
   @media screen and (min-width: 1000px) {
     .site__navigation--dropdown-link {
       font-size: 1.5em;
@@ -354,6 +354,8 @@ header.site-header {
       padding: 8em 20px; }
       .site__footer p {
         margin-bottom: 4em; } }
+  .site__footer a:last-child span {
+    display: none; }
 
 .flex-grid {
   border: 8px solid white;

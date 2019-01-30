@@ -112,7 +112,7 @@ header.site-header {
     display: flex;
     font-size: .9em;
     padding: 4% 2%;
-    width: 25%;
+    width: 33.333%;
   }
   @include media($break__medium) {
     font-size: 1.5em;
@@ -151,5 +151,8 @@ header.site-header {
     p {
       margin-bottom: 4em;
     }
+  }
+  a:last-child span {
+    display: none;
   }
 }
