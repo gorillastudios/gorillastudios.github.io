@@ -342,6 +342,7 @@ header.site-header {
     opacity: 1; }
 
 .site__footer {
+  background: #EDECEC;
   color: #3b3b3b;
   font-size: .8em;
   padding: 3em 20px;
