@@ -19,7 +19,6 @@
   &.borderless {
     border: none;
   }
-  @include outer-container;
   @include media($break__small) {
     padding: 4em 20px;
   }

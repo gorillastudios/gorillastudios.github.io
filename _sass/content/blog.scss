@@ -4,9 +4,9 @@
   margin-bottom: 5em;
   padding: 20px;
   text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
   @include media($break__small) {
-    @include span-columns(6);
-    @include shift(3);
     padding: 3em;
     &:hover {
       background: $off-white;
@@ -117,7 +117,6 @@
 
 // ----------------------------------- SOCIAL MEDIA LINKS
 .post__share-panel {
-  @include outer-container(45em);
   margin-bottom: 1.5em;
   padding: 0 10px;
   text-align: center;
@@ -143,7 +142,7 @@
 
 // ----------------------------------- POST NAVIGATION
 .post-navigation {
-  @include outer-container(1000px);
+  padding: 0 10px;
   margin-bottom: 1.5em;
   a {
     border-top: 1px solid $hairline;
@@ -173,15 +172,17 @@
     text-transform: uppercase;
   }
   @include media($break__small) {
+    display: flex;
     padding: 0 10px;
+    max-width: 800px;
+    margin: 0 auto;
     a {
-      @include span-columns(5);
+      width: 50%;
       &:hover {
         background: $off-white;
       }
     }
     a:last-of-type {
-      @include shift(2);
     }
   }
 }

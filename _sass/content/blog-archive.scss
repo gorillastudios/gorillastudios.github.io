@@ -1,14 +1,24 @@
 .blog-archive {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   .post__listing {
     border-top: 1px solid $hairline;
     border-right: 1px solid $hairline;
-    margin: 0;
+    max-width: 100%;
     @include media($break__small) {
       padding: 2em;
       width: 33.333%;
       &:nth-child(3n) {
+        border-right: none;
+      }
+    }
+    @include media($break__medium) {
+      width: 25%;
+      &:nth-child(3n) {
+        border-right: 1px solid $hairline;
+      }
+      &:nth-child(4n) {
         border-right: none;
       }
     }

@@ -18,17 +18,3 @@ figure {
     margin: 0 0 6em 0;
   }
 }
-
-figure.half-and-half {
-  @include outer-container;
-  img {
-    @include span-columns(6);
-  }
-}
-
-figure.triptych {
-  @include outer-container;
-  img {
-    @include span-columns(4);
-  }
-}

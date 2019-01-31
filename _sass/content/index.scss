@@ -16,7 +16,7 @@
   padding-top: 44.05%;
   position: relative;
   text-align: right;
-  width: 33.333%;
+  width: 50%;
   &.left {
     text-align: left;
   }
@@ -51,6 +51,7 @@
   }
   @include media($break__small) {
     border: 8px solid white;
+    width: 33.333%;
     span {
       background: none;
       font-size: 2em;
@@ -74,7 +75,10 @@
 }
 
 .hero-link__medium {
-  width: 66.666%;
+  width: 50%;
+  @include media($break__small) {
+    width: 66.666%;
+  }
   @include media($break__medium) {
     width: 50%;
   }

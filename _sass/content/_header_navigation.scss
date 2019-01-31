@@ -1,38 +1,42 @@
 header.site-header {
-  @include outer-container;
   background: white;
+  display: flex;
   position: relative;
-  z-index: 10;
-  .site__anchor {
-    @include span-columns(5, block-collapse);
-  }
   nav {
-    @include span-columns(7, block-collapse);
-    text-align: right;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
   }
   @include media($break__small) {
-    padding: 0 10px;
+    nav {
+      padding-right: 1.3em;
+    }
   }
 }
 
 // ----------------------------------------- Site Anchor
 .site__anchor {
-  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px .8em;
   img {
     max-width: 200px;
   }
   @include media($break__small) {
-    padding: 20px 0;
+    padding-left: 1.3em;
   }
 }
 
 // ----------------------------------------- Top level links
 .site__navigation--link {
+  align-items: center;
   color: $gray;
+  display: flex;
   font-size: 0.9em;
   font-weight: 300;
-  display: inline-block;
-  padding: 12px 5px;
+  padding: 0 8px;
+  height: 100%;
   text-decoration: none;
   &.active {
     background: $off-white;
