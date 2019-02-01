@@ -8,4 +8,18 @@
     </div>
     {% include footer.html %}
   </body>
+  <script>
+    function headerAdjust() {
+      var scrollPosition = $("body, html").scrollTop()
+      if (scrollPosition == 0) {
+        $('.site-header').removeClass("scrolled");
+      }
+      if (scrollPosition != 0){
+        $('.site-header').addClass("scrolled");
+      }
+    };
+    $(window).scroll(function () {
+      headerAdjust();
+    });
+  </script>
 </html>
