@@ -1,51 +1,50 @@
 ---
 layout: default
-special: border
+special: slim
 ---
 <div class="flex-grid">
-<a href="/portfolio" class="hero-link__large dark" id="marquee">
-  <span>Portfolio</span>
-</a>
+  <a href="/portfolio" class="hero-link__large dark" id="marquee">
+    <span>Portfolio</span>
+  </a>
 
-{% for post in site.posts limit: 1 %}
-<a href="{{ post.url}}" class="hero-link__small" id="index-featured-post" style="background: url('/images/posts/{{post.index-hero}}')">
-  <span>{{ post.title }}</span>
-</a>
-{% endfor %}
+  {% for post in site.posts limit: 1 %}
+    <a href="{{ post.url}}" class="hero-link__small" id="index-featured-post" style="background: url('/images/posts/{{post.index-hero}}')">
+      <span>{{ post.title }}</span>
+    </a>
+  {% endfor %}
 
-<a href="/architecture" class="hero-link__medium left dark" id="architecture">
-  <span>Architecture</span>
-</a>
+  <a href="/architecture" class="hero-link__medium left dark" id="architecture">
+    <span>Architecture</span>
+  </a>
 
-<a href="/astronomy" class="hero-link__small left" id="astronomy">
-  <span>Astronomy</span>
-</a>
+  <a href="/astronomy" class="hero-link__small left" id="astronomy">
+    <span>Astronomy</span>
+  </a>
 
-<a href="/exhibition" class="hero-link__medium left dark" id="exhibition">
-</a>
+  <a href="/exhibition" class="hero-link__medium left dark" id="exhibition">
+  </a>
 
-<a href="/music" class="hero-link__small" id="music">
-  <span>Music</span>
-</a>
+  <a href="/music" class="hero-link__small" id="music">
+    <span>Music</span>
+  </a>
 
-<a href="/portraits" class="hero-link__small" id="portraits">
-  <span>Portraits</span>
-</a>
+  <a href="/portraits" class="hero-link__small" id="portraits">
+    <span>Portraits</span>
+  </a>
 
-<a href="/new-england" class="hero-link__small" id="new-england">
-  <span>New England</span>
-</a>
+  <a href="/new-england" class="hero-link__small" id="new-england">
+    <span>New England</span>
+  </a>
 
-<a href="/chicago" class="hero-link__small" id="chicago">
-  <span>Chicago</span>
-</a>
+  <a href="/chicago" class="hero-link__small" id="chicago">
+    <span>Chicago</span>
+  </a>
 
-<a href="/winter" class="hero-link__small dark" id="winter">
-  <span>Winter</span>
-</a>
+  <a href="/winter" class="hero-link__small dark" id="winter">
+    <span>Winter</span>
+  </a>
 
-<a href="/new-york" class="hero-link__small" id="new-york">
-  <span>New York</span>
-</a>
-
+  <a href="/new-york" class="hero-link__small" id="new-york">
+    <span>New York</span>
+  </a>
 </div>

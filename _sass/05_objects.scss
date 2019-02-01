@@ -2,13 +2,12 @@
 
 .page-content {
   overflow: hidden;
-  &.border {
-    border: 4px solid white;
+  border: 4px solid white;
+  &.slim {
+    border: 0;
   }
   @include media($break__small) {
-    &.border {
-      border: 8px solid white;
-    }
+    border: 18px solid white;
   }
 }
 
