@@ -14,12 +14,12 @@
 
 [class*="module__"] {
   border-top: 1px solid $hairline;
-  padding: 20px;
+  padding: 20px 0;
   &.borderless {
     border: none;
   }
   @include media($break__small) {
-    padding: 4em 20px;
+    padding: 4em 0;
   }
 }
 

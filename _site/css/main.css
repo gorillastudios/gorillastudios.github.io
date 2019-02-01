@@ -68,12 +68,12 @@ a {
 
 [class*="module__"] {
   border-top: 1px solid #dddddd;
-  padding: 20px; }
+  padding: 20px 0; }
   [class*="module__"].borderless {
     border: none; }
   @media screen and (min-width: 600px) {
     [class*="module__"] {
-      padding: 4em 20px; } }
+      padding: 4em 0; } }
 
 .module__single .content {
   margin: 0 auto;
