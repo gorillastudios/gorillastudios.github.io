@@ -9,6 +9,7 @@ header.site-header {
   &.scrolled {
     .site__anchor {
       opacity: .45;
+      visibility: visible;
     }
   }
   nav {
@@ -146,27 +147,5 @@ header.site-header {
   }
   &:hover {
     opacity: 1;
-  }
-}
-
-// ----------------------------------------- Footer
-.site__footer {
-  background: $tan;
-  color: $charcoal;
-  font-size: .8em;
-  padding: 3em 20px;
-  text-align: center;
-  text-shadow: 0px 1px 0px white;
-  p {
-    margin-bottom: 2em;
-  }
-  @include media($break__small) {
-    padding: 8em 20px;
-    p {
-      margin-bottom: 4em;
-    }
-  }
-  a:last-child span {
-    display: none;
   }
 }
