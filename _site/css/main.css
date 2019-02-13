@@ -199,7 +199,7 @@ header.site-header {
   top: 0;
   z-index: 10; }
   header.site-header.scrolled .site__anchor {
-    opacity: .45;
+    opacity: 0.45;
     visibility: visible; }
   header.site-header nav {
     align-items: center;

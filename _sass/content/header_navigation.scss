@@ -8,7 +8,7 @@ header.site-header {
   z-index: 10;
   &.scrolled {
     .site__anchor {
-      opacity: .45;
+      opacity: 0.45;
       visibility: visible;
     }
   }
