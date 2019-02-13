@@ -616,10 +616,10 @@ header.site-header {
   flex-wrap: wrap; }
   .blog-archive .post__listing {
     border-top: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
     max-width: 100%; }
     @media screen and (min-width: 600px) {
       .blog-archive .post__listing {
+        border-right: 1px solid #dddddd;
         padding: 2em;
         width: 33.333%; }
         .blog-archive .post__listing:nth-child(3n) {
