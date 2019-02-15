@@ -186,7 +186,7 @@ pieces for my portfolio. Check out the rest of the shots <a href='/bret-michaels
   </body>
   <script>
     function headerAdjust() {
-      var scrollPosition = $("body, html").scrollTop()
+      var scrollPosition = window.pageYOffset;
       if (scrollPosition == 0) {
         $('.site-header').removeClass("scrolled");
       }

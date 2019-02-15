@@ -8,11 +8,9 @@ header.site-header {
   z-index: 10;
   &.scrolled {
     .site__anchor {
-      img {
-        opacity: 0.45;
-        transition: opacity .4s ease;
-        visibility: visible;
-      }
+      opacity: 0.45;
+      transition: opacity .4s ease;
+      visibility: visible;
     }
   }
   nav {

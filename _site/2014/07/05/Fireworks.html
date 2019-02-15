@@ -172,7 +172,7 @@ Great evening with the family.</p>
   </body>
   <script>
     function headerAdjust() {
-      var scrollPosition = $("body, html").scrollTop()
+      var scrollPosition = window.pageYOffset;
       if (scrollPosition == 0) {
         $('.site-header').removeClass("scrolled");
       }
