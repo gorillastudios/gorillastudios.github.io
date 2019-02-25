@@ -627,6 +627,7 @@ header.site-header {
           border-right: none; } }
     @media screen and (min-width: 1000px) {
       .blog-archive .post__listing {
+        margin: 0;
         width: 25%; }
         .blog-archive .post__listing:nth-child(3n) {
           border-right: 1px solid #dddddd; }

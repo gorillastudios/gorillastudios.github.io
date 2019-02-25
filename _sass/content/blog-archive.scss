@@ -14,6 +14,7 @@
       }
     }
     @include media($break__medium) {
+      margin: 0;
       width: 25%;
       &:nth-child(3n) {
         border-right: 1px solid $hairline;
