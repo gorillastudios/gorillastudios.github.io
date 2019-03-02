@@ -38,6 +38,10 @@ img.headshot {
   margin: 0 auto 2em auto;
   max-width: 150px; }
 
+.module-title {
+  color: #6e6e6e;
+  text-align: center; }
+
 p {
   font-weight: 300;
   line-height: 1.5em; }
@@ -56,15 +60,6 @@ a {
   color: #3b3b3b;
   transition: all 0.25s ease-in;
   text-decoration: none; }
-
-.page-content {
-  overflow: hidden;
-  border: 12px solid white; }
-  .page-content.slim {
-    border: 0; }
-  @media screen and (min-width: 600px) {
-    .page-content {
-      border: 18px solid white; } }
 
 [class*="module__"] {
   border-top: 1px solid #dddddd;
@@ -98,10 +93,6 @@ a {
   @media screen and (min-width: 1000px) {
     .l-grid__secondary {
       width: 50%; } }
-
-.module-title {
-  color: #6e6e6e;
-  text-align: center; }
 
 .page__intro {
   padding: 2em 10px 1em 10px; }
@@ -146,6 +137,15 @@ a {
       font-size: 1em;
       margin-top: 0.25em; } }
 
+.page-content {
+  overflow: hidden;
+  border: 12px solid white; }
+  .page-content.slim {
+    border: 0; }
+  @media screen and (min-width: 600px) {
+    .page-content {
+      border: 18px solid white; } }
+
 figure {
   margin: 0 0 3em 0; }
   figure figcaption {
@@ -158,6 +158,8 @@ figure {
     margin: 0 auto;
     max-width: 600px;
     width: 80%; }
+  figure.slim {
+    margin: 0 0 1.5em 0; }
   @media screen and (min-width: 600px) {
     figure {
       margin: 0 0 6em 0; } }
@@ -712,30 +714,6 @@ form .button__send {
         background: #4cb28a;
         cursor: pointer; } }
 
-.store__listing {
-  margin: 0 auto 1.5em auto;
-  max-width: 1100px;
-  padding: 0 10px; }
-  @media screen and (min-width: 600px) {
-    .store__listing {
-      padding: 0 1em;
-      display: flex; }
-      .store__listing figure {
-        width: 70%; }
-      .store__listing table {
-        width: 30%; } }
-
-.store__listing--price-table {
-  border: 1px solid #dddddd;
-  background: #F8F8F9;
-  font-size: 0.8rem;
-  padding: 0.75rem;
-  text-align: left;
-  width: 100%; }
-  .store__listing--price-table .price-description {
-    color: #999;
-    padding: 0.75rem 0 0 0; }
-
 .c-exhibition__intro {
   margin: 0 auto 3em auto;
   padding: 0 10px;
@@ -772,13 +750,20 @@ form .button__send {
       padding-top: 0;
       flex: 1; } }
 
-#astro__moon {
-  margin-bottom: 1.5em; }
-
 @media screen and (min-width: 1000px) {
   #astro-overview {
     display: flex;
     flex-direction: row; } }
+
+@media screen and (min-width: 1000px) {
+  #more-astro-posts {
+    display: flex;
+    flex-direction: row; }
+    #more-astro-posts a {
+      padding: 1em; } }
+@media screen and (min-width: 1200px) {
+  #more-astro-posts a {
+    padding: 3em; } }
 
 #scope-overview {
   display: flex; }

@@ -36,14 +36,25 @@
   }
 }
 
-#astro__moon {
-  margin-bottom: 1.5em;
-}
-
 #astro-overview {
   @include media($break__medium) {
     display: flex;
     flex-direction: row;
+  }
+}
+
+#more-astro-posts {
+  @include media($break__medium) {
+    display: flex;
+    flex-direction: row;
+    a {
+      padding: 1em;
+    }
+  }
+  @include media($break__large) {
+    a {
+      padding: 3em;
+    }
   }
 }
 

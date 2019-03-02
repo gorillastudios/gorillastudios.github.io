@@ -47,3 +47,15 @@
     margin-top: 0.25em;
   }
 }
+
+.page-content {
+  overflow: hidden;
+  border: 12px solid white;
+  &.slim {
+    border: 0;
+  }
+  @include media($break__small) {
+    border: 18px solid white;
+  }
+}
+
