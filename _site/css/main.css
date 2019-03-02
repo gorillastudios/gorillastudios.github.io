@@ -80,6 +80,25 @@ a {
   max-width: 600px;
   width: 100%; }
 
+@media screen and (min-width: 1000px) {
+  .l-grid {
+    display: flex;
+    flex-direction: row; } }
+
+.l-grid__primary {
+  width: 100%; }
+  @media screen and (min-width: 1000px) {
+    .l-grid__primary {
+      width: 50%; } }
+
+.l-grid__secondary {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  @media screen and (min-width: 1000px) {
+    .l-grid__secondary {
+      width: 50%; } }
+
 .module-title {
   color: #6e6e6e;
   text-align: center; }
@@ -721,3 +740,62 @@ form .button__send {
   margin: 0 auto 3em auto;
   padding: 0 10px;
   max-width: 35em; }
+
+#rig {
+  background: url("../images/astrophotography/astro-rig.jpg");
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 100%; }
+  @media screen and (min-width: 1000px) {
+    #rig {
+      border-right: 10px solid white;
+      padding: 0;
+      min-height: 90vh; } }
+
+@media screen and (min-width: 1000px) {
+  #astro-posts {
+    display: flex; }
+    #astro-posts a {
+      padding: 1em; } }
+@media screen and (min-width: 1200px) {
+  #astro-posts a {
+    padding: 3em; } }
+
+#stars {
+  background: url("../images/catalog/0K6A3771-alt.jpg");
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 56.26%; }
+  @media screen and (min-width: 1000px) {
+    #stars {
+      border-left: 10px solid white;
+      padding-top: 0;
+      flex: 1; } }
+
+#astro__moon {
+  margin-bottom: 1.5em; }
+
+@media screen and (min-width: 1000px) {
+  #astro-overview {
+    display: flex;
+    flex-direction: row; } }
+
+#scope-overview {
+  display: flex; }
+  @media screen and (min-width: 1000px) {
+    #scope-overview {
+      align-items: center;
+      font-size: 1.25em;
+      justify-content: center;
+      padding: 3em;
+      width: 50%; } }
+
+#cgem {
+  background: url("../images/astrophotography/IMG_8595.jpg");
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 100%; }
+  @media screen and (min-width: 1000px) {
+    #cgem {
+      padding-top: 60%;
+      width: 50%; } }

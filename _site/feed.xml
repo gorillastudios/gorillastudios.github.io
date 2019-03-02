@@ -4,11 +4,11 @@
     <title>Gorilla-Studios Photography</title>
     <description>Focusing on stunning landscape and high-energy music photography, Gorilla-Studios has been the online home of my portfolio since 2003. I specialize in landscapes, cityscapes and architecture, nature, candid portraiture, headshots, band promos and concert photography.
 </description>
-    <link>http://localhost:5000/</link>
-    <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Feb 2019 10:26:26 -0600</pubDate>
-    <lastBuildDate>Tue, 26 Feb 2019 10:26:26 -0600</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 02 Mar 2019 11:24:00 -0600</pubDate>
+    <lastBuildDate>Sat, 02 Mar 2019 11:24:00 -0600</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Coopers Hawk</title>
@@ -63,8 +63,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Tue, 26 Feb 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/post/2019/02/26/coopers-hawk.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2019/02/26/coopers-hawk.html</guid>
+        <link>http://localhost:4000/post/2019/02/26/coopers-hawk.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2019/02/26/coopers-hawk.html</guid>
         
         
         <category>post</category>
@@ -123,8 +123,8 @@
 
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/post/2019/01/22/lunar-eclipse.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2019/01/22/lunar-eclipse.html</guid>
+        <link>http://localhost:4000/post/2019/01/22/lunar-eclipse.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2019/01/22/lunar-eclipse.html</guid>
         
         
         <category>post</category>
@@ -207,8 +207,8 @@
 &lt;p&gt;While this has been my slowest year for photography in quite a while I am still happy with the results. I can't wait to get out for some shoots in 2019 and see where the year takes me.&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/post/2019/01/09/best-of-2018.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2019/01/09/best-of-2018.html</guid>
+        <link>http://localhost:4000/post/2019/01/09/best-of-2018.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2019/01/09/best-of-2018.html</guid>
         
         
         <category>post</category>
@@ -241,8 +241,8 @@
 &lt;p&gt;Next up is the lunar eclipse in January, and possibly attempting an ISS solar transit. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/post/2018/12/26/iss-transit.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2018/12/26/iss-transit.html</guid>
+        <link>http://localhost:4000/post/2018/12/26/iss-transit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/12/26/iss-transit.html</guid>
         
         
         <category>post</category>
@@ -259,8 +259,8 @@
 &lt;p&gt;Thank you for the support and here's to another 15!&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/post/2018/12/12/fifteen-years.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2018/12/12/fifteen-years.html</guid>
+        <link>http://localhost:4000/post/2018/12/12/fifteen-years.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/12/12/fifteen-years.html</guid>
         
         
         <category>post</category>
@@ -334,8 +334,8 @@
 &lt;p&gt;Another trip where I only had a few hours but I made the most of my time. I absolutely loved Maine and New Hampshire and am definitely going to take the family back here next year when the colors are in their prime to see everything and soak it all in without scrambling to get from one place to another.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Oct 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/post/2018/10/04/scramble.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2018/10/04/scramble.html</guid>
+        <link>http://localhost:4000/post/2018/10/04/scramble.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/10/04/scramble.html</guid>
         
         
         <category>post</category>
@@ -387,8 +387,8 @@
 &lt;p&gt;Overall I am really happy with the purchase. The build quality is great, and after using it to edit a handful of photos I really like using it. I'll share my thoughts in a few months after I get more comfortable using this in my workflow, but right now I am very optimistic that it's going to become a valuable addition to my process. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Sep 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/post/2018/09/06/loupedeck.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2018/09/06/loupedeck.html</guid>
+        <link>http://localhost:4000/post/2018/09/06/loupedeck.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/09/06/loupedeck.html</guid>
         
         
         <category>post</category>
@@ -436,8 +436,8 @@
 &lt;p&gt;Looking at other opportunities in Transit Finder I realize that the stations angular size can vary from the low 20s all the way into the 60s, meaning it would appear two to three times bigger in ideal conditions. I'm going to keep trying for some better results and will probably try a solar transit at some point. Anyway, as Neil deGrasse Tyson always says, keep looking up!&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jun 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/post/2018/06/01/chasing-a-bullet.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2018/06/01/chasing-a-bullet.html</guid>
+        <link>http://localhost:4000/post/2018/06/01/chasing-a-bullet.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/06/01/chasing-a-bullet.html</guid>
         
         
         <category>post</category>
@@ -454,8 +454,8 @@
 &lt;p&gt;I am primarily a landscape photographer, so of course I was going to get a book on Ansel Adams. I was surprised by this one though, most books I've thumbed through are mostly just portfolio studies, where as &lt;i&gt;Divine Performance&lt;/i&gt; takes a large portion of the book talking about his life. I wasn't aware that he was an extremely talented musician as well as the grandfather of landscape photography. While it's a great read, it's not a book I'm going to put on my shelf as a part of my permanent collection - I would much prefer one of his portfolio studies that I can pick up and just soak in his photographs.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/post/2018/01/29/book-challenge.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2018/01/29/book-challenge.html</guid>
+        <link>http://localhost:4000/post/2018/01/29/book-challenge.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/01/29/book-challenge.html</guid>
         
         
         <category>post</category>
@@ -478,8 +478,8 @@
 &lt;p&gt;I firmly believe that this book should be issued to every Photo 101 student on day one. It's an amazing collection of writing and deserves to be on every photographers bookshelf. Hardcovers and Kindle copies are available on &lt;a href=&quot;https://www.amazon.com/Soul-Camera-Photographers-Place-Picture-Making/dp/1681982021/ref=sr_1_1?ie=UTF8&amp;qid=1515421426&amp;sr=8-1&amp;keywords=soul+of+the+camera&quot; target=&quot;blank&quot;&gt;Amazon&lt;/a&gt;, and you can find the rest of David's books on &lt;a href=&quot;https://craftandvision.com/&quot; target=&quot;blanK&quot;&gt;Craft &amp;amp; Vision&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/post/2018/01/08/book-challenge.html</link>
-        <guid isPermaLink="true">http://localhost:5000/post/2018/01/08/book-challenge.html</guid>
+        <link>http://localhost:4000/post/2018/01/08/book-challenge.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2018/01/08/book-challenge.html</guid>
         
         
         <category>post</category>

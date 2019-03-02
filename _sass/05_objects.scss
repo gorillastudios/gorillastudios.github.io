@@ -29,3 +29,27 @@
   max-width: 600px;
   width: 100%;
 }
+
+
+.l-grid {
+  @include media($break__medium) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.l-grid__primary {
+  width: 100%;
+  @include media($break__medium) {
+    width: 50%;
+  }
+}
+
+.l-grid__secondary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @include media($break__medium) {
+    width: 50%;
+  }
+}
