@@ -10,27 +10,22 @@ title: Astrophotography
 
 <div class="l-grid">
   <section class="l-grid__primary" id="rig"></section>
+
   <section class="l-grid__secondary">
     <section id="astro-posts">
-      <a href="/post/2019/01/22/lunar-eclipse.html" class="post__listing">
-        <p class="post__listing--date">Jan 22 2019</p>
-        <h2 class="post__listing--title">Lunar Eclipse</h2>
-        <p class="post__listing--intro">My experience of the Jan 20th lunar eclipse</p>
-        <p class="post__listing--preview">
-        This past weekend I was able to get out and somewhat enjoy the most recent total lunar eclipse. Despite my better judgement knowing that it was going to be in the single digits I packed up my gear and headed...
-        </p>
-        <p class="post__listing--read-more">Read More</p>
-      </a>
-      <a href="/post/2018/12/26/iss-transit.html" class="post__listing">
-        <p class="post__listing--date">Dec 26 2018</p>
-        <h2 class="post__listing--title">Capturing the ISS again</h2>
-        <p class="post__listing--intro">Capturing the ISS again</p>
-        <p class="post__listing--preview">
-        Back in June I was able to photograph the ISS transiting the moon for the first time, and while I was generally happy with it, I knew I could do better. So ever since I have been keeping an eye...
-        </p>
-        <p class="post__listing--read-more">Read More</p>
-      </a>
+      {% for post in site.categories.astrophotography limit: 2 %}
+        {% if post.url %}
+          <a href="{{ post.url }}" class="post__listing">
+            <p class="post__listing--date">{{ post.date | date: '%b %d %Y' }}</p>
+            <h2 class="post__listing--title">{{ post.title }}</h2>
+            <p class="post__listing--intro">{{ post.intro }}</p>
+            <p class="post__listing--preview">{{ post.content | strip_html | truncatewords: 40 }}</p>
+            <p class="post__listing--read-more">Read More</p>
+          </a>
+        {% endif %}
+      {% endfor %}
     </section>
+
     <section id="stars">
     </section>
 
@@ -46,7 +41,7 @@ title: Astrophotography
 
 <div id="astro-overview">
   <section id="scope-overview">
-    <p>My primary astrophotography rig consists of a Celestron Ultima 11" Schmidt Cassegrain OTA which was actually built in 1994 or so, but it's still an amazing telescope. The 11" mirror gives it a focal length of 2800mm at f/11. With a focal reducer mounted on the back it drops to 1680mm but speeds up to f/6.3 which is much faster. I mounted the OTA on a new Celestron CGEM GoTo computerized mount so I can track deep sky objects for long exposures. It's quite a steep learning curve, but this hobby is a marathon, not a sprint. I purchased a StarSense to make polar alignment even more precise. The StarSense is not a guide camera, I don't want to be saddled with a laptop when I'm out in the field.</p>
+    <p>My primary astrophotography rig is a Celestron Ultima 11" Schmidt Cassegrain OTA which was built in 1994, even so it's still an amazing telescope. The 11" mirror gives it a focal length of 2800mm at f/11. I added a focal reducer which drops it 1680mm but speeds up to f/6.3, getting much more light to the sensor. The telescope is sitting on a Celestron CGEM GoTo computerized mount so I can track deep sky objects for long exposures. It's quite a steep learning curve but this hobby is a marathon, not a sprint. To aid in polar alignment I replaced the finderscope with a StarSense camera. I plan on replacing that with a ZWO autoguider camera with the ASIair guide computer so I can bypass using a PC laptop in the field.</p>
   </section>
   <section id="cgem"></section>
 </div>
@@ -59,47 +54,50 @@ title: Astrophotography
 
 <br>
 
-<div id="more-astro-posts">
-  <a href="/post/2018/06/01/chasing-a-bullet.html" class="post__listing">
-    <p class="post__listing--date">Jun 01 2018</p>
-    <h2 class="post__listing--title">Chasing a bullet</h2>
-    <p class="post__listing--preview">
-    For as long as I can remember I've always been fascinated by everything to do with space. Recently, I tore through Mike Massimino's book Spaceman and now am reading The Interstellar Age, which is about NASA's Voyager 1 &amp; 2...
-    </p>
-    <p class="post__listing--read-more">Read More</p>
-  </a>
+<div class="blog-archive">
+  {% for post in site.categories.astrophotography offset: 2 limit: 3 %}
+    {% if post.url %}
+      <a href="{{ post.url }}" class="post__listing large">
+        <p class="post__listing--date">{{ post.date | date: '%b %d %Y' }}</p>
+        <h2 class="post__listing--title">{{ post.title }}</h2>
+        <p class="post__listing--intro">{{ post.intro }}</p>
+        <p class="post__listing--preview">{{ post.content | strip_html | truncatewords: 40 }}</p>
+        <p class="post__listing--read-more">Read More</p>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
 
-  <a href="/post/2017/08/12/solar-eclipse.html" class="post__listing">
-    <p class="post__listing--date">Aug 12 2017</p>
-    <h2 class="post__listing--title">The Solar Eclipse</h2>
-    <p class="post__listing--preview">
-    The North American Solar Eclipse has been on my calendar for about two years, so now that it's past I am incredibly relieved everything went smoothly. The long build up allowed me to be as ready as I could be,...
-    </p>
-    <p class="post__listing--read-more">Read More</p>
-  </a>
 
-  <a href="/post/2017/03/11/celestron-cgem.html" class="post__listing">
-    <p class="post__listing--date">Mar 11 2017</p>
-    <h2 class="post__listing--title">New Telescope Mount</h2>
-    <p class="post__listing--preview">
-    My Celestron Ultima 11" Schmidt Cassegrain telescope was originally built in 1995, and while the optical tube was in great shape, the original fork mount was getting pretty out-dated. It was difficult to assemble and almost unmanageable by one person...
-    </p>
-    <p class="post__listing--read-more">Read More</p>
-  </a>
+<div class="l-two-thirds">
+  <section class="primary" id="astro-totality"></section>
+  <section class="secondary" id="astro-lunar-eclipse"></section>
+</div>
 
-  <a href="/post/2017/02/24/celestron-maintenance.html" class="post__listing">
-    <p class="post__listing--date">Feb 24 2017</p>
-    <h2 class="post__listing--title">Schmidt Cassegrain Maintenance</h2>
-    <p class="post__listing--preview">
-    After impatiently waiting a month for clear skies I finally got my 'new' Celestron Ultima 11" Schmidt Cassegrain out for a test run. I couldn't get tack sharp focus so I knew a collimation was in order and looking closely...
-    </p>
-    <p class="post__listing--read-more">Read More</p>
-  </a>
+<figure class="slim">
+  <img src="/images/posts/iss-third-stack-s.jpg">
+</figure>
+
+<div class="blog-archive">
+  {% for post in site.categories.astrophotography offset: 5 %}
+    {% if post.url %}
+      <a href="{{ post.url }}" class="post__listing large">
+        <p class="post__listing--date">{{ post.date | date: '%b %d %Y' }}</p>
+        <h2 class="post__listing--title">{{ post.title }}</h2>
+        <p class="post__listing--intro">{{ post.intro }}</p>
+        <p class="post__listing--preview">{{ post.content | strip_html | truncatewords: 40 }}</p>
+        <p class="post__listing--read-more">Read More</p>
+      </a>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <br>
 
 <figure class="slim">
+  <img src="/images/posts/lunar-progression-tall.jpg">
+</figure>
+
+<figure class="slim">
   <img src="/images/catalog/star-trails-3.jpg">
-  <figcaption>Star trails</figcaption>
 </figure>

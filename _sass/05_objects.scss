@@ -21,7 +21,7 @@
 
 
 .l-grid {
-  @include media($break__medium) {
+  @include media($break__small) {
     display: flex;
     flex-direction: row;
   }
@@ -29,6 +29,9 @@
 
 .l-grid__primary {
   width: 100%;
+  @include media($break__small) {
+    width: 40%;
+  }
   @include media($break__medium) {
     width: 50%;
   }
@@ -38,7 +41,35 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  @include media($break__small) {
+    width: 60%;
+  }
   @include media($break__medium) {
     width: 50%;
+  }
+}
+
+.l-two-thirds {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  .primary {
+    padding-top: 100%;
+    margin-bottom: 20px;
+  }
+  .secondary {
+    padding-top: 100%;
+  }
+  @include media($break__small) {
+    flex-direction: row;
+    .primary {
+      padding-top: 50%;
+      margin: 0;
+      width: 66.666%;
+    }
+    .secondary {
+      padding-top: 0;
+      width: 33.333%;
+    }
   }
 }

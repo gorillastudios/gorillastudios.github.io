@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Mar 2019 12:51:34 -0600</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 12:51:34 -0600</lastBuildDate>
+    <pubDate>Wed, 06 Mar 2019 10:31:28 -0600</pubDate>
+    <lastBuildDate>Wed, 06 Mar 2019 10:31:28 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -123,11 +123,11 @@
 
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2019/01/22/lunar-eclipse.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2019/01/22/lunar-eclipse.html</guid>
+        <link>http://localhost:4000/astrophotography/2019/01/22/lunar-eclipse.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2019/01/22/lunar-eclipse.html</guid>
         
         
-        <category>post</category>
+        <category>astrophotography</category>
         
       </item>
     
@@ -217,7 +217,7 @@
     
       <item>
         <title>Capturing the ISS again</title>
-        <description>&lt;p&gt;Back in June I was able to &lt;a href=&quot;/post/2018/06/01/chasing-a-bullet.html&quot; target=&quot;blank&quot;&gt;photograph the ISS transiting the moon&lt;/a&gt; for the first time, and while I was generally happy with it, I knew I could do better. So ever since I have been keeping an eye on &lt;a href=&quot;https://transit-finder.com/&quot; target=&quot;blank&quot;&gt;transit-finder.com&lt;/a&gt; to see when I could get another chance to try again.&lt;/p&gt;
+        <description>&lt;p&gt;Back in June I was able to &lt;a href=&quot;/astrophotography/2018/06/01/chasing-a-bullet.html&quot; target=&quot;blank&quot;&gt;photograph the ISS transiting the moon&lt;/a&gt; for the first time, and while I was generally happy with it, I knew I could do better. So ever since I have been keeping an eye on &lt;a href=&quot;https://transit-finder.com/&quot; target=&quot;blank&quot;&gt;transit-finder.com&lt;/a&gt; to see when I could get another chance to try again.&lt;/p&gt;
 &lt;p&gt;Just a few days before Christmas I saw a pass would occur to the west of me by a few miles, and as luck would have it, pass almost right over my friends Doug &amp;amp; Heather's house! Fantastic! The only thing was it was going to be at 5:58am, and the day after Christmas, meaning the weather was a definite wild card.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/posts/iss-third-attempt.jpg&quot; alt=&quot;Using the transit finder tool to plot another ISS capture&quot; /&gt;
@@ -241,11 +241,11 @@
 &lt;p&gt;Next up is the lunar eclipse in January, and possibly attempting an ISS solar transit. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2018/12/26/iss-transit.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2018/12/26/iss-transit.html</guid>
+        <link>http://localhost:4000/astrophotography/2018/12/26/iss-transit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2018/12/26/iss-transit.html</guid>
         
         
-        <category>post</category>
+        <category>astrophotography</category>
         
       </item>
     
@@ -436,11 +436,11 @@
 &lt;p&gt;Looking at other opportunities in Transit Finder I realize that the stations angular size can vary from the low 20s all the way into the 60s, meaning it would appear two to three times bigger in ideal conditions. I'm going to keep trying for some better results and will probably try a solar transit at some point. Anyway, as Neil deGrasse Tyson always says, keep looking up!&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jun 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/post/2018/06/01/chasing-a-bullet.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2018/06/01/chasing-a-bullet.html</guid>
+        <link>http://localhost:4000/astrophotography/2018/06/01/chasing-a-bullet.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2018/06/01/chasing-a-bullet.html</guid>
         
         
-        <category>post</category>
+        <category>astrophotography</category>
         
       </item>
     

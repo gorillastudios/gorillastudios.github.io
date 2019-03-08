@@ -8,7 +8,7 @@ special: slim
   </a>
 
   {% for post in site.posts limit: 1 %}
-    <a href="{{ post.url}}" class="hero-link__small dark" id="index-featured-post" style="background: url('/images/posts/{{post.index-hero}}')">
+    <a href="{{ post.url}}" class="hero-link__small dark" id="index-featured-post" style="background: url('/images/posts/{{ post.teaser }}')">
       <span>{{ post.title }}</span>
     </a>
   {% endfor %}
@@ -17,7 +17,7 @@ special: slim
     <span>Architecture</span>
   </a>
 
-  <a href="/astronomy" class="hero-link__small left" id="astronomy">
+  <a href="/astrophotography" class="hero-link__small left" id="astronomy">
     <span>Astronomy</span>
   </a>
 

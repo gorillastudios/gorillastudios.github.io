@@ -75,13 +75,16 @@ a {
   max-width: 600px;
   width: 100%; }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
   .l-grid {
     display: flex;
     flex-direction: row; } }
 
 .l-grid__primary {
   width: 100%; }
+  @media screen and (min-width: 600px) {
+    .l-grid__primary {
+      width: 40%; } }
   @media screen and (min-width: 1000px) {
     .l-grid__primary {
       width: 50%; } }
@@ -90,9 +93,32 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%; }
+  @media screen and (min-width: 600px) {
+    .l-grid__secondary {
+      width: 60%; } }
   @media screen and (min-width: 1000px) {
     .l-grid__secondary {
       width: 50%; } }
+
+.l-two-thirds {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0; }
+  .l-two-thirds .primary {
+    padding-top: 100%;
+    margin-bottom: 20px; }
+  .l-two-thirds .secondary {
+    padding-top: 100%; }
+  @media screen and (min-width: 600px) {
+    .l-two-thirds {
+      flex-direction: row; }
+      .l-two-thirds .primary {
+        padding-top: 50%;
+        margin: 0;
+        width: 66.666%; }
+      .l-two-thirds .secondary {
+        padding-top: 0;
+        width: 33.333%; } }
 
 .page__intro {
   padding: 2em 10px 1em 10px; }
@@ -490,45 +516,6 @@ header.site-header {
   background: url("/images/catalog/0K6A4725.jpg");
   background-position: 50%; }
 
-.post__listing {
-  display: block;
-  margin-bottom: 5em;
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 500px; }
-  @media screen and (min-width: 600px) {
-    .post__listing {
-      padding: 3em; }
-      .post__listing:hover {
-        background: #F8F8F9; }
-        .post__listing:hover .post__listing--read-more {
-          color: black;
-          border-color: black; } }
-
-.post__listing--date {
-  color: #C63F3F;
-  font-size: .9em;
-  margin: 0; }
-
-.post__listing--title {
-  font-size: 1.4em;
-  margin-top: .5em; }
-  @media screen and (min-width: 600px) {
-    .post__listing--title {
-      margin-top: 1em; } }
-
-.post__listing--intro {
-  font-size: .9em; }
-
-.post__listing--read-more {
-  border: 1px solid #dddddd;
-  color: #999;
-  display: inline-block;
-  margin: 1em auto 0 auto;
-  padding: 0.5em;
-  transition: all .25s ease-in; }
-
 .post-header {
   text-align: center;
   padding: 3em 10px; }
@@ -632,16 +619,62 @@ header.site-header {
         .post-navigation a:hover {
           background: #F8F8F9; } }
 
+.post__listing {
+  display: block;
+  margin: 0 auto 5em auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    .post__listing {
+      padding: 3em; }
+      .post__listing:hover {
+        background: #F8F8F9; }
+        .post__listing:hover .post__listing--read-more {
+          color: black;
+          border-color: black; } }
+
+.post__listing--date {
+  color: #C63F3F;
+  font-size: .9em;
+  margin: 0 0 10px 0; }
+
+.post__listing--title {
+  font-size: 1.4em;
+  margin-top: .5em; }
+  @media screen and (min-width: 600px) {
+    .post__listing--title {
+      margin-top: 1em; } }
+
+.post__listing--intro {
+  font-size: .9em; }
+
+.post__listing--teaser {
+  border: none;
+  padding-top: 40%;
+  background-position: 50% !important;
+  background-size: cover !important; }
+
+.post__listing--read-more {
+  border: 1px solid #dddddd;
+  color: #999;
+  display: inline-block;
+  margin: 1em auto 0 auto;
+  padding: 0.5em;
+  transition: all .25s ease-in; }
+
 .blog-archive {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
   .blog-archive .post__listing {
     border-top: 1px solid #dddddd;
+    margin: 0;
     max-width: 100%; }
     @media screen and (min-width: 600px) {
       .blog-archive .post__listing {
         border-right: 1px solid #dddddd;
+        margin: 0;
         padding: 2em;
         width: 33.333%; }
         .blog-archive .post__listing:nth-child(3n) {
@@ -653,6 +686,20 @@ header.site-header {
         .blog-archive .post__listing:nth-child(3n) {
           border-right: 1px solid #dddddd; }
         .blog-archive .post__listing:nth-child(4n) {
+          border-right: none; } }
+    @media screen and (min-width: 600px) {
+      .blog-archive .post__listing.large {
+        border-right: 1px solid #dddddd;
+        width: 50%; }
+        .blog-archive .post__listing.large:nth-child(2n) {
+          border-right: none; } }
+    @media screen and (min-width: 1000px) {
+      .blog-archive .post__listing.large {
+        border-right: 1px solid #dddddd;
+        width: 33.333%; }
+        .blog-archive .post__listing.large:nth-child(2n) {
+          border-right: 1px solid #dddddd; }
+        .blog-archive .post__listing.large:nth-child(3n) {
           border-right: none; } }
 
 form .input-group {
@@ -724,7 +771,7 @@ form .button__send {
   background-size: cover;
   background-position: 50%;
   padding-top: 100%; }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 600px) {
     #rig {
       border-right: 10px solid white;
       padding: 0;
@@ -734,7 +781,7 @@ form .button__send {
   #astro-posts {
     display: flex; }
     #astro-posts a {
-      padding: 1em; } }
+      padding: 1em 1em 2em 1em; } }
 @media screen and (min-width: 1200px) {
   #astro-posts a {
     padding: 3em; } }
@@ -776,7 +823,7 @@ form .button__send {
       width: 50%; } }
 
 #cgem {
-  background: url("../images/astrophotography/IMG_8595.jpg");
+  background: url("../images/posts/entire-mount.jpg");
   background-size: cover;
   background-position: 50%;
   padding-top: 100%; }
@@ -784,3 +831,20 @@ form .button__send {
     #cgem {
       padding-top: 60%;
       width: 50%; } }
+
+#astro-totality {
+  background: url("../images/catalog/totality.jpg");
+  background-size: cover;
+  background-position: 50%; }
+  @media screen and (min-width: 1000px) {
+    #astro-totality {
+      border-right: 10px solid white; } }
+
+#astro-lunar-eclipse {
+  background: url("../images/catalog/lunar-eclipse-2019.jpg");
+  background-size: cover;
+  background-position: 33% 20%; }
+  @media screen and (min-width: 1000px) {
+    #astro-lunar-eclipse {
+      border-left: 10px solid white;
+      background-position: 33% 50%; } }

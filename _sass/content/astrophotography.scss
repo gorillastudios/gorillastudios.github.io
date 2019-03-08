@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: 50%;
   padding-top: 100%;
-  @include media($break__medium) {
+  @include media($break__small) {
     border-right: 10px solid white;
     padding: 0;
     min-height: 90vh;
@@ -14,7 +14,7 @@
   @include media($break__medium) {
     display: flex;
     a {
-      padding: 1em;
+      padding: 1em 1em 2em 1em;
     }
   }
   @include media($break__large) {
@@ -70,12 +70,31 @@
 }
 
 #cgem {
-  background: url('../images/astrophotography/IMG_8595.jpg');
+  background: url('../images/posts/entire-mount.jpg');
   background-size: cover;
   background-position: 50%;
   padding-top: 100%;
   @include media($break__medium) {
     padding-top: 60%;
     width: 50%;
+  }
+}
+
+#astro-totality {
+  background: url('../images/catalog/totality.jpg');
+  background-size: cover;
+  background-position: 50%;
+  @include media($break__medium) {
+    border-right: 10px solid white;
+  }
+}
+
+#astro-lunar-eclipse{
+  background: url('../images/catalog/lunar-eclipse-2019.jpg');
+  background-size: cover;
+  background-position: 33% 20%;
+  @include media($break__medium) {
+    border-left: 10px solid white;
+    background-position: 33% 50%;
   }
 }
