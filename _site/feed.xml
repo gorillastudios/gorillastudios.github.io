@@ -6,9 +6,68 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Mar 2019 10:31:28 -0600</pubDate>
-    <lastBuildDate>Wed, 06 Mar 2019 10:31:28 -0600</lastBuildDate>
+    <pubDate>Sat, 27 Apr 2019 13:21:39 -0500</pubDate>
+    <lastBuildDate>Sat, 27 Apr 2019 13:21:39 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>StarSense Auto Align</title>
+        <description>&lt;h3&gt;My initial impressions of the Celestron StarSense Auto Align Camera&lt;/h3&gt;
+&lt;p&gt;I've been looking into options for improving my polar alignment and tracking during astrophotography, so as a first step I decided to get a Celestron StarSense Auto Align camera. I didn't want to jump all the way to a full auto-guide camera + laptop, so I figured this would be a good solution until my skills improved.&lt;/p&gt;
+&lt;p&gt;During my initial research I had read a lot of reviews where people were having problems using the StarSense but I had a hunch that a lot of it was just user error. The setup and usage instructions were pretty straight forward so I wasn't too nervous.&lt;/p&gt;
+
+&lt;p&gt;The camera arrived in a handsome and well packed box. It comes with a basic RJ-11 (phone jack) cable to connect to the AUX port on any compatible GOTO mount, along with both a large and small mounting plate to fit a variety of optical tubes. It also comes with an updated hand controller for the mount, from what I gather this is where a lot of the processing happens.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/star-sense-box.jpg&quot; alt=&quot;Celestron StarSense packaging&quot;&gt;
+  &lt;figcaption&gt;Celestron StarSense packaging&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/star-sense-camera.jpg&quot; alt=&quot;Celestron Star Sense Camera&quot;&gt;
+  &lt;figcaption&gt;The Celestron StarSense camera&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I had to take my optical view finder off the scope to make room for the StarSense. My Ultima 11&quot; was built back in 1994, so I think the accessory mounts on it aren't quite to the current industry standards so I couldn't mount both the StarSense and piggyback mount at the same time.&lt;/p&gt;
+
+&lt;figure class=&quot;vertical&quot;&gt;
+  &lt;img src=&quot;/images/posts/star-sense-controller.jpg&quot; alt=&quot;Celestron StarSense hand controller&quot;&gt;
+  &lt;figcaption&gt;Celestron StarSense hand controller&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The camera needs to be calibrated to the mount the first time you use it, but after that it should automatically align the scope by itself. Celestron has a very straightforward &lt;a href=&quot;https://www.youtube.com/watch?v=OqqoFZyxzQg&quot; target=&quot;blank&quot;&gt;instructional video&lt;/a&gt; walking you through the process. While I found that to be very helpful, I still had a few stumbles out in the field.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/star-sense-on-ota.jpg&quot; alt=&quot;Celestron Star Sense Camera on telescope&quot;&gt;
+  &lt;figcaption&gt;Celestron StarSense mounted on my Ultima 11&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;After the monthly &lt;a href=&quot;http://www.fvasil.org&quot; target=&quot;blank&quot;&gt;Fox Valley Astronomical Society&lt;/a&gt; meeting we setup for some casual observing in the parking lot. I used this opportunity to test out the StarSense to see how it worked. I had some stops and starts with getting everything aligned, but nothing major. I entered the time and date into the controller and let it do its initial scan then tried to calibrate to Sirius only to have it almost 40 degrees off.&lt;/p&gt;
+
+&lt;p&gt;I turned off the mount, re-centered it, and noticed that the altitude on my mount was off by almost 10&amp;deg;. Fixed that and tried again, only this time I forgot to enter the time and date, so when it tried to slew to Mars it was pointing pretty much at the ground. Hrmph. I reset everything again, and was extremely careful to follow the alignment and calibration procedure. I told it to auto align and it scanned the sky for about 2 minutes or so. I then selected a star to slew to. Again I chose Sirius and the mount put it almost dead center. I selected calibrate, chose Sirius as the instructions say to calibrate off the last star used, and then got it absolutely dead center in the camera. &lt;/p&gt;
+
+&lt;p&gt;After finishing the calibration I tried slewing to another target, this time Arcturus which was rapidly setting. I held my breath as it swung around and then stopped with it bang in the center of the frame. Slew to Capella, same result. Awesome! Now a tough one - The Whirlpool Galaxy. I have wanted to photograph deep sky objects for a long time but haven't had any luck yet. It slewed to where I knew it should be, but obviously it wouldn't show up on the camera until I tried a long exposure. I set it to bulb mode and went for a 60 second exposure right off the bat.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/whirlpool-single.jpg&quot; alt=&quot;The Whirlpool Galaxy&quot;&gt;
+  &lt;figcaption&gt;Single unprocessed frame of the Whirlpool Galaxy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There it was. Faint, and only a single frame, but I had it dead to rights and I was tracking for at least 60 seconds at ISO 1600. Most brilliant photos of deep sky objects take multiple hours worth of exposures so I still have a long way to go, but I was incredibly happy to take that first step. I took about 10 minutes of exposures and went on to try Bode's Galaxy as well as The Pinwheel Galaxy just to make sure the mount was slewing and tracking well. When I have more time I'll get to spend an evening on one target. I can't wait.&lt;/p&gt;
+
+&lt;p&gt;As for the StarSense Auto Align camera, I'm very happy with it. The only problems I had were user errors and that was only during the initial setup. I think it's a bit expensive but it does exactly what it advertises. I plan on using this for the next year or so then next spring upgrading to a ZWO ASI Air + Auto Guide camera to actively track the mount without a laptop. I think the StarSense is very well suited for people who do a lot of visual astronomy, where as those of us who are more astro-imagers are better suited with a guide camera. I'm just not quite there yet, I still have a lot to learn.&lt;/p&gt;
+
+&lt;p&gt;Clear skies!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Apr 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2019/04/14/star-sense.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2019/04/14/star-sense.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>Coopers Hawk</title>
@@ -456,30 +515,6 @@
         <pubDate>Mon, 29 Jan 2018 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/post/2018/01/29/book-challenge.html</link>
         <guid isPermaLink="true">http://localhost:4000/post/2018/01/29/book-challenge.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>52 Book Challenge - Soul of the Camera</title>
-        <description>&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/soul-of-the-camera.jpg&quot; alt=&quot;Soul of the Camera, written by David duChemin&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;Despite not being a fan of New Years resolutions, I have always enjoyed a good long-term photography challenge. I've done a Photo 365, a Photo 52, and a number of other challenges throughout the years. For the 2018 calendar year I want to invest in my knowledge surrounding the &lt;i&gt;art&lt;/i&gt; of photography. I feel as though I am finally finding my personal style and want to learn more about telling a story, creating a cohesive body of work, and how to become a better critic of both my own art and others. To achieve this I am going to challenge myself to read 52 photography books this year.&lt;/p&gt;
-&lt;p&gt;This past week I voraciously read &lt;i&gt;The Soul of the Camera&lt;/i&gt; by a true inspiration of mine, David duChemin. David is the force behind the amazing website and occasionally weekly podcast &lt;a href=&quot;https://craftandvision.com&quot; target=&quot;blank&quot; alt=&quot;Craft and Vision website, by David duChemin&quot;&gt;Craft &amp;amp; Vision&lt;/a&gt;. His weekly lectures are amazing and keep getting better, so needless to say I was excited when I found this book underneath the Christmas tree this year.&lt;/p&gt;
-&lt;p&gt;David's catchphrase is &lt;i&gt;&quot;Gear is good, but vision is better&quot;&lt;/i&gt;, and this book is a complete embodiment of that concept broken into twenty-four essays. Topics range from discovering your vision and intent, capturing the best moment, ignoring perfection, and how to critique work. What you &lt;i&gt;won't&lt;/i&gt; find in the book is deep discussions about the technical side of photography which I find absolutely refreshing.&lt;/p&gt;
-&lt;p&gt;I know a lot of photographers, especially those just getting into the practice who are obsessed with gear. The first question they ask me is &quot;what camera do you use?&quot;  or &quot;what aperture and shutter speed were used here?&quot; instead of asking more insightful questions about the actual content of the work.&lt;/p&gt;
-&lt;div class=&quot;quote&quot;&gt;
-  &lt;p&gt;You've got to know how to use the pen and use it well, but when you're writing your poem or your story, it won't be the pen to which your mind goes. And it won't be your pen that resonates with readers; it will be you and your story.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;I love this quote, and he uses this metaphor a number of times. When I read a great book I could care less what typewriter or computer was used, I care about the characters &amp;amp; story. The same goes for a photo that catches my eye - I don't care what camera or settings were used, I try to breakdown &lt;i&gt;why&lt;/i&gt; it grabbed me, what the artist was trying to say, and what I might do differently. Sure some technical questions might pop up in my head, but those are way down on the list, and not very important to me.&lt;/p&gt;
-&lt;p&gt;I firmly believe that this book should be issued to every Photo 101 student on day one. It's an amazing collection of writing and deserves to be on every photographers bookshelf. Hardcovers and Kindle copies are available on &lt;a href=&quot;https://www.amazon.com/Soul-Camera-Photographers-Place-Picture-Making/dp/1681982021/ref=sr_1_1?ie=UTF8&amp;qid=1515421426&amp;sr=8-1&amp;keywords=soul+of+the+camera&quot; target=&quot;blank&quot;&gt;Amazon&lt;/a&gt;, and you can find the rest of David's books on &lt;a href=&quot;https://craftandvision.com/&quot; target=&quot;blanK&quot;&gt;Craft &amp;amp; Vision&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2018/01/08/book-challenge.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2018/01/08/book-challenge.html</guid>
         
         
         <category>post</category>

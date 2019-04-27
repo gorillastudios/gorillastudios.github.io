@@ -367,10 +367,9 @@ header.site-header {
 .site__footer {
   background: #EDECEC;
   color: #3b3b3b;
-  font-size: .8em;
+  font-size: .9em;
   padding: 3em 20px;
-  text-align: center;
-  text-shadow: 0px 1px 0px white; }
+  text-align: center; }
   .site__footer p {
     margin-bottom: 2em; }
   @media screen and (min-width: 600px) {
@@ -541,7 +540,10 @@ header.site-header {
   font-size: 1em;
   margin: 0; }
 
-.post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content p, .post-content ul {
+.post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content ul {
+  margin: 0 auto 1.5em auto;
+  max-width: 32em; }
+.post-content p {
   margin: 0 auto 1.5em auto;
   max-width: 35em; }
 .post-content a {
