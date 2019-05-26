@@ -81,7 +81,7 @@ title: Astrophotography
 </figure>
 
 <div class="blog-archive">
-  {% for post in site.categories.astrophotography offset: 5 %}
+  {% for post in site.categories.astrophotography offset: 5 limit: 6 %}
     {% if post.url %}
       <a href="{{ post.url }}" class="post__listing large">
         <p class="post__listing--date">{{ post.date | date: '%b %d %Y' }}</p>
@@ -103,3 +103,17 @@ title: Astrophotography
 <figure class="slim">
   <img src="/images/catalog/star-trails-3.jpg">
 </figure>
+
+<div class="blog-archive">
+  {% for post in site.categories.astrophotography offset: 11 %}
+    {% if post.url %}
+      <a href="{{ post.url }}" class="post__listing large">
+        <p class="post__listing--date">{{ post.date | date: '%b %d %Y' }}</p>
+        <h2 class="post__listing--title">{{ post.title }}</h2>
+        <p class="post__listing--intro">{{ post.intro }}</p>
+        <p class="post__listing--preview">{{ post.content | strip_html | truncatewords: 40 }}</p>
+        <p class="post__listing--read-more">Read More</p>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
