@@ -42,10 +42,12 @@
       width: 32.5%;
     }
   }
-  &.animated {
-    animation: fade-in-slide-up 1s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-    opacity: 0;
+  @include media($break-small) {
+    &.animated {
+      animation: fade-in-slide-up 1s ease;
+      animation-fill-mode: forwards;
+      animation-delay: 2s;
+      opacity: 0;
+    }
   }
 }

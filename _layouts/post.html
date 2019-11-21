@@ -12,4 +12,23 @@ layout: default
     {{ content }}
   </div>
 
+
+  <div class="post-navigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">
+        <div>
+          <p class="subtitle">Previous post</p>
+          <h3 class="title">{{ page.previous.title }}</h3>
+        </div>
+      </a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">
+        <div>
+          <p class="subtitle">Next post</p>
+          <h3 class="title">{{page.next.title}}</h3>
+        </div>
+      </a>
+    {% endif %}
+  </div>
 </article>

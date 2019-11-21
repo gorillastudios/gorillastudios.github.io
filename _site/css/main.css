@@ -668,37 +668,38 @@ figure {
   margin: 0 auto 3em auto;
   max-width: 1200px; }
 
-.post__navigation {
+.post-navigation {
+  border-top: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 0;
   margin: 4em auto 0 auto;
   max-width: 1200px; }
-  .post__navigation a {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+  .post-navigation a {
+    border: 1px solid;
+    color: inherit;
     display: inline-block;
-    padding: 2em;
+    padding: 1em;
     margin-bottom: 1em;
     text-align: center;
     text-decoration: none;
-    width: 100%;
+    width: 45%;
     transition: all .4s ease; }
-    .post__navigation a span {
-      display: block;
-      width: 100%; }
-    .post__navigation a .label {
+    .post-navigation a .subtitle {
       text-transform: uppercase;
-      font-size: .9em; }
-    .post__navigation a .title {
-      font-size: calc(16px + .8vw); }
-    .post__navigation a:hover {
-      background: rgba(0, 0, 0, 0.75); }
+      font-size: .7em; }
+    .post-navigation a .title {
+      font-size: calc(14px + .5vw); }
+    .post-navigation a:hover, .post-navigation a:focus {
+      border-color: #990000;
+      box-shadow: 0 0 0 4px #990000;
+      outline: none; }
   @media screen and (min-width: 640px) {
-    .post__navigation {
-      padding: 4em 0;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between; }
-      .post__navigation a {
-        width: 33.333%; } }
+    .post-navigation {
+      padding: 4em 0; }
+      .post-navigation a {
+        width: 40%; } }
 
 .blog__previews {
   transition: all .2s ease; }
@@ -787,11 +788,7 @@ figure {
 
 .c-page-intro {
   padding: 10% 15%;
-  text-align: center;
-  opacity: 0;
-  animation: fade-in 2s ease;
-  animation-fill-mode: forwards;
-  animation-delay: .5s; }
+  text-align: center; }
   .c-page-intro h1 {
     font-size: calc(16px + 1.25vw); }
   .c-page-intro h2 {
@@ -802,6 +799,10 @@ figure {
     font-weight: 400; }
   @media screen and (min-width: 640px) {
     .c-page-intro {
+      animation: fade-in 2s ease;
+      animation-fill-mode: forwards;
+      animation-delay: .5s;
+      opacity: 0;
       padding: 5% 25%; } }
 
 .c-image-grid {
@@ -844,11 +845,12 @@ figure {
       .c-image-grid .small {
         padding-top: 32.5%;
         width: 32.5%; } }
-  .c-image-grid.animated {
-    animation: fade-in-slide-up 1s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-    opacity: 0; }
+  @media screen and (min-width: 640px) {
+    .c-image-grid.animated {
+      animation: fade-in-slide-up 1s ease;
+      animation-fill-mode: forwards;
+      animation-delay: 2s;
+      opacity: 0; } }
 
 .slbOverlay, .slbWrapOuter, .slbWrap {
   position: fixed;
