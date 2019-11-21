@@ -1,0 +1,50 @@
+.c-about-intro {
+  background: white;
+  margin: 1em auto;
+  max-width: 800px;
+  width: 90%;
+  padding: 1em;
+  p {
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  @include media($break-small) {
+    background: rgba(255,255,255,.85);
+    padding: 4em;
+    margin: 8% auto;
+  }
+}
+
+.c-about__headshot {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+.c-about__signature {
+  display: block;
+  margin: 4em 0 0 0;
+  width: 100%;
+}
+
+.c-about__interact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3em;
+  a {
+    border: 1px solid red;
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.c-about__faq {
+  border-top: 1px solid $hairline;
+  h3 {
+    font-size: 1em;
+    margin-top: 3em;
+  }
+}

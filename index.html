@@ -1,47 +1,21 @@
 ---
 layout: default
-special: slim
 ---
-<div class="flex-grid">
-  <a href="/portfolio" class="hero-link__large dark" id="marquee">
-    <span>Portfolio</span>
-  </a>
-
-  {% for post in site.posts limit: 1 %}
-    <a href="{{ post.url}}" class="hero-link__small" id="index-featured-post" style="background: url('/images/posts/{{ post.teaser }}')">
-      <span>{{ post.title }}</span>
-    </a>
-  {% endfor %}
-
-  <a href="/architecture" class="hero-link__medium left dark" id="architecture">
-    <span>Architecture</span>
-  </a>
-
-  <a href="/astrophotography" class="hero-link__small left" id="astronomy">
-    <span>Astronomy</span>
-  </a>
-
-  <a href="/music" class="hero-link__small" id="music">
-    <span>Music</span>
-  </a>
-
-  <a href="/portraits" class="hero-link__small" id="portraits">
-    <span>Portraits</span>
-  </a>
-
-  <a href="/chicago" class="hero-link__medium" id="chicago">
-    <span>Chicago</span>
-  </a>
-
-  <a href="/new-england" class="hero-link__small" id="new-england">
-    <span>New England</span>
-  </a>
-
-  <a href="/winter" class="hero-link__medium dark" id="winter">
-    <span>Winter</span>
-  </a>
-
-  <a href="/new-york" class="hero-link__small" id="new-york">
-    <span>New York</span>
-  </a>
+<div class="c-image-grid">
+  <a data-fancybox="gallery" href="/images/0K6A4774.jpg" data-caption="Tree on a hill" class="large" id="i-tree-on-hill"></a>
+  <a data-fancybox="gallery" href="/images/0K6A7232.jpg" data-caption="Colors of fall" class="small" id="i-fall-colors"></a>
+  <a data-fancybox="gallery" href="/images/0K6A8254.jpg" data-caption="Sailboats on Lake Michigan" id="i-sailboats-michigan" class="small"></a>
+  <a data-fancybox="gallery" href="/images/0K6A0789.jpg" data-caption="Leo Carillo Beach" id="i-leo-carillo" class="small"></a>
+  <a data-fancybox="gallery" href="/images/0K6A7506.jpg" data-caption="Brooklyn Bridge, New York" id="i-brooklyn-bridge" class="medium"></a>
+  <a data-fancybox="gallery" href="/images/0K6A3203.jpg" data-caption="Latimer Reef Lighthouse, Stonington CT" id="i-latimer-reef" class="small"></a>
+  <a data-fancybox="gallery" href="/images/0K6A3635.jpg" data-caption="Multnomah Falls, Oregon" id="i-multnomah" class="small"></a>
+  <a data-fancybox="gallery" href="/images/0K6A1986.jpg" data-caption="Leroy Oaks, St. Charles" id="i-leroy-1" class="small"></a>
+  <a data-fancybox="gallery" href="/images/0K6A7702.jpg" data-caption="New York City at dawn" id="i-nyc-dawn" class="small"></a>
+  <a data-fancybox="gallery" href="/images/0K6A7925.jpg" data-caption="Flatiron Building" id="i-flatiron" class="small"></a>
+  <a data-fancybox="gallery" href="/images/archways.jpg" data-caption="Archways" id="i-archways" class="small"></a>
+  <a data-fancybox="gallery" href="/images/0K6A3261.jpg" data-caption="Haystack Rock" id="i-haystack" class="small"></a>
+  <a data-fancybox="gallery" href="/images/tokyo-tower.jpg" data-caption="Tokyo Tower" id="i-tokyo-tower" class="small"></a>
+  <a data-fancybox="gallery" href="/images/head-light-bw.jpg" data-caption="Portland Head Light, Portland Maine" id="i-portland-hl" class="medium"></a>
 </div>
+
+{% include _fancybox-init.html %}

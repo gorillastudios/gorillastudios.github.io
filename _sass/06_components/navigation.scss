@@ -1,0 +1,98 @@
+// -------------------------------------- WRAPPER
+.c-site-navigation__wrapper {
+  flex: 1;
+  text-align: right;
+  @include media($break-small) {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+
+// -------------------------------------- TOGGLE
+.c-site-navigation__toggle {
+  padding: .5em;
+  display: inline-block;
+  cursor: pointer;
+  svg {
+    height: 2em;
+    width: 2em;
+    padding: 0;
+  }
+  @include media($break-small) {
+    display: none;
+  }
+}
+
+
+// -------------------------------------- NAV BLOCK
+.c-site-navigation {
+  background: rgba(255,255,255,.9);
+  display: none;
+  text-align: left;
+  padding: 1em 0;
+  h3 {
+    font-size: .9em;
+    margin: 0;
+    padding: 1.5em;
+    cursor: default;
+  }
+  &.dark {
+    background: rgba(0,0,0,0.75);
+  }
+  @include media($break-small) {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    h3 {
+      padding: 4em 1em 1em 2.26em;
+      font-size: .85em;
+    }
+    &.dark {
+      background: none;
+    }
+  }
+}
+
+.c-site-navigation.open {
+  display: block;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 55px;
+  @include media($break-small) {
+    position: relative;
+  }
+}
+
+// -------------------------------------- PAGE LINKS
+.c-site-navigation a {
+  color: inherit;
+  display: block;
+  font-weight: 300;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  @include media($break-small) {
+    padding: .75em 2em;
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      height: 3px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transition: width .5s ease;
+      width: 0;
+    }
+    &.active:before,
+    &:hover:before {
+      border-top: 3px solid;
+      width: 1.4em;
+    }
+  }
+}

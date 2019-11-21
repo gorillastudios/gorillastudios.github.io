@@ -1,0 +1,31 @@
+body {
+  @include media(640px) {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+}
+
+.l-secondary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .2s ease;
+  z-index: 5;
+  @include media($break-small) {
+    position: relative;
+    width: 20%;
+  }
+  @include media($break-medium) {
+    width: 15%;
+    max-width: 300px;
+  }
+}
+
+.l-main {
+  @include media($break-small) {
+    overflow-x: scroll;
+    flex: 1;
+  }
+}

@@ -1,0 +1,30 @@
+body {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+  padding-top: 60px;
+  min-height: 100vh;
+  @include media($break-small) {
+    padding: 0;
+  }
+}
+
+html {
+
+}
+
+
+.c-iframe-wrapper {
+  margin-bottom: 3em;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+  iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}

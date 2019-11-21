@@ -1,0 +1,108 @@
+.blog__previews {
+  transition: all .2s ease;
+  @include media(640px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @include media(1024px) {
+  }
+}
+
+
+// --------------------------------- Basic Style
+.blog__preview {
+  align-items: middle;
+  border-bottom: 1px solid $hairline;
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2em;
+  text-decoration: none;
+  transition: all .4s ease;
+  .blog__preview--category {
+    font-size: calc(10px + .25vw);
+    margin-bottom: 1em;
+    text-transform: capitalize;
+    width: 100%;
+  }
+  .blog__preview--title {
+    font-size: calc(16px + 1.25vw);
+    line-height: 1;
+    margin: 0;
+    width: 80%;
+  }
+  .blog__preview--date {
+    color: $red;
+    display: flex;
+    font-weight: 800;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    width: 20%;
+    text-align: right;
+    text-transform: uppercase;
+    .day {
+      margin: 0 2px 0 0;
+      font-size: calc(16px + .5vw);
+    }
+  }
+  .blog__preview--text {
+    display: none;
+    font-size: calc(16px + .25vw);
+    line-height: 1.5;
+    width: 100%;
+  }
+  .blog__preview--tagline {
+    font-size: .9em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  &:hover,
+  &:focus {
+    outline: none;
+  }
+  @include media(640px) {
+    padding: 3em;
+    width: 50%;
+    .blog__preview--tagline {
+      padding-top: 4em;
+    }
+    &:nth-child(even) {
+      border-right: 1px solid $hairline;
+    }
+  }
+  @include media(1300px) {
+    padding: 4em;
+    width: 33.333%;
+    &:nth-child(even) {
+      border-right: none;
+      border-left: none;
+    }
+    &:nth-child(3n) {
+      border-right: 1px solid $hairline;
+      border-left: 1px solid $hairline;
+    }
+  }
+}
+
+
+// --------------------------------- First Entry
+.blog__preview:first-child {
+  border-right: none;
+  .blog__preview--title {
+    font-size: calc(16px + 5vw);
+  }
+  .blog__preview--text {
+    display: block;
+  }
+  @include media(640px) {
+    padding: 6em 15%;
+    width: 100%;
+  }
+  @include media(1024px) {
+    padding: 6em 20%;
+  }
+}
+

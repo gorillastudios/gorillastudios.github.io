@@ -1,0 +1,38 @@
+.c-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  a {
+    color: inherit;
+  }
+  svg {
+    max-width: 225px;
+    width: 100%;
+    padding: .5em;
+    path {
+      fill: currentColor;
+    }
+  }
+  background: rgba(255,255,255,.95);
+  &.light {
+    background: rgba(255,255,255,0.75);
+  }
+  &.medium {
+    background: rgba(255,255,255,0.5);
+  }
+  &.dark {
+    background: rgba(0,0,0,0.75);
+  }
+  @include media($break-small) {
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    svg {
+      padding: 1em;
+    }
+    background: none;
+    &.dark {
+      background: rgba(0,0,0,0.5);
+    }
+  }
+}

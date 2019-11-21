@@ -1,0 +1,19 @@
+<div class="c-site-navigation__wrapper">
+  <nav class="c-site-navigation {{ page.overlay-type }}" role="navigation">
+    <a href="/about" {% if page.url == '/about' %} class="active" {% endif %} >About</a>
+    <a href="/blog" {% if page.url == '/blog' %} class="active" {% endif %}>Blog</a>
+    <h3>Portfolios</h3>
+    <a href="/winterscapes"{% if page.url == '/winterscapes' %} class="active" {% endif %}>Winterscapes</a>
+    <a href="/architecture" {% if page.url == '/architecture' %} class="active" {% endif %}>Architecture</a>
+    <a href="/new-england"{% if page.url == '/new-england' %} class="active" {% endif %}>New England</a>
+    <a href="/music" {% if page.url == '/music' %} class="active" {% endif %}>Music</a>
+    <a href="/city" {% if page.url == '/city' %} class="active" {% endif %}>City</a>
+  </nav>
+  <span class="c-site-navigation__toggle">{% include _toggle.html %}</span>
+</div>
+
+<script>
+  $(".c-site-navigation__toggle").click(function() {
+    $(".c-site-navigation").toggleClass("open");
+  });
+</script>

@@ -3,21 +3,35 @@
 ---
 @charset "utf-8";
 
+
+// Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "01_settings",
-  "02_tools",
-  "03_generic",
-  "04_elements",
-  "05_objects",
-  "content/pages",
-  "content/galleries",
-  "content/wallpapers",
-  "content/header_navigation",
-  "content/footer",
-  "content/index",
-  "content/blog-posts",
-  "content/blog-index",
-  "content/about",
-  "content/exhibition",
-  "content/astrophotography"
+  "01_settings/colors.scss",
+  "01_settings/media-queries.scss",
+  "01_settings/tokens.scss",
+
+  "02_tools/mixins.scss",
+  "02_tools/animations.scss",
+
+  "03_generic/normalize",
+  "03_generic/base",
+  "03_generic/layout",
+
+  "04_elements/inputs",
+  "04_elements/links",
+  "04_elements/typography",
+
+  "05_objects/main",
+
+  "06_components/header",
+  "06_components/navigation",
+  "06_components/footer",
+  "06_components/blog-post",
+  "06_components/blog-index",
+  "06_components/page-intro",
+  "06_components/image-grid",
+  "06_components/simple-lightbox",
+
+  "07_pages/about",
+  "07_pages/portfolios"
 ;

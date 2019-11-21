@@ -1,44 +1,29 @@
 ---
 layout: default
-permalink: /about/
-title: About
+permalink: about
+background-image: "/images/0K6A4611.jpg"
 ---
-{% include page_intro.html
-  title = "About"
-%}
-<div class="module__single borderless">
-  <div class="content">
-    <img class="headshot" src="/images/chris-peak-snow.jpg" alt="Chris Peak, landscape and nature photographer, Chicago, IL" />
-    <p>Founded in 2003, Gorilla-Studios is a showcase for my photography portfolio. I have been lucky enough to shoot in Chicago, New York, Los Angeles, London and beyond. While primarily focusing on landscapes and architecture, I also specialize in live music, portraits, nature, and astrophotography as well.</p>
-    <p>My work is an exploration of beauty and simplicity. We are surrounded by complexity and clutter every day and my photographs aim to give moments of relief. I take away as many distractions in frame as possible to give the viewer a sense of calm and serenity. Even though they are presented here online, they are best viewed in large format framed prints.</p>
-    <p>I am available for commission work so please contact me to discuss your project. You will find a selection of my work in my portfolio with additional or specific content available upon request.</p>
-    <img src="/images/signature.jpg" alt="Christopher Peak, Photographer"/>
+<div class="c-about-intro">
+  <img class="c-about__headshot" src="/images/chris-peak-snow.jpg" alt="Christopher Peak" />
+  <p>Founded in 2003, Gorilla-Studios is a showcase for my photography portfolio. I have been lucky enough to shoot in Chicago, New York, Los Angeles, London and beyond. While primarily focusing on landscapes and architecture, I also specialize in live music, portraits, nature, and astrophotography as well.</p>
+  <p>My work is an exploration of beauty and simplicity. We are surrounded by complexity and clutter every day and my photographs aim to give moments of relief. I take away as many distractions in frame as possible to give the viewer a sense of calm and serenity. Even though they are presented here online, they are best viewed in large format framed prints.</p>
+  <p>I am available for commission work so please contact me to discuss your project. You will find a selection of my work in my portfolio with additional or specific content available upon request.</p>
+  <img class="c-about__signature" src="/images/signature.png" alt="Christopher Peak - Gorilla-Studios Photography" />
+  <div class="c-about__interact">
+    <a href="https://www.instagram.com/gorillastudios/" target="blank">Instagram</a>
+    <a href="https://twitter.com/gorilla_studios" target="blank">Twitter</a>
+    <a href="mailto:chris@gorilla-studios.com" target="blank">Email</a>
   </div>
-</div>
 
-{% include contact_form.html %}
-
-<div class="module__single">
-  <h3 class="module-title">FAQ</h3>
-  <div class="content">
-    <h4>Where does the name Gorilla-Studios come from?</h4>
-    <p>In 2003 when I started to get serious about my work I decided to create a website to showcase my portfolio. I didn't want to be just another photographer so 'Chris Peak Photography' just didn't stand out to me. Being young and not having found my personal style yet I had it in my head that I wanted to pursue architecture and urban subjects, so my first thought was Guerilla-Studios. I quickly realized two things - spelling it out to everyone would be a major pain, and it's really not representative of myself. I loved how it sounded though and one of my favorite books is <i>Ishmael</i> by Daniel Quinn. The book's main character is a very observant and wise gorilla, so that combined with my love of nature drove me to create Gorilla-Studios.</p>
+  <div class="c-about__faq">
+    <h3>Where does the name Gorilla-Studios come from?</h3>
+    <p>In 2003 when I started to get serious about my work I decided to create a website to showcase my portfolio. I didn't want to be just another photographer so 'Chris Peak Photography' just didn't stand out to me. Being young and not having found my personal style yet I had it in my head that I wanted to pursue architecture and urban subjects, so my first thought was Guerilla-Studios. I quickly realized two things - spelling it out to everyone would be a major pain, and it's really not representative of myself. I loved how it sounded though and one of my favorite books is Ishmael by Daniel Quinn. The book's main character is a very observant and wise gorilla, so that combined with my love of nature drove me to create Gorilla-Studios.</p>
     <p>It is also worth noting that all the animals featured in my work are in their natural environment. In 2003 I spent a few days wandering around Brookfield Zoo and during that time I realized the Silverback Gorilla just laid in the same spot for hours as if broken. It was then that I resolved to never profit from animals in captivity. While I applaud zoos like Brookfield's conservation efforts, I cannot morally justify making money from an animal suffering.</p>
-    <h4>Where can I purchase your work?</h4>
+    <h3>Where can I purchase your work?</h3>
     <p>Currently my work is not available to purchase online while I search for a vendor that matches my quality and price needs. Prints are available locally to the Chicagoland area in limited quantaties. Please reach out to me for more information.</p>
-    <h4>What equipment do you use?</h4>
+    <h3>What equipment do you use?</h3>
     <p>I currently shoot with a Canon EOS 5D MkIII, paired with a 16-35 f/4, 70-200 f/2.8, and a small number of other lenses. While I have shot Canon since purchasing a 6.3MP EOS 10D back in 2003, I firmly believe the best camera is the one you have on you. In my assortment of gear you will also find a Manfrotto tripod and ballhead, a Kata 3N1-33 Backpack, and a Black Rapid camera strap (a must have).</p>
+
     <p>I am not sponsored by any company or paid to advertise for any entity. All opinions on the site are mine and mine alone.</p>
   </div>
 </div>
-
-<script>
-  $('.form-input').blur(function() {
-    if ( $(this).val() != '' ) {
-      $(this).addClass('not-empty');
-    }
-    if ( $(this).val() === '' ) {
-      $(this).removeClass('not-empty');
-    }
-  });
-</script>

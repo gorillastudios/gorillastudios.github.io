@@ -1,0 +1,23 @@
+.c-page-intro {
+  padding: 10% 15%;
+  text-align: center;
+  opacity: 0;
+  animation: fade-in 2s ease;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  h1 {
+    font-size: calc(16px + 1.25vw);
+  }
+  h2 {
+    font-size: calc(14px + .4vw);
+    font-weight: 300;
+  }
+  h3 {
+    font-size: calc(16px + .1vw);
+    font-weight: 400;
+
+  }
+  @include media($break-small) {
+    padding: 5% 25%;
+  }
+}

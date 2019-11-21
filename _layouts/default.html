@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
-    {% include header.html %}
-    <div class="page-content {{ page.special }}">
-      {{ content }}
+  <body style="color: #{{page.text-color}}; background-image: url({{page.background-image}});">
+    <div class="l-secondary">
+      {% include _header.html %}
     </div>
-    {% include footer.html %}
+    <main class="l-main" role="main">
+      {{ content }}
+    </main>
+
   </body>
-  <script>
-    function headerAdjust() {
-      var scrollPosition = window.pageYOffset;
-      if (scrollPosition == 0) {
-        $('.site-header').removeClass("scrolled");
-      }
-      if (scrollPosition != 0){
-        $('.site-header').addClass("scrolled");
-      }
-    };
-    $(window).scroll(function () {
-      headerAdjust();
-    });
-  </script>
 </html>

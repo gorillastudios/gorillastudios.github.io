@@ -1,0 +1,51 @@
+.c-image-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  a {
+    background: #ccc;
+    background-size: cover !important;
+    background-position: 50% !important;
+    margin-bottom: 4%;
+    @include media($break-small) {
+      margin-bottom: 3%;
+    }
+    @include media($break-medium) {
+      margin-bottom: 1.5%;
+    }
+  }
+  .large {
+    padding-top: 40%;
+    width: 100%;
+  }
+  .medium {
+    padding-top: 48%;
+    width: 48%;
+    @include media($break-small) {
+      padding-top: 30%;
+      width: 65.75%;
+    }
+    @include media($break-medium) {
+      width: 66.25%;
+    }
+  }
+  .small {
+    padding-top: 48%;
+    width: 48%;
+    @include media($break-small) {
+      padding-top: 31.5%;
+      width: 31.5%;
+    }
+    @include media($break-medium) {
+      padding-top: 32.5%;
+      width: 32.5%;
+    }
+  }
+  &.animated {
+    animation: fade-in-slide-up 1s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0;
+  }
+}

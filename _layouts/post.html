@@ -1,50 +1,15 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post {{ page.overlay-type }} {{ page.post-class }}" itemscope itemtype="http://schema.org/BlogPosting">
+
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-subtitle">{{ page.intro }}</p>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
 </article>
-
-<div class="post__share-panel">
-  <p><strong>Share post on </strong>
-  <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="facebook">
-    <img src="/images/social-icons/facebook.svg" alt="Share on Facebook" />
-  </a>
-  <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="twitter">
-    <img src="/images/social-icons/twitter.svg" alt="Share on Twitter" />
-  </a>
-  <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+" class="google">
-    <img src="/images/social-icons/google-plus.svg" alt="Share on Google Plus" />
-  </a></p>
-</div>
-
-<div class="post-navigation">
-  {% if page.previous.url %}
-  <a class="prev" href="{{page.previous.url}}">
-    <div>
-      <p class="subtitle">Previous post</p>
-      <p class="date">{{ page.previous.date | date: "%B %-d %Y" }}</p>
-      <h3 class="title">{{ page.previous.title }}</h3>
-      <p>{{ page.previous.intro }}</p>
-    </div>
-  </a>
-  {% endif %}
-  {% if page.next.url %}
-  <a class="next" href="{{page.next.url}}">
-    <div>
-      <p class="subtitle">Next post</p>
-      <p class="date">{{ page.next.date | date: "%B %-d %Y" }}</p>
-      <h3 class="title">{{page.next.title}}</h3>
-      <p>{{ page.next.intro }}</p>
-    </div>
-  </a>
-  {% endif %}
-</div>
