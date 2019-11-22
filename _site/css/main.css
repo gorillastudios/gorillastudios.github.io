@@ -1192,7 +1192,7 @@ figure {
   justify-content: space-between;
   margin-bottom: 3em; }
   .c-about__interact a {
-    border: 1px solid red;
+    border: 1px solid;
     padding: 1em;
     display: inline-block;
     text-decoration: none;
