@@ -647,7 +647,7 @@ figure {
   .post-content img.slim {
     margin: 0 auto 3em auto;
     max-width: 1200px; }
-.post-content p, .post-content .quote {
+.post-content p, .post-content .quote, .post-content ol {
   font-size: calc(16px + .4vw);
   font-weight: 300;
   line-height: 1.75;
@@ -1232,7 +1232,7 @@ figure {
   background: url("/images/head-light-bw.jpg"); }
 
 #i-archways {
-  background: url("/images/archways.jpg"); }
+  background: url("/images/archwayst.jpg"); }
 
 #i-nyc-dawn {
   background: url("/images/0K6A7702t.jpg"); }
@@ -1245,6 +1245,18 @@ figure {
 
 #i-tokyo-tower {
   background: url("/images/tokyo-towert.jpg"); }
+
+#i-eclipse {
+  background: url("/images/solar-eclipse-progression.jpg"); }
+
+#i-cairn {
+  background: url("/images/0K6A7398t.jpg"); }
+
+#i-moon {
+  background: url("/images/moon-propert.jpg"); }
+
+#i-masons {
+  background: url("/images/masons-dockt.jpg"); }
 
 #w-leroy-1 {
   background: url("/images/0K6A1986.jpg"); }
@@ -1272,6 +1284,9 @@ figure {
 
 #w-burlington-1 {
   background: url("/images/0K6A4611tw.jpg"); }
+
+#w-tree-on-hill {
+  background: url("/images/0K6A4774.jpg"); }
 
 #a-200-wacker {
   background: url("/images/0K6A4769.jpg");
@@ -1336,6 +1351,12 @@ figure {
 
 #ne-hoist {
   background: url("/images/EI2C4807t.jpg"); }
+
+#ne-cog-railway {
+  background: url("/images/0K6A7466t.jpg"); }
+
+#ne-fall-colors {
+  background: url("/images/0K6A7232t.jpg"); }
 
 #c-millennium-park {
   background: url("/images/millennium-park-pano.jpg"); }

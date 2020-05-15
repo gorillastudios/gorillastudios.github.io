@@ -92,7 +92,7 @@ figure {
       max-width: $content-width;
     }
   }
-  p, .quote {
+  p, .quote, ol {
     font-size: calc(16px + .4vw);
     font-weight: 300;
     line-height: 1.75;

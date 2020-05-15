@@ -1,0 +1,69 @@
+---
+layout: post
+title: CGEM Firmware Update
+date: 2020-05-15
+category: astrophotography
+text-color: 000000
+---
+<p>It's been almost a year since I've done anything with this site, but I am happy to say I am picking my camera and telescope gear back up, blowing off the dust, and putting some more time into the hobby I love so much. Over the past year I welcomed my second daughter to the world, bought my first house, and now  we are keeping to ourselves safe and sound while this whole Covid-19 situation settles down. For the most part it has been a great year and I am looking forward to posting here more often.</p>
+
+<p>Last week the weather started warming up so I got the telescope set up in the back yard for some simple lunar observing, making sure all the gear survived the move and was in good working order. We had a bonfire going and even invited the neighbors over to look at the moon (from a safe distance of course). One of the greatest parts of having a telescope is hearing the reactions of people who've never looked through one. Their 4 year old son was amazed looking at all the craters and detail the 11" Celestron reveals.</p>
+
+<p>My plan was to give the scope a good cleaning, collimate it, and since I had never done it before, update the firmware for both the mount and the StarSense alignment camera. As with all good plans, it never goes how you think it will.</p>
+
+<h3>Update headaches</h3>
+<p>TLDR; If you found this looking for help, <a href="#the-process">read the step-by-step instructions</a> down below.</p>
+
+<p>I got the mount upstairs and set it up next to my desk. I then went to Celestron's website and downloaded their firmware manager Java applet, thinking I could just plug the mount in and would be done in a few minutes. I'm not sure why I expected this - I work in the software industry and I know it never is that easy. On top of that, Mac support in the Astronomy/Astrophotography community is lagging very far behind the PC world.</p>
+
+<p>I plugged everything in, powered on the mount, and launched the CFM. It downloaded some new packages but it wasn't communicating with the mount. After some initial exploration I realized when I turn the mount on I needed to hold the Celestron button + 7 to access a Boot Loader mode. After that still no luck. I came across a post on Cloudy Nights message board from someone troubleshooting the process on the Mac and they said Serial to USB drivers were needed. I was initially confused because the updated StarSense controller has a mini USB port at the bottom, not the old RJ-11/Serial connector. However after <i>more</i> research I found out that there is a serial adapter inside the controller. I got the drivers installed and had to do some digging to make sure the mount was actually communicating with my MacBook.</p>
+
+<figure>
+  <img src="/images/posts/usb-chain.jpg" alt="The CGEM listed in the System Profile USB Chain">
+  <figcaption>The CGEM listed in the System Profile USB Chain</figcaption>
+</figure>
+
+<p>Looking at the System Profile I saw it listed there in the USB chain, so I knew it was talking to my Mac. This tells me something isn't configured correctly in the CFM software.</p>
+
+<h3>Trying something...</h3>
+
+<p>To test this and verify that I wasn't being fooled by the System Profile I went into Stellarium to see if I could use it to control the mount. I knew it was possible, however I had never tried before. After about a minute of configuration that was painless Stellarium said it successfully was connected to the CGEM. I picked a target in the sky and clicked 'Slew To' and sure enough, the mount started slewing! This is pretty neat, I plan on testing this out in the field over the summer.</p>
+
+<p>I still wanted to update the firmware so it was back to Cloudy Nights where I found someone had posted they went to <code>/dev</code>, grabbed the cu.usbserial listing, and set that to the Serial Port Name in the CFM software.</p>
+
+<figure>
+  <img src="/images/posts/correct-port.jpg" alt="Setting the port information in the CFM">
+  <figcaption>Setting the correct port information in the CFM</figcaption>
+</figure>
+
+<p>Honestly I wasn't optimistic, but sure enough, the CFM instantly found both the mount and the StarSense controller, however it couldn't update the firmware because it couldn't download the latest packages from software.celestron.com. I went to Celestron's main site and realized the problem...it had crashed.</p>
+
+<figure>
+  <img src="/images/posts/celestron-crash.jpg" alt="Celestrons website is down">
+  <figcaption>Celestron's website was down</figcaption>
+</figure>
+
+<p>Well that's some bad timing. I sat there for a half hour, occasionally checking both the main site and the software subdomain with no luck. I threw in the towel and would come back to it tomorrow.</p>
+
+<p>The next day their site seemed to be up and running just fine, so I turned the mount back on and tried again. The CFM connected to the mount, downloaded the packages, and I was able to successfully update the firmware on both the CGEM and the StarSense camera. Success!</p>
+
+<figure class="vertical">
+  <img src="/images/posts/firmware-update.jpg" alt="Successfully updating the firmware">
+  <figcaption>Firmware update successful</figcaption>
+</figure>
+
+<p>So now that the CGEM mount and StarSense have the latest firmware it's time to give the OTA a good collimation check, clean everything up, and get it out under the night sky. Clear skies everyone.</p>
+
+<h3 id="the-process">TLDR - The Process</h3>
+<ol>
+  <li>Setup the mount and any accessories, but do not connect the USB cable to the computer.</li>
+  <li><a href="https://www.celestron.com/pages/drivers-and-software" target="blank">Download the CFM java app</a></li>
+  <li><a href="http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=229&pcid=41" target="blank">Download the Prolific Serial to USB drivers</a>, launch, install, and restart. Be careful, certain versions of MacOS may flag it and prevent you from installing unless you allow it in System Preferences &gt; Security &amp; Privacy &gt; General.</li>
+  <li>On the hand controller hold the Celestron Button and 7, then power the mount on. The hand controller should say Boot Loader.</li>
+  <li>Plug the USB cable into your Mac.</li>
+  <li>Go to About This Mac, click System Report, then under Hardware in the left column, click USB. You should see something like 'USB Serial Controller' listed.</li>
+  <li>Open the Terminal app and type <code>cd /dev</code>, press enter, then type <code>ls</code> and press enter. This will list everything in the dev directory. Look for an entry of <code>cu.usbserialXXXX</code>. Copy that entry and open up the CFM software. Click Options then Connections. Set the Discovery Mode to manual, then under Default Port Settings paste the line you copied from the Terminal app. Click OK.</li>
+  <li>You may need to quit and restart the CFM softare.</li>
+  <li>Click Seek Devices if it doesn't automatically look for them. At this point it should detect the mount and any accessories you have plugged in. Click Update and it will go through the process of updating the firmware. Do not power them off during this process, I assume it's possible to brick the mount if it doesn't go correctly.</li>
+  <li>Once everything is finished, compare the firmware versions listed in the window to the <a href="https://www.celestron.com/pages/firmware-update-history" target="blank">latest versions listed on Celestron's support site</a> to make sure you're completely up to date.</li>
+</ol>
