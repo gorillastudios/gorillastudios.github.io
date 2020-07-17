@@ -578,7 +578,7 @@ body {
   background: rgba(255, 255, 255, 0.95);
   color: inherit;
   margin: 1em;
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 1em; }
   .post.dark {
     background: rgba(0, 0, 0, 0.95); }
@@ -593,7 +593,7 @@ body {
         opacity: 0; } }
   @media screen and (min-width: 1300px) {
     .post {
-      padding: 2em 10%;
+      padding: 2em 5%;
       margin: 5% auto; } }
 
 .post-container {
@@ -651,7 +651,8 @@ figure {
   font-size: calc(16px + .4vw);
   font-weight: 300;
   line-height: 1.75;
-  margin: 0 auto 3vw auto; }
+  margin: 0 auto 3vw auto;
+  max-width: 35em; }
 .post-content .quote {
   border-left: 5px solid;
   display: block;
