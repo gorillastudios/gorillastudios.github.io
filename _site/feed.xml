@@ -4,11 +4,112 @@
     <title>Gorilla-Studios Photography</title>
     <description>Focusing on stunning landscape and high-energy music photography, Gorilla-Studios has been the online home of my portfolio since 2003. I specialize in landscapes, cityscapes and architecture, nature, candid portraiture, headshots, band promos and concert photography.
 </description>
-    <link>http://localhost:5000/</link>
-    <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 May 2020 17:03:40 -0500</pubDate>
-    <lastBuildDate>Fri, 15 May 2020 17:03:40 -0500</lastBuildDate>
+    <link>http://localhost:5001/</link>
+    <atom:link href="http://localhost:5001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 17 Jul 2020 13:28:52 -0500</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2020 13:28:52 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Comet NEOWISE</title>
+        <description>&lt;p&gt;The past few weeks have been rather exciting for the astrophotography community with the appearance of Comet NEOWISE (named after the space telescope that spotted it, the Near-Earth Object Wide-field Infrared Survey Explorer). It is a beautiful comet that can be seen by the naked eye in dark enough conditions. For a few weeks it's only been up in the early morning hours, but recently we've been able to see it from about 9:30 to 11:30pm here in the Chicago suburbs. I got a chance to head out last night and see if I could photograph this rare comet myself. While it will be visible until mid-August, after that you'll have to wait another 6000 years or so to see it again. I figured I didn't want to wait that long...&lt;/p&gt;
+&lt;p&gt;I packed up my gear - a 16-35mm, 50mm, 70-200mm, and my 11&quot; Schmidtt-Cassegrain Telescope for an extreme closeup, loaded it all in the car and headed out at sunset. I drove over to a local forest preserve and was delighted to find the small parking lot full already with a number of families out with binoculars ready for the evenings show. While I was getting everything setup and the scope aligned there were a few cloud bands but nothing significant. At around 9:40 people started spotting it with binoculars. My eyes are so bad I couldn't see it yet, so I took the camera off the telescope and started with some wide shots at 70mm to get honed in.&lt;/p&gt;
+&lt;p&gt;While I was dialing in my focus a car came by really slowly and was shining their lights at the group, a few of us were about to yell or say something, but it slowly turned around and we saw the back of the SUV said POLICE. Patience is a virtue.&lt;/p&gt;
+&lt;p&gt;Zooming in close at 200mm I flipped the camera to a vertical orientation and captured this shot. This is only a single exposure at 8s since I was on my tripod and not the CGEM mount as a practice run. I plan on going out in the next few nights to get tracked shots so I can create a composite and really get some details from the tail.&lt;/p&gt;
+&lt;figure class=&quot;vertical&quot;&gt;
+  &lt;img src=&quot;/images/posts/0K6A3151.jpg&quot; alt=&quot;Comet NEOWISE&quot;&gt;
+  &lt;figcaption&gt;NEOWISE&lt;span&gt;200mm&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;As it got darker I wanted to get a few wide shots before moving back over to the big 11&quot; SCT. I opened the camera up to 70mm and started taking exposures between 10 and 30 seconds. Since they were un-guided on a basic tripod they weren't super sharp, however I love the fireflies in the foreground.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/0K6A3248.jpg&quot; alt=&quot;Comet NEOWISE&quot;&gt;
+  &lt;figcaption&gt;NEOWISE and fireflies &lt;span&gt;70mm&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;After some wide shots I wanted to see what it looked like through my Celestron Ultima 11&quot;. I mounted the camera back on and tried to slew to the comet, but really struggled. I've never tried to find something that wasn't already in the hand controller, and I didn't easily find a way to manually enter coordinates. After a little bit of frustration I took the camera off the scope, setup the tripod directly behind it with the 70-200mm lens essentially over the telescope, and got NEOWISE aligned dead center. Once it was centered on the camera I slewed the telescope blindly to bring it into alignment with the 70-200mm lens. I re-mounted the SLR on the scope and after a minor adjustment was right on the comet. However, it being 11&quot; even with the f/6.3 reducer on the back, it was still way over-powered.&lt;/p&gt;
+&lt;p&gt;Its a wonderful closeup but if I am going to stack 50 shots, I want the whole tail in frame as well. Here's a single exposure closeup of the comet head itself.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/0K6A3210.jpg&quot; alt=&quot;Comet NEOWISE&quot;&gt;
+  &lt;figcaption&gt;NEOWISE closeup through an 11&quot; SCT&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;It was a wonderful evening despite the mosquitoes, and a good test-run. I should get some much sharper images by mounting my 70-200mm directly on the CGEM mount itself, and I also plan on taking out my old 600-1000mm lens to see if I can get something from that. Its f/8 wide open if I recall correctly, so it's going to be tough.&lt;/p&gt;
+&lt;p&gt;Be sure to checkout NEOWISE in the early evenings between now and mid-August. A good pair of binoculars should be all you need - to find it, look Northwest and you'll see the Big Dipper. Follow that down to the horizon, and NEOWISE should be about 20 degrees up (about two fists at arms length, one on top of the other). Take your time, and if it is a good dark evening you might be able to spot it without binoculars. Clear skies!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Jul 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:5001/astrophotography/2020/07/17/neowise.html</link>
+        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/07/17/neowise.html</guid>
+        
+        
+        <category>astrophotography</category>
+        
+      </item>
+    
+      <item>
+        <title>ISS Transit</title>
+        <description>&lt;p&gt;One of my favorite things to do with the telescope is to chase and photograph the International Space Station, and catching it transiting the moon is a fun challenge that I don't get to try too often. &lt;a href=&quot;#&quot; target=&quot;blank&quot;&gt;My last attempt&lt;/a&gt; was all the way back in December of 2018. Needless to say I was excited when I noticed that I had an opportunity coming up in the next few weeks that was only a few minutes from the house, and even better, my cousin's house was right on the path so I didn't have to worry about where to go.&lt;/p&gt;
+&lt;p&gt;I packed up my gear the night before so I woudln't forget anything when I headed out the door around 4:15 the next morning. Despite it being so early it was rather bright out getting everything setup. I quickly got the mount tracking, and fine tuned the focus, but after that I had some time to contemplate why I don't drink any coffee.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/IMG_6510.jpg&quot; alt=&quot;Setting up the telescope&quot;&gt;
+  &lt;figcaption&gt;Setting up the telescope&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The tranist was set to happen at 05:09:18am, so I pulled up my &lt;a href=&quot;https://apps.apple.com/us/app/skyview-lite/id413936865&quot; target=&quot;blank&quot;&gt;SkyView Lite&lt;/a&gt; app which tracks the station. At 17,500 mph it moves from horizon to horizon within a few minutes, so you have to pay attention. I saw it behind me fast approaching the horizon at 4:56, and knew it would be on the opposite side of the sky within 10 minutes.&lt;/p&gt;
+
+&lt;figure class=&quot;vertical&quot;&gt;
+  &lt;img src=&quot;/images/posts/iss_tracking_july_2020.jpg&quot; alt=&quot;Tracking the stations location&quot;&gt;
+  &lt;figcaption&gt;Tracking the station&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Once it rose above the houses it took me about 10 seconds to find it and start tracking visually. I watched it fly overhead, and then downwards towards the moon, letting me hit the shutter just before the transit. Here's a close up single frame as the station passed.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/iss_single_frame_july_2020.jpg&quot; alt=&quot;Single frame of the ISS lunar transit&quot;&gt;
+  &lt;figcaption&gt;Single frame closeup of the ISS lunar transit&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With my Canon 5D MkIII I was able to get 10 frames. At 45&amp;deg; it wasn't the largest station photo I've taken, but there was still some significant detail. It's always fun to catch the station going by, I highly recommend everyone give it a try.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/iss-flyby-july-20.jpg&quot; alt=&quot;10 frame stack of the ISS lunar transit&quot;&gt;
+  &lt;figcaption&gt;Full 10 frame grab of the transit&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:5001/astrophotography/2020/07/13/ISS-spotting.html</link>
+        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/07/13/ISS-spotting.html</guid>
+        
+        
+        <category>astrophotography</category>
+        
+      </item>
+    
+      <item>
+        <title>Chasing the Dragon</title>
+        <description>&lt;p&gt;On May 30th, SpaceX and NASA teamed up to launch astronauts from American soil for the first time since 2011, using the brand new Crew Dragon capsule atop a Falcon 9 rocket. It was an astounding success and while I still have never seen a launch in person at least I got to watch online. Astronomers waste no time tracking rockets in orbit, so almost immediately information about how to see the crew capsule on its way to the ISS started being posted online. A few people recommended &lt;a href=&quot;https://www.heavens-above.com&quot; target=&quot;blank&quot;&gt;Heavens-Above&lt;/a&gt;, from which I was able to discern that it might be visible from the backyard that evening. It was worth a shot and I wasn't going to miss the opportunity.&lt;/p&gt;
+
+&lt;p&gt;I knew that using my Celestron 11&quot; SCT would be overkill and almost impossible to catch the capsule going by, so I decided to setup a simple 16-35mm and get a trail of it going by. A few neighbors came out and we were watching closely were it was supposed to fly by, but unfortunately we didn't see anything. I locked the camera shutter release down to continuously keep shooting and while I didn't see it go by I did catch it in the lower left side of the frame.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/dragon.jpg&quot; alt=&quot;Dragon Capsule&quot;&gt;
+  &lt;figcaption&gt;The Dragon Capsule&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Despite missing the Dragon capsule I knew the ISS was not far behind, and that is obvious when it goes overhead, so at least we'd be able to see that. Sure enough about 15 minutes later the ISS tracked from the horizon up overhead, delighting everyone watching. It quietly slipped into the Earth's shadow and disappeared just past the zenith.&lt;/p&gt;
+
+&lt;p&gt;I wasn't 100% sure about whether or not that was the Dragon going by, but looking at the time stamp, angle, and direction in the sky I can't imagine its anything else. When I stacked everything together you can see the capsule is moving the same direction as the space station as it attempts to catch up to it for docking.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/posts/dragon-and-iss.jpg&quot; alt=&quot;Timelapse capturing the Dragon Capsule and ISS&quot;&gt;
+  &lt;figcaption&gt;The Dragon Capsule and ISS time lapse&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Doug and Bob should be aboard the station for the next few months, so &lt;a href=&quot;https://spotthestation.nasa.gov/&quot; target=&quot;blank&quot;&gt;see if you can spot the ISS going overhead&lt;/a&gt;. Clear skies!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Jun 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:5001/astrophotography/2020/06/05/dragon-chasing.html</link>
+        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/06/05/dragon-chasing.html</guid>
+        
+        
+        <category>astrophotography</category>
+        
+      </item>
     
       <item>
         <title>CGEM Firmware Update</title>
@@ -76,8 +177,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/astrophotography/2020/05/15/cgem.html</link>
-        <guid isPermaLink="true">http://localhost:5000/astrophotography/2020/05/15/cgem.html</guid>
+        <link>http://localhost:5001/astrophotography/2020/05/15/cgem.html</link>
+        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/05/15/cgem.html</guid>
         
         
         <category>astrophotography</category>
@@ -134,8 +235,8 @@
 &lt;p&gt;Clear skies!&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Apr 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/astrophotography/2019/04/14/star-sense.html</link>
-        <guid isPermaLink="true">http://localhost:5000/astrophotography/2019/04/14/star-sense.html</guid>
+        <link>http://localhost:5001/astrophotography/2019/04/14/star-sense.html</link>
+        <guid isPermaLink="true">http://localhost:5001/astrophotography/2019/04/14/star-sense.html</guid>
         
         
         <category>astrophotography</category>
@@ -195,8 +296,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Tue, 26 Feb 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/blog/2019/02/26/coopers-hawk.html</link>
-        <guid isPermaLink="true">http://localhost:5000/blog/2019/02/26/coopers-hawk.html</guid>
+        <link>http://localhost:5001/blog/2019/02/26/coopers-hawk.html</link>
+        <guid isPermaLink="true">http://localhost:5001/blog/2019/02/26/coopers-hawk.html</guid>
         
         
         <category>blog</category>
@@ -255,8 +356,8 @@
 
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/astrophotography/2019/01/22/lunar-eclipse.html</link>
-        <guid isPermaLink="true">http://localhost:5000/astrophotography/2019/01/22/lunar-eclipse.html</guid>
+        <link>http://localhost:5001/astrophotography/2019/01/22/lunar-eclipse.html</link>
+        <guid isPermaLink="true">http://localhost:5001/astrophotography/2019/01/22/lunar-eclipse.html</guid>
         
         
         <category>astrophotography</category>
@@ -339,8 +440,8 @@
 &lt;p&gt;While this has been my slowest year for photography in quite a while I am still happy with the results. I can't wait to get out for some shoots in 2019 and see where the year takes me.&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/blog/2019/01/09/best-of-2018.html</link>
-        <guid isPermaLink="true">http://localhost:5000/blog/2019/01/09/best-of-2018.html</guid>
+        <link>http://localhost:5001/blog/2019/01/09/best-of-2018.html</link>
+        <guid isPermaLink="true">http://localhost:5001/blog/2019/01/09/best-of-2018.html</guid>
         
         
         <category>blog</category>
@@ -373,8 +474,8 @@
 &lt;p&gt;Next up is the lunar eclipse in January, and possibly attempting an ISS solar transit. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/astrophotography/2018/12/26/iss-transit.html</link>
-        <guid isPermaLink="true">http://localhost:5000/astrophotography/2018/12/26/iss-transit.html</guid>
+        <link>http://localhost:5001/astrophotography/2018/12/26/iss-transit.html</link>
+        <guid isPermaLink="true">http://localhost:5001/astrophotography/2018/12/26/iss-transit.html</guid>
         
         
         <category>astrophotography</category>
@@ -391,188 +492,11 @@
 &lt;p&gt;Thank you for the support and here's to another 15!&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5000/blog/2018/12/12/fifteen-years.html</link>
-        <guid isPermaLink="true">http://localhost:5000/blog/2018/12/12/fifteen-years.html</guid>
+        <link>http://localhost:5001/blog/2018/12/12/fifteen-years.html</link>
+        <guid isPermaLink="true">http://localhost:5001/blog/2018/12/12/fifteen-years.html</guid>
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>New England Scramble</title>
-        <description>&lt;p&gt;I was in Boston this past weekend for work and had a little bit of time to explore afterwards. I've had the Portland Head Light on my photography bucket list for years, so I wasn't going to pass up the opportunity. Also since the fall colors were just starting to pop I jumped in the car and headed up to New Hampshire so I could do the Mt Washington Auto Road.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/0K6A7407.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;I was nervous on the way up because a lot of the trees weren't changing at all, but was relieved the further north I got as I saw some wonderful colors on the way up. By the time I arrived at the base of the mountain things were looking great, although it was still a little bit early. I have a feeling the colors are going to absolutely explode next week, but it was nice to see it starting.&lt;/p&gt;
-&lt;figure class=&quot;vertical&quot;&gt;
-  &lt;img src=&quot;/images/0K6A7573.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;As I pulled in to start the climb I was behind an intrepid couple in an old Austin Healey 3000 convertible. Kudos to them as while the temperature at the base was in the 70s, it was much much cooler at the summit. A large group of motorcyclists took off, as well as the Austin. Just before I started I spotted an old Land Cruiser coming down.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/0K6A7262.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7564.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;The drive is a slow climb up 6000 ft with lots of places to stop on the way up. I tried my hand at some intentional camera movement to just capture the colors I was seeing. This next shot is of a birch tree that was surrounded by bright orange leaves. I rotated it to a landscape orientation just to make it a bit more abstract.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7232.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;As you drive back and forth up the switchbacks you start realizing how much elevation you are gaining and as a kid from Illinois it's always a treat being on anything taller than a small hill. This was a shot I had wanted since I flew to Los Angeles years ago and snapped a similar photo from out the plane window. The layers of mountains off into the distance was surprisingly calming, the photo really doesn't do it justice.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7391.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;In addition to driving up or taking the cog railway, there are five hiking trails available. Talking to people at the top it sounds like you can make it all the way up in about four hours if you are experienced or most of the day if you take your time. The trails are spotted with these interesting and beautiful rock piles called cairns, to guide people up the mountain.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7339.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;At the top is a large parking lot, a visitors center, lookout, a few large radio &amp;amp; cell antenna, as well as some small huts. A plaque states that the highest wind speed ever recorded, a staggering 231mph, happened here in 1934. Because of this some of the buildings are literally chained down. The Tip Top Shop is made out of stacked stones where I found one of the side windows very interesting.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7385.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;As soon as I got out of the car I realized how cold it was but it didn't really click until about twenty minutes later. Walking around I started seeing strange white things in the grass, they looked almost like coarsely chopped onions. It wasn't until I walked around to the back of one of the buildings when I realized that it was ice! The shingle siding was completely covered in ice, built up from the howling wind.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7355.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7398.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;Not long after that I spotted the cog railway train working its way up the mountain. I was surprised at the angle it was climbing up at, the tour guide was leaning out the front at quite an angle. I learned that the seats inside the train are also at a significant angle, so when the train is on flat terrain its a bit awkward. I kept the camera level relative to the horizon to show how it was pulling into the station.&lt;/p&gt;
-&lt;figure class=&quot;vertical&quot;&gt;
-  &lt;img src=&quot;/images/0K6A7466.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;The railway runs three trains, two run on biodiesel, but a third is a coal-fired steam locomotive. After the green train pulled into the station I spotted the plume of smoke coming around into view. You can see how the engine is angled downward, I'm assuming to keep the boiler as close to level as possible during the climb.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7487.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7517.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;Just before leaving the clouds came sweeping in and visibility dropped to nothing. While hanging around for a few minutes seeing if it would clear up I looked down at my feet and noticed that at one of the trail heads people had left rocks hand signed with little messages and pictures - family names, locations, well wishes, etc. What a great idea. Next time when I bring the family I'll be sure to remember a few colored sharpies.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7558.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;The next morning I got up at an ungodly hour to head over to the famous Portland Head Light in Portland Maine, and it was definitely worth the trip. Crossing my fingers as I arrived I found the gate open at 5:30am just as some other photographers said it most likely would be. I was the first one down there, but as sunrise approached a few more intrepid souls joined me at the overlook just south of the lighthouse. I took a 5 shot panorama just as the sun started breaking over the horizon. Using my Lee Big Stopper filter I manually varied my exposures from 10 seconds on the far right to 20 seconds on the left most exposure. It was tricky but well worth the trouble.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/head-light-sunrise.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;Knowing I only had a few minutes I grabbed my gear and sprinted over to the other side of the lighthouse to get another angle before losing the good light. On the north side of the lighthouse there was an overlook with a large field of positively beautiful rounded stones along with some huge boulders. I got some shots from the overlook but it wasn't grabbing me. While the other side had a chain link fence that was obvious you shouldn't go past, here there was only a small orange cone on a path. I took a shot and made my way down to the water, laying flat on a large boulder to get a better composition.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/0K6A7138.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;Just after I snapped this last shot a &lt;strong&gt;massive&lt;/strong&gt; cruise ship came around from behind, completely ruining any more shots. I felt happy with what I got and climbed my way back up. Knowing I had to be back at Logan airport in Boston I headed out to get some breakfast and make my way back to Chicago.&lt;/p&gt;
-&lt;p&gt;Another trip where I only had a few hours but I made the most of my time. I absolutely loved Maine and New Hampshire and am definitely going to take the family back here next year when the colors are in their prime to see everything and soak it all in without scrambling to get from one place to another.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 04 Oct 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/travelogue/2018/10/04/scramble.html</link>
-        <guid isPermaLink="true">http://localhost:5000/travelogue/2018/10/04/scramble.html</guid>
-        
-        
-        <category>travelogue</category>
-        
-      </item>
-    
-      <item>
-        <title>Loupedeck+ First Impressions</title>
-        <description>&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/loupedeck-box.jpg&quot; alt=&quot;Loupedeck+ Box&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I've had my eye on the &lt;a href=&quot;https://loupedeck.com&quot; target=&quot;blank&quot;&gt;Loupedeck&lt;/a&gt; console for quite some time so last week I finally pulled the trigger and ordered their new + version. It was originally a Kickstarter project designed for editing photos in Lightroom using dedicated physical buttons, dials, and sliders. Recently Loupedeck released an updated version called the Loupedeck+. The console works with Lightroom Classic CC, &lt;a href=&quot;https://www.phaseone.com/en/Products/Software/Capture-One-Pro/Highlights.aspx&quot; target=&quot;blank&quot;&gt;Capture One Pro&lt;/a&gt; (which I have been meaning to check out), and another program called &lt;a href=&quot;https://skylum.com/aurorahdr&quot; target=&quot;blank&quot;&gt;Aurora HDR&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It arrived in a few days and I was immediately impressed with the packaging. The box was nicely designed and the console itself was wrapped in a sturdy foam enclosure making sure it could survive any bumps and drops during shipping.&lt;/p&gt;
-
-&lt;p&gt;It has a nice weight to it, but it's not too heavy. The knobs and dials are all crisp and feel great while spinning. It's just about as wide as my 15&quot; Macbook Pro and has a very low profile so when I set it in front I can quickly reach over it to use my trackpad or keyboard.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/loupedeck-in-box.jpg&quot; alt=&quot;Loupedeck+ interior packaging&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h4&gt;Installation and setup&lt;/h4&gt;
-
-&lt;p&gt;The instructions were very adamant that you install the software before plugging in the console so I downloaded and installed it with no issues. The Loupedeck+ connects over and is powered by a standard USB connector. I plugged it in, fired up Lightroom, and was delighted by a brief message saying &quot;Loupedeck thinks you look lovely&quot;. Unfortunately that feeling didn't last long as I started spinning knobs but nothing happened. I tried unplugging and plugging it in, restarting the Loupedeck application, restarting Lightroom, even tried a different USB-C adapter, no luck. Nothing.&lt;/p&gt;
-
-&lt;p&gt;After a lot of troubleshooting I eventually found out I was running Lightroom CC Classic (2015), &lt;i&gt;not&lt;/i&gt; Lightroom Classic CC. Once I updated Lightroom everything worked perfectly. Crisis avoided. One side note: apparently it doesn't support the new cloud-based Creative Cloud (don't get me started on Adobe's naming conventions).&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/loupedeck-instructions.jpg&quot; alt=&quot;Loupedeck+ instructions&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;A lot of reviews online complain about the build quality. I've spent about a week with it and I can tell you the build quality is great for the most part. My one concern is the large control dial - it wobbles a bit more than I would prefer, but I think it should hold up okay. Looking at the dates of said reviews I think the majority of them were about the first version, where as I have the second revision.&lt;/p&gt;
-
-&lt;p&gt;The other significant question online was does this make your editing process faster? While I've only used it a handful of time so far I can tell you for sure, yes it does. Not having to hunt for specific panels and sliders in the sidebar is a blessing. Instead of shifting my focus back and forth between the photo to the sidebar I can see the photo full screen and use the Loupedeck while my eyes stay where they need to be. I'm starting to get a feel for where each control knob is and I'm sure I will get faster the more muscle memory I build up. All the controls have a great amount of sensitivity, so making subtle changes to things like color temperature are easy without swinging too far one way or the other. So far the only control that I can't use the console for is adjusting my tone curve.&lt;/p&gt;
-
-&lt;p&gt;One neat thing about the knobs and dials is that you can press down on them and it will reset that adjustment back to the default setting. Very handy, and a nice touch.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/loupedeck-settings.jpg&quot; alt=&quot;Loupedeck+ control panel&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There are dedicated controls for your HSL levels, exposure, contrast, clarity, shadows, highlights, blacks, whites, vibrance, color temperature, and tint. Additionally, there are also buttons for things like viewing a before &amp;amp; after, color labels and star ratings, black &amp;amp; white development, and more. On top of all that, there are 17 programmable buttons you can customize to fit your workflow. I haven't learned about the Custom Mode toggle yet, but I assume that's even more customization. In the control panel you can click on any of the custom function controls and map it to just about any function in Lightroom (see below).&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/loupedeck-custom-settings.jpg&quot; alt=&quot;Loupedeck+ control panel custom settings&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Overall I am really happy with the purchase. The build quality is great, and after using it to edit a handful of photos I really like using it. I'll share my thoughts in a few months after I get more comfortable using this in my workflow, but right now I am very optimistic that it's going to become a valuable addition to my process. Stay tuned!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Sep 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/blog/2018/09/06/loupedeck.html</link>
-        <guid isPermaLink="true">http://localhost:5000/blog/2018/09/06/loupedeck.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Chasing a bullet</title>
-        <description>&lt;p&gt;For as long as I can remember I've always been fascinated by everything to do with space. Recently, I tore through Mike Massimino's book &lt;a href=&quot;https://www.amazon.com/Spaceman-Astronauts-Unlikely-Journey-Universe-ebook/dp/B01A4B1SK0/ref=sr_1_1?ie=UTF8&amp;qid=1527892448&amp;sr=8-1&amp;keywords=mike+massimino&quot; target=&quot;blank&quot;&gt;&lt;i&gt;Spaceman&lt;/i&gt;&lt;/a&gt; and now am reading &lt;a href=&quot;https://www.amazon.com/Interstellar-Age-Forty-Year-Voyager-Mission-ebook/dp/B00L9AXW4G/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1527892488&amp;sr=1-1&amp;keywords=interstellar+age&quot; target=&quot;blank&quot;&gt;&lt;i&gt;The Interstellar Age&lt;/i&gt;&lt;/a&gt;, which is about NASA's Voyager 1 &amp;amp; 2 missions. My daughter delights in watching Commander Chris Hadfield's videos from the International Space Station so much that we've seen every one many many times, and I've watched both series of Cosmos multiple times. Since I am a certified Space Geek, it's only natural that I try to combine that with my passion for photography.&lt;/p&gt;
-
-&lt;p&gt;One of the coolest photos I have ever seen is of the Space Shuttle docking with International Space Station while in transit past the sun, but I always wondered how on earth did they do that? Could I do that? The station itself is orbiting the earth 250 miles up moving at 17,500mph, which makes photographing it like chasing a bullet. The first hurdle was to find a tool to tell me where and when it would be. After some searching I stumbled across &lt;a href=&quot;http://www.transit-finder.com&quot; target=&quot;blank&quot;&gt;Transit Finder&lt;/a&gt; which when given lat/long and date range would tell me exactly where and when I needed to be down to the millisecond.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/iss-transit/options.jpg&quot; alt=&quot;Transit Finder results&quot; /&gt;
-  &lt;figcaption&gt;Results listing&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Not surprisingly, options are limited if you don't want to travel a few hours to make an attempt. I checked the site weekly for at least a year, but most opportunities slipped by due to scheduling conflicts or just poor weather. I finally made my first attempt a month ago on May 1st at sunrise. I rolled out of bed at 4:30 and drove 45 minutes south to see if I could capture the ISS just before moonset set. To track the path of the ISS I used an iPhone app called SkyView Lite, and everything looked perfect. I was ready.&lt;/p&gt;
-
-&lt;figure class=&quot;vertical&quot;&gt;
-  &lt;img src=&quot;/images/posts/iss-transit/IMG_8517.jpg&quot; alt=&quot;SkyView Lite&quot; /&gt;
-  &lt;figcaption&gt;Looking good&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I checked my phone a few more times, and when I got about two minutes out I just sat there, staring through the camera's eye piece watching as hard as I could. Waiting. Waiting. Waiting. Nothing. Checked the app again and the ISS had blown right past - I had no idea if it was close, I never even spotted it. I was disappointed, but determined to figure out what happened. When I got home I realized that at the time the ISS was illuminated and would have appeared as a white spot reflecting sunlight, while I was looking for the distinct black silhouette. Okay, rookie mistake. I made a note and went back to checking Transit Finder every few days.&lt;/p&gt;
-
-&lt;p&gt;Finally two weeks ago I saw a favorable opportunity where I could get to the center line only having to travel about 25 minutes from home, and 12:06pm was reasonable. I plotted out three backup sites just incase of unforeseen impediments. The spot I chose was a back road off the beaten path where I could setup and hopefully not be bothered. I had the time, I had the place, now the only x-factor was the weather.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/iss-transit/gilberts.jpg&quot; alt=&quot;Plotting my spot&quot; /&gt;
-  &lt;figcaption&gt;Plotting the best spot&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;That night I packed up my gear and despite some intermittent clouds, headed out. I found the location easily enough thanks to scouring Google Maps a few times a day during the past week. Checking SkyView Lite I was a bit confused - the ISS was tracking to rise in the West just a few minutes before it was due to cross the Moon in the South East. I still setup my gear but kept an eye on the station wondering if the app was wrong. I knew it travelled fast but didn't realize it would shoot horizon to horizon in a matter of minutes. By the time I got the telescope setup and tracking the Moon I checked SkyView again and saw the ISS was already directly at the zenith and headed to intersect the Moon at an alarming pace.&lt;/p&gt;
-
-&lt;p&gt;Just like my first attempt I had my eye glued to the eyepiece for a few minutes, concentrating on where the station should begin it's transit. I glanced up once or twice to see if I could catch it with my naked eye, but no luck. Finally I spotted it coming out from between the Sea of Serenity and the Sea of Tranquility, and mashed the remote cable release. I successfully got nine frames of the ISS transiting the Moon.&lt;/p&gt;
-
-&lt;figure class=&quot;vertical&quot;&gt;
-  &lt;img src=&quot;/images/posts/iss-transit.jpg&quot; alt=&quot;ISS Lunar Transit&quot; /&gt;
-  &lt;figcaption&gt;ISS Lunar Transit&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I checked the image previews as fast as I coulld and let out a yell. I had gotten it! It's angular size was 27.46&quot; so it was much smaller than ideal, but you could still see the distinct shape cutting across the lunar surface. After importing the images and doing some minor tweaks, I stacked them in Photoshop and set the blending mode to stack each frame together, creating the final composite.&lt;/p&gt;
-
-&lt;p&gt;Looking at other opportunities in Transit Finder I realize that the stations angular size can vary from the low 20s all the way into the 60s, meaning it would appear two to three times bigger in ideal conditions. I'm going to keep trying for some better results and will probably try a solar transit at some point. Anyway, as Neil deGrasse Tyson always says, keep looking up!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jun 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:5000/astrophotography/2018/06/01/chasing-a-bullet.html</link>
-        <guid isPermaLink="true">http://localhost:5000/astrophotography/2018/06/01/chasing-a-bullet.html</guid>
-        
-        
-        <category>astrophotography</category>
         
       </item>
     
