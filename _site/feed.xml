@@ -4,10 +4,10 @@
     <title>Gorilla-Studios Photography</title>
     <description>Focusing on stunning landscape and high-energy music photography, Gorilla-Studios has been the online home of my portfolio since 2003. I specialize in landscapes, cityscapes and architecture, nature, candid portraiture, headshots, band promos and concert photography.
 </description>
-    <link>http://localhost:5001/</link>
-    <atom:link href="http://localhost:5001/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Jul 2020 13:39:36 -0500</pubDate>
-    <lastBuildDate>Fri, 17 Jul 2020 13:39:36 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 Nov 2020 21:53:01 -0600</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 21:53:01 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -35,8 +35,8 @@
 &lt;p&gt;Be sure to checkout NEOWISE in the early evenings between now and mid-August. A good pair of binoculars should be all you need - to find it, look Northwest and you'll see the Big Dipper. Follow that down to the horizon, and NEOWISE should be about 20 degrees up (about two fists at arms length, one on top of the other). Take your time, and if it is a good dark evening you might be able to spot it without binoculars. Clear skies!&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Jul 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:5001/astrophotography/2020/07/17/neowise.html</link>
-        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/07/17/neowise.html</guid>
+        <link>http://localhost:4000/astrophotography/2020/07/17/neowise.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2020/07/17/neowise.html</guid>
         
         
         <category>astrophotography</category>
@@ -74,8 +74,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Mon, 13 Jul 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:5001/astrophotography/2020/07/13/ISS-spotting.html</link>
-        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/07/13/ISS-spotting.html</guid>
+        <link>http://localhost:4000/astrophotography/2020/07/13/ISS-spotting.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2020/07/13/ISS-spotting.html</guid>
         
         
         <category>astrophotography</category>
@@ -103,8 +103,8 @@
 &lt;p&gt;Doug and Bob should be aboard the station for the next few months, so &lt;a href=&quot;https://spotthestation.nasa.gov/&quot; target=&quot;blank&quot;&gt;see if you can spot the ISS going overhead&lt;/a&gt;. Clear skies!&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Jun 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:5001/astrophotography/2020/06/05/dragon-chasing.html</link>
-        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/06/05/dragon-chasing.html</guid>
+        <link>http://localhost:4000/astrophotography/2020/06/05/dragon-chasing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2020/06/05/dragon-chasing.html</guid>
         
         
         <category>astrophotography</category>
@@ -177,8 +177,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:5001/astrophotography/2020/05/15/cgem.html</link>
-        <guid isPermaLink="true">http://localhost:5001/astrophotography/2020/05/15/cgem.html</guid>
+        <link>http://localhost:4000/astrophotography/2020/05/15/cgem.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2020/05/15/cgem.html</guid>
         
         
         <category>astrophotography</category>
@@ -235,8 +235,8 @@
 &lt;p&gt;Clear skies!&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Apr 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:5001/astrophotography/2019/04/14/star-sense.html</link>
-        <guid isPermaLink="true">http://localhost:5001/astrophotography/2019/04/14/star-sense.html</guid>
+        <link>http://localhost:4000/astrophotography/2019/04/14/star-sense.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2019/04/14/star-sense.html</guid>
         
         
         <category>astrophotography</category>
@@ -296,8 +296,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Tue, 26 Feb 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5001/blog/2019/02/26/coopers-hawk.html</link>
-        <guid isPermaLink="true">http://localhost:5001/blog/2019/02/26/coopers-hawk.html</guid>
+        <link>http://localhost:4000/blog/2019/02/26/coopers-hawk.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/26/coopers-hawk.html</guid>
         
         
         <category>blog</category>
@@ -356,8 +356,8 @@
 
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5001/astrophotography/2019/01/22/lunar-eclipse.html</link>
-        <guid isPermaLink="true">http://localhost:5001/astrophotography/2019/01/22/lunar-eclipse.html</guid>
+        <link>http://localhost:4000/astrophotography/2019/01/22/lunar-eclipse.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2019/01/22/lunar-eclipse.html</guid>
         
         
         <category>astrophotography</category>
@@ -440,8 +440,8 @@
 &lt;p&gt;While this has been my slowest year for photography in quite a while I am still happy with the results. I can't wait to get out for some shoots in 2019 and see where the year takes me.&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:5001/blog/2019/01/09/best-of-2018.html</link>
-        <guid isPermaLink="true">http://localhost:5001/blog/2019/01/09/best-of-2018.html</guid>
+        <link>http://localhost:4000/blog/2019/01/09/best-of-2018.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/09/best-of-2018.html</guid>
         
         
         <category>blog</category>
@@ -474,8 +474,8 @@
 &lt;p&gt;Next up is the lunar eclipse in January, and possibly attempting an ISS solar transit. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5001/astrophotography/2018/12/26/iss-transit.html</link>
-        <guid isPermaLink="true">http://localhost:5001/astrophotography/2018/12/26/iss-transit.html</guid>
+        <link>http://localhost:4000/astrophotography/2018/12/26/iss-transit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/astrophotography/2018/12/26/iss-transit.html</guid>
         
         
         <category>astrophotography</category>
@@ -492,8 +492,8 @@
 &lt;p&gt;Thank you for the support and here's to another 15!&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:5001/blog/2018/12/12/fifteen-years.html</link>
-        <guid isPermaLink="true">http://localhost:5001/blog/2018/12/12/fifteen-years.html</guid>
+        <link>http://localhost:4000/blog/2018/12/12/fifteen-years.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/12/fifteen-years.html</guid>
         
         
         <category>blog</category>

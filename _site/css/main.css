@@ -853,6 +853,23 @@ figure {
       animation-delay: 2s;
       opacity: 0; } }
 
+.c-image-list {
+  padding: 1em; }
+  .c-image-list a {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1em;
+    display: inline-block;
+    margin: 1em 30%;
+    transition: all .2s; }
+    .c-image-list a:hover {
+      background: #eeeeee;
+      border-color: #000; }
+  .c-image-list img {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%; }
+
 .slbOverlay, .slbWrapOuter, .slbWrap {
   position: fixed;
   top: 0;
@@ -1454,3 +1471,18 @@ figure {
 
 #a-leclipse-1 {
   background: url("/images/eclipse-2019-progression.jpg"); }
+
+#a-neowise-200 {
+  background: url("/images/posts/0K6A3151t.jpg"); }
+
+#a-neowise-2700 {
+  background: url("/images/posts/0K6A3210t.jpg"); }
+
+#a-iss-transit {
+  background: url("/images/posts/iss-third-stack-s-t.jpg"); }
+
+#a-lunar-eclipse-totality {
+  background: url("/images/lunar-eclipse-2019t.jpg"); }
+
+#a-solar-eclipse-totality {
+  background: url("/images/totality.jpg"); }
