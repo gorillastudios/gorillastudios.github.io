@@ -6,9 +6,25 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Nov 2020 21:53:01 -0600</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 21:53:01 -0600</lastBuildDate>
+    <pubDate>Sun, 07 Mar 2021 17:19:21 -0600</pubDate>
+    <lastBuildDate>Sun, 07 Mar 2021 17:19:21 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Competition vs Creativity</title>
+        <description>&lt;p&gt;Not making images for yourself, making them to be judged&lt;/p&gt;
+&lt;p&gt;External forces steering your photography, not your heart.&lt;/p&gt;
+&lt;p&gt;how many likes is enough&lt;/p&gt;
+&lt;p&gt;discouragement&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Jan 2021 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2021/01/31/competition.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/01/31/competition.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Comet NEOWISE</title>
@@ -479,24 +495,6 @@
         
         
         <category>astrophotography</category>
-        
-      </item>
-    
-      <item>
-        <title>15 Years</title>
-        <description>&lt;figure&gt;
-  &lt;img src=&quot;/images/posts/15-years.jpg&quot; alt=&quot;Gorilla-Studios is celebrating 15 years of photography&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;Exactly fifteen years ago, on December 12th, 2003, I launched Gorilla-Studios Photography as my online photography portfolio. I had been shooting since the mid 1990's, but had not gotten serious about my work until August of 2003. It was then that I purchased a 6.1MP Canon EOS 10D DSLR and fell in love with photography.&lt;/p&gt;
-&lt;p&gt;I have been lucky enough to take my camera all over the world - from London, Tokyo, New York, and beyond. I've found my artistic style, seen my portfolio grow exponentially, and most importantly the quality of my work has dramatically improved as I have grown as an artist. I have two exhibitions in the coming months and can't wait to see where the future takes me.&lt;/p&gt;
-&lt;p&gt;Thank you for the support and here's to another 15!&lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/12/12/fifteen-years.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/12/fifteen-years.html</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     
