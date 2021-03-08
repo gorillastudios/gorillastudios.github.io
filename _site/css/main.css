@@ -640,7 +640,8 @@ figure {
 
 .post-content h2, .post-content h3, .post-content h4, .post-content h5 {
   font-size: calc(16px + 1.1vw);
-  margin: 0 auto 3vw auto; }
+  margin: 0 auto 3vw auto;
+  max-width: 24em; }
 .post-content img {
   display: block;
   width: 100%; }
