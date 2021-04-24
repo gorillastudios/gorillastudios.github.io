@@ -878,6 +878,9 @@ figure {
     display: block;
     margin-bottom: 1em;
     width: 100%; }
+  .c-image-list img.vertical {
+    max-width: 60%;
+    margin: 0 auto 1em auto; }
 
 .slbOverlay, .slbWrapOuter, .slbWrap {
   position: fixed;

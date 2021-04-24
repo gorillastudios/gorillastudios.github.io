@@ -60,6 +60,7 @@
   margin: 1em;
   cursor: pointer;
 }
+
 .c-image-list {
   padding: 1em;
   a {
@@ -79,5 +80,9 @@
     display: block;
     margin-bottom: 1em;
     width: 100%;
+  }
+  img.vertical {
+    max-width: 60%;
+    margin: 0 auto 1em auto;
   }
 }
