@@ -6,6 +6,7 @@ permalink: music
   {% for photo in site.data.music %}
     <a data-fancybox="gallery" href="/images/{{ photo.image }}" data-caption="{{ photo.title }} - {{ photo.meta }}" >
       <img src="/images/{{ photo.thumbnail }}" />
+      <span>{{ photo.title }}</span>
     </a>
   {% endfor %}
 </div>

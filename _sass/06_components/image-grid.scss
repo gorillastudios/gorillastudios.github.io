@@ -5,6 +5,8 @@
   padding: 1em;
   transition: all .8s ease;
   a {
+    position: relative;
+    text-decoration: none;
     transition: all .8s ease;
     img {
       aspect-ratio: 1 / 1;
@@ -12,10 +14,22 @@
       object-fit: cover;
       width: 100%;
     }
+    span {
+      color: #fff;
+      font-size: .8em;
+      margin-top: 5px;
+      position: absolute;
+      text-align: right;
+      transition: all .8s ease;
+      width: 100%;
+    }
     &:focus {
     }
     &:hover {
       transform: scale(1.1);
+      span {
+        color: #595959;
+      }
     }
   }
   @include media($break-small) {
