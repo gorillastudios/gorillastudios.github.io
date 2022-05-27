@@ -1,26 +1,11 @@
 ---
 layout: default
 permalink: winterscapes
-background-image: "/images/0K6A8466.jpg"
-overlay-type: light
-text-color: 444444
 ---
-{% include page_intro.html
-  title = "Winterscapes"
-  quote = "You can't get too much winter in winter."
-  author = "Robert Frost"
-%}
-
-<div class="c-image-grid animated">
-  <a data-fancybox="gallery" href="/images/0K6A1986.jpg" data-caption="Leroy Oaks, St. Charles" id="w-leroy-1" class="large"></a>
-  <a data-fancybox="gallery" href="/images/0K6A8476.jpg" data-caption="Maple Park, Illinois" id="w-maple-1" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A4661.jpg" data-caption="Maple Park, Illinois" id="w-maple-2" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A4725.jpg" data-caption="Maple Park, Illinois" id="w-maple-3" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A4687.jpg" data-caption="<i>Five Trees</i>" id="w-five-trees" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/0K6A1968.jpg" data-caption="Leroy Oaks, St. Charles" id="w-leroy-2" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A4700.jpg"  data-caption="<i>Two Trees</i>" id="w-two-trees" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A4611.jpg" data-caption="Burlington Township, Illinois" id="w-burlington-1" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/0K6A4774.jpg" data-caption="Tree on a hill" class="large" id="w-tree-on-hill"></a>
+<div class="c-image-grid">
+  {% for photo in site.data.winterscapes %}
+    <a data-fancybox="gallery" href="/images/{{ photo.image }}" data-caption="{{ photo.title }} - {{ photo.meta }}" >
+      <img src="/images/{{ photo.thumbnail }}" />
+    </a>
+  {% endfor %}
 </div>
-
-{% include _fancybox-init.html %}

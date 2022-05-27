@@ -28,7 +28,7 @@
 
 // -------------------------------------- NAV BLOCK
 .c-site-navigation {
-  background: rgba(255,255,255,.9);
+  background: rgba(255,255,255,.95);
   display: none;
   text-align: left;
   padding: 1em 0;
@@ -39,7 +39,7 @@
     cursor: default;
   }
   &.dark {
-    background: rgba(0,0,0,0.75);
+    background: rgba(0,0,0,0.9);
   }
   @include media($break-small) {
     background: none;

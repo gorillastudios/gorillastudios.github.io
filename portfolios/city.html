@@ -1,31 +1,11 @@
 ---
 layout: default
 permalink: city
-background-image: "/images/0K6A7702.jpg"
-overlay-type: dark
-text-color: ffffff
 ---
-{% include page_intro.html
-  title = "City"
-  quote = "But a city is more than a place in space, it is a drama in time"
-  author = "Patrick Geddes"
-%}
-
-<div class="c-image-grid animated">
-  <a data-fancybox="gallery" href="/images/millennium-park-pano.jpg" data-caption="Millennium Park, Chicago" id="c-millennium-park" class="large"></a>
-  <a data-fancybox="gallery" href="/images/0K6A7901.jpg" data-caption="One World Trade Center, New York" id="c-wtc" class="small"></a>
-  <a data-fancybox="gallery" href="/images/midtown.jpg" data-caption="Midtown, Manhattan" id="c-midtown" class="small"></a>
-  <a data-fancybox="gallery" href="/images/IMG_5855.jpg" data-caption="Cloud Gate Millennium Park, Chicago" id="c-cloud-gate-above" class="small"></a>
-  <a data-fancybox="gallery" href="/images/over-the-l.jpg" data-caption="Adams &amp; Wabash" id="c-over-l" class="small"></a>
-  <a data-fancybox="gallery" href="/images/pritzker.jpg" data-caption="Pritzker Pavilion, Chicago" id="c-pritzker" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/0K6A7561.jpg" data-caption="Grand Central Station, Manhattan" id="c-grand-central" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A7925.jpg" data-caption="Flatiron Building" id="i-flatiron" class="small"></a>
-  <a data-fancybox="gallery" href="/images/IMG_0200.jpg" data-caption="Chicago Harbor Light" id="c-chl" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A8841.jpg" data-caption="Sears Tower, Chicago" id="c-sears" class="small"></a>
-  <a data-fancybox="gallery" href="/images/IMG_2071.jpg" data-caption="North Ave Beach, Chicago" id="c-hancock" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/snowy-bean.jpg" data-caption="Cloud Gate snowstorm" id="c-cg-snowstorm" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A1328.jpg" data-caption="See ya later Chicago" id="c-chicago-flight" class="small"></a>
-  <a data-fancybox="gallery" href="/images/CRW_8654.jpg" data-caption="700 W Jackson" id="c-700-jackson" class="small"></a>
+<div class="c-image-grid">
+  {% for photo in site.data.city %}
+    <a data-fancybox="gallery" href="/images/{{ photo.image }}" data-caption="{{ photo.title }} - {{ photo.meta }}" >
+      <img src="/images/{{ photo.thumbnail }}" />
+    </a>
+  {% endfor %}
 </div>
-
-{% include _fancybox-init.html %}

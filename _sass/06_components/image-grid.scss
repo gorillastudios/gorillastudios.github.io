@@ -1,88 +1,33 @@
 .c-image-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  padding: 1em;
+  transition: all .8s ease;
   a {
-    background: #ccc;
-    background-size: cover !important;
-    background-position: 50% !important;
-    margin-bottom: 4%;
-    @include media($break-small) {
-      margin-bottom: 3%;
+    transition: all .8s ease;
+    img {
+      aspect-ratio: 1 / 1;
+      display: block;
+      object-fit: cover;
+      width: 100%;
     }
-    @include media($break-medium) {
-      margin-bottom: 1.5%;
+    &:focus {
     }
-  }
-  .large {
-    padding-top: 40%;
-    width: 100%;
-  }
-  .medium {
-    padding-top: 48%;
-    width: 48%;
-    @include media($break-small) {
-      padding-top: 30%;
-      width: 65.75%;
-    }
-    @include media($break-medium) {
-      width: 66.25%;
-    }
-  }
-  .small {
-    padding-top: 48%;
-    width: 48%;
-    @include media($break-small) {
-      padding-top: 31.5%;
-      width: 31.5%;
-    }
-    @include media($break-medium) {
-      padding-top: 32.5%;
-      width: 32.5%;
+    &:hover {
+      transform: scale(1.1);
     }
   }
   @include media($break-small) {
-    &.animated {
-      animation: fade-in-slide-up 1s ease;
-      animation-fill-mode: forwards;
-      animation-delay: 2s;
-      opacity: 0;
-    }
+    grid-gap: 3em;
+    padding: 2em;
   }
-}
-
-.c-image-list-download {
-  padding: 1em;
-  border: 1px dashed black;
-  display: block;
-  text-align: center;
-  margin: 1em;
-  cursor: pointer;
-}
-
-.c-image-list {
-  padding: 1em;
-  a {
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 1em;
-    display: inline-block;
-    margin: 1em 30%;
-    transition: all .2s;
-    &:hover {
-      background: #eeeeee;
-      border-color: #000;
-    }
+  @include media($break-medium) {
+    grid-gap: 5em;
+    padding: 3em;
   }
-
-  img {
-    display: block;
-    margin-bottom: 1em;
-    width: 100%;
-  }
-  img.vertical {
-    max-width: 60%;
-    margin: 0 auto 1em auto;
+  @include media($break-large) {
+    grid-gap: 8em;
+    padding: 4em;
   }
 }

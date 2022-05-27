@@ -1,34 +1,11 @@
 ---
 layout: default
 permalink: music
-background-image: "/images/0K6A4915.jpg"
-text-color: ffffff
-overlay-type: dark
 ---
-{% include page_intro.html
-  title = "Music"
-  quote = "Music makes people happy, and that's why I go on doing it - I like to see everybody smile"
-  author = "Buddy Guy"
-%}
-
-<div class="c-image-grid animated">
-  <a data-fancybox="gallery" href="/images/music/0K6A0199.jpg" data-caption="Everett Dean" id="m-dean-duckwalk" class="large"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A4022.jpg" data-caption="The Voodoo Fix" id="m-voodoo-fix" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A4923.jpg" data-caption="Reverend Horton Heat - JIMBO" id="m-rev-jimbo-horns" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A4363.jpg" data-caption="The Krank Daddies" id="m-krank-bassist" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A4862.jpg" data-caption="Reverend Horton Heat" id="m-the-rev" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/bret-michaels.jpg" data-caption="Bret Michaels" id="m-bret-michaels" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/music/IMG_1302.jpg" data-caption="The Cadillac Cassanovas" id="m-cassanovas" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A3983.jpg" data-caption="The Krank Daddies" id="m-bass" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A9136.jpg" data-caption="Evening Glow" id="m-evening-glow" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A0259.jpg" data-caption="The Jersey Girls" id="m-jersey-girls" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A4708.jpg" data-caption="Reverend Horton Heat" id="m-the-rev-2" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A4393.jpg" data-caption="The Krank Daddies" id="m-krank-beer" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/carl.jpg" data-caption="The Cadillac Cassanovas" id="m-cassanovas-sing" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/bret-michaels-2.jpg" data-caption="Bret Michaels" id="m-bret-michaels-2" class="small"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A9236.jpg" data-caption="Evening Glow" id="m-evening-glow-2" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/music/0K6A3865.jpg" data-caption="Pedal board" id="m-pedals" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A4915.jpg" data-caption="Reverend Horton Heat - JIMBO" id="m-rev-jimbo" class="large"></a>
+<div class="c-image-grid">
+  {% for photo in site.data.music %}
+    <a data-fancybox="gallery" href="/images/{{ photo.image }}" data-caption="{{ photo.title }} - {{ photo.meta }}" >
+      <img src="/images/{{ photo.thumbnail }}" />
+    </a>
+  {% endfor %}
 </div>
-
-{% include _fancybox-init.html %}

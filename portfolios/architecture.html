@@ -1,26 +1,11 @@
 ---
 layout: default
 permalink: architecture
-background-image: "/images/0K6A0140.jpg"
-text-color: ffffff
-overlay-type: dark
 ---
-{% include page_intro.html
-  title = "Architecture"
-  quote = "Architecture is a visual art and the buildings speak for themselves."
-  author = "Julia Morgan"
-%}
-
-<div class="c-image-grid animated">
-  <a data-fancybox="gallery" href="/images/0K6A4769.jpg" data-caption="200 S. Wacker, Chicago" id="a-200-wacker" class="large"></a>
-  <a data-fancybox="gallery" href="/images/0K6A9996.jpg" data-caption="Walt Disney Concert Hall, Los Angeles" id="a-disney" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A8855.jpg" data-caption="<i>Steel Giants</i>" id="a-steel-giants" class="small"></a>
-  <a data-fancybox="gallery" href="/images/trump-abstract.jpg" data-caption="401 N. Wabash, Chicago, Illinois" id="a-trump" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A1418.jpg" data-caption="More London Estates, London" id="a-more-london" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/0K6A0223.jpg" data-caption="Pritzker Pavilion, Chicago, Illinois" id="a-pritzker-shell" class="small"></a>
-  <a data-fancybox="gallery" href="/images/0K6A8852.jpg" data-caption="<i>Steel Giants II</i>" id="a-steel-giants-2" class="small"></a>
-  <a data-fancybox="gallery" href="/images/sears-abstract.jpg" data-caption="<i>City of Broad Shoulders</i>"id="a-sears-abstract" class="medium"></a>
-  <a data-fancybox="gallery" href="/images/0K6A0846.jpg" data-caption="Sears Tower Skywalk, Chicago" id="a-sears-skywalk" class="large"></a>
+<div class="c-image-grid">
+  {% for photo in site.data.architecture %}
+    <a data-fancybox="gallery" href="/images/{{ photo.image }}" data-caption="{{ photo.title }} - {{ photo.meta }}" >
+      <img src="/images/{{ photo.thumbnail }}" />
+    </a>
+  {% endfor %}
 </div>
-
-{% include _fancybox-init.html %}
