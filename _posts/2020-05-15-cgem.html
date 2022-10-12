@@ -3,7 +3,7 @@ layout: post
 title: CGEM Firmware Update
 date: 2020-05-15
 category: astrophotography
-text-color: 000000
+thumbnail: 'cgem-pt.jpg'
 ---
 <p>It's been almost a year since I've done anything with this site, but I am happy to say I am picking my camera and telescope gear back up, blowing off the dust, and putting some more time into the hobby I love so much. Over the past year I welcomed my second daughter to the world, bought my first house, and now  we are keeping to ourselves safe and sound while this whole Covid-19 situation settles down. For the most part it has been a great year and I am looking forward to posting here more often.</p>
 
@@ -19,8 +19,8 @@ text-color: 000000
 <p>I plugged everything in, powered on the mount, and launched the CFM. It downloaded some new packages but it wasn't communicating with the mount. After some initial exploration I realized when I turn the mount on I needed to hold the Celestron button + 7 to access a Boot Loader mode. After that still no luck. I came across a post on Cloudy Nights message board from someone troubleshooting the process on the Mac and they said Serial to USB drivers were needed. I was initially confused because the updated StarSense controller has a mini USB port at the bottom, not the old RJ-11/Serial connector. However after <i>more</i> research I found out that there is a serial adapter inside the controller. I got the drivers installed and had to do some digging to make sure the mount was actually communicating with my MacBook.</p>
 
 <figure>
-  <img src="/images/posts/usb-chain.jpg" alt="The CGEM listed in the System Profile USB Chain">
   <figcaption>The CGEM listed in the System Profile USB Chain</figcaption>
+  <img src="/images/posts/usb-chain.jpg" alt="The CGEM listed in the System Profile USB Chain">
 </figure>
 
 <p>Looking at the System Profile I saw it listed there in the USB chain, so I knew it was talking to my Mac. This tells me something isn't configured correctly in the CFM software.</p>
@@ -32,15 +32,15 @@ text-color: 000000
 <p>I still wanted to update the firmware so it was back to Cloudy Nights where I found someone had posted they went to <code>/dev</code>, grabbed the cu.usbserial listing, and set that to the Serial Port Name in the CFM software.</p>
 
 <figure>
-  <img src="/images/posts/correct-port.jpg" alt="Setting the port information in the CFM">
   <figcaption>Setting the correct port information in the CFM</figcaption>
+  <img src="/images/posts/correct-port.jpg" alt="Setting the port information in the CFM">
 </figure>
 
 <p>Honestly I wasn't optimistic, but sure enough, the CFM instantly found both the mount and the StarSense controller, however it couldn't update the firmware because it couldn't download the latest packages from software.celestron.com. I went to Celestron's main site and realized the problem...it had crashed.</p>
 
 <figure>
-  <img src="/images/posts/celestron-crash.jpg" alt="Celestrons website is down">
   <figcaption>Celestron's website was down</figcaption>
+  <img src="/images/posts/celestron-crash.jpg" alt="Celestrons website is down">
 </figure>
 
 <p>Well that's some bad timing. I sat there for a half hour, occasionally checking both the main site and the software subdomain with no luck. I threw in the towel and would come back to it tomorrow.</p>
@@ -48,8 +48,8 @@ text-color: 000000
 <p>The next day their site seemed to be up and running just fine, so I turned the mount back on and tried again. The CFM connected to the mount, downloaded the packages, and I was able to successfully update the firmware on both the CGEM and the StarSense camera. Success!</p>
 
 <figure class="vertical">
-  <img src="/images/posts/firmware-update.jpg" alt="Successfully updating the firmware">
   <figcaption>Firmware update successful</figcaption>
+  <img src="/images/posts/firmware-update.jpg" alt="Successfully updating the firmware">
 </figure>
 
 <p>So now that the CGEM mount and StarSense have the latest firmware it's time to give the OTA a good collimation check, clean everything up, and get it out under the night sky. Clear skies everyone.</p>
