@@ -1,9 +1,108 @@
 [
   {
-    "title": "Leroy Oaks",
-    "thumbnail": "0K6A1986t.jpg",
-    "image": "0K6A1986.jpg",
-    "meta": "1/1000th f/5 200mm",
+    "title": "Stephanie",
+    "thumbnail": "portraits/0K6A9388t.jpg",
+    "image": "portraits/0K6A9388.jpg",
+    "meta": "1/200th f/5.6 200mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Grandma's Kiss",
+    "thumbnail": "portraits/0K6A8608t.jpg",
+    "image": "portraits/0K6A8608.jpg",
+    "meta": "1/160th f/2.8 200mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "The Boys",
+    "thumbnail": "portraits/0K6A3903t.jpg",
+    "image": "portraits/0K6A3903.jpg",
+    "meta": "1/160th f/4.5 100mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Fatherhood",
+    "thumbnail": "portraits/0K6A3931t.jpg",
+    "image": "portraits/0K6A3931.jpg",
+    "meta": "1/320th f/2.8 70mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Smiling on pink",
+    "thumbnail": "portraits/0K6A1316t.jpg",
+    "image": "portraits/0K6A1316.jpg",
+    "meta": "1/180th f/4.5 50mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Family at Leroy Oaks",
+    "thumbnail": "portraits/0K6A0893t.jpg",
+    "image": "portraits/0K6A0893.jpg",
+    "meta": "1/200th f/2.8 95mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Logan",
+    "thumbnail": "portraits/0K6A8512t.jpg",
+    "image": "portraits/0K6A8512.jpg",
+    "meta": "1/320th f/4.5 155mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Family portrait",
+    "thumbnail": "portraits/0K6A4202t.jpg",
+    "image": "portraits/0K6A4202.jpg",
+    "meta": "1/350th f/2.8 100mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Wedding Day",
+    "thumbnail": "portraits/0K6A9596t.jpg",
+    "image": "portraits/0K6A9596.jpg",
+    "meta": "1/320th f/2 50mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Kiss at the barn",
+    "thumbnail": "portraits/0K6A6743t.jpg",
+    "image": "portraits/0K6A6743.jpg",
+    "meta": "1/250th f/6.3 170mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Elora",
+    "thumbnail": "portraits/0K6A2195t.jpg",
+    "image": "portraits/0K6A2195.jpg",
+    "meta": "1/640th f/4 165mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Grandma's Love",
+    "thumbnail": "portraits/0K6A2727t.jpg",
+    "image": "portraits/0K6A2727.jpg",
+    "meta": "1/160th f/4 100mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Portrait",
+    "thumbnail": "portraits/0K6A9593t.jpg",
+    "image": "portraits/0K6A9593.jpg",
+    "meta": "1/200th f/2.8 200mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Handsome",
+    "thumbnail": "portraits/0K6A8717t.jpg",
+    "image": "portraits/0K6A8717.jpg",
+    "meta": "1/320th f/4.5 200mm",
+    "caption": "Hello"
+  },
+  {
+    "title": "Blanket time",
+    "thumbnail": "portraits/0K6A2085t.jpg",
+    "image": "portraits/0K6A2085.jpg",
+    "meta": "1/350th f/3.5 50mm",
     "caption": "Hello"
   }
 ]
+
