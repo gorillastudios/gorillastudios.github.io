@@ -298,6 +298,8 @@ body { background-size: cover; background-position: 50%; background-repeat: no-r
 
 @media screen and (min-width: 1300px) { .c-image-grid { grid-gap: 8em; padding: 4em; } }
 
+.c-image-link { border: 1px dashed #ccc; margin: 4em 4em 2em 4em; padding: 2em; text-align: center; }
+
 .c-about-intro { background: white; margin: 1em auto; max-width: 800px; width: 90%; padding: 1em; }
 
 .c-about-intro p { font-weight: 300; line-height: 1.5; }

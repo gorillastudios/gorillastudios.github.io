@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: reunion
+---
+<div class="c-image-link">
+  <p>A .zip file of the full sized images can be found <a href="https://drive.google.com/file/d/1g7ha8vwsWbIltO5WTIptMxFh59Mi5TpE/view?usp=sharing" target="blank">here (88mb)</a>.</p>
+</div>
+<div class="c-image-grid">
+  {% for photo in site.data.reunion %}
+    <a data-fancybox="gallery" href="/images/{{ photo.image }}" data-caption="{{ photo.title }} - {{ photo.meta }}" >
+      <img src="/images/{{ photo.thumbnail }}" />
+      <span>{{ photo.title }}</span>
+    </a>
+  {% endfor %}
+</div>
